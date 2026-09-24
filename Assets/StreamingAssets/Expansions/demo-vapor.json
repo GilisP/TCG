@@ -1,0 +1,172 @@
+{
+  "printings": [],
+  "schemaVersion": 1,
+  "id": "demo-vapor",
+  "status": "prototype",
+  "version": "0.1.0",
+  "cards": [
+    {
+      "defense": 4,
+      "text": "Protege o caminho.",
+      "movement": 2,
+      "id": "demo-vapor-u0",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 2,
+      "rarity": "common",
+      "cost": 2,
+      "name": "Guarda de Latão",
+      "art": "soldier",
+      "color": 3,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Soldado"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 2,
+      "text": "Velocidade nas fronteiras.",
+      "movement": 3,
+      "id": "demo-vapor-u1",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 1,
+      "rarity": "common",
+      "cost": 1,
+      "name": "Mensageiro a Vapor",
+      "art": "soldier",
+      "color": 3,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Soldado"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 2,
+      "text": "Poder concentrado.",
+      "movement": 2,
+      "id": "demo-vapor-u2",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 4,
+      "rarity": "common",
+      "cost": 3,
+      "name": "Engenheira de Campo",
+      "art": "mage",
+      "color": 3,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Mago"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 1,
+      "text": "Produz 1 mana de sua cor no início do turno.",
+      "id": "demo-vapor-land",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Oficina de Cobre",
+      "color": 3,
+      "effects": [],
+      "kind": "Terrain",
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "name": "Disparo Steampunk",
+      "id": "demo-vapor-spark",
+      "defense": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "text": "Causa 2 de dano a uma criatura inimiga.",
+      "effects": [
+        {
+          "operation": "damage",
+          "amount": 2
+        }
+      ],
+      "kind": "Instant",
+      "color": 3,
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "name": "Estudos Steampunk",
+      "id": "demo-vapor-study",
+      "defense": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "text": "Compre 2 cartas do deck principal.",
+      "effects": [
+        {
+          "operation": "draw",
+          "amount": 2
+        }
+      ],
+      "kind": "Spell",
+      "color": 3,
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    }
+  ],
+  "title": "Steampunk"
+}

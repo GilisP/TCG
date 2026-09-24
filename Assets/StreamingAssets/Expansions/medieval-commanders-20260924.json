@@ -1,0 +1,432 @@
+{
+  "status": "author-prototype",
+  "cards": [
+    {
+      "id": "MED-232",
+      "name": "Aberração Do abismo faminto",
+      "commander": true,
+      "effects": [],
+      "identityColors": [],
+      "subtypes": [
+        "Aberração"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 3,
+      "art": "giant",
+      "movement": 2,
+      "rule": "abyss-hunger",
+      "cost": 8,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "1 PA: consuma toda a sua reserva de mana. Para cada mana, esta criatura recebe +1/+1 até o fim do turno.",
+      "defense": 3,
+      "range": 1,
+      "actions": 2,
+      "color": 6
+    },
+    {
+      "id": "MED-233",
+      "name": "mensageiro do fim",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        5
+      ],
+      "subtypes": [
+        "Humano",
+        "Profeta"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 1,
+      "art": "mage",
+      "movement": 2,
+      "rule": "end-messenger",
+      "cost": 3,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Uma vez por turno, quando seus PA chegarem a zero, você pode colocar uma criatura da mão gratuitamente em terreno andável do seu reino.",
+      "defense": 3,
+      "range": 1,
+      "actions": 2,
+      "color": 5
+    },
+    {
+      "id": "MED-234",
+      "name": "ansestral ardente",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        3
+      ],
+      "subtypes": [
+        "Espírito",
+        "Mago"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 3,
+      "art": "mage",
+      "movement": 2,
+      "rule": "burning-ancestor",
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Quando causar dano, você pode conjurar grátis um Feitiço ou Truque do seu cemitério. Exile-o após resolver ou ser anulado.",
+      "defense": 4,
+      "range": 1,
+      "actions": 2,
+      "color": 3
+    },
+    {
+      "id": "MED-235",
+      "name": "monge apendiz ansestral",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        4
+      ],
+      "subtypes": [
+        "Humano",
+        "Monge"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 2,
+      "art": "mage",
+      "movement": 2,
+      "rule": "ancestral-monk",
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "1 PA: proteja uma criatura do próximo dano. Previna metade desse dano (arredondada para baixo) e devolva essa quantidade à fonte ou à capital do conjurador.",
+      "defense": 3,
+      "range": 1,
+      "actions": 2,
+      "color": 4
+    },
+    {
+      "id": "MED-236",
+      "name": "admirador do luar",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        2
+      ],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 1,
+      "art": "mage",
+      "movement": 2,
+      "rule": "moon-admirer",
+      "cost": 4,
+      "coloredCost": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "1 PA: exile um Feitiço ou Truque do seu cemitério. Você pode conjurá-lo uma vez pagando seu custo normal. A permissão persiste sem este comandante.",
+      "defense": 4,
+      "range": 1,
+      "actions": 3,
+      "color": 2
+    },
+    {
+      "id": "MED-237",
+      "name": "Arauto da Lua Rubra",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        1
+      ],
+      "subtypes": [
+        "Vampiro",
+        "Clérigo"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 2,
+      "art": "mage",
+      "movement": 2,
+      "rule": "moon-herald",
+      "cost": 3,
+      "coloredCost": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Sempre que sua capital ganhar vida, cause 1 de dano a uma criatura, construção ou capital a até 3 tiles deste comandante. Nome e atributos provisórios.",
+      "defense": 4,
+      "range": 1,
+      "actions": 2,
+      "color": 1
+    },
+    {
+      "id": "MED-238",
+      "name": "cavaliro do replendor",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        0
+      ],
+      "subtypes": [
+        "Humano",
+        "Cavaleiro"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 4,
+      "art": "royal",
+      "movement": 2,
+      "rule": "radiant-knight",
+      "cost": 2,
+      "coloredCost": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Cavaleiros aliados recebem +X/+X continuamente, sendo X o número de Cavaleiros aliados no tile de cada um, incluindo ele próprio.",
+      "defense": 4,
+      "range": 1,
+      "actions": 1,
+      "color": 0
+    },
+    {
+      "id": "MED-239",
+      "name": "colecionador de maldições",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        1,
+        3,
+        5
+      ],
+      "subtypes": [
+        "Humano",
+        "Bruxo"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 3,
+      "art": "mage",
+      "movement": 2,
+      "rule": "curse-collector",
+      "cost": 0,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Recebe +1/+1 por encantamento anexado a ele. Quando matar uma criatura encantada, pode pagar 1 PA para tomar seus encantamentos e anexá-los a si.",
+      "defense": 3,
+      "range": 1,
+      "actions": 3,
+      "color": 1
+    },
+    {
+      "id": "MED-240",
+      "name": "cavaleiro das mil feras",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        0,
+        2,
+        4
+      ],
+      "subtypes": [
+        "Humano",
+        "Cavaleiro"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 3,
+      "art": "royal",
+      "movement": 2,
+      "rule": "thousand-beasts",
+      "cost": 2,
+      "coloredCost": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Equipamentos seus que entram criam e equipam grátis uma ficha escolhida: Urso 3/3 ou Dinossauro 4/2 em missão contra uma capital, ou Panda 2/4 sem rota. Todas têm 1 PA.",
+      "defense": 4,
+      "range": 1,
+      "actions": 2,
+      "color": 0
+    },
+    {
+      "id": "MED-241",
+      "name": "mestre da infitração",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        0,
+        1,
+        2
+      ],
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 0,
+      "art": "archer",
+      "movement": 2,
+      "rule": "infiltration",
+      "cost": 0,
+      "coloredCost": [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "2 PA: mova uma criatura sua para qualquer terreno andável sem criaturas ou veículos. Aciona gatilhos de movimento e a proteção da Ursa.",
+      "defense": 5,
+      "range": 1,
+      "actions": 2,
+      "color": 1
+    },
+    {
+      "id": "MED-242",
+      "name": "Ladrão de criptas",
+      "commander": true,
+      "effects": [],
+      "identityColors": [
+        1,
+        2
+      ],
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "foil": false,
+      "keywords": [],
+      "attack": 2,
+      "art": "archer",
+      "movement": 2,
+      "rule": "crypt-thief",
+      "cost": 1,
+      "coloredCost": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "Creature",
+      "rarity": "author",
+      "traits": [],
+      "maxCopies": 1,
+      "text": "Quando uma carta não terreno cair de qualquer grimório no cemitério, pode pagar seu custo convertido em PA de tropas suas para exilá-la. Pode conjurá-la uma vez gastando mana de qualquer cor.",
+      "defense": 5,
+      "range": 1,
+      "actions": 3,
+      "color": 1
+    }
+  ],
+  "schemaVersion": 1,
+  "title": "Comandantes do Abismo e das Feras",
+  "id": "EXP-001-commanders-20260924",
+  "version": "0.1.0",
+  "printings": []
+}

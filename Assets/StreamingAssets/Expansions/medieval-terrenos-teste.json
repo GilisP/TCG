@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "medieval-test-lands",
+  "title": "Terrenos · teste medieval",
+  "cards": [
+    {
+      "id": "test-land-0",
+      "name": "Terreno de teste · Sol",
+      "kind": "Terrain",
+      "color": 0,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "id": "test-land-1",
+      "name": "Terreno de teste · Lua",
+      "kind": "Terrain",
+      "color": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "id": "test-land-2",
+      "name": "Terreno de teste · Água",
+      "kind": "Terrain",
+      "color": 2,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "id": "test-land-3",
+      "name": "Terreno de teste · Fogo",
+      "kind": "Terrain",
+      "color": 3,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "id": "test-land-4",
+      "name": "Terreno de teste · Ar",
+      "kind": "Terrain",
+      "color": 4,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "id": "test-land-5",
+      "name": "Terreno de teste · Terra",
+      "kind": "Terrain",
+      "color": 5,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "defense": 1,
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    }
+  ],
+  "printings": []
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "EXP-001-commanders-20260923",
+  "title": "Medieval · Comandantes bicolores",
+  "version": "0.1.0",
+  "status": "author-review",
+  "cards": [
+    {
+      "id": "MED-225",
+      "name": "Elo Proibido da realeza",
+      "kind": "Creature",
+      "color": 1,
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 2,
+      "coloredCost": [
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "identityColors": [
+        0,
+        1
+      ],
+      "text": "Seu ataque é sua devoção à Lua e sua defesa é sua devoção ao Sol. Devoção soma os símbolos da cor nos custos das suas permanentes em campo.",
+      "unavailableReason": "",
+      "art": "soldier",
+      "subtypes": [
+        "Humano",
+        "Nobre"
+      ],
+      "printedStats": "X/Y",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "royal-devotion",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-226",
+      "name": "Pincesa Lissandra",
+      "kind": "Creature",
+      "color": 1,
+      "cost": 0,
+      "attack": 1,
+      "defense": 4,
+      "actions": 1,
+      "coloredCost": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "identityColors": [
+        1,
+        5
+      ],
+      "text": "Sempre que uma criatura sua morrer em combate, sua capital ganha um contador de morte. Pague contadores iguais ao custo convertido de uma criatura do seu cemitério: crie na sua capital uma cópia dela com ataque e defesa base 1/1, mantendo suas habilidades. Não custa PA.",
+      "unavailableReason": "",
+      "art": "mage",
+      "subtypes": [
+        "Humano",
+        "Nobre"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "lissandra",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-227",
+      "name": "Inventor suicida",
+      "kind": "Creature",
+      "color": 1,
+      "cost": 0,
+      "attack": 3,
+      "defense": 1,
+      "actions": 3,
+      "coloredCost": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "identityColors": [
+        1,
+        3
+      ],
+      "text": "Sempre que uma criatura sua morrer, ela causa dano igual ao seu ataque a criaturas, construções e capitais no mesmo tile e nos tiles adjacentes ortogonais.",
+      "unavailableReason": "",
+      "art": "soldier",
+      "subtypes": [
+        "Humano",
+        "Artífice"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "suicidal-inventor",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-228",
+      "name": "O Velho Pescdor",
+      "kind": "Creature",
+      "color": 0,
+      "cost": 3,
+      "attack": 1,
+      "defense": 2,
+      "actions": 5,
+      "coloredCost": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "identityColors": [
+        0,
+        2
+      ],
+      "text": "Use X PA: veja as X cartas do topo do seu deck. Escolha uma criatura de Água entre elas e coloque-a no último terreno que criou. Coloque as demais no fundo do deck.",
+      "unavailableReason": "",
+      "art": "mage",
+      "subtypes": [
+        "Humano",
+        "Pescador"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "old-fisher",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-229",
+      "name": "Ursa Mãe Protetora",
+      "kind": "Creature",
+      "color": 0,
+      "cost": 2,
+      "attack": 3,
+      "defense": 10,
+      "actions": 1,
+      "coloredCost": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "identityColors": [
+        0,
+        4
+      ],
+      "text": "Quando um tile de seu reino for atacado ou invadido, Ursa Mãe vai até ele antes do combate, sem gastar PA ou movimento, pela rota de menor custo. Se não houver caminho, teleporta. Sua chegada interrompe a invasão e exige um ataque para avançar.",
+      "unavailableReason": "",
+      "art": "beast",
+      "subtypes": [
+        "Urso"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "mother-bear",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-230",
+      "name": "Receptaculo de Dazmond",
+      "kind": "Creature",
+      "color": 5,
+      "cost": 1,
+      "attack": 4,
+      "defense": 2,
+      "actions": 2,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "identityColors": [
+        5,
+        3
+      ],
+      "text": "Enquanto tiver pelo menos tanta mana de Terra quanto de Fogo na reserva, suas tropas têm +1 PA. Enquanto tiver pelo menos tanta mana de Fogo quanto de Terra, seu dano de fontes que não sejam criaturas aumenta em 2. No empate, ambas ficam ativas.",
+      "unavailableReason": "",
+      "art": "soldier",
+      "subtypes": [
+        "Avatar"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "dual-receptacle",
+      "traits": [],
+      "effects": []
+    },
+    {
+      "id": "MED-231",
+      "name": "Valeria coração de mãe",
+      "kind": "Creature",
+      "color": 2,
+      "cost": 1,
+      "attack": 3,
+      "defense": 5,
+      "actions": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "identityColors": [
+        2,
+        4
+      ],
+      "text": "Veículos que você controla podem portar mais 1 tropa e herdam palavras-chave das criaturas dentro deles.",
+      "unavailableReason": "",
+      "art": "mage",
+      "subtypes": [
+        "Humano"
+      ],
+      "printedStats": "",
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "maxCopies": 1,
+      "commander": true,
+      "rarity": "AUTOR",
+      "rule": "valeria",
+      "traits": [],
+      "effects": []
+    }
+  ],
+  "printings": []
+}

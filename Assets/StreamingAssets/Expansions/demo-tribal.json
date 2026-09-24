@@ -1,0 +1,172 @@
+{
+  "printings": [],
+  "schemaVersion": 1,
+  "id": "demo-tribal",
+  "status": "prototype",
+  "version": "0.1.0",
+  "cards": [
+    {
+      "defense": 4,
+      "text": "Protege o caminho.",
+      "movement": 2,
+      "id": "demo-tribal-u0",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 2,
+      "rarity": "common",
+      "cost": 2,
+      "name": "Guardião da Raiz",
+      "art": "soldier",
+      "color": 5,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Soldado"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 2,
+      "text": "Velocidade nas fronteiras.",
+      "movement": 3,
+      "id": "demo-tribal-u1",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 1,
+      "rarity": "common",
+      "cost": 1,
+      "name": "Rastreador da Mata",
+      "art": "soldier",
+      "color": 5,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Soldado"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 2,
+      "text": "Poder concentrado.",
+      "movement": 2,
+      "id": "demo-tribal-u2",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 4,
+      "rarity": "common",
+      "cost": 3,
+      "name": "Voz da Floresta",
+      "art": "mage",
+      "color": 5,
+      "effects": [],
+      "kind": "Creature",
+      "subtypes": [
+        "Mago"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "defense": 1,
+      "text": "Produz 1 mana de sua cor no início do turno.",
+      "id": "demo-tribal-land",
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Bosque Ancestral",
+      "color": 5,
+      "effects": [],
+      "kind": "Terrain",
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "name": "Disparo Tribal",
+      "id": "demo-tribal-spark",
+      "defense": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "text": "Causa 2 de dano a uma criatura inimiga.",
+      "effects": [
+        {
+          "operation": "damage",
+          "amount": 2
+        }
+      ],
+      "kind": "Instant",
+      "color": 5,
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    {
+      "name": "Estudos Tribal",
+      "id": "demo-tribal-study",
+      "defense": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "text": "Compre 2 cartas do deck principal.",
+      "effects": [
+        {
+          "operation": "draw",
+          "amount": 2
+        }
+      ],
+      "kind": "Spell",
+      "color": 5,
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    }
+  ],
+  "title": "Tribal"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "TCG.Table",
+  "rootNamespace": "TCG.Table",
+  "references": [
+    "TCG.Foundation",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.Collections",
+    "Unity.Services.Core",
+    "Unity.Services.Authentication",
+    "Unity.Services.Multiplayer"
+  ]
+}

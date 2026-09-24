@@ -1,0 +1,16 @@
+{
+  "id": "medieval",
+  "name": "Crônicas dos Reinos",
+  "price": 100,
+  "cards": 5,
+  "duplicateRefund": 10,
+  "standardWeight": 80,
+  "illuminatedWeight": 15,
+  "nocturneWeight": 5,
+  "expansions": [
+    "EXP-001-base",
+    "EXP-001-author-20260919",
+    "EXP-001-commanders-20260923",
+    "EXP-001-commanders-20260924"
+  ]
+}

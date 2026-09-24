@@ -1,0 +1,1 @@
+{"name":"TCG.Foundation.Editor","references":["TCG.Foundation","TCG.Table"],"includePlatforms":["Editor"]}
