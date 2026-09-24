@@ -15,7 +15,7 @@ namespace TCG.Foundation
  [Serializable] public sealed class NetLook { public int owner; public string card,style; public bool foil; }
  [Serializable] public sealed class MatchView
  {
-  public int viewer,active,priority,controller,revision,turn,phase,winner,choiceOwner=-1; public bool placed,over; public string prompt;
+  public MatchNumbers numbers; public int viewer,active,priority,controller,revision,turn,phase,winner,choiceOwner=-1; public bool placed,over; public string prompt;
   public NetLook[] looks=Array.Empty<NetLook>(); public NetSeat[] seats; public NetCell[] cells; public NetPiece[] pieces; public NetPending[] stack; public string[] hand,legal; public NetOption[] options;
   public NetOrder[] orders; public NetRoute[] routes; public NetExile[] exile; public NetVisual[] visuals=Array.Empty<NetVisual>();
  }
@@ -37,7 +37,7 @@ namespace TCG.Foundation
    if(view==null||view.cells.Length!=121||view.seats.Length!=seats.Length)throw new InvalidOperationException("Visão de rede inválida.");
    remote=view;remoteLegal=new HashSet<string>(view.legal??Array.Empty<string>());remoteRoutes=(view.routes??Array.Empty<NetRoute>()).ToDictionary(x=>x.key,x=>x.path);
    Active=view.active;Priority=view.priority;Revision=view.revision;Turn=view.turn;Phase=(Stage)view.phase;Placed=view.placed;Over=view.over;WinningTeam=view.winner;
-   Definition Card(string id)=>string.IsNullOrEmpty(id)?null:catalog.Get(id);
+   Definition Card(string id)=>string.IsNullOrEmpty(id)?null:id==Ruins.Id?Ruins:catalog.Get(id);
    for(int i=0;i<seats.Length;i++){var s=view.seats[i];var seat=new Seat(s.name,s.team){Life=s.life,Eliminated=s.eliminated,Commander=Card(s.commander),CommanderReady=s.ready,CommanderCasts=s.casts,DeathCounters=s.death,LastCreatedTerrain=s.lastTerrain,NetHand=s.hand,NetMain=s.main,NetTerrain=s.terrains,NetPiles=s.pileCounts};seats[i]=seat;Array.Copy(s.mana,seat.mana,7);seat.grave.AddRange(s.grave.Select(Card));seat.terrainGrave.AddRange(s.terrainGrave.Select(Card));seat.exile.AddRange(s.exile.Select(Card));for(int n=0;n<4;n++)if(!string.IsNullOrEmpty(s.tops[n]))seat.piles[n].Add(Card(s.tops[n]));}
    seats[view.viewer].hand.AddRange(view.hand.Select(Card));
    for(int i=0;i<121;i++){var c=view.cells[i];cells[i].Owner=c.owner;cells[i].CapitalOwner=c.capital;cells[i].TerrainOwner=c.terrainOwner;cells[i].Terrain=Card(c.terrain);cells[i].pieces.Clear();}
@@ -60,7 +60,7 @@ namespace TCG.Foundation
     foreach(var p in pieces.Where(p=>p.Owner==viewer)){Add(CanActivate(p.Id),"activate",p.Id);Add(CanOrderMovement(p.Id),"order",p.Id);Add(CanDisembark(p.Id),"disembark",p.Id);for(int at=0;at<121;at++){Add(CanMove(p.Id,at),"move",p.Id,at);Add(CanAttack(p.Id,at),"attack",p.Id,at);if(CanOrderMovement(p.Id))routes.Add(new NetRoute{key=p.Id+":"+at,path=MovementRoute(p.Id,at).ToArray()});}foreach(var q in pieces){Add(CanEquip(p.Id,q.Id),"equip",p.Id,q.Id);Add(CanBoard(p.Id,q.Id),"board",p.Id,q.Id);}}
     foreach(var x in ExiledFor(viewer))Add(CanCastExiled(x.Id),"exile",x.Id);
    }
-   return new MatchView{viewer=viewer,active=Active,priority=Priority,controller=Controller,revision=Revision,turn=Turn,phase=(int)Phase,placed=Placed,over=Over,winner=WinningTeam,
+   return new MatchView{numbers=NumbersFor(viewer),viewer=viewer,active=Active,priority=Priority,controller=Controller,revision=Revision,turn=Turn,phase=(int)Phase,placed=Placed,over=Over,winner=WinningTeam,
     hand=seats[viewer].hand.Select(c=>c.Id).ToArray(),legal=legal.ToArray(),routes=routes.ToArray(),
     seats=seats.Select(s=>new NetSeat{name=s.Name,team=s.Team,life=s.Life,eliminated=s.Eliminated,commander=s.Commander?.Id,ready=s.CommanderReady,casts=s.CommanderCasts,death=s.DeathCounters,lastTerrain=s.LastCreatedTerrain,hand=s.HandCount,main=s.MainCount,terrains=s.TerrainCount,mana=s.mana.ToArray(),tops=Enumerable.Range(0,4).Select(n=>s.Top(n)?.Id).ToArray(),pileCounts=Enumerable.Range(0,4).Select(s.PileCount).ToArray(),grave=s.grave.Select(c=>c.Id).ToArray(),terrainGrave=s.terrainGrave.Select(c=>c.Id).ToArray(),exile=s.exile.Select(c=>c.Id).ToArray()}).ToArray(),
     cells=cells.Select(c=>new NetCell{owner=c.Owner,capital=c.CapitalOwner,terrainOwner=c.TerrainOwner,terrain=c.Terrain?.Id}).ToArray(),

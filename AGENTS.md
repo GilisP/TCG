@@ -191,3 +191,11 @@ Nesta primeira etapa, concentre-se na configuração do agente e na organizaçã
 - Projeções não executam Match.Try. UI consulta ações legais calculadas no host. Comandos verificam conexão/assento, sequência e revisão. Reconexão usa segredo em memória e restitui o assento, sem salvar partidas fechadas.
 - Inventário/economia ainda locais e não autenticados por servidor central; reações sociais ainda locais. Cosméticos não mudam regras. NetworkChecks integra build; NetworkDiagnostics usa processos independentes e perfis de teste sem alterar coleção.
 - Computer Use foi interrompido ao tentar configurar a conta por não conseguir determinar o URL do navegador com segurança. Nenhuma vinculação, credencial ou cobrança foi configurada. Não contornar essa limitação.
+
+## Progresso, ruínas e backup — 2026-09-24
+- Ler Estatisticas Missoes e Ruinas no vault. O autor aprovou preset inicial de estatísticas/recordes e missões únicas com recompensas configuráveis. Progresso local em CollectionData; mesa local contabiliza Âmbar, online contabiliza o assento do cliente; não confundir com economia autenticada por servidor.
+- Regra inicial atual: capital usa uma carta do deck de terrenos; as três casas iniciais vizinhas são ruínas sem efeito/mana, não retiradas do deck nem adicionadas ao cemitério. Substitui o preset antigo.
+- Remoto Git autorizado: https://github.com/GilisP/TCG. O autor quer backup no começo dos dias em que houver modificações. Conferir status e remoto, preservar o trabalho existente e enviar snapshot antes de novas mudanças; nunca usar force-push. A preferência se aplica durante sessões de trabalho, não é um agendamento para dias sem trabalho.
+- Commit 30d0aeb preserva a base anterior à implementação de progresso/ruínas e foi enviado com sucesso. Não registrar tokens de autenticação no projeto/vault.
+
+Atualização final desta entrega: 944 verificações aprovadas; Relay real com dois e quatro processos, busca pública, reconexão após 20 segundos e câmera atrás da própria capital verificados. Sessões MPS gerenciam sala/membros; RelayService renova a alocação de transporte sem recriar a sessão na reconexão. Ver documentação de validação; avaliação em máquinas físicas distintas permanece pendente.

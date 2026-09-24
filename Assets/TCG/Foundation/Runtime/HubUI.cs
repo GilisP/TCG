@@ -40,7 +40,7 @@ namespace TCG.Table
                 }
             }
             else if(hubPage==HubPage.Shop)DrawShopPage();
-            else DrawSettingsPage();
+            else if(progressPage)DrawProgressPage();else DrawSettingsPage();
             GUI.enabled=true;
             if(openedBooster!=null)DrawBoosterOpening(); if(inspected!=null)DrawInspection(); if(pendingPurchase!=null)DrawPurchaseConfirmation(); if(filtersOpen)DrawFilterDialog();
             if(exitRequested)
@@ -101,6 +101,7 @@ namespace TCG.Table
             Text(830,346,675,105,"Coleção e decks ficam salvos neste computador. A mesa atual pode ser retomada enquanto o jogo estiver aberto.",body,Ink);
             if(Button(830,497,690,58,"Voltar à partida",sessionAvailable&&!match.Over)){menu=libraryOpen=false;}
             if(Button(830,575,690,58,"Gerenciar meus decks"))OpenLibrary();
+            if(Button(830,650,690,58,"Estatísticas e missões"))progressPage=true;
             if(Button(830,724,690,58,"Sair do jogo"))exitRequested=true;
         }
         void DrawCosmeticPage()

@@ -1,0 +1,8 @@
+{
+  "missions": [
+    {"id":"intro-finish-v1","title":"Primeira crônica: conclua uma partida","metric":"completed","target":1,"coins":50,"boosters":1},
+    {"id":"intro-cards-v1","title":"Mobilização: jogue 10 cartas em partidas concluídas","metric":"cards","target":10,"coins":100,"boosters":0},
+    {"id":"intro-lands-v1","title":"Reconstrução: coloque 10 terrenos em partidas concluídas","metric":"terrains","target":10,"coins":50,"boosters":1},
+    {"id":"intro-win-v1","title":"Primeira vitória","metric":"wins","target":1,"coins":100,"boosters":1}
+  ]
+}

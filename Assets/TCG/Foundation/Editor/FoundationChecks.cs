@@ -25,7 +25,7 @@ namespace TCG.Foundation.Editor
                 Assert(m.Seats.Count==n,"quantidade dinâmica"); Assert(m.Board.Count(c=>c.CapitalOwner>=0)==n,"capital por jogador");
                 Assert(m.Board.Count(c=>c.Terrain!=null)==n*4,"capital + três terrenos iniciais");
                 Assert(m.Seats.All(s=>Enumerable.Range(0,4).All(p=>s.PileCount(p)==2)),"quatro pilhas de duas");
-                Assert(m.Seats.All(s=>s.HandCount==5),"mão de teste explícita"); Assert(m.Seats[m.Active].Mana.Sum()==4,"capital produz mana");
+                Assert(m.Seats.All(s=>s.HandCount==5),"mão de teste explícita"); Assert(m.Seats[m.Active].Mana.Sum()==1,"somente capital produz mana inicial");
                 int before=m.Revision; var wrong=C(m,ActionKind.DrawMain); wrong.player=(m.Controller+1)%n;
                 Assert(!m.Try(wrong,out _)&&m.Revision==before&&m.Phase==Stage.Draw,"jogador errado não altera estado");
                 var old=C(m,ActionKind.DrawMain); old.revision--;

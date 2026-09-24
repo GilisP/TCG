@@ -16,6 +16,7 @@ namespace TCG.Table
             Text(685,108,655,80,c.Name,heading,Gold);Text(685,197,655,45,TypeLabel(c)+" · "+string.Join(" / ",c.Subtypes),body,Ink);
             Text(685,246,655,55,"Custo "+c.TotalCost+" · "+string.Join(" / ",c.ColoredCost.Select((n,i)=>n>0?n+" "+new[]{"Sol","Lua","Água","Fogo","Ar","Terra","Incolor"}[i]:"").Where(x=>x!=""))+(c.Cost>0?" + "+c.Cost+" genéricos":""),body,Muted);
             detailScroll=GUI.BeginScrollView(new Rect(685,314,655,252),detailScroll,new Rect(0,0,620,Math.Max(230,body.CalcHeight(new GUIContent(c.Text),610)+20)));Text(0,0,610,Math.Max(230,body.CalcHeight(new GUIContent(c.Text),610)+20),c.Text,body,Ink);GUI.EndScrollView();
+            if(c.Rule=="ruins"){Text(685,585,650,110,"Terreno de cenário: pode ser ocupado e substituído. Não pertence à coleção nem aos boosters.",body,Muted);if(Button(250,845,1090,52,"Fechar ficha",true,true))inspected=null;return;}
             Text(685,585,650,32,"ARTES E MOLDURAS",cardName,Gold);
             for(int n=0;n<CardStyles.All.Length;n++){string style=CardStyles.All[n];if(Button(685+n*220,631,208,47,CardStyles.Name(style),true,inspectionStyle==style))inspectionStyle=style;}
             bool owned=library.OwnsVariant(c.Id,inspectionStyle);Text(685,699,650,57,owned?"Variante na coleção. A identidade e as regras da carta são preservadas.":"Prévia de variante. Encontre-a nos boosters para equipar.",small,Muted);

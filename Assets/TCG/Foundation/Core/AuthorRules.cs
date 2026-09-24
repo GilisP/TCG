@@ -126,7 +126,7 @@ namespace TCG.Foundation
         void ReplaceTerrainFromPile(int owner,int at,int pile)
         {
             if(!Valid(at)||pile<0||pile>3||cells[at].Owner!=owner||seats[owner].Top(pile)==null)return;
-            foreach(var p in cells[at].pieces.ToArray())Kill(p);if(cells[at].Terrain!=null)seats[cells[at].TerrainOwner].terrainGrave.Add(cells[at].Terrain);
+            foreach(var p in cells[at].pieces.ToArray())Kill(p);if(cells[at].Terrain!=null&&cells[at].Terrain.Rule!="ruins")seats[cells[at].TerrainOwner].terrainGrave.Add(cells[at].Terrain);
             SetTerrain(at,owner,Pop(seats[owner].piles[pile]));seats[owner].LastCreatedTerrain=at;if(seats[owner].piles[pile].Count==0)DrawTerrain(owner,pile);Visual?.Invoke(new MatchEvent("terrain",at,at));
         }
         bool AuthorResolve(Pending item)
@@ -140,7 +140,7 @@ namespace TCG.Foundation
                 case "widow":Grave(o,"Criatura para o topo do deck",999,c=>seats[o].main.Add(c),true);break;
                 case "mountain-king":if(src!=null&&Find(src.Id)!=null)foreach(var p in All.Where(p=>p.Card.Kind==CardType.Creature&&Allied(o,p.Owner)&&(p==src||Adjacent(at,Position(p.Id)))))p.Modifiers.Add(new Modifier{Defense=1});break;
                 case "martyrs":if(item.Subject!=null)Pick(o,"Herdar o ataque em marcadores",p=>p.Owner==o&&p.Card.Kind==CardType.Creature&&Adjacent(Position(p.Id),item.SourceCell),p=>p.Modifiers.Add(new Modifier{Attack=item.Subject.DeathPower}));break;
-                case "natural-aberration":foreach(int n in Neighbors(at).Concat(new[]{at})){if(cells[n].Terrain!=null&&cells[n].TerrainOwner>=0)seats[cells[n].TerrainOwner].terrainGrave.Add(cells[n].Terrain);cells[n].Terrain=basicForest;if(cells[n].Owner<0)cells[n].Owner=o;cells[n].TerrainOwner=cells[n].Owner;Visual?.Invoke(new MatchEvent("terrain",n,n));}break;
+                case "natural-aberration":foreach(int n in Neighbors(at).Concat(new[]{at})){if(cells[n].Terrain!=null&&cells[n].Terrain.Rule!="ruins"&&cells[n].TerrainOwner>=0)seats[cells[n].TerrainOwner].terrainGrave.Add(cells[n].Terrain);cells[n].Terrain=basicForest;if(cells[n].Owner<0)cells[n].Owner=o;cells[n].TerrainOwner=cells[n].Owner;Visual?.Invoke(new MatchEvent("terrain",n,n));}break;
                 case "market":PickHand(o,"Mercado: carta para o fundo e comprar",c=>true,c=>{seats[o].main.Insert(0,c);DrawCard(o);});break;
                 case "transmute":PickHand(o,"Transmutação: outro Feitiço para o fundo",c=>c.Kind==CardType.Spell,c=>{if(src!=null)src.OnceTurn=Turn;seats[o].main.Insert(0,c);DrawCard(o);});break;
                 case "hungry-forest":GainLife(o,1);break;

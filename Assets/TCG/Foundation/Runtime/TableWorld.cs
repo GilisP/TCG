@@ -27,6 +27,7 @@ namespace TCG.Table
         RenderPipelineAsset previousQuality,previousPipeline;
         public static Color Hex(string value) { ColorUtility.TryParseHtmlString("#"+value,out var c); return c; }
         public static Vector3 Position(int i)=>new Vector3(i%11-5,0,i/11-5);
+        public static float CapitalYaw(int seat,int count){var home=Position(Match.Capital(seat,count));return Mathf.Atan2(-home.x,-home.z)*Mathf.Rad2Deg;}
         public void Setup()
         {
             // The legacy project selects a 2D renderer in its quality profile. This scene uses
@@ -128,6 +129,11 @@ namespace TCG.Table
                 var tint=Seats[cell.CapitalOwner]; Block("Fortaleza",new Vector3(0,.24f,.15f),new Vector3(.46f,.28f,.34f),Hex("D0C6A7"),fort);
                 for(int x=-1;x<=1;x+=2) { Block("Torre",new Vector3(x*.24f,.34f,.2f),new Vector3(.16f,.5f,.18f),Hex("C2B99C"),fort); Cone(new Vector3(x*.24f,.66f,.2f),.15f,.2f,tint,fort,4); }
                 Block("Portão",new Vector3(0,.23f,-.03f),new Vector3(.1f,.2f,.015f),Hex("353D37"),fort);
+            }
+            else if(cell.Terrain.Rule=="ruins")
+            {
+                Block("Muro quebrado",new Vector3(-.29f,.2f,.29f),new Vector3(.22f,.25f,.13f),Hex("77736D"),root);
+                Block("Coluna partida",new Vector3(.31f,.18f,.3f),new Vector3(.12f,.18f,.12f),Hex("939087"),root);
             }
             else
             {

@@ -32,3 +32,25 @@ Dois processos (porta 7791) e quatro em duplas (7792): todos chegaram à revisã
 Regressão visual local: a primeira tentativa oculta falhou na asserção de hover; não foi considerada aprovada e o recibo antigo foi desconsiderado pela data. Repetição com janela visível 1600×1000 passou em hover, seleção, colocação de dois ocupantes e formação, com zero erros (personality-network-visible.log, recibo de 15:26:48). Não houve mudança de código entre tentativas; o diagnóstico depende da execução visual. Unity principal reaberto em Play: marcador em ditor-multiplayer-20260924.log confirma Assets/TCG/Scenes/Mesa.unity e table=True, sem exceções ou erros de compilação encontrados.
 
 Vínculo UGS confirmado posteriormente em ProjectSettings: projeto TCG, organização gilis_p. Isso conclui a conferência do vínculo salvo, sem comprovar Relay ou busca pública em execução.
+
+
+## Continuação: teste real pelo Relay
+Build `base-2026-09-24-182233.log`: 935 verificações e build aprovadas. O diagnóstico 7801 falhou por timeout SSL antes de criar sala. A repetição 7802 autenticou, criou e encontrou sala, mas revelou erro 23000 de eventos de lobby na reconexão ao criar segunda sessão. Corrigido mantendo sessão MPS e renovando explicitamente a alocação Relay do cliente por API pública.
+
+Rodada 7803: dois processos, ambos revisão 26, dois movimentos enviados por processo, convidado reconectado depois de 20 segundos, pausa confirmada pelo host, zero erros de execução. Busca pública retornou a sala compatível. Evidências em `Evidencias/progresso-relay-20260924/relay-dois` e logs `relay-7803-*.log`. A sala temporária foi encerrada ao concluir. Trata-se de conexão real via Relay a partir de um computador; não comprova comportamento em dois roteadores físicos diferentes.
+
+
+## Rodada final com ruínas, progresso e câmera por assento
+Build final `base-2026-09-24-182837.log`: **944 verificações** (918 anteriores + 26 de progresso/ruínas/câmera), build concluída.
+
+O diagnóstico 7804 chegou a sincronizar os quatro clientes e reconectar, mas terminou na revisão 26 antes de um assento conseguir movimentar uma peça com a nova mana inicial. A asserção recusou corretamente esse resultado; o cenário de quatro jogadores foi prolongado até a revisão 60, sem mudar as regras para satisfazer o teste.
+
+Rodada final **7805**, quatro processos e duplas via Relay real:
+- Host: revisão 60, 1.843 verificações de privacidade, 2 movimentos, pausa observada, zero erros.
+- Convidado 1: revisão 60, 1.225 verificações, 3 movimentos, reconectou após 20 segundos, zero erros.
+- Convidado 2: revisão 60, 2.302 verificações, 2 movimentos, pausa observada, zero erros.
+- Convidado 3: revisão 60, 2.321 verificações, 2 movimentos, pausa observada, zero erros.
+- Busca pública retornou uma sala compatível. Todos os clientes passaram na asserção de câmera atrás da própria capital. Capturas host/convidado inspecionadas: capital própria no lado próximo da mesa e mão própria durante prioridade adversária.
+- Encerramento aguardou `NetworkSession.Stop` e os quatro processos fecharam. As salas de diagnóstico são temporárias.
+
+Evidências em `Evidencias/progresso-relay-20260924/relay-quatro`, logs `relay-7805-*.log`. A busca e a comunicação realmente passaram por UGS/Relay; as instâncias executaram no mesmo computador. Resta avaliação entre máquinas/redes físicas distintas e sessão longa/perda de pacotes. Os avisos gráficos de encerramento já conhecidos não equivalem a erros de execução da partida.

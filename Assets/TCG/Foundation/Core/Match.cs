@@ -132,7 +132,7 @@ namespace TCG.Foundation
                 Shuffle(seat.main,random); Shuffle(seat.terrainDeck,random);
                 for(int n=0;n<5;n++) seat.hand.Add(Pop(seat.main)); // Explicit five-card test-room preset; full preparation remains a design question.
                 int capital=Capital(p,count); cells[capital].CapitalOwner=p; SetTerrain(capital,p,Pop(seat.terrainDeck));
-                foreach(int neighbor in Neighbors(capital).Take(3)) SetTerrain(neighbor,p,Pop(seat.terrainDeck));
+                foreach(int neighbor in Neighbors(capital).Take(3)) SetTerrain(neighbor,p,Ruins);
                 for(int n=0;n<4;n++) for(int k=0;k<2;k++) seat.piles[n].Add(Pop(seat.terrainDeck));
             }
             Active=random.Next(count);
@@ -199,7 +199,7 @@ namespace TCG.Foundation
                     case ActionKind.Activate: Activate(c.unit); break; case ActionKind.CastExiled: CastExiled(c.target); break;
                     default: throw new InvalidOperationException("Ação não suportada.");
                 }
-                Drain(); StateCheck(); FinishCheck(); AdvanceAutomaticResponses(); AdvanceMovementOrders(); AdvanceMissions(); Revision++; return true;
+                CountAction(c); Drain(); StateCheck(); FinishCheck(); AdvanceAutomaticResponses(); AdvanceMovementOrders(); AdvanceMissions(); Revision++; return true;
             }
             catch(InvalidOperationException e) { error=e.Message; return false; }
         }
@@ -220,7 +220,7 @@ namespace TCG.Foundation
         {
             Check(pile>=0&&pile<4&&seats[Active].Top(pile)!=null,"Escolha uma pilha com terreno."); Check(CanPlace(target),"Terreno exige território próprio ou vazio adjacente ao reino.");
             var cell=cells[target]; foreach(var piece in cell.pieces.ToArray()) Kill(piece);
-            if(cell.Terrain!=null&&cell.TerrainOwner>=0&&!seats[cell.TerrainOwner].Eliminated) seats[cell.TerrainOwner].terrainGrave.Add(cell.Terrain);
+            if(cell.Terrain!=null&&cell.Terrain.Rule!="ruins"&&cell.TerrainOwner>=0&&!seats[cell.TerrainOwner].Eliminated) seats[cell.TerrainOwner].terrainGrave.Add(cell.Terrain);
             SetTerrain(target,Active,Pop(seats[Active].piles[pile])); seats[Active].LastCreatedTerrain=target; if(seats[Active].piles[pile].Count==0) DrawTerrain(Active,pile);
             Placed=true; Note(seats[Active].Name+" colocou "+cell.Terrain.Name+"."); Visual?.Invoke(new MatchEvent("terrain",target,target));
             if(AutoAdvanceAfterTerrain) { Phase=Stage.Main; passes=0; QueueMovementOrders(); }
@@ -344,7 +344,7 @@ namespace TCG.Foundation
             Priority=Active; Phase=Stage.Draw; Placed=false; passes=0; Clean(Active); Array.Clear(seats[Active].mana,0,7);
             foreach(var c in cells)
             {
-                if(c.Owner==Active&&c.Terrain!=null) seats[Active].mana[c.Terrain.Rule=="portals"?authorRandom.Next(6):c.Terrain.Color]++;
+                if(c.Owner==Active&&c.Terrain!=null&&c.Terrain.Rule!="ruins") seats[Active].mana[c.Terrain.Rule=="portals"?authorRandom.Next(6):c.Terrain.Color]++;
                 foreach(var p in c.pieces.Where(p=>p.Owner==Active)) { p.Movement=p.Card.Movement; p.Actions=p.Card.Actions+p.PermanentActions+EquipmentBonus(p,3)+ActionAura(p); p.PreviousOwnTurn=p.LastOwnTurn; p.LastOwnTurn=Turn; }
             }
             StartModifiers(); TurnTriggers();

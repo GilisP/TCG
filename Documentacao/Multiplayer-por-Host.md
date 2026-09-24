@@ -3,7 +3,7 @@
 Implementação autorizada em 2026-09-24 para as cinco etapas: conexão entre computadores, autoridade/privacidade, 2–4 jogadores, internet/reconexão e busca pública. O autor escolheu **jogadores como hosts** e **2 minutos para reconexão**, seguidos de derrota por abandono. Não introduzir servidor dedicado pago como requisito para jogar.
 
 ## Estado
-Código integrado no projeto principal `C:/Users/gil/TCG`, cena Mesa. Compilação e 918 verificações aprovadas, com testes de dois e quatro processos; resultados finais em [[Validacao Multiplayer por Host 2026-09-24]]. Internet depende do vínculo real com Unity Gaming Services. Não confundir código compilado com teste externo bem-sucedido.
+Código integrado no projeto principal `C:/Users/gil/TCG`, cena Mesa. Compilação e 944 verificações aprovadas. Vínculo UGS confirmado e testes reais via Relay com dois e quatro processos aprovados, incluindo busca pública e reconexão após 20 segundos. Ver [[Estatisticas Missoes e Ruinas]] e [[Validacao Multiplayer por Host 2026-09-24]]. Quatro jogadores em duplas também passaram, com movimento dos quatro e câmera atrás da própria capital. Os processos estão no mesmo computador, mas o tráfego passa pelo serviço Relay; ainda falta uma partida entre computadores/redes físicos distintos.
 
 ## Responsabilidades
 - `Core/NetworkRoom.cs`: assentos vinculados à conexão, segredo de reconexão, validação do deck, prontidão, início pelo host, sequência e revisão dos comandos, pausa e abandono.
@@ -35,3 +35,6 @@ Pacotes fixados: `com.unity.netcode.gameobjects` 2.13.3 e `com.unity.services.mu
 Referências oficiais consultadas: [Relay com hosts jogadores](https://docs.unity.com/en-us/mps-sdk/networking/relay-servers), [entrada por código, busca e reconexão](https://docs.unity.com/en-us/mps-sdk/join-session), [mensagens customizadas NGO](https://docs-multiplayer.unity3d.com/netcode/2.0.0/advanced-topics/message-system/custom-messages/). A API instalada foi inspecionada durante a implementação.
 
 Execução prioritária e critérios restantes somente em [[04 - Pendencias de Implementacao]].
+
+## Reconexão Relay corrigida nesta continuação
+O teste real revelou erro de eventos de lobby ao recriar a sessão na reconexão. Agora as sessões MPS gerenciam diretório, membros, código e heartbeat; o transporte Relay é configurado explicitamente pelas APIs públicas RelayService e AllocationUtils, usando DTLS. O código Relay fica em propriedade visível apenas aos membros; a busca recebe somente metadados públicos. A sala começa bloqueada enquanto configura o transporte. Na reconexão, mantém-se a sessão existente, atualizam-se os dados e obtém-se uma nova alocação de cliente. Não depende da validade da alocação antiga. O segredo do protocolo recupera o assento no host. A revisão de compatibilidade foi alterada para impedir entrada de builds antigas.

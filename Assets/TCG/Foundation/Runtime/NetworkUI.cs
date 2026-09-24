@@ -15,9 +15,9 @@ namespace TCG.Table
   {
    if(!state.started||state.view==null||state.view.seats==null)return;
    players=state.capacity;teams=state.teams;useSavedDecks=false;
-   if(!match.IsRemoteView){match=Match.FromView(state.view,catalog,effects);world.Bind(match);reactions=new ReactionChannel();menu=libraryOpen=handoff=networkPage=false;sessionAvailable=true;selectedCell=selectedUnit=-1;selectedCard=null;}
+   if(!match.IsRemoteView||match.NumbersFor(Viewer)?.id!=state.view.numbers?.id){match=Match.FromView(state.view,catalog,effects);world.Bind(match);reactions=new ReactionChannel();menu=libraryOpen=handoff=networkPage=false;sessionAvailable=true;selectedCell=selectedUnit=-1;selectedCard=null;}
    else if(state.view.revision!=match.Revision){match.ApplyView(state.view,catalog);selectedCard=null;selectedCommander=false;blockers=null;lastDefense=null;}
-   notice=state.paused?network.Status:match.Controller==Viewer?"Sua prioridade · escolha uma ação":"Aguardando "+match.Seats[match.Controller].Name;handoff=false;
+   SaveFinishedProgress();notice=state.paused?network.Status:match.Controller==Viewer?"Sua prioridade · escolha uma ação":"Aguardando "+match.Seats[match.Controller].Name;handoff=false;
   }
   async void NetworkTask(Func<Task> run){networkNotice="";try{await run();}catch(Exception e){networkNotice=e.Message;}}
   bool SubmitNetwork(Command command){if(!NetworkTurn&&command.kind!=ActionKind.Concede){notice="Aguarde sua prioridade ou a reconexão.";return false;}command.player=Viewer;return network.Send(new RoomRequest{type="action",command=command});}

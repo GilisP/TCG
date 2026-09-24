@@ -54,7 +54,7 @@ namespace TCG.Table
 
         {
 
-            if(network!=null&&network.Running){networkPage=true;return;}
+            SaveFinishedProgress();if(network!=null&&network.Running){networkPage=true;return;}
             exileOpen=false;if(useSavedDecks) {if(!StartSavedDeckMatch())return;} else match=commanderDemo?ContentLoader.CommanderTable(catalog,effects,players,teams,Environment.TickCount,demoCommanders):medieval?ContentLoader.MedievalTable(catalog,effects,players,teams,Environment.TickCount,firstColor):ContentLoader.TestTable(catalog,effects,players,teams,Environment.TickCount); match.AutomaticResponses=true; match.AutoAdvanceAfterTerrain=true; world.Bind(match); ApplyDeckCosmetics(); match.ResolveInitialEffects(); sessionAvailable=true; selectedCell=selectedUnit=-1; selectedCard=null;
 
             reactions=new ReactionChannel(); CloseReactionMenu(); ResetDrag(); handoff=true; menu=false; blockers=null; lastDefense=null; notice="Escolha a compra inicial. A pilha selecionada recebe o terreno comprado.";
@@ -115,7 +115,7 @@ namespace TCG.Table
             if(network!=null&&network.Running)return SubmitNetwork(command);
             if(!match.Try(command,out var error)) { notice=error; return false; }
 
-            selectedCommander=false; selectedCard=null; selectedUnit=-1; notice=match.Log.LastOrDefault()??"Ação concluída.";
+            SaveFinishedProgress(); selectedCommander=false; selectedCard=null; selectedUnit=-1; notice=match.Log.LastOrDefault()??"Ação concluída.";
 
             if(match.Controller!=previous&&!match.Over) { handoff=true; selectedCell=-1; }
 

@@ -15,7 +15,7 @@ namespace TCG.Table
   string CardStyle(Definition card)
   {
    if(network!=null&&network.State?.started==true&&!menu)return network.State.view?.looks?.LastOrDefault(x=>x.owner==Viewer&&x.card==card.Id)?.style??"standard";
-   if(library==null)return "standard";DeckData d=menu?draft:useSavedDecks&&match!=null?library.Data.decks.FirstOrDefault(x=>x.id==seatDecks[match.Controller]):null;
+   if(library==null||card.Rule=="ruins")return "standard";DeckData d=menu?draft:useSavedDecks&&match!=null?library.Data.decks.FirstOrDefault(x=>x.id==seatDecks[match.Controller]):null;
    return library.SelectedStyle(card.Id,d);
   }
   Texture2D CardIllustration(Definition card,string style)
@@ -33,6 +33,7 @@ namespace TCG.Table
   }
   bool CardFoil(Definition card,int owner=-1)
   {
+   if(card.Rule=="ruins")return false;
    if(network!=null&&network.State?.started==true&&!menu)return network.State.view?.looks?.LastOrDefault(x=>x.owner==(owner>=0?owner:Viewer)&&x.card==card.Id)?.foil??card.Foil;
    if(library==null)return card.Foil;DeckData d=menu?draft:useSavedDecks&&match!=null?library.Data.decks.FirstOrDefault(x=>x.id==seatDecks[owner>=0?owner:match.Controller]):null;
    try{return library.SelectedFoil(card.Id,d);}catch(InvalidOperationException){return card.Foil;}

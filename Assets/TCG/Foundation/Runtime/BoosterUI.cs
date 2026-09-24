@@ -9,10 +9,10 @@ namespace TCG.Table
  {
   bool shopBoosters;BoosterDefinition booster;BoosterReceipt openedBooster;float boosterOpenedAt;
   BoosterDefinition CurrentBooster(){if(booster==null){booster=JsonUtility.FromJson<BoosterDefinition>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Economy","booster-medieval.json")));booster.Validate();}return booster;}
-  bool PurchaseBooster()
+  bool PurchaseBooster(bool reward=false)
   {
    if(!collectionStore.CanWrite)return false;string before=JsonUtility.ToJson(library.Data);
-   try{var receipt=library.OpenBooster(CurrentBooster(),new System.Random(Guid.NewGuid().GetHashCode()));collectionStore.Save(library);openedBooster=receipt;boosterOpenedAt=Time.unscaledTime;hubNotice="Booster adicionado à coleção.";return true;}
+   try{var random=new System.Random(Guid.NewGuid().GetHashCode());var receipt=reward?library.OpenRewardBooster(CurrentBooster(),random):library.OpenBooster(CurrentBooster(),random);collectionStore.Save(library);openedBooster=receipt;boosterOpenedAt=Time.unscaledTime;hubNotice="Booster adicionado à coleção.";return true;}
    catch(Exception e){library=new CollectionLibrary(catalog,JsonUtility.FromJson<CollectionData>(before));hubNotice="Abertura não concluída: "+e.Message;return false;}
   }
   void DrawBoosterShop()
@@ -24,6 +24,7 @@ namespace TCG.Table
    Text(650,546,850,85,"CHANCE POR ESPAÇO\nClássica "+(100f*pack.standardWeight/total).ToString("0.#")+"%   ·   Iluminura "+(100f*pack.illuminatedWeight/total).ToString("0.#")+"%   ·   Nocturna "+(100f*pack.nocturneWeight/total).ToString("0.#")+"%",body,Gold);
    Text(650,640,850,83,"Cada uma das "+pool.Length+" cartas tem chance igual, independentemente da raridade. Os sorteios são independentes. Variante repetida devolve "+pack.duplicateRefund+" moedas; uma arte nova também libera a carta-base.",small,Muted);
    if(Button(650,743,530,64,"COMPRAR E ABRIR · "+pack.price+" MOEDAS",library.Data.coins>=pack.price&&collectionStore.CanWrite,true))PurchaseBooster();
+   if(Button(650,815,530,42,"ABRIR RECOMPENSA · "+library.Data.progress.boosters,library.Data.progress.boosters>0&&collectionStore.CanWrite))PurchaseBooster(true);
    if(Button(1200,743,320,64,"Última abertura",library.Data.lastBooster!=null)){openedBooster=library.Data.lastBooster;boosterOpenedAt=Time.unscaledTime-20;}
   }
   void DrawBoosterSeal(Rect r)
