@@ -41,7 +41,7 @@ namespace TCG.Foundation
         }
         void AuthorBuy()
         {
-            int extra=cells.Count(c=>c.Terrain?.Rule=="study"&&c.TerrainOwner==Active);for(int n=0;n<extra&&!seats[Active].Eliminated;n++)DrawCard(Active);
+            int extra=cells.Count(c=>c.Terrain?.Rule=="study"&&c.Owner==Active);for(int n=0;n<extra&&!seats[Active].Eliminated;n++)DrawCard(Active);
         }
         void AuthorDeath(Piece p,int at)
         {
@@ -127,7 +127,7 @@ namespace TCG.Foundation
         {
             if(!Valid(at)||pile<0||pile>3||cells[at].Owner!=owner||seats[owner].Top(pile)==null)return;
             foreach(var p in cells[at].pieces.ToArray())Kill(p);if(cells[at].Terrain!=null&&cells[at].Terrain.Rule!="ruins")seats[cells[at].TerrainOwner].terrainGrave.Add(cells[at].Terrain);
-            SetTerrain(at,owner,Pop(seats[owner].piles[pile]));seats[owner].LastCreatedTerrain=at;if(seats[owner].piles[pile].Count==0)DrawTerrain(owner,pile);Visual?.Invoke(new MatchEvent("terrain",at,at));
+            SetTerrain(at,owner,Pop(seats[owner].piles[pile]));seats[owner].LastCreatedTerrain=at;if(seats[owner].piles[pile].Count==0)DrawTerrain(Active,pile);Visual?.Invoke(new MatchEvent("terrain",at,at));
         }
         bool AuthorResolve(Pending item)
         {

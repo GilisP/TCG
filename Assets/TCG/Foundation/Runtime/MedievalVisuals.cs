@@ -12,6 +12,7 @@ namespace TCG.Table
         readonly List<(Transform root,float start,float duration,Vector3 origin,Vector3 target)> spells=new List<(Transform,float,float,Vector3,Vector3)>();
         Transform Figure(Definition card,Color owner,Transform parent)
         {
+            if(card.Kind==CardType.Terrain)return TerrainPortrait(card,parent);
             var root=new GameObject(card.Name).transform; root.SetParent(parent,false);
             Color tint=Elements[card.Color],metal=Hex("B7C6BD"),stone=Hex("B9AC8A"),dark=Hex("283C43");
             Cone(new Vector3(0,.035f,0),.23f,.07f,owner,root,8);

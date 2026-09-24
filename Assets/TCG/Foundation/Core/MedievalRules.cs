@@ -44,6 +44,8 @@ namespace TCG.Foundation
     {
         public RuleChoice Choice { get; private set; }
         readonly Queue<Action> work=new Queue<Action>();
+        readonly List<Pending> completedVisuals=new List<Pending>();
+        void StackResult(Pending item,bool canceled) { if(item.Card!=null)Visual?.Invoke(new MatchEvent(canceled?"stack-canceled":"stack-resolved",Capital(item.Owner,seats.Length),item.Target,card:item.Card,owner:item.Owner,stackId:item.VisualId)); }
         readonly List<(int owner,int turn,Definition card)> phoenix=new List<(int,int,Definition)>();
         readonly List<(int owner,int turn,int cell)> enemyDeaths=new List<(int,int,int)>();
         readonly HashSet<int> impactTiles=new HashSet<int>();
@@ -101,6 +103,7 @@ namespace TCG.Foundation
         {
             effectBudget=0;
             while(Choice==null&&work.Count>0&&!Over) { Check(++effectBudget<=1000,"Sequência de efeitos excedeu o limite de segurança."); work.Dequeue()(); StateCheck(); }
+            if(Choice==null&&work.Count==0){foreach(var item in completedVisuals)StackResult(item,false);completedVisuals.Clear();}
             if(Choice==null&&work.Count==0&&resolvingVisual!=null){if(!hadImpact)Visual?.Invoke(new MatchEvent("resolve",Capital(resolvingOwner,seats.Length),Capital(resolvingOwner,seats.Length),-1,resolvingVisual,resolvingOwner));resolvingVisual=null;}
         }
         void Ask(int owner,string prompt,IEnumerable<ChoiceOption> options,Action<int> apply,bool optional=false)

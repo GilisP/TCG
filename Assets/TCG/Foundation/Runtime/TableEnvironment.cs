@@ -11,7 +11,7 @@ namespace TCG.Table
         readonly List<DeckDisplay> decks=new List<DeckDisplay>();
         sealed class DeckDisplay
         {
-            public int Player,Kind; public Transform Root,Stack; public TextMesh Label;
+            public int Player,Kind; public Transform Root,Stack; public TextMesh Label; public Renderer Art; public Material ArtMaterial;
         }
         public int RoomIndex {get;private set;}
         public string RoomName=>RoomIndex==0?"Salão dos Reinos":"Taverna do Carvalho";
@@ -91,10 +91,10 @@ namespace TCG.Table
                 for(int x=-1;x<=1;x+=2)Block("Olho",new Vector3(x*.14f,.76f,8.399f),new Vector3(.065f,.065f,.025f),Hex("252628"),g);
                 if(p==0||p==3)Cone(new Vector3(0,1.38f,8.77f),.48f,.55f,tint*.8f,g,6);
                 BuildHeldCards(p,g,skin);
-                for(int k=0;k<6;k++)
+                for(int k=4;k<6;k++)
                 {
                     var d=new DeckDisplay{Player=p,Kind=k,Root=Group(k<4?"Pilha de terreno "+(k+1):k==4?"Deck principal":"Deck de terrenos",g)};
-                    d.Root.localPosition=new Vector3((k-2.5f)*1.05f,-.16f,6.55f);
+                    d.Root.localPosition=new Vector3((k==4?-4.7f:4.7f),-.16f,6.55f);
                     Block("Bandeja",Vector3.zero,new Vector3(.9f,.04f,1.12f),tint*.48f,d.Root);
                     d.Stack=Block("Cartas",new Vector3(0,.15f,0),new Vector3(.68f,.25f,.88f),Hex("D6C9A9"),d.Root);
                     Block("Verso",new Vector3(0,.505f,0),new Vector3(.64f,.02f,.84f),tint*.55f,d.Root);
@@ -105,12 +105,30 @@ namespace TCG.Table
                 }
             }
         }
+        void BuildCommonPiles()
+        {
+            for(int k=0;k<4;k++)
+            {
+                var d=new DeckDisplay{Player=-1,Kind=k,Root=Group("Terreno compartilhado "+(k+1),transform)};
+                d.Root.localPosition=new Vector3((k-1.5f)*1.4f,-.12f,6.65f);
+                Block("Bandeja",Vector3.zero,new Vector3(1.12f,.05f,1.52f),Hex("8C7145"),d.Root);
+                d.Stack=Block("Cartas",Vector3.up*.1f,new Vector3(.92f,.15f,1.38f),Hex("D6C9A9"),d.Root);
+                Block("Verso",Vector3.up*.2f,new Vector3(.92f,.02f,1.38f),Hex("B88E4C"),d.Root);
+                var art=GameObject.CreatePrimitive(PrimitiveType.Quad);art.name="Ilustração do topo";art.transform.SetParent(d.Root,false);art.transform.localRotation=Quaternion.Euler(90,180,0);art.transform.localScale=new Vector3(.84f,1.04f,1);Destroy(art.GetComponent<Collider>());
+                d.Art=art.GetComponent<Renderer>();d.ArtMaterial=new Material(Resources.Load<Shader>("PileCard"));d.Art.sharedMaterial=d.ArtMaterial;
+                var label=Group("Contagem pública",d.Root);label.localRotation=Quaternion.Euler(90,180,0);
+                d.Label=label.gameObject.AddComponent<TextMesh>();d.Label.fontSize=36;d.Label.characterSize=.045f;d.Label.anchor=TextAnchor.MiddleCenter;d.Label.color=Hex("FFF0C2");
+                var hit=d.Root.gameObject.AddComponent<BoxCollider>();hit.center=Vector3.up*.18f;hit.size=new Vector3(1.12f,.5f,1.52f);var tag=d.Root.gameObject.AddComponent<PileHit>();tag.Player=-1;tag.Pile=k;
+                decks.Add(d);
+            }
+        }
+        public System.Func<TCG.Foundation.Definition,Texture2D> TerrainIllustration;
         int selectedPlayer=-1,selectedPile=-1;
         public void SelectPile(int player,int pile)
         {
             if(selectedPlayer==player&&selectedPile==pile)return;
             selectedPlayer=player;selectedPile=pile;
-            foreach(var d in decks)d.Root.Find("Bandeja").GetComponent<Renderer>().sharedMaterial=Material(d.Player==player&&d.Kind==pile?Hex("F6D993"):Seats[d.Player]*.48f);
+            foreach(var d in decks)d.Root.Find("Bandeja").GetComponent<Renderer>().sharedMaterial=Material(d.Player<0&&d.Kind==pile?Hex("F6D993"):d.Player<0?Hex("8C7145"):Seats[d.Player]*.48f);
         }
         void SyncPlaces()
         {
@@ -122,11 +140,12 @@ namespace TCG.Table
             foreach(var d in decks)
             {
                 if(d.Player>=match.Seats.Count)continue;
-                var s=match.Seats[d.Player];int count=d.Kind<4?s.PileCount(d.Kind):d.Kind==4?s.MainCount:s.TerrainCount;
+                var s=match.Seats[Mathf.Max(0,d.Player)];int count=d.Kind<4?s.PileCount(d.Kind):d.Kind==4?s.MainCount:s.TerrainCount;
                 float h=count==0?.01f:Mathf.Min(.48f,.04f+count*.015f);d.Stack.localScale=new Vector3(.68f,h,.88f);d.Stack.localPosition=new Vector3(0,h/2+.02f,0);
                 d.Root.Find("Verso").localPosition=new Vector3(0,h+.035f,0);d.Label.transform.localPosition=new Vector3(0,h+.06f,0);
                 d.Label.text=(d.Kind<4?"P"+(d.Kind+1):d.Kind==4?"D":"T")+"\n"+count;
                 d.Root.Find("Verso").gameObject.SetActive(count>0);
+                if(d.Art!=null){var card=s.Top(d.Kind);d.Art.gameObject.SetActive(card!=null);if(card!=null)d.ArtMaterial.mainTexture=TerrainIllustration?.Invoke(card)??Portrait(card);d.Art.transform.localPosition=new Vector3(0,h+.049f,.08f);d.Label.transform.localPosition=new Vector3(0,h+.066f,-.56f);d.Stack.localScale=new Vector3(.92f,h,1.38f);}
             }
         }
     }

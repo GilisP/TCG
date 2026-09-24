@@ -199,3 +199,10 @@ Nesta primeira etapa, concentre-se na configuração do agente e na organizaçã
 - Commit 30d0aeb preserva a base anterior à implementação de progresso/ruínas e foi enviado com sucesso. Não registrar tokens de autenticação no projeto/vault.
 
 Atualização final desta entrega: 944 verificações aprovadas; Relay real com dois e quatro processos, busca pública, reconexão após 20 segundos e câmera atrás da própria capital verificados. Sessões MPS gerenciam sala/membros; RelayService renova a alocação de transporte sem recriar a sessão na reconexão. Ver documentação de validação; avaliação em máquinas físicas distintas permanece pendente.
+
+
+## Pilhas comuns e apresentação — 2026-09-24
+- Decisão nova substitui quatro pilhas individuais: quatro pilhas comuns com oito cartas iniciais. Contribuições 4/4, 3/3/2 (sorteio de quem contribui duas) ou 2/2/2/2; embaralhar o conjunto e distribuir duas por pilha. Capital continua usando carta própria antes da contribuição.
+- Compras e reposições usam o deck do jogador do turno. Terreno entra no reino de quem o coloca, mas preserva dono original para o cemitério. `TerrainCard` distingue cópias de definição igual; `Cell.Owner` é reino, `TerrainOwner` é propriedade. Eliminação não limpa pilhas comuns.
+- Consultar Pilhas Compartilhadas e Animacoes da Mesa e a validação correspondente. Hover/artes em PilePresentation/TableEnvironment; mana/ataques em TableFlights; resultados da pilha têm eventos separados. Retratos de terrenos são paisagens procedurais provisórias.
+- Testes adicionais SharedTerrainChecks; diagnóstico -tcg-pile-verify. Shader PileCard deve ficar em Resources para não ser removido do executável. Protocolo de rede passa a tcg-network-4/20260924-shared-terrain.

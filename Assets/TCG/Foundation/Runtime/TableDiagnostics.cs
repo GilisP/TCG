@@ -31,6 +31,7 @@ namespace TCG.Table
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
 
             if(Environment.GetCommandLineArgs().Contains("-tcg-net-role")) StartCoroutine(VerifyNetwork());
+            else if(Environment.GetCommandLineArgs().Contains("-tcg-pile-verify")) StartCoroutine(VerifyPiles());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-progress-verify")) StartCoroutine(VerifyProgress());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-foil-commanders-verify")) StartCoroutine(VerifyFoilCommanders());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-booster-verify")) StartCoroutine(VerifyBoosters());

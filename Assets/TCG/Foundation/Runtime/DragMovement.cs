@@ -58,7 +58,7 @@ namespace TCG.Table
                 var ray=world.View.ScreenPointToRay(new Vector3(e.mousePosition.x*scale,Screen.height-e.mousePosition.y*scale,0));
                 if(Physics.Raycast(ray,out var hit,70)&&hit.collider.TryGetComponent<PileHit>(out var pile))
                 {
-                    if(pile.Player==match.Active&&match.Controller==match.Active&&(match.Phase==Stage.Draw||match.Phase==Stage.Terrain)){selectedPile=pile.Pile;selectedCard=null;}
+                    if((pile.Player<0||pile.Player==match.Active)&&match.Controller==match.Active&&(match.Phase==Stage.Draw||match.Phase==Stage.Terrain)){selectedPile=pile.Pile;selectedCard=null;}
                     e.Use();return;
                 }
                 if(BoardHit(e.mousePosition,out pressedCell,out pressedPiece))

@@ -40,7 +40,7 @@ namespace TCG.Table
             RenderSettings.ambientLight=Hex("85918C"); RenderSettings.fog=true; RenderSettings.fogColor=Hex("111F24"); RenderSettings.fogMode=FogMode.Linear; RenderSettings.fogStartDistance=24; RenderSettings.fogEndDistance=48;
             var light=new GameObject("Luz de fim de tarde").AddComponent<Light>(); light.transform.SetParent(transform); light.type=LightType.Directional; light.intensity=1.3f; light.color=Hex("FFE1B0"); light.transform.rotation=Quaternion.Euler(55,-35,0); light.shadows=LightShadows.Soft;
             QualitySettings.shadows=ShadowQuality.All; QualitySettings.shadowDistance=35;
-            BuildRooms();
+            BuildRooms(); BuildCommonPiles();
             Block("Mesa • madeira",new Vector3(0,-.75f,0),new Vector3(15.6f,.65f,15.6f),Hex("433B33"),transform);
             Block("Mesa • contorno de bronze",new Vector3(0,-.4f,0),new Vector3(15.3f,.12f,15.3f),Hex("9C8255"),transform);
             Block("Mesa • veludo",new Vector3(0,-.3f,0),new Vector3(15.05f,.18f,15.05f),Hex("1B3336"),transform);
@@ -65,13 +65,13 @@ namespace TCG.Table
         }
         public void Bind(Match next)
         {
-            ClearBursts();ShowMovement(-1,false); PreviewMovementDrag(-1,-1); ShowMovementOrder(-1,false); lightRevision=-1; if(match!=null) match.Visual-=Animate; match=next; match.Visual+=Animate;
+            ClearFlights(); ClearBursts();ShowMovement(-1,false); PreviewMovementDrag(-1,-1); ShowMovementOrder(-1,false); lightRevision=-1; if(match!=null) match.Visual-=Animate; match=next; match.Visual+=Animate;
             foreach(var t in pieces.Values) Release(t); pieces.Clear(); destinations.Clear(); walkPoints.Clear();
             foreach(var d in dying) Release(d.root); dying.Clear(); pulse.Clear(); lunges.Clear();
             foreach(var t in terrain) if(t!=null) Release(t); Array.Clear(signatures,0,121); seenRevision=-1;
         }
         public void Highlight(Func<int,bool> valid) { for(int i=0;i<121;i++) edges[i].gameObject.SetActive(valid(i)); }
-        void Animate(MatchEvent e) { if(e.Kind=="move"&&e.Piece>=0) { if(!walkPoints.TryGetValue(e.Piece,out var path)){path=new Queue<Vector3>();walkPoints.Add(e.Piece,path);}path.Enqueue(Position(e.To)+Vector3.up*.16f); } SpellVisual(e); FoilEntry(e); if(e.Piece>=0) { pulse[e.Piece]=Time.unscaledTime; lunges[e.Piece]=e.Kind=="attack"?(Position(e.To)-Position(e.From))*.55f:Vector3.zero; } }
+        void Animate(MatchEvent e) { if(e.Kind=="move"&&e.Piece>=0) { if(!walkPoints.TryGetValue(e.Piece,out var path)){path=new Queue<Vector3>();walkPoints.Add(e.Piece,path);}path.Enqueue(Position(e.To)+Vector3.up*.16f); } SpellVisual(e); ResourceCombatVisual(e); FoilEntry(e); if(e.Piece>=0) { pulse[e.Piece]=Time.unscaledTime; lunges[e.Piece]=e.Kind=="attack"?(Position(e.To)-Position(e.From))*.55f:Vector3.zero; } }
         void LateUpdate()
         {
             if(View==null) return;
@@ -178,6 +178,7 @@ namespace TCG.Table
         void OnDestroy()
         {
             if(match!=null) match.Visual-=Animate;
+            foreach(var deck in decks)if(deck.ArtMaterial!=null)Destroy(deck.ArtMaterial);
             foreach(var portrait in portraits.Values) Destroy(portrait);
             foreach(var material in effectMaterials) Destroy(material);
             foreach(var m in materials.Values) Destroy(m);

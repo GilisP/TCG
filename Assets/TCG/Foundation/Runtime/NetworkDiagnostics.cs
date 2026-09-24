@@ -20,7 +20,7 @@ namespace TCG.Table
    EnsureNetwork();networkPage=true;menu=false;var task=host?network.Host(cloud,cloud,"TCG verificação temporária",count,count==4,label,port):network.Join(cloud,destination,label,false,port);while(!task.IsCompleted)yield return null;if(task.IsFaulted){File.WriteAllText(Path.Combine(dir,label+".txt"),"FAIL: "+network.Status+" / "+task.Exception.GetBaseException().Message);Application.Quit(1);yield break;}
    if(cloud&&host){var search=network.Search();while(!search.IsCompleted)yield return null;File.WriteAllText(Path.Combine(dir,"public-search.txt"),search.IsFaulted?"FAIL: "+search.Exception.GetBaseException().Message:"PASS: query returned "+network.Results.Length+" compatible session(s)");File.WriteAllText(codeFile,network.Code);}
    yield return new WaitForSecondsRealtime(1);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(dir,label+"-lobby.png"));
-   float deadline=Time.unscaledTime+150;bool deckSent=false,ready=false,started=false,played=false,moved=false,lost=false,resumed=false,sawPause=false;float reconnectAt=0;int privateChecks=0,movesSent=0;float nextAction=0;
+   float deadline=Time.unscaledTime+150;bool deckSent=false,ready=false,started=false,played=false,moved=false,lost=false,resumed=false,sawPause=false;float reconnectAt=0;int privateChecks=0,movesSent=0,sharedChecks=0,manaEvents=0,stackEvents=0; Match watched=null;float nextAction=0;
    while(Time.unscaledTime<deadline){
     var state=network.State;if(state==null){yield return null;continue;}sawPause|=state.paused;
     if(!network.Connected){if(lost&&Time.unscaledTime>=reconnectAt&&!network.Busy){var reconnect=network.Reconnect();while(!reconnect.IsCompleted)yield return null;if(reconnect.IsFaulted)throw reconnect.Exception;reconnectAt=Time.unscaledTime+5;}yield return null;continue;}
@@ -31,6 +31,8 @@ namespace TCG.Table
      else if(host&&!network.Busy&&!started&&state.members.Length==count&&state.members.All(m=>m.ready)){network.Send(new RoomRequest{type="start"});started=true;}
      yield return new WaitForSecondsRealtime(.15f);continue;
     }
+    if(watched!=match){watched=match;match.Visual+=v=>{if(v.Kind=="mana")manaEvents++;if(v.Kind=="stack-resolved")stackEvents++;};}
+    Require(match.Seats.All(s=>Enumerable.Range(0,4).All(p=>s.Top(p)?.Id==match.Seats[0].Top(p)?.Id&&s.TopOwner(p)==match.Seats[0].TopOwner(p)&&s.PileCount(p)==match.Seats[0].PileCount(p))),"shared tops replicated");sharedChecks++;
     int seat=state.seat;Require(match.IsRemoteView,"filtered client view");Require(Enumerable.Range(0,count).Where(i=>i!=seat).All(i=>match.HandFor(i).Count==0),"private hands absent");privateChecks++;
     if(!host&&label=="guest1"&&!lost&&match.Revision>=7){lost=true;reconnectAt=Time.unscaledTime+(cloud?20:3);network.SimulateConnectionLoss();yield return null;continue;}
     if(match.Revision>=(count==4?60:26)&&(host||label!="guest1"||resumed))break;
@@ -48,8 +50,9 @@ namespace TCG.Table
     yield return null;
    }
    Require(match.IsRemoteView&&match.Revision>=(count==4?60:26),"multi-process progression");Require(movesSent>0,"movement transmitted");var camera=world.View.transform.position;camera.y=0;Require(Vector3.Dot(camera.normalized,TableWorld.Position(Match.Capital(Viewer,count)).normalized)>.99f,"camera behind own capital");Require(host||label!="guest1"||resumed,"guest reconnected");Require(!host||sawPause,"host paused for disconnect");
+   Require(manaEvents>0&&stackEvents>0,"mana and stack events received");
    yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(dir,label+".png"));yield return new WaitForSecondsRealtime(.5f);
-   File.WriteAllText(Path.Combine(dir,label+".txt"),"PASS · seats="+count+" · revision="+match.Revision+" · privacy checks="+privateChecks+" · moves="+movesSent+" · reconnect="+resumed+" · paused="+sawPause+" · runtime errors="+errors.Count+Environment.NewLine+string.Join(Environment.NewLine,errors));
+   File.WriteAllText(Path.Combine(dir,label+".txt"),"PASS · seats="+count+" · revision="+match.Revision+" · shared checks="+sharedChecks+" · mana events="+manaEvents+" · stack events="+stackEvents+" · privacy checks="+privateChecks+" · moves="+movesSent+" · reconnect="+resumed+" · paused="+sawPause+" · runtime errors="+errors.Count+Environment.NewLine+string.Join(Environment.NewLine,errors));
    // Give every peer time to record evidence before the host leaves.
    yield return new WaitForSecondsRealtime(host?8:3);var stop=network.Stop();while(!stop.IsCompleted)yield return null;Application.logMessageReceived-=listener;Application.Quit(errors.Count==0?0:1);
    void Require(bool yes,string why){if(!yes)throw new Exception("NETWORK RUNTIME: "+why+" / "+network.Status);}

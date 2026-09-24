@@ -147,7 +147,7 @@ namespace TCG.Table
 
             GUI.enabled=!modal;
 
-            DrawHeader(); GUI.enabled=!modal&&NetworkTurn; DrawSidebar(); DrawMovementOrders(); DrawHand(); DrawBoardLabels(); DrawCommanderZone();DrawExiledCards();
+            BeginPilePresentation(); DrawHeader(); GUI.enabled=!modal&&NetworkTurn; DrawSidebar(); DrawMovementOrders(); DrawHand(); DrawBoardLabels(); DrawCommanderZone();DrawExiledCards();
 
             Fill(new Rect(0,965,1600,35),Dark); Text(24,972,1550,24,notice,small,Gold);
 
@@ -155,7 +155,7 @@ namespace TCG.Table
 
             GUI.enabled=true;
 
-            DrawNetworkStatus();DrawSocialReactions();
+            ProcessPileVerification(); DrawPileOverlay(modal); DrawNetworkStatus();DrawSocialReactions();
             if(handoff) DrawHandoff(); else if(inspected!=null) DrawInspection(); else if(equipmentToAttach>=0) DrawEquipmentChoice(); else if(match.Choice!=null&&match.Choice.Owner==Viewer) DrawChoice(); else if(collection) DrawCollection(); else if(help) DrawHelp(); else if(confirmQuit) DrawQuit(); else if(match.Over) DrawResult();
 
             GUI.matrix=old;
@@ -245,33 +245,9 @@ namespace TCG.Table
 
             {
 
-                Text(1215,435,350,44,"QUATRO PILHAS  ·  selecione uma",cardName,Gold);
-
-                for(int p=0;p<4;p++)
-
-                {
-
-                    float y=478+p*64; var top=match.Seats[match.Active].Top(p);
-
-                    if(Button(1215,y,350,54,(p+1)+"   "+(top?.Name??"Vazia")+"   ·   "+match.Seats[match.Active].PileCount(p),true,p==selectedPile)) { selectedPile=p; selectedCard=null; }
-
-                }
-
-                Text(1215,754,350,80,"A compra de terreno entra na pilha escolhida. Ao esvaziar uma pilha, a reposição é imediata.",small,Muted);
-
+                DrawTerrainPiles();
             }
-
-            else if(match.Stack.Count>0)
-
-            {
-
-                Text(1215,375,345,28,"PILHA  ·  "+match.Stack.Count+" ação(ões)",cardName,Gold);
-
-                for(int i=0;i<Math.Min(6,match.Stack.Count);i++) Text(1215,418+i*47,350,43,(i==0?"TOPO   ":"↓   ")+match.Stack[match.Stack.Count-1-i].Description,body,Ink);
-
-                Text(1215,730,350,63,"Passe para resolver o topo ou use uma resposta disponível.",small,Muted);int responseIndex=0;foreach(var monk in match.Board.SelectMany(c=>c.Pieces).Where(p=>match.CanActivate(p.Id)).Take(2)){if(Button(1215,800+responseIndex*43,350,38,"Responder · "+monk.Card.Name))Submit(ActionKind.Activate,unit:monk.Id);responseIndex++;}
-
-            }
+            else if(match.Stack.Count>0) DrawStackCards();
 
             else DrawSelectedCell();
 
@@ -509,7 +485,7 @@ namespace TCG.Table
 
         }
 
-        void OnDestroy() { DisposeReactionIcons(); if(world!=null) Destroy(world.gameObject); }
+        void OnDestroy() { if(visualMatch!=null)visualMatch.Visual-=RememberStackResult; DisposeReactionIcons(); if(world!=null) Destroy(world.gameObject); }
 
     }
 

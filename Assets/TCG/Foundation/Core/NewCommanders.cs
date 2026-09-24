@@ -104,7 +104,7 @@ namespace TCG.Foundation
       var valid=stolen.Where(p=>seats[p.OriginalOwner].grave.Contains(p.Card)).ToArray();if(valid.Length==0)return;src.Actions--;
       foreach(var old in valid){seats[old.OriginalOwner].grave.Remove(old.Card);var e=SpawnNew(o,old.Card,Position(src.Id),old.OriginalOwner);e.AttachedTo=src.Id;}
      },true);return true;
-    case "test-counter":var countered=stack.LastOrDefault(x=>x.Rule==null&&x.Card!=null&&(x.Card.Kind==CardType.Spell||x.Card.Kind==CardType.Instant));if(countered!=null){stack.Remove(countered);FinishSpell(countered);}return true;
+    case "test-counter":var countered=stack.LastOrDefault(x=>x.Rule==null&&x.Card!=null&&(x.Card.Kind==CardType.Spell||x.Card.Kind==CardType.Instant));if(countered!=null){stack.Remove(countered);FinishSpell(countered);StackResult(countered,true);}return true;
     case "test-mill":Ask(o,"Grimório alvo",Enumerable.Range(0,seats.Length).Where(s=>!seats[s].Eliminated).Select(s=>new ChoiceOption(s,seats[s].Name)),s=>MillCards(s,2));return true;
     case "test-blessing":case "test-curse":return true;
     default:return false;

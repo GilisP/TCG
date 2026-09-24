@@ -41,13 +41,18 @@ namespace TCG.Foundation
         internal readonly List<Piece> pieces=new List<Piece>();
         public IReadOnlyList<Piece> Pieces => pieces.AsReadOnly();
     }
+    public sealed class TerrainCard
+    {
+        public Definition Card { get; } public int Owner { get; }
+        public TerrainCard(Definition card,int owner) { Card=card; Owner=owner; }
+    }
     public sealed class Seat
     {
         public string Name { get; } public int Team { get; } public int Life { get; internal set; }=50;
         public bool Eliminated { get; internal set; }
         internal readonly int[] mana=new int[7];
         internal readonly List<Definition> main=new List<Definition>(), terrainDeck=new List<Definition>(), hand=new List<Definition>(), grave=new List<Definition>(), terrainGrave=new List<Definition>(),exile=new List<Definition>();
-        internal readonly List<Definition>[] piles=Enumerable.Range(0,4).Select(_=>new List<Definition>()).ToArray();
+        internal List<TerrainCard>[] piles;
         public IReadOnlyList<int> Mana => Array.AsReadOnly(mana);
         public Definition Commander {get;internal set;} public bool CommanderReady {get;internal set;} public int CommanderCasts {get;internal set;}
         public int DeathCounters {get;internal set;} public int LastCreatedTerrain {get;internal set;}=-1;
@@ -55,11 +60,13 @@ namespace TCG.Foundation
         public int HandCount=>NetHand??hand.Count; public int MainCount=>NetMain??main.Count; public int TerrainCount=>NetTerrain??terrainDeck.Count;
         public IReadOnlyList<Definition> Exile=>exile.AsReadOnly(); public IReadOnlyList<Definition> Graveyard=>grave.AsReadOnly(); public IReadOnlyList<Definition> TerrainGraveyard=>terrainGrave.AsReadOnly();
         internal Seat(string name,int team) { Name=name; Team=team; }
-        public Definition Top(int pile)=>piles[pile].Count==0 ? null : piles[pile][piles[pile].Count-1];
+        public Definition Top(int pile)=>piles[pile].Count==0 ? null : piles[pile][piles[pile].Count-1].Card;
+        public int TopOwner(int pile)=>piles[pile].Count==0?-1:piles[pile][piles[pile].Count-1].Owner;
         public int PileCount(int pile)=>NetPiles==null?piles[pile].Count:NetPiles[pile];
     }
     public sealed class Pending
     {
+        public string VisualId { get; internal set; }=Guid.NewGuid().ToString("N");
         public int Owner { get; internal set; } public int Target { get; internal set; } public int TargetUnit { get; internal set; }
         public Definition Card { get; internal set; } public int[] Attackers { get; internal set; }=Array.Empty<int>();
         public int[] Blockers { get; internal set; }=Array.Empty<int>(); public int Defender { get; internal set; }=-1; public int Chooser { get; internal set; }
@@ -69,8 +76,8 @@ namespace TCG.Foundation
     }
     public sealed class MatchEvent
     {
-        public readonly string Kind; public readonly int From,To,Piece; public readonly Definition Card; public readonly int Owner;
-        public MatchEvent(string kind,int from,int to,int piece=-1,Definition card=null,int owner=-1) { Kind=kind; From=from; To=to; Piece=piece; Card=card; Owner=owner; }
+        public readonly string Kind; public readonly int From,To,Piece; public readonly Definition Card; public readonly int Owner,Color,Amount; public readonly string StackId;
+        public MatchEvent(string kind,int from,int to,int piece=-1,Definition card=null,int owner=-1,int color=-1,int amount=0,string stackId=null) { Kind=kind; From=from; To=to; Piece=piece; Card=card; Owner=owner; Color=color; Amount=amount; StackId=stackId; }
     }
     public interface IEffectHandler
     {
@@ -106,6 +113,7 @@ namespace TCG.Foundation
         public const int Width=11;
         public static readonly int[] Capitals={55,5,65,115}; // Center of each edge, confirmed by the author on 2026-09-19.
         readonly Cell[] cells=Enumerable.Range(0,121).Select(_=>new Cell()).ToArray();
+        readonly List<TerrainCard>[] terrainPiles=Enumerable.Range(0,4).Select(_=>new List<TerrainCard>()).ToArray();
         readonly Seat[] seats; readonly List<Pending> stack=new List<Pending>(); readonly List<string> log=new List<string>();
         readonly EffectRegistry effects; int nextPiece=1, passes; int[] turnOrder;
         public IReadOnlyList<Cell> Board=>Array.AsReadOnly(cells); public IReadOnlyList<Seat> Seats=>Array.AsReadOnly(seats);
@@ -128,13 +136,18 @@ namespace TCG.Foundation
             var random=new Random(seed);
             for(int p=0;p<count;p++)
             {
-                var seat=seats[p]; seat.main.AddRange(main[p].Select(id=>catalog.Get(catalog.Identity(id)))); seat.terrainDeck.AddRange(terrains[p].Select(id=>catalog.Get(catalog.Identity(id))));
+                var seat=seats[p]; seat.piles=terrainPiles; seat.main.AddRange(main[p].Select(id=>catalog.Get(catalog.Identity(id)))); seat.terrainDeck.AddRange(terrains[p].Select(id=>catalog.Get(catalog.Identity(id))));
                 Shuffle(seat.main,random); Shuffle(seat.terrainDeck,random);
                 for(int n=0;n<5;n++) seat.hand.Add(Pop(seat.main)); // Explicit five-card test-room preset; full preparation remains a design question.
                 int capital=Capital(p,count); cells[capital].CapitalOwner=p; SetTerrain(capital,p,Pop(seat.terrainDeck));
                 foreach(int neighbor in Neighbors(capital).Take(3)) SetTerrain(neighbor,p,Ruins);
-                for(int n=0;n<4;n++) for(int k=0;k<2;k++) seat.piles[n].Add(Pop(seat.terrainDeck));
+
             }
+            var contributors=Enumerable.Range(0,count).ToList(); Shuffle(contributors,random);
+            var opening=new List<TerrainCard>();
+            for(int n=0;n<8;n++){int owner=contributors[n%count];opening.Add(new TerrainCard(Pop(seats[owner].terrainDeck),owner));}
+            Shuffle(opening,random);
+            for(int n=0;n<8;n++)terrainPiles[n%4].Add(opening[n]);
             Active=random.Next(count);
             turnOrder=count==3 ? new[]{Active}.Concat(Enumerable.Range(0,count).Where(p=>p!=Active).OrderBy(p=>Math.Abs(Capital(p,count)%11-Capital(Active,count)%11)+Math.Abs(Capital(p,count)/11-Capital(Active,count)/11))).ToArray() : Enumerable.Range(0,count).ToArray();
             BeginTurn(); Note("Mesa de teste: cartas e decks provisórios; primeiro jogador sorteado.");
@@ -146,7 +159,7 @@ namespace TCG.Foundation
         public static bool Adjacent(int a,int b)=>Valid(a)&&Valid(b)&&Math.Abs(a%11-b%11)+Math.Abs(a/11-b/11)==1;
         static bool Valid(int i)=>i>=0&&i<121;
         static void Check(bool condition,string message) { if(!condition) throw new InvalidOperationException(message); }
-        static Definition Pop(List<Definition> list) { var result=list[list.Count-1]; list.RemoveAt(list.Count-1); return result; }
+        static T Pop<T>(List<T> list) { var result=list[list.Count-1]; list.RemoveAt(list.Count-1); return result; }
         static void Shuffle<T>(List<T> list,Random r) { for(int i=list.Count-1;i>0;i--) { int j=r.Next(i+1); var a=list[i]; list[i]=list[j]; list[j]=a; } }
         public bool Enemies(int a,int b)=>a>=0&&b>=0&&a<seats.Length&&b<seats.Length&&seats[a].Team!=seats[b].Team&&!seats[b].Eliminated;
         public Piece Find(int id)=>cells.SelectMany(c=>c.pieces).FirstOrDefault(p=>p.Id==id);
@@ -214,13 +227,14 @@ namespace TCG.Foundation
         }
         internal void DrawCard(int owner)
         { if(seats[owner].main.Count==0) { Eliminate(owner); Note(seats[owner].Name+" tentou comprar do principal vazio."); } else seats[owner].hand.Add(Pop(seats[owner].main)); }
-        void DrawTerrain(int owner,int pile) { if(seats[owner].terrainDeck.Count>0) seats[owner].piles[pile].Add(Pop(seats[owner].terrainDeck)); }
+        void DrawTerrain(int owner,int pile) { if(seats[owner].terrainDeck.Count>0) terrainPiles[pile].Add(new TerrainCard(Pop(seats[owner].terrainDeck),owner)); }
+        void SetTerrain(int index,int owner,TerrainCard card) { SetTerrain(index,owner,card.Card); cells[index].TerrainOwner=card.Owner; }
         void SetTerrain(int index,int owner,Definition card) { cells[index].Terrain=card; cells[index].Owner=owner; cells[index].TerrainOwner=owner; }
         void Place(int pile,int target)
         {
             Check(pile>=0&&pile<4&&seats[Active].Top(pile)!=null,"Escolha uma pilha com terreno."); Check(CanPlace(target),"Terreno exige território próprio ou vazio adjacente ao reino.");
             var cell=cells[target]; foreach(var piece in cell.pieces.ToArray()) Kill(piece);
-            if(cell.Terrain!=null&&cell.Terrain.Rule!="ruins"&&cell.TerrainOwner>=0&&!seats[cell.TerrainOwner].Eliminated) seats[cell.TerrainOwner].terrainGrave.Add(cell.Terrain);
+            if(cell.Terrain!=null&&cell.Terrain.Rule!="ruins"&&cell.TerrainOwner>=0) seats[cell.TerrainOwner].terrainGrave.Add(cell.Terrain);
             SetTerrain(target,Active,Pop(seats[Active].piles[pile])); seats[Active].LastCreatedTerrain=target; if(seats[Active].piles[pile].Count==0) DrawTerrain(Active,pile);
             Placed=true; Note(seats[Active].Name+" colocou "+cell.Terrain.Name+"."); Visual?.Invoke(new MatchEvent("terrain",target,target));
             if(AutoAdvanceAfterTerrain) { Phase=Stage.Main; passes=0; QueueMovementOrders(); }
@@ -238,7 +252,7 @@ namespace TCG.Foundation
         { var mana=seats[owner].mana; for(int i=0;i<7;i++) if(mana[i]<card.ColoredCost[i]) return false; return mana.Sum()-card.ColoredCost.Sum()>=card.Cost; }
         void Pay(int owner,Definition card)
         { var mana=seats[owner].mana; for(int i=0;i<7;i++) mana[i]-=card.ColoredCost[i]; int left=card.Cost; for(int i=6;i>=0&&left>0;i--) { int v=Math.Min(left,mana[i]); mana[i]-=v; left-=v; } }
-        internal void AddMana(int owner,int color,int amount) { seats[owner].mana[color]+=amount; }
+        internal void AddMana(int owner,int color,int amount,int from=-1) { seats[owner].mana[color]+=amount; if(amount>0)Visual?.Invoke(new MatchEvent("mana",from>=0?from:Capital(owner,seats.Length),Capital(owner,seats.Length),owner:owner,color:color,amount:amount)); }
         void Play(string id,int target,int unit)
         {
             var card=seats[Priority].hand.FirstOrDefault(c=>c.Id==id); Check(card!=null,"Carta não está na sua mão."); Check(CanPlay(card,target,unit),"Carta indisponível: confira fase, mana e alvo.");
@@ -284,7 +298,7 @@ namespace TCG.Foundation
             passes++;
             if(passes<seats.Count(s=>!s.Eliminated)) { Priority=Next(Priority); return; }
             passes=0;
-            if(stack.Count>0) { var item=stack[stack.Count-1]; stack.RemoveAt(stack.Count-1); Resolve(item); if(!Over) Priority=Active; }
+            if(stack.Count>0) { var item=stack[stack.Count-1]; stack.RemoveAt(stack.Count-1); Resolve(item); completedVisuals.Add(item); if(!Over) Priority=Active; }
             else if(Phase==Stage.Main) { Phase=Stage.End; Priority=Active; }
             else { EndModifiers(); StateCheck(); if(stack.Count>0||Choice!=null||work.Count>0){Priority=Active;return;} Clean(Active); Active=Next(Active); Turn++; BeginTurn(); }
         }
@@ -313,7 +327,7 @@ namespace TCG.Foundation
             for(int i=0;i<item.Attackers.Length;i++)
             {
                 var a=Find(item.Attackers[i]); if(a==null||!InRange(a,item.Target)) continue;
-                Visual?.Invoke(new MatchEvent("attack",Position(a.Id),item.Target,a.Id));
+                Visual?.Invoke(new MatchEvent("attack",Position(a.Id),item.Target,a.Id,a.Card,a.Owner));
                 int id=item.Blockers[i];
                 if(id==-1) { if(Enemies(item.Owner,cells[item.Target].CapitalOwner)) {capitalDamage+=a.Attack;AuthorAfterDamage(a,a.Attack);MarkCommanderDamage(a,cells[item.Target].CapitalOwner,a.Attack);} continue; }
                 var b=Find(id); if(b==null||Position(id)!=item.Target||!Enemies(a.Owner,b.Owner)) continue;
@@ -344,7 +358,7 @@ namespace TCG.Foundation
             Priority=Active; Phase=Stage.Draw; Placed=false; passes=0; Clean(Active); Array.Clear(seats[Active].mana,0,7);
             foreach(var c in cells)
             {
-                if(c.Owner==Active&&c.Terrain!=null&&c.Terrain.Rule!="ruins") seats[Active].mana[c.Terrain.Rule=="portals"?authorRandom.Next(6):c.Terrain.Color]++;
+                if(c.Owner==Active&&c.Terrain!=null&&c.Terrain.Rule!="ruins") AddMana(Active,c.Terrain.Rule=="portals"?authorRandom.Next(6):c.Terrain.Color,1,Array.IndexOf(cells,c));
                 foreach(var p in c.pieces.Where(p=>p.Owner==Active)) { p.Movement=p.Card.Movement; p.Actions=p.Card.Actions+p.PermanentActions+EquipmentBonus(p,3)+ActionAura(p); p.PreviousOwnTurn=p.LastOwnTurn; p.LastOwnTurn=Turn; }
             }
             StartModifiers(); TurnTriggers();
@@ -354,7 +368,7 @@ namespace TCG.Foundation
         void Eliminate(int owner)
         {
             if(seats[owner].Eliminated) return; seats[owner].Eliminated=true; if(Choice?.Owner==owner)Choice=null; seats[owner].hand.Clear(); seats[owner].main.Clear(); seats[owner].terrainDeck.Clear();
-            seats[owner].grave.Clear(); seats[owner].terrainGrave.Clear(); Array.Clear(seats[owner].mana,0,7); foreach(var p in seats[owner].piles) p.Clear();
+            seats[owner].grave.Clear(); seats[owner].terrainGrave.Clear(); Array.Clear(seats[owner].mana,0,7);
             foreach(var c in cells) c.pieces.RemoveAll(p=>p.Owner==owner); stack.RemoveAll(p=>p.Owner==owner||p.Defender==owner); passes=0;
             Note(seats[owner].Name+" foi eliminado; seus terrenos permanecem.");
         }
