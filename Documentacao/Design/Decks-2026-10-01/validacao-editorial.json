@@ -1,0 +1,15 @@
+{
+  "checksPassed": 28896,
+  "decks": 29,
+  "mainSlots": 2900,
+  "terrainSlots": 1450,
+  "newProposals": 570,
+  "uniqueSelectedCards": 712,
+  "runtimeChanged": false,
+  "gameplayTested": false,
+  "filesSha256": {
+    "catalogo-editorial.json": "b81d206b45997eaef95af5c2a59563270dcf4f833153711331b3ab6311d2a8e1",
+    "decks-editoriais.json": "ac9151dbaf4ab8b64e03d3a38e364e8320225688ed90c5f2400992fe7c80beaf",
+    "avaliar-decks.html": "1510c2a6ba2109598fe01260aa27a0f2c8059f1b40c93730fafce76cf926ac8d"
+  }
+}
