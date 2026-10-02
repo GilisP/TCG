@@ -70,7 +70,7 @@ namespace TCG.Foundation
     Trigger(source,"curse-steal",p,Position(p.Id));
   }
   readonly Dictionary<int,Piece> lastDamageSource=new Dictionary<int,Piece>();
-  bool InfiltrationTarget(Piece p,int at)=>Valid(at)&&cells[at].Terrain!=null&&!Blocked(p,at)&&!cells[at].pieces.Any(q=>q.Card.Kind==CardType.Creature||q.Card.IsVehicle);
+  bool InfiltrationTarget(Piece p,int at)=>!AbilityMoveBlocked(p,p.Owner)&&Valid(at)&&cells[at].Terrain!=null&&!Blocked(p,at)&&!cells[at].pieces.Any(q=>q.Card.Kind==CardType.Creature||q.Card.IsVehicle);
   bool NewResolve(Pending item)
   {
    int o=item.Owner;var src=item.Source;
@@ -104,7 +104,7 @@ namespace TCG.Foundation
       var valid=stolen.Where(p=>seats[p.OriginalOwner].grave.Contains(p.Card)).ToArray();if(valid.Length==0)return;src.Actions--;
       foreach(var old in valid){seats[old.OriginalOwner].grave.Remove(old.Card);var e=SpawnNew(o,old.Card,Position(src.Id),old.OriginalOwner);e.AttachedTo=src.Id;}
      },true);return true;
-    case "test-counter":var countered=stack.LastOrDefault(x=>x.Rule==null&&x.Card!=null&&(x.Card.Kind==CardType.Spell||x.Card.Kind==CardType.Instant));if(countered!=null){stack.Remove(countered);FinishSpell(countered);StackResult(countered,true);}return true;
+    case "test-counter":var countered=stack.LastOrDefault(x=>x.Rule==null&&x.Card!=null&&(x.Card.Kind==CardType.Spell||x.Card.Kind==CardType.Instant));if(countered!=null){stack.Remove(countered);FinishSpell(countered,false);StackResult(countered,true);}return true;
     case "test-mill":Ask(o,"Grimório alvo",Enumerable.Range(0,seats.Length).Where(s=>!seats[s].Eliminated).Select(s=>new ChoiceOption(s,seats[s].Name)),s=>MillCards(s,2));return true;
     case "test-blessing":case "test-curse":return true;
     default:return false;
@@ -141,8 +141,11 @@ namespace TCG.Foundation
   }
   void QueueForeignCast(int owner,int original,Definition card,bool exileAfter,Action commit)
   {
-   void Cast(int at,int unit){commit();stack.Add(new Pending{Owner=owner,CardOwner=original,Card=card,Target=at,TargetUnit=unit,ExileAfter=exileAfter});passes=0;ReflectDeclaredTarget(stack.Last());AuthorPlayed(owner,card);Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));}
-   if(card.Kind==CardType.Enchantment)Ask(owner,"Criatura para encantar",All.Where(p=>p.Card.Kind==CardType.Creature&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
+   void Cast(int at,int unit){
+    void Announce(Piece sacrifice){commit();stack.Add(new Pending{Owner=owner,CardOwner=original,Card=card,Target=at,TargetUnit=unit,ExileAfter=exileAfter});passes=0;var pending=stack.Last();if(sacrifice!=null)CommitKill(sacrifice);ReflectDeclaredTarget(pending);AuthorPlayed(owner,card);Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));}
+    var extra=card.Abilities.FirstOrDefault(a=>a.trigger=="cast"&&a.sacrifice!="");if(extra!=null)PayAbilitySacrifice(extra,owner,null,Announce);else Announce(null);
+   }
+   if(card.Kind==CardType.Enchantment)Ask(owner,"Criatura para encantar",All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(card,p,owner)&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
    else if(card.Permanent)Ask(owner,"Terreno para a carta exilada",Enumerable.Range(0,121).Where(at=>cells[at].Terrain!=null&&cells[at].Owner==owner).Select(at=>new ChoiceOption(at,"Tile "+at%11+","+at/11)),at=>Cast(at,-1));
    else if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy))Ask(owner,"Alvo da magia",All.Where(p=>Enemies(owner,p.Owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
    else Cast(-1,-1);
@@ -151,11 +154,11 @@ namespace TCG.Foundation
   {if(IsRemoteView)return NetCan("exile",id);
    var x=exilePermissions.FirstOrDefault(p=>p.Id==id&&p.Owner==Priority);
    if(x==null||Over||Choice!=null||Defense!=null||!x.Card.Playable||x.Card.Rule=="destiny")return false;
-   if(x.Card.Kind==CardType.Instant&&!ResponseTargets(x.Card,Priority))return false;
+   if(x.Card.Kind==CardType.Instant&&!ResponseTargets(x.Card,Priority)||x.Card.Rule=="abilities"&&!AbilityResponse(x.Card,Priority))return false;
    if(x.Card.Kind!=CardType.Instant&&(Phase!=Stage.Main||Priority!=Active||stack.Count>0))return false;
    if(x.Card.Kind==CardType.Instant&&Phase!=Stage.Main&&Phase!=Stage.End&&stack.Count==0)return false;
    if(!(x.AnyMana?seats[Priority].mana.Sum()>=x.Card.TotalCost:CanPay(Priority,x.Card)))return false;
-   if(x.Card.Kind==CardType.Enchantment)return All.Any(p=>p.Card.Kind==CardType.Creature&&!Immune(p,Priority));
+   if(x.Card.Kind==CardType.Enchantment)return All.Any(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(x.Card,p,Priority)&&!Immune(p,Priority));
    if(x.Card.Permanent)return cells.Any(c=>c.Terrain!=null&&c.Owner==Priority);
    return !x.Card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(Priority,p.Owner));
   }
@@ -167,12 +170,12 @@ namespace TCG.Foundation
   internal void MillCards(int owner,int count)
   {
    for(int n=0;n<count&&seats[owner].main.Count>0;n++){
-    var card=Pop(seats[owner].main);seats[owner].grave.Add(card);if(card.Kind==CardType.Terrain||!card.Playable)continue;
+    var card=Pop(seats[owner].main);int destination=CardOriginalOwner(card,owner);var milled=seats[destination].grave.AddMilled(card);if(card.Kind==CardType.Terrain||!card.Playable)continue;
     foreach(var thief in All.Where(p=>p.Card.Rule=="crypt-thief").ToArray()){
-     var captured=card;int who=owner;work.Enqueue(()=>{
-      int o=thief.Owner;if(Find(thief.Id)==null||!seats[who].grave.Contains(captured)||TroopPA(o)<captured.TotalCost)return;
+     var captured=card;int who=destination;work.Enqueue(()=>{
+      int o=thief.Owner;if(Find(thief.Id)==null||!seats[who].grave.ContainsEntry(milled.Id)||TroopPA(o)<captured.TotalCost)return;
       Ask(o,"Ladrão: exilar "+captured.Name+" por "+captured.TotalCost+" PA?",new[]{new ChoiceOption(1,"Pagar com tropas")},key=>{
-       if(key!=1||!seats[who].grave.Contains(captured))return;PayTroopPA(o,captured.TotalCost,()=>{if(!seats[who].grave.Remove(captured))return;seats[who].exile.Add(captured);exilePermissions.Add(new ExilePermission{Id=nextPermission++,Owner=o,CardOwner=who,Card=captured,AnyMana=true});});
+       if(key!=1||!seats[who].grave.ContainsEntry(milled.Id))return;PayTroopPA(o,captured.TotalCost,()=>{if(!seats[who].grave.RemoveEntry(milled.Id))return;seats[who].exile.Add(captured);exilePermissions.Add(new ExilePermission{Id=nextPermission++,Owner=o,CardOwner=who,Card=captured,AnyMana=true});});
       },true);
      });
     }
@@ -184,10 +187,10 @@ namespace TCG.Foundation
    if(remaining<=0){done();return;}
    Ask(owner,"Escolha tropa: faltam "+remaining+" PA",All.Where(p=>p.Owner==owner&&p.Card.Kind==CardType.Creature&&CanAct(p)&&p.Actions>0).Select(p=>new ChoiceOption(p.Id,p.Card.Name+" · "+p.Actions+" PA")),id=>{var p=Find(id);if(p==null)return;int spent=Math.Min(remaining,p.Actions);p.Actions-=spent;PayTroopPA(owner,remaining-spent,done);});
   }
-  void FinishSpell(Pending item)
+  void FinishSpell(Pending item,bool resolved=true)
   {
    int owner=item.CardOwner<0?item.Owner:item.CardOwner;
-   if(item.ExileAfter)seats[owner].exile.Add(item.Card);else seats[owner].grave.Add(item.Card);
+   if(item.ExileAfter||resolved&&item.Card.Traits.Contains("exile-on-resolve"))seats[owner].exile.Add(item.Card);else seats[owner].grave.Add(item.Card);
   }
  }
 }

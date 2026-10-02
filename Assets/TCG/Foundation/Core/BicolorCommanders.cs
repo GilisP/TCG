@@ -28,7 +28,7 @@ namespace TCG.Foundation
         internal int BaseToughness(Piece p)=>p.Card.Rule=="royal-devotion"?Devotion(p.Owner,0):p.Card.Defense;
         bool Lucio(Piece p)=>p.Card.Rule=="dual-receptacle"&&seats[p.Owner].mana[5]>=seats[p.Owner].mana[3];
         bool Dazmond(Piece p)=>p.Card.Rule=="dual-receptacle"&&seats[p.Owner].mana[3]>=seats[p.Owner].mana[5];
-        internal int ActionAura(Piece p)=>p.Card.Kind==CardType.Creature?All.Count(q=>q.Owner==p.Owner&&Lucio(q)):0;
+        internal int ActionAura(Piece p)=>AbilityBonus(p,3)+(p.Card.Kind==CardType.Creature?All.Count(q=>q.Owner==p.Owner&&Lucio(q)):0);
         int NonCreatureDamageBonus(int amount,Piece source,int caster)
         {
             int owner=source?.Owner??caster;if(amount<=0||owner<0||source?.Card.Kind==CardType.Creature)return amount;
@@ -37,7 +37,7 @@ namespace TCG.Foundation
         void DamageCapital(int target,int amount,Piece source=null,int caster=-1)
         {
             if(target<0||seats[target].Eliminated)return;
-            LoseLife(target,NonCreatureDamageBonus(amount,source,caster));
+            int damage=NonCreatureDamageBonus(amount,source,caster);AbilityCapitalHit(source,target,damage);LoseLife(target,damage);
         }
         void BicolorBeforeDeath(Piece dead,int at)
         {

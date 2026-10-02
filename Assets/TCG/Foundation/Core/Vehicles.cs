@@ -10,8 +10,8 @@ namespace TCG.Foundation
   public IReadOnlyList<string> EffectiveKeywords(int id)
   {
    var p=Find(id);if(p==null)return Array.Empty<string>();
-   var traits=p.Card.Keywords.AsEnumerable();
-   if(p.Card.IsVehicle&&All.Any(q=>q.Owner==p.Owner&&q.Card.Rule=="valeria"))traits=traits.Concat(Passengers(id).SelectMany(q=>q.Card.Keywords));
+   var traits=p.Card.Keywords.Concat(AbilityKeywords(p));
+   if(p.Card.IsVehicle&&All.Any(q=>q.Owner==p.Owner&&q.Card.Rule=="valeria"))traits=traits.Concat(Passengers(id).SelectMany(q=>q.Card.Keywords.Concat(AbilityKeywords(q))));
    return traits.Distinct().ToArray();
   }
   bool Crewed(Piece p)=>!p.Card.IsVehicle||Passengers(p.Id).Count>=p.Card.VehicleCrew;

@@ -18,13 +18,13 @@ namespace TCG.Foundation
     }
     internal sealed class Modifier
     {
-        internal int Attack,Defense,Range,Prevent,EndTurn=-1,NextOwner=-1,DelayedDamage;
+        internal int Attack,Defense,Range,Movement,Prevent,EndTurn=-1,NextOwner=-1,DelayedDamage; internal string Keyword=""; internal bool NoMove,NoAttack,ImmuneEnemy,AccumulatePrevention;
         internal bool Formation,CombatOnly;
     }
     public static class MedievalRules
     {
         public static readonly HashSet<string> Programs=new HashSet<string>{
-            "", "equipment-death","phoenix-return","rage","rage-one", "guard","march-pair","formation-prevent","rally","sun-turn","bastion-move","king-turn",
+            "", "abilities", "equipment-death","phoenix-return","rage","rage-one", "guard","march-pair","formation-prevent","rally","sun-turn","bastion-move","king-turn",
             "grave-bottom","blood-price","grave-cycle","recover-one","death-burst","recover-small","recover-two","recover-any","altar","recover-two-hand","immortal",
             "hold","repair","fortify","attack-buff","damage-two","damage-building","explosion","fire-march","phoenix",
             "move-ally","range-buff","move-any-two","swap","move-self","move-subject","wind-all","wind-extra",
@@ -38,7 +38,7 @@ namespace TCG.Foundation
             "pass-units","equipment-pa","after-move","ally-after-move","move-extra",
             "enter-move-ally","enter-push","hurt-push","enemy-after-push","enter-leviathan","hit-push"
         };
-        public static bool Valid(string rule,string[] traits)=>(Programs.Contains(rule??"")||AuthorRules.Programs.Contains(rule??""))&&(traits==null||traits.All(t=>Traits.Contains(t)||AuthorRules.Traits.Contains(t)));
+        public static bool Valid(string rule,string[] traits)=>(Programs.Contains(rule??"")||AuthorRules.Programs.Contains(rule??""))&&(traits==null||traits.All(t=>t=="immune-own"||t=="exile-on-resolve"||Traits.Contains(t)||AuthorRules.Traits.Contains(t)));
     }
     public sealed partial class Match
     {
@@ -52,7 +52,7 @@ namespace TCG.Foundation
         int effectBudget; bool checking; Definition resolvingVisual; int resolvingOwner; bool hadImpact;
         IEnumerable<Piece> All=>cells.SelectMany(c=>c.pieces);
         public bool Allied(int a,int b)=>a>=0&&b>=0&&seats[a].Team==seats[b].Team&&!seats[b].Eliminated;
-        static bool Has(Piece p,string trait)=>p!=null&&(p.Card.Traits.Contains(trait)||p.Card.Keywords.Contains(trait)||p.Card.IsVehicle&&(p.Game?.EffectiveKeywords(p.Id).Contains(trait)??false));
+        static bool Has(Piece p,string trait)=>p!=null&&(p.Card.Traits.Contains(trait)||(p.Game?.AbilityKeywords(p).Contains(trait)??false)||p.Card.Keywords.Contains(trait)||p.Card.IsVehicle&&(p.Game?.EffectiveKeywords(p.Id).Contains(trait)??false));
         static int Distance(int a,int b)=>Math.Abs(a%11-b%11)+Math.Abs(a/11-b/11);
         bool Near(Piece a,Piece b,int radius=1)=>a!=b&&Position(a.Id)>=0&&Position(b.Id)>=0&&(radius==1?Distance(Position(a.Id),Position(b.Id))==1:Distance(Position(a.Id),Position(b.Id))<=radius);
         bool Formation(Piece p)=>All.Any(q=>q.Card.Kind==CardType.Creature&&Allied(q.Owner,p.Owner)&&Near(p,q));
@@ -73,7 +73,7 @@ namespace TCG.Foundation
         }
         internal int Bonus(Piece p,int stat)
         {
-            int n=AuthorBonus(p,stat)+EquipmentBonus(p,stat)+p.Modifiers.Sum(m=>stat==0?m.Attack:stat==1?m.Defense:stat==2?m.Range:0);
+            int n=AbilityBonus(p,stat)+AuthorBonus(p,stat)+EquipmentBonus(p,stat)+p.Modifiers.Sum(m=>stat==0?m.Attack:stat==1?m.Defense:stat==2?m.Range:0);
             if(stat==1&&Has(p,"formation-defense")&&Formation(p)) n++;
             if(stat==0&&Has(p,"near-building")&&All.Any(q=>q.Card.Kind==CardType.Construction&&Allied(p.Owner,q.Owner)&&Near(p,q))) n++;
             if(stat==1&&Has(p,"hold-defense")&&p.LastMovedTurn!=Turn) n+=3;
@@ -171,14 +171,14 @@ namespace TCG.Foundation
         {
             if(amount<=0||p==null||Find(p.Id)==null) return;
             int remaining=ReflectDamage(p,NonCreatureDamageBonus(amount,source,caster),source,caster);if(remaining>0&&source!=null)lastDamageSource[p.Id]=source;else if(remaining>0)lastDamageSource.Remove(p.Id);
-            foreach(var m in p.Modifiers.Where(m=>m.Prevent>0&&(!m.Formation||Formation(p)))) {int used=Math.Min(m.Prevent,remaining);remaining-=used;m.Prevent=0;}
+            foreach(var m in p.Modifiers.Where(m=>m.Prevent>0&&(!m.Formation||Formation(p)))) {int used=Math.Min(m.Prevent,remaining);remaining-=used;m.Prevent=m.AccumulatePrevention?m.Prevent-used:0;}
             if(p.Health>0&&remaining>=p.Health)p.BeforeLethalDamage=p.Damage;
             p.Damage+=remaining;if(remaining>0)p.LastDamagedTurn=Turn;
             if(check) { AfterDamage(p,remaining,source); if(p.Health<=0) { Kill(p,source?.Owner??caster); if(source!=null&&p.Card.Kind==CardType.Creature)KillReward(source); } }
         }
         void AfterDamage(Piece p,int amount,Piece source)
         {
-            if(amount<=0) return; AuthorAfterDamage(source,amount);
+            if(amount<=0) return; AbilitiesDamaged(p,amount,source); AuthorAfterDamage(source,amount);
             if(p.Health>0&&Has(p,"hurt-rage")) Trigger(p,"rage");
             if(p.Health>0&&source!=null&&Has(p,"hurt-push")) Trigger(p,"push-attacker",source);
             if(source!=null&&Has(source,"hit-push")&&source.OnceTurn!=Turn) {source.OnceTurn=Turn;Trigger(source,"leviathan-hit",p);}
@@ -193,12 +193,12 @@ namespace TCG.Foundation
         }
         void Enter(Piece p)
         {
-            NewEnter(p);foreach(var pair in new[]{("enter-recover-one","recover-one"),("enter-recover-two","recover-two-hand"),("enter-repair","repair"),("enter-fire","damage-two"),("enter-move-ally","enter-move-ally"),("enter-push","enter-push"),("enter-leviathan","leviathan-enter")})
+            AbilitiesEntered(p);NewEnter(p);foreach(var pair in new[]{("enter-recover-one","recover-one"),("enter-recover-two","recover-two-hand"),("enter-repair","repair"),("enter-fire","damage-two"),("enter-move-ally","enter-move-ally"),("enter-push","enter-push"),("enter-leviathan","leviathan-enter")})
                 if(Has(p,pair.Item1)) Trigger(p,pair.Item2);
         }
         void TurnTriggers()
         {
-            AuthorTurn();
+            AuthorTurn();foreach(var p in All.Where(p=>p.Owner==Active).ToArray())AbilityEvent(p,"turn");
             foreach(var p in All.Where(p=>p.Owner==Active).ToArray()) { if(Has(p,"turn-sun")) Trigger(p,"sun-turn");if(Has(p,"turn-king")) Trigger(p,"king-turn"); }
             foreach(var f in phoenix.Where(f=>f.owner==Active&&f.turn<Turn).ToArray())
             {
@@ -211,7 +211,7 @@ namespace TCG.Foundation
         }
         void OnDeath(Piece p,int cell,int killer)
         {
-            AuthorDeath(p,cell);
+            AbilitiesDied(p,cell);AuthorDeath(p,cell);
             if(p.Card.Kind==CardType.Creature&&killer>=0&&Enemies(p.Owner,killer)) enemyDeaths.Add((p.Owner,Turn,cell));
             if(Has(p,"death-bottom")) Trigger(p,"grave-bottom",null,cell);
             if(Has(p,"death-immortal")) Trigger(p,"immortal",null,cell);
@@ -224,6 +224,7 @@ namespace TCG.Foundation
         void Detach(Piece p)
         {
             foreach(var e in All.Where(e=>e.AttachedTo==p.Id).ToArray()) {
+                AbilityEvent(e,"hostDeath",p,Position(p.Id));
                 if(Has(e,"equipment-attack-2-death")) Trigger(e,"equipment-death",p);
                 e.AttachedTo=-1;if(e.Card.Kind==CardType.Enchantment)CommitKill(e);
             }
@@ -232,19 +233,19 @@ namespace TCG.Foundation
         public bool CanEquip(int equipment,int host)
         {if(IsRemoteView)return NetCan("equip",equipment,host);
             var e=Find(equipment);var p=Find(host);
-            return Choice==null&&Phase==Stage.Main&&Active==Priority&&stack.Count==0&&e!=null&&e.Card.Kind==CardType.Equipment&&e.Owner==Active&&p!=null&&p.Card.Kind==CardType.Creature&&p.Owner==Active&&e.AttachedTo!=host&&seats[Active].mana.Sum()>=e.Card.EquipCost;
+            return Choice==null&&Phase==Stage.Main&&Active==Priority&&stack.Count==0&&e!=null&&e.Card.Kind==CardType.Equipment&&e.Owner==Active&&p!=null&&p.Card.Kind==CardType.Creature&&p.Owner==Active&&e.AttachedTo!=host&&(!e.Card.Id.StartsWith("PD26-")||Position(equipment)==Position(host))&&seats[Active].mana.Sum()>=AbilityEquipCost(e,p);
         }
         void Equip(int equipment,int host)
         {
             MainOnly();Check(CanEquip(equipment,host),"Selecione equipamento seu e criatura sua; pague equipar.");
             var e=Find(equipment);var old=Find(e.AttachedTo); if(old!=null&&Has(e,"equipment-pa"))old.Actions=Math.Max(0,old.Actions-1);
-            int left=e.Card.EquipCost;for(int i=6;i>=0&&left>0;i--){int v=Math.Min(left,seats[Active].mana[i]);seats[Active].mana[i]-=v;left-=v;}
+            int left=AbilityEquipCost(e,Find(host));MarkAbilityEquip(Find(host));for(int i=6;i>=0&&left>0;i--){int v=Math.Min(left,seats[Active].mana[i]);seats[Active].mana[i]-=v;left-=v;}
             e.AttachedTo=host;var p=Find(host);if(Has(e,"equipment-pa"))p.Actions++;
             cells[Position(e.Id)].pieces.Remove(e);cells[Position(host)].pieces.Add(e);
             Note(e.Card.Name+" equipado em "+p.Card.Name+".");StateCheck();
         }
-        public bool CanActivate(int id) {if(IsRemoteView)return NetCan("activate",id);var p=Find(id);if(MonkResponse(p))return true;return p!=null&&CanAct(p)&&p.Owner==Active&&(Has(p,"activate-altar")&&Powered(p)&&p.OnceTurn!=Turn||AuthorCanActivate(p))&&stack.Count==0&&Priority==Active&&Phase==Stage.Main;}
-        void Activate(int id){if(MonkResponse(Find(id))){NewActivate(Find(id));return;}MainOnly();Check(CanActivate(id),"Habilidade indisponível.");var p=Find(id);if(AuthorCanActivate(p)){AuthorActivate(p);return;}p.OnceTurn=Turn;Trigger(p,"altar",repeatByAcademy:false);}
+        public bool CanActivate(int id) {if(IsRemoteView)return NetCan("activate",id);var p=Find(id);if(MonkResponse(p))return true;return p!=null&&CanAct(p)&&p.Owner==Active&&(Has(p,"activate-altar")&&Powered(p)&&p.OnceTurn!=Turn||AuthorCanActivate(p)||CanUseAbility(p))&&stack.Count==0&&Priority==Active&&Phase==Stage.Main;}
+        void Activate(int id){if(MonkResponse(Find(id))){NewActivate(Find(id));return;}MainOnly();Check(CanActivate(id),"Habilidade indisponível.");var p=Find(id);if(CanUseAbility(p)){UseAbility(p);return;}if(AuthorCanActivate(p)){AuthorActivate(p);return;}p.OnceTurn=Turn;Trigger(p,"altar",repeatByAcademy:false);}
         bool Immune(Piece p,int caster)=>Has(p,"immune-all")||(Enemies(caster,p.Owner)&&(Has(p,"immune-enemy")||All.Any(q=>Has(q,"aura-immune")&&Powered(q)&&Allied(q.Owner,p.Owner)&&Near(q,p))));
         bool Blocked(Piece p,int cell)=>(TerrainRule(cell,"mountain-crossing")&&!Has(p,"flying"))||cells[cell].pieces.Any(q=>q!=p&&Powered(q)&&(Has(q,"block-all")||Has(q,"block-enemy")&&Enemies(p.Owner,q.Owner)));
         bool InRange(Piece p,int target)
@@ -267,20 +268,21 @@ namespace TCG.Foundation
         readonly List<Action> afterBattle=new List<Action>();
         void AfterAttack(Piece p)
         {
+            AbilityEvent(p,"afterAttack");foreach(var equipment in All.Where(e=>e.AttachedTo==p.Id).ToArray())AbilityEvent(equipment,"hostAfterAttack",p);
             if(Has(p,"after-move"))Trigger(p,"move-self");
             foreach(var q in All.Where(q=>Has(q,"ally-after-move")&&Allied(q.Owner,p.Owner)&&Near(q,p,2)&&q.OnceTurn!=Turn).ToArray()){q.OnceTurn=Turn;Trigger(q,"move-subject",p);}
             foreach(var a in afterBattle.ToArray())a();afterBattle.Clear();
         }
         void MarkMoved(Piece p,int from,int to)
         {
-            if(p.CarrierId>=0&&Position(p.CarrierId)!=to)p.CarrierId=-1;CarryPassengers(p,from,to);p.LastMovedTurn=Turn;AuthorMoved(p,from,to);
+            if(p.CarrierId>=0&&Position(p.CarrierId)!=to)p.CarrierId=-1;CarryPassengers(p,from,to);p.LastMovedTurn=Turn;AuthorMoved(p,from,to);if(p.Card.Kind==CardType.Creature){enteredTerrain[to*4+p.Owner]=Turn;foreach(var q in All.Where(q=>q!=p&&q.Owner==p.Owner&&Position(q.Id)==to).ToArray())AbilityEvent(q,"allyEnterHere",p);}
             foreach(var e in All.Where(e=>e.AttachedTo==p.Id).ToArray()){cells[Position(e.Id)].pieces.Remove(e);cells[to].pieces.Add(e);}
             foreach(var q in All.Where(q=>Has(q,"move-extra")&&Allied(q.Owner,p.Owner)&&Distance(Position(q.Id),to)<=3&&q.OnceTurn!=Turn).ToArray()){q.OnceTurn=Turn;Trigger(q,"wind-extra",p);}
         }
         void Displace(int owner,Piece p,int steps,bool optional=true,Func<int,bool> constraint=null,Action declined=null,Action<int> impact=null)
         {
             work.Enqueue(()=>{
-                if(Find(p.Id)==null||p.Card.Kind!=CardType.Creature||Immune(p,owner)){declined?.Invoke();return;}
+                if(Find(p.Id)==null||p.Card.Kind!=CardType.Creature||Immune(p,owner)||AbilityMoveBlocked(p,owner)){declined?.Invoke();return;}
                 int start=Position(p.Id);var reached=new HashSet<int>{start};var frontier=new List<int>{start};
                 for(int k=0;k<steps;k++){var next=new List<int>();foreach(int pos in frontier)foreach(int n in Neighbors(pos))if(cells[n].Terrain!=null&&!Blocked(p,n)&&(constraint==null||constraint(n))&&reached.Add(n))next.Add(n);frontier=next;}
                 reached.Remove(start);if(reached.Count==0){declined?.Invoke();return;}
@@ -298,7 +300,7 @@ namespace TCG.Foundation
             Func<Piece,bool> enemy=p=>p.Card.Kind==CardType.Creature&&Enemies(o,p.Owner);
             Action<Piece> impact=p=>Preview(i,Position(p.Id));
             void MoveEffect(Piece p,int steps,bool optional=true,Func<int,bool> constraint=null,Action declined=null)=>Displace(o,p,steps,optional,constraint,declined,dest=>Preview(i,dest));
-            if(AuthorResolve(i))return;
+            if(ResolveAbilities(i)||AuthorResolve(i))return;
             switch(i.Rule) {
                 case "equipment-death":DrawCard(o);if(!seats[o].Eliminated)LoseLife(o,1);break;
                 case "phoenix-return":

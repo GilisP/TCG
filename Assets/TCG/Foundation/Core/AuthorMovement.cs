@@ -34,7 +34,7 @@ namespace TCG.Foundation
             Ask(target.Owner,"Escudo Espelhado: redirecionar Truque",other.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null){item.TargetUnit=id;item.Target=Position(id);}});
         }        void ApplyDisplacement(int owner,Piece p,int destination,Action<int> impact)
         {
-            if(Find(p.Id)==null||cells[destination].Terrain==null||Blocked(p,destination))return;
+            if(Find(p.Id)==null||AbilityMoveBlocked(p,owner)||cells[destination].Terrain==null||Blocked(p,destination))return;
             int from=Position(p.Id);cells[from].pieces.Remove(p);cells[destination].pieces.Add(p);MarkMoved(p,from,destination);impact?.Invoke(destination);Visual?.Invoke(new MatchEvent("move",from,destination,p.Id));
         }
         void RedirectDisplacement(int owner,Piece p,int destination,HashSet<int> reached,Action<int> impact)

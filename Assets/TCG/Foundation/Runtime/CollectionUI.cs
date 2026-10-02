@@ -35,13 +35,14 @@ namespace TCG.Table
         string CardName(string id){try{return catalog.Get(catalog.Identity(id)).Name;}catch{return "Carta ausente: "+id;}}
         void DrawLibrary()
         {
+            if(plannedDecksOpen){DrawPlannedDecks();return;}
             GUI.enabled=GUI.enabled&&inspected==null&&!filtersOpen;
             
             
             Fill(new Rect(20,82,270,838),Panel);Text(35,96,240,35,"Meus decks",heading,Ink);
             if(Button(35,141,240,37,"Novo deck padrão"))NewDraft();
             if(Button(35,185,240,37,"Novo deck experimental"))NewDraft(true);
-            Text(35,231,240,59,"Padrão: 100 + 50 + comandante. Experimental: mesa de testes com repetições.",small,Muted);
+            if(Button(35,231,240,49,"Decks planejados · 29"))plannedDecksOpen=true;
             deckListScroll=GUI.BeginScrollView(new Rect(28,302,250,425),deckListScroll,new Rect(0,0,230,Math.Max(415,library.Data.decks.Count*52)));
             for(int i=0;i<library.Data.decks.Count;i++){var d=library.Data.decks[i];if(Button(0,i*52,225,46,d.name,true,draft?.id==d.id)){draft=d.Copy();SelectDeckSection(false);libraryMessage="Deck aberto. Alterações só são persistidas ao salvar.";}}
             GUI.EndScrollView();

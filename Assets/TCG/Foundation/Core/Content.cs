@@ -8,6 +8,7 @@ namespace TCG.Foundation
     [Serializable] public sealed class EffectData { public string operation; public int amount; }
     [Serializable] public sealed class CardData
     {
+        public CardAbility[] abilities=Array.Empty<CardAbility>();
         public bool foil; public string id, name, kind, text, rarity, art; public string printedStats="";
         public string unavailableReason = "";
         public string rule = ""; public string[] traits = Array.Empty<string>(); public string[] keywords=Array.Empty<string>(); public int vehicleSeats,vehicleCrew;
@@ -28,6 +29,7 @@ namespace TCG.Foundation
     public enum CardType { Terrain, Creature, Spell, Instant, Construction, Equipment, Artifact, Enchantment }
     public sealed class Definition
     {
+        internal IReadOnlyList<CardAbility> Abilities {get;}
         public bool Foil {get;} public string Id { get; } public string Name { get; } public string Text { get; } public string PrintedStats {get;}
         public string Expansion { get; } public string Art { get; } public string Rarity { get; }
         public CardType Kind { get; } public int Color { get; } public int Cost { get; }
@@ -42,7 +44,7 @@ namespace TCG.Foundation
         public IReadOnlyList<EffectSpec> Effects { get; }
         internal Definition(CardData d, string expansion)
         {
-            Foil=d.foil; Id=d.id; Name=d.name; Text=d.text ?? ""; Expansion=expansion; Art=d.art ?? ""; Rarity=d.rarity ?? "common";
+            Abilities=Array.AsReadOnly((d.abilities??Array.Empty<CardAbility>()).Select(a=>a.Copy()).ToArray()); Foil=d.foil; Id=d.id; Name=d.name; Text=d.text ?? ""; Expansion=expansion; Art=d.art ?? ""; Rarity=d.rarity ?? "common";
             Kind=(CardType)Enum.Parse(typeof(CardType),d.kind,true); Color=d.color; Cost=d.cost;
             Attack=d.attack; Defense=d.defense; Movement=d.movement; PrintedStats=string.IsNullOrWhiteSpace(d.printedStats)?d.attack+"/"+d.defense:d.printedStats;
             Subtypes=Array.AsReadOnly((d.subtypes??Array.Empty<string>()).ToArray());IsCommander=d.commander;IdentityColors=Array.AsReadOnly((d.identityColors??Array.Empty<int>()).ToArray());MaxCopies=d.maxCopies;
@@ -110,6 +112,7 @@ namespace TCG.Foundation
                 if(c.coloredCost==null || c.coloredCost.Length!=7 || c.coloredCost.Any(v=>v<0 || v>100)) errors.Add("Custo colorido inválido: "+c.id);
                 if(c.effects==null || c.effects.Any(e=>e==null || !supported.Contains(e.operation) || e.amount<1 || e.amount>100)) errors.Add("Efeito não suportado ou inválido: "+c.id);
                 if(kind==CardType.Terrain && (c.cost!=0 || (c.coloredCost?.Sum() ?? 0)!=0 || (c.effects?.Length ?? 0)!=0)) errors.Add("Terreno deve ser gratuito e sem efeitos nesta versão: "+c.id);
+                if(!AbilitySchema.Valid(c.abilities??Array.Empty<CardAbility>()))errors.Add("Habilidades de dados inválidas: "+c.id);
                 if(c.maxCopies<1||c.maxCopies>100||c.identityColors==null||c.identityColors.Any(x=>x<0||x>5)||c.commander&&kind!=CardType.Creature)errors.Add("Metadados de deck inválidos: "+c.id);
                 if(c.vehicleSeats<0||c.vehicleSeats>20||c.vehicleCrew<0||c.vehicleCrew>c.vehicleSeats||c.vehicleSeats>0&&(kind!=CardType.Artifact||c.vehicleCrew<1)||!MedievalRules.Valid("",c.keywords))errors.Add("Veículo/palavras-chave inválidos: "+c.id);
                 if(c.actions<0||c.actions>10||c.range<1||c.range>11||c.equipCost<0||c.equipCost>100||!MedievalRules.Valid(c.rule,c.traits)) errors.Add("Regra/atributo medieval inválido: "+c.id);

@@ -266,8 +266,9 @@ namespace TCG.Table
             Text(1215,379,350,32,cell.Terrain?.Name??"Vazio",heading,Ink);
 
             Text(1215,421,350,24,"CASA "+selectedCell%11+" × "+selectedCell/11+"   ·   "+cell.Pieces.Count+" peça(s)",small,Gold);
+            if(match.CanActivateTerrain(selectedCell)&&Button(1215,451,350,34,"Ativar habilidade do terreno"))Submit(ActionKind.ActivateTerrain,selectedCell);
 
-            unitScroll=GUI.BeginScrollView(new Rect(1215,459,355,250),unitScroll,new Rect(0,0,328,Math.Max(240,cell.Pieces.Count*62)));
+            unitScroll=GUI.BeginScrollView(new Rect(1215,496,355,180),unitScroll,new Rect(0,0,328,Math.Max(170,cell.Pieces.Count*62)));
 
             for(int n=0;n<cell.Pieces.Count;n++)
 

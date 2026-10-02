@@ -39,10 +39,11 @@ namespace TCG.Table
         public static Match CommanderTable(ContentCatalog catalog,EffectRegistry effects,int players,bool teams,int seed,string[] commanders)
         {
             if(commanders==null||commanders.Length<players)throw new ArgumentException("Escolha um comandante para cada jogador.");
-            var main=new List<string[]>();var terrains=new List<string[]>();
+            var main=new List<string[]>();var terrains=new List<string[]>();var planned=PlannedDeckLoader.Load(catalog);
             for(int seat=0;seat<players;seat++)
             {
                 var commander=catalog.Get(commanders[seat]);if(!commander.IsCommander||!commander.Playable)throw new InvalidOperationException("Comandante indisponível.");
+                var template=planned.Decks.FirstOrDefault(d=>d.commander==commander.Id);if(template!=null){main.Add(template.main.ToArray());terrains.Add(template.terrains.ToArray());continue;}
                 var colors=commander.IdentityColors.Count==0?new[]{6}:commander.IdentityColors.ToArray();
                 var cards=catalog.Cards.Where(c=>c.Playable&&!c.IsCommander&&c.Kind!=CardType.Terrain&&CardFilter.CardColors(c).All(color=>color==6||colors.Contains(color))).OrderBy(c=>c.TotalCost).ThenBy(c=>c.Id).ToArray();
                 if(cards.Length==0||colors.Length==0)throw new InvalidOperationException("Comandante sem base de cartas/terrenos para demonstração.");

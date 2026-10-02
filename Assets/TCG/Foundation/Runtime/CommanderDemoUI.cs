@@ -11,7 +11,7 @@ namespace TCG.Table
   void DrawCommanderDemoSetup()
   {
    Fill(new Rect(45,280,990,645),Panel);Text(75,310,900,45,"EXPERIMENTAR COMANDANTES",heading,Gold);
-   Text(75,369,900,70,"Escolha um comandante por jogador. Cada um recebe um deck de teste com cartas e terrenos das suas cores.",body,Muted);
+   Text(75,369,900,70,"Escolha um comandante por jogador. Cada um recebe sua lista planejada: 100 cartas e 50 terrenos, sem repetições.",body,Muted);
    var choices=catalog.Cards.Where(c=>c.IsCommander&&c.Playable).OrderBy(c=>c.Id).ToArray();
    for(int seat=0;seat<players;seat++)
    {
@@ -20,7 +20,7 @@ namespace TCG.Table
     if(Button(x,y+37,365,61,c.Name)){int index=System.Array.FindIndex(choices,item=>item.Id==c.Id);demoCommanders[seat]=choices[(index+1)%choices.Length].Id;}
     if(Button(x+375,y+37,60,61,"Ver"))inspected=c;
    }
-   Text(75,807,900,90,"Decks experimentais com repetições. A coleção, as moedas e os decks salvos permanecem intactos. Os custos e as regras normais da partida continuam valendo.",small,Muted);
+   Text(75,807,900,90,"Decks planejados com cartas provisórias para balanceamento. A coleção, as moedas e os decks salvos permanecem intactos. Os custos e as regras normais da partida continuam valendo.",small,Muted);
   }
  }
 }

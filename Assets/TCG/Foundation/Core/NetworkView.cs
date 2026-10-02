@@ -21,7 +21,7 @@ namespace TCG.Foundation
  }
  public static class NetworkCards
  {
-  public static CardData Pack(Definition c)=>c==null?null:new CardData{id=c.Id,name=c.Name,kind=c.Kind.ToString(),text=c.Text,rarity=c.Rarity,art=c.Art,rule=c.Rule,traits=c.Traits.ToArray(),keywords=c.Keywords.ToArray(),subtypes=c.Subtypes.ToArray(),commander=c.IsCommander,identityColors=c.IdentityColors.ToArray(),maxCopies=c.MaxCopies,vehicleSeats=c.VehicleSeats,vehicleCrew=c.VehicleCrew,actions=c.Actions,range=c.Range,equipCost=c.EquipCost,color=c.Color,cost=c.Cost,attack=c.Attack,defense=c.Defense,movement=c.Movement,coloredCost=c.ColoredCost.ToArray(),effects=c.Effects.Select(e=>new EffectData{operation=e.Operation,amount=e.Amount}).ToArray(),foil=c.Foil};
+  public static CardData Pack(Definition c)=>c==null?null:new CardData{abilities=c.Abilities.Select(a=>a.Copy()).ToArray(),id=c.Id,name=c.Name,kind=c.Kind.ToString(),text=c.Text,rarity=c.Rarity,art=c.Art,rule=c.Rule,traits=c.Traits.ToArray(),keywords=c.Keywords.ToArray(),subtypes=c.Subtypes.ToArray(),commander=c.IsCommander,identityColors=c.IdentityColors.ToArray(),maxCopies=c.MaxCopies,vehicleSeats=c.VehicleSeats,vehicleCrew=c.VehicleCrew,actions=c.Actions,range=c.Range,equipCost=c.EquipCost,color=c.Color,cost=c.Cost,attack=c.Attack,defense=c.Defense,movement=c.Movement,coloredCost=c.ColoredCost.ToArray(),effects=c.Effects.Select(e=>new EffectData{operation=e.Operation,amount=e.Amount}).ToArray(),foil=c.Foil};
   public static Definition Unpack(CardData d)=>d==null||string.IsNullOrEmpty(d.id)?null:new Definition(d,"network-public");
  }
  public sealed partial class Match
@@ -56,7 +56,7 @@ namespace TCG.Foundation
    var legal=new List<string>();var routes=new List<NetRoute>();void Add(bool yes,string k,int a=-1,int b=-1,string c=""){if(yes)legal.Add(NetKey(k,a,b,c));}
    var pieces=All.ToArray();
    if(Controller==viewer&&!Over){
-    for(int at=0;at<121;at++){Add(CanPlace(at),"place",at);Add(CanSummonCommander(at),"summon",at);foreach(var card in seats[viewer].hand.Distinct()){Add(CanPlay(card,at),"play",at,-1,card.Id);foreach(var p in cells[at].pieces)Add(CanPlay(card,at,p.Id),"play",at,p.Id,card.Id);}}
+    for(int at=0;at<121;at++){Add(CanActivateTerrain(at),"terrainAbility",at);Add(CanPlace(at),"place",at);Add(CanSummonCommander(at),"summon",at);foreach(var card in seats[viewer].hand.Distinct()){Add(CanPlay(card,at),"play",at,-1,card.Id);foreach(var p in cells[at].pieces)Add(CanPlay(card,at,p.Id),"play",at,p.Id,card.Id);}}
     foreach(var c in seats[viewer].hand.Distinct())Add(CanPlay(c,-1),"play",-1,-1,c.Id);
     foreach(var p in pieces.Where(p=>p.Owner==viewer)){Add(CanActivate(p.Id),"activate",p.Id);Add(CanOrderMovement(p.Id),"order",p.Id);Add(CanDisembark(p.Id),"disembark",p.Id);for(int at=0;at<121;at++){Add(CanMove(p.Id,at),"move",p.Id,at);Add(CanAttack(p.Id,at),"attack",p.Id,at);if(CanOrderMovement(p.Id))routes.Add(new NetRoute{key=p.Id+":"+at,path=MovementRoute(p.Id,at).ToArray()});}foreach(var q in pieces){Add(CanEquip(p.Id,q.Id),"equip",p.Id,q.Id);Add(CanBoard(p.Id,q.Id),"board",p.Id,q.Id);}}
     foreach(var x in ExiledFor(viewer))Add(CanCastExiled(x.Id),"exile",x.Id);

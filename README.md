@@ -18,7 +18,7 @@ Vínculo UGS registrado em 2026-09-24 para o projeto TCG. Criação, descoberta 
 
 ## Validação e documentação
 
-`TCG.Foundation.Editor.FoundationSetup.Build` prepara, verifica e gera a build. A última rodada de código passou em 1.217 verificações, além dos testes multiprocesso locais.
+`TCG.Foundation.Editor.FoundationSetup.Build` prepara, verifica e gera a build. A rodada de 2026-10-02 passou em 2.915 verificações; a cobertura e os limites estão em `Documentacao/Validacao-Decks-Planejados-20261002.md`.
 
 Consulte `Documentacao/Multiplayer-por-Host.md` e `Documentacao/Validacao-Multiplayer-2026-09-24.md`. As regras e decisões autorais são mantidas no vault Obsidian indicado em `AGENTS.md`.
 
@@ -36,3 +36,10 @@ A capital começa sobre uma carta do deck de terrenos; as três casas iniciais a
 Quatro pilhas de terrenos são usadas por todos. As oito cartas iniciais vêm dos decks em partes equilibradas (4/4, 3/3/2 sorteado ou 2/2/2/2). Reposição e compra usam o deck do jogador do turno. Terrenos pertencem ao reino onde foram colocados, preservando o dono original para o cemitério.
 
 Passe o mouse pelos topos das bandejas ou pelas cartas do painel para ampliar. A pilha de ações também mostra frentes e hover. Ganhos de mana, ataques, anulação e resolução têm efeitos visuais. Consulte `Documentacao/Pilhas-Compartilhadas-e-Animacoes.md`; `-tcg-pile-verify` executa a verificação visual em build de desenvolvimento.
+
+
+## Decks planejados
+
+**Coleção → Decks planejados · 29** permite importar cada lista ou todas com suas cartas gratuitas de teste. São 100 cartas principais e 50 terrenos diferentes por lista, além do comandante separado. Reimportar preserva suas edições, moedas e cosméticos. Escolha o deck salvo em Jogar ou na sala de rede; Experimentar comandantes usa os modelos temporariamente.
+
+As habilidades das novas cartas estão implementadas por dados. Balanceamento, subtipos complementares e arte são provisórios. Todos os clientes devem usar a mesma versão do catálogo e das regras. Consulte [a integração](Documentacao/Decks-Planejados-20261002.md).

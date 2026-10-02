@@ -27,6 +27,7 @@ namespace TCG.Foundation
 
         bool ResponseTargets(Definition card,int owner)
         {
+            if(card.Rule=="abilities")return AbilityResponse(card,owner);
             var allies=All.Where(p=>p.Card.Kind==CardType.Creature&&Allied(owner,p.Owner));
             switch(card.Rule)
             {
