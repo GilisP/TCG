@@ -6,7 +6,7 @@ namespace TCG.Table
  public sealed partial class TableView
  {
   static string KeywordLabel(string key)=>key=="flying"?"Voar":key=="pass-units"?"Atravessar tropas":key=="immune-all"?"Imunidade":key=="immune-enemy"?"Imunidade a inimigos":key.Replace("-"," ");
-  bool commanderDemo;
+  bool commanderDemo=true;
   readonly string[] demoCommanders={"MED-225","MED-226","MED-227","MED-228"};
   void DrawCommanderDemoSetup()
   {

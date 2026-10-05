@@ -22,7 +22,7 @@ public static class HubChecks
         Check(Reject(()=>lib.BuyCosmetic("bad"))&&lib.Data.coins==300,"unknown cosmetic rejected");
         lib.Data.coins=49;Check(Reject(()=>lib.BuyCard("MED-086"))&&!lib.Owns("MED-086")&&lib.Data.coins==49,"insufficient funds atomic");
         Check(Reject(()=>lib.BuyCosmetic("tide"))&&!lib.OwnsCosmetic("tide")&&lib.Data.coins==49,"cosmetic insufficient funds atomic");
-        lib.Collect("test-land-0");var deck=new DeckData{name="Verso persistente",experimental=true,cardBack="ember",main=Enumerable.Repeat("MED-085",12).ToList(),terrains=Enumerable.Repeat("test-land-0",12).ToList()};
+        lib.Collect("test-land-0");lib.Collect("MED-196");var deck=new DeckData{commander="MED-196",name="Verso persistente",experimental=true,cardBack="ember",main=Enumerable.Repeat("MED-085",12).ToList(),terrains=Enumerable.Repeat("test-land-0",12).ToList()};
         lib.SaveDeck(deck);Check(lib.Validate(deck,true).Count==0,"owned back valid");
         deck.cardBack="tide";Check(lib.Data.decks[0].cardBack=="ember","deck copy preserves independent cosmetic");
         Check(lib.Validate(deck,true).Any(s=>s.Contains("Verso")),"unowned back invalid");

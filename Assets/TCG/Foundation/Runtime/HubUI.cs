@@ -53,39 +53,30 @@ namespace TCG.Table
                 if(Button(805,535,330,58,"Sair"))Application.Quit();
             }
         }
+        bool localDeckSetup;
+        void PrepareLocalTable(){localDeckSetup=true;commanderDemo=true;hubNotice="Escolha um deck para cada jogador antes de iniciar.";}
         void DrawPlayPage()
         {
-            Text(45,135,950,50,"ENCONTRE SUA PRÓXIMA MESA",menuTitle,Ink);
-            Text(48,200,950,65,"Escolha seus companheiros, prepare o deck e dispute os reinos.",body,Muted);
-            Fill(new Rect(45,300,485,310),Panel);
-            Text(73,327,420,45,"Mesa local",heading,Gold);
-            Text(73,390,420,95,"De duas a quatro pessoas no mesmo computador. Todos contra todos ou duplas.",body,Ink);
-            Text(73,530,420,46,"DISPONÍVEL AGORA",cardName,Gold);
-            Fill(new Rect(550,300,485,310),Panel);
-            Text(578,327,420,45,"Procurar partida online",heading,Ink);
-            Text(578,390,420,110,"Crie uma sala, entre por código ou encontre uma mesa pública. Cada jogador usa seu próprio computador.",body,Muted);
-            if(Button(578,530,420,48,"SALAS ONLINE / REDE LOCAL"))networkPage=true;
-            if(useSavedDecks) {Fill(new Rect(45,280,990,645),Dark);DrawSavedDeckSetup();}
-            else if(commanderDemo){DrawCommanderDemoSetup();}
-            else { Text(65,686,940,70,"Construa seu exército antes de entrar.",heading,Gold);
-                Text(65,740,890,65,library.Data.decks.Count+" decks salvos · "+library.Data.owned.Count+" cartas na coleção",body,Ink);
-                if(Button(65,833,415,57,"Abrir coleção e montar um deck"))OpenLibrary();
+            Text(45,135,950,50,localDeckSetup?"ESCOLHA OS DECKS DA MESA":"ENCONTRE SUA PRÓXIMA MESA",menuTitle,Ink);
+            Text(48,200,950,65,"Todo deck tem um comandante e seu próprio deck de terrenos.",body,Muted);
+            if(localDeckSetup){if(useSavedDecks)DrawSavedDeckSetup();else DrawCommanderDemoSetup();}
+            else{
+                Fill(new Rect(45,300,990,550),Panel);
+                Text(75,335,900,45,"Prepare sua próxima partida",heading,Gold);
+                Text(75,410,900,120,"Crie uma mesa local e escolha um deck para cada jogador. Nas salas online, cada participante escolhe e confirma o próprio deck antes de ficar pronto.",body,Ink);
+                if(Button(75,630,900,60,"Abrir coleção e montar um deck"))OpenLibrary();
             }
             Fill(new Rect(1080,140,480,785),Panel);
             Text(1110,168,420,45,"PREPARAR PARTIDA",heading,Gold);
             Text(1110,231,420,30,"Jogadores",body,Muted);
             for(int n=2;n<=4;n++)if(Button(1110+(n-2)*145,275,130,48,n.ToString(),true,players==n)){players=n;if(n!=4)teams=false;}
             if(Button(1110,348,420,48,teams?"Duplas · lados opostos":"Todos contra todos",players==4))teams=!teams;
-            if(Button(1110,428,420,50,useSavedDecks?"Usar meus decks":"Usar decks de demonstração"))useSavedDecks=!useSavedDecks;
-            if(!useSavedDecks)
-            {
-                if(Button(1110,493,420,45,commanderDemo?"Testar comandantes":medieval?"Base medieval":"Demonstração básica")){if(commanderDemo){commanderDemo=false;medieval=false;}else if(medieval)commanderDemo=true;else medieval=true;}
-                if(medieval&&!commanderDemo&&Button(1110,550,420,45,"Primeira cor: "+new[]{"Sol","Lua","Água","Fogo","Ar","Terra"}[firstColor]))firstColor=(firstColor+1)%6;
-            }
-            Text(1110,635,410,62,useSavedDecks?"Os decks escolhidos serão validados antes de começar.":"Decks prontos para experimentar as regras e a mesa.",body,Muted);
-            if(Button(1110,737,420,64,"CRIAR MESA LOCAL",true,true))StartMatch();
+            if(localDeckSetup&&Button(1110,428,420,50,useSavedDecks?"Meus decks salvos":"Decks planejados de teste"))useSavedDecks=!useSavedDecks;
+            if(Button(1110,510,420,55,"SALAS ONLINE / REDE LOCAL"))networkPage=true;
+            Text(1110,585,410,120,localDeckSetup?(useSavedDecks?"Escolha os decks à esquerda. Rascunhos inválidos não podem iniciar a partida.":"Escolha um comandante à esquerda para usar seu deck planejado completo."):"Criar mesa abre a escolha dos decks, antes de iniciar o jogo.",body,Muted);
+            if(Button(1110,737,420,64,localDeckSetup?"INICIAR COM ESTES DECKS":"CRIAR MESA LOCAL",true,true)){if(localDeckSetup){commanderDemo=true;StartMatch();}else PrepareLocalTable();}
             if(Button(1110,823,420,51,"Voltar à partida",sessionAvailable&&!match.Over)){menu=libraryOpen=false;}
-            Text(45,958,1490,27,"Até quatro reinos. Uma mesa compartilhada.",small,Muted);
+            Text(45,958,1490,27,hubNotice,small,Gold);
         }
         void DrawSettingsPage()
         {

@@ -222,3 +222,8 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 - CommanderUI mostra frente/arte/variante/foil, estado e custo na mesa. Clique/Conjurar seleciona; terreno destacado confirma; Cancelar/Esc desfaz. Em campo, botão seleciona a peça. Sem comandante, mostra orientação.
 - Disponibilidade usa CanSummonCommander local/projetado. Região do painel bloqueia entrada no tabuleiro. Exílio fica abaixo. Reutilizar RenderCardFace, sem duplicar artes ou regras.
 - Ler Comandante no HUD - 2026-10-05. Build, 2.915 verificações e -tcg-commander-hud-verify passaram; perfil isolado. Captura/controle visual nativo falhou nesta sessão, revisão visual pendente. Nenhuma alteração de protocolo/economia.
+
+## Comandante obrigatório e escolha — 2026-10-05
+- Decisão do autor: todo deck precisa de comandante, inclusive experimental. CollectionLibrary.Validate e o host rejeitam ausência; UI exige comandante ao salvar. Rascunhos antigos são preservados, mas inválidos para partida até corrigidos.
+- Criar mesa local abre a escolha por assento antes de iniciar; alternar decks salvos/planejados. Demonstrações sem comandante não são oferecidas. Online exige escolher e confirmar deck antes de pronto; trocar desfaz prontidão.
+- Ler Comandante Obrigatorio e Escolha de Decks - 2026-10-05. Fingerprint tcg-network-6/20261005-required-commander; atualizar todos os clientes. Não confundir rascunho persistido com deck válido.

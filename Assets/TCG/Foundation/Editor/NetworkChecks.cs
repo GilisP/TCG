@@ -12,7 +12,7 @@ namespace TCG.Foundation.Editor
    checks=0;var effects=new EffectRegistry();var catalog=ContentLoader.Load(effects);double time=0;
    foreach(int count in new[]{2,4}){
     var room=new NetworkRoom(catalog,effects,"test",count,count==4,()=>time);var seq=new int[count];var tokens=new string[count];
-    for(int i=0;i<count;i++){var reply=room.Receive((ulong)i,new RoomRequest{type="hello",content="test",name="Seat "+i});Ok(reply.seat==i&&reply.token.Length>=40,"assigned seat and secret");tokens[i]=reply.token;Send(i,new RoomRequest{type="deck",deck=Deck(i)});Send(i,new RoomRequest{type="ready",ready=true});}
+    for(int i=0;i<count;i++){var reply=room.Receive((ulong)i,new RoomRequest{type="hello",content="test",name="Seat "+i});Ok(reply.seat==i&&reply.token.Length>=40,"assigned seat and secret");tokens[i]=reply.token;var missing=Deck(i);missing.commander="";Ok(room.Receive((ulong)i,new RoomRequest{type="deck",sequence=++seq[i],deck=missing}).error.Contains("comandante"),"host rejects commanderless deck");Ok(room.Receive((ulong)i,new RoomRequest{type="ready",sequence=++seq[i],ready=true}).error.Length>0,"cannot ready without valid deck");Send(i,new RoomRequest{type="deck",deck=Deck(i)});Send(i,new RoomRequest{type="ready",ready=true});}
     Ok(room.Receive(90,new RoomRequest{type="hello",content="test"}).error.Length>0,"capacity enforced");
     Send(0,new RoomRequest{type="start"});var m=room.Game;Ok(m!=null,"match started");Ok(count!=4||m.Seats[0].Team==m.Seats[2].Team&&m.Seats[1].Team==m.Seats[3].Team,"teams preserved");
     for(int i=0;i<count;i++){
@@ -41,7 +41,7 @@ namespace TCG.Foundation.Editor
    var mismatch=new NetworkRoom(catalog,effects,"A",2,false,()=>time);Ok(mismatch.Receive(0,new RoomRequest{type="hello",content="B"}).error.Length>0,"catalog mismatch rejected");
    Debug.Log("NETWORK CHECKS PASSED: "+checks);
   }
-  static DeckData Deck(int i)=>new DeckData{experimental=true,main=Enumerable.Repeat(i%2==0?"MED-085":"MED-086",48).ToList(),terrains=Enumerable.Repeat("test-land-0",50).ToList()};
+  static DeckData Deck(int i)=>new DeckData{commander="MED-196",experimental=true,main=Enumerable.Repeat(i%2==0?"MED-085":"MED-086",48).ToList(),terrains=Enumerable.Repeat("test-land-0",50).ToList()};
   static void Ok(bool value,string message){if(!value)throw new Exception("NETWORK CHECK: "+message);checks++;}
  }
 }

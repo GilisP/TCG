@@ -11,8 +11,8 @@ public static class CollectionChecks
     {
         checks=0;var catalog=ContentLoader.Load(new EffectRegistry());var lib=new CollectionLibrary(catalog,new CollectionData());
         Check(lib.Collect("MED-085"),"collect once");Check(!lib.Collect("MED-085"),"idempotent ownership");lib.Collect("test-land-0");
-        var d=new DeckData{name="Teste persistente",experimental=true,main=Enumerable.Repeat("MED-085",5).ToList(),terrains=Enumerable.Repeat("test-land-0",12).ToList()};
-        Check(lib.Validate(d,true).Count==0,"experimental legal");lib.SaveDeck(d);d.main.Clear();Check(lib.Data.decks[0].main.Count==5,"save copies draft");
+        lib.Collect("MED-196");var d=new DeckData{commander="MED-196",name="Teste persistente",experimental=true,main=Enumerable.Repeat("MED-085",5).ToList(),terrains=Enumerable.Repeat("test-land-0",12).ToList()};
+        var missing=d.Copy();missing.commander="";Check(lib.Validate(missing,true).Any(e=>e.Contains("comandante separado")),"experimental requires commander");missing.experimental=false;Check(lib.Validate(missing,true).Any(e=>e.Contains("comandante separado")),"standard requires commander");Check(lib.Validate(d,true).Count==0,"experimental legal");lib.SaveDeck(d);d.main.Clear();Check(lib.Data.decks[0].main.Count==5,"save copies draft");
         string dir=Path.Combine(Path.GetTempPath(),"tcg-library-tests-"+Guid.NewGuid().ToString("N"));var store=new CollectionStore(dir);store.Save(lib);
         var loaded=store.Load(catalog);Check(loaded.Owns("MED-085")&&loaded.Data.decks[0].main.Count==5,"restart restores");store.Save(loaded);Check(File.Exists(store.PathName+".bak"),"backup exists");
         File.WriteAllText(store.PathName,"broken");var recovery=store.Load(catalog);Check(!store.CanWrite&&recovery.Owns("MED-085"),"corrupt primary preserves backup and blocks overwrite");

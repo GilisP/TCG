@@ -85,7 +85,7 @@ namespace TCG.Foundation
                 catch(InvalidOperationException){errors.Add("Comandante não encontrado no catálogo.");}
 
             }
-            else if(!deck.experimental)errors.Add("Deck padrão exige um comandante separado.");
+            else errors.Add("Todo deck exige um comandante separado, inclusive experimental.");
 
             foreach(var look in deck.cardLooks){try{if(!OwnsVariant(look.cardId,look.styleId))errors.Add("Arte não disponível: "+look.cardId);}catch(InvalidOperationException){errors.Add("Arte ausente: "+look.cardId);}}
             return errors.Distinct().ToList();

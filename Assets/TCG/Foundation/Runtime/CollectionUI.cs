@@ -31,7 +31,7 @@ namespace TCG.Table
             zone.Add(c.Id);SelectDeckSection(c.Kind==CardType.Terrain);
         }
         void NewDraft(bool test=false){SelectDeckSection(false);draft=new DeckData{experimental=test,name=test?"Meu deck de teste":"Meu deck"};libraryMessage="Rascunho novo. Salve para manter suas alterações.";}
-        void SaveDraft(){try{library.SaveDeck(draft);PersistLibrary();}catch(Exception e){libraryMessage=e.Message;}}
+        void SaveDraft(){try{if(string.IsNullOrWhiteSpace(draft?.commander))throw new InvalidOperationException("Escolha o comandante antes de salvar o deck.");library.SaveDeck(draft);PersistLibrary();}catch(Exception e){libraryMessage=e.Message;}}
         string CardName(string id){try{return catalog.Get(catalog.Identity(id)).Name;}catch{return "Carta ausente: "+id;}}
         void DrawLibrary()
         {
@@ -63,13 +63,13 @@ namespace TCG.Table
             }
             if(Button(324,861,65,35,"‹",libraryPage>0))libraryPage--;Text(402,866,455,26,(libraryPage+1)+" / "+pages+" · "+cards.Length+" cartas",small,Muted);if(Button(896,861,65,35,"›",libraryPage<pages-1))libraryPage++;
             Fill(new Rect(995,82,585,838),Panel);
-            if(draft==null)Text(1015,112,540,130,"Crie um deck ou abra um salvo. Você pode salvar um rascunho incompleto e terminar depois.",body,Ink);
+            if(draft==null)Text(1015,112,540,130,"Crie um deck ou abra um salvo. Escolha o comandante primeiro. As demais cartas podem ser completadas depois.",body,Ink);
             else
             {
                 draft.name=GUI.TextField(new Rect(1015,99,350,36),draft.name,80);if(Button(1376,99,183,36,"Salvar rascunho",collectionStore.CanWrite,true))SaveDraft();
                 Text(1015,145,540,30,(draft.experimental?"EXPERIMENTAL":"PADRÃO")+" · Principal "+draft.main.Count+" · Terrenos "+draft.terrains.Count,cardName,Gold);
                 Text(1015,181,530,38,"Comandante: "+(string.IsNullOrEmpty(draft.commander)?"não definido":CardName(draft.commander)),small,Muted);
-                if(!string.IsNullOrEmpty(draft.commander)&&Button(1482,182,77,31,"Limpar"))draft.commander="";
+                if(Button(1482,182,77,31,"Trocar")){libraryFilters.CommandersOnly=true;librarySectionOnly=false;libraryPage=0;}
                 if(Button(1015,232,260,40,"Principal · "+draft.main.Count,true,!editingTerrains))SelectDeckSection(false);
                 if(Button(1288,232,270,40,"Terrenos · "+draft.terrains.Count,true,editingTerrains))SelectDeckSection(true);
                 Text(1015,279,540,33,editingTerrains?"Deck de terrenos vinculado a: "+draft.name:"Cartas do deck principal",small,Muted);
