@@ -25,8 +25,9 @@ namespace TCG.Table
         void BoardInput()
         {
             var e=Event.current;
+            if(CommanderHudContains(e.mousePosition)){if(e.type==EventType.MouseUp)ResetDrag();return;}
             if(HandleAvatarReaction(e))return;
-            if(e.type==EventType.KeyDown&&e.keyCode==KeyCode.Escape){ResetDrag();e.Use();return;}
+            if(e.type==EventType.KeyDown&&e.keyCode==KeyCode.Escape){selectedCommander=false;ResetDrag();e.Use();return;}
             if(pointerHeld&&e.type==EventType.MouseUp&&e.button==0)
             {
                 bool wasDrag=draggingPiece;int id=dragPiece,origin=pressedCell,clickedPiece=pressedPiece;

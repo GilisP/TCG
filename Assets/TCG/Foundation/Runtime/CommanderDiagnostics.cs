@@ -9,6 +9,29 @@ namespace TCG.Table
 {
  public sealed partial class TableView
  {
+  IEnumerator VerifyCommanderHud()
+  {
+   string dir=Path.GetFullPath(Path.Combine(Application.dataPath,"..","CommanderHudVerification"));Directory.CreateDirectory(dir);
+   collectionStore=new CollectionStore(Path.Combine(dir,"profile-"+Guid.NewGuid().ToString("N")));library=collectionStore.Load(catalog);
+   var errors=new List<string>();Application.LogCallback listener=(m,t,k)=>{if(k==LogType.Error||k==LogType.Exception||k==LogType.Assert)errors.Add(m);};Application.logMessageReceived+=listener;
+   var main=Enumerable.Repeat("MED-085",100).ToArray();var lands=Enumerable.Repeat("test-land-0",50).ToArray();
+   match=new Match(catalog,effects,2,false,7,new[]{main,main},new[]{lands,lands},new[]{"MED-225","MED-225"}){AutomaticResponses=true,AutoAdvanceAfterTerrain=true};world.Bind(match);menu=false;libraryOpen=false;handoff=false;
+   int owner=match.Active,home=Match.Capital(owner,2);Check(!CommanderCanSelect(),"draw phase blocked");
+   Do(ActionKind.DrawMain);Do(ActionKind.Place,home);Check(!CommanderCanSelect(),"insufficient mana blocked");
+   var mana=(int[])typeof(Seat).GetField("mana",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic).GetValue(match.Seats[owner]);for(int color=0;color<7;color++)mana[color]=10;
+   Check(CommanderCanSelect(),"legal summon enabled");Check(CommanderHudContains(CommanderPortrait.center),"portrait blocks board input");
+   SelectCommander();Check(selectedCommander&&selectedCard==null&&selectedUnit==-1,"commander selection");SelectCommander();Check(!selectedCommander,"selection canceled");SelectCommander();
+   yield return new WaitForSecondsRealtime(1);ScreenCapture.CaptureScreenshot(Path.Combine(dir,"01-zona.png"));
+   Check(Submit(ActionKind.SummonCommander,home),"HUD command accepted");handoff=false;
+   for(int n=0;n<30&&(match.Stack.Count>0||match.Choice!=null);n++){if(match.Choice!=null)Do(ActionKind.Choose,match.Choice.Options[0].Key);else Do(ActionKind.Pass);}
+   Check(match.Board[home].Pieces.Any(p=>p.Owner==owner&&p.Card.Id=="MED-225"),"commander entered battlefield");Check(!CommanderCanSelect()&&!selectedCommander,"no duplicate summon");
+   var remote=Match.FromView(match.ViewFor(owner),catalog,effects);Check(remote.Seats[owner].Commander.Id=="MED-225"&&!remote.CanSummonCommander(home),"online projection preserves commander state");
+   yield return new WaitForSecondsRealtime(1);ScreenCapture.CaptureScreenshot(Path.Combine(dir,"02-campo.png"));
+   File.WriteAllText(Path.Combine(dir,"result.txt"),"PASS: phase/mana gates; select/cancel; panel hit region; summon and battlefield state; network projection. Runtime errors: "+errors.Count+"\n"+string.Join("\n",errors));
+   Application.logMessageReceived-=listener;Application.Quit(errors.Count==0?0:1);
+   void Check(bool value,string message){if(!value)throw new Exception("COMMANDER HUD: "+message);}
+   void Do(ActionKind kind,int target=-1){if(!match.Try(new Command{player=match.Controller,revision=match.Revision,kind=kind,target=target,pile=0},out string error))throw new Exception(error);}
+  }
   IEnumerator VerifyCommanders()
   {
    string dir=Path.GetFullPath(Path.Combine(Application.dataPath,"..","CommanderVerification"));Directory.CreateDirectory(dir);var errors=new List<string>();Application.LogCallback listener=(m,t,k)=>{if(k==LogType.Error||k==LogType.Exception||k==LogType.Assert)errors.Add(m);};Application.logMessageReceived+=listener;

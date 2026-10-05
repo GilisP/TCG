@@ -147,7 +147,7 @@ namespace TCG.Table
 
             GUI.enabled=!modal;
 
-            BeginPilePresentation(); DrawHeader(); GUI.enabled=!modal&&NetworkTurn; DrawSidebar(); DrawMovementOrders(); DrawHand(); DrawBoardLabels(); DrawCommanderZone();DrawExiledCards();
+            BeginPilePresentation(); DrawHeader(); GUI.enabled=!modal&&NetworkTurn; DrawSidebar(); DrawMovementOrders(); DrawHand(); DrawBoardLabels(); DrawCommanderZone(modal);DrawExiledCards();
 
             Fill(new Rect(0,965,1600,35),Dark); Text(24,972,1550,24,notice,small,Gold);
 
@@ -155,7 +155,7 @@ namespace TCG.Table
 
             GUI.enabled=true;
 
-            ProcessPileVerification(); DrawPileOverlay(modal); DrawNetworkStatus();DrawSocialReactions();
+            ProcessPileVerification(); DrawPileOverlay(modal); DrawCommanderPreview(modal); DrawNetworkStatus();DrawSocialReactions();
             if(handoff) DrawHandoff(); else if(inspected!=null) DrawInspection(); else if(equipmentToAttach>=0) DrawEquipmentChoice(); else if(match.Choice!=null&&match.Choice.Owner==Viewer) DrawChoice(); else if(collection) DrawCollection(); else if(help) DrawHelp(); else if(confirmQuit) DrawQuit(); else if(match.Over) DrawResult();
 
             GUI.matrix=old;

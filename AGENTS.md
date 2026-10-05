@@ -216,3 +216,9 @@ Atualização final desta entrega: 944 verificações aprovadas; Relay real com 
 - PlannedDeckChecks integra FoundationSetup. Diagnósticos -tcg-planned-decks-verify (perfil isolado) e -tcg-planned-net (decks completos). Fingerprint tcg-network-5/20261002-planned-decks; todos os clientes precisam da mesma versão. Consultar a validação antes de alegar cobertura visual ou de internet.
 
 Validação final dos decks: 2.915 verificações e build aprovados; fluxo de importação/persistência e LAN 2/4 com reconexão passaram. Capturas ocultas pretas: revisão visual pendente; Relay não foi repetido nesta entrega. O diagnóstico resolve a pilha antes de comprar, inclusive durante início de turno.
+
+
+## Comandante no HUD — 2026-10-05
+- CommanderUI mostra frente/arte/variante/foil, estado e custo na mesa. Clique/Conjurar seleciona; terreno destacado confirma; Cancelar/Esc desfaz. Em campo, botão seleciona a peça. Sem comandante, mostra orientação.
+- Disponibilidade usa CanSummonCommander local/projetado. Região do painel bloqueia entrada no tabuleiro. Exílio fica abaixo. Reutilizar RenderCardFace, sem duplicar artes ou regras.
+- Ler Comandante no HUD - 2026-10-05. Build, 2.915 verificações e -tcg-commander-hud-verify passaram; perfil isolado. Captura/controle visual nativo falhou nesta sessão, revisão visual pendente. Nenhuma alteração de protocolo/economia.
