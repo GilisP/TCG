@@ -1,0 +1,8 @@
+Unity 6000.3.6f1 | AG-001 | 2026-10-10
+COLLECTION CHECKS PASSED: 19; persistence evidence: C:\Users\gil\AppData\Local\Temp\tcg-library-tests-69ca290981f445c3a04a91724e9c49b4
+NETWORK CHECKS PASSED: 117
+COORDINATION RULES CHECKS PASSED: 36
+COORDINATION NETWORK CHECKS PASSED: 273
+COORDINATION PILOT INTEGRATION PASSED
+Exiting without the bug reporter. Application will terminate with return code 0
+Escopos dos dois especialistas e GUIDs novos conferidos; links das notas novas resolvidos.

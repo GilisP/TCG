@@ -227,3 +227,11 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 - Decisão do autor: todo deck precisa de comandante, inclusive experimental. CollectionLibrary.Validate e o host rejeitam ausência; UI exige comandante ao salvar. Rascunhos antigos são preservados, mas inválidos para partida até corrigidos.
 - Criar mesa local abre a escolha por assento antes de iniciar; alternar decks salvos/planejados. Demonstrações sem comandante não são oferecidas. Online exige escolher e confirmar deck antes de pronto; trocar desfaz prontidão.
 - Ler Comandante Obrigatorio e Escolha de Decks - 2026-10-05. Fingerprint tcg-network-6/20261005-required-commander; atualizar todos os clientes. Não confundir rascunho persistido com deck válido.
+
+
+## Coordenação de agentes — 2026-10-10
+- Autor autorizou coordenador e especialistas por tarefa, com contexto separado e trabalho paralelo. Ler `08 - Tecnico/Agentes de Desenvolvimento - Arquitetura e Contratos.md` e `11 - Planejamento/10 - Coordenacao de Desenvolvimento.md` no vault; retomada curta em `Documentacao/Desenvolvimento/checkpoint.json` no projeto.
+- Não transmitir histórico completo: briefing com ID/objetivo/contratos/restrições/caminhos relevantes. Definir escopos e dono dos compartilhados antes de começar. Entrega deve conter status, resumo, arquivos, verificações e bloqueios. Coordenador integra e só conclui após validação conjunta.
+- Usar especialistas somente onde houver tarefa independente real; testes/integração podem ficar com coordenador. Dois especialistas no piloto AG-001, sem alterar game design. Não criar adversário PvC automaticamente: futuro PvC utiliza as mesmas ações e conhecimento limitado ao assento.
+- Checkout compartilhado permitido quando os escopos são disjuntos; havendo conflito de arquivos, usar branches/worktrees isolados com integração controlada. Editor/build, contratos, catálogo/protocolo compartilhados e índices têm um responsável explícito. Preservar metas, trabalho anterior e backup diário autorizado.
+- Antes de compactar/reiniciar, salvar estado, evidências, bloqueios e próximo passo no checkpoint e notas. A lista central de pendências permanece única; tasks.json detalha pacotes da execução atual, sem criar prioridades concorrentes.

@@ -1,0 +1,47 @@
+[
+  {
+    "taskId": "AG-001-R",
+    "objective": "Verificar regras de deck/comandante sem alterar design",
+    "owner": "especialista-regras",
+    "scope": [
+      "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs"
+    ],
+    "dependencies": [],
+    "status": "completed",
+    "doneWhen": "Testes relevantes aprovados na execução integrada",
+    "context": "isolated; fork_turns=none",
+    "report": "Documentacao/Desenvolvimento/AG-001-R-result.json",
+    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+  },
+  {
+    "taskId": "AG-001-N",
+    "objective": "Verificar contrato autoritativo de escolha de decks online",
+    "owner": "especialista-multiplayer",
+    "scope": [
+      "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs"
+    ],
+    "dependencies": [],
+    "status": "completed",
+    "doneWhen": "Duplicação, reconexão e projeções verificadas na execução integrada",
+    "context": "isolated; fork_turns=none",
+    "report": "Documentacao/Desenvolvimento/AG-001-N-result.json",
+    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+  },
+  {
+    "taskId": "AG-001-I",
+    "objective": "Integrar, validar e demonstrar retomada",
+    "owner": "coordenador",
+    "scope": [
+      "FoundationSetup.cs",
+      "Documentacao/Desenvolvimento",
+      "vault"
+    ],
+    "dependencies": [
+      "AG-001-R",
+      "AG-001-N"
+    ],
+    "status": "completed",
+    "doneWhen": "Compilação e testes conjuntos aprovados; registro de retomada consultado e relatórios persistidos",
+    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+  }
+]

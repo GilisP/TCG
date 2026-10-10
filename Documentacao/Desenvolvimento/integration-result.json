@@ -1,0 +1,33 @@
+{
+  "taskId": "AG-001-I",
+  "status": "completed",
+  "performedBy": "coordenador",
+  "unity": "6000.3.6f1",
+  "date": "2026-10-10",
+  "exitCode": 0,
+  "totalChecks": 445,
+  "newChecks": 309,
+  "suites": {
+    "collection": 19,
+    "network": 117,
+    "rulesPilot": 36,
+    "networkPilot": 273
+  },
+  "log": "Logs/coordination-pilot-final-20261010.log",
+  "sourceHashes": {
+    "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs": "a6c0df43513c5d3b7f9b0347d21e963f889d5ccf07dc58ca2798a9e34171baef",
+    "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs": "04b55f6a08e0b5fe12e3895c701d7529246f111819cbc050925d2f1fe9f494fd",
+    "Assets/TCG/Foundation/Editor/CoordinationPilotChecks.cs": "b8eddf515908d05f6368ba516cd3aecd8d39d467ece1f0cd171d620a3b847ab3",
+    "Assets/TCG/Foundation/Editor/FoundationSetup.cs": "daf32d994532bd4e83fcf6f1315a571b4d9b3d794721a53f613756e2c1d97815"
+  },
+  "scopeReview": "Core/Runtime/StreamingAssets sem alterações; especialistas escreveram apenas testes/metas e relatórios próprios.",
+  "resumeVerified": true,
+  "limits": [
+    "Testes de protocolo/estado em memória, sem nova execução Relay ou transporte LAN",
+    "Sem revisão visual de HUD; nenhuma alteração visual no piloto",
+    "Sem integração da coleção oficial ou implementação PvC"
+  ],
+  "scopeAuditPassed": true,
+  "newMetaGuidsUnique": true,
+  "newNoteLinksResolved": true
+}

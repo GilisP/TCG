@@ -1,0 +1,31 @@
+{
+  "taskId": "AG-001-R",
+  "status": "completed",
+  "summary": "Entregue CoordinationRulesChecks.Run com catálogo ContentLoader.Load e fixtures exclusivamente em memória. Verifica comandante obrigatório, zona separada, identidade de cores, propriedade, disponibilidade, limites e tipos de decks, reimpressões, preservação de rascunhos, cópia profunda e identidade persistida.",
+  "filesChanged": [
+    "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs",
+    "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs.meta",
+    "Documentacao/Desenvolvimento/AG-001-R-result.json"
+  ],
+  "checksPerformed": [
+    "Leitura do contrato Coordenacao.md e dos quatro arquivos autorizados",
+    "Inspeção estática do contrato público e dos casos de teste",
+    "Fixtures adicionadas ao catálogo somente em memória; nenhuma escrita de perfil ou definição oficial",
+    "Nenhuma execução de Unity ou Git realizada; compilação e execução pendentes do coordenador"
+  ],
+  "blockers": [],
+  "assumptions": [
+    "O coordenador integra Run ao runner e confirma compilação e marcador COORDINATION RULES CHECKS PASSED",
+    "Os testes codificam exclusivamente o contrato existente de CollectionLibrary e ContentCatalog; não aprovam regras novas",
+    "O catálogo de produção é carregado para detectar incompatibilidade real de importação; IDs coord-* são fixtures locais"
+  ],
+  "deliveryStatus": "needs-integration",
+  "deliveryBlockers": [],
+  "integration": {
+    "performedBy": "coordenador",
+    "status": "passed",
+    "checks": 36,
+    "unity": "6000.3.6f1",
+    "log": "Logs/coordination-pilot-final-20261010.log"
+  }
+}
