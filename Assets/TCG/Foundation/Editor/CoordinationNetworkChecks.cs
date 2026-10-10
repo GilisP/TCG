@@ -184,6 +184,3 @@ namespace TCG.Foundation.Editor
         }
     }
 }
-
-
-

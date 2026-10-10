@@ -16,7 +16,7 @@
   "log": "Logs/coordination-pilot-final-20261010.log",
   "sourceHashes": {
     "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs": "a6c0df43513c5d3b7f9b0347d21e963f889d5ccf07dc58ca2798a9e34171baef",
-    "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs": "04b55f6a08e0b5fe12e3895c701d7529246f111819cbc050925d2f1fe9f494fd",
+    "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs": "4d462337faf89d12ea038363cfb35549c5a769f759b05820e5258d568219d385",
     "Assets/TCG/Foundation/Editor/CoordinationPilotChecks.cs": "b8eddf515908d05f6368ba516cd3aecd8d39d467ece1f0cd171d620a3b847ab3",
     "Assets/TCG/Foundation/Editor/FoundationSetup.cs": "daf32d994532bd4e83fcf6f1315a571b4d9b3d794721a53f613756e2c1d97815"
   },
@@ -29,5 +29,14 @@
   ],
   "scopeAuditPassed": true,
   "newMetaGuidsUnique": true,
-  "newNoteLinksResolved": true
+  "newNoteLinksResolved": true,
+  "testedSourceHashes": {
+    "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs": "a6c0df43513c5d3b7f9b0347d21e963f889d5ccf07dc58ca2798a9e34171baef",
+    "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs": "04b55f6a08e0b5fe12e3895c701d7529246f111819cbc050925d2f1fe9f494fd",
+    "Assets/TCG/Foundation/Editor/CoordinationPilotChecks.cs": "b8eddf515908d05f6368ba516cd3aecd8d39d467ece1f0cd171d620a3b847ab3",
+    "Assets/TCG/Foundation/Editor/FoundationSetup.cs": "daf32d994532bd4e83fcf6f1315a571b4d9b3d794721a53f613756e2c1d97815"
+  },
+  "postValidationChanges": [
+    "Somente normalização de espaços/linhas vazias ao final de CoordinationNetworkChecks.cs; sem mudança de código ou comportamento."
+  ]
 }
