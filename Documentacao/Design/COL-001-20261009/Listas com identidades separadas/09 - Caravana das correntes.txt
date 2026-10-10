@@ -1,0 +1,1914 @@
+PROTÓTIPO DE DECK — PARA REVISÃO DO AUTOR
+Nome do deck: Caravana das correntes
+Comandante escolhido: Valeria coração de mãe
+Custo do comandante: GA1
+Efeito do comandante: Veículos que você controla podem portar mais 1 tropa e herdam palavras-chave das criaturas dentro deles.
+
+Temática confirmada: Veículos fortes que escalam com o número de passageiros; Valeria aumenta a capacidade e transmite palavras-chave. Tripular é investir e arriscar tropas.
+Principais: 50 comuns / 20 incomuns / 15 raras / 15 míticas.
+Terrenos: 25 comuns / 10 incomuns / 8 raros / 7 míticos (arredondamento editorial).
+Raridades propostas para revisão; comandante fora dessa contagem.
+
+100 CARTAS PRINCIPAIS
+
+CARTA 001
+Nome: Disparo Distante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura aliada recebe +1 de alcance até o fim do turno.
+
+CARTA 002
+Nome: Piloto do Porto Baixo
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: 1/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1.
+
+CARTA 003
+Nome: Vigia de Bordo do Porto Baixo
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: Voar
+Efeito: Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.
+
+CARTA 004
+Nome: Aprendiz da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 005
+Nome: Aprendiz da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 006
+Nome: Aprendiz da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 007
+Nome: Aprendiz da Ponte de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.
+
+CARTA 008
+Nome: Aprendiz da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 009
+Nome: Aprendiz da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 010
+Nome: Aprendiz da Vigília de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 011
+Nome: Aprendiz da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 012
+Nome: Aprendiz das Marés
+Tipo: Criatura
+Subtipo: Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando entrar, você pode mover uma criatura aliada adjacente 1 tile.
+
+CARTA 013
+Nome: Aprendiz do Juramento de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao atacar depois de se mover neste turno, esta recebe +1/+0 até o fim do combate.
+
+CARTA 014
+Nome: Aprendiz do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 015
+Nome: Batedor das Ameias
+Tipo: Criatura
+Subtipo: Soldado
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 2/2
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidades.
+
+CARTA 016
+Nome: Casco Envernizado
+Tipo: Encantamento
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante um veículo seu. Ele recebe +0/+3.
+
+CARTA 017
+Nome: Desembarque Organizado
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até duas tropas suas embarcadas em um mesmo veículo podem desembarcar no tile dele sem pagar PA. Respeite as demais regras de desembarque.
+
+CARTA 018
+Nome: Guarda da Ponte
+Tipo: Criatura
+Subtipo: Soldado
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 2/3
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidades.
+
+CARTA 019
+Nome: Guarda do Vau
+Tipo: Criatura
+Subtipo: Humano, Soldado
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/3
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 020
+Nome: Mensageiro das Ameias
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 021
+Nome: Piloto do Estuário
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 022
+Nome: Reforçar o Casco
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Um veículo seu recebe +0/+3 até o fim do turno.
+
+CARTA 023
+Nome: Vigia de Asa Curta
+Tipo: Criatura
+Subtipo: Ave, Batedor
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: Voar
+Efeito: Voar: esta criatura pode atravessar terrenos que exigem voo.
+
+CARTA 024
+Nome: Abrigo Improvisado
+Tipo: Truque
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+2 até o fim do turno.
+
+CARTA 025
+Nome: Aeróstato do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 026
+Nome: Arqueiro Peregrino
+Tipo: Criatura
+Subtipo: Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Sem habilidades.
+
+CARTA 027
+Nome: Barca de Travessia
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: 1/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas, exige 1 tripulante. Só age tripulado. Embarcar/desembarcar custa 1 PA da tropa, no mesmo tile. Passageiros podem agir; morrem se o veículo for destruído.
+
+CARTA 028
+Nome: Barca do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 029
+Nome: Caravana do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 030
+Nome: Flecha do Horizonte
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua com alcance pelo menos 2 recebe +2 de alcance até o fim do turno.
+
+CARTA 031
+Nome: Mapa das Correntes Altas
+Tipo: Feitiço
+Subtipo: —
+Cor: GA
+Raridade: Comum
+Custo: GA1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Um veículo seu recebe +1 de movimento até o fim do turno. Olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 032
+Nome: Mecânica do Convés
+Tipo: Criatura
+Subtipo: Humano, Artífice
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 1/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cure 2 de dano de um veículo seu no mesmo tile.
+
+CARTA 033
+Nome: Mensageiro do Vento Alto
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao desembarcar, outra criatura sua neste tile recebe +0/+1 até o fim do turno.
+
+CARTA 034
+Nome: Nau do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 035
+Nome: Nevoeiro do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura recebe -3 de ataque até o fim do turno.
+
+CARTA 036
+Nome: Transporte do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 037
+Nome: Veterano da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 038
+Nome: Veterano da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 039
+Nome: Veterano da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 040
+Nome: Veterano da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 041
+Nome: Veterano da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 042
+Nome: Veterano da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 043
+Nome: Veterano do Juramento de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao atacar depois de se mover neste turno, esta recebe +1/+0 até o fim do combate.
+
+CARTA 044
+Nome: Veterano do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 045
+Nome: Aeróstato das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Comum
+Custo: A3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 046
+Nome: Barca das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Comum
+Custo: G3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 047
+Nome: Bastião Móvel do Porto Baixo
+Tipo: Artefato
+Subtipo: Veículo
+Cor: GA
+Raridade: Comum
+Custo: GA2
+Ataque/Defesa: 2/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 048
+Nome: Caravana das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Comum
+Custo: A3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 049
+Nome: Nau das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Comum
+Custo: G3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 050
+Nome: Planador de Carga
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Comum
+Custo: A3
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: Voar
+Efeito: Veículo: 1 vaga, exige 1 tripulante. Só age tripulado. Embarcar/desembarcar custa 1 PA da tropa, no mesmo tile. Passageiros podem agir; morrem se ele for destruído. Voar.
+
+CARTA 051
+Nome: Piloto das Correntes Claras
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Incomum
+Custo: G1
+Ataque/Defesa: 1/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1.
+
+CARTA 052
+Nome: Vigia de Bordo das Correntes Claras
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Incomum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: Voar
+Efeito: Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.
+
+CARTA 053
+Nome: Oficina do Porto
+Tipo: Construção
+Subtipo: Oficina
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: cure 3 de dano de um veículo seu neste tile.
+
+CARTA 054
+Nome: Piloto da Frota Suspensa
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: 1/4
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1.
+
+CARTA 055
+Nome: Vigia de Bordo da Frota Suspensa
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: Voar
+Efeito: Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.
+
+CARTA 056
+Nome: Transporte das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 057
+Nome: Aeróstato da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Incomum
+Custo: A4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 058
+Nome: Barca da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 059
+Nome: Bastião Móvel das Correntes Claras
+Tipo: Artefato
+Subtipo: Veículo
+Cor: GA
+Raridade: Incomum
+Custo: GA3
+Ataque/Defesa: 2/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 060
+Nome: Caravana da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Incomum
+Custo: A4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 061
+Nome: Nau da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 062
+Nome: Transporte da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 063
+Nome: Aeróstato dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Incomum
+Custo: A5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 064
+Nome: Barca dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 065
+Nome: Bastião Móvel da Frota Suspensa
+Tipo: Artefato
+Subtipo: Veículo
+Cor: GA
+Raridade: Incomum
+Custo: GA4
+Ataque/Defesa: 3/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 066
+Nome: Formação de Convés
+Tipo: Encantamento
+Subtipo: —
+Cor: GA
+Raridade: Incomum
+Custo: GA4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Veículos seus com pelo menos três passageiros recebem +2/+2.
+
+CARTA 067
+Nome: Guardião da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 068
+Nome: Guardião do Juramento de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Incomum
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao atacar depois de se mover neste turno, esta recebe +1/+0 até o fim do combate.
+
+CARTA 069
+Nome: Nau dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Incomum
+Custo: G5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 070
+Nome: Resgate da Frota Ferida
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: GGG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Cure todo o dano de até dois veículos seus. Seus passageiros recebem +0/+2 até o fim do turno.
+
+CARTA 071
+Nome: Trenó de Carga
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Rara
+Custo: 3
+Ataque/Defesa: 1/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 1/4, 2 PA, movimento 2, alcance 1. Capacidade 1; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 072
+Nome: Piloto dos Ventos Reais
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Rara
+Custo: G3
+Ataque/Defesa: 1/4
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1.
+
+CARTA 073
+Nome: Vigia de Bordo dos Ventos Reais
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Rara
+Custo: A3
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: Voar
+Efeito: Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.
+
+CARTA 074
+Nome: Caravana dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Rara
+Custo: A5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 075
+Nome: Guardião da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 076
+Nome: Guardião da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 077
+Nome: Guardião da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 078
+Nome: Guardião da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 079
+Nome: Guardião do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 080
+Nome: Transporte dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Rara
+Custo: G5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 081
+Nome: Aeróstato da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Rara
+Custo: A6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 082
+Nome: Barca da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Rara
+Custo: G6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 083
+Nome: Bastião Móvel dos Ventos Reais
+Tipo: Artefato
+Subtipo: Veículo
+Cor: GA
+Raridade: Rara
+Custo: GA5
+Ataque/Defesa: 3/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 084
+Nome: Mobilizar a Armada
+Tipo: Feitiço
+Subtipo: —
+Cor: GA
+Raridade: Rara
+Custo: GGAA3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até quatro veículos seus recebem +1 de ataque por passageiro e +1 de movimento até o fim do turno.
+
+CARTA 085
+Nome: Nau da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Rara
+Custo: G6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 086
+Nome: Carro de Boi
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 4
+Ataque/Defesa: 1/6
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 1/6, 2 PA, movimento 1, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 087
+Nome: Carroça de Batedores
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 4
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/4, 2 PA, movimento 3, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 088
+Nome: Aríete Móvel
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 5
+Ataque/Defesa: 5/4
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 5/4, 2 PA, movimento 1, alcance 1. Capacidade 1; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 089
+Nome: Piloto da Armada Celeste
+Tipo: Criatura
+Subtipo: Humano, Piloto
+Cor: G
+Raridade: Mítica
+Custo: G4
+Ataque/Defesa: 1/5
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1.
+
+CARTA 090
+Nome: Vagão de Milícia
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 3/5, 2 PA, movimento 2, alcance 1. Capacidade 3; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 091
+Nome: Vigia de Bordo da Armada Celeste
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Mítica
+Custo: A4
+Ataque/Defesa: 3/4
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: Voar
+Efeito: Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.
+
+CARTA 092
+Nome: Barca de Cerco
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 4/6, 2 PA, movimento 2, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 093
+Nome: Caravana Blindada
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 2/8
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/8, 2 PA, movimento 1, alcance 1. Capacidade 3; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 094
+Nome: Carruagem de Comando
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 2/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/7, 2 PA, movimento 2, alcance 1. Capacidade 4; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 095
+Nome: Guardião da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Mítica
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 096
+Nome: Caravana da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: A
+Raridade: Mítica
+Custo: A6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 097
+Nome: Comboio de Socorro
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 7
+Ataque/Defesa: 2/9
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/9, 2 PA, movimento 1, alcance 1. Capacidade 5; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 098
+Nome: Torre Sobre Rodas
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 7
+Ataque/Defesa: 3/10
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 3/10, 2 PA, movimento 1, alcance 1. Capacidade 4; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 099
+Nome: Transporte da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: G
+Raridade: Mítica
+Custo: G6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+CARTA 100
+Nome: Bastião Móvel da Armada Celeste
+Tipo: Artefato
+Subtipo: Veículo
+Cor: GA
+Raridade: Mítica
+Custo: GA6
+Ataque/Defesa: 4/9
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.
+
+50 TERRENOS
+
+TERRENO 01
+Nome: Porto dos Cascos Leves
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de um veículo seu neste tile.
+
+TERRENO 02
+Nome: Rampa do Vento Leste
+Tipo: Terreno
+Subtipo: Local
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Ar
+Efeito: Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um veículo seu neste tile recebe +1 de movimento até o fim do turno.
+
+TERRENO 03
+Nome: Ancoradouro da Tripulação
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua embarcada em um veículo neste tile recebe +0/+2 até o fim do turno.
+
+TERRENO 04
+Nome: Academia de Magos
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Água. Habilidades desencadeadas dos Magos neste terreno desencadeiam uma vez adicional.
+
+TERRENO 05
+Nome: Margens do Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 06
+Nome: Pátio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 07
+Nome: Travessia da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 08
+Nome: Torreão da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 09
+Nome: Refúgio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 10
+Nome: Clareira da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 11
+Nome: Terraço da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 12
+Nome: Posto da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 13
+Nome: Santuário da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 14
+Nome: Acampamento da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 15
+Nome: Fortim da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 16
+Nome: Pátio da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 17
+Nome: Ponte Instável
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Ar. Quando uma criatura termina movimento aqui, seu controlador a move para um terreno adjacente andável. Não aciona outra Ponte no mesmo deslocamento.
+
+TERRENO 18
+Nome: Colinas dos Ventos
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 19
+Nome: Pátio da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de alcance até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 20
+Nome: Travessia da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 21
+Nome: Torreão da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 22
+Nome: Refúgio da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Arqueiro seu neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 23
+Nome: Clareira da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno se moveu neste turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 24
+Nome: Terraço da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 25
+Nome: Posto da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 26
+Nome: Santuário da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de alcance e -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 27
+Nome: Acampamento da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de movimento e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 28
+Nome: Fortim da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Pirata seu neste terreno recebe +1/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 29
+Nome: Pátio da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de alcance até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 30
+Nome: Travessia da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 31
+Nome: Torreão da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 32
+Nome: Refúgio da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Arqueiro seu neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 33
+Nome: Clareira da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno se moveu neste turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 34
+Nome: Terraço da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 35
+Nome: Posto da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 36
+Nome: Versão de campanha — Santuário da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 37
+Nome: Versão de campanha — Acampamento da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 38
+Nome: Versão de campanha — Fortim da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 39
+Nome: Versão de campanha — Pátio da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 40
+Nome: Versão de campanha — Travessia da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 41
+Nome: Versão de campanha — Torreão da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 42
+Nome: Versão de campanha — Refúgio da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 43
+Nome: Versão de campanha — Clareira da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 44
+Nome: Base de estudos da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 45
+Nome: Portões da entrada proibida da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 46
+Nome: Mercado Ambulante da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 47
+Nome: Estrada Real da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 48
+Nome: Pátio da Guarda de Pedra Cinzenta da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 49
+Nome: Travessia da Guarda de Pedra Cinzenta da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.
+
+TERRENO 50
+Nome: Torreão da Guarda de Pedra Cinzenta da Caravana das Correntes
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.

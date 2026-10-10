@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01 - Roubo de tumbas.txt",
+    "slot": "CARTA 054",
+    "id": "PD26-G-017",
+    "name": "Veterano da Patrulha de Estuário",
+    "old": "1 PA: uma criatura inimiga adjacente recebe -1 de ataque até o fim do turno. Use apenas uma vez por turno.",
+    "new": "1 PA: o opnente alvo tritura uma carta."
+  },
+  {
+    "file": "01 - Roubo de tumbas.txt",
+    "slot": "CARTA 095",
+    "id": "MED-104",
+    "name": "Senhor das Catacumbas",
+    "old": "Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para sua mão.",
+    "new": "Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para o campo."
+  },
+  {
+    "file": "01 - Roubo de tumbas.txt",
+    "slot": "CARTA 100",
+    "id": "MED-108",
+    "name": "O Rei Que Não Morreu",
+    "old": "Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão.\nQuando esta criatura morrer, você pode perder 5 de vida da Capital. Se fizer isso, devolva-a para sua mão.",
+    "new": "Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão."
+  },
+  {
+    "file": "06 - O trono que não recua.txt",
+    "slot": "CARTA 060",
+    "id": "MED-117",
+    "name": "Fortaleza de Fronteira",
+    "old": "Criaturas aliadas adjacentes recebem +1 de defesa.\nInimigos não podem atravessar seu tile.",
+    "new": "Criaturas aliadas adjacentes recebem +1 de defesa."
+  },
+  {
+    "file": "06 - O trono que não recua.txt",
+    "slot": "CARTA 083",
+    "id": "MED-119",
+    "name": "Castelo Inabalável",
+    "old": "Criaturas aliadas a até 2 tiles recebem +1 de defesa.\nCriaturas aliadas adjacentes não podem ser movidas por efeitos inimigos.",
+    "new": "Criaturas aliadas a até 2 tiles recebem +1 de defesa."
+  },
+  {
+    "file": "07 - Flechas do horizonte.txt",
+    "slot": "CARTA 100",
+    "id": "MED-144",
+    "name": "Soberano dos Céus",
+    "old": "Pode atravessar criaturas durante seu movimento.\nUma vez por turno, depois que uma criatura aliada a até 3 tiles se mover, você pode movê-la mais 1 tile.",
+    "new": "Pode atravessar criaturas durante seu movimento."
+  },
+  {
+    "file": "08 - O jardim dos pequenos mortos.txt",
+    "slot": "CARTA 059",
+    "id": "MED-117",
+    "name": "Fortaleza de Fronteira",
+    "old": "Criaturas aliadas adjacentes recebem +1 de defesa.\nInimigos não podem atravessar seu tile.",
+    "new": "Criaturas aliadas adjacentes recebem +1 de defesa."
+  },
+  {
+    "file": "08 - O jardim dos pequenos mortos.txt",
+    "slot": "CARTA 085",
+    "id": "MED-119",
+    "name": "Castelo Inabalável",
+    "old": "Criaturas aliadas a até 2 tiles recebem +1 de defesa.\nCriaturas aliadas adjacentes não podem ser movidas por efeitos inimigos.",
+    "new": "Criaturas aliadas a até 2 tiles recebem +1 de defesa."
+  }
+]

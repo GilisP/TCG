@@ -1,0 +1,1914 @@
+﻿PROTÓTIPO DE DECK — PARA REVISÃO DO AUTOR
+Nome do deck: Roubo de tumbas
+Comandante escolhido: Ladrão de criptas
+Custo do comandante: LLGG1
+Efeito do comandante: Quando uma carta não terreno cair de qualquer grimório no cemitério, pode pagar seu custo convertido em PA de tropas suas para exilá-la. Pode conjurá-la uma vez gastando mana de qualquer cor.
+
+Temática confirmada: Esvaziar o grimório adversário e provocar sua próxima compra para vencer; roubar e conjurar recursos dos cemitérios inimigos. A derrota só ocorre ao tentar comprar do grimório vazio.
+Principais: 50 comuns / 20 incomuns / 15 raras / 15 míticas.
+Terrenos: 25 comuns / 10 incomuns / 8 raros / 7 míticos (arredondamento editorial).
+Raridades propostas para revisão; comandante fora dessa contagem.
+
+100 CARTAS PRINCIPAIS
+
+CARTA 001
+Nome: Mestre chaveiro
+Tipo: Criatura
+Subtipo: Humano Engenheiro
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: 2pa: olhe a carta do topo do grimorio alvo.
+
+CARTA 002
+Nome: Caranguejo de estimação
+Tipo: criatura
+Subtipo: ciri
+Cor: G
+Raridade: Incomum
+Custo: G
+Ataque/Defesa: 1/1
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: sempre que um terreno é colocado em 1 tile de distancia do caranquejo de estimação os oponentes trituram 1 carta.
+
+CARTA 003
+Nome: Refinar o plano
+Tipo: Truque
+Subtipo: —
+Cor: LG
+Raridade: Incomum
+Custo: LG1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla
+
+CARTA 004
+Nome: Vendedor de mapas
+Tipo: Criatura
+Subtipo: Humano
+Cor: L
+Raridade: Rara
+Custo: LL2
+Ataque/Defesa: 2/2
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: 1pa: marque um tile caso o conquiste este turno compre duas cartas
+
+CARTA 005
+Nome: procurando a chave
+Tipo: truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: o jogador alvo tritura cinco cartas.
+
+CARTA 006
+Nome: ondas gigantes
+Tipo: truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: GG1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: 1
+Palavras-chave: —
+Efeito: escolha um tile. empurre dois tiles para longe tudo que esteja no caminho. caso no tile exato toma 3 de dano
+
+CARTA 007
+Nome: jonas o lixeiro
+Tipo: criatura
+Subtipo: Humano Lendario
+Cor: GL
+Raridade: Mítica
+Custo: LG3
+Ataque/Defesa: 0/8
+PA: x
+Movimento: 2
+Alcance: 1
+Palavras-chave: indestrutivel
+Efeito: tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno
+
+CARTA 008
+Nome: Ciri do Mal
+Tipo: Criatura
+Subtipo: Caranguejo
+Cor: L
+Raridade: Comum
+Custo: L
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 1 apenas em diagonal
+Alcance: 1
+Palavras-chave: —
+Efeito: 1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas.
+
+CARTA 009
+Nome: Documento falso
+Tipo: Artefato
+Subtipo: equipamento
+Cor: nenhuma
+Raridade: Incomum
+Custo: 2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: equip 2: a criatura equipada tem ou o dobro de defesa ou de ataque escolhido ao acaso todo turno
+
+CARTA 010
+Nome: Fabrica dos Horrores
+Tipo: artefato
+Subtipo: Costrução
+Cor: LG
+Raridade: Rara
+Custo: LLG1
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a 0 marcadores.
+
+CARTA 011
+Nome: Padre corrupto
+Tipo: criatura
+Subtipo: Humano
+Cor: L
+Raridade: Comum
+Custo: LL
+Ataque/Defesa: 1/3
+PA: 3
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: toda criatura em seu cemiterio tem "Exumar 1: pague uma mana incolor e exile esse card. compre um card"
+
+CARTA 012
+Nome: sinfonia desastrosa
+Tipo: encantamento
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura.
+
+CARTA 013
+Nome: persoadir guerreiros
+Tipo: feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: GG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: até 3 tiles da capital
+Palavras-chave: —
+Efeito: de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo
+
+CARTA 014
+Nome: Abrir o cofre do Cais Sombrio
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 015
+Nome: Arrombador do Cais Sombrio
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: 1/2
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: o jogador alvo tritura 1 cartas.
+
+CARTA 016
+Nome: Coveiro do Cais Sombrio
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Comum
+Custo: L
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, um oponente alvo tritura 1 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.
+
+CARTA 017
+Nome: Espião do Cais Sombrio
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.
+
+CARTA 018
+Nome: Exigir o registro do Cais Sombrio
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura 1 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.
+
+CARTA 019
+Nome: Profanar o arquivo do Cais Sombrio
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 020
+Nome: Rato do Ossuário
+Tipo: Criatura
+Subtipo: Fera
+Cor: L
+Raridade: Comum
+Custo: L
+Ataque/Defesa: 1/1
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando morrer, coloque uma carta do seu cemitério no fundo do seu deck.
+
+CARTA 021
+Nome: Abrir o cofre das Catacumbas
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 022
+Nome: Aprendiz da Marcha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+CARTA 023
+Nome: Aprendiz da Marcha de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele.
+
+CARTA 024
+Nome: Aprendiz da Ponte de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, o dono do efeito que a matou tritura 5.
+
+CARTA 025
+Nome: Aprendiz da Torre de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.
+
+CARTA 026
+Nome: Aprendiz da Vigília de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 027
+Nome: Aprendiz de Arrombador
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: olhe a carta do topo do seu grimório. Você pode colocá-la no seu cemitério.
+
+CARTA 028
+Nome: Aprendiz do Juramento de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.
+
+CARTA 029
+Nome: Aprendiz do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório.
+
+CARTA 030
+Nome: Aprendiz do Pórtico de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card.
+
+CARTA 031
+Nome: Arrombador das Catacumbas
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: o jogador alvo tritura 2 cartas.
+
+CARTA 032
+Nome: Coveiro das Catacumbas
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, um oponente alvo tritura 2 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.
+
+CARTA 033
+Nome: Espião das Catacumbas
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.
+
+CARTA 034
+Nome: Exigir o registro das Catacumbas
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura 2 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.
+
+CARTA 035
+Nome: Guarda do Espólio
+Tipo: Criatura
+Subtipo: Humano, Soldado
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +0/+2.
+
+CARTA 036
+Nome: Janela Arrombada
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as duas cartas do topo do grimório do jogador alvo. Coloque uma no cemitério dele e devolva a outra ao topo.
+
+CARTA 037
+Nome: Profanar o arquivo das Catacumbas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 038
+Nome: Recolher os Caídos
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma carta de criatura de custo total 3 ou menos do seu cemitério principal para sua mão.
+
+CARTA 039
+Nome: Tomar o espólio do Cais Sombrio
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Comum
+Custo: LG
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.
+
+CARTA 040
+Nome: Vasculhar as Covas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura no seu cemitério e coloque-a no fundo do seu deck. Compre uma carta.
+
+CARTA 041
+Nome: Abrir o cofre do Arquivo Lacrado
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 042
+Nome: Contrabandista das Catacumbas
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Comum
+Custo: LG1
+Ataque/Defesa: 1/1
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.
+
+CARTA 043
+Nome: Coveiro do Arquivo Lacrado
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, um oponente alvo tritura 3 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida.
+
+CARTA 044
+Nome: Coveiro dos Registros
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque as duas cartas do topo do seu grimório no seu cemitério.
+
+CARTA 045
+Nome: Espião do Arquivo Lacrado
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.
+
+CARTA 046
+Nome: Exigir o registro do Arquivo Lacrado
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura 3 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.
+
+CARTA 047
+Nome: Memórias Afundadas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha um jogador. Ele coloca três cartas do topo do grimório no cemitério. Você perde 1 de vida da capital.
+
+CARTA 048
+Nome: Memórias do Poço
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Comum
+Custo: LG1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma carta de criatura do seu cemitério principal para sua mão. Depois, olhe a carta do topo do seu deck principal; você pode colocá-la no fundo desse deck.
+
+CARTA 049
+Nome: Profanar o arquivo do Arquivo Lacrado
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 050
+Nome: Tomar o espólio das Catacumbas
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Comum
+Custo: LG1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.
+
+CARTA 051
+Nome: Veterano da Escolta de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: quando você conjurar um Truque, seus oponentes trituram uma carta.
+
+CARTA 052
+Nome: Veterano da Marcha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio.
+
+CARTA 053
+Nome: Veterano da Marcha de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à capital inimiga, coloque a carta do topo do grimório daquele jogador no cemitério dele.
+
+CARTA 054
+Nome: Veterano da Patrulha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA: o opnente alvo tritura uma carta.
+
+CARTA 055
+Nome: Veterano da Ponte de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno.
+
+CARTA 056
+Nome: Veterano da Torre de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão.
+
+CARTA 057
+Nome: Veterano da Vigília de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas.
+
+CARTA 058
+Nome: Veterano do Juramento de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.
+
+CARTA 059
+Nome: Veterano do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório.
+
+CARTA 060
+Nome: Luvas do Saque Silencioso
+Tipo: Artefato
+Subtipo: Equipamento
+Cor: Incolor
+Raridade: Incomum
+Custo: 2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Equipar: 1 mana genérica, no mesmo tile. A criatura equipada recebe +0/+1. Uma vez no seu turno, quando ela causar dano de combate a uma capital, o dono dessa capital tritura duas cartas.
+
+CARTA 061
+Nome: Arquivo de Ossos
+Tipo: Construção
+Subtipo: Arquivo
+Cor: L
+Raridade: Incomum
+Custo: L2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 1 mana genérica:olhe a carta do topo do grimorio, voce pode colocar a carta do topo do seu grimório no seu cemitério.
+
+CARTA 062
+Nome: Arrombador do Arquivo Lacrado
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: o jogador alvo tritura 3 cartas.
+
+CARTA 063
+Nome: Caranguejo Arquivista
+Tipo: Criatura
+Subtipo: Caranguejo
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: 0/5
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: 2 PA: o jogador alvo coloca duas cartas do topo do grimório no cemitério. Use uma vez no seu turno.
+
+CARTA 064
+Nome: Veterano da Escolta de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Incomum
+Custo: L2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada.
+
+CARTA 065
+Nome: Veterano da Vigília de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Incomum
+Custo: L2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode perder 10 de vida da capital. Se fizer isso, cada oponente tritura 10.
+
+CARTA 066
+Nome: Vigia do Canal Morto
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Incomum
+Custo: LG1
+Ataque/Defesa: 1/4
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Uma vez no seu turno, quando uma carta sair de um cemitério por um efeito seu, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 067
+Nome: Abrir o cofre da Cripta Real
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 068
+Nome: Contrabandista do Arquivo Lacrado
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Incomum
+Custo: LG2
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.
+
+CARTA 069
+Nome: Contrabandista do Cais Sombrio
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Incomum
+Custo: LG2
+Ataque/Defesa: 1/1
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, exile uma carta não terreno de custo total até 1 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.
+
+CARTA 070
+Nome: Coveiro da Cripta Real
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Incomum
+Custo: L3
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, um oponente alvo tritura 4 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida.
+
+CARTA 071
+Nome: Espião da Cripta Real
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.
+
+CARTA 072
+Nome: Exigir o registro da Cripta Real
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura 4 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.
+
+CARTA 073
+Nome: Necromante de Campo
+Tipo: Criatura
+Subtipo: Mago
+Cor: L
+Raridade: Incomum
+Custo: LL2
+Ataque/Defesa: 2/3
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando entrar, devolva uma criatura de custo 1 do seu cemitério para sua mão.
+
+CARTA 074
+Nome: Profanar o arquivo da Cripta Real
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: L3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 075
+Nome: Recuperar Pergaminho
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: GG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque do seu cemitério à sua mão. Exile esta carta após resolver.
+
+CARTA 076
+Nome: Tomar o espólio do Arquivo Lacrado
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Incomum
+Custo: LG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.
+
+CARTA 077
+Nome: Pá do Saqueador
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +1/+0. Uma vez por turno, quando causar dano de combate a uma capital, o dono dela coloca duas cartas do topo do grimório no cemitério. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 078
+Nome: Abrir o cofre do Último Cofre
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 079
+Nome: Coveiro do Último Cofre
+Tipo: Criatura
+Subtipo: Humano, Coveiro
+Cor: L
+Raridade: Rara
+Custo: L4
+Ataque/Defesa: 3/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, um oponente alvo tritura 5 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 3 de vida.
+
+CARTA 080
+Nome: Espião do Último Cofre
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: 3/4
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate a uma capital, olhe as 4 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.
+
+CARTA 081
+Nome: Exigir o registro do Último Cofre
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura 5 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.
+
+CARTA 082
+Nome: Mausoléu Ambulante
+Tipo: Construção
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: LLL2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criatura sua morta adjacente vai sob o Mausoléu em vez do cemitério. 3: destrua o Mausoléu, coloque as criaturas armazenadas no cemitério e escolha uma para sua mão.
+
+CARTA 083
+Nome: Mirela, Guardiã dos Nomes
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: L
+Raridade: Rara
+Custo: LL3
+Ataque/Defesa: 3/6
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando esta criatura entrar no campo, devolva outra carta de criatura de custo total 4 ou menos do seu cemitério principal para sua mão.
+
+CARTA 084
+Nome: Profanar o arquivo do Último Cofre
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: L4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério.
+
+CARTA 085
+Nome: Tomar o espólio da Cripta Real
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Rara
+Custo: LG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.
+
+CARTA 086
+Nome: Voto do Sacrifício
+Tipo: Encantamento
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ao morrer a criatura encantada, você pode colocar um equipamento seu de custo total até 2 do cemitério no fundo do grimório.
+
+CARTA 087
+Nome: Arrombador da Cripta Real
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Mítica
+Custo: G3
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: o jogador alvo tritura 4 cartas.
+
+CARTA 088
+Nome: Ceifador da Vigília
+Tipo: Criatura
+Subtipo: Espírito, Guerreiro
+Cor: L
+Raridade: Mítica
+Custo: L3
+Ataque/Defesa: 4/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Enquanto houver pelo menos 3 cartas de criatura no seu cemitério principal, esta criatura recebe +1/+0.
+
+CARTA 089
+Nome: Inventário dos Mortos
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Mítica
+Custo: LG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Coloque a carta do topo do seu grimório no seu cemitério. Depois compre duas cartas.
+
+CARTA 090
+Nome: Arrombador do Último Cofre
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: G
+Raridade: Mítica
+Custo: G4
+Ataque/Defesa: 3/4
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 3 PA, uma vez no seu turno: o jogador alvo tritura 5 cartas.
+
+CARTA 091
+Nome: Contrabandista da Cripta Real
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Mítica
+Custo: LG3
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.
+
+CARTA 092
+Nome: Contrabandista do Último Cofre
+Tipo: Criatura
+Subtipo: Humano, Ladino
+Cor: LG
+Raridade: Mítica
+Custo: LG4
+Ataque/Defesa: 3/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.
+
+CARTA 093
+Nome: Contrato de Pilhagem
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Mítica
+Custo: LG4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile até três cartas não terreno de cemitérios inimigos. Até o fim do seu próximo turno, você pode conjurá-las pagando seus custos com mana de qualquer cor; preserve os donos originais.
+
+CARTA 094
+Nome: Guardião do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, seus oponentes trituram 5.
+
+CARTA 095
+Nome: Senhor das Catacumbas
+Tipo: Criatura
+Subtipo: Soldado
+Cor: L
+Raridade: Mítica
+Custo: LLL3
+Ataque/Defesa: 4/5
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para o campo.
+
+CARTA 096
+Nome: Tomar o espólio do Último Cofre
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Mítica
+Custo: LG4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Exile uma carta não terreno de custo total até 6 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.
+
+CARTA 097
+Nome: Mercado das Memórias Mortas
+Tipo: Encantamento
+Subtipo: —
+Cor: LG
+Raridade: Mítica
+Custo: LLGG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, quando você conjurar uma carta que pertencia a um oponente, cada outro oponente tritura três cartas.
+
+CARTA 098
+Nome: O Assalto Final
+Tipo: Feitiço
+Subtipo: —
+Cor: LG
+Raridade: Mítica
+Custo: LG5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: O oponente alvo tritura dez cartas e depois compra uma carta.
+
+CARTA 099
+Nome: Rainha da Última Noite
+Tipo: Criatura
+Subtipo: Mago
+Cor: L
+Raridade: Mítica
+Custo: LLLL4
+Ataque/Defesa: 5/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: A primeira vez em cada um dos seus turnos que outra criatura sua morrer, devolva uma criatura diferente do seu cemitério para sua mão.
+
+CARTA 100
+Nome: O Rei Que Não Morreu
+Tipo: Criatura
+Subtipo: Nobre
+Cor: L
+Raridade: Mítica
+Custo: LLLLL5
+Ataque/Defesa: 7/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão.
+
+50 TERRENOS
+
+TERRENO 01
+Nome: Reino dos mortos
+Tipo: Terreno
+Subtipo: Cemitério (proposta para revisão)
+Cor: L
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: 1 Lua (proposta para revisão; original sem geração definida)
+Efeito: uma vez por turno caso esse tile seja atacado e não tenha criaturas nele volte uma critura de seu cemiterio até o final do turno para a defender
+
+TERRENO 02
+Nome: Cais dos Registros Roubados
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no cemitério.
+
+TERRENO 03
+Nome: Cripta dos Mapas Perdidos
+Tipo: Terreno
+Subtipo: Local
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Lua
+Efeito: Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: o jogador alvo tritura uma carta.
+
+TERRENO 04
+Nome: Canal dos Cofres Vazios
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno.
+
+TERRENO 05
+Nome: cemiterio descontrolado
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Lua. Toda criatura morta no campo cria aqui um Esqueleto 1/1, 1 PA, com missão de atacar uma capital inimiga sorteada.
+
+TERRENO 06
+Nome: Charneca do Crepúsculo
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 07
+Nome: Pátio da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 08
+Nome: Travessia da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 09
+Nome: Torreão da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 10
+Nome: Refúgio da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 11
+Nome: Clareira da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 12
+Nome: Terraço da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 13
+Nome: Posto da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 14
+Nome: Santuário da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 15
+Nome: Acampamento da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 16
+Nome: Fortim da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 17
+Nome: Pátio da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 18
+Nome: Travessia da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 19
+Nome: Torreão da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 20
+Nome: Refúgio da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 21
+Nome: Clareira da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 22
+Nome: Terraço da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 23
+Nome: Posto da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 24
+Nome: Santuário da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 25
+Nome: Acampamento da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 26
+Nome: Fortim da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 27
+Nome: Pátio da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 28
+Nome: Travessia da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 29
+Nome: Torreão da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 30
+Nome: Refúgio da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 31
+Nome: Academia de Magos
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Água. Habilidades desencadeadas dos Magos neste terreno desencadeiam uma vez adicional.
+
+TERRENO 32
+Nome: Margens do Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 33
+Nome: Pátio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 34
+Nome: Travessia da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 35
+Nome: Torreão da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 36
+Nome: Versão de campanha — Refúgio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 37
+Nome: Versão de campanha — Clareira da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 38
+Nome: Versão de campanha — Terraço da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 39
+Nome: Versão de campanha — Posto da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 40
+Nome: Versão de campanha — Santuário da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 41
+Nome: Versão de campanha — Acampamento da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 42
+Nome: Versão de campanha — Fortim da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 43
+Nome: Versão de campanha — Pátio da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 44
+Nome: Versão de campanha — Travessia da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 45
+Nome: Versão de campanha — Base de estudos
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 46
+Nome: Versão de campanha — Portões da entrada proibida
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 47
+Nome: Versão de campanha — Mercado Ambulante
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 48
+Nome: Versão de campanha — Estrada Real
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 49
+Nome: Versão de campanha — Pátio da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.
+
+TERRENO 50
+Nome: Versão de campanha — Travessia da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.

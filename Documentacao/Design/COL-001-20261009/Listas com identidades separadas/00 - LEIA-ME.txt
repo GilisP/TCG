@@ -1,0 +1,37 @@
+DEZ DECKS — REVISÃO TEMÁTICA DE 08/10/2026
+
+Abra os dez TXT numerados e edite como preferir. As versões de 07/10 estão preservadas em sua pasta original; Fontes também guarda as dez listas usadas como ponto de partida.
+
+DISTRIBUIÇÃO POR DECK
+100 principais: 50 Comuns, 20 Incomuns, 15 Raras, 15 Míticas.
+50 terrenos: 25 Comuns, 10 Incomuns, 8 Raros, 7 Míticos.
+O comandante é separado e não entra nesses totais. A divisão de terrenos é uma aproximação editorial da proporção pedida, pois 15% de 50 dá 7,5.
+As raridades desta revisão são propostas, inclusive nas cartas reutilizadas: não alteram a raridade do catálogo. Uma mesma identidade pode aparecer com raridade de impressão proposta diferente em outra lista; isso está registrado em Fontes/origem-e-composicao.json. Não cria uma identidade extra nem permite duplicar a carta no mesmo deck.
+
+ORGANIZAÇÃO
+Cartas agrupadas por raridade e depois custo. Exceção: suas primeiras 13 cartas do deck 01 continuam no início para facilitar a conferência. Seus efeitos foram preservados e os campos de Água continuam usando G. Reino dos mortos permanece como terreno 01.
+Campos e raridades são editoriais. — significa sem atributo informado ou não aplicável.
+S = Sol; L = Lua; G = Água; F = Fogo; A = Ar; T = Terra.
+Triturar: colocar cartas do topo do grimório no cemitério.
+
+COMPOSIÇÃO E PLANO
+01 — Ladrão de criptas: triturar o grimório inimigo, forçar a compra final e roubar cartas de cemitérios adversários. Pela decisão vigente, a derrota ocorre ao tentar comprar do grimório principal vazio; esvaziá-lo sozinho ainda não elimina. Esvaziar o deck de terrenos não causa derrota.
+02 — Mago Colecionador de tomos: 74 Truques/Feitiços; anular, devolver criaturas, controlar ataques, comprar e recuperar magias. Os 22 corpos sustentam o plano sem ocupar a maior parte da lista.
+03 — Goblin maça de carne: 69 criaturas, todas Goblins, além de geração de fichas e apoios ofensivos. Perdas fazem parte do avanço.
+04 — Comandante das Cem Lanças: 75 criaturas, com uma nova base de corpos pequenos e movimento 3 ou maior para espalhar tropas e coordenar ataques.
+05 — Mestre do Ossuário: 69 criaturas, com corpos pequenos, substitutos ao morrer, fichas e proteção do comandante. Sacrifícios alimentam o Mestre e seus acompanhantes.
+06 — Rei Sob a Montanha: 17 construções, defensores e 34 Feitiços. Grandes magias convertem o tempo ganho em Elementais, fortalecimento coletivo e recuperação decisiva. Defesa dá tempo, não gera mana automaticamente.
+07 — Mestre Arqueiro: 38 Arqueiros, ativações e magias de disparo que medem o alcance atual da tropa. O dano dessas habilidades não é combate; balistas não recebem o bônus do comandante que vale para criaturas.
+08 — Pincesa Lissandra: 46 criaturas, com uma base nova de corpos fortes para lutar, morrer em combate e deixar habilidades úteis. As cópias continuam 1/1; a lista inclui fortalecimento para elas. Sacrifício fora de combate não gera contadores de morte.
+09 — Valeria: 42 veículos e 46 criaturas para tripular/proteger. Novos veículos escalam ataque, defesa, alcance, cura ou movimento com a quantidade de passageiros. Morrer com o casco continua sendo o risco dos passageiros.
+10 — Cavaleiro das mil feras: 67 equipamentos e 22 criaturas de apoio. Conjurar equipamentos produz as feras do comandante; equipar ou transferir um equipamento já no campo não dispara entrada novamente.
+
+O QUE MUDOU
+43 novas propostas principais por lista: famílias de mecânicas simples com variações de custo/atributos e três efeitos temáticos de destaque por comandante. As demais posições foram selecionadas das listas anteriores pela estratégia, com suas identidades de origem registradas. Quinze terrenos por lista receberam versões temáticas de utilidade, com nome/ID editorial distintos.
+As cartas mais caras e complexas foram priorizadas nas raridades altas; não foi feita distribuição aleatória. Ainda há cartas de papel semelhante e eficiência diferente para você escolher e ajustar. Raridade não comprova balanceamento.
+
+LIMITES DESTA ENTREGA
+Todas são propostas para sua confirmação. As habilidades autorais ambíguas continuam preservadas; as dúvidas estão no LEIA-ME da revisão de 07/10. Nenhuma dessas revisões foi importada no Unity, no inventário ou nos decks salvos.
+Conferido: dez listas com 100+50, proporções exatas, nomes únicos em cada deck e preservação dos efeitos autorais. Balanceamento e testes em partida ainda não foram realizados.
+Para pedir ajustes, cite arquivo e número da carta/terreno. A numeração das cartas não autorais mudou nesta revisão.
+Não execute o gerador em Fontes após editar os TXT: ele reescreve os arquivos desta entrega.

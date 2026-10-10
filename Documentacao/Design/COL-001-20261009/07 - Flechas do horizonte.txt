@@ -1,0 +1,1914 @@
+﻿PROTÓTIPO DE DECK — PARA REVISÃO DO AUTOR
+Nome do deck: Flechas do horizonte
+Comandante escolhido: Mestre Arqueiro
+Custo do comandante: AAA3
+Efeito do comandante: Criaturas suas com alcance 2 ou maior recebem +1 de alcance enquanto não houver criatura inimiga adjacente a elas.
+
+Temática confirmada: Causar dano direto com tropas de alcance alto, aproveitando o alcance atual aumentado pelo Mestre Arqueiro; manter inimigos longe dos atiradores.
+Principais: 50 comuns / 20 incomuns / 15 raras / 15 míticas.
+Terrenos: 25 comuns / 10 incomuns / 8 raros / 7 míticos (arredondamento editorial).
+Raridades propostas para revisão; comandante fora dessa contagem.
+
+100 CARTAS PRINCIPAIS
+
+CARTA 001
+Nome: Arqueiro da Colina
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 002
+Nome: Atiradora da Colina
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 003
+Nome: Balista da Colina
+Tipo: Construção
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: cause 1 de dano a uma criatura inimiga a até 2 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.
+
+CARTA 004
+Nome: Batedor do Vento da Colina
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.
+
+CARTA 005
+Nome: Disparo Distante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura aliada recebe +1 de alcance até o fim do turno.
+
+CARTA 006
+Nome: Disparo da Colina
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura sua com alcance 2 ou maior. Ela causa 1 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.
+
+CARTA 007
+Nome: Marcha Leve
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua ganha 2 pontos de movimento neste turno. Isso não concede PA.
+
+CARTA 008
+Nome: Retirada dos atiradores da Colina
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 1 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno.
+
+CARTA 009
+Nome: Salva da Colina
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até 2 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.
+
+CARTA 010
+Nome: Vigia da Colina
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.
+
+CARTA 011
+Nome: Aprendiz da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 012
+Nome: Aprendiz da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 013
+Nome: Aprendiz da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 014
+Nome: Aprendiz da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 015
+Nome: Aprendiz da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 016
+Nome: Aprendiz da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 017
+Nome: Aprendiz do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 018
+Nome: Arqueiro do Mirante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 019
+Nome: Atiradora do Mirante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 020
+Nome: Balista do Mirante
+Tipo: Construção
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: cause 1 de dano a uma criatura inimiga a até 3 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.
+
+CARTA 021
+Nome: Batedor do Vento do Mirante
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.
+
+CARTA 022
+Nome: Disparo do Mirante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura sua com alcance 2 ou maior. Ela causa 1 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.
+
+CARTA 023
+Nome: Flecha de Aviso
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha um Arqueiro seu. Ele causa 1 de dano a uma criatura inimiga no alcance atual dele, sem gastar PA.
+
+CARTA 024
+Nome: Flecheiro da Falésia
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 025
+Nome: Marca do Batedor
+Tipo: Encantamento
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +1 de movimento.
+
+CARTA 026
+Nome: Muralha de Entulho
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 2
+Ataque/Defesa: 0/6
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas suas neste terreno têm -1 de movimento, mínimo 0. Não se move nem causa dano ao defender.
+
+CARTA 027
+Nome: Retirada dos atiradores do Mirante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 1 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno.
+
+CARTA 028
+Nome: Vigia do Mirante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.
+
+CARTA 029
+Nome: Voto da Ferrugem
+Tipo: Encantamento
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe -1 de movimento, mínimo 0, e +0/+2.
+
+CARTA 030
+Nome: Arqueira do Campanário
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/2
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 031
+Nome: Arqueiro Peregrino
+Tipo: Criatura
+Subtipo: Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/2
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Sem habilidades.
+
+CARTA 032
+Nome: Autômato de Vidro Leve
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: 2/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao atacar, esta recebe +1/+0 até o fim do combate e sofre 1 de dano após o combate.
+
+CARTA 033
+Nome: Disparo das Flechas Longas
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura sua com alcance 2 ou maior. Ela causa 2 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.
+
+CARTA 034
+Nome: Flecha do Horizonte
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua com alcance pelo menos 2 recebe +2 de alcance até o fim do turno.
+
+CARTA 035
+Nome: Mirante de Madeira
+Tipo: Construção
+Subtipo: Torre
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas suas neste tile com alcance 2 ou maior recebem +0/+1.
+
+CARTA 036
+Nome: Observadora dos Ventos
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 1/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA, uma vez no seu turno: outro Arqueiro seu adjacente recebe +1 de ataque até o fim do turno.
+
+CARTA 037
+Nome: Retirada dos atiradores das Flechas Longas
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 2 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno.
+
+CARTA 038
+Nome: Sela de Couro
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +0/+1 e +1 de movimento. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 039
+Nome: Veterano da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 040
+Nome: Veterano da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 041
+Nome: Veterano da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 042
+Nome: Veterano da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 043
+Nome: Veterano da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 044
+Nome: Veterano da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 045
+Nome: Veterano do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Comum
+Custo: A2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 046
+Nome: Disparo dos Ventos Altos
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura sua com alcance 2 ou maior. Ela causa 2 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.
+
+CARTA 047
+Nome: Grifo Mensageiro
+Tipo: Criatura
+Subtipo: Alado
+Cor: A
+Raridade: Comum
+Custo: AA2
+Ataque/Defesa: 3/3
+PA: 3
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Pode atravessar criaturas durante seu movimento.
+
+CARTA 048
+Nome: Lança de Caravana
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +1/+0 e +1 de alcance. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 049
+Nome: Retirada dos atiradores dos Ventos Altos
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: A3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 2 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno.
+
+CARTA 050
+Nome: Rota dos Vigias
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: AA2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até duas criaturas suas recebem +1 de movimento até o fim do turno.
+
+CARTA 051
+Nome: Salva do Mirante
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: A1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até 2 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.
+
+CARTA 052
+Nome: Arqueiro das Flechas Longas
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 053
+Nome: Atiradora das Flechas Longas
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 054
+Nome: Balista das Flechas Longas
+Tipo: Construção
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 0/6
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 3 manas genéricas: cause 2 de dano a uma criatura inimiga a até 4 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.
+
+CARTA 055
+Nome: Batedor do Vento das Flechas Longas
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.
+
+CARTA 056
+Nome: Oficina de Remendos
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 3
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma construção sua neste terreno. Não se move nem causa dano ao defender.
+
+CARTA 057
+Nome: Vigia das Flechas Longas
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A2
+Ataque/Defesa: 2/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.
+
+CARTA 058
+Nome: Arqueiro dos Ventos Altos
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A3
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 059
+Nome: Atiradora dos Ventos Altos
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A3
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 060
+Nome: Balista dos Ventos Altos
+Tipo: Construção
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: A3
+Ataque/Defesa: 0/7
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 3 manas genéricas: cause 2 de dano a uma criatura inimiga a até 5 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.
+
+CARTA 061
+Nome: Batedor do Vento dos Ventos Altos
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Incomum
+Custo: A3
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.
+
+CARTA 062
+Nome: Botas de Marcha
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +1 de movimento. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 063
+Nome: Escudo de Torre
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +0/+4 e -1 de movimento, mínimo 0. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 064
+Nome: Medir a Distância
+Tipo: Truque
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +1 de alcance até o fim do turno.
+
+CARTA 065
+Nome: Pique da Sentinela
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +0/+1; enquanto não se moveu neste turno, recebe também +1 de alcance. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 066
+Nome: Vigia dos Ventos Altos
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: A3
+Ataque/Defesa: 2/3
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.
+
+CARTA 067
+Nome: Disparo do Horizonte Distante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: A4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura sua com alcance 2 ou maior. Ela causa 3 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.
+
+CARTA 068
+Nome: Retirada dos atiradores do Horizonte Distante
+Tipo: Truque
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: A4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 3 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno.
+
+CARTA 069
+Nome: Torre de Observação
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 5
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas suas neste terreno com alcance pelo menos 2 recebem +1 de alcance. Não se move nem causa dano ao defender.
+
+CARTA 070
+Nome: Guardião da Ponte de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Incomum
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Se não houver inimigos adjacentes, esta recebe +1 de alcance.
+
+CARTA 071
+Nome: Salva das Flechas Longas
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: A2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até 3 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.
+
+CARTA 072
+Nome: Trenó de Carga
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Rara
+Custo: 3
+Ataque/Defesa: 1/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 1/4, 2 PA, movimento 2, alcance 1. Capacidade 1; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 073
+Nome: Salva dos Ventos Altos
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: A3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até 3 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.
+
+CARTA 074
+Nome: Arqueiro do Horizonte Distante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: A4
+Ataque/Defesa: 3/4
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 075
+Nome: Atiradora do Horizonte Distante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: A4
+Ataque/Defesa: 3/4
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 3 PA, uma vez no seu turno: cause 3 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.
+
+CARTA 076
+Nome: Balista do Horizonte Distante
+Tipo: Construção
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: A4
+Ataque/Defesa: 0/8
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 4 manas genéricas: cause 3 de dano a uma criatura inimiga a até 6 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.
+
+CARTA 077
+Nome: Batedor do Vento do Horizonte Distante
+Tipo: Criatura
+Subtipo: Humano, Batedor
+Cor: A
+Raridade: Rara
+Custo: A4
+Ataque/Defesa: 3/4
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.
+
+CARTA 078
+Nome: Veterana do Arco Longo
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA3
+Ataque/Defesa: 3/3
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver inimigo adjacente, esta criatura recebe +1 de ataque.
+
+CARTA 079
+Nome: Vigia do Horizonte Distante
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: A4
+Ataque/Defesa: 3/4
+PA: 3
+Movimento: 2
+Alcance: 3
+Palavras-chave: —
+Efeito: 3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.
+
+CARTA 080
+Nome: Guardião da Escolta de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Enquanto não houver outra criatura no mesmo terreno, esta recebe +1/+0.
+
+CARTA 081
+Nome: Guardião da Marcha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Pirata
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: flying
+Efeito: Palavra-chave: Voar. Ao causar dano de combate a uma capital, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 082
+Nome: Guardião da Patrulha de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: 1 PA: esta recebe +1 de alcance até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 083
+Nome: Guardião da Torre de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 084
+Nome: Guardião do Pórtico de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Rara
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +1 de movimento até o fim do turno.
+
+CARTA 085
+Nome: A Flecha que Cruza o Reino
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: AAA4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha um Arqueiro seu. Ele causa 4 de dano a uma criatura ou capital inimiga dentro do alcance atual dele, sem iniciar combate.
+
+CARTA 086
+Nome: Carro de Boi
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 4
+Ataque/Defesa: 1/6
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 1/6, 2 PA, movimento 1, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 087
+Nome: Carroça de Batedores
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 4
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 3
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/4, 2 PA, movimento 3, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 088
+Nome: Aríete Móvel
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 5
+Ataque/Defesa: 5/4
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 5/4, 2 PA, movimento 1, alcance 1. Capacidade 1; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 089
+Nome: Pátio de Manobras
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: 5
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. Não se move nem causa dano ao defender.
+
+CARTA 090
+Nome: Salva do Horizonte Distante
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Mítica
+Custo: A4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até 4 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.
+
+CARTA 091
+Nome: Vagão de Milícia
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 3/5, 2 PA, movimento 2, alcance 1. Capacidade 3; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 092
+Nome: Barca de Cerco
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 4/6, 2 PA, movimento 2, alcance 1. Capacidade 2; tripulação mínima 1. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 093
+Nome: Caravana Blindada
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 2/8
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/8, 2 PA, movimento 1, alcance 1. Capacidade 3; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 094
+Nome: Carruagem de Comando
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: 2/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/7, 2 PA, movimento 2, alcance 1. Capacidade 4; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 095
+Nome: Disciplina dos Mil Passos
+Tipo: Encantamento
+Subtipo: —
+Cor: A
+Raridade: Mítica
+Custo: AA4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, depois que uma habilidade ativada de um Arqueiro seu causar dano, ele pode mover-se gratuitamente para um terreno andável adjacente sem inimigos, respeitando bloqueios e gatilhos.
+
+CARTA 096
+Nome: Guardião da Vigília de Vendaval
+Tipo: Criatura
+Subtipo: Humano, Arqueiro
+Cor: A
+Raridade: Mítica
+Custo: AA4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Após seu primeiro ataque em cada turno, você pode mover esta criatura 1 terreno, sem gastar PA, respeitando bloqueios.
+
+CARTA 097
+Nome: Comboio de Socorro
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 7
+Ataque/Defesa: 2/9
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 2/9, 2 PA, movimento 1, alcance 1. Capacidade 5; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 098
+Nome: Torre Sobre Rodas
+Tipo: Artefato
+Subtipo: Veículo
+Cor: Incolor
+Raridade: Mítica
+Custo: 7
+Ataque/Defesa: 3/10
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Veículo; 3/10, 2 PA, movimento 1, alcance 1. Capacidade 4; tripulação mínima 2. Só age tripulado. Passageiros podem agir enquanto tripulado. Embarcar/desembarcar: 1 PA do passageiro, mesmo terreno. Destruído o veículo, passageiros morrem.
+
+CARTA 099
+Nome: Horizonte de Flechas
+Tipo: Feitiço
+Subtipo: —
+Cor: A
+Raridade: Mítica
+Custo: AAA5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até quatro Arqueiros seus. Cada um causa 2 de dano a uma criatura inimiga dentro de seu alcance atual.
+
+CARTA 100
+Nome: Soberano dos Céus
+Tipo: Criatura
+Subtipo: Alado
+Cor: A
+Raridade: Mítica
+Custo: AAAAA5
+Ataque/Defesa: 6/7
+PA: 5
+Movimento: 2
+Alcance: 2
+Palavras-chave: —
+Efeito: Pode atravessar criaturas durante seu movimento.
+
+50 TERRENOS
+
+TERRENO 01
+Nome: Mirante do Segundo Disparo
+Tipo: Terreno
+Subtipo: Local
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Ar
+Efeito: Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um Arqueiro seu neste tile recebe +1 de ataque até o fim do turno.
+
+TERRENO 02
+Nome: Escarpa dos Mensageiros
+Tipo: Terreno
+Subtipo: Local
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Ar
+Efeito: Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +1 de movimento até o fim do turno.
+
+TERRENO 03
+Nome: Passarela dos Vigias
+Tipo: Terreno
+Subtipo: Local
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Ar
+Efeito: Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno se não houver inimigo adjacente.
+
+TERRENO 04
+Nome: Ponte Instável
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Ar. Quando uma criatura termina movimento aqui, seu controlador a move para um terreno adjacente andável. Não aciona outra Ponte no mesmo deslocamento.
+
+TERRENO 05
+Nome: Colinas dos Ventos
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 06
+Nome: Pátio da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de alcance até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 07
+Nome: Travessia da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 08
+Nome: Torreão da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 09
+Nome: Refúgio da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Arqueiro seu neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 10
+Nome: Clareira da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno se moveu neste turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 11
+Nome: Terraço da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 12
+Nome: Posto da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 13
+Nome: Santuário da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de alcance e -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 14
+Nome: Acampamento da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de movimento e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 15
+Nome: Fortim da Guarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Pirata seu neste terreno recebe +1/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 16
+Nome: Pátio da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de alcance até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 17
+Nome: Travessia da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 18
+Nome: Torreão da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 19
+Nome: Refúgio da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Arqueiro seu neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 20
+Nome: Clareira da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno se moveu neste turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 21
+Nome: Terraço da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 22
+Nome: Posto da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 23
+Nome: Santuário da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de alcance e -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 24
+Nome: Acampamento da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de movimento e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 25
+Nome: Fortim da Fronteira de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Pirata seu neste terreno recebe +1/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 26
+Nome: Pátio da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de alcance até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 27
+Nome: Travessia da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 28
+Nome: Torreão da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 29
+Nome: Refúgio da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um Arqueiro seu neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 30
+Nome: Clareira da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno se moveu neste turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 31
+Nome: Terraço da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 32
+Nome: Posto da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 33
+Nome: Santuário da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de alcance e -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 34
+Nome: Acampamento da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2 de movimento e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 35
+Nome: Fortim da Retaguarda de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um Pirata seu neste terreno recebe +1/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 36
+Nome: Versão de campanha — Pátio da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 37
+Nome: Versão de campanha — Travessia da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 38
+Nome: Versão de campanha — Torreão da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 39
+Nome: Versão de campanha — Refúgio da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 40
+Nome: Versão de campanha — Clareira da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 41
+Nome: Versão de campanha — Terraço da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 42
+Nome: Versão de campanha — Posto da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 43
+Nome: Versão de campanha — Santuário da Vigília de Vendaval
+Tipo: Terreno
+Subtipo: —
+Cor: A
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 44
+Nome: Versão de campanha — Base de estudos
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 45
+Nome: Versão de campanha — Portões da entrada proibida
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 46
+Nome: Versão de campanha — Mercado Ambulante
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 47
+Nome: Versão de campanha — Estrada Real
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 48
+Nome: Versão de campanha — Pátio da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 49
+Nome: Versão de campanha — Travessia da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.
+
+TERRENO 50
+Nome: Versão de campanha — Torreão da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.

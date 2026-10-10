@@ -1,0 +1,275 @@
+RENOMEACOES — COLECAO OFICIAL 01
+Somente nomes alterados; efeitos preservados. Integracao mecanica ainda em desenvolvimento.
+
+01 - Roubo de tumbas.txt | CARTA 022
+Aprendiz da Marcha de Estuário -> Aprendiz das Marés Reveladoras
+
+01 - Roubo de tumbas.txt | CARTA 023
+Aprendiz da Marcha de Ossadas -> Saqueador das Memórias Feridas
+
+01 - Roubo de tumbas.txt | CARTA 024
+Aprendiz da Ponte de Ossadas -> Acólito da Ponte Profanada
+
+01 - Roubo de tumbas.txt | CARTA 029
+Aprendiz do Pórtico de Estuário -> Aprendiz dos Tomos Recuperados
+
+01 - Roubo de tumbas.txt | CARTA 030
+Aprendiz do Pórtico de Ossadas -> Vampiro das Lembranças Roubadas
+
+01 - Roubo de tumbas.txt | CARTA 051
+Veterano da Escolta de Estuário -> Escriba do Esquecimento Coletivo
+
+01 - Roubo de tumbas.txt | CARTA 052
+Veterano da Marcha de Estuário -> Veterano da Busca Submersa
+
+01 - Roubo de tumbas.txt | CARTA 055
+Veterano da Ponte de Estuário -> Arauto da Incursão Mental
+
+01 - Roubo de tumbas.txt | CARTA 056
+Veterano da Torre de Estuário -> Negociante dos Tomos Perdidos
+
+01 - Roubo de tumbas.txt | CARTA 057
+Veterano da Vigília de Estuário -> Vigia dos Segredos Usurpados
+
+01 - Roubo de tumbas.txt | CARTA 059
+Veterano do Pórtico de Estuário -> Guardião das Relíquias Recuperadas
+
+01 - Roubo de tumbas.txt | CARTA 064
+Veterano da Escolta de Ossadas -> Sacerdote da Memória Devorada
+
+01 - Roubo de tumbas.txt | CARTA 065
+Veterano da Vigília de Ossadas -> Devoto do Dízimo Sombrio
+
+01 - Roubo de tumbas.txt | CARTA 094
+Guardião do Pórtico de Estuário -> Guardião do Último Esquecimento
+
+01 - Roubo de tumbas.txt | TERRENO 45
+Versão de campanha — Base de estudos -> Base de estudos das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 44
+Versão de campanha — Base de estudos -> Base de estudos do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | TERRENO 46
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 45
+Versão de campanha — Portões da entrada proibida -> Portões da entrada proibida do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | TERRENO 47
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 46
+Versão de campanha — Mercado Ambulante -> Mercado Ambulante do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | TERRENO 48
+Versão de campanha — Estrada Real -> Estrada Real das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 47
+Versão de campanha — Estrada Real -> Estrada Real do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | TERRENO 49
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 48
+Versão de campanha — Pátio da Guarda de Pedra Cinzenta -> Pátio da Guarda de Pedra Cinzenta do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | TERRENO 50
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta das Criptas Saqueadas
+
+02 - Arquivo das marés.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 49
+Versão de campanha — Travessia da Guarda de Pedra Cinzenta -> Travessia da Guarda de Pedra Cinzenta do Arsenal das Feras
+
+02 - Arquivo das marés.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés
+
+03 - Banquete da horda.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta do Banquete Goblin
+
+04 - Cerco das cem lanças.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta das Cem Lanças
+
+05 - Oficina de ossos.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta da Oficina de Ossos
+
+06 - O trono que não recua.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta do Trono Imóvel
+
+07 - Flechas do horizonte.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta das Flechas Distantes
+
+08 - O jardim dos pequenos mortos.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta do Jardim dos Mortos
+
+09 - Caravana das correntes.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta da Caravana das Correntes
+
+10 - Arsenal das mil feras.txt | TERRENO 50
+Versão de campanha — Torreão da Guarda de Pedra Cinzenta -> Torreão da Guarda de Pedra Cinzenta do Arsenal das Feras
+
+01 - Roubo de tumbas.txt | CARTA 054
+Veterano da Patrulha de Estuário -> Veterano da Patrulha do Esquecimento
+
+01 - Roubo de tumbas.txt | CARTA 095
+Senhor das Catacumbas -> Senhor das Catacumbas Despertas
+
+01 - Roubo de tumbas.txt | CARTA 100
+O Rei Que Não Morreu -> Rei das Memórias Sepultadas
+
+06 - O trono que não recua.txt | CARTA 060
+Fortaleza de Fronteira -> Fortaleza da Vigília
+
+06 - O trono que não recua.txt | CARTA 083
+Castelo Inabalável -> Castelo da Guarda Eterna
+
+07 - Flechas do horizonte.txt | CARTA 100
+Soberano dos Céus -> Soberano das Correntes Altas
+
+08 - O jardim dos pequenos mortos.txt | CARTA 059
+Fortaleza de Fronteira -> Fortaleza da Vigília
+
+08 - O jardim dos pequenos mortos.txt | CARTA 085
+Castelo Inabalável -> Castelo da Guarda Eterna

@@ -1,0 +1,4370 @@
+[
+  {
+    "id": "AUTOR-20261007-CARTA-001",
+    "name": "Mestre chaveiro",
+    "implemented": false,
+    "text": "2pa: olhe a carta do topo do grimorio alvo."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-002",
+    "name": "Caranguejo de estimação",
+    "implemented": false,
+    "text": "sempre que um terreno é colocado em 1 tile de distancia do caranquejo de estimação os oponentes trituram 1 carta."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-003",
+    "name": "Refinar o plano",
+    "implemented": false,
+    "text": "troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla"
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-004",
+    "name": "Vendedor de mapas",
+    "implemented": false,
+    "text": "1pa: marque um tile caso o conquiste este turno compre duas cartas"
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-005",
+    "name": "procurando a chave",
+    "implemented": false,
+    "text": "o jogador alvo tritura cinco cartas."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-006",
+    "name": "ondas gigantes",
+    "implemented": false,
+    "text": "escolha um tile. empurre dois tiles para longe tudo que esteja no caminho. caso no tile exato toma 3 de dano"
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-007",
+    "name": "jonas o lixeiro",
+    "implemented": false,
+    "text": "tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno"
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-008",
+    "name": "Ciri do Mal",
+    "implemented": false,
+    "text": "1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-009",
+    "name": "Documento falso",
+    "implemented": false,
+    "text": "equip 2: a criatura equipada tem ou o dobro de defesa ou de ataque escolhido ao acaso todo turno"
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-010",
+    "name": "Fabrica dos Horrores",
+    "implemented": false,
+    "text": "ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a 0 marcadores."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-011",
+    "name": "Padre corrupto",
+    "implemented": false,
+    "text": "toda criatura em seu cemiterio tem \"Exumar 1: pague uma mana incolor e exile esse card. compre um card\""
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-012",
+    "name": "sinfonia desastrosa",
+    "implemented": false,
+    "text": "o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura."
+  },
+  {
+    "id": "AUTOR-20261007-CARTA-013",
+    "name": "persoadir guerreiros",
+    "implemented": false,
+    "text": "de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo"
+  },
+  {
+    "id": "ED261008-D01-F05-1",
+    "name": "Abrir o cofre do Cais Sombrio",
+    "implemented": false,
+    "text": "O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F01-1",
+    "name": "Arrombador do Cais Sombrio",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: o jogador alvo tritura 1 cartas."
+  },
+  {
+    "id": "ED261008-D01-F02-1",
+    "name": "Coveiro do Cais Sombrio",
+    "implemented": false,
+    "text": "Ao entrar, um oponente alvo tritura 1 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida."
+  },
+  {
+    "id": "ED261008-D01-F03-1",
+    "name": "Espião do Cais Sombrio",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D01-F07-1",
+    "name": "Exigir o registro do Cais Sombrio",
+    "implemented": false,
+    "text": "O oponente alvo tritura 1 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível."
+  },
+  {
+    "id": "ED261008-D01-F06-1",
+    "name": "Profanar o arquivo do Cais Sombrio",
+    "implemented": false,
+    "text": "O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F05-2",
+    "name": "Abrir o cofre das Catacumbas",
+    "implemented": false,
+    "text": "O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "COL001-R001",
+    "name": "Aprendiz das Marés Reveladoras",
+    "implemented": false,
+    "text": "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+  },
+  {
+    "id": "COL001-R002",
+    "name": "Saqueador das Memórias Feridas",
+    "implemented": false,
+    "text": "Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele."
+  },
+  {
+    "id": "COL001-R003",
+    "name": "Acólito da Ponte Profanada",
+    "implemented": false,
+    "text": "Ao morrer, o dono do efeito que a matou tritura 5."
+  },
+  {
+    "id": "ED261007-01-C001",
+    "name": "Aprendiz de Arrombador",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: olhe a carta do topo do seu grimório. Você pode colocá-la no seu cemitério."
+  },
+  {
+    "id": "COL001-R004",
+    "name": "Aprendiz dos Tomos Recuperados",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório."
+  },
+  {
+    "id": "COL001-R005",
+    "name": "Vampiro das Lembranças Roubadas",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card."
+  },
+  {
+    "id": "ED261008-D01-F01-2",
+    "name": "Arrombador das Catacumbas",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: o jogador alvo tritura 2 cartas."
+  },
+  {
+    "id": "ED261008-D01-F02-2",
+    "name": "Coveiro das Catacumbas",
+    "implemented": false,
+    "text": "Ao entrar, um oponente alvo tritura 2 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida."
+  },
+  {
+    "id": "ED261008-D01-F03-2",
+    "name": "Espião das Catacumbas",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D01-F07-2",
+    "name": "Exigir o registro das Catacumbas",
+    "implemented": false,
+    "text": "O oponente alvo tritura 2 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível."
+  },
+  {
+    "id": "ED261007-01-C005",
+    "name": "Guarda do Espólio",
+    "implemented": false,
+    "text": "Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +0/+2."
+  },
+  {
+    "id": "ED261007-01-C007",
+    "name": "Janela Arrombada",
+    "implemented": false,
+    "text": "Olhe as duas cartas do topo do grimório do jogador alvo. Coloque uma no cemitério dele e devolva a outra ao topo."
+  },
+  {
+    "id": "ED261008-D01-F06-2",
+    "name": "Profanar o arquivo das Catacumbas",
+    "implemented": false,
+    "text": "O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F08-1",
+    "name": "Tomar o espólio do Cais Sombrio",
+    "implemented": false,
+    "text": "Exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original."
+  },
+  {
+    "id": "ED261008-D01-F05-3",
+    "name": "Abrir o cofre do Arquivo Lacrado",
+    "implemented": false,
+    "text": "O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F04-2",
+    "name": "Contrabandista das Catacumbas",
+    "implemented": false,
+    "text": "Ao entrar, exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original."
+  },
+  {
+    "id": "ED261008-D01-F02-3",
+    "name": "Coveiro do Arquivo Lacrado",
+    "implemented": false,
+    "text": "Ao entrar, um oponente alvo tritura 3 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida."
+  },
+  {
+    "id": "ED261007-01-C002",
+    "name": "Coveiro dos Registros",
+    "implemented": true,
+    "text": "Ao entrar, coloque as duas cartas do topo do seu grimório no seu cemitério."
+  },
+  {
+    "id": "ED261008-D01-F03-3",
+    "name": "Espião do Arquivo Lacrado",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D01-F07-3",
+    "name": "Exigir o registro do Arquivo Lacrado",
+    "implemented": false,
+    "text": "O oponente alvo tritura 3 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível."
+  },
+  {
+    "id": "ED261008-D01-F06-3",
+    "name": "Profanar o arquivo do Arquivo Lacrado",
+    "implemented": false,
+    "text": "O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F08-2",
+    "name": "Tomar o espólio das Catacumbas",
+    "implemented": false,
+    "text": "Exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original."
+  },
+  {
+    "id": "COL001-R006",
+    "name": "Escriba do Esquecimento Coletivo",
+    "implemented": false,
+    "text": "quando você conjurar um Truque, seus oponentes trituram uma carta."
+  },
+  {
+    "id": "COL001-R007",
+    "name": "Veterano da Busca Submersa",
+    "implemented": false,
+    "text": "Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio."
+  },
+  {
+    "id": "COL001-R015",
+    "name": "Veterano da Patrulha do Esquecimento",
+    "implemented": false,
+    "text": "1 PA: o opnente alvo tritura uma carta."
+  },
+  {
+    "id": "COL001-R008",
+    "name": "Arauto da Incursão Mental",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno."
+  },
+  {
+    "id": "COL001-R009",
+    "name": "Negociante dos Tomos Perdidos",
+    "implemented": false,
+    "text": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão."
+  },
+  {
+    "id": "COL001-R010",
+    "name": "Vigia dos Segredos Usurpados",
+    "implemented": false,
+    "text": "Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas."
+  },
+  {
+    "id": "COL001-R011",
+    "name": "Guardião das Relíquias Recuperadas",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório."
+  },
+  {
+    "id": "ED261007-01-C008",
+    "name": "Luvas do Saque Silencioso",
+    "implemented": false,
+    "text": "Equipar: 1 mana genérica, no mesmo tile. A criatura equipada recebe +0/+1. Uma vez no seu turno, quando ela causar dano de combate a uma capital, o dono dessa capital tritura duas cartas."
+  },
+  {
+    "id": "ED261007-01-C009",
+    "name": "Arquivo de Ossos",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 1 mana genérica:olhe a carta do topo do grimorio, voce pode colocar a carta do topo do seu grimório no seu cemitério."
+  },
+  {
+    "id": "ED261008-D01-F01-3",
+    "name": "Arrombador do Arquivo Lacrado",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: o jogador alvo tritura 3 cartas."
+  },
+  {
+    "id": "ED261007-01-C004",
+    "name": "Caranguejo Arquivista",
+    "implemented": false,
+    "text": "2 PA: o jogador alvo coloca duas cartas do topo do grimório no cemitério. Use uma vez no seu turno."
+  },
+  {
+    "id": "COL001-R012",
+    "name": "Sacerdote da Memória Devorada",
+    "implemented": false,
+    "text": "1 PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada."
+  },
+  {
+    "id": "COL001-R013",
+    "name": "Devoto do Dízimo Sombrio",
+    "implemented": false,
+    "text": "Ao entrar, você pode perder 10 de vida da capital. Se fizer isso, cada oponente tritura 10."
+  },
+  {
+    "id": "ED261007-01-C003",
+    "name": "Vigia do Canal Morto",
+    "implemented": false,
+    "text": "Uma vez no seu turno, quando uma carta sair de um cemitério por um efeito seu, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D01-F05-4",
+    "name": "Abrir o cofre da Cripta Real",
+    "implemented": false,
+    "text": "O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F04-3",
+    "name": "Contrabandista do Arquivo Lacrado",
+    "implemented": false,
+    "text": "Ao entrar, exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original."
+  },
+  {
+    "id": "ED261008-D01-F04-1",
+    "name": "Contrabandista do Cais Sombrio",
+    "implemented": false,
+    "text": "Ao entrar, exile uma carta não terreno de custo total até 1 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original."
+  },
+  {
+    "id": "ED261008-D01-F02-4",
+    "name": "Coveiro da Cripta Real",
+    "implemented": false,
+    "text": "Ao entrar, um oponente alvo tritura 4 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida."
+  },
+  {
+    "id": "ED261008-D01-F03-4",
+    "name": "Espião da Cripta Real",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D01-F07-4",
+    "name": "Exigir o registro da Cripta Real",
+    "implemented": false,
+    "text": "O oponente alvo tritura 4 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível."
+  },
+  {
+    "id": "ED261008-D01-F06-4",
+    "name": "Profanar o arquivo da Cripta Real",
+    "implemented": false,
+    "text": "O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F08-3",
+    "name": "Tomar o espólio do Arquivo Lacrado",
+    "implemented": false,
+    "text": "Exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original."
+  },
+  {
+    "id": "ED261008-D01-F05-5",
+    "name": "Abrir o cofre do Último Cofre",
+    "implemented": false,
+    "text": "O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F02-5",
+    "name": "Coveiro do Último Cofre",
+    "implemented": false,
+    "text": "Ao entrar, um oponente alvo tritura 5 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 3 de vida."
+  },
+  {
+    "id": "ED261008-D01-F03-5",
+    "name": "Espião do Último Cofre",
+    "implemented": false,
+    "text": "Ao causar dano de combate a uma capital, olhe as 4 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D01-F07-5",
+    "name": "Exigir o registro do Último Cofre",
+    "implemented": false,
+    "text": "O oponente alvo tritura 5 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível."
+  },
+  {
+    "id": "ED261008-D01-F06-5",
+    "name": "Profanar o arquivo do Último Cofre",
+    "implemented": false,
+    "text": "O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério."
+  },
+  {
+    "id": "ED261008-D01-F08-4",
+    "name": "Tomar o espólio da Cripta Real",
+    "implemented": false,
+    "text": "Exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original."
+  },
+  {
+    "id": "ED261008-D01-F01-4",
+    "name": "Arrombador da Cripta Real",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: o jogador alvo tritura 4 cartas."
+  },
+  {
+    "id": "ED261007-01-C006",
+    "name": "Inventário dos Mortos",
+    "implemented": false,
+    "text": "Coloque a carta do topo do seu grimório no seu cemitério. Depois compre duas cartas."
+  },
+  {
+    "id": "ED261008-D01-F01-5",
+    "name": "Arrombador do Último Cofre",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: o jogador alvo tritura 5 cartas."
+  },
+  {
+    "id": "ED261008-D01-F04-4",
+    "name": "Contrabandista da Cripta Real",
+    "implemented": false,
+    "text": "Ao entrar, exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original."
+  },
+  {
+    "id": "ED261008-D01-F04-5",
+    "name": "Contrabandista do Último Cofre",
+    "implemented": false,
+    "text": "Ao entrar, exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original."
+  },
+  {
+    "id": "ED261008-D01-M03",
+    "name": "Contrato de Pilhagem",
+    "implemented": false,
+    "text": "Exile até três cartas não terreno de cemitérios inimigos. Até o fim do seu próximo turno, você pode conjurá-las pagando seus custos com mana de qualquer cor; preserve os donos originais."
+  },
+  {
+    "id": "COL001-R014",
+    "name": "Guardião do Último Esquecimento",
+    "implemented": false,
+    "text": "Ao morrer, seus oponentes trituram 5."
+  },
+  {
+    "id": "COL001-R016",
+    "name": "Senhor das Catacumbas Despertas",
+    "implemented": false,
+    "text": "Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para o campo."
+  },
+  {
+    "id": "ED261008-D01-F08-5",
+    "name": "Tomar o espólio do Último Cofre",
+    "implemented": false,
+    "text": "Exile uma carta não terreno de custo total até 6 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original."
+  },
+  {
+    "id": "ED261008-D01-M02",
+    "name": "Mercado das Memórias Mortas",
+    "implemented": false,
+    "text": "Uma vez no seu turno, quando você conjurar uma carta que pertencia a um oponente, cada outro oponente tritura três cartas."
+  },
+  {
+    "id": "ED261008-D01-M01",
+    "name": "O Assalto Final",
+    "implemented": false,
+    "text": "O oponente alvo tritura dez cartas e depois compra uma carta."
+  },
+  {
+    "id": "COL001-R017",
+    "name": "Rei das Memórias Sepultadas",
+    "implemented": false,
+    "text": "Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão."
+  },
+  {
+    "id": "AUTOR-20261007-TERRENO-001",
+    "name": "Reino dos mortos",
+    "implemented": false,
+    "text": "uma vez por turno caso esse tile seja atacado e não tenha criaturas nele volte uma critura de seu cemiterio até o final do turno para a defender"
+  },
+  {
+    "id": "ED261007-01-T001",
+    "name": "Cais dos Registros Roubados",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no cemitério."
+  },
+  {
+    "id": "ED261007-01-T002",
+    "name": "Cripta dos Mapas Perdidos",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: o jogador alvo tritura uma carta."
+  },
+  {
+    "id": "ED261007-01-T003",
+    "name": "Canal dos Cofres Vazios",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D01-T36",
+    "name": "Versão de campanha — Refúgio da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T37",
+    "name": "Versão de campanha — Clareira da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T38",
+    "name": "Versão de campanha — Terraço da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T39",
+    "name": "Versão de campanha — Posto da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T40",
+    "name": "Versão de campanha — Santuário da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T41",
+    "name": "Versão de campanha — Acampamento da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T42",
+    "name": "Versão de campanha — Fortim da Guarda de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T43",
+    "name": "Versão de campanha — Pátio da Fronteira de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T44",
+    "name": "Versão de campanha — Travessia da Fronteira de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T45",
+    "name": "Base de estudos das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T46",
+    "name": "Portões da entrada proibida das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T47",
+    "name": "Mercado Ambulante das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T48",
+    "name": "Estrada Real das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T49",
+    "name": "Pátio da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261008-D01-T50",
+    "name": "Travessia da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+  },
+  {
+    "id": "ED261007-02-C004",
+    "name": "Estudante de Marés",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D02-F04-1",
+    "name": "Estudo da madrugada do Estuário",
+    "implemented": false,
+    "text": "Compre 2 cartas e coloque uma carta da mão no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D02-F06-1",
+    "name": "Fechar a passagem do Estuário",
+    "implemented": false,
+    "text": "Uma criatura de custo total até 2 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha."
+  },
+  {
+    "id": "ED261008-D02-F02-1",
+    "name": "Maré de contenção do Estuário",
+    "implemented": false,
+    "text": "Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261007-02-C005",
+    "name": "Nota de Rodapé",
+    "implemented": false,
+    "text": "Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo."
+  },
+  {
+    "id": "ED261008-D02-F07-1",
+    "name": "Nota defensiva do Estuário",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +0/+2 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D02-F05-1",
+    "name": "Reordenar o arquivo do Estuário",
+    "implemented": false,
+    "text": "Devolva um Truque ou Feitiço de custo total até 1 do seu cemitério à mão. Exile esta carta após a resolução."
+  },
+  {
+    "id": "ED261008-D02-F03-1",
+    "name": "Retorno às margens do Estuário",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 2 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando."
+  },
+  {
+    "id": "ED261008-D02-F08-1",
+    "name": "Reverberação escrita do Estuário",
+    "implemented": false,
+    "text": "Olhe as 3 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D02-F01-1",
+    "name": "Revisar a fórmula do Estuário",
+    "implemented": false,
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até 2."
+  },
+  {
+    "id": "ED261007-02-C006",
+    "name": "Corrigir a Fórmula",
+    "implemented": false,
+    "text": "Uma criatura alvo perde 2 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261008-D02-F04-2",
+    "name": "Estudo da madrugada da Torre Azul",
+    "implemented": false,
+    "text": "Compre 2 cartas e coloque uma carta da mão no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D02-F06-2",
+    "name": "Fechar a passagem da Torre Azul",
+    "implemented": false,
+    "text": "Uma criatura de custo total até 3 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha."
+  },
+  {
+    "id": "ED261008-D02-F02-2",
+    "name": "Maré de contenção da Torre Azul",
+    "implemented": false,
+    "text": "Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261008-D02-F07-2",
+    "name": "Nota defensiva da Torre Azul",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +0/+3 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D02-F05-2",
+    "name": "Reordenar o arquivo da Torre Azul",
+    "implemented": false,
+    "text": "Devolva um Truque ou Feitiço de custo total até 2 do seu cemitério à mão. Exile esta carta após a resolução."
+  },
+  {
+    "id": "ED261008-D02-F03-2",
+    "name": "Retorno às margens da Torre Azul",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 3 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando."
+  },
+  {
+    "id": "ED261008-D02-F08-2",
+    "name": "Reverberação escrita da Torre Azul",
+    "implemented": false,
+    "text": "Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D02-F01-2",
+    "name": "Revisar a fórmula da Torre Azul",
+    "implemented": false,
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até 2."
+  },
+  {
+    "id": "ED261008-D02-F06-3",
+    "name": "Fechar a passagem das Sete Marés",
+    "implemented": false,
+    "text": "Uma criatura de custo total até 4 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha."
+  },
+  {
+    "id": "ED261008-D02-F02-3",
+    "name": "Maré de contenção das Sete Marés",
+    "implemented": false,
+    "text": "Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261008-D02-F07-3",
+    "name": "Nota defensiva das Sete Marés",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +0/+4 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D02-F05-3",
+    "name": "Reordenar o arquivo das Sete Marés",
+    "implemented": false,
+    "text": "Devolva um Truque ou Feitiço de custo total até 3 do seu cemitério à mão. Exile esta carta após a resolução."
+  },
+  {
+    "id": "ED261008-D02-F03-3",
+    "name": "Retorno às margens das Sete Marés",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 4 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando."
+  },
+  {
+    "id": "ED261008-D02-F08-3",
+    "name": "Reverberação escrita das Sete Marés",
+    "implemented": false,
+    "text": "Olhe as 5 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D02-F01-3",
+    "name": "Revisar a fórmula das Sete Marés",
+    "implemented": false,
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até 3."
+  },
+  {
+    "id": "ED261007-02-C008",
+    "name": "Tomo de Capa Salgada",
+    "implemented": false,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Ao equipar um Mago, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261007-02-C001",
+    "name": "Copista de Emergência",
+    "implemented": false,
+    "text": "Ao entrar, você pode colocar um Feitiço da sua mão no fundo do grimório. Se fizer isso, compre uma carta."
+  },
+  {
+    "id": "ED261008-D02-F04-3",
+    "name": "Estudo da madrugada das Sete Marés",
+    "implemented": false,
+    "text": "Compre 3 cartas e coloque uma carta da mão no fundo do grimório."
+  },
+  {
+    "id": "ED261007-02-C003",
+    "name": "Bibliotecária do Refluxo",
+    "implemented": false,
+    "text": "Ao morrer, você pode devolver um Truque de custo total até 2 do seu cemitério à mão."
+  },
+  {
+    "id": "ED261007-02-C007",
+    "name": "Devolver ao Arquivo",
+    "implemented": false,
+    "text": "Devolva uma criatura que não seja comandante à mão do dono. Ele pode comprar uma carta."
+  },
+  {
+    "id": "ED261008-D02-F06-4",
+    "name": "Fechar a passagem do Grande Arquivo",
+    "implemented": false,
+    "text": "Uma criatura de custo total até 5 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha."
+  },
+  {
+    "id": "ED261008-D02-F02-4",
+    "name": "Maré de contenção do Grande Arquivo",
+    "implemented": false,
+    "text": "Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261008-D02-F07-4",
+    "name": "Nota defensiva do Grande Arquivo",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +0/+5 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D02-F05-4",
+    "name": "Reordenar o arquivo do Grande Arquivo",
+    "implemented": false,
+    "text": "Devolva um Truque ou Feitiço de custo total até 4 do seu cemitério à mão. Exile esta carta após a resolução."
+  },
+  {
+    "id": "ED261008-D02-F03-4",
+    "name": "Retorno às margens do Grande Arquivo",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 5 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando."
+  },
+  {
+    "id": "ED261008-D02-F08-4",
+    "name": "Reverberação escrita do Grande Arquivo",
+    "implemented": false,
+    "text": "Olhe as 6 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D02-F01-4",
+    "name": "Revisar a fórmula do Grande Arquivo",
+    "implemented": false,
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até 3."
+  },
+  {
+    "id": "ED261007-02-C002",
+    "name": "Guardião da Estante",
+    "implemented": false,
+    "text": "A primeira vez em cada turno que você conjurar um Truque, esta criatura recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D02-F06-5",
+    "name": "Fechar a passagem da Última Página",
+    "implemented": false,
+    "text": "Uma criatura de custo total até 6 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha."
+  },
+  {
+    "id": "ED261008-D02-F02-5",
+    "name": "Maré de contenção da Última Página",
+    "implemented": false,
+    "text": "Até 3 criaturas alvo recebem -4 de ataque até o fim do turno, até o mínimo de zero."
+  },
+  {
+    "id": "ED261008-D02-F07-5",
+    "name": "Nota defensiva da Última Página",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +0/+6 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D02-F05-5",
+    "name": "Reordenar o arquivo da Última Página",
+    "implemented": false,
+    "text": "Devolva um Truque ou Feitiço de custo total até 5 do seu cemitério à mão. Exile esta carta após a resolução."
+  },
+  {
+    "id": "ED261008-D02-F03-5",
+    "name": "Retorno às margens da Última Página",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 6 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando."
+  },
+  {
+    "id": "ED261008-D02-F08-5",
+    "name": "Reverberação escrita da Última Página",
+    "implemented": false,
+    "text": "Olhe as 7 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida."
+  },
+  {
+    "id": "ED261008-D02-F01-5",
+    "name": "Revisar a fórmula da Última Página",
+    "implemented": false,
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até 4."
+  },
+  {
+    "id": "ED261007-02-C009",
+    "name": "Mesa de Tradução",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e compre uma carta."
+  },
+  {
+    "id": "ED261008-D02-F04-4",
+    "name": "Estudo da madrugada do Grande Arquivo",
+    "implemented": false,
+    "text": "Compre 3 cartas e coloque uma carta da mão no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D02-F04-5",
+    "name": "Estudo da madrugada da Última Página",
+    "implemented": false,
+    "text": "Compre 4 cartas e coloque uma carta da mão no fundo do grimório."
+  },
+  {
+    "id": "ED261007-02-C010",
+    "name": "Última Página",
+    "implemented": false,
+    "text": "Compre duas cartas. Depois coloque uma carta da sua mão no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D02-M03",
+    "name": "Arquivo que se Recorda",
+    "implemented": false,
+    "text": "A primeira vez no seu turno que você conjurar um Feitiço, pode devolver um Truque de custo total até 2 do seu cemitério à mão."
+  },
+  {
+    "id": "ED261008-D02-M01",
+    "name": "Silêncio sobre a Mesa",
+    "implemented": false,
+    "text": "Anule até dois Truques ou Feitiços na pilha."
+  },
+  {
+    "id": "ED261008-D02-M02",
+    "name": "Maré de Recomeço",
+    "implemented": false,
+    "text": "Devolva até quatro criaturas não comandantes às mãos dos donos."
+  },
+  {
+    "id": "ED261007-02-T001",
+    "name": "Pátio dos Manuscritos",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-02-T002",
+    "name": "Escadaria da Biblioteca Azul",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+  },
+  {
+    "id": "ED261007-02-T003",
+    "name": "Arquivo Sob a Ponte",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um Mago seu neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D02-T36",
+    "name": "Versão de campanha — Pátio da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T37",
+    "name": "Versão de campanha — Travessia da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T38",
+    "name": "Versão de campanha — Torreão da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T39",
+    "name": "Versão de campanha — Refúgio da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T40",
+    "name": "Versão de campanha — Clareira da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T41",
+    "name": "Versão de campanha — Terraço da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T42",
+    "name": "Versão de campanha — Posto da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T43",
+    "name": "Versão de campanha — Santuário da Vigília de Estuário",
+    "implemented": false,
+    "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T44",
+    "name": "Base de estudos dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T45",
+    "name": "Portões da entrada proibida dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T46",
+    "name": "Mercado Ambulante dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T47",
+    "name": "Estrada Real dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261008-D02-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+  },
+  {
+    "id": "ED261007-03-C010",
+    "name": "Coragem Mal Calculada",
+    "implemented": false,
+    "text": "Um Goblin seu recebe +3 de ataque e -1 de defesa até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F01-1",
+    "name": "Goblin Batedor da Panela Furada",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F08-1",
+    "name": "Goblin Escalador da Panela Furada",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F05-1",
+    "name": "Goblin Incendiário da Panela Furada",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause 2 de dano a uma criatura adjacente."
+  },
+  {
+    "id": "ED261008-D03-F03-1",
+    "name": "Goblin Paneleiro da Panela Furada",
+    "implemented": false,
+    "text": "Ao morrer, cause 1 de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D03-F06-1",
+    "name": "Goblin Porta-bandeira da Panela Furada",
+    "implemented": false,
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F02-1",
+    "name": "Goblin Saqueador da Panela Furada",
+    "implemented": false,
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D03-F07-1",
+    "name": "Goblin Sobrevivente da Panela Furada",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-03-C001",
+    "name": "Goblin da Corneta Torta",
+    "implemented": false,
+    "text": "Ao entrar, outro Goblin seu no mesmo tile recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261007-03-C007",
+    "name": "Churrasco Antecipado",
+    "implemented": false,
+    "text": "Sacrifique um Goblin seu como custo adicional. Cause 3 de dano a uma criatura alvo."
+  },
+  {
+    "id": "ED261007-03-C008",
+    "name": "Escada de Ossos Queimados",
+    "implemented": false,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +1 de ataque; se for Goblin, também recebe +1 de movimento."
+  },
+  {
+    "id": "ED261008-D03-F01-2",
+    "name": "Goblin Batedor do Barranco",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261007-03-C002",
+    "name": "Goblin Carregador de Lenha",
+    "implemented": false,
+    "text": "Ao morrer em combate, cause 1 de dano à criatura que o matou, se ela ainda estiver no campo."
+  },
+  {
+    "id": "ED261008-D03-F08-2",
+    "name": "Goblin Escalador do Barranco",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F03-2",
+    "name": "Goblin Paneleiro do Barranco",
+    "implemented": false,
+    "text": "Ao morrer, cause 1 de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D03-F06-2",
+    "name": "Goblin Porta-bandeira do Barranco",
+    "implemented": false,
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F07-2",
+    "name": "Goblin Sobrevivente do Barranco",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-03-C004",
+    "name": "Goblin de Capacete Grande",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D03-F01-3",
+    "name": "Goblin Batedor do Portão Quebrado",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F08-3",
+    "name": "Goblin Escalador do Portão Quebrado",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F03-3",
+    "name": "Goblin Paneleiro do Portão Quebrado",
+    "implemented": false,
+    "text": "Ao morrer, cause 2 de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D03-F06-3",
+    "name": "Goblin Porta-bandeira do Portão Quebrado",
+    "implemented": false,
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +2 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F07-3",
+    "name": "Goblin Sobrevivente do Portão Quebrado",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D03-F05-2",
+    "name": "Goblin Incendiário do Barranco",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause 2 de dano a uma criatura adjacente."
+  },
+  {
+    "id": "ED261008-D03-F02-2",
+    "name": "Goblin Saqueador do Barranco",
+    "implemented": false,
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261007-03-C003",
+    "name": "Cozinheiro da Horda",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: outro Goblin seu neste tile recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F05-3",
+    "name": "Goblin Incendiário do Portão Quebrado",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause 3 de dano a uma criatura adjacente."
+  },
+  {
+    "id": "ED261008-D03-F04-1",
+    "name": "Goblin Recrutador da Panela Furada",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F04-2",
+    "name": "Goblin Recrutador do Barranco",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F04-3",
+    "name": "Goblin Recrutador do Portão Quebrado",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F02-3",
+    "name": "Goblin Saqueador do Portão Quebrado",
+    "implemented": false,
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +2 de ataque."
+  },
+  {
+    "id": "ED261008-D03-F01-4",
+    "name": "Goblin Batedor da Marcha Vermelha",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F08-4",
+    "name": "Goblin Escalador da Marcha Vermelha",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F03-4",
+    "name": "Goblin Paneleiro da Marcha Vermelha",
+    "implemented": false,
+    "text": "Ao morrer, cause 2 de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D03-F06-4",
+    "name": "Goblin Porta-bandeira da Marcha Vermelha",
+    "implemented": false,
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +2 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F07-4",
+    "name": "Goblin Sobrevivente da Marcha Vermelha",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D03-F05-4",
+    "name": "Goblin Incendiário da Marcha Vermelha",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause 3 de dano a uma criatura adjacente."
+  },
+  {
+    "id": "ED261008-D03-F04-4",
+    "name": "Goblin Recrutador da Marcha Vermelha",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F02-4",
+    "name": "Goblin Saqueador da Marcha Vermelha",
+    "implemented": false,
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +2 de ataque."
+  },
+  {
+    "id": "ED261007-03-C006",
+    "name": "Reunião Barulhenta",
+    "implemented": false,
+    "text": "Crie duas fichas Goblin 1/1, 1 PA, movimento 2 e alcance 1 em um terreno seu."
+  },
+  {
+    "id": "ED261008-D03-F01-5",
+    "name": "Goblin Batedor do Cerco Faminto",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F08-5",
+    "name": "Goblin Escalador do Cerco Faminto",
+    "implemented": false,
+    "text": "Quando atacar uma capital, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D03-F03-5",
+    "name": "Goblin Paneleiro do Cerco Faminto",
+    "implemented": false,
+    "text": "Ao morrer, cause 3 de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D03-F06-5",
+    "name": "Goblin Porta-bandeira do Cerco Faminto",
+    "implemented": false,
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +3 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-F07-5",
+    "name": "Goblin Sobrevivente do Cerco Faminto",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-03-C009",
+    "name": "Tenda dos Recrutas Famintos",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 3 manas genéricas: crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261007-03-C005",
+    "name": "Chefe da Caravana de Carne",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F05-5",
+    "name": "Goblin Incendiário do Cerco Faminto",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause 4 de dano a uma criatura adjacente."
+  },
+  {
+    "id": "ED261008-D03-F04-5",
+    "name": "Goblin Recrutador do Cerco Faminto",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D03-F02-5",
+    "name": "Goblin Saqueador do Cerco Faminto",
+    "implemented": false,
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +3 de ataque."
+  },
+  {
+    "id": "ED261008-D03-M02",
+    "name": "A Panela Está Vazia",
+    "implemented": false,
+    "text": "Crie quatro fichas Goblin 1/1, 1 PA, movimento 2 e alcance 1 em terrenos seus."
+  },
+  {
+    "id": "ED261008-D03-M03",
+    "name": "Tambor do Cerco Faminto",
+    "implemented": false,
+    "text": "Uma vez no seu turno, quando dois ou mais Goblins seus participarem do mesmo ataque, crie uma ficha Goblin 1/1, 1 PA, movimento 2 e alcance 1 na sua capital após o combate."
+  },
+  {
+    "id": "ED261008-D03-M01",
+    "name": "A Grande Debandada para a Frente",
+    "implemented": false,
+    "text": "Até seis Goblins seus recebem +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261007-03-T001",
+    "name": "Acampamento da Panela Furada",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um Goblin seu neste tile recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261007-03-T002",
+    "name": "Trilha dos Espetos",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua neste tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261007-03-T003",
+    "name": "Forno da Última Ração",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas e sacrifique uma criatura sua neste tile: cause 2 de dano a uma criatura inimiga adjacente."
+  },
+  {
+    "id": "ED261008-D03-T36",
+    "name": "Versão de campanha — Pátio da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T37",
+    "name": "Versão de campanha — Travessia da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T38",
+    "name": "Versão de campanha — Torreão da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T39",
+    "name": "Versão de campanha — Refúgio da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T40",
+    "name": "Versão de campanha — Clareira da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T41",
+    "name": "Versão de campanha — Terraço da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T42",
+    "name": "Versão de campanha — Posto da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T43",
+    "name": "Versão de campanha — Santuário da Vigília de Escória",
+    "implemented": false,
+    "text": "Gera 1 mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T44",
+    "name": "Base de estudos do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T45",
+    "name": "Portões da entrada proibida do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T46",
+    "name": "Mercado Ambulante do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T47",
+    "name": "Estrada Real do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D03-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta do Banquete Goblin",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F04-1",
+    "name": "Batedora da Estrada Branca",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F05-1",
+    "name": "Escudeiro da Estrada Branca",
+    "implemented": false,
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F03-1",
+    "name": "Lanceiro Leve da Estrada Branca",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F02-1",
+    "name": "Mensageira da Estrada Branca",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua adjacente recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F01-1",
+    "name": "Recruta da Estrada Branca",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-04-C003",
+    "name": "Recruta da Praça Alta",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F06-1",
+    "name": "Tocadora de Trombeta da Estrada Branca",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D04-F07-1",
+    "name": "Vigia Itinerante da Estrada Branca",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261007-04-C005",
+    "name": "Abrir a Formação",
+    "implemented": false,
+    "text": "Mova uma criatura sua para um terreno andável adjacente sem inimigos, sem gastar PA; respeite bloqueios e gatilhos de movimento."
+  },
+  {
+    "id": "ED261008-D04-F04-2",
+    "name": "Batedora da Ponte Alta",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F05-2",
+    "name": "Escudeiro da Ponte Alta",
+    "implemented": false,
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F03-2",
+    "name": "Lanceiro Leve da Ponte Alta",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261007-04-C001",
+    "name": "Lanceiro da Segunda Fileira",
+    "implemented": false,
+    "text": "Enquanto houver outra criatura sua em um tile adjacente, esta criatura recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D04-F02-2",
+    "name": "Mensageira da Ponte Alta",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua adjacente recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F01-2",
+    "name": "Recruta da Ponte Alta",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F07-2",
+    "name": "Vigia Itinerante da Ponte Alta",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261007-04-C007",
+    "name": "Ataque ao Sinal",
+    "implemented": false,
+    "text": "Uma criatura sua recebe +2 de ataque até o fim do turno se houver outra criatura sua adjacente ao alvo do seu combate atual."
+  },
+  {
+    "id": "ED261008-D04-F04-3",
+    "name": "Batedora dos Três Postos",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F05-3",
+    "name": "Escudeiro dos Três Postos",
+    "implemented": false,
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F02-3",
+    "name": "Mensageira dos Três Postos",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua adjacente recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F01-3",
+    "name": "Recruta dos Três Postos",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-04-C008",
+    "name": "Lança de Reserva",
+    "implemented": false,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +1 de ataque e +1 de defesa enquanto estiver adjacente a outra criatura sua."
+  },
+  {
+    "id": "ED261008-D04-F06-2",
+    "name": "Tocadora de Trombeta da Ponte Alta",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D04-F08-1",
+    "name": "Auxiliar da Estrada Branca",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Soldado 1/1, 1 PA, movimento 3 e alcance 1."
+  },
+  {
+    "id": "ED261008-D04-F08-2",
+    "name": "Auxiliar da Ponte Alta",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Soldado 1/1, 1 PA, movimento 3 e alcance 1."
+  },
+  {
+    "id": "ED261008-D04-F08-3",
+    "name": "Auxiliar dos Três Postos",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Soldado 1/1, 1 PA, movimento 3 e alcance 1."
+  },
+  {
+    "id": "ED261008-D04-F03-3",
+    "name": "Lanceiro Leve dos Três Postos",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F07-3",
+    "name": "Vigia Itinerante dos Três Postos",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F04-4",
+    "name": "Batedora da Vanguarda Real",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F05-4",
+    "name": "Escudeiro da Vanguarda Real",
+    "implemented": false,
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F02-4",
+    "name": "Mensageira da Vanguarda Real",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua adjacente recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F01-4",
+    "name": "Recruta da Vanguarda Real",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-04-C002",
+    "name": "Portadora do Sinal",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: outra criatura sua adjacente recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F06-3",
+    "name": "Tocadora de Trombeta dos Três Postos",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D04-F03-4",
+    "name": "Lanceiro Leve da Vanguarda Real",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F07-4",
+    "name": "Vigia Itinerante da Vanguarda Real",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F04-5",
+    "name": "Batedora da Última Companhia",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F05-5",
+    "name": "Escudeiro da Última Companhia",
+    "implemented": false,
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-M03",
+    "name": "Mapa da Guerra Perfeita",
+    "implemented": false,
+    "text": "A primeira vez no seu turno que uma criatura sua entrar em um tile seu sem outra criatura sua, ela recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F02-5",
+    "name": "Mensageira da Última Companhia",
+    "implemented": false,
+    "text": "Ao entrar, outra criatura sua adjacente recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-F01-5",
+    "name": "Recruta da Última Companhia",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D04-F08-4",
+    "name": "Auxiliar da Vanguarda Real",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Soldado 1/1, 1 PA, movimento 3 e alcance 1."
+  },
+  {
+    "id": "ED261008-D04-F06-4",
+    "name": "Tocadora de Trombeta da Vanguarda Real",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D04-F08-5",
+    "name": "Auxiliar da Última Companhia",
+    "implemented": false,
+    "text": "Ao entrar, crie neste tile uma ficha Soldado 1/1, 1 PA, movimento 3 e alcance 1."
+  },
+  {
+    "id": "ED261008-D04-F03-5",
+    "name": "Lanceiro Leve da Última Companhia",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-F06-5",
+    "name": "Tocadora de Trombeta da Última Companhia",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D04-F07-5",
+    "name": "Vigia Itinerante da Última Companhia",
+    "implemented": false,
+    "text": "Recebe +1 de ataque enquanto houver outra criatura sua em um tile adjacente."
+  },
+  {
+    "id": "ED261008-D04-M02",
+    "name": "Companhia sem Fim",
+    "implemented": false,
+    "text": "Crie quatro fichas Soldado 1/1, 1 PA, movimento 3 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261008-D04-M01",
+    "name": "Todos os Caminhos Levam ao Cerco",
+    "implemented": false,
+    "text": "Até seis criaturas suas de ataque base 2 ou menor recebem +1 de movimento e +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261007-04-T001",
+    "name": "Pátio das Lanças Cruzadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua adjacente recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261007-04-T002",
+    "name": "Estrada da Segunda Companhia",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261007-04-T003",
+    "name": "Praça dos Estandartes Brancos",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +1 de ataque até o fim do turno se houver outra criatura sua adjacente."
+  },
+  {
+    "id": "ED261008-D04-T36",
+    "name": "Versão de campanha — Pátio da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T37",
+    "name": "Versão de campanha — Travessia da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T38",
+    "name": "Versão de campanha — Torreão da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T39",
+    "name": "Versão de campanha — Refúgio da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T40",
+    "name": "Versão de campanha — Clareira da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T41",
+    "name": "Versão de campanha — Terraço da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T42",
+    "name": "Versão de campanha — Posto da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T43",
+    "name": "Versão de campanha — Santuário da Vigília de Aurora",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T44",
+    "name": "Base de estudos das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T45",
+    "name": "Portões da entrada proibida das Cem Lanças",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T46",
+    "name": "Mercado Ambulante das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T47",
+    "name": "Estrada Real das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D04-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta das Cem Lanças",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F04-1",
+    "name": "Acompanhante do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Seu comandante recebe +0/+1 enquanto estiver neste tile."
+  },
+  {
+    "id": "ED261008-D05-F03-1",
+    "name": "Carregador de Ossos do Pequeno Ossuário",
+    "implemented": true,
+    "text": "Ao morrer, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D05-F02-1",
+    "name": "Coveiro do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca 2 de vida da capital."
+  },
+  {
+    "id": "ED261008-D05-F07-1",
+    "name": "Esqueleto Remendado do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até 1 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-05-C005",
+    "name": "Preço de uma Vértebra",
+    "implemented": false,
+    "text": "Sacrifique uma criatura sua como custo adicional. Outra criatura sua recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F01-1",
+    "name": "Servo do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Ao morrer, seu comandante recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F04-2",
+    "name": "Acompanhante da Cripta Baixa",
+    "implemented": false,
+    "text": "Seu comandante recebe +0/+1 enquanto estiver neste tile."
+  },
+  {
+    "id": "ED261008-D05-F03-2",
+    "name": "Carregador de Ossos da Cripta Baixa",
+    "implemented": true,
+    "text": "Ao morrer, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261007-05-C002",
+    "name": "Coveira de Mãos Vazias",
+    "implemented": false,
+    "text": "Ao entrar, você pode colocar uma criatura de custo total até 1 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D05-F02-2",
+    "name": "Coveiro da Cripta Baixa",
+    "implemented": false,
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca 2 de vida da capital."
+  },
+  {
+    "id": "ED261008-D05-F07-2",
+    "name": "Esqueleto Remendado da Cripta Baixa",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até 1 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-05-C010",
+    "name": "Herança do Aprendiz",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +1/+1. Quando ela morrer, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261007-05-C009",
+    "name": "Saco de Ossos",
+    "implemented": false,
+    "text": "Pague 3 manas genéricas e destrua este artefato: crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile. Use no seu turno."
+  },
+  {
+    "id": "ED261008-D05-F01-2",
+    "name": "Servo da Cripta Baixa",
+    "implemented": false,
+    "text": "Ao morrer, seu comandante recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F03-3",
+    "name": "Carregador de Ossos do Sino Fúnebre",
+    "implemented": true,
+    "text": "Ao morrer, cure 3 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D05-F02-3",
+    "name": "Coveiro do Sino Fúnebre",
+    "implemented": false,
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca 2 de vida da capital."
+  },
+  {
+    "id": "ED261008-D05-F07-3",
+    "name": "Esqueleto Remendado do Sino Fúnebre",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até 2 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-05-C006",
+    "name": "Repor o Estoque",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 2 do seu cemitério à mão."
+  },
+  {
+    "id": "ED261008-D05-F01-3",
+    "name": "Servo do Sino Fúnebre",
+    "implemented": false,
+    "text": "Ao morrer, seu comandante recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F06-1",
+    "name": "Acólita do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F04-3",
+    "name": "Acompanhante do Sino Fúnebre",
+    "implemented": false,
+    "text": "Seu comandante recebe +0/+2 enquanto estiver neste tile."
+  },
+  {
+    "id": "ED261008-D05-F05-2",
+    "name": "Farrapo Vivo da Cripta Baixa",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F05-1",
+    "name": "Farrapo Vivo do Pequeno Ossuário",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F05-3",
+    "name": "Farrapo Vivo do Sino Fúnebre",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261007-05-C003",
+    "name": "Ossada Remendada",
+    "implemented": false,
+    "text": "Quando morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F03-4",
+    "name": "Carregador de Ossos do Cortejo Real",
+    "implemented": true,
+    "text": "Ao morrer, cure 3 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D05-F02-4",
+    "name": "Coveiro do Cortejo Real",
+    "implemented": false,
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca 2 de vida da capital."
+  },
+  {
+    "id": "ED261008-D05-F07-4",
+    "name": "Esqueleto Remendado do Cortejo Real",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até 2 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-05-C007",
+    "name": "Limpeza da Cripta",
+    "implemented": false,
+    "text": "Sacrifique uma criatura sua como custo adicional. Uma criatura inimiga recebe -3/-3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F01-4",
+    "name": "Servo do Cortejo Real",
+    "implemented": false,
+    "text": "Ao morrer, seu comandante recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F06-2",
+    "name": "Acólita da Cripta Baixa",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F04-4",
+    "name": "Acompanhante do Cortejo Real",
+    "implemented": false,
+    "text": "Seu comandante recebe +0/+2 enquanto estiver neste tile."
+  },
+  {
+    "id": "ED261008-D05-F05-4",
+    "name": "Farrapo Vivo do Cortejo Real",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F03-5",
+    "name": "Carregador de Ossos do Grande Mausoléu",
+    "implemented": true,
+    "text": "Ao morrer, cure 4 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D05-F02-5",
+    "name": "Coveiro do Grande Mausoléu",
+    "implemented": false,
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca 2 de vida da capital."
+  },
+  {
+    "id": "ED261008-D05-F07-5",
+    "name": "Esqueleto Remendado do Grande Mausoléu",
+    "implemented": false,
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até 3 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D05-F01-5",
+    "name": "Servo do Grande Mausoléu",
+    "implemented": false,
+    "text": "Ao morrer, seu comandante recebe +0/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F06-3",
+    "name": "Acólita do Sino Fúnebre",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261007-05-C008",
+    "name": "Altar das Peças Soltas",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 2 manas genéricas e sacrifique uma criatura sua neste tile: compre uma carta."
+  },
+  {
+    "id": "ED261008-D05-F08-2",
+    "name": "Criador de Servos da Cripta Baixa",
+    "implemented": false,
+    "text": "2 PA e 2 manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F08-1",
+    "name": "Criador de Servos do Pequeno Ossuário",
+    "implemented": false,
+    "text": "2 PA e 2 manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F08-3",
+    "name": "Criador de Servos do Sino Fúnebre",
+    "implemented": false,
+    "text": "2 PA e 2 manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F06-4",
+    "name": "Acólita do Cortejo Real",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F08-4",
+    "name": "Criador de Servos do Cortejo Real",
+    "implemented": false,
+    "text": "2 PA e 2 manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F04-5",
+    "name": "Acompanhante do Grande Mausoléu",
+    "implemented": false,
+    "text": "Seu comandante recebe +0/+3 enquanto estiver neste tile."
+  },
+  {
+    "id": "ED261008-D05-F06-5",
+    "name": "Acólita do Grande Mausoléu",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +3/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-F08-5",
+    "name": "Criador de Servos do Grande Mausoléu",
+    "implemented": false,
+    "text": "2 PA e 2 manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-F05-5",
+    "name": "Farrapo Vivo do Grande Mausoléu",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1."
+  },
+  {
+    "id": "ED261008-D05-M01",
+    "name": "Banquete do Ossuário",
+    "implemented": false,
+    "text": "Sacrifique até três criaturas suas. Para cada uma sacrificada, compre uma carta e cure 1 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D05-M03",
+    "name": "Legado do Mestre",
+    "implemented": false,
+    "text": "Uma vez em cada turno, quando você sacrificar uma criatura que não seja ficha, crie uma ficha Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 no tile em que ela estava."
+  },
+  {
+    "id": "ED261008-D05-M02",
+    "name": "Procissão Interminável",
+    "implemented": false,
+    "text": "Crie quatro fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 em terrenos seus."
+  },
+  {
+    "id": "ED261007-05-T001",
+    "name": "Pátio dos Ossos Miúdos",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas e sacrifique uma criatura sua neste tile: cure 3 de vida da sua capital."
+  },
+  {
+    "id": "ED261007-05-T002",
+    "name": "Cripta do Sino Partido",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261007-05-T003",
+    "name": "Fosso dos Servos",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua neste tile recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D05-T36",
+    "name": "Versão de campanha — Pátio da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T37",
+    "name": "Versão de campanha — Travessia da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T38",
+    "name": "Versão de campanha — Torreão da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T39",
+    "name": "Versão de campanha — Refúgio da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T40",
+    "name": "Versão de campanha — Clareira da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T41",
+    "name": "Versão de campanha — Terraço da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T42",
+    "name": "Versão de campanha — Posto da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T43",
+    "name": "Versão de campanha — Santuário da Vigília de Ossadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T44",
+    "name": "Base de estudos da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T45",
+    "name": "Portões da entrada proibida da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T46",
+    "name": "Mercado Ambulante da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T47",
+    "name": "Estrada Real da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261008-D05-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta da Oficina de Ossos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+  },
+  {
+    "id": "ED261007-06-C005",
+    "name": "Firmar os Pés",
+    "implemented": true,
+    "text": "Uma criatura sua recebe +0/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F01-1",
+    "name": "Guardião do Vale de Pedra",
+    "implemented": false,
+    "text": "Não pode atacar. Pode defender normalmente."
+  },
+  {
+    "id": "ED261008-D06-F03-1",
+    "name": "Muralha do Vale de Pedra",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+1."
+  },
+  {
+    "id": "ED261008-D06-F04-1",
+    "name": "Preparar as fundações do Vale de Pedra",
+    "implemented": false,
+    "text": "Olhe as 3 cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total 5 ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem."
+  },
+  {
+    "id": "ED261008-D06-F02-1",
+    "name": "Sentinela do Vale de Pedra",
+    "implemented": false,
+    "text": "Ao entrar, cure 2 de dano de uma criatura ou construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D06-F01-2",
+    "name": "Guardião das Muralhas Antigas",
+    "implemented": false,
+    "text": "Não pode atacar. Pode defender normalmente."
+  },
+  {
+    "id": "ED261008-D06-F03-2",
+    "name": "Muralha das Muralhas Antigas",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+1."
+  },
+  {
+    "id": "ED261008-D06-F04-2",
+    "name": "Preparar as fundações das Muralhas Antigas",
+    "implemented": false,
+    "text": "Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total 5 ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem."
+  },
+  {
+    "id": "ED261007-06-C006",
+    "name": "Recuperar a Muralha",
+    "implemented": false,
+    "text": "Cure até 4 de dano distribuídos entre duas criaturas ou construções suas."
+  },
+  {
+    "id": "ED261008-D06-F02-2",
+    "name": "Sentinela das Muralhas Antigas",
+    "implemented": false,
+    "text": "Ao entrar, cure 2 de dano de uma criatura ou construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261007-06-C007",
+    "name": "Escudo de Basalto",
+    "implemented": true,
+    "text": "Equipar: 2 manas genéricas no mesmo tile. A criatura equipada recebe +0/+3."
+  },
+  {
+    "id": "ED261008-D06-F01-3",
+    "name": "Guardião do Trono Profundo",
+    "implemented": false,
+    "text": "Não pode atacar. Pode defender normalmente."
+  },
+  {
+    "id": "ED261007-06-C009",
+    "name": "Juramento da Pedra",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +0/+2. No início do seu turno, cure 1 de dano dela se não tiver se movido desde seu último turno."
+  },
+  {
+    "id": "ED261008-D06-F03-3",
+    "name": "Muralha do Trono Profundo",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+2."
+  },
+  {
+    "id": "ED261007-06-C002",
+    "name": "Pedreiro da Muralha Viva",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cure 2 de dano de uma construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D06-F04-3",
+    "name": "Preparar as fundações do Trono Profundo",
+    "implemented": false,
+    "text": "Olhe as 5 cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total 5 ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem."
+  },
+  {
+    "id": "ED261008-D06-F02-3",
+    "name": "Sentinela do Trono Profundo",
+    "implemented": false,
+    "text": "Ao entrar, cure 3 de dano de uma criatura ou construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261007-06-C008",
+    "name": "Bastião da Entrada Estreita",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+1."
+  },
+  {
+    "id": "ED261008-D06-F01-4",
+    "name": "Guardião dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Não pode atacar. Pode defender normalmente."
+  },
+  {
+    "id": "ED261008-D06-F03-4",
+    "name": "Muralha dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+2."
+  },
+  {
+    "id": "ED261008-D06-F04-4",
+    "name": "Preparar as fundações dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Olhe as 6 cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total 5 ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem."
+  },
+  {
+    "id": "ED261008-D06-F02-4",
+    "name": "Sentinela dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Ao entrar, cure 3 de dano de uma criatura ou construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D06-F01-5",
+    "name": "Guardião da Montanha Eterna",
+    "implemented": false,
+    "text": "Não pode atacar. Pode defender normalmente."
+  },
+  {
+    "id": "ED261008-D06-F03-5",
+    "name": "Muralha da Montanha Eterna",
+    "implemented": false,
+    "text": "Criaturas suas neste tile recebem +0/+3."
+  },
+  {
+    "id": "ED261007-06-C010",
+    "name": "Avanço dos Escudos Pesados",
+    "implemented": false,
+    "text": "Até duas criaturas suas recebem +2 de ataque até o fim do turno. Escolha apenas criaturas com defesa maior que o ataque."
+  },
+  {
+    "id": "COL001-R018",
+    "name": "Fortaleza da Vigília",
+    "implemented": false,
+    "text": "Criaturas aliadas adjacentes recebem +1 de defesa."
+  },
+  {
+    "id": "ED261008-D06-F06-1",
+    "name": "Marcha dos colossos do Vale de Pedra",
+    "implemented": false,
+    "text": "Até 2 criaturas suas recebem +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F04-5",
+    "name": "Preparar as fundações da Montanha Eterna",
+    "implemented": false,
+    "text": "Olhe as 7 cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total 5 ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem."
+  },
+  {
+    "id": "ED261008-D06-F08-1",
+    "name": "Reconstrução profunda do Vale de Pedra",
+    "implemented": false,
+    "text": "Cure todo o dano de até 2 criaturas suas. Elas recebem +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F02-5",
+    "name": "Sentinela da Montanha Eterna",
+    "implemented": false,
+    "text": "Ao entrar, cure 4 de dano de uma criatura ou construção sua neste tile ou em um adjacente."
+  },
+  {
+    "id": "ED261008-D06-F06-2",
+    "name": "Marcha dos colossos das Muralhas Antigas",
+    "implemented": false,
+    "text": "Até 2 criaturas suas recebem +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F07-1",
+    "name": "Peso do mundo do Vale de Pedra",
+    "implemented": false,
+    "text": "Escolha até 1 criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra."
+  },
+  {
+    "id": "ED261008-D06-F05-1",
+    "name": "Despertar da montanha do Vale de Pedra",
+    "implemented": false,
+    "text": "Crie 1 fichas Elemental 3/4, 1 PA, movimento 1 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261008-D06-F07-2",
+    "name": "Peso do mundo das Muralhas Antigas",
+    "implemented": false,
+    "text": "Escolha até 1 criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra."
+  },
+  {
+    "id": "ED261008-D06-F08-2",
+    "name": "Reconstrução profunda das Muralhas Antigas",
+    "implemented": false,
+    "text": "Cure todo o dano de até 2 criaturas suas. Elas recebem +2 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F06-3",
+    "name": "Marcha dos colossos do Trono Profundo",
+    "implemented": false,
+    "text": "Até 3 criaturas suas recebem +3/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F08-3",
+    "name": "Reconstrução profunda do Trono Profundo",
+    "implemented": false,
+    "text": "Cure todo o dano de até 3 criaturas suas. Elas recebem +3 de ataque até o fim do turno."
+  },
+  {
+    "id": "COL001-R019",
+    "name": "Castelo da Guarda Eterna",
+    "implemented": false,
+    "text": "Criaturas aliadas a até 2 tiles recebem +1 de defesa."
+  },
+  {
+    "id": "ED261008-D06-F06-4",
+    "name": "Marcha dos colossos dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Até 3 criaturas suas recebem +4/+4 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F08-4",
+    "name": "Reconstrução profunda dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Cure todo o dano de até 3 criaturas suas. Elas recebem +4 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F05-2",
+    "name": "Despertar da montanha das Muralhas Antigas",
+    "implemented": false,
+    "text": "Crie 1 fichas Elemental 3/4, 1 PA, movimento 1 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261008-D06-F07-3",
+    "name": "Peso do mundo do Trono Profundo",
+    "implemented": false,
+    "text": "Escolha até 2 criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra."
+  },
+  {
+    "id": "ED261008-D06-M02",
+    "name": "A Última Muralha Avança",
+    "implemented": false,
+    "text": "Até quatro criaturas suas recebem +4/+4 até o fim do turno. As que têm ataque base zero podem atacar neste turno apesar de habilidades próprias que proíbam atacar."
+  },
+  {
+    "id": "ED261008-D06-F05-3",
+    "name": "Despertar da montanha do Trono Profundo",
+    "implemented": false,
+    "text": "Crie 2 fichas Elemental 4/5, 1 PA, movimento 1 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261008-D06-F07-4",
+    "name": "Peso do mundo dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Escolha até 2 criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra."
+  },
+  {
+    "id": "ED261008-D06-F05-4",
+    "name": "Despertar da montanha dos Picos Adormecidos",
+    "implemented": false,
+    "text": "Crie 2 fichas Elemental 4/5, 1 PA, movimento 1 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261008-D06-F06-5",
+    "name": "Marcha dos colossos da Montanha Eterna",
+    "implemented": false,
+    "text": "Até 4 criaturas suas recebem +5/+5 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-F07-5",
+    "name": "Peso do mundo da Montanha Eterna",
+    "implemented": false,
+    "text": "Escolha até 3 criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra."
+  },
+  {
+    "id": "ED261008-D06-F08-5",
+    "name": "Reconstrução profunda da Montanha Eterna",
+    "implemented": false,
+    "text": "Cure todo o dano de até 4 criaturas suas. Elas recebem +5 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-M03",
+    "name": "Renascimento do Reino de Pedra",
+    "implemented": false,
+    "text": "Cure todo o dano de criaturas e construções suas e cure 10 de vida da sua capital. Compre duas cartas."
+  },
+  {
+    "id": "ED261008-D06-M01",
+    "name": "A Montanha se Levanta",
+    "implemented": false,
+    "text": "Crie dois Elementais 7/8, 2 PA, movimento 1 e alcance 1 em terrenos seus."
+  },
+  {
+    "id": "ED261008-D06-F05-5",
+    "name": "Despertar da montanha da Montanha Eterna",
+    "implemented": false,
+    "text": "Crie 3 fichas Elemental 5/6, 1 PA, movimento 1 e alcance 1, distribuídas entre terrenos seus."
+  },
+  {
+    "id": "ED261007-06-T001",
+    "name": "Degraus do Trono Antigo",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma criatura sua neste tile."
+  },
+  {
+    "id": "ED261007-06-T002",
+    "name": "Muralha de Raízes Petrificadas",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261007-06-T003",
+    "name": "Salão dos Escudos Pesados",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile com defesa maior que ataque recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D06-T36",
+    "name": "Versão de campanha — Fortim da Retaguarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T37",
+    "name": "Versão de campanha — Pátio da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T38",
+    "name": "Versão de campanha — Travessia da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T39",
+    "name": "Versão de campanha — Torreão da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T40",
+    "name": "Versão de campanha — Refúgio da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T41",
+    "name": "Versão de campanha — Clareira da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T42",
+    "name": "Versão de campanha — Terraço da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T43",
+    "name": "Versão de campanha — Posto da Vigília de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T44",
+    "name": "Base de estudos do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T45",
+    "name": "Portões da entrada proibida do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T46",
+    "name": "Mercado Ambulante do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T47",
+    "name": "Estrada Real do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D06-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta do Trono Imóvel",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+  },
+  {
+    "id": "ED261008-D07-F01-1",
+    "name": "Arqueiro da Colina",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F03-1",
+    "name": "Atiradora da Colina",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F07-1",
+    "name": "Balista da Colina",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 2 manas genéricas: cause 1 de dano a uma criatura inimiga a até 2 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas."
+  },
+  {
+    "id": "ED261008-D07-F04-1",
+    "name": "Batedor do Vento da Colina",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno."
+  },
+  {
+    "id": "ED261008-D07-F05-1",
+    "name": "Disparo da Colina",
+    "implemented": false,
+    "text": "Escolha uma criatura sua com alcance 2 ou maior. Ela causa 1 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F08-1",
+    "name": "Retirada dos atiradores da Colina",
+    "implemented": false,
+    "text": "Até 1 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F06-1",
+    "name": "Salva da Colina",
+    "implemented": false,
+    "text": "Escolha até 2 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F02-1",
+    "name": "Vigia da Colina",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno."
+  },
+  {
+    "id": "ED261008-D07-F01-2",
+    "name": "Arqueiro do Mirante",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F03-2",
+    "name": "Atiradora do Mirante",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F07-2",
+    "name": "Balista do Mirante",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 2 manas genéricas: cause 1 de dano a uma criatura inimiga a até 3 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas."
+  },
+  {
+    "id": "ED261008-D07-F04-2",
+    "name": "Batedor do Vento do Mirante",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno."
+  },
+  {
+    "id": "ED261008-D07-F05-2",
+    "name": "Disparo do Mirante",
+    "implemented": false,
+    "text": "Escolha uma criatura sua com alcance 2 ou maior. Ela causa 1 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate."
+  },
+  {
+    "id": "ED261007-07-C007",
+    "name": "Flecha de Aviso",
+    "implemented": false,
+    "text": "Escolha um Arqueiro seu. Ele causa 1 de dano a uma criatura inimiga no alcance atual dele, sem gastar PA."
+  },
+  {
+    "id": "ED261007-07-C001",
+    "name": "Flecheiro da Falésia",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D07-F08-2",
+    "name": "Retirada dos atiradores do Mirante",
+    "implemented": false,
+    "text": "Até 1 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F02-2",
+    "name": "Vigia do Mirante",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cause 1 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno."
+  },
+  {
+    "id": "ED261008-D07-F05-3",
+    "name": "Disparo das Flechas Longas",
+    "implemented": false,
+    "text": "Escolha uma criatura sua com alcance 2 ou maior. Ela causa 2 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate."
+  },
+  {
+    "id": "ED261007-07-C009",
+    "name": "Mirante de Madeira",
+    "implemented": false,
+    "text": "Criaturas suas neste tile com alcance 2 ou maior recebem +0/+1."
+  },
+  {
+    "id": "ED261007-07-C002",
+    "name": "Observadora dos Ventos",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: outro Arqueiro seu adjacente recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F08-3",
+    "name": "Retirada dos atiradores das Flechas Longas",
+    "implemented": false,
+    "text": "Até 2 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F05-4",
+    "name": "Disparo dos Ventos Altos",
+    "implemented": false,
+    "text": "Escolha uma criatura sua com alcance 2 ou maior. Ela causa 2 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F08-4",
+    "name": "Retirada dos atiradores dos Ventos Altos",
+    "implemented": false,
+    "text": "Até 2 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261007-07-C010",
+    "name": "Rota dos Vigias",
+    "implemented": false,
+    "text": "Até duas criaturas suas recebem +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F06-2",
+    "name": "Salva do Mirante",
+    "implemented": false,
+    "text": "Escolha até 2 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F01-3",
+    "name": "Arqueiro das Flechas Longas",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F03-3",
+    "name": "Atiradora das Flechas Longas",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F07-3",
+    "name": "Balista das Flechas Longas",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 3 manas genéricas: cause 2 de dano a uma criatura inimiga a até 4 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas."
+  },
+  {
+    "id": "ED261008-D07-F04-3",
+    "name": "Batedor do Vento das Flechas Longas",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno."
+  },
+  {
+    "id": "ED261008-D07-F02-3",
+    "name": "Vigia das Flechas Longas",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno."
+  },
+  {
+    "id": "ED261008-D07-F01-4",
+    "name": "Arqueiro dos Ventos Altos",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F03-4",
+    "name": "Atiradora dos Ventos Altos",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F07-4",
+    "name": "Balista dos Ventos Altos",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 3 manas genéricas: cause 2 de dano a uma criatura inimiga a até 5 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas."
+  },
+  {
+    "id": "ED261008-D07-F04-4",
+    "name": "Batedor do Vento dos Ventos Altos",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno."
+  },
+  {
+    "id": "ED261008-D07-F02-4",
+    "name": "Vigia dos Ventos Altos",
+    "implemented": false,
+    "text": "2 PA, uma vez no seu turno: cause 2 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno."
+  },
+  {
+    "id": "ED261008-D07-F05-5",
+    "name": "Disparo do Horizonte Distante",
+    "implemented": false,
+    "text": "Escolha uma criatura sua com alcance 2 ou maior. Ela causa 3 de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F08-5",
+    "name": "Retirada dos atiradores do Horizonte Distante",
+    "implemented": false,
+    "text": "Até 3 criaturas suas com alcance 2 ou maior recebem +1 de movimento e +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D07-F06-3",
+    "name": "Salva das Flechas Longas",
+    "implemented": false,
+    "text": "Escolha até 3 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F06-4",
+    "name": "Salva dos Ventos Altos",
+    "implemented": false,
+    "text": "Escolha até 3 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F01-5",
+    "name": "Arqueiro do Horizonte Distante",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F03-5",
+    "name": "Atiradora do Horizonte Distante",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: cause 3 de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-F07-5",
+    "name": "Balista do Horizonte Distante",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 4 manas genéricas: cause 3 de dano a uma criatura inimiga a até 6 tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas."
+  },
+  {
+    "id": "ED261008-D07-F04-5",
+    "name": "Batedor do Vento do Horizonte Distante",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno."
+  },
+  {
+    "id": "ED261007-07-C004",
+    "name": "Veterana do Arco Longo",
+    "implemented": false,
+    "text": "Enquanto não houver inimigo adjacente, esta criatura recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D07-F02-5",
+    "name": "Vigia do Horizonte Distante",
+    "implemented": false,
+    "text": "3 PA, uma vez no seu turno: cause 3 de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno."
+  },
+  {
+    "id": "ED261008-D07-M01",
+    "name": "A Flecha que Cruza o Reino",
+    "implemented": false,
+    "text": "Escolha um Arqueiro seu. Ele causa 4 de dano a uma criatura ou capital inimiga dentro do alcance atual dele, sem iniciar combate."
+  },
+  {
+    "id": "ED261008-D07-F06-5",
+    "name": "Salva do Horizonte Distante",
+    "implemented": false,
+    "text": "Escolha até 4 Arqueiros seus. Cada um causa 1 de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate."
+  },
+  {
+    "id": "ED261008-D07-M03",
+    "name": "Disciplina dos Mil Passos",
+    "implemented": false,
+    "text": "Uma vez no seu turno, depois que uma habilidade ativada de um Arqueiro seu causar dano, ele pode mover-se gratuitamente para um terreno andável adjacente sem inimigos, respeitando bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D07-M02",
+    "name": "Horizonte de Flechas",
+    "implemented": false,
+    "text": "Escolha até quatro Arqueiros seus. Cada um causa 2 de dano a uma criatura inimiga dentro de seu alcance atual."
+  },
+  {
+    "id": "COL001-R020",
+    "name": "Soberano das Correntes Altas",
+    "implemented": false,
+    "text": "Pode atravessar criaturas durante seu movimento."
+  },
+  {
+    "id": "ED261007-07-T001",
+    "name": "Mirante do Segundo Disparo",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um Arqueiro seu neste tile recebe +1 de ataque até o fim do turno."
+  },
+  {
+    "id": "ED261007-07-T002",
+    "name": "Escarpa dos Mensageiros",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261007-07-T003",
+    "name": "Passarela dos Vigias",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno se não houver inimigo adjacente."
+  },
+  {
+    "id": "ED261008-D07-T36",
+    "name": "Versão de campanha — Pátio da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T37",
+    "name": "Versão de campanha — Travessia da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T38",
+    "name": "Versão de campanha — Torreão da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T39",
+    "name": "Versão de campanha — Refúgio da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T40",
+    "name": "Versão de campanha — Clareira da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T41",
+    "name": "Versão de campanha — Terraço da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T42",
+    "name": "Versão de campanha — Posto da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T43",
+    "name": "Versão de campanha — Santuário da Vigília de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T44",
+    "name": "Base de estudos das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T45",
+    "name": "Portões da entrada proibida das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T46",
+    "name": "Mercado Ambulante das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T47",
+    "name": "Estrada Real das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D07-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta das Flechas Distantes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+  },
+  {
+    "id": "ED261008-D08-F07-1",
+    "name": "Fortalecer o eco da Clareira Fria",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +2/+2; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional."
+  },
+  {
+    "id": "ED261008-D08-F07-2",
+    "name": "Fortalecer o eco do Jardim de Ossos",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +2/+2; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional."
+  },
+  {
+    "id": "ED261007-08-C007",
+    "name": "Lembrança Enraizada",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +1/+2."
+  },
+  {
+    "id": "ED261007-08-C006",
+    "name": "Proteção da Herdeira",
+    "implemented": false,
+    "text": "Uma criatura sua com ataque base 1 recebe +0/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-F08-1",
+    "name": "Renovar o cortejo da Clareira Fria",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 3 do seu cemitério à mão. Sua capital perde 2 de vida."
+  },
+  {
+    "id": "ED261007-08-C010",
+    "name": "Retorno ao Húmus",
+    "implemented": false,
+    "text": "Sacrifique uma criatura sua como custo adicional. Cure 4 de vida da sua capital. Esta morte não conta como morte em combate."
+  },
+  {
+    "id": "ED261007-08-C009",
+    "name": "Escoltar os Pequenos",
+    "implemented": false,
+    "text": "Mova até duas fichas suas da sua capital para terrenos andáveis adjacentes sem inimigos, sem gastar PA. Respeite bloqueios e gatilhos."
+  },
+  {
+    "id": "ED261008-D08-F07-3",
+    "name": "Fortalecer o eco da Coroa Enraizada",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +3/+3; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional."
+  },
+  {
+    "id": "ED261008-D08-F08-2",
+    "name": "Renovar o cortejo do Jardim de Ossos",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 4 do seu cemitério à mão. Sua capital perde 2 de vida."
+  },
+  {
+    "id": "ED261007-08-C005",
+    "name": "Semear o Luto",
+    "implemented": false,
+    "text": "Coloque as quatro cartas do topo do seu grimório no cemitério. Depois cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F06-1",
+    "name": "Ceifadora da Clareira Fria",
+    "implemented": false,
+    "text": "Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D08-F05-1",
+    "name": "Colosso Florido da Clareira Fria",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1."
+  },
+  {
+    "id": "ED261008-D08-F03-1",
+    "name": "Fera Enraizada da Clareira Fria",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-08-C003",
+    "name": "Flor de Ossos",
+    "implemented": true,
+    "text": "Ao entrar, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F07-4",
+    "name": "Fortalecer o eco da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +3/+3; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional."
+  },
+  {
+    "id": "ED261008-D08-F01-1",
+    "name": "Guardião do Cortejo da Clareira Fria",
+    "implemented": true,
+    "text": "Ao entrar, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F02-1",
+    "name": "Guerreira da Sepultura da Clareira Fria",
+    "implemented": false,
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261007-08-C008",
+    "name": "Jardim das Miniaturas",
+    "implemented": false,
+    "text": "Fichas de criatura suas neste tile recebem +0/+1."
+  },
+  {
+    "id": "ED261008-D08-F08-3",
+    "name": "Renovar o cortejo da Coroa Enraizada",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 5 do seu cemitério à mão. Sua capital perde 2 de vida."
+  },
+  {
+    "id": "ED261008-D08-F06-2",
+    "name": "Ceifadora do Jardim de Ossos",
+    "implemented": false,
+    "text": "Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D08-F03-2",
+    "name": "Fera Enraizada do Jardim de Ossos",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D08-F07-5",
+    "name": "Fortalecer o eco do Último Outono",
+    "implemented": false,
+    "text": "Encante uma criatura sua. Ela recebe +4/+4; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional."
+  },
+  {
+    "id": "ED261008-D08-F01-2",
+    "name": "Guardião do Cortejo do Jardim de Ossos",
+    "implemented": true,
+    "text": "Ao entrar, cure 2 de vida da sua capital."
+  },
+  {
+    "id": "ED261007-08-C004",
+    "name": "Guardião do Último Jardim",
+    "implemented": false,
+    "text": "Ao morrer, devolva uma criatura de custo total até 2 do seu cemitério à mão."
+  },
+  {
+    "id": "ED261008-D08-F02-2",
+    "name": "Guerreira da Sepultura do Jardim de Ossos",
+    "implemented": false,
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +1/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-F08-4",
+    "name": "Renovar o cortejo da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 6 do seu cemitério à mão. Sua capital perde 2 de vida."
+  },
+  {
+    "id": "ED261008-D08-F04-1",
+    "name": "Sentinela do Luto da Clareira Fria",
+    "implemented": false,
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D08-F06-3",
+    "name": "Ceifadora da Coroa Enraizada",
+    "implemented": false,
+    "text": "Ao entrar, coloque uma criatura de custo total até 3 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D08-F03-3",
+    "name": "Fera Enraizada da Coroa Enraizada",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D08-F01-3",
+    "name": "Guardião do Cortejo da Coroa Enraizada",
+    "implemented": true,
+    "text": "Ao entrar, cure 3 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F02-3",
+    "name": "Guerreira da Sepultura da Coroa Enraizada",
+    "implemented": false,
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-F08-5",
+    "name": "Renovar o cortejo do Último Outono",
+    "implemented": false,
+    "text": "Devolva uma criatura de custo total até 7 do seu cemitério à mão. Sua capital perde 2 de vida."
+  },
+  {
+    "id": "ED261008-D08-F04-2",
+    "name": "Sentinela do Luto do Jardim de Ossos",
+    "implemented": false,
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +1 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D08-F05-2",
+    "name": "Colosso Florido do Jardim de Ossos",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1."
+  },
+  {
+    "id": "ED261008-D08-M02",
+    "name": "Ecos que Crescem",
+    "implemented": false,
+    "text": "Fichas suas com ataque e defesa base 1/1 recebem +2/+2."
+  },
+  {
+    "id": "ED261008-D08-F03-4",
+    "name": "Fera Enraizada da Floresta Sepulcral",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D08-F01-4",
+    "name": "Guardião do Cortejo da Floresta Sepulcral",
+    "implemented": true,
+    "text": "Ao entrar, cure 3 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F02-4",
+    "name": "Guerreira da Sepultura da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-F05-3",
+    "name": "Colosso Florido da Coroa Enraizada",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1."
+  },
+  {
+    "id": "ED261008-D08-M03",
+    "name": "A Batalha das Últimas Flores",
+    "implemented": false,
+    "text": "Até três criaturas suas recebem +3/+3 até o fim do turno. Quando uma delas morrer em combate neste turno, compre uma carta."
+  },
+  {
+    "id": "ED261008-D08-F06-4",
+    "name": "Ceifadora da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Ao entrar, coloque uma criatura de custo total até 3 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D08-F05-4",
+    "name": "Colosso Florido da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1."
+  },
+  {
+    "id": "ED261008-D08-F04-3",
+    "name": "Sentinela do Luto da Coroa Enraizada",
+    "implemented": false,
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +2 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D08-F06-5",
+    "name": "Ceifadora do Último Outono",
+    "implemented": false,
+    "text": "Ao entrar, coloque uma criatura de custo total até 4 do seu cemitério no fundo do grimório."
+  },
+  {
+    "id": "ED261008-D08-F05-5",
+    "name": "Colosso Florido do Último Outono",
+    "implemented": false,
+    "text": "Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1."
+  },
+  {
+    "id": "ED261008-D08-F03-5",
+    "name": "Fera Enraizada do Último Outono",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261008-D08-F01-5",
+    "name": "Guardião do Cortejo do Último Outono",
+    "implemented": true,
+    "text": "Ao entrar, cure 4 de vida da sua capital."
+  },
+  {
+    "id": "ED261008-D08-F02-5",
+    "name": "Guerreira da Sepultura do Último Outono",
+    "implemented": false,
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +3/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-M01",
+    "name": "O Cortejo dos Gigantes",
+    "implemented": false,
+    "text": "Devolva até duas criaturas do seu cemitério à mão. Crie uma ficha Planta 2/4, 1 PA, movimento 1 e alcance 1 na sua capital."
+  },
+  {
+    "id": "ED261008-D08-F04-4",
+    "name": "Sentinela do Luto da Floresta Sepulcral",
+    "implemented": false,
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +2 de ataque nesse combate."
+  },
+  {
+    "id": "ED261008-D08-F04-5",
+    "name": "Sentinela do Luto do Último Outono",
+    "implemented": false,
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +3 de ataque nesse combate."
+  },
+  {
+    "id": "ED261007-08-T001",
+    "name": "Jardim dos Nomes Pequenos",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261007-08-T002",
+    "name": "Sepultura da Primeira Flor",
+    "implemented": false,
+    "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: coloque a carta do topo do seu grimório no seu cemitério."
+  },
+  {
+    "id": "ED261007-08-T003",
+    "name": "Clareira do Cortejo Silencioso",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma ficha sua neste tile."
+  },
+  {
+    "id": "ED261008-D08-T36",
+    "name": "Versão de campanha — Terraço da Guarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T37",
+    "name": "Versão de campanha — Posto da Guarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T38",
+    "name": "Versão de campanha — Santuário da Guarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T39",
+    "name": "Versão de campanha — Acampamento da Guarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T40",
+    "name": "Versão de campanha — Fortim da Guarda de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T41",
+    "name": "Versão de campanha — Pátio da Fronteira de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T42",
+    "name": "Versão de campanha — Travessia da Fronteira de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T43",
+    "name": "Versão de campanha — Torreão da Fronteira de Raiz Antiga",
+    "implemented": false,
+    "text": "Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T44",
+    "name": "Base de estudos do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T45",
+    "name": "Portões da entrada proibida do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T46",
+    "name": "Mercado Ambulante do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T47",
+    "name": "Estrada Real do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D08-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-F07-1",
+    "name": "Piloto do Porto Baixo",
+    "implemented": false,
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D09-F08-1",
+    "name": "Vigia de Bordo do Porto Baixo",
+    "implemented": false,
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns."
+  },
+  {
+    "id": "ED261007-09-C008",
+    "name": "Desembarque Organizado",
+    "implemented": false,
+    "text": "Até duas tropas suas embarcadas em um mesmo veículo podem desembarcar no tile dele sem pagar PA. Respeite as demais regras de desembarque."
+  },
+  {
+    "id": "ED261007-09-C001",
+    "name": "Piloto do Estuário",
+    "implemented": true,
+    "text": "Sem habilidade adicional."
+  },
+  {
+    "id": "ED261007-09-C007",
+    "name": "Reforçar o Casco",
+    "implemented": false,
+    "text": "Um veículo seu recebe +0/+3 até o fim do turno."
+  },
+  {
+    "id": "ED261007-09-C002",
+    "name": "Vigia de Asa Curta",
+    "implemented": false,
+    "text": "Voar: esta criatura pode atravessar terrenos que exigem voo."
+  },
+  {
+    "id": "ED261008-D09-F04-1",
+    "name": "Aeróstato do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261007-09-C005",
+    "name": "Barca de Travessia",
+    "implemented": false,
+    "text": "Veículo: 2 vagas, exige 1 tripulante. Só age tripulado. Embarcar/desembarcar custa 1 PA da tropa, no mesmo tile. Passageiros podem agir; morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F01-1",
+    "name": "Barca do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F02-1",
+    "name": "Caravana do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261007-09-C010",
+    "name": "Mapa das Correntes Altas",
+    "implemented": false,
+    "text": "Um veículo seu recebe +1 de movimento até o fim do turno. Olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261007-09-C003",
+    "name": "Mecânica do Convés",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cure 2 de dano de um veículo seu no mesmo tile."
+  },
+  {
+    "id": "ED261007-09-C004",
+    "name": "Mensageiro do Vento Alto",
+    "implemented": false,
+    "text": "Ao desembarcar, outra criatura sua neste tile recebe +0/+1 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-F03-1",
+    "name": "Nau do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F06-1",
+    "name": "Transporte do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F04-2",
+    "name": "Aeróstato das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F01-2",
+    "name": "Barca das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F05-1",
+    "name": "Bastião Móvel do Porto Baixo",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F02-2",
+    "name": "Caravana das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F03-2",
+    "name": "Nau das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261007-09-C006",
+    "name": "Planador de Carga",
+    "implemented": false,
+    "text": "Veículo: 1 vaga, exige 1 tripulante. Só age tripulado. Embarcar/desembarcar custa 1 PA da tropa, no mesmo tile. Passageiros podem agir; morrem se ele for destruído. Voar."
+  },
+  {
+    "id": "ED261008-D09-F07-2",
+    "name": "Piloto das Correntes Claras",
+    "implemented": false,
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D09-F08-2",
+    "name": "Vigia de Bordo das Correntes Claras",
+    "implemented": false,
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns."
+  },
+  {
+    "id": "ED261007-09-C009",
+    "name": "Oficina do Porto",
+    "implemented": false,
+    "text": "Uma vez no seu turno, pague 2 manas genéricas: cure 3 de dano de um veículo seu neste tile."
+  },
+  {
+    "id": "ED261008-D09-F07-3",
+    "name": "Piloto da Frota Suspensa",
+    "implemented": false,
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D09-F08-3",
+    "name": "Vigia de Bordo da Frota Suspensa",
+    "implemented": false,
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns."
+  },
+  {
+    "id": "ED261008-D09-F06-2",
+    "name": "Transporte das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F04-3",
+    "name": "Aeróstato da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F01-3",
+    "name": "Barca da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F05-2",
+    "name": "Bastião Móvel das Correntes Claras",
+    "implemented": false,
+    "text": "Veículo: 2 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F02-3",
+    "name": "Caravana da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F03-3",
+    "name": "Nau da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F06-3",
+    "name": "Transporte da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F04-4",
+    "name": "Aeróstato dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F01-4",
+    "name": "Barca dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F05-3",
+    "name": "Bastião Móvel da Frota Suspensa",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-M02",
+    "name": "Formação de Convés",
+    "implemented": false,
+    "text": "Veículos seus com pelo menos três passageiros recebem +2/+2."
+  },
+  {
+    "id": "ED261008-D09-F03-4",
+    "name": "Nau dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-M03",
+    "name": "Resgate da Frota Ferida",
+    "implemented": false,
+    "text": "Cure todo o dano de até dois veículos seus. Seus passageiros recebem +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-F07-4",
+    "name": "Piloto dos Ventos Reais",
+    "implemented": false,
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D09-F08-4",
+    "name": "Vigia de Bordo dos Ventos Reais",
+    "implemented": false,
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns."
+  },
+  {
+    "id": "ED261008-D09-F02-4",
+    "name": "Caravana dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F06-4",
+    "name": "Transporte dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F04-5",
+    "name": "Aeróstato da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de alcance. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F01-5",
+    "name": "Barca da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de ataque por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F05-4",
+    "name": "Bastião Móvel dos Ventos Reais",
+    "implemented": false,
+    "text": "Veículo: 3 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-M01",
+    "name": "Mobilizar a Armada",
+    "implemented": false,
+    "text": "Até quatro veículos seus recebem +1 de ataque por passageiro e +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-F03-5",
+    "name": "Nau da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1 de defesa por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F07-5",
+    "name": "Piloto da Armada Celeste",
+    "implemented": false,
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D09-F08-5",
+    "name": "Vigia de Bordo da Armada Celeste",
+    "implemented": false,
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns."
+  },
+  {
+    "id": "ED261008-D09-F02-5",
+    "name": "Caravana da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +1 de movimento. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F06-5",
+    "name": "Transporte da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. No início do seu turno, cure 1 de dano deste veículo por passageiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261008-D09-F05-5",
+    "name": "Bastião Móvel da Armada Celeste",
+    "implemented": false,
+    "text": "Veículo: 4 vagas; exige 1 tripulante e só age tripulado. Recebe +1/+1 por passageiro além do primeiro. Embarcar/desembarcar: 1 PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído."
+  },
+  {
+    "id": "ED261007-09-T001",
+    "name": "Porto dos Cascos Leves",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de um veículo seu neste tile."
+  },
+  {
+    "id": "ED261007-09-T002",
+    "name": "Rampa do Vento Leste",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um veículo seu neste tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261007-09-T003",
+    "name": "Ancoradouro da Tripulação",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua embarcada em um veículo neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T36",
+    "name": "Versão de campanha — Santuário da Fronteira de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T37",
+    "name": "Versão de campanha — Acampamento da Fronteira de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T38",
+    "name": "Versão de campanha — Fortim da Fronteira de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T39",
+    "name": "Versão de campanha — Pátio da Retaguarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T40",
+    "name": "Versão de campanha — Travessia da Retaguarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T41",
+    "name": "Versão de campanha — Torreão da Retaguarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T42",
+    "name": "Versão de campanha — Refúgio da Retaguarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T43",
+    "name": "Versão de campanha — Clareira da Retaguarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T44",
+    "name": "Base de estudos da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T45",
+    "name": "Portões da entrada proibida da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T46",
+    "name": "Mercado Ambulante da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T47",
+    "name": "Estrada Real da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D09-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta da Caravana das Correntes",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-F01-1",
+    "name": "Coleira do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2."
+  },
+  {
+    "id": "ED261008-D10-F02-1",
+    "name": "Garras do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +2 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F03-1",
+    "name": "Sela do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de movimento."
+  },
+  {
+    "id": "ED261008-D10-F05-1",
+    "name": "Arreio do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de alcance."
+  },
+  {
+    "id": "ED261008-D10-F01-2",
+    "name": "Coleira da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2."
+  },
+  {
+    "id": "ED261007-10-C004",
+    "name": "Coleira de Latão",
+    "implemented": true,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+1."
+  },
+  {
+    "id": "ED261008-D10-F07-1",
+    "name": "Escudo do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+1; se for ficha, também recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F02-2",
+    "name": "Garras da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +2 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F06-1",
+    "name": "Guizo do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F04-1",
+    "name": "Peitoral do Curral",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2; enquanto defender, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F08-1",
+    "name": "Retomar o arsenal do Curral",
+    "implemented": false,
+    "text": "Devolva até 1 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+  },
+  {
+    "id": "ED261008-D10-F03-2",
+    "name": "Sela da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de movimento."
+  },
+  {
+    "id": "ED261008-D10-F05-2",
+    "name": "Arreio da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de alcance."
+  },
+  {
+    "id": "ED261008-D10-F01-3",
+    "name": "Coleira das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+3."
+  },
+  {
+    "id": "ED261007-10-C001",
+    "name": "Escudeira dos Filhotes",
+    "implemented": false,
+    "text": "Ao entrar, cure 1 de dano de uma ficha sua no mesmo tile."
+  },
+  {
+    "id": "ED261008-D10-F07-2",
+    "name": "Escudo da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+1; se for ficha, também recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F02-3",
+    "name": "Garras das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +3 de ataque."
+  },
+  {
+    "id": "ED261007-10-C007",
+    "name": "Garras de Bronze",
+    "implemented": true,
+    "text": "Equipar: 2 manas genéricas no mesmo tile. A criatura equipada recebe +2 de ataque."
+  },
+  {
+    "id": "ED261007-10-C010",
+    "name": "Recolher o Equipamento",
+    "implemented": false,
+    "text": "Devolva um equipamento seu do campo para sua mão. Desanexe-o antes; a criatura permanece no campo."
+  },
+  {
+    "id": "ED261008-D10-F08-2",
+    "name": "Retomar o arsenal da Patrulha",
+    "implemented": false,
+    "text": "Devolva até 1 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+  },
+  {
+    "id": "ED261008-D10-F03-3",
+    "name": "Sela das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de movimento."
+  },
+  {
+    "id": "ED261007-10-C005",
+    "name": "Sela de Patrulha",
+    "implemented": true,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +1/+1."
+  },
+  {
+    "id": "ED261007-10-C009",
+    "name": "Abrigo dos Animais de Guerra",
+    "implemented": false,
+    "text": "Fichas suas neste tile recebem +0/+1."
+  },
+  {
+    "id": "ED261007-10-C006",
+    "name": "Armadura do Panda",
+    "implemented": true,
+    "text": "Equipar: 2 manas genéricas no mesmo tile. A criatura equipada recebe +0/+3."
+  },
+  {
+    "id": "ED261008-D10-F06-2",
+    "name": "Guizo da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F04-2",
+    "name": "Peitoral da Patrulha",
+    "implemented": false,
+    "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2; enquanto defender, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F05-3",
+    "name": "Arreio das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de alcance."
+  },
+  {
+    "id": "ED261008-D10-F01-4",
+    "name": "Coleira da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+3."
+  },
+  {
+    "id": "ED261008-D10-F07-3",
+    "name": "Escudo das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2; se for ficha, também recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F02-4",
+    "name": "Garras da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +3 de ataque."
+  },
+  {
+    "id": "ED261007-10-C003",
+    "name": "Guia das Trilhas Aéreas",
+    "implemented": false,
+    "text": "Ao entrar, uma ficha sua no mesmo tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-F08-3",
+    "name": "Retomar o arsenal das Feras Errantes",
+    "implemented": false,
+    "text": "Devolva até 2 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+  },
+  {
+    "id": "ED261008-D10-F03-4",
+    "name": "Sela da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de movimento."
+  },
+  {
+    "id": "ED261008-D10-F06-3",
+    "name": "Guizo das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F04-3",
+    "name": "Peitoral das Feras Errantes",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+3; enquanto defender, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261007-10-C002",
+    "name": "Tratadora do Santuário",
+    "implemented": false,
+    "text": "1 PA, uma vez no seu turno: cure 2 de dano de uma ficha sua neste tile."
+  },
+  {
+    "id": "ED261008-D10-F05-4",
+    "name": "Arreio da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de alcance."
+  },
+  {
+    "id": "ED261008-D10-F01-5",
+    "name": "Coleira do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+4."
+  },
+  {
+    "id": "ED261008-D10-F07-4",
+    "name": "Escudo da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+2; se for ficha, também recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F02-5",
+    "name": "Garras do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +4 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F08-4",
+    "name": "Retomar o arsenal da Matilha Real",
+    "implemented": false,
+    "text": "Devolva até 2 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+  },
+  {
+    "id": "ED261008-D10-F03-5",
+    "name": "Sela do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de movimento."
+  },
+  {
+    "id": "ED261007-10-C008",
+    "name": "Laço das Correntes",
+    "implemented": false,
+    "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Uma vez no seu turno, quando ela causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F06-4",
+    "name": "Guizo da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F04-4",
+    "name": "Peitoral da Matilha Real",
+    "implemented": false,
+    "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+3; enquanto defender, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F05-5",
+    "name": "Arreio do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +1 de alcance."
+  },
+  {
+    "id": "ED261008-D10-F07-5",
+    "name": "Escudo do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+3; se for ficha, também recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F06-5",
+    "name": "Guizo do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-M03",
+    "name": "Juramento das Selas Vazias",
+    "implemented": false,
+    "text": "Uma vez no seu turno, quando um equipamento seu entrar no campo, cure 2 de vida da sua capital. Se uma ficha sua estiver equipada, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+  },
+  {
+    "id": "ED261008-D10-F04-5",
+    "name": "Peitoral do Exército Selvagem",
+    "implemented": false,
+    "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +0/+4; enquanto defender, recebe +1 de ataque."
+  },
+  {
+    "id": "ED261008-D10-F08-5",
+    "name": "Retomar o arsenal do Exército Selvagem",
+    "implemented": false,
+    "text": "Devolva até 3 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+  },
+  {
+    "id": "ED261008-D10-M01",
+    "name": "Chamado do Arsenal Vivo",
+    "implemented": false,
+    "text": "Até quatro fichas suas equipadas recebem +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-M02",
+    "name": "O Grande Reabastecimento",
+    "implemented": false,
+    "text": "Devolva até três equipamentos do seu cemitério à mão."
+  },
+  {
+    "id": "ED261007-10-T001",
+    "name": "Curral dos Escudos",
+    "implemented": false,
+    "text": "Gera 1 mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua equipada neste tile recebe +0/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261007-10-T002",
+    "name": "Lago dos Animais Feridos",
+    "implemented": false,
+    "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma ficha sua neste tile."
+  },
+  {
+    "id": "ED261007-10-T003",
+    "name": "Trilha das Selas Vazias",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua equipada neste tile recebe +1 de movimento até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T36",
+    "name": "Versão de campanha — Clareira da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T37",
+    "name": "Versão de campanha — Terraço da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T38",
+    "name": "Versão de campanha — Posto da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T39",
+    "name": "Versão de campanha — Santuário da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T40",
+    "name": "Versão de campanha — Acampamento da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T41",
+    "name": "Versão de campanha — Fortim da Guarda de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T42",
+    "name": "Versão de campanha — Pátio da Fronteira de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T43",
+    "name": "Versão de campanha — Travessia da Fronteira de Vendaval",
+    "implemented": false,
+    "text": "Gera 1 mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T44",
+    "name": "Base de estudos do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T45",
+    "name": "Portões da entrada proibida do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T46",
+    "name": "Mercado Ambulante do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T47",
+    "name": "Estrada Real do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T48",
+    "name": "Pátio da Guarda de Pedra Cinzenta do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T49",
+    "name": "Travessia da Guarda de Pedra Cinzenta do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  },
+  {
+    "id": "ED261008-D10-T50",
+    "name": "Torreão da Guarda de Pedra Cinzenta do Arsenal das Feras",
+    "implemented": false,
+    "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+  }
+]

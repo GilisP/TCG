@@ -1,0 +1,1914 @@
+﻿PROTÓTIPO DE DECK — PARA REVISÃO DO AUTOR
+Nome do deck: O jardim dos pequenos mortos
+Comandante escolhido: Pincesa Lissandra
+Custo do comandante: LLT
+Efeito do comandante: Sempre que uma criatura sua morrer em combate, sua capital ganha um contador de morte. Pague contadores iguais ao custo convertido de uma criatura do seu cemitério: crie na sua capital uma cópia dela com ataque e defesa base 1/1, mantendo suas habilidades. Não custa PA.
+
+Temática confirmada: Criaturas mais fortes entram em combate, geram contadores ao morrer e voltam como cópias 1/1 com habilidades úteis. Apoios fortalecem as cópias; a força original não é copiada.
+Principais: 50 comuns / 20 incomuns / 15 raras / 15 míticas.
+Terrenos: 25 comuns / 10 incomuns / 8 raros / 7 míticos (arredondamento editorial).
+Raridades propostas para revisão; comandante fora dessa contagem.
+
+100 CARTAS PRINCIPAIS
+
+CARTA 001
+Nome: Fortalecer o eco da Clareira Fria
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +2/+2; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional.
+
+CARTA 002
+Nome: Manter Posição
+Tipo: Truque
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura aliada recebe +2 de defesa até o fim do turno. Se ela não tiver se movido neste turno, recebe +3 em vez disso.
+
+CARTA 003
+Nome: Preço de Sangue
+Tipo: Truque
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +2 de ataque até o fim do turno. No fim do turno, ela sofre 2 de dano.
+
+CARTA 004
+Nome: Barricada de Madeira
+Tipo: Construção
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T1
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Bloqueia movimento através do seu tile.
+
+CARTA 005
+Nome: Fortalecer o eco do Jardim de Ossos
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +2/+2; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional.
+
+CARTA 006
+Nome: Lembrança Enraizada
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +1/+2.
+
+CARTA 007
+Nome: Maldição da Fome
+Tipo: Encantamento
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura. Ela recebe -1 de defesa. Ao morrer a criatura encantada, cure 2 da sua capital.
+
+CARTA 008
+Nome: Morte Oportuna
+Tipo: Truque
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: LL
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Quando uma criatura sua for destruída por um inimigo, cause 2 de dano a uma criatura inimiga adjacente a ela.
+
+CARTA 009
+Nome: Muralha de Entulho
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 2
+Ataque/Defesa: 0/6
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas suas neste terreno têm -1 de movimento, mínimo 0. Não se move nem causa dano ao defender.
+
+CARTA 010
+Nome: Pele de Casca
+Tipo: Truque
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+4 até o fim do turno.
+
+CARTA 011
+Nome: Proteção da Herdeira
+Tipo: Truque
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua com ataque base 1 recebe +0/+3 até o fim do turno.
+
+CARTA 012
+Nome: Recolher os Caídos
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma carta de criatura de custo total 3 ou menos do seu cemitério principal para sua mão.
+
+CARTA 013
+Nome: Reforçar as Defesas
+Tipo: Feitiço
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: TT
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma construção aliada e até duas criaturas aliadas adjacentes a ela recebem +2 de defesa até seu próximo turno.
+
+CARTA 014
+Nome: Renovar o cortejo da Clareira Fria
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 3 do seu cemitério à mão. Sua capital perde 2 de vida.
+
+CARTA 015
+Nome: Retorno ao Húmus
+Tipo: Truque
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Sacrifique uma criatura sua como custo adicional. Cure 4 de vida da sua capital. Esta morte não conta como morte em combate.
+
+CARTA 016
+Nome: Terramorfia
+Tipo: Truque
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: TT
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Substitua um terreno de seu reino por um dos seus terrenos no topo das pilhas.
+
+CARTA 017
+Nome: Vasculhar as Covas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha uma criatura no seu cemitério e coloque-a no fundo do seu deck. Compre uma carta.
+
+CARTA 018
+Nome: Abraço das Raízes
+Tipo: Truque
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: TT1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até duas criaturas suas no mesmo terreno recebem +0/+3 até o fim do turno.
+
+CARTA 019
+Nome: Erguer o Bastião
+Tipo: Feitiço
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Cure todo o dano de uma construção sua.
+
+CARTA 020
+Nome: Escoltar os Pequenos
+Tipo: Feitiço
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Mova até duas fichas suas da sua capital para terrenos andáveis adjacentes sem inimigos, sem gastar PA. Respeite bloqueios e gatilhos.
+
+CARTA 021
+Nome: Faca de Talhar
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +1/+0; ao entrar em campo este equipamento, cure 1 da sua capital. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 022
+Nome: Fortalecer o eco da Coroa Enraizada
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +3/+3; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional.
+
+CARTA 023
+Nome: Memórias Afundadas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha um jogador. Ele coloca três cartas do topo do grimório no cemitério. Você perde 1 de vida da capital.
+
+CARTA 024
+Nome: Posto de Vigia
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas suas neste terreno recebem +0/+1. Não se move nem causa dano ao defender.
+
+CARTA 025
+Nome: Renovar o cortejo do Jardim de Ossos
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 4 do seu cemitério à mão. Sua capital perde 2 de vida.
+
+CARTA 026
+Nome: Retorno à Aldeia
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma carta de criatura do seu cemitério principal para sua mão. Compre 1 carta do deck de terrenos e coloque-a no topo de uma de suas quatro pilhas, à sua escolha.
+
+CARTA 027
+Nome: Semear o Luto
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Coloque as quatro cartas do topo do seu grimório no cemitério. Depois cure 2 de vida da sua capital.
+
+CARTA 028
+Nome: Ceifadora da Clareira Fria
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Comum
+Custo: L3
+Ataque/Defesa: 3/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no fundo do grimório.
+
+CARTA 029
+Nome: Colosso Florido da Clareira Fria
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Comum
+Custo: T3
+Ataque/Defesa: 3/4
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1.
+
+CARTA 030
+Nome: Fera Enraizada da Clareira Fria
+Tipo: Criatura
+Subtipo: Fera
+Cor: T
+Raridade: Comum
+Custo: T3
+Ataque/Defesa: 3/3
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 031
+Nome: Flor de Ossos
+Tipo: Criatura
+Subtipo: Planta, Esqueleto
+Cor: LT
+Raridade: Comum
+Custo: LT2
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 2 de vida da sua capital.
+
+CARTA 032
+Nome: Fortalecer o eco da Floresta Sepulcral
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +3/+3; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional.
+
+CARTA 033
+Nome: Guardião do Cortejo da Clareira Fria
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Comum
+Custo: T3
+Ataque/Defesa: 3/4
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 2 de vida da sua capital.
+
+CARTA 034
+Nome: Guerreira da Sepultura da Clareira Fria
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Comum
+Custo: L3
+Ataque/Defesa: 4/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, outra criatura sua adjacente recebe +1/+1 até o fim do turno.
+
+CARTA 035
+Nome: Jardim das Miniaturas
+Tipo: Construção
+Subtipo: Jardim
+Cor: LT
+Raridade: Comum
+Custo: LT2
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Fichas de criatura suas neste tile recebem +0/+1.
+
+CARTA 036
+Nome: Machado de Lenhador
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +3/+0 e -1 de defesa. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 037
+Nome: Recuperar Sementes
+Tipo: Feitiço
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: TT2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 3 do seu cemitério ao fundo do grimório. Compre duas cartas.
+
+CARTA 038
+Nome: Renovar o cortejo da Coroa Enraizada
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 5 do seu cemitério à mão. Sua capital perde 2 de vida.
+
+CARTA 039
+Nome: Batedor de Cobre de Patrulha
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Comum
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode mover outra criatura sua no mesmo terreno 1 terreno, respeitando bloqueios, sem gastar PA.
+
+CARTA 040
+Nome: Carregador de Ferro de Patrulha
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Comum
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 041
+Nome: Ceifadora do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Comum
+Custo: L4
+Ataque/Defesa: 4/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no fundo do grimório.
+
+CARTA 042
+Nome: Escudeiro de Estanho de Patrulha
+Tipo: Criatura
+Subtipo: Autômato, Cavaleiro
+Cor: Incolor
+Raridade: Comum
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, uma criatura sua no mesmo terreno recebe +0/+1 até o fim do turno.
+
+CARTA 043
+Nome: Fera Enraizada do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Fera
+Cor: T
+Raridade: Comum
+Custo: T4
+Ataque/Defesa: 4/4
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 044
+Nome: Fortalecer o eco do Último Outono
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Comum
+Custo: T4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ela recebe +4/+4; se for uma ficha com ataque e defesa base 1/1, recebe +1/+1 adicional.
+
+CARTA 045
+Nome: Guardião do Cortejo do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Comum
+Custo: T4
+Ataque/Defesa: 4/5
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 2 de vida da sua capital.
+
+CARTA 046
+Nome: Guardião do Último Jardim
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Comum
+Custo: TT3
+Ataque/Defesa: 3/6
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, devolva uma criatura de custo total até 2 do seu cemitério à mão.
+
+CARTA 047
+Nome: Guerreira da Sepultura do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Comum
+Custo: L4
+Ataque/Defesa: 5/3
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, outra criatura sua adjacente recebe +1/+1 até o fim do turno.
+
+CARTA 048
+Nome: Renovar o cortejo da Floresta Sepulcral
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Comum
+Custo: LT3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 6 do seu cemitério à mão. Sua capital perde 2 de vida.
+
+CARTA 049
+Nome: Sentinela do Luto da Clareira Fria
+Tipo: Criatura
+Subtipo: Elemental
+Cor: LT
+Raridade: Comum
+Custo: LT3
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando atacar uma criatura com ataque maior que o desta, recebe +1 de ataque nesse combate.
+
+CARTA 050
+Nome: Vigia de Porcelana de Patrulha
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Comum
+Custo: 5
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 1 da sua capital.
+
+CARTA 051
+Nome: Abrigo dos Viajantes
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 3
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A primeira criatura sua que entrar neste terreno em cada turno recebe +0/+1 até o fim do turno. Não se move nem causa dano ao defender.
+
+CARTA 052
+Nome: Adaga Sacrificial
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +2 de ataque. Quando ela morrer, compre uma carta e perca 1 de vida da Capital.
+
+CARTA 053
+Nome: Oficina de Remendos
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 3
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma construção sua neste terreno. Não se move nem causa dano ao defender.
+
+CARTA 054
+Nome: reflexor lunar
+Tipo: Artefato
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: 2: crie uma cópia de uma criatura sua no mesmo tile. A cópia desaparece no fim do turno.
+
+CARTA 055
+Nome: Depósito de Provisões
+Tipo: Construção
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: 0/5
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Ao entrar, cure 3 da sua capital. Não se move nem causa dano ao defender.
+
+CARTA 056
+Nome: Lembrança do Túmulo
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: LL2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 4 do seu cemitério à sua mão.
+
+CARTA 057
+Nome: Resgate das Catacumbas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: L3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva até 2 cartas de criatura do seu cemitério principal para sua mão.
+
+CARTA 058
+Nome: Voto do Regresso
+Tipo: Encantamento
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ao morrer a criatura encantada, cure 2 da sua capital.
+
+CARTA 059
+Nome: Fortaleza de Fronteira
+Tipo: Construção
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: TT3
+Ataque/Defesa: 0/6
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas aliadas adjacentes recebem +1 de defesa.
+
+CARTA 060
+Nome: Ceifadora da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Incomum
+Custo: L5
+Ataque/Defesa: 5/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 3 do seu cemitério no fundo do grimório.
+
+CARTA 061
+Nome: Fera Enraizada da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Fera
+Cor: T
+Raridade: Incomum
+Custo: T5
+Ataque/Defesa: 5/5
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 062
+Nome: Guardião da Ponte de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Incomum
+Custo: LL4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, cure 2 da sua capital.
+
+CARTA 063
+Nome: Guardião da Ponte de Raiz Antiga
+Tipo: Criatura
+Subtipo: Elemental, Guardião
+Cor: T
+Raridade: Incomum
+Custo: TT4
+Ataque/Defesa: 5/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 2 de dano de uma construção sua adjacente.
+
+CARTA 064
+Nome: Guardião da Torre de Raiz Antiga
+Tipo: Criatura
+Subtipo: Elemental, Guardião
+Cor: T
+Raridade: Incomum
+Custo: TT4
+Ataque/Defesa: 5/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +0/+3 até o fim do turno.
+
+CARTA 065
+Nome: Guardião do Cortejo da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Incomum
+Custo: T5
+Ataque/Defesa: 5/6
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 3 de vida da sua capital.
+
+CARTA 066
+Nome: Guardião do Juramento de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Incomum
+Custo: LL4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.
+
+CARTA 067
+Nome: Guardião do Juramento de Raiz Antiga
+Tipo: Criatura
+Subtipo: Elemental, Guardião
+Cor: T
+Raridade: Incomum
+Custo: TT4
+Ataque/Defesa: 5/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, cure 2 da sua capital.
+
+CARTA 068
+Nome: Guerreira da Sepultura da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Incomum
+Custo: L5
+Ataque/Defesa: 6/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, outra criatura sua adjacente recebe +2/+2 até o fim do turno.
+
+CARTA 069
+Nome: Renovar o cortejo do Último Outono
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Incomum
+Custo: LT4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 7 do seu cemitério à mão. Sua capital perde 2 de vida.
+
+CARTA 070
+Nome: Sentinela do Luto do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Elemental
+Cor: LT
+Raridade: Incomum
+Custo: LT4
+Ataque/Defesa: 3/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando atacar uma criatura com ataque maior que o desta, recebe +1 de ataque nesse combate.
+
+CARTA 071
+Nome: Espada Parasita
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +2 de ataque. Sempre que causar dano, cure 1 da capital. Se passar um turno sem causar dano, ela sofre 3 de dano. Equipar 1, provisório.
+
+CARTA 072
+Nome: Pá do Saqueador
+Tipo: Artefato — Equipamento
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: L2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A criatura equipada recebe +1/+0. Uma vez por turno, quando causar dano de combate a uma capital, o dono dela coloca duas cartas do topo do grimório no cemitério. Equipar: 1 mana genérica, no mesmo terreno.
+
+CARTA 073
+Nome: Abrir as Sepulturas
+Tipo: Feitiço
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: LLL2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até duas criaturas no seu cemitério. Coloque uma na sua mão e a outra no fundo do seu deck.
+
+CARTA 074
+Nome: Colosso Florido do Jardim de Ossos
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Rara
+Custo: T4
+Ataque/Defesa: 4/5
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1.
+
+CARTA 075
+Nome: Ferramentas de Reserva
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um equipamento de custo total até 2 do seu cemitério à sua mão.
+
+CARTA 076
+Nome: Mausoléu Ambulante
+Tipo: Construção
+Subtipo: —
+Cor: L
+Raridade: Rara
+Custo: LLL2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criatura sua morta adjacente vai sob o Mausoléu em vez do cemitério. 3: destrua o Mausoléu, coloque as criaturas armazenadas no cemitério e escolha uma para sua mão.
+
+CARTA 077
+Nome: Voto do Sacrifício
+Tipo: Encantamento
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Encante uma criatura sua. Ao morrer a criatura encantada, você pode colocar um equipamento seu de custo total até 2 do cemitério no fundo do grimório.
+
+CARTA 078
+Nome: Carregador de Ferro de Cerco
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Rara
+Custo: 7
+Ataque/Defesa: 5/7
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 079
+Nome: Ecos que Crescem
+Tipo: Encantamento
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: TTT4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Fichas suas com ataque e defesa base 1/1 recebem +2/+2.
+
+CARTA 080
+Nome: Escudeiro de Estanho de Cerco
+Tipo: Criatura
+Subtipo: Autômato, Cavaleiro
+Cor: Incolor
+Raridade: Rara
+Custo: 7
+Ataque/Defesa: 5/7
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, uma criatura sua no mesmo terreno recebe +0/+1 até o fim do turno.
+
+CARTA 081
+Nome: Fera Enraizada da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Fera
+Cor: T
+Raridade: Rara
+Custo: T6
+Ataque/Defesa: 6/6
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 082
+Nome: Guardião do Cortejo da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Rara
+Custo: T6
+Ataque/Defesa: 6/7
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 3 de vida da sua capital.
+
+CARTA 083
+Nome: Guerreira da Sepultura da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Rara
+Custo: L6
+Ataque/Defesa: 7/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, outra criatura sua adjacente recebe +2/+2 até o fim do turno.
+
+CARTA 084
+Nome: Vigia de Porcelana de Cerco
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Rara
+Custo: 7
+Ataque/Defesa: 5/7
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 1 da sua capital.
+
+CARTA 085
+Nome: Castelo Inabalável
+Tipo: Construção
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: TTTT4
+Ataque/Defesa: 0/8
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Criaturas aliadas a até 2 tiles recebem +1 de defesa.
+
+CARTA 086
+Nome: Colosso Florido da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Mítica
+Custo: T5
+Ataque/Defesa: 5/6
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1.
+
+CARTA 087
+Nome: Guardião da Vigília de Ossadas
+Tipo: Criatura
+Subtipo: Vampiro, Clérigo
+Cor: L
+Raridade: Mítica
+Custo: LL4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode perder 2 de vida da capital. Se fizer isso, compre uma carta.
+
+CARTA 088
+Nome: A Batalha das Últimas Flores
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Mítica
+Custo: LLTT3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até três criaturas suas recebem +3/+3 até o fim do turno. Quando uma delas morrer em combate neste turno, compre uma carta.
+
+CARTA 089
+Nome: Batedor de Cobre de Cerco
+Tipo: Criatura
+Subtipo: Autômato, Construto
+Cor: Incolor
+Raridade: Mítica
+Custo: 7
+Ataque/Defesa: 5/7
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode mover outra criatura sua no mesmo terreno 1 terreno, respeitando bloqueios, sem gastar PA.
+
+CARTA 090
+Nome: Ceifadora da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Mítica
+Custo: L6
+Ataque/Defesa: 6/5
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 3 do seu cemitério no fundo do grimório.
+
+CARTA 091
+Nome: Colosso Florido da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Mítica
+Custo: T6
+Ataque/Defesa: 6/7
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1.
+
+CARTA 092
+Nome: Sentinela do Luto da Coroa Enraizada
+Tipo: Criatura
+Subtipo: Elemental
+Cor: LT
+Raridade: Mítica
+Custo: LT5
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando atacar uma criatura com ataque maior que o desta, recebe +2 de ataque nesse combate.
+
+CARTA 093
+Nome: Ceifadora do Último Outono
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Mítica
+Custo: L7
+Ataque/Defesa: 7/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, coloque uma criatura de custo total até 4 do seu cemitério no fundo do grimório.
+
+CARTA 094
+Nome: Colosso Florido do Último Outono
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Mítica
+Custo: T7
+Ataque/Defesa: 7/8
+PA: 1
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, crie neste tile uma ficha Planta 1/2 sem habilidades, 1 PA, movimento 1 e alcance 1.
+
+CARTA 095
+Nome: Fera Enraizada do Último Outono
+Tipo: Criatura
+Subtipo: Fera
+Cor: T
+Raridade: Mítica
+Custo: T7
+Ataque/Defesa: 7/7
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 096
+Nome: Guardião do Cortejo do Último Outono
+Tipo: Criatura
+Subtipo: Elemental
+Cor: T
+Raridade: Mítica
+Custo: T7
+Ataque/Defesa: 7/8
+PA: 2
+Movimento: 1
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, cure 4 de vida da sua capital.
+
+CARTA 097
+Nome: Guerreira da Sepultura do Último Outono
+Tipo: Criatura
+Subtipo: Humano, Guerreiro
+Cor: L
+Raridade: Mítica
+Custo: L7
+Ataque/Defesa: 8/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer em combate, outra criatura sua adjacente recebe +3/+3 até o fim do turno.
+
+CARTA 098
+Nome: O Cortejo dos Gigantes
+Tipo: Feitiço
+Subtipo: —
+Cor: LT
+Raridade: Mítica
+Custo: LLTT4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva até duas criaturas do seu cemitério à mão. Crie uma ficha Planta 2/4, 1 PA, movimento 1 e alcance 1 na sua capital.
+
+CARTA 099
+Nome: Sentinela do Luto da Floresta Sepulcral
+Tipo: Criatura
+Subtipo: Elemental
+Cor: LT
+Raridade: Mítica
+Custo: LT6
+Ataque/Defesa: 5/7
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando atacar uma criatura com ataque maior que o desta, recebe +2 de ataque nesse combate.
+
+CARTA 100
+Nome: Sentinela do Luto do Último Outono
+Tipo: Criatura
+Subtipo: Elemental
+Cor: LT
+Raridade: Mítica
+Custo: LT7
+Ataque/Defesa: 6/8
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Quando atacar uma criatura com ataque maior que o desta, recebe +3 de ataque nesse combate.
+
+50 TERRENOS
+
+TERRENO 01
+Nome: Jardim dos Nomes Pequenos
+Tipo: Terreno
+Subtipo: Local
+Cor: T
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Terra
+Efeito: Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma ficha sua neste tile recebe +0/+2 até o fim do turno.
+
+TERRENO 02
+Nome: Sepultura da Primeira Flor
+Tipo: Terreno
+Subtipo: Local
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Lua
+Efeito: Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: coloque a carta do topo do seu grimório no seu cemitério.
+
+TERRENO 03
+Nome: Clareira do Cortejo Silencioso
+Tipo: Terreno
+Subtipo: Local
+Cor: T
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Terra
+Efeito: Gera 1 mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: cure 2 de dano de uma ficha sua neste tile.
+
+TERRENO 04
+Nome: cemiterio descontrolado
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Lua. Toda criatura morta no campo cria aqui um Esqueleto 1/1, 1 PA, com missão de atacar uma capital inimiga sorteada.
+
+TERRENO 05
+Nome: Charneca do Crepúsculo
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 06
+Nome: Pátio da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 07
+Nome: Travessia da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 08
+Nome: Torreão da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 09
+Nome: Refúgio da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 10
+Nome: Clareira da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 11
+Nome: Terraço da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 12
+Nome: Posto da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 13
+Nome: Santuário da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 14
+Nome: Acampamento da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 15
+Nome: Fortim da Guarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 16
+Nome: Pátio da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 17
+Nome: Travessia da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 18
+Nome: Torreão da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 19
+Nome: Refúgio da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 20
+Nome: Clareira da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 21
+Nome: Terraço da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 22
+Nome: Posto da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 23
+Nome: Santuário da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 24
+Nome: Acampamento da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 25
+Nome: Fortim da Fronteira de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 26
+Nome: Pátio da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 27
+Nome: Travessia da Retaguarda de Ossadas
+Tipo: Terreno
+Subtipo: —
+Cor: L
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.
+
+TERRENO 28
+Nome: Jardim reverso
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Terra. Criaturas neste tile têm ataque e defesa invertidos.
+
+TERRENO 29
+Nome: Floresta Faminta
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Terra. Quando uma criatura morrer aqui, cure 1 da capital do controlador deste terreno.
+
+TERRENO 30
+Nome: Campos da Pedra Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 31
+Nome: Pátio da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 32
+Nome: Travessia da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 2 de dano de uma construção sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 33
+Nome: Torreão da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+3 e -1 de movimento até o fim do turno, mínimo 0. O controlador do terreno usa esta habilidade.
+
+TERRENO 34
+Nome: Refúgio da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.
+
+TERRENO 35
+Nome: Clareira da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno que não se moveu neste turno recebe +1/+1 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 36
+Nome: Versão de campanha — Terraço da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 37
+Nome: Versão de campanha — Posto da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 38
+Nome: Versão de campanha — Santuário da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 39
+Nome: Versão de campanha — Acampamento da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 40
+Nome: Versão de campanha — Fortim da Guarda de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 41
+Nome: Versão de campanha — Pátio da Fronteira de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 42
+Nome: Versão de campanha — Travessia da Fronteira de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 43
+Nome: Versão de campanha — Torreão da Fronteira de Raiz Antiga
+Tipo: Terreno
+Subtipo: —
+Cor: T
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 44
+Nome: Versão de campanha — Base de estudos
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 45
+Nome: Versão de campanha — Portões da entrada proibida
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 46
+Nome: Versão de campanha — Mercado Ambulante
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 47
+Nome: Versão de campanha — Estrada Real
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 48
+Nome: Versão de campanha — Pátio da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 49
+Nome: Versão de campanha — Travessia da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.
+
+TERRENO 50
+Nome: Versão de campanha — Torreão da Guarda de Pedra Cinzenta
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.

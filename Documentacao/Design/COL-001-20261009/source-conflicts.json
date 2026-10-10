@@ -1,0 +1,1758 @@
+[
+  {
+    "name": "Aprendiz da Marcha de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+        "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 022",
+        "data": {
+          "Nome": "Aprendiz da Marcha de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 013",
+        "data": {
+          "Nome": "Aprendiz da Marcha de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Aprendiz da Marcha de Ossadas",
+    "differences": {
+      "Efeito": [
+        "Ao causar dano de combate à capital inimiga, coloque a carta do topo do grimório daquele jogador no cemitério dele.",
+        "Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 023",
+        "data": {
+          "Nome": "Aprendiz da Marcha de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "CARTA 012",
+        "data": {
+          "Nome": "Aprendiz da Marcha de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate à capital inimiga, coloque a carta do topo do grimório daquele jogador no cemitério dele."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Aprendiz da Ponte de Ossadas",
+    "differences": {
+      "Efeito": [
+        "Ao morrer, cure 2 da sua capital.",
+        "Ao morrer, o dono do efeito que a matou tritura 5."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 024",
+        "data": {
+          "Nome": "Aprendiz da Ponte de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, o dono do efeito que a matou tritura 5."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "CARTA 014",
+        "data": {
+          "Nome": "Aprendiz da Ponte de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, cure 2 da sua capital."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Aprendiz do Pórtico de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.",
+        "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 029",
+        "data": {
+          "Nome": "Aprendiz do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 018",
+        "data": {
+          "Nome": "Aprendiz do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Aprendiz do Pórtico de Ossadas",
+    "differences": {
+      "Efeito": [
+        "Ao causar dano de combate a uma criatura, cure 1 da sua capital.",
+        "Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 030",
+        "data": {
+          "Nome": "Aprendiz do Pórtico de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "CARTA 018",
+        "data": {
+          "Nome": "Aprendiz do Pórtico de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Comum",
+          "Custo": "L1",
+          "Ataque/Defesa": "1/2",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate a uma criatura, cure 1 da sua capital."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Escolta de Estuário",
+    "differences": {
+      "Efeito": [
+        "Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.",
+        "quando você conjurar um Truque, seus oponentes trituram uma carta."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 051",
+        "data": {
+          "Nome": "Veterano da Escolta de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "quando você conjurar um Truque, seus oponentes trituram uma carta."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 045",
+        "data": {
+          "Nome": "Veterano da Escolta de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Marcha de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio.",
+        "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 052",
+        "data": {
+          "Nome": "Veterano da Marcha de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 046",
+        "data": {
+          "Nome": "Veterano da Marcha de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Ponte de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.",
+        "Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 055",
+        "data": {
+          "Nome": "Veterano da Ponte de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 047",
+        "data": {
+          "Nome": "Veterano da Ponte de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Torre de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.",
+        "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 056",
+        "data": {
+          "Nome": "Veterano da Torre de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 048",
+        "data": {
+          "Nome": "Veterano da Torre de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Vigília de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas.",
+        "Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 057",
+        "data": {
+          "Nome": "Veterano da Vigília de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 049",
+        "data": {
+          "Nome": "Veterano da Vigília de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano do Pórtico de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório.",
+        "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 059",
+        "data": {
+          "Nome": "Veterano do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 050",
+        "data": {
+          "Nome": "Veterano do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Comum",
+          "Custo": "G2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Escolta de Ossadas",
+    "differences": {
+      "Efeito": [
+        "1 PA, sacrifique outra criatura sua neste terreno: esta recebe +2/+0 até o fim do turno. Use apenas uma vez por turno.",
+        "1 PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 064",
+        "data": {
+          "Nome": "Veterano da Escolta de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Incomum",
+          "Custo": "L2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "1 PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "CARTA 060",
+        "data": {
+          "Nome": "Veterano da Escolta de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Incomum",
+          "Custo": "L2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "1 PA, sacrifique outra criatura sua neste terreno: esta recebe +2/+0 até o fim do turno. Use apenas uma vez por turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Veterano da Vigília de Ossadas",
+    "differences": {
+      "Efeito": [
+        "Ao entrar, você pode perder 10 de vida da capital. Se fizer isso, cada oponente tritura 10.",
+        "Ao entrar, você pode perder 2 de vida da capital. Se fizer isso, compre uma carta."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 065",
+        "data": {
+          "Nome": "Veterano da Vigília de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Incomum",
+          "Custo": "L2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, você pode perder 10 de vida da capital. Se fizer isso, cada oponente tritura 10."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "CARTA 061",
+        "data": {
+          "Nome": "Veterano da Vigília de Ossadas",
+          "Tipo": "Criatura",
+          "Subtipo": "Vampiro, Clérigo",
+          "Cor": "L",
+          "Raridade": "Incomum",
+          "Custo": "L2",
+          "Ataque/Defesa": "2/4",
+          "PA": "1",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao entrar, você pode perder 2 de vida da capital. Se fizer isso, compre uma carta."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Guardião do Pórtico de Estuário",
+    "differences": {
+      "Efeito": [
+        "Ao morrer, seus oponentes trituram 5.",
+        "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "CARTA 094",
+        "data": {
+          "Nome": "Guardião do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Mítica",
+          "Custo": "GG4",
+          "Ataque/Defesa": "4/6",
+          "PA": "2",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, seus oponentes trituram 5."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "CARTA 096",
+        "data": {
+          "Nome": "Guardião do Pórtico de Estuário",
+          "Tipo": "Criatura",
+          "Subtipo": "Humano, Mago",
+          "Cor": "G",
+          "Raridade": "Mítica",
+          "Custo": "GG4",
+          "Ataque/Defesa": "4/6",
+          "PA": "2",
+          "Movimento": "2",
+          "Alcance": "1",
+          "Palavras-chave": "—",
+          "Efeito": "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Base de estudos",
+    "differences": {
+      "Efeito": [
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 44",
+        "data": {
+          "Nome": "Versão de campanha — Base de estudos",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Portões da entrada proibida",
+    "differences": {
+      "Efeito": [
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 45",
+        "data": {
+          "Nome": "Versão de campanha — Portões da entrada proibida",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Mercado Ambulante",
+    "differences": {
+      "Efeito": [
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 46",
+        "data": {
+          "Nome": "Versão de campanha — Mercado Ambulante",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Estrada Real",
+    "differences": {
+      "Efeito": [
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 47",
+        "data": {
+          "Nome": "Versão de campanha — Estrada Real",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+    "differences": {
+      "Efeito": [
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 48",
+        "data": {
+          "Nome": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+    "differences": {
+      "Efeito": [
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "01 - Roubo de tumbas.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas."
+        }
+      },
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 49",
+        "data": {
+          "Nome": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+    "differences": {
+      "Efeito": [
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno.",
+        "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+      ]
+    },
+    "entries": [
+      {
+        "file": "02 - Arquivo das marés.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório."
+        }
+      },
+      {
+        "file": "03 - Banquete da horda.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um Goblin seu neste tile recebe +2 de ataque e +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "04 - Cerco das cem lanças.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: até duas criaturas suas neste tile de ataque base 2 ou menor recebem +1 de movimento até o fim do turno."
+        }
+      },
+      {
+        "file": "05 - Oficina de ossos.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto 1/1 sem habilidades, 1 PA, movimento 2 e alcance 1 neste tile."
+        }
+      },
+      {
+        "file": "06 - O trono que não recua.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma criatura sua neste tile recebe +0/+3 até o início do seu próximo turno."
+        }
+      },
+      {
+        "file": "07 - Flechas do horizonte.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: escolha um Arqueiro seu neste tile; ele causa 1 de dano a uma criatura inimiga dentro do alcance atual dele."
+        }
+      },
+      {
+        "file": "08 - O jardim dos pequenos mortos.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua de ataque e defesa base 1/1 neste tile recebe +2/+2 até o fim do turno."
+        }
+      },
+      {
+        "file": "09 - Caravana das correntes.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: um veículo seu neste tile recebe +1 de defesa por passageiro até o fim do turno."
+        }
+      },
+      {
+        "file": "10 - Arsenal das mil feras.txt",
+        "slot": "TERRENO 50",
+        "data": {
+          "Nome": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+          "Tipo": "Terreno",
+          "Subtipo": "—",
+          "Cor": "Incolor",
+          "Raridade": "Mítica",
+          "Custo": "— (colocação de terreno)",
+          "Mana gerada": "Conforme o efeito abaixo.",
+          "Efeito": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: uma ficha sua equipada neste tile recebe +2/+2 até o fim do turno."
+        }
+      }
+    ]
+  }
+]

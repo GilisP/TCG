@@ -1,0 +1,643 @@
+{
+  "approved": true,
+  "decision": "Nomes novos para versões revisadas e terrenos temáticos; preservar efeitos.",
+  "entries": [
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 022",
+      "originalName": "Aprendiz da Marcha de Estuário",
+      "name": "Aprendiz das Marés Reveladoras",
+      "id": "COL001-R001"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 023",
+      "originalName": "Aprendiz da Marcha de Ossadas",
+      "name": "Saqueador das Memórias Feridas",
+      "id": "COL001-R002"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 024",
+      "originalName": "Aprendiz da Ponte de Ossadas",
+      "name": "Acólito da Ponte Profanada",
+      "id": "COL001-R003"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 029",
+      "originalName": "Aprendiz do Pórtico de Estuário",
+      "name": "Aprendiz dos Tomos Recuperados",
+      "id": "COL001-R004"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 030",
+      "originalName": "Aprendiz do Pórtico de Ossadas",
+      "name": "Vampiro das Lembranças Roubadas",
+      "id": "COL001-R005"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 051",
+      "originalName": "Veterano da Escolta de Estuário",
+      "name": "Escriba do Esquecimento Coletivo",
+      "id": "COL001-R006"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 052",
+      "originalName": "Veterano da Marcha de Estuário",
+      "name": "Veterano da Busca Submersa",
+      "id": "COL001-R007"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 055",
+      "originalName": "Veterano da Ponte de Estuário",
+      "name": "Arauto da Incursão Mental",
+      "id": "COL001-R008"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 056",
+      "originalName": "Veterano da Torre de Estuário",
+      "name": "Negociante dos Tomos Perdidos",
+      "id": "COL001-R009"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 057",
+      "originalName": "Veterano da Vigília de Estuário",
+      "name": "Vigia dos Segredos Usurpados",
+      "id": "COL001-R010"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 059",
+      "originalName": "Veterano do Pórtico de Estuário",
+      "name": "Guardião das Relíquias Recuperadas",
+      "id": "COL001-R011"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 064",
+      "originalName": "Veterano da Escolta de Ossadas",
+      "name": "Sacerdote da Memória Devorada",
+      "id": "COL001-R012"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 065",
+      "originalName": "Veterano da Vigília de Ossadas",
+      "name": "Devoto do Dízimo Sombrio",
+      "id": "COL001-R013"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 094",
+      "originalName": "Guardião do Pórtico de Estuário",
+      "name": "Guardião do Último Esquecimento",
+      "id": "COL001-R014"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 44",
+      "originalName": "Versão de campanha — Base de estudos",
+      "name": "Base de estudos do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 45",
+      "originalName": "Versão de campanha — Portões da entrada proibida",
+      "name": "Portões da entrada proibida do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 46",
+      "originalName": "Versão de campanha — Mercado Ambulante",
+      "name": "Mercado Ambulante do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 47",
+      "originalName": "Versão de campanha — Estrada Real",
+      "name": "Estrada Real do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 48",
+      "originalName": "Versão de campanha — Pátio da Guarda de Pedra Cinzenta",
+      "name": "Pátio da Guarda de Pedra Cinzenta do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 49",
+      "originalName": "Versão de campanha — Travessia da Guarda de Pedra Cinzenta",
+      "name": "Travessia da Guarda de Pedra Cinzenta do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "02 - Arquivo das marés.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "id": null
+    },
+    {
+      "file": "03 - Banquete da horda.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta do Banquete Goblin",
+      "id": null
+    },
+    {
+      "file": "04 - Cerco das cem lanças.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta das Cem Lanças",
+      "id": null
+    },
+    {
+      "file": "05 - Oficina de ossos.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta da Oficina de Ossos",
+      "id": null
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta do Trono Imóvel",
+      "id": null
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta das Flechas Distantes",
+      "id": null
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta do Jardim dos Mortos",
+      "id": null
+    },
+    {
+      "file": "09 - Caravana das correntes.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta da Caravana das Correntes",
+      "id": null
+    },
+    {
+      "file": "10 - Arsenal das mil feras.txt",
+      "slot": "TERRENO 50",
+      "originalName": "Versão de campanha — Torreão da Guarda de Pedra Cinzenta",
+      "name": "Torreão da Guarda de Pedra Cinzenta do Arsenal das Feras",
+      "id": null
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 054",
+      "originalName": "Veterano da Patrulha de Estuário",
+      "name": "Veterano da Patrulha do Esquecimento",
+      "id": "COL001-R015"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 095",
+      "originalName": "Senhor das Catacumbas",
+      "name": "Senhor das Catacumbas Despertas",
+      "id": "COL001-R016"
+    },
+    {
+      "file": "01 - Roubo de tumbas.txt",
+      "slot": "CARTA 100",
+      "originalName": "O Rei Que Não Morreu",
+      "name": "Rei das Memórias Sepultadas",
+      "id": "COL001-R017"
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "CARTA 060",
+      "originalName": "Fortaleza de Fronteira",
+      "name": "Fortaleza da Vigília",
+      "id": "COL001-R018"
+    },
+    {
+      "file": "06 - O trono que não recua.txt",
+      "slot": "CARTA 083",
+      "originalName": "Castelo Inabalável",
+      "name": "Castelo da Guarda Eterna",
+      "id": "COL001-R019"
+    },
+    {
+      "file": "07 - Flechas do horizonte.txt",
+      "slot": "CARTA 100",
+      "originalName": "Soberano dos Céus",
+      "name": "Soberano das Correntes Altas",
+      "id": "COL001-R020"
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "CARTA 059",
+      "originalName": "Fortaleza de Fronteira",
+      "name": "Fortaleza da Vigília",
+      "id": "COL001-R018"
+    },
+    {
+      "file": "08 - O jardim dos pequenos mortos.txt",
+      "slot": "CARTA 085",
+      "originalName": "Castelo Inabalável",
+      "name": "Castelo da Guarda Eterna",
+      "id": "COL001-R019"
+    }
+  ]
+}

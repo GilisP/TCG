@@ -1,0 +1,1914 @@
+PROTÓTIPO DE DECK — PARA REVISÃO DO AUTOR
+Nome do deck: Arquivo das marés
+Comandante escolhido: Mago Colecionador de tomos
+Custo do comandante: GGG2
+Efeito do comandante: Pode devolver um Truque ou Feitiço do seu cemitério à mão no começo de cada turno.
+
+Temática confirmada: Spellslinger de controle: alta densidade de Truques e Feitiços, respostas, compra e recuperação; poucas criaturas para defender e aproveitar as magias.
+Principais: 50 comuns / 20 incomuns / 15 raras / 15 míticas.
+Terrenos: 25 comuns / 10 incomuns / 8 raros / 7 míticos (arredondamento editorial).
+Raridades propostas para revisão; comandante fora dessa contagem.
+
+100 CARTAS PRINCIPAIS
+
+CARTA 001
+Nome: Acalmar o Confronto
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura inimiga recebe -2 de ataque até o fim do turno.
+
+CARTA 002
+Nome: Estudante de Marés
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: 1/1
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Sem habilidade adicional.
+
+CARTA 003
+Nome: Estudo da madrugada do Estuário
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 2 cartas e coloque uma carta da mão no fundo do grimório.
+
+CARTA 004
+Nome: Fechar a passagem do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura de custo total até 2 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.
+
+CARTA 005
+Nome: Maré de contenção do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 006
+Nome: Nota de Rodapé
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo.
+
+CARTA 007
+Nome: Nota defensiva do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+2 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 008
+Nome: Névoa sobre o Vau
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura inimiga recebe -1/-0 até o fim do turno. Seu ataque não pode ficar abaixo de 0.
+
+CARTA 009
+Nome: Reordenar o arquivo do Estuário
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque ou Feitiço de custo total até 1 do seu cemitério à mão. Exile esta carta após a resolução.
+
+CARTA 010
+Nome: Retorno às margens do Estuário
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 2 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.
+
+CARTA 011
+Nome: Reverberação escrita do Estuário
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as 3 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.
+
+CARTA 012
+Nome: Revisar a fórmula do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule um Truque ou Feitiço na pilha de custo total até 2.
+
+CARTA 013
+Nome: Aprendiz da Marcha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+CARTA 014
+Nome: Aprendiz da Ponte de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.
+
+CARTA 015
+Nome: Aprendiz da Torre de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.
+
+CARTA 016
+Nome: Aprendiz da Vigília de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 017
+Nome: Aprendiz do Juramento de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode mover outra criatura sua adjacente para este terreno sem gastar PA, respeitando bloqueios.
+
+CARTA 018
+Nome: Aprendiz do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.
+
+CARTA 019
+Nome: Corrigir a Fórmula
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura alvo perde 2 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 020
+Nome: Escudo das Marés
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Reduza em 3 o próximo dano que uma criatura aliada sofreria neste turno.
+
+CARTA 021
+Nome: Estudo da madrugada da Torre Azul
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 2 cartas e coloque uma carta da mão no fundo do grimório.
+
+CARTA 022
+Nome: Fechar a passagem da Torre Azul
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura de custo total até 3 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.
+
+CARTA 023
+Nome: Ler as Correntes
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe três cartas do topo do seu grimório. Ponha uma na mão e as demais no fundo, na ordem escolhida.
+
+CARTA 024
+Nome: Maré Curta
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Mova uma criatura sua até 1 terreno, respeitando bloqueios, sem gastar PA.
+
+CARTA 025
+Nome: Maré de contenção da Torre Azul
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 026
+Nome: Nota defensiva da Torre Azul
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+3 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 027
+Nome: Passagem pela Barca
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Mova uma criatura sua para um terreno seu ortogonalmente adjacente ao dela.
+
+CARTA 028
+Nome: Reordenar o arquivo da Torre Azul
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque ou Feitiço de custo total até 2 do seu cemitério à mão. Exile esta carta após a resolução.
+
+CARTA 029
+Nome: Retorno às margens da Torre Azul
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 3 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.
+
+CARTA 030
+Nome: Reverberação escrita da Torre Azul
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.
+
+CARTA 031
+Nome: Revisar a fórmula da Torre Azul
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G1
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule um Truque ou Feitiço na pilha de custo total até 2.
+
+CARTA 032
+Nome: Abrigo Improvisado
+Tipo: Truque
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+2 até o fim do turno.
+
+CARTA 033
+Nome: Consultar o Mapa
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as três cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+CARTA 034
+Nome: Corrente de Recuo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura inimiga para a mão de seu dono.
+
+CARTA 035
+Nome: Fechar a passagem das Sete Marés
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura de custo total até 4 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.
+
+CARTA 036
+Nome: Maré de contenção das Sete Marés
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 037
+Nome: Nevoeiro do Estuário
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura recebe -3 de ataque até o fim do turno.
+
+CARTA 038
+Nome: Nota defensiva das Sete Marés
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+4 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 039
+Nome: Reordenar o arquivo das Sete Marés
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque ou Feitiço de custo total até 3 do seu cemitério à mão. Exile esta carta após a resolução.
+
+CARTA 040
+Nome: Retorno às margens das Sete Marés
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 4 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.
+
+CARTA 041
+Nome: Reverberação escrita das Sete Marés
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as 5 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.
+
+CARTA 042
+Nome: Revisar a fórmula das Sete Marés
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule um Truque ou Feitiço na pilha de custo total até 3.
+
+CARTA 043
+Nome: Rito da Pedra Vazia
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Comum
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Gere 2 manas incolores.
+
+CARTA 044
+Nome: Tomo de Capa Salgada
+Tipo: Artefato
+Subtipo: Equipamento
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Ao equipar um Mago, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 045
+Nome: Veterano da Escolta de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.
+
+CARTA 046
+Nome: Veterano da Marcha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+CARTA 047
+Nome: Veterano da Ponte de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.
+
+CARTA 048
+Nome: Veterano da Torre de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.
+
+CARTA 049
+Nome: Veterano da Vigília de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.
+
+CARTA 050
+Nome: Veterano do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Comum
+Custo: G2
+Ataque/Defesa: 2/4
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.
+
+CARTA 051
+Nome: Aprendiz da Escolta de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Incomum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.
+
+CARTA 052
+Nome: Aprendiz da Patrulha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Incomum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: 1 PA: uma criatura inimiga adjacente recebe -1 de ataque até o fim do turno. Use apenas uma vez por turno.
+
+CARTA 053
+Nome: Copista de Emergência
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Incomum
+Custo: G1
+Ataque/Defesa: 1/2
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar um Feitiço da sua mão no fundo do grimório. Se fizer isso, compre uma carta.
+
+CARTA 054
+Nome: Consultar os Arquivos
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 2 cartas do seu deck principal.
+
+CARTA 055
+Nome: Estudo da madrugada das Sete Marés
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 3 cartas e coloque uma carta da mão no fundo do grimório.
+
+CARTA 056
+Nome: Bibliotecária do Refluxo
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Incomum
+Custo: GG2
+Ataque/Defesa: 2/4
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode devolver um Truque de custo total até 2 do seu cemitério à mão.
+
+CARTA 057
+Nome: Conserto Demorado
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Cure 4 de dano de uma construção sua.
+
+CARTA 058
+Nome: Devolver ao Arquivo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: GG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura que não seja comandante à mão do dono. Ele pode comprar uma carta.
+
+CARTA 059
+Nome: Fechar a passagem do Grande Arquivo
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura de custo total até 5 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.
+
+CARTA 060
+Nome: Maré de contenção do Grande Arquivo
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 061
+Nome: Medir a Distância
+Tipo: Truque
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +1 de alcance até o fim do turno.
+
+CARTA 062
+Nome: Nota defensiva do Grande Arquivo
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+5 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 063
+Nome: Recuo Cauteloso
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Mova uma criatura sua 1 terreno, respeitando bloqueios, sem gastar PA.
+
+CARTA 064
+Nome: Recuperar Pergaminho
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: GG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque do seu cemitério à sua mão. Exile esta carta após resolver.
+
+CARTA 065
+Nome: Refluxo do Riacho
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: GG2
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo 2 ou menos para a mão de seu dono.
+
+CARTA 066
+Nome: Reordenar o arquivo do Grande Arquivo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque ou Feitiço de custo total até 4 do seu cemitério à mão. Exile esta carta após a resolução.
+
+CARTA 067
+Nome: Retorno às margens do Grande Arquivo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 5 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.
+
+CARTA 068
+Nome: Reverberação escrita do Grande Arquivo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as 6 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.
+
+CARTA 069
+Nome: Revisar a fórmula do Grande Arquivo
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule um Truque ou Feitiço na pilha de custo total até 3.
+
+CARTA 070
+Nome: Vigília Longa
+Tipo: Truque
+Subtipo: —
+Cor: Incolor
+Raridade: Incomum
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua no terreno da sua capital recebe +0/+4 até o fim do turno.
+
+CARTA 071
+Nome: Guardião da Estante
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Rara
+Custo: G2
+Ataque/Defesa: 1/5
+PA: 1
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: A primeira vez em cada turno que você conjurar um Truque, esta criatura recebe +0/+2 até o fim do turno.
+
+CARTA 072
+Nome: Trocar a Bagagem
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Ponha uma carta da mão no fundo do grimório. Se colocou, compre uma carta.
+
+CARTA 073
+Nome: Recontar Provisões
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre uma carta. Cure 1 da sua capital.
+
+CARTA 074
+Nome: Distribuir Escudos
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até duas criaturas suas no mesmo terreno recebem +0/+2 até o fim do turno.
+
+CARTA 075
+Nome: Fechar a passagem da Última Página
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura de custo total até 6 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.
+
+CARTA 076
+Nome: Ferramentas de Reserva
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um equipamento de custo total até 2 do seu cemitério à sua mão.
+
+CARTA 077
+Nome: Maré de contenção da Última Página
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Até 3 criaturas alvo recebem -4 de ataque até o fim do turno, até o mínimo de zero.
+
+CARTA 078
+Nome: Nota defensiva da Última Página
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +0/+6 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.
+
+CARTA 079
+Nome: Onda de Retorno
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: GG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura para a mão de seu dono. O controlador dela compra uma carta.
+
+CARTA 080
+Nome: Reordenar o arquivo da Última Página
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva um Truque ou Feitiço de custo total até 5 do seu cemitério à mão. Exile esta carta após a resolução.
+
+CARTA 081
+Nome: Reparos na Capital
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Cure 4 da sua capital.
+
+CARTA 082
+Nome: Retorno às margens da Última Página
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva uma criatura de custo total até 6 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.
+
+CARTA 083
+Nome: Reunir os Feridos
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Rara
+Custo: 5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Cure 2 de dano de até duas criaturas suas no mesmo terreno.
+
+CARTA 084
+Nome: Reverberação escrita da Última Página
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Olhe as 7 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.
+
+CARTA 085
+Nome: Revisar a fórmula da Última Página
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule um Truque ou Feitiço na pilha de custo total até 4.
+
+CARTA 086
+Nome: Mesa de Tradução
+Tipo: Construção
+Subtipo: Biblioteca
+Cor: G
+Raridade: Mítica
+Custo: G2
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez no seu turno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e compre uma carta.
+
+CARTA 087
+Nome: Armar a Escolta
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: 4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma criatura sua recebe +1/+1 até o fim do turno. Compre uma carta.
+
+CARTA 088
+Nome: Estudo da madrugada do Grande Arquivo
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: G3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 3 cartas e coloque uma carta da mão no fundo do grimório.
+
+CARTA 089
+Nome: Estudo da madrugada da Última Página
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: G4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre 4 cartas e coloque uma carta da mão no fundo do grimório.
+
+CARTA 090
+Nome: Torre de Transmutação
+Tipo: Construção
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GG3
+Ataque/Defesa: 0/4
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Uma vez por turno, ao usar um Feitiço enquanto controla esta construção, pode colocar outro Feitiço da mão no fundo do deck. Se fizer, compre uma carta.
+
+CARTA 091
+Nome: Última Página
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre duas cartas. Depois coloque uma carta da sua mão no fundo do grimório.
+
+CARTA 092
+Nome: Arquivo que se Recorda
+Tipo: Encantamento
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: A primeira vez no seu turno que você conjurar um Feitiço, pode devolver um Truque de custo total até 2 do seu cemitério à mão.
+
+CARTA 093
+Nome: Guardião da Escolta de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.
+
+CARTA 094
+Nome: Guardião da Marcha de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+CARTA 095
+Nome: Guardião da Torre de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.
+
+CARTA 096
+Nome: Guardião do Pórtico de Estuário
+Tipo: Criatura
+Subtipo: Humano, Mago
+Cor: G
+Raridade: Mítica
+Custo: GG4
+Ataque/Defesa: 4/6
+PA: 2
+Movimento: 2
+Alcance: 1
+Palavras-chave: —
+Efeito: Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.
+
+CARTA 097
+Nome: Inventário da Caravana
+Tipo: Feitiço
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: 6
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Compre duas cartas; ponha uma carta da mão no fundo do grimório.
+
+CARTA 098
+Nome: Maré de Retirada
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GGGG3
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Escolha até três criaturas. Mova cada uma em até 2 tiles. Elas não podem se aproximar de uma Capital inimiga durante esse movimento.
+
+CARTA 099
+Nome: Silêncio sobre a Mesa
+Tipo: Truque
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GGG4
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Anule até dois Truques ou Feitiços na pilha.
+
+CARTA 100
+Nome: Maré de Recomeço
+Tipo: Feitiço
+Subtipo: —
+Cor: G
+Raridade: Mítica
+Custo: GGG5
+Ataque/Defesa: —
+PA: —
+Movimento: —
+Alcance: —
+Palavras-chave: —
+Efeito: Devolva até quatro criaturas não comandantes às mãos dos donos.
+
+50 TERRENOS
+
+TERRENO 01
+Nome: Pátio dos Manuscritos
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório.
+
+TERRENO 02
+Nome: Escadaria da Biblioteca Azul
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.
+
+TERRENO 03
+Nome: Arquivo Sob a Ponte
+Tipo: Terreno
+Subtipo: Local
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: 1 Água
+Efeito: Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: um Mago seu neste tile recebe +0/+2 até o fim do turno.
+
+TERRENO 04
+Nome: Academia de Magos
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 Água. Habilidades desencadeadas dos Magos neste terreno desencadeiam uma vez adicional.
+
+TERRENO 05
+Nome: Margens do Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.
+
+TERRENO 06
+Nome: Pátio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 07
+Nome: Travessia da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 08
+Nome: Torreão da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 09
+Nome: Refúgio da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 10
+Nome: Clareira da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 11
+Nome: Terraço da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 12
+Nome: Posto da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 13
+Nome: Santuário da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 14
+Nome: Acampamento da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 15
+Nome: Fortim da Guarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 16
+Nome: Pátio da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 17
+Nome: Travessia da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 18
+Nome: Torreão da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 19
+Nome: Refúgio da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 20
+Nome: Clareira da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 21
+Nome: Terraço da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 22
+Nome: Posto da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 23
+Nome: Santuário da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 24
+Nome: Acampamento da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 25
+Nome: Fortim da Fronteira de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Comum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 26
+Nome: Pátio da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.
+
+TERRENO 27
+Nome: Travessia da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 28
+Nome: Torreão da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 29
+Nome: Refúgio da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 30
+Nome: Clareira da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.
+
+TERRENO 31
+Nome: Terraço da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.
+
+TERRENO 32
+Nome: Posto da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 33
+Nome: Santuário da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 34
+Nome: Acampamento da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.
+
+TERRENO 35
+Nome: Fortim da Retaguarda de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Incomum
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.
+
+TERRENO 36
+Nome: Versão de campanha — Pátio da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 37
+Nome: Versão de campanha — Travessia da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 38
+Nome: Versão de campanha — Torreão da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 39
+Nome: Versão de campanha — Refúgio da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 40
+Nome: Versão de campanha — Clareira da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 41
+Nome: Versão de campanha — Terraço da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 42
+Nome: Versão de campanha — Posto da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 43
+Nome: Versão de campanha — Santuário da Vigília de Estuário
+Tipo: Terreno
+Subtipo: —
+Cor: G
+Raridade: Rara
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 44
+Nome: Base de estudos dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 45
+Nome: Portões da entrada proibida dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 46
+Nome: Mercado Ambulante dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 47
+Nome: Estrada Real dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 48
+Nome: Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 49
+Nome: Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
+
+TERRENO 50
+Nome: Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés
+Tipo: Terreno
+Subtipo: —
+Cor: Incolor
+Raridade: Mítica
+Custo: — (colocação de terreno)
+Mana gerada: Conforme o efeito abaixo.
+Efeito: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.
