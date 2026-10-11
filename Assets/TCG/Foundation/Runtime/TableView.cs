@@ -55,7 +55,7 @@ namespace TCG.Table
         {
 
             SaveFinishedProgress();if(network!=null&&network.Running){networkPage=true;return;}
-            exileOpen=false;if(useSavedDecks) {if(!StartSavedDeckMatch())return;} else match=commanderDemo?ContentLoader.CommanderTable(catalog,effects,players,teams,Environment.TickCount,demoCommanders):medieval?ContentLoader.MedievalTable(catalog,effects,players,teams,Environment.TickCount,firstColor):ContentLoader.TestTable(catalog,effects,players,teams,Environment.TickCount); match.AutomaticResponses=true; match.AutoAdvanceAfterTerrain=true; world.Bind(match); ApplyDeckCosmetics(); match.ResolveInitialEffects(); sessionAvailable=true; selectedCell=selectedUnit=-1; selectedCard=null;
+            exileOpen=false;if(useSavedDecks) {if(!StartSavedDeckMatch())return;} else match=commanderDemo?ContentLoader.CommanderTable(catalog,effects,players,teams,Environment.TickCount,demoCommanders,preferPrecons:true):medieval?ContentLoader.MedievalTable(catalog,effects,players,teams,Environment.TickCount,firstColor):ContentLoader.TestTable(catalog,effects,players,teams,Environment.TickCount); match.AutomaticResponses=true; match.AutoAdvanceAfterTerrain=true; world.Bind(match); ApplyDeckCosmetics(); match.ResolveInitialEffects(); sessionAvailable=true; selectedCell=selectedUnit=-1; selectedCard=null;
 
             reactions=new ReactionChannel(); CloseReactionMenu(); ResetDrag(); handoff=true; menu=false; blockers=null; lastDefense=null; notice="Escolha a compra inicial. A pilha selecionada recebe o terreno comprado.";
 
@@ -378,7 +378,7 @@ namespace TCG.Table
             if(Button(1089,118,76,35,"Vista")) { world.Elevation=world.Elevation>65?57:78; }
 
             world.SelectPile(match.Active,selectedPile);
-            world.Highlight(i=>!handoff&&(match.Phase==Stage.Terrain?match.CanPlace(i):selectedCommander?match.CanSummonCommander(i):selectedCard!=null?match.CanPlay(catalog.Get(selectedCard),i,match.Board[i].Pieces.FirstOrDefault(p=>match.Enemies(match.Controller,p.Owner))?.Id??-1):selectedUnit>=0&&(match.CanMove(selectedUnit,i)||match.CanAttack(selectedUnit,i))));
+            world.Highlight(i=>!handoff&&(match.Phase==Stage.Terrain?match.CanPlace(i):selectedCommander?match.CanSummonCommander(i):selectedCard!=null?(match.CanPlay(catalog.Get(selectedCard),i)||match.Board[i].Pieces.Any(p=>match.CanPlay(catalog.Get(selectedCard),i,p.Id))):selectedUnit>=0&&(match.CanMove(selectedUnit,i)||match.CanAttack(selectedUnit,i))));
 
             for(int i=0;i<121;i++)
 

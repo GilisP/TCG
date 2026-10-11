@@ -89,7 +89,12 @@ namespace TCG.Table
             else if(selectedCard!=null)
             {
                 var def=catalog.Get(selectedCard);var enemy=target.Pieces.FirstOrDefault(p=>p.Id==hitPiece&&match.Enemies(match.Controller,p.Owner))??target.Pieces.FirstOrDefault(p=>p.Id==selectedUnit&&match.Enemies(match.Controller,p.Owner))??target.Pieces.FirstOrDefault(p=>match.Enemies(match.Controller,p.Owner));
-                if(def.Permanent)Submit(ActionKind.Play,index,card:selectedCard);
+                if(def.Kind==CardType.Enchantment&&!match.CanPlay(def,index))
+                {
+                    var host=target.Pieces.FirstOrDefault(p=>p.Id==hitPiece&&match.CanPlay(def,index,p.Id))??target.Pieces.FirstOrDefault(p=>match.CanPlay(def,index,p.Id));
+                    if(host!=null)Submit(ActionKind.Play,index,host.Id,selectedCard);else notice="Selecione um alvo válido para o encantamento.";
+                }
+                else if(def.Permanent)Submit(ActionKind.Play,index,card:selectedCard);
                 else if(hitPiece>=0||target.Pieces.Count(p=>match.Enemies(match.Controller,p.Owner))<=1)Submit(ActionKind.Play,index,enemy?.Id??-1,selectedCard);
                 else{selectedCell=index;notice="Selecione a criatura desejada na lista de alvos.";}
             }

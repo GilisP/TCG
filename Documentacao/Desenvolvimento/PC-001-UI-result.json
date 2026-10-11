@@ -1,0 +1,35 @@
+{
+  "hooks": [
+    "FoundationSetup deve chamar TCG.Foundation.Editor.PreconstructedDeckChecks.Run"
+  ],
+  "status": "written-nine-ready-awaiting-coordinator-validation-and-R016-answer",
+  "verification": [
+    "Inspeção estática",
+    "PreconstructedDeckChecks.Run atualizado para9/10ready, importbloqueado semmutação e corrupçãoestrutural fatal; nãoexecutado pelo especialista"
+  ],
+  "limitations": [
+    "Nenhum Unity/build/Git executado pelo especialista",
+    "Sem diagnóstico visual runtime próprio; lista detalhada mostra nomes, IDs e zonas",
+    "Preset experimental online índice0 preservado; precons temporários não modificam perfil"
+  ],
+  "summary": "Todas dez listas preservadas; estrutura e identidade permanecem fatais; disponibilidade conhecida gera bloqueio explícito, visualização permitida, importação/seleção/demos filtram Ready. Até resposta R016: nove prontas e uma bloqueada.",
+  "files": [
+    "Assets/TCG/Foundation/Core/PreconstructedDecks.cs",
+    "Assets/TCG/Foundation/Runtime/PreconstructedDeckUI.cs",
+    "Assets/TCG/Foundation/Runtime/CollectionUI.cs",
+    "Assets/TCG/Foundation/Runtime/HubUI.cs",
+    "Assets/TCG/Foundation/Runtime/NetworkUI.cs",
+    "Assets/TCG/Foundation/Runtime/ContentLoader.cs",
+    "Assets/TCG/Foundation/Editor/PreconstructedDeckChecks.cs"
+  ],
+  "dependencies": [
+    "StreamingAssets/Decks/official-precons.json version1 com 10 ids COL001-D01..D10",
+    "Catálogo completo com cartas jogáveis e comandante de cada lista",
+    "Coordenador compila e valida Unity, seleção visual e rede"
+  ],
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "PC-001-I-result.json",
+    "allPreconsReady": 10
+  }
+}

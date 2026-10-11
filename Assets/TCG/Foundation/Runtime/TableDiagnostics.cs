@@ -30,7 +30,8 @@ namespace TCG.Table
 
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
 
-            if(Environment.GetCommandLineArgs().Contains("-tcg-commander-hud-verify")) StartCoroutine(VerifyCommanderHud());
+            if(Environment.GetCommandLineArgs().Contains("-tcg-precons-verify")) StartCoroutine(VerifyPrecons());
+            else if(Environment.GetCommandLineArgs().Contains("-tcg-commander-hud-verify")) StartCoroutine(VerifyCommanderHud());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-net-role")) StartCoroutine(VerifyNetwork());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-planned-decks-verify")) StartCoroutine(VerifyPlannedDecks());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-pile-verify")) StartCoroutine(VerifyPiles());

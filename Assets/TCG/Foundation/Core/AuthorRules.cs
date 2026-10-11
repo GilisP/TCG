@@ -68,6 +68,7 @@ namespace TCG.Foundation
         }
         void AuthorPlayed(int owner,Definition card)
         {
+            PreconLibraryPlayed(owner,card);
             if(card.Kind==CardType.Instant)foreach(var p in All.Where(p=>p.Owner==owner).ToArray())AbilityEvent(p,"instant");
             if(card.Kind!=CardType.Spell)return;
             foreach(var q in All.Where(q=>q.Owner==owner&&AuthorHas(q,"transmute")&&q.OnceTurn!=Turn).ToArray()) {Trigger(q,"transmute");}

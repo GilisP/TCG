@@ -1,0 +1,53 @@
+{
+  "summary": "Tradutor por texto completo e módulo autoral para14 AUTOR e20 revisões. R016 resolvida pela decisão humana e reanima no terreno atual do Senhor das Catacumbas.",
+  "files": [
+    "Tools/precon_author_rules.py",
+    "Assets/TCG/Foundation/Core/PreconAuthorRules.cs",
+    "Assets/TCG/Foundation/Core/PreconAuthorRules.cs.meta",
+    "Assets/TCG/Foundation/Editor/PreconAuthorChecks.cs",
+    "Assets/TCG/Foundation/Editor/PreconAuthorChecks.cs.meta"
+  ],
+  "verification": [
+    "Inspeção estática; cinco CS0126 apontados pelo coordenador corrigidos",
+    "PreconAuthorChecks.Run escrito; não executado pelo especialista",
+    "Nenhum Unity/build/Git executado pelo especialista"
+  ],
+  "hooks": [
+    "Schema Operations/Conditions/Triggers/Targets/Traits",
+    "ResolvePreconAuthorOp(Pending,CardAbility,Piece,AbilityOp,int,Action)",
+    "PreconAuthorCondition/Target/Bonus/EnchantmentPlacement",
+    "PreconAuthorEntered/Died/Turn/EndTurn/Moved/TerrainPlaced/Attacked",
+    "PreconAuthorMoveBlocked(Piece,int) em caminhos e deslocamentos",
+    "PreconAuthorCanCrossPieces(Piece) em passagem por criaturas",
+    "PreconAuthorCombatDamage(Piece source,Piece victim,int amount) uma vez em AfterDamage inclusive combate",
+    "PreconAuthorExileVisible(Definition,int viewer) em projeção de exílio",
+    "PreconAuthorRevealExile(Definition) ao anunciar conjuração de exílio",
+    "UseAbility captura cost.Attack+cost.Defense antes do sacrifício em Pending.Amount para R012",
+    "OnDeath killer precisa dono do efeito em mortes por redução de defesa identificável",
+    "FoundationSetup chama PreconAuthorChecks.Run"
+  ],
+  "status": "written-all-author-and-revisions-awaiting-coordinator-validation",
+  "blockers": [],
+  "testsWritten": [
+    "14 definições autorais e schema",
+    "Peek privado/crab adjacência/swap combate e anexos",
+    "Marca colocação/dano e parada de ondas/Jonas PA e tile",
+    "Ciri/exumar/documento/fábrica/sinfonia/persuasão/reino",
+    "R008 damage mill/R012 snapshot/R010 secret exile/R003 killer/R007 topo/R017 outras",
+    "R016 source/dead/different/own/notown/cost2/cost3/optional/once/originalOwner/missingSource/no alternative tile"
+  ],
+  "decisions": [
+    "Horror usa SpawnMission existente;1PA,movimento2;controlador escolhe capital;conta toda morte de criatura inclusive token",
+    "Documento snapshot do atributo atual no início do turno, sem compor próprio bônus anterior",
+    "Reino mortos usa CommitKill no final para devolver ao grave, inclusive indestrutível",
+    "R009 recupera carta de qualquer cemitério, pois texto não restringe ao próprio; preserva dono original",
+    "R010 permissão sem expiração pois texto não estabelece prazo; face do exílio visível apenas ao conjurador até anúncio",
+    "Refinar troca IDs reciprocamente nas participações, preserva danos e acompanha anexos",
+    "Decisão explícita do usuário para R016: \"No terreno do Senhor das Catacumbas\". Outr​​a criatura própria morre, uma vez por turno, escolha opcional de outra criatura própria do cemitério custo<=2; perde2vida e retorna no terreno atual da fonte ainda em campo, com terreno disponível. Preserva dono original/Enter/Visual/PCLGraveLeave."
+  ],
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "PC-001-I-result.json",
+    "allPreconsReady": 10
+  }
+}

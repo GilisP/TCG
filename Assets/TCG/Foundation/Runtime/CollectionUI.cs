@@ -35,6 +35,7 @@ namespace TCG.Table
         string CardName(string id){try{return catalog.Get(catalog.Identity(id)).Name;}catch{return "Carta ausente: "+id;}}
         void DrawLibrary()
         {
+            if(preconsOpen){DrawPreconstructedDecks();return;}
             if(plannedDecksOpen){DrawPlannedDecks();return;}
             GUI.enabled=GUI.enabled&&inspected==null&&!filtersOpen;
             
@@ -43,7 +44,8 @@ namespace TCG.Table
             if(Button(35,141,240,37,"Novo deck padrão"))NewDraft();
             if(Button(35,185,240,37,"Novo deck experimental"))NewDraft(true);
             if(Button(35,231,240,49,"Decks planejados · 29"))plannedDecksOpen=true;
-            deckListScroll=GUI.BeginScrollView(new Rect(28,302,250,425),deckListScroll,new Rect(0,0,230,Math.Max(415,library.Data.decks.Count*52)));
+            if(Button(35,286,240,49,"Precons · 10"))preconsOpen=true;
+            deckListScroll=GUI.BeginScrollView(new Rect(28,346,250,381),deckListScroll,new Rect(0,0,230,Math.Max(371,library.Data.decks.Count*52)));
             for(int i=0;i<library.Data.decks.Count;i++){var d=library.Data.decks[i];if(Button(0,i*52,225,46,d.name,true,draft?.id==d.id)){draft=d.Copy();SelectDeckSection(false);libraryMessage="Deck aberto. Alterações só são persistidas ao salvar.";}}
             GUI.EndScrollView();
             Text(35,742,240,92,library.Data.owned.Count+" cartas na coleção\nAdquira novas cartas com moedas na Loja. Decks e coleção ficam salvos ao fechar o jogo.",small,Muted);
@@ -98,22 +100,22 @@ namespace TCG.Table
         }
         bool StartSavedDeckMatch()
         {
-            var selected=Enumerable.Range(0,players).Select(p=>library.Data.decks.FirstOrDefault(d=>d.id==seatDecks[p])).ToArray();
-            var errors=selected.SelectMany((d,i)=>library.Validate(d,true).Select(e=>"Jogador "+(i+1)+": "+e)).ToArray();
+            var choices=TableDeckChoices();var selected=Enumerable.Range(0,players).Select(p=>choices.FirstOrDefault(d=>d.id==seatDecks[p])).ToArray();
+            var errors=selected.SelectMany((d,i)=>ValidateTableDeck(d).Select(e=>"Jogador "+(i+1)+": "+e)).ToArray();
             if(errors.Length>0){libraryMessage=string.Join("\n",errors.Take(5));OpenLibrary();return false;}
             match=new Match(catalog,effects,players,teams,Environment.TickCount,selected.Select(d=>d.main.ToArray()).ToArray(),selected.Select(d=>d.terrains.ToArray()).ToArray(),selected.Select(d=>d.commander).ToArray());return true;
         }
         void DrawSavedDeckSetup()
         {
             Fill(new Rect(45,280,990,645),Panel);Text(75,310,910,45,"DECKS DA MESA",heading,Gold);
-            Text(75,368,910,57,"Cada jogador escolhe um deck salvo. Vocês compartilham a coleção deste computador.",body,Muted);
-            for(int p=0;p<players;p++)
+            Text(75,368,910,57,"Cada assento escolhe um deck salvo, precon ou planejado. As listas temporárias não alteram a coleção.",body,Muted);
+            var choices=TableDeckChoices();for(int p=0;p<players;p++)
             {
                 float x=75+(p%2)*465,y=462+(p/2)*153;
-                var current=library.Data.decks.FirstOrDefault(d=>d.id==seatDecks[p]);
+                var current=choices.FirstOrDefault(d=>d.id==seatDecks[p]);
                 Text(x,y,430,35,new[]{"Âmbar","Jade","Safira","Rubi"}[p],heading,TableWorld.Seats[p]);
-                if(Button(x,y+48,435,60,current?.name??"Escolher deck",library.Data.decks.Count>0))
-                {int index=library.Data.decks.FindIndex(d=>d.id==seatDecks[p]);seatDecks[p]=library.Data.decks[(index+1)%library.Data.decks.Count].id;}
+                if(Button(x,y+48,435,60,TableDeckLabel(current),choices.Count>0))
+                {int index=choices.FindIndex(d=>d.id==seatDecks[p]);seatDecks[p]=choices[(index+1)%choices.Count].id;}
             }
             if(Button(75,828,900,56,"Criar ou editar um deck"))OpenLibrary();
         }

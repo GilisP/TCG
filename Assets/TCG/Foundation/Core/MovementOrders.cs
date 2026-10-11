@@ -49,6 +49,42 @@ namespace TCG.Foundation
             }
             return Array.Empty<int>();
         }
+        // A snapshot needs every destination for each piece. The first-discovery parents
+        // of a complete BFS match the target-specific search, including its tie order.
+        internal int[][] MovementRoutesForProjection(int id)
+        {
+            var routes=Enumerable.Range(0,121).Select(_=>Array.Empty<int>()).ToArray();
+            var p=Find(id);if(p==null)return routes;
+            int start=Position(id);
+            var traversable=new bool[121];
+            for(int at=0;at<121;at++)traversable[at]=!Blocked(p,at)&&!Enemies(p.Owner,cells[at].CapitalOwner)
+                &&!cells[at].pieces.Any(q=>q.Card.Kind!=CardType.Equipment&&Enemies(p.Owner,q.Owner));
+            int[] Parents(bool allowHoles)
+            {
+                var parent=Enumerable.Repeat(-2,121).ToArray();parent[start]=-1;
+                var pending=new Queue<int>();pending.Enqueue(start);
+                while(pending.Count>0)
+                {
+                    int at=pending.Dequeue();
+                    foreach(int next in MovementNeighbors(p,at))
+                    {
+                        if(parent[next]!=-2||(!allowHoles&&cells[next].Terrain==null)||!traversable[next])continue;
+                        parent[next]=at;pending.Enqueue(next);
+                    }
+                }
+                return parent;
+            }
+            var ground=Parents(false);var holes=Parents(true);
+            for(int target=0;target<121;target++)
+            {
+                if(target==start)continue;
+                var parent=ground[target]!=-2?ground:holes;
+                if(parent[target]==-2)continue;
+                var path=new List<int>();for(int n=target;n!=start;n=parent[n])path.Add(n);
+                path.Reverse();routes[target]=path.ToArray();
+            }
+            return routes;
+        }
         void PlanMovement(int id,int target)
         {
             Check(CanOrderMovement(id),"Selecione uma criatura sua durante seu turno, sem escolhas ou pilha pendentes.");
@@ -101,4 +137,3 @@ namespace TCG.Foundation
         }
     }
 }
-

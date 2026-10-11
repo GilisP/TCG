@@ -1,0 +1,36 @@
+{
+  "taskId": "PC-001-N",
+  "status": "needs-integration",
+  "summary": "ViewFor calcula elegibilidade de mover/atacar uma vez por peça e elegibilidade de jogar uma vez por carta. APIs públicas reutilizam os mesmos predicados de estado/alvo. Origem, movimento e alcance são consultas por peça; nenhuma cache atravessa projeções. Overloads MovePath/InRange compartilhados preservam regras e sua API original. Lote BFS anterior permanece.",
+  "filesChanged": [
+    "Assets/TCG/Foundation/Core/Match.cs",
+    "Assets/TCG/Foundation/Core/NetworkView.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Editor/ActionProjectionChecks.cs",
+    "Assets/TCG/Foundation/Editor/ActionProjectionChecks.cs.meta",
+    "Documentacao/Desenvolvimento/PC-001-N-result.json"
+  ],
+  "checksPerformed": [
+    "Inspeção de CanMove/CanAttack/CanPlay e custos derivados de AbilityBonus/ActionAura/PreconNoAttack/AbilityResponse; identificada repetição de elegibilidade 121 vezes por peça/carta.",
+    "Extraídos helpers compartilhados CanMoveState/CanMoveTarget, CanAttackState/CanAttackTarget e CanPlayState/CanPlayTarget. Ordem dos gates e filtros de alvo preservada.",
+    "Novo ActionProjectionChecks.Run compara legalidade projetada para todos121 terrenos e alvos ocupantes com APIs públicas e predicados de estado capturados antes da refatoração, usando consultas inferiores de regra como oráculo.",
+    "Fixtures em memória2/4 jogadores cobrem Draw/Terrain/Main/End, stack, choice, auras de movimento/PA/alcance, noAttack de precon, equipamento, encantamento global, instants, test-counter, falta de mana, mão privada e mudanças de aura/mana sem aumento de revisão.",
+    "Asserções verificam ausência de mutação e de cache por revisão. Marcador ACTION PROJECTION CHECKS PASSED: N.",
+    "Escrita encerrada após revisão estática. Unity/compilação/testes/Git não executados pelo especialista."
+  ],
+  "blockers": [
+    "Coordenador deve registrar ActionProjectionChecks.Run, compilar, executar suítes e repetir LAN normal com métricas de tempo."
+  ],
+  "assumptions": [
+    "Escopo ampliado pelo coordenador para MedievalRules.cs somente overloads MovePath/InRange; nenhum outro método foi modificado.",
+    "Consultas de elegibilidade/derivadas não alteram estado entre os alvos da mesma ViewFor.",
+    "MovementProjectionChecks anterior não foi editado; lote de rotas permanece entregue e foi validado pelo coordenador antes desta etapa.",
+    "Diagnóstico de segunda desconexão pendente e correções NetworkSession são entregas anteriores; Runtime pertence ao coordenador nesta etapa.",
+    "Execução/performance ainda precisam de evidência integrada; revisão estática não comprova desempenho em LAN/Relay."
+  ],
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "PC-001-I-result.json",
+    "allPreconsReady": 10
+  }
+}

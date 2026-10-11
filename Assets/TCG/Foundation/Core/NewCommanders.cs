@@ -142,22 +142,34 @@ namespace TCG.Foundation
   void QueueForeignCast(int owner,int original,Definition card,bool exileAfter,Action commit)
   {
    void Cast(int at,int unit){
-    void Announce(Piece sacrifice){commit();stack.Add(new Pending{Owner=owner,CardOwner=original,Card=card,Target=at,TargetUnit=unit,ExileAfter=exileAfter});passes=0;var pending=stack.Last();if(sacrifice!=null)CommitKill(sacrifice);ReflectDeclaredTarget(pending);AuthorPlayed(owner,card);Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));}
+    void Announce(Piece sacrifice)
+    {
+     var pending=new Pending{Owner=owner,CardOwner=original,Card=card,Target=at,TargetUnit=unit,ExileAfter=exileAfter,Subject=sacrifice};
+     void Commit()
+     {
+      commit();stack.Add(pending);passes=0;
+      if(sacrifice!=null)SacrificePiece(sacrifice);
+      ReflectDeclaredTarget(pending);PreconLibraryForeignPlayed(owner,original,card);AuthorPlayed(owner,card);
+      Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));
+     }
+     if(!PreconUnitDeclare(pending,Commit))Commit();
+    }
     var extra=card.Abilities.FirstOrDefault(a=>a.trigger=="cast"&&a.sacrifice!="");if(extra!=null)PayAbilitySacrifice(extra,owner,null,Announce);else Announce(null);
    }
-   if(card.Kind==CardType.Enchantment)Ask(owner,"Criatura para encantar",All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(card,p,owner)&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
-   else if(card.Permanent)Ask(owner,"Terreno para a carta exilada",Enumerable.Range(0,121).Where(at=>cells[at].Terrain!=null&&cells[at].Owner==owner).Select(at=>new ChoiceOption(at,"Tile "+at%11+","+at/11)),at=>Cast(at,-1));
+   if(card.Kind==CardType.Enchantment&&PreconEnchantmentPlacement(card,owner,-1,-1)==null)Ask(owner,"Criatura para encantar",All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(card,p,owner)&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
+   else if(card.Permanent)Ask(owner,"Terreno para a carta exilada",Enumerable.Range(0,121).Where(at=>card.Kind==CardType.Enchantment?PreconEnchantmentPlacement(card,owner,at,-1)==true:cells[at].Terrain!=null&&cells[at].Owner==owner).Select(at=>new ChoiceOption(at,"Tile "+at%11+","+at/11)),at=>Cast(at,-1));
    else if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy))Ask(owner,"Alvo da magia",All.Where(p=>Enemies(owner,p.Owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
    else Cast(-1,-1);
   }
   public bool CanCastExiled(int id)
   {if(IsRemoteView)return NetCan("exile",id);
    var x=exilePermissions.FirstOrDefault(p=>p.Id==id&&p.Owner==Priority);
-   if(x==null||Over||Choice!=null||Defense!=null||!x.Card.Playable||x.Card.Rule=="destiny")return false;
+   if(x==null||!PreconLibraryPermissionValid(id)||Over||Choice!=null||Defense!=null||!x.Card.Playable||x.Card.Rule=="destiny")return false;
    if(x.Card.Kind==CardType.Instant&&!ResponseTargets(x.Card,Priority)||x.Card.Rule=="abilities"&&!AbilityResponse(x.Card,Priority))return false;
    if(x.Card.Kind!=CardType.Instant&&(Phase!=Stage.Main||Priority!=Active||stack.Count>0))return false;
    if(x.Card.Kind==CardType.Instant&&Phase!=Stage.Main&&Phase!=Stage.End&&stack.Count==0)return false;
    if(!(x.AnyMana?seats[Priority].mana.Sum()>=x.Card.TotalCost:CanPay(Priority,x.Card)))return false;
+   if(x.Card.Kind==CardType.Enchantment&&PreconEnchantmentPlacement(x.Card,Priority,-1,-1)!=null)return Enumerable.Range(0,121).Any(at=>PreconEnchantmentPlacement(x.Card,Priority,at,-1)==true);
    if(x.Card.Kind==CardType.Enchantment)return All.Any(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(x.Card,p,Priority)&&!Immune(p,Priority));
    if(x.Card.Permanent)return cells.Any(c=>c.Terrain!=null&&c.Owner==Priority);
    return !x.Card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(Priority,p.Owner));
@@ -165,7 +177,7 @@ namespace TCG.Foundation
   void CastExiled(int id)
   {
    Check(CanCastExiled(id),"Carta exilada indisponível.");var x=exilePermissions.First(p=>p.Id==id);
-   QueueForeignCast(x.Owner,x.CardOwner,x.Card,false,()=>{if(x.AnyMana)SpendGeneric(x.Owner,x.Card.TotalCost);else Pay(x.Owner,x.Card);seats[x.CardOwner].exile.Remove(x.Card);exilePermissions.Remove(x);});
+   PreconAuthorRevealExile(x.Card);QueueForeignCast(x.Owner,x.CardOwner,x.Card,false,()=>{if(x.AnyMana)SpendGeneric(x.Owner,x.Card.TotalCost);else Pay(x.Owner,x.Card);seats[x.CardOwner].exile.Remove(x.Card);exilePermissions.Remove(x);});
   }
   internal void MillCards(int owner,int count)
   {

@@ -2,7 +2,10 @@
 Unknown mechanics remain explicitly unavailable; never silently turn text into vanilla.
 """
 from pathlib import Path
-import json,re,hashlib,collections,unicodedata
+import json,re,hashlib,collections,unicodedata,copy,sys
+from precon_author_rules import compile_card as compile_author
+from precon_library_rules import compile_card as compile_library
+from precon_unit_rules import compile_card as compile_unit
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/'Documentacao/Design/COL-001-20261009'
 DEST=ROOT/'Assets/StreamingAssets'
@@ -54,14 +57,27 @@ def convert(d,id):
  def num(key,default):m=re.match(r'\d+',d.get(key,''));return int(m[0]) if m else default
  c=dict(id=id,name=d['Nome'],kind=kind,text=txt,rarity=d['Raridade'],color=colors[0] if colors else 6,identityColors=colors,coloredCost=colored,cost=cost,attack=int(stats[1]) if stats else 0,defense=max(1,int(stats[2])) if stats else 1,actions=num('PA',1),movement=num('Movimento',2),range=num('Alcance',1),equipCost=1,subtypes=[x.strip() for x in sub.split(',') if x.strip() and x.strip()!='—'],effects=[],abilities=[],traits=[],keywords=[],rule='',maxCopies=1,commander=False,art='soldier')
  if not c['subtypes'] and kind=='Creature':c['subtypes']=['Criatura']
- if 'voar' in norm(d.get('Palavras-chave','')):c['keywords']=['flying']
+ if any(k in norm(d.get('Palavras-chave','')) for k in ('voar','flying')):c['keywords']=['flying']
+ if 'indestrutivel' in norm(d.get('Palavras-chave','')):c['traits'].append('indestructible')
+ if 'diagonal' in norm(d.get('Movimento','')):c['traits'].append('pca-diagonal-only')
+ if kind=='Terrain':
+  generated=norm(txt.split('.')[0]);names=['sol','lua','agua','fogo','ar','terra']
+  if 'incolor' in generated:c['color']=6
+  elif 'aleatoria' in generated:c['traits'].append('precon-random-mana')
+  else:
+   for ix,name in enumerate(names):
+    if re.search(r'\b'+name+r'\b',generated):c['color']=ix;break
  if 'veiculo' in norm(sub):
   seats=re.search(r'(\d+) vagas?',txt);crew=re.search(r'exige (\d+) tripulante',txt)
   if seats and crew:c.update(vehicleSeats=int(seats[1]),vehicleCrew=int(crew[1]))
- if kind=='Terrain':c.update(attack=0,actions=0,movement=0)
+ if kind=='Terrain':c.update(attack=0,actions=0,movement=0,maxCopies=50 if '50 cópias' in txt else 1)
  c['abilities'],supported=compile_rules(d,c)
+ if not supported:
+  for compiler in (compile_author,compile_library,compile_unit):
+   candidate=copy.deepcopy(c)
+   if compiler(d,candidate):c=candidate;supported=True;break
  if c['abilities'] or kind in ['Spell','Instant']:c['rule']='abilities'
- if not supported:c['unavailableReason']='COL-001: efeito aprovado; implementação e teste específicos pendentes.'
+ if not supported:c['unavailableReason']='COL-001: falta confirmar em qual terreno a criatura reanimada aparece.' if id=='COL001-R016' else 'COL-001: efeito aprovado; implementação e teste específicos pendentes.'
  return c,supported
 
 source=json.loads((SRC/'origem-e-composicao.json').read_text(encoding='utf-8'))
@@ -102,3 +118,11 @@ manifest=dict(version=1,id='COL-001',title='Coleção Oficial 01',approvalDate='
 (SRC/'implementation-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2),encoding='utf-8')
 (SRC/'source-hashes.json').write_text(json.dumps(hashes,indent=2),encoding='utf-8')
 print(json.dumps(dict(decks=len(decks),newDefinitions=len(new),ready=sum(x['implemented'] for x in audit),pending=sum(not x['implemented'] for x in audit))))
+
+if '--publish' in sys.argv:
+ pending=[c['id'] for c in new.values() if c.get('unavailableReason')]
+ if pending not in ([],['COL001-R016']):raise RuntimeError('Refusing to publish unimplemented mechanics: '+repr(pending))
+ pack['status']='implemented'
+ (DEST/'Expansions/official-collection-001.json').write_text(json.dumps(pack,ensure_ascii=False,indent=2),encoding='utf-8')
+ (DEST/'Decks/official-precons.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+ print('Published approved definitions; explicit disabled cards: '+repr(pending))

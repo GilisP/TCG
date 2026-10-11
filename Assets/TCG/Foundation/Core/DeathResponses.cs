@@ -32,6 +32,6 @@ namespace TCG.Foundation
             });
         }
         bool PortalLink(int from,int to)=>from!=to&&TerrainRule(from,"portals")&&TerrainRule(to,"portals");
-        IEnumerable<int> MovementNeighbors(Piece p,int from)=>Neighbors(from).Concat(TerrainRule(from,"portals")?Enumerable.Range(0,121).Where(n=>PortalLink(from,n)):Enumerable.Empty<int>()).Distinct();
+        IEnumerable<int> MovementNeighbors(Piece p,int from)=>(Has(p,"pca-diagonal-only")?Enumerable.Range(0,121).Where(n=>Math.Abs(n%11-from%11)==1&&Math.Abs(n/11-from/11)==1):Neighbors(from)).Concat(TerrainRule(from,"portals")?Enumerable.Range(0,121).Where(n=>PortalLink(from,n)):Enumerable.Empty<int>()).Distinct();
     }
 }

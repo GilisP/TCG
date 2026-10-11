@@ -1,0 +1,2107 @@
+[
+  {
+    "text": "#pa: olhe a carta do topo do grimorio alvo.",
+    "cards": [
+      "AUTOR-20261007-CARTA-001"
+    ]
+  },
+  {
+    "text": "sempre que um terreno é colocado em # tile de distancia do caranquejo de estimação os oponentes trituram # carta.",
+    "cards": [
+      "AUTOR-20261007-CARTA-002"
+    ]
+  },
+  {
+    "text": "troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla",
+    "cards": [
+      "AUTOR-20261007-CARTA-003"
+    ]
+  },
+  {
+    "text": "#pa: marque um tile caso o conquiste este turno compre duas cartas",
+    "cards": [
+      "AUTOR-20261007-CARTA-004"
+    ]
+  },
+  {
+    "text": "o jogador alvo tritura cinco cartas.",
+    "cards": [
+      "AUTOR-20261007-CARTA-005"
+    ]
+  },
+  {
+    "text": "escolha um tile. empurre dois tiles para longe tudo que esteja no caminho. caso no tile exato toma # de dano",
+    "cards": [
+      "AUTOR-20261007-CARTA-006"
+    ]
+  },
+  {
+    "text": "tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. #pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno",
+    "cards": [
+      "AUTOR-20261007-CARTA-007"
+    ]
+  },
+  {
+    "text": "#pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura # cartas.",
+    "cards": [
+      "AUTOR-20261007-CARTA-008"
+    ]
+  },
+  {
+    "text": "equip #: a criatura equipada tem ou o dobro de defesa ou de ataque escolhido ao acaso todo turno",
+    "cards": [
+      "AUTOR-20261007-CARTA-009"
+    ]
+  },
+  {
+    "text": "ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a # marcadores.",
+    "cards": [
+      "AUTOR-20261007-CARTA-010"
+    ]
+  },
+  {
+    "text": "toda criatura em seu cemiterio tem \"Exumar #: pague uma mana incolor e exile esse card. compre um card\"",
+    "cards": [
+      "AUTOR-20261007-CARTA-011"
+    ]
+  },
+  {
+    "text": "o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura.",
+    "cards": [
+      "AUTOR-20261007-CARTA-012"
+    ]
+  },
+  {
+    "text": "de alvo numa criatura inimiga até # tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo",
+    "cards": [
+      "AUTOR-20261007-CARTA-013"
+    ]
+  },
+  {
+    "text": "O jogador alvo tritura # cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+    "cards": [
+      "ED261008-D01-F05-1",
+      "ED261008-D01-F06-1",
+      "ED261008-D01-F05-2",
+      "ED261008-D01-F06-2",
+      "ED261008-D01-F05-3",
+      "ED261008-D01-F06-3",
+      "ED261008-D01-F05-4",
+      "ED261008-D01-F06-4",
+      "ED261008-D01-F05-5",
+      "ED261008-D01-F06-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: o jogador alvo tritura # cartas.",
+    "cards": [
+      "ED261008-D01-F01-1",
+      "ED261008-D01-F01-2",
+      "ED261008-D01-F01-3",
+      "ED261008-D01-F01-4",
+      "ED261008-D01-F01-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, um oponente alvo tritura # cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha # de vida.",
+    "cards": [
+      "ED261008-D01-F02-1",
+      "ED261008-D01-F02-2",
+      "ED261008-D01-F02-3",
+      "ED261008-D01-F02-4",
+      "ED261008-D01-F02-5"
+    ]
+  },
+  {
+    "text": "Ao causar dano de combate a uma capital, olhe as # cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.",
+    "cards": [
+      "ED261008-D01-F03-1",
+      "ED261008-D01-F03-2",
+      "ED261008-D01-F03-3",
+      "ED261008-D01-F03-4",
+      "ED261008-D01-F03-5"
+    ]
+  },
+  {
+    "text": "O oponente alvo tritura # cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.",
+    "cards": [
+      "ED261008-D01-F07-1",
+      "ED261008-D01-F07-2",
+      "ED261008-D01-F07-3",
+      "ED261008-D01-F07-4",
+      "ED261008-D01-F07-5"
+    ]
+  },
+  {
+    "text": "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+    "cards": [
+      "COL001-R001"
+    ]
+  },
+  {
+    "text": "Ao causar dano de combate à uma criatura inimiga, coloque # cartas do topo do grimório daquele jogador no cemitério dele.",
+    "cards": [
+      "COL001-R002"
+    ]
+  },
+  {
+    "text": "Ao morrer, o dono do efeito que a matou tritura #.",
+    "cards": [
+      "COL001-R003"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: olhe a carta do topo do seu grimório. Você pode colocá-la no seu cemitério.",
+    "cards": [
+      "ED261007-01-C001"
+    ]
+  },
+  {
+    "text": "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório.",
+    "cards": [
+      "COL001-R004"
+    ]
+  },
+  {
+    "text": "Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card.",
+    "cards": [
+      "COL001-R005"
+    ]
+  },
+  {
+    "text": "Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +#/+#.",
+    "cards": [
+      "ED261007-01-C005"
+    ]
+  },
+  {
+    "text": "Olhe as duas cartas do topo do grimório do jogador alvo. Coloque uma no cemitério dele e devolva a outra ao topo.",
+    "cards": [
+      "ED261007-01-C007"
+    ]
+  },
+  {
+    "text": "Exile uma carta não terreno de custo total até # de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.",
+    "cards": [
+      "ED261008-D01-F08-1",
+      "ED261008-D01-F08-2",
+      "ED261008-D01-F08-3",
+      "ED261008-D01-F08-4",
+      "ED261008-D01-F08-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, exile uma carta não terreno de custo total até # de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.",
+    "cards": [
+      "ED261008-D01-F04-2",
+      "ED261008-D01-F04-3",
+      "ED261008-D01-F04-1",
+      "ED261008-D01-F04-4",
+      "ED261008-D01-F04-5"
+    ]
+  },
+  {
+    "text": "quando você conjurar um Truque, seus oponentes trituram uma carta.",
+    "cards": [
+      "COL001-R006"
+    ]
+  },
+  {
+    "text": "Ao causar dano de combate à capital inimiga, olhe as # cartas do topo do seu grimório e devolva # o restante jogue no cemiterio.",
+    "cards": [
+      "COL001-R007"
+    ]
+  },
+  {
+    "text": "# PA: o opnente alvo tritura uma carta.",
+    "cards": [
+      "COL001-R015"
+    ]
+  },
+  {
+    "text": "Ao entrar, outra criatura sua neste terreno recebe +#/+# e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno.",
+    "cards": [
+      "COL001-R008"
+    ]
+  },
+  {
+    "text": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão.",
+    "cards": [
+      "COL001-R009"
+    ]
+  },
+  {
+    "text": "Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas.",
+    "cards": [
+      "COL001-R010"
+    ]
+  },
+  {
+    "text": "Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório.",
+    "cards": [
+      "COL001-R011"
+    ]
+  },
+  {
+    "text": "Equipar: # mana genérica, no mesmo tile. A criatura equipada recebe +#/+#. Uma vez no seu turno, quando ela causar dano de combate a uma capital, o dono dessa capital tritura duas cartas.",
+    "cards": [
+      "ED261007-01-C008"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # mana genérica:olhe a carta do topo do grimorio, voce pode colocar a carta do topo do seu grimório no seu cemitério.",
+    "cards": [
+      "ED261007-01-C009"
+    ]
+  },
+  {
+    "text": "# PA: o jogador alvo coloca duas cartas do topo do grimório no cemitério. Use uma vez no seu turno.",
+    "cards": [
+      "ED261007-01-C004"
+    ]
+  },
+  {
+    "text": "# PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada.",
+    "cards": [
+      "COL001-R012"
+    ]
+  },
+  {
+    "text": "Ao entrar, você pode perder # de vida da capital. Se fizer isso, cada oponente tritura #.",
+    "cards": [
+      "COL001-R013"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, quando uma carta sair de um cemitério por um efeito seu, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.",
+    "cards": [
+      "ED261007-01-C003"
+    ]
+  },
+  {
+    "text": "Coloque a carta do topo do seu grimório no seu cemitério. Depois compre duas cartas.",
+    "cards": [
+      "ED261007-01-C006"
+    ]
+  },
+  {
+    "text": "Exile até três cartas não terreno de cemitérios inimigos. Até o fim do seu próximo turno, você pode conjurá-las pagando seus custos com mana de qualquer cor; preserve os donos originais.",
+    "cards": [
+      "ED261008-D01-M03"
+    ]
+  },
+  {
+    "text": "Ao morrer, seus oponentes trituram #.",
+    "cards": [
+      "COL001-R014"
+    ]
+  },
+  {
+    "text": "Uma vez por turno, quando outra criatura sua morrer, você pode perder # de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo # ou menos do seu cemitério para o campo.",
+    "cards": [
+      "COL001-R016"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, quando você conjurar uma carta que pertencia a um oponente, cada outro oponente tritura três cartas.",
+    "cards": [
+      "ED261008-D01-M02"
+    ]
+  },
+  {
+    "text": "O oponente alvo tritura dez cartas e depois compra uma carta.",
+    "cards": [
+      "ED261008-D01-M01"
+    ]
+  },
+  {
+    "text": "Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão.",
+    "cards": [
+      "COL001-R017"
+    ]
+  },
+  {
+    "text": "uma vez por turno caso esse tile seja atacado e não tenha criaturas nele volte uma critura de seu cemiterio até o final do turno para a defender",
+    "cards": [
+      "AUTOR-20261007-TERRENO-001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no cemitério.",
+    "cards": [
+      "ED261007-01-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: o jogador alvo tritura uma carta.",
+    "cards": [
+      "ED261007-01-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-01-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: o oponente alvo tritura duas cartas.",
+    "cards": [
+      "ED261008-D01-T36",
+      "ED261008-D01-T37",
+      "ED261008-D01-T38",
+      "ED261008-D01-T39",
+      "ED261008-D01-T40",
+      "ED261008-D01-T41",
+      "ED261008-D01-T42",
+      "ED261008-D01-T43",
+      "ED261008-D01-T44"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: o oponente alvo tritura duas cartas.",
+    "cards": [
+      "ED261008-D01-T45",
+      "ED261008-D01-T47"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: o oponente alvo tritura duas cartas.",
+    "cards": [
+      "ED261008-D01-T46"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: o oponente alvo tritura duas cartas.",
+    "cards": [
+      "ED261008-D01-T48"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: o oponente alvo tritura duas cartas.",
+    "cards": [
+      "ED261008-D01-T49",
+      "ED261008-D01-T50"
+    ]
+  },
+  {
+    "text": "Compre # cartas e coloque uma carta da mão no fundo do grimório.",
+    "cards": [
+      "ED261008-D02-F04-1",
+      "ED261008-D02-F04-2",
+      "ED261008-D02-F04-3",
+      "ED261008-D02-F04-4",
+      "ED261008-D02-F04-5"
+    ]
+  },
+  {
+    "text": "Uma criatura de custo total até # não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.",
+    "cards": [
+      "ED261008-D02-F06-1",
+      "ED261008-D02-F06-2",
+      "ED261008-D02-F06-3",
+      "ED261008-D02-F06-4",
+      "ED261008-D02-F06-5"
+    ]
+  },
+  {
+    "text": "Até # criaturas alvo recebem -# de ataque até o fim do turno, até o mínimo de zero.",
+    "cards": [
+      "ED261008-D02-F02-1",
+      "ED261008-D02-F02-2",
+      "ED261008-D02-F02-3",
+      "ED261008-D02-F02-4",
+      "ED261008-D02-F02-5"
+    ]
+  },
+  {
+    "text": "Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo.",
+    "cards": [
+      "ED261007-02-C005"
+    ]
+  },
+  {
+    "text": "Uma criatura sua recebe +#/+# até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261008-D02-F07-1",
+      "ED261008-D02-F07-2",
+      "ED261008-D02-F07-3",
+      "ED261008-D02-F07-4",
+      "ED261008-D02-F07-5"
+    ]
+  },
+  {
+    "text": "Devolva um Truque ou Feitiço de custo total até # do seu cemitério à mão. Exile esta carta após a resolução.",
+    "cards": [
+      "ED261008-D02-F05-1",
+      "ED261008-D02-F05-2",
+      "ED261008-D02-F05-3",
+      "ED261008-D02-F05-4",
+      "ED261008-D02-F05-5"
+    ]
+  },
+  {
+    "text": "Devolva uma criatura de custo total até # à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.",
+    "cards": [
+      "ED261008-D02-F03-1",
+      "ED261008-D02-F03-2",
+      "ED261008-D02-F03-3",
+      "ED261008-D02-F03-4",
+      "ED261008-D02-F03-5"
+    ]
+  },
+  {
+    "text": "Olhe as # cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.",
+    "cards": [
+      "ED261008-D02-F08-1",
+      "ED261008-D02-F08-2",
+      "ED261008-D02-F08-3",
+      "ED261008-D02-F08-4",
+      "ED261008-D02-F08-5"
+    ]
+  },
+  {
+    "text": "Anule um Truque ou Feitiço na pilha de custo total até #.",
+    "cards": [
+      "ED261008-D02-F01-1",
+      "ED261008-D02-F01-2",
+      "ED261008-D02-F01-3",
+      "ED261008-D02-F01-4",
+      "ED261008-D02-F01-5"
+    ]
+  },
+  {
+    "text": "Uma criatura alvo perde # de ataque até o fim do turno, até o mínimo de zero.",
+    "cards": [
+      "ED261007-02-C006"
+    ]
+  },
+  {
+    "text": "Equipar: # mana genérica no mesmo tile. A criatura equipada recebe +#/+#. Ao equipar um Mago, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261007-02-C008"
+    ]
+  },
+  {
+    "text": "Ao entrar, você pode colocar um Feitiço da sua mão no fundo do grimório. Se fizer isso, compre uma carta.",
+    "cards": [
+      "ED261007-02-C001"
+    ]
+  },
+  {
+    "text": "Ao morrer, você pode devolver um Truque de custo total até # do seu cemitério à mão.",
+    "cards": [
+      "ED261007-02-C003"
+    ]
+  },
+  {
+    "text": "Devolva uma criatura que não seja comandante à mão do dono. Ele pode comprar uma carta.",
+    "cards": [
+      "ED261007-02-C007"
+    ]
+  },
+  {
+    "text": "A primeira vez em cada turno que você conjurar um Truque, esta criatura recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-02-C002"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e compre uma carta.",
+    "cards": [
+      "ED261007-02-C009"
+    ]
+  },
+  {
+    "text": "Compre duas cartas. Depois coloque uma carta da sua mão no fundo do grimório.",
+    "cards": [
+      "ED261007-02-C010"
+    ]
+  },
+  {
+    "text": "A primeira vez no seu turno que você conjurar um Feitiço, pode devolver um Truque de custo total até # do seu cemitério à mão.",
+    "cards": [
+      "ED261008-D02-M03"
+    ]
+  },
+  {
+    "text": "Anule até dois Truques ou Feitiços na pilha.",
+    "cards": [
+      "ED261008-D02-M01"
+    ]
+  },
+  {
+    "text": "Devolva até quatro criaturas não comandantes às mãos dos donos.",
+    "cards": [
+      "ED261008-D02-M02"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório.",
+    "cards": [
+      "ED261007-02-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+    "cards": [
+      "ED261007-02-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: um Mago seu neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-02-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+    "cards": [
+      "ED261008-D02-T36",
+      "ED261008-D02-T37",
+      "ED261008-D02-T38",
+      "ED261008-D02-T39",
+      "ED261008-D02-T40",
+      "ED261008-D02-T41",
+      "ED261008-D02-T42",
+      "ED261008-D02-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+    "cards": [
+      "ED261008-D02-T44",
+      "ED261008-D02-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+    "cards": [
+      "ED261008-D02-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+    "cards": [
+      "ED261008-D02-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+    "cards": [
+      "ED261008-D02-T48",
+      "ED261008-D02-T49",
+      "ED261008-D02-T50"
+    ]
+  },
+  {
+    "text": "Um Goblin seu recebe +# de ataque e -# de defesa até o fim do turno.",
+    "cards": [
+      "ED261007-03-C010"
+    ]
+  },
+  {
+    "text": "Quando atacar uma capital, recebe +# de ataque nesse combate.",
+    "cards": [
+      "ED261008-D03-F01-1",
+      "ED261008-D03-F08-1",
+      "ED261008-D03-F01-2",
+      "ED261008-D03-F08-2",
+      "ED261008-D03-F01-3",
+      "ED261008-D03-F08-3",
+      "ED261008-D03-F01-4",
+      "ED261008-D03-F08-4",
+      "ED261008-D03-F01-5",
+      "ED261008-D03-F08-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: sacrifique outro Goblin seu neste tile. Cause # de dano a uma criatura adjacente.",
+    "cards": [
+      "ED261008-D03-F05-1",
+      "ED261008-D03-F05-2",
+      "ED261008-D03-F05-3",
+      "ED261008-D03-F05-4",
+      "ED261008-D03-F05-5"
+    ]
+  },
+  {
+    "text": "Ao morrer, cause # de dano a uma criatura inimiga que esteja no mesmo tile ou em um adjacente.",
+    "cards": [
+      "ED261008-D03-F03-1",
+      "ED261008-D03-F03-2",
+      "ED261008-D03-F03-3",
+      "ED261008-D03-F03-4",
+      "ED261008-D03-F03-5"
+    ]
+  },
+  {
+    "text": "Quando atacar, outro Goblin seu adjacente recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261008-D03-F06-1",
+      "ED261008-D03-F06-2",
+      "ED261008-D03-F06-3",
+      "ED261008-D03-F06-4",
+      "ED261008-D03-F06-5"
+    ]
+  },
+  {
+    "text": "Enquanto houver outro Goblin seu neste tile, recebe +# de ataque.",
+    "cards": [
+      "ED261008-D03-F02-1",
+      "ED261008-D03-F02-2",
+      "ED261008-D03-F02-3",
+      "ED261008-D03-F02-4",
+      "ED261008-D03-F02-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, outro Goblin seu no mesmo tile recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-03-C001"
+    ]
+  },
+  {
+    "text": "Sacrifique um Goblin seu como custo adicional. Cause # de dano a uma criatura alvo.",
+    "cards": [
+      "ED261007-03-C007"
+    ]
+  },
+  {
+    "text": "Equipar: # mana genérica no mesmo tile. A criatura equipada recebe +# de ataque; se for Goblin, também recebe +# de movimento.",
+    "cards": [
+      "ED261007-03-C008"
+    ]
+  },
+  {
+    "text": "Ao morrer em combate, cause # de dano à criatura que o matou, se ela ainda estiver no campo.",
+    "cards": [
+      "ED261007-03-C002"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: outro Goblin seu neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-03-C003"
+    ]
+  },
+  {
+    "text": "Ao entrar, crie neste tile uma ficha Goblin #/#, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261008-D03-F04-1",
+      "ED261008-D03-F04-2",
+      "ED261008-D03-F04-3",
+      "ED261008-D03-F04-4",
+      "ED261007-03-C005",
+      "ED261008-D03-F04-5"
+    ]
+  },
+  {
+    "text": "Crie duas fichas Goblin #/#, # PA, movimento # e alcance # em um terreno seu.",
+    "cards": [
+      "ED261007-03-C006"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # manas genéricas: crie neste tile uma ficha Goblin #/#, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261007-03-C009"
+    ]
+  },
+  {
+    "text": "Crie quatro fichas Goblin #/#, # PA, movimento # e alcance # em terrenos seus.",
+    "cards": [
+      "ED261008-D03-M02"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, quando dois ou mais Goblins seus participarem do mesmo ataque, crie uma ficha Goblin #/#, # PA, movimento # e alcance # na sua capital após o combate.",
+    "cards": [
+      "ED261008-D03-M03"
+    ]
+  },
+  {
+    "text": "Até seis Goblins seus recebem +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-M01"
+    ]
+  },
+  {
+    "text": "Gera # mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-03-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua neste tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-03-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Fogo na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas e sacrifique uma criatura sua neste tile: cause # de dano a uma criatura inimiga adjacente.",
+    "cards": [
+      "ED261007-03-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Fogo nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-T36",
+      "ED261008-D03-T37",
+      "ED261008-D03-T38",
+      "ED261008-D03-T39",
+      "ED261008-D03-T40",
+      "ED261008-D03-T41",
+      "ED261008-D03-T42",
+      "ED261008-D03-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-T44",
+      "ED261008-D03-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: um Goblin seu neste tile recebe +# de ataque e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D03-T48",
+      "ED261008-D03-T49",
+      "ED261008-D03-T50"
+    ]
+  },
+  {
+    "text": "Quando entrar em combate, outra criatura sua adjacente recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D04-F05-1",
+      "ED261008-D04-F05-2",
+      "ED261008-D04-F05-3",
+      "ED261008-D04-F05-4",
+      "ED261008-D04-F05-5"
+    ]
+  },
+  {
+    "text": "Recebe +# de ataque enquanto houver outra criatura sua em um tile adjacente.",
+    "cards": [
+      "ED261008-D04-F03-1",
+      "ED261008-D04-F07-1",
+      "ED261008-D04-F03-2",
+      "ED261008-D04-F07-2",
+      "ED261008-D04-F03-3",
+      "ED261008-D04-F07-3",
+      "ED261008-D04-F03-4",
+      "ED261008-D04-F07-4",
+      "ED261008-D04-F03-5",
+      "ED261008-D04-F07-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, outra criatura sua adjacente recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-F02-1",
+      "ED261008-D04-F02-2",
+      "ED261008-D04-F02-3",
+      "ED261008-D04-F02-4",
+      "ED261008-D04-F02-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: mova outra criatura sua deste tile para um terreno andável adjacente sem inimigos. Não gasta PA da movida; respeita bloqueios e gatilhos.",
+    "cards": [
+      "ED261008-D04-F06-1",
+      "ED261008-D04-F06-2",
+      "ED261008-D04-F06-3",
+      "ED261008-D04-F06-4",
+      "ED261008-D04-F06-5"
+    ]
+  },
+  {
+    "text": "Mova uma criatura sua para um terreno andável adjacente sem inimigos, sem gastar PA; respeite bloqueios e gatilhos de movimento.",
+    "cards": [
+      "ED261007-04-C005"
+    ]
+  },
+  {
+    "text": "Enquanto houver outra criatura sua em um tile adjacente, esta criatura recebe +#/+#.",
+    "cards": [
+      "ED261007-04-C001"
+    ]
+  },
+  {
+    "text": "Uma criatura sua recebe +# de ataque até o fim do turno se houver outra criatura sua adjacente ao alvo do seu combate atual.",
+    "cards": [
+      "ED261007-04-C007"
+    ]
+  },
+  {
+    "text": "Equipar: # mana genérica no mesmo tile. A criatura equipada recebe +# de ataque e +# de defesa enquanto estiver adjacente a outra criatura sua.",
+    "cards": [
+      "ED261007-04-C008"
+    ]
+  },
+  {
+    "text": "Ao entrar, crie neste tile uma ficha Soldado #/#, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261008-D04-F08-1",
+      "ED261008-D04-F08-2",
+      "ED261008-D04-F08-3",
+      "ED261008-D04-F08-4",
+      "ED261008-D04-F08-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: outra criatura sua adjacente recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-04-C002"
+    ]
+  },
+  {
+    "text": "A primeira vez no seu turno que uma criatura sua entrar em um tile seu sem outra criatura sua, ela recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261008-D04-M03"
+    ]
+  },
+  {
+    "text": "Crie quatro fichas Soldado #/#, # PA, movimento # e alcance #, distribuídas entre terrenos seus.",
+    "cards": [
+      "ED261008-D04-M02"
+    ]
+  },
+  {
+    "text": "Até seis criaturas suas de ataque base # ou menor recebem +# de movimento e +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261008-D04-M01"
+    ]
+  },
+  {
+    "text": "Gera # mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua adjacente recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-04-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-04-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +# de ataque até o fim do turno se houver outra criatura sua adjacente.",
+    "cards": [
+      "ED261007-04-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Sol nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: até duas criaturas suas neste tile de ataque base # ou menor recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-T36",
+      "ED261008-D04-T37",
+      "ED261008-D04-T38",
+      "ED261008-D04-T39",
+      "ED261008-D04-T40",
+      "ED261008-D04-T41",
+      "ED261008-D04-T42",
+      "ED261008-D04-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: até duas criaturas suas neste tile de ataque base # ou menor recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-T44",
+      "ED261008-D04-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: até duas criaturas suas neste tile de ataque base # ou menor recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: até duas criaturas suas neste tile de ataque base # ou menor recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: até duas criaturas suas neste tile de ataque base # ou menor recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D04-T48",
+      "ED261008-D04-T49",
+      "ED261008-D04-T50"
+    ]
+  },
+  {
+    "text": "Seu comandante recebe +#/+# enquanto estiver neste tile.",
+    "cards": [
+      "ED261008-D05-F04-1",
+      "ED261008-D05-F04-2",
+      "ED261008-D05-F04-3",
+      "ED261008-D05-F04-4",
+      "ED261008-D05-F04-5"
+    ]
+  },
+  {
+    "text": "Ao morrer, olhe a carta do topo do seu grimório. Você pode colocá-la na mão; se fizer isso, perca # de vida da capital.",
+    "cards": [
+      "ED261008-D05-F02-1",
+      "ED261008-D05-F02-2",
+      "ED261008-D05-F02-3",
+      "ED261008-D05-F02-4",
+      "ED261008-D05-F02-5"
+    ]
+  },
+  {
+    "text": "Ao morrer, você pode colocar uma criatura de custo total até # do seu cemitério no fundo do grimório.",
+    "cards": [
+      "ED261008-D05-F07-1",
+      "ED261008-D05-F07-2",
+      "ED261008-D05-F07-3",
+      "ED261008-D05-F07-4",
+      "ED261008-D05-F07-5"
+    ]
+  },
+  {
+    "text": "Sacrifique uma criatura sua como custo adicional. Outra criatura sua recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-05-C005"
+    ]
+  },
+  {
+    "text": "Ao morrer, seu comandante recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D05-F01-1",
+      "ED261008-D05-F01-2",
+      "ED261008-D05-F01-3",
+      "ED261008-D05-F01-4",
+      "ED261008-D05-F01-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, você pode colocar uma criatura de custo total até # do seu cemitério no fundo do grimório.",
+    "cards": [
+      "ED261007-05-C002"
+    ]
+  },
+  {
+    "text": "Encante uma criatura sua. Ela recebe +#/+#. Quando ela morrer, cure # de vida da sua capital.",
+    "cards": [
+      "ED261007-05-C010"
+    ]
+  },
+  {
+    "text": "Pague # manas genéricas e destrua este artefato: crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile. Use no seu turno.",
+    "cards": [
+      "ED261007-05-C009"
+    ]
+  },
+  {
+    "text": "Devolva uma criatura de custo total até # do seu cemitério à mão.",
+    "cards": [
+      "ED261007-05-C006"
+    ]
+  },
+  {
+    "text": "Uma vez em cada turno, quando você sacrificar outra criatura, esta recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D05-F06-1",
+      "ED261008-D05-F06-2",
+      "ED261008-D05-F06-3",
+      "ED261008-D05-F06-4",
+      "ED261008-D05-F06-5"
+    ]
+  },
+  {
+    "text": "Ao morrer, crie neste tile uma ficha Esqueleto #/# sem habilidades, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261008-D05-F05-2",
+      "ED261008-D05-F05-1",
+      "ED261008-D05-F05-3",
+      "ED261008-D05-F05-4",
+      "ED261008-D05-F05-5"
+    ]
+  },
+  {
+    "text": "Quando morrer, crie neste tile uma ficha Esqueleto #/# sem habilidades, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261007-05-C003"
+    ]
+  },
+  {
+    "text": "Sacrifique uma criatura sua como custo adicional. Uma criatura inimiga recebe -#/-# até o fim do turno.",
+    "cards": [
+      "ED261007-05-C007"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # manas genéricas e sacrifique uma criatura sua neste tile: compre uma carta.",
+    "cards": [
+      "ED261007-05-C008"
+    ]
+  },
+  {
+    "text": "# PA e # manas genéricas, uma vez no seu turno: crie neste tile uma ficha Esqueleto #/# sem habilidades, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261008-D05-F08-2",
+      "ED261008-D05-F08-1",
+      "ED261008-D05-F08-3",
+      "ED261008-D05-F08-4",
+      "ED261008-D05-F08-5"
+    ]
+  },
+  {
+    "text": "Sacrifique até três criaturas suas. Para cada uma sacrificada, compre uma carta e cure # de vida da sua capital.",
+    "cards": [
+      "ED261008-D05-M01"
+    ]
+  },
+  {
+    "text": "Uma vez em cada turno, quando você sacrificar uma criatura que não seja ficha, crie uma ficha Esqueleto #/# sem habilidades, # PA, movimento # e alcance # no tile em que ela estava.",
+    "cards": [
+      "ED261008-D05-M03"
+    ]
+  },
+  {
+    "text": "Crie quatro fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # em terrenos seus.",
+    "cards": [
+      "ED261008-D05-M02"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas e sacrifique uma criatura sua neste tile: cure # de vida da sua capital.",
+    "cards": [
+      "ED261007-05-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: coloque uma criatura de custo total até # do seu cemitério no fundo do grimório.",
+    "cards": [
+      "ED261007-05-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-05-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile.",
+    "cards": [
+      "ED261008-D05-T36",
+      "ED261008-D05-T37",
+      "ED261008-D05-T38",
+      "ED261008-D05-T39",
+      "ED261008-D05-T40",
+      "ED261008-D05-T41",
+      "ED261008-D05-T42",
+      "ED261008-D05-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile.",
+    "cards": [
+      "ED261008-D05-T44",
+      "ED261008-D05-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile.",
+    "cards": [
+      "ED261008-D05-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile.",
+    "cards": [
+      "ED261008-D05-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: sacrifique uma criatura sua neste tile; se fizer isso, crie duas fichas Esqueleto #/# sem habilidades, # PA, movimento # e alcance # neste tile.",
+    "cards": [
+      "ED261008-D05-T48",
+      "ED261008-D05-T49",
+      "ED261008-D05-T50"
+    ]
+  },
+  {
+    "text": "Não pode atacar. Pode defender normalmente.",
+    "cards": [
+      "ED261008-D06-F01-1",
+      "ED261008-D06-F01-2",
+      "ED261008-D06-F01-3",
+      "ED261008-D06-F01-4",
+      "ED261008-D06-F01-5"
+    ]
+  },
+  {
+    "text": "Criaturas suas neste tile recebem +#/+#.",
+    "cards": [
+      "ED261008-D06-F03-1",
+      "ED261008-D06-F03-2",
+      "ED261008-D06-F03-3",
+      "ED261007-06-C008",
+      "ED261008-D06-F03-4",
+      "ED261008-D06-F03-5"
+    ]
+  },
+  {
+    "text": "Olhe as # cartas do topo do seu grimório. Você pode revelar um Feitiço de custo total # ou maior e colocá-lo na mão. Coloque as demais no fundo em qualquer ordem.",
+    "cards": [
+      "ED261008-D06-F04-1",
+      "ED261008-D06-F04-2",
+      "ED261008-D06-F04-3",
+      "ED261008-D06-F04-4",
+      "ED261008-D06-F04-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, cure # de dano de uma criatura ou construção sua neste tile ou em um adjacente.",
+    "cards": [
+      "ED261008-D06-F02-1",
+      "ED261008-D06-F02-2",
+      "ED261008-D06-F02-3",
+      "ED261008-D06-F02-4",
+      "ED261008-D06-F02-5"
+    ]
+  },
+  {
+    "text": "Cure até # de dano distribuídos entre duas criaturas ou construções suas.",
+    "cards": [
+      "ED261007-06-C006"
+    ]
+  },
+  {
+    "text": "Encante uma criatura sua. Ela recebe +#/+#. No início do seu turno, cure # de dano dela se não tiver se movido desde seu último turno.",
+    "cards": [
+      "ED261007-06-C009"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cure # de dano de uma construção sua neste tile ou em um adjacente.",
+    "cards": [
+      "ED261007-06-C002"
+    ]
+  },
+  {
+    "text": "Até duas criaturas suas recebem +# de ataque até o fim do turno. Escolha apenas criaturas com defesa maior que o ataque.",
+    "cards": [
+      "ED261007-06-C010"
+    ]
+  },
+  {
+    "text": "Criaturas aliadas adjacentes recebem +# de defesa.",
+    "cards": [
+      "COL001-R018"
+    ]
+  },
+  {
+    "text": "Até # criaturas suas recebem +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D06-F06-1",
+      "ED261008-D06-F06-2",
+      "ED261008-D06-F06-3",
+      "ED261008-D06-F06-4",
+      "ED261008-D06-F06-5"
+    ]
+  },
+  {
+    "text": "Cure todo o dano de até # criaturas suas. Elas recebem +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261008-D06-F08-1",
+      "ED261008-D06-F08-2",
+      "ED261008-D06-F08-3",
+      "ED261008-D06-F08-4",
+      "ED261008-D06-F08-5"
+    ]
+  },
+  {
+    "text": "Escolha até # criaturas suas e o mesmo número de criaturas inimigas, formando pares em tiles iguais ou adjacentes. Cada par causa simultaneamente dano igual ao ataque de uma à outra.",
+    "cards": [
+      "ED261008-D06-F07-1",
+      "ED261008-D06-F07-2",
+      "ED261008-D06-F07-3",
+      "ED261008-D06-F07-4",
+      "ED261008-D06-F07-5"
+    ]
+  },
+  {
+    "text": "Crie # fichas Elemental #/#, # PA, movimento # e alcance #, distribuídas entre terrenos seus.",
+    "cards": [
+      "ED261008-D06-F05-1",
+      "ED261008-D06-F05-2",
+      "ED261008-D06-F05-3",
+      "ED261008-D06-F05-4",
+      "ED261008-D06-F05-5"
+    ]
+  },
+  {
+    "text": "Criaturas aliadas a até # tiles recebem +# de defesa.",
+    "cards": [
+      "COL001-R019"
+    ]
+  },
+  {
+    "text": "Até quatro criaturas suas recebem +#/+# até o fim do turno. As que têm ataque base zero podem atacar neste turno apesar de habilidades próprias que proíbam atacar.",
+    "cards": [
+      "ED261008-D06-M02"
+    ]
+  },
+  {
+    "text": "Cure todo o dano de criaturas e construções suas e cure # de vida da sua capital. Compre duas cartas.",
+    "cards": [
+      "ED261008-D06-M03"
+    ]
+  },
+  {
+    "text": "Crie dois Elementais #/#, # PA, movimento # e alcance # em terrenos seus.",
+    "cards": [
+      "ED261008-D06-M01"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: cure # de dano de uma criatura sua neste tile.",
+    "cards": [
+      "ED261007-06-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-06-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile com defesa maior que ataque recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-06-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o início do seu próximo turno.",
+    "cards": [
+      "ED261008-D06-T36",
+      "ED261008-D06-T37",
+      "ED261008-D06-T38",
+      "ED261008-D06-T39",
+      "ED261008-D06-T40",
+      "ED261008-D06-T41",
+      "ED261008-D06-T42",
+      "ED261008-D06-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o início do seu próximo turno.",
+    "cards": [
+      "ED261008-D06-T44",
+      "ED261008-D06-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o início do seu próximo turno.",
+    "cards": [
+      "ED261008-D06-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o início do seu próximo turno.",
+    "cards": [
+      "ED261008-D06-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o início do seu próximo turno.",
+    "cards": [
+      "ED261008-D06-T48",
+      "ED261008-D06-T49",
+      "ED261008-D06-T50"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cause # de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.",
+    "cards": [
+      "ED261008-D07-F01-1",
+      "ED261008-D07-F01-2",
+      "ED261008-D07-F01-3",
+      "ED261008-D07-F01-4",
+      "ED261008-D07-F01-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cause # de dano a uma criatura ou capital inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate.",
+    "cards": [
+      "ED261008-D07-F03-1",
+      "ED261008-D07-F03-2",
+      "ED261008-D07-F03-3",
+      "ED261008-D07-F03-4",
+      "ED261008-D07-F03-5"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # manas genéricas: cause # de dano a uma criatura inimiga a até # tiles. Não recebe o bônus do Mestre Arqueiro, que se aplica apenas a criaturas.",
+    "cards": [
+      "ED261008-D07-F07-1",
+      "ED261008-D07-F07-2",
+      "ED261008-D07-F07-3",
+      "ED261008-D07-F07-4",
+      "ED261008-D07-F07-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cause # de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Depois desta ativação, esta criatura não pode atacar neste turno.",
+    "cards": [
+      "ED261008-D07-F04-1",
+      "ED261008-D07-F04-2",
+      "ED261008-D07-F04-3",
+      "ED261008-D07-F04-4",
+      "ED261008-D07-F04-5"
+    ]
+  },
+  {
+    "text": "Escolha uma criatura sua com alcance # ou maior. Ela causa # de dano a uma criatura inimiga dentro do alcance atual dela. Não inicia combate.",
+    "cards": [
+      "ED261008-D07-F05-1",
+      "ED261008-D07-F05-2",
+      "ED261008-D07-F05-3",
+      "ED261008-D07-F05-4",
+      "ED261008-D07-F05-5"
+    ]
+  },
+  {
+    "text": "Até # criaturas suas com alcance # ou maior recebem +# de movimento e +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D07-F08-1",
+      "ED261008-D07-F08-2",
+      "ED261008-D07-F08-3",
+      "ED261008-D07-F08-4",
+      "ED261008-D07-F08-5"
+    ]
+  },
+  {
+    "text": "Escolha até # Arqueiros seus. Cada um causa # de dano a uma criatura inimiga dentro do próprio alcance atual. Escolha todos os alvos ao conjurar; não inicia combate.",
+    "cards": [
+      "ED261008-D07-F06-1",
+      "ED261008-D07-F06-2",
+      "ED261008-D07-F06-3",
+      "ED261008-D07-F06-4",
+      "ED261008-D07-F06-5"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cause # de dano a uma criatura inimiga dentro do alcance atual desta criatura. Não é um ataque e não inicia combate. Só pode ativar se não tiver se movido neste turno.",
+    "cards": [
+      "ED261008-D07-F02-1",
+      "ED261008-D07-F02-2",
+      "ED261008-D07-F02-3",
+      "ED261008-D07-F02-4",
+      "ED261008-D07-F02-5"
+    ]
+  },
+  {
+    "text": "Escolha um Arqueiro seu. Ele causa # de dano a uma criatura inimiga no alcance atual dele, sem gastar PA.",
+    "cards": [
+      "ED261007-07-C007"
+    ]
+  },
+  {
+    "text": "Criaturas suas neste tile com alcance # ou maior recebem +#/+#.",
+    "cards": [
+      "ED261007-07-C009"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: outro Arqueiro seu adjacente recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-07-C002"
+    ]
+  },
+  {
+    "text": "Até duas criaturas suas recebem +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-07-C010"
+    ]
+  },
+  {
+    "text": "Enquanto não houver inimigo adjacente, esta criatura recebe +# de ataque.",
+    "cards": [
+      "ED261007-07-C004"
+    ]
+  },
+  {
+    "text": "Escolha um Arqueiro seu. Ele causa # de dano a uma criatura ou capital inimiga dentro do alcance atual dele, sem iniciar combate.",
+    "cards": [
+      "ED261008-D07-M01"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, depois que uma habilidade ativada de um Arqueiro seu causar dano, ele pode mover-se gratuitamente para um terreno andável adjacente sem inimigos, respeitando bloqueios e gatilhos.",
+    "cards": [
+      "ED261008-D07-M03"
+    ]
+  },
+  {
+    "text": "Escolha até quatro Arqueiros seus. Cada um causa # de dano a uma criatura inimiga dentro de seu alcance atual.",
+    "cards": [
+      "ED261008-D07-M02"
+    ]
+  },
+  {
+    "text": "Pode atravessar criaturas durante seu movimento.",
+    "cards": [
+      "COL001-R020"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: um Arqueiro seu neste tile recebe +# de ataque até o fim do turno.",
+    "cards": [
+      "ED261007-07-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-07-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua neste tile recebe +#/+# até o fim do turno se não houver inimigo adjacente.",
+    "cards": [
+      "ED261007-07-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: escolha um Arqueiro seu neste tile; ele causa # de dano a uma criatura inimiga dentro do alcance atual dele.",
+    "cards": [
+      "ED261008-D07-T36",
+      "ED261008-D07-T37",
+      "ED261008-D07-T38",
+      "ED261008-D07-T39",
+      "ED261008-D07-T40",
+      "ED261008-D07-T41",
+      "ED261008-D07-T42",
+      "ED261008-D07-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: escolha um Arqueiro seu neste tile; ele causa # de dano a uma criatura inimiga dentro do alcance atual dele.",
+    "cards": [
+      "ED261008-D07-T44",
+      "ED261008-D07-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: escolha um Arqueiro seu neste tile; ele causa # de dano a uma criatura inimiga dentro do alcance atual dele.",
+    "cards": [
+      "ED261008-D07-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: escolha um Arqueiro seu neste tile; ele causa # de dano a uma criatura inimiga dentro do alcance atual dele.",
+    "cards": [
+      "ED261008-D07-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: escolha um Arqueiro seu neste tile; ele causa # de dano a uma criatura inimiga dentro do alcance atual dele.",
+    "cards": [
+      "ED261008-D07-T48",
+      "ED261008-D07-T49",
+      "ED261008-D07-T50"
+    ]
+  },
+  {
+    "text": "Encante uma criatura sua. Ela recebe +#/+#; se for uma ficha com ataque e defesa base #/#, recebe +#/+# adicional.",
+    "cards": [
+      "ED261008-D08-F07-1",
+      "ED261008-D08-F07-2",
+      "ED261008-D08-F07-3",
+      "ED261008-D08-F07-4",
+      "ED261008-D08-F07-5"
+    ]
+  },
+  {
+    "text": "Encante uma criatura sua. Ela recebe +#/+#.",
+    "cards": [
+      "ED261007-08-C007"
+    ]
+  },
+  {
+    "text": "Uma criatura sua com ataque base # recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-08-C006"
+    ]
+  },
+  {
+    "text": "Devolva uma criatura de custo total até # do seu cemitério à mão. Sua capital perde # de vida.",
+    "cards": [
+      "ED261008-D08-F08-1",
+      "ED261008-D08-F08-2",
+      "ED261008-D08-F08-3",
+      "ED261008-D08-F08-4",
+      "ED261008-D08-F08-5"
+    ]
+  },
+  {
+    "text": "Sacrifique uma criatura sua como custo adicional. Cure # de vida da sua capital. Esta morte não conta como morte em combate.",
+    "cards": [
+      "ED261007-08-C010"
+    ]
+  },
+  {
+    "text": "Mova até duas fichas suas da sua capital para terrenos andáveis adjacentes sem inimigos, sem gastar PA. Respeite bloqueios e gatilhos.",
+    "cards": [
+      "ED261007-08-C009"
+    ]
+  },
+  {
+    "text": "Coloque as quatro cartas do topo do seu grimório no cemitério. Depois cure # de vida da sua capital.",
+    "cards": [
+      "ED261007-08-C005"
+    ]
+  },
+  {
+    "text": "Ao entrar, coloque uma criatura de custo total até # do seu cemitério no fundo do grimório.",
+    "cards": [
+      "ED261008-D08-F06-1",
+      "ED261008-D08-F06-2",
+      "ED261008-D08-F06-3",
+      "ED261008-D08-F06-4",
+      "ED261008-D08-F06-5"
+    ]
+  },
+  {
+    "text": "Ao morrer, crie neste tile uma ficha Planta #/# sem habilidades, # PA, movimento # e alcance #.",
+    "cards": [
+      "ED261008-D08-F05-1",
+      "ED261008-D08-F05-2",
+      "ED261008-D08-F05-3",
+      "ED261008-D08-F05-4",
+      "ED261008-D08-F05-5"
+    ]
+  },
+  {
+    "text": "Ao morrer em combate, outra criatura sua adjacente recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-F02-1",
+      "ED261008-D08-F02-2",
+      "ED261008-D08-F02-3",
+      "ED261008-D08-F02-4",
+      "ED261008-D08-F02-5"
+    ]
+  },
+  {
+    "text": "Fichas de criatura suas neste tile recebem +#/+#.",
+    "cards": [
+      "ED261007-08-C008"
+    ]
+  },
+  {
+    "text": "Ao morrer, devolva uma criatura de custo total até # do seu cemitério à mão.",
+    "cards": [
+      "ED261007-08-C004"
+    ]
+  },
+  {
+    "text": "Quando atacar uma criatura com ataque maior que o desta, recebe +# de ataque nesse combate.",
+    "cards": [
+      "ED261008-D08-F04-1",
+      "ED261008-D08-F04-2",
+      "ED261008-D08-F04-3",
+      "ED261008-D08-F04-4",
+      "ED261008-D08-F04-5"
+    ]
+  },
+  {
+    "text": "Fichas suas com ataque e defesa base #/# recebem +#/+#.",
+    "cards": [
+      "ED261008-D08-M02"
+    ]
+  },
+  {
+    "text": "Até três criaturas suas recebem +#/+# até o fim do turno. Quando uma delas morrer em combate neste turno, compre uma carta.",
+    "cards": [
+      "ED261008-D08-M03"
+    ]
+  },
+  {
+    "text": "Devolva até duas criaturas do seu cemitério à mão. Crie uma ficha Planta #/#, # PA, movimento # e alcance # na sua capital.",
+    "cards": [
+      "ED261008-D08-M01"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-08-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: coloque a carta do topo do seu grimório no seu cemitério.",
+    "cards": [
+      "ED261007-08-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: cure # de dano de uma ficha sua neste tile.",
+    "cards": [
+      "ED261007-08-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Terra nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua de ataque e defesa base #/# neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-T36",
+      "ED261008-D08-T37",
+      "ED261008-D08-T38",
+      "ED261008-D08-T39",
+      "ED261008-D08-T40",
+      "ED261008-D08-T41",
+      "ED261008-D08-T42",
+      "ED261008-D08-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: uma ficha sua de ataque e defesa base #/# neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-T44",
+      "ED261008-D08-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: uma ficha sua de ataque e defesa base #/# neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: uma ficha sua de ataque e defesa base #/# neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua de ataque e defesa base #/# neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D08-T48",
+      "ED261008-D08-T49",
+      "ED261008-D08-T50"
+    ]
+  },
+  {
+    "text": "Enquanto estiver embarcada, o veículo que a transporta recebe +#/+#.",
+    "cards": [
+      "ED261008-D09-F07-1",
+      "ED261008-D09-F07-2",
+      "ED261008-D09-F07-3",
+      "ED261008-D09-F07-4",
+      "ED261008-D09-F07-5"
+    ]
+  },
+  {
+    "text": "Voar. Enquanto embarcada, pode agir conforme as regras de passageiros comuns.",
+    "cards": [
+      "ED261008-D09-F08-1",
+      "ED261008-D09-F08-2",
+      "ED261008-D09-F08-3",
+      "ED261008-D09-F08-4",
+      "ED261008-D09-F08-5"
+    ]
+  },
+  {
+    "text": "Até duas tropas suas embarcadas em um mesmo veículo podem desembarcar no tile dele sem pagar PA. Respeite as demais regras de desembarque.",
+    "cards": [
+      "ED261007-09-C008"
+    ]
+  },
+  {
+    "text": "Um veículo seu recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-09-C007"
+    ]
+  },
+  {
+    "text": "Voar: esta criatura pode atravessar terrenos que exigem voo.",
+    "cards": [
+      "ED261007-09-C002"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +# de alcance. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F04-1",
+      "ED261008-D09-F04-2",
+      "ED261008-D09-F04-3",
+      "ED261008-D09-F04-4",
+      "ED261008-D09-F04-5"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas, exige # tripulante. Só age tripulado. Embarcar/desembarcar custa # PA da tropa, no mesmo tile. Passageiros podem agir; morrem se o veículo for destruído.",
+    "cards": [
+      "ED261007-09-C005"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. Recebe +# de ataque por passageiro. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F01-1",
+      "ED261008-D09-F01-2",
+      "ED261008-D09-F01-3",
+      "ED261008-D09-F01-4",
+      "ED261008-D09-F01-5"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. Com pelo menos dois passageiros, recebe +# de movimento. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F02-1",
+      "ED261008-D09-F02-2",
+      "ED261008-D09-F02-3",
+      "ED261008-D09-F02-4",
+      "ED261008-D09-F02-5"
+    ]
+  },
+  {
+    "text": "Um veículo seu recebe +# de movimento até o fim do turno. Olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261007-09-C010"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cure # de dano de um veículo seu no mesmo tile.",
+    "cards": [
+      "ED261007-09-C003"
+    ]
+  },
+  {
+    "text": "Ao desembarcar, outra criatura sua neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-09-C004"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. Recebe +# de defesa por passageiro. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F03-1",
+      "ED261008-D09-F03-2",
+      "ED261008-D09-F03-3",
+      "ED261008-D09-F03-4",
+      "ED261008-D09-F03-5"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. No início do seu turno, cure # de dano deste veículo por passageiro. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F06-1",
+      "ED261008-D09-F06-2",
+      "ED261008-D09-F06-3",
+      "ED261008-D09-F06-4",
+      "ED261008-D09-F06-5"
+    ]
+  },
+  {
+    "text": "Veículo: # vagas; exige # tripulante e só age tripulado. Recebe +#/+# por passageiro além do primeiro. Embarcar/desembarcar: # PA da tropa, no mesmo tile. Passageiros podem agir e morrem se o veículo for destruído.",
+    "cards": [
+      "ED261008-D09-F05-1",
+      "ED261008-D09-F05-2",
+      "ED261008-D09-F05-3",
+      "ED261008-D09-F05-4",
+      "ED261008-D09-F05-5"
+    ]
+  },
+  {
+    "text": "Veículo: # vaga, exige # tripulante. Só age tripulado. Embarcar/desembarcar custa # PA da tropa, no mesmo tile. Passageiros podem agir; morrem se ele for destruído. Voar.",
+    "cards": [
+      "ED261007-09-C006"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, pague # manas genéricas: cure # de dano de um veículo seu neste tile.",
+    "cards": [
+      "ED261007-09-C009"
+    ]
+  },
+  {
+    "text": "Veículos seus com pelo menos três passageiros recebem +#/+#.",
+    "cards": [
+      "ED261008-D09-M02"
+    ]
+  },
+  {
+    "text": "Cure todo o dano de até dois veículos seus. Seus passageiros recebem +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D09-M03"
+    ]
+  },
+  {
+    "text": "Até quatro veículos seus recebem +# de ataque por passageiro e +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261008-D09-M01"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: cure # de dano de um veículo seu neste tile.",
+    "cards": [
+      "ED261007-09-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-09-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma criatura sua embarcada em um veículo neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-09-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de defesa por passageiro até o fim do turno.",
+    "cards": [
+      "ED261008-D09-T36",
+      "ED261008-D09-T37",
+      "ED261008-D09-T38",
+      "ED261008-D09-T39",
+      "ED261008-D09-T40",
+      "ED261008-D09-T41",
+      "ED261008-D09-T42",
+      "ED261008-D09-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de defesa por passageiro até o fim do turno.",
+    "cards": [
+      "ED261008-D09-T44",
+      "ED261008-D09-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de defesa por passageiro até o fim do turno.",
+    "cards": [
+      "ED261008-D09-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de defesa por passageiro até o fim do turno.",
+    "cards": [
+      "ED261008-D09-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: um veículo seu neste tile recebe +# de defesa por passageiro até o fim do turno.",
+    "cards": [
+      "ED261008-D09-T48",
+      "ED261008-D09-T49",
+      "ED261008-D09-T50"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +#/+#.",
+    "cards": [
+      "ED261008-D10-F01-1",
+      "ED261008-D10-F01-2",
+      "ED261008-D10-F01-3",
+      "ED261008-D10-F01-4",
+      "ED261008-D10-F01-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +# de ataque.",
+    "cards": [
+      "ED261008-D10-F02-1",
+      "ED261008-D10-F02-2",
+      "ED261008-D10-F02-3",
+      "ED261008-D10-F02-4",
+      "ED261008-D10-F02-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +# de movimento.",
+    "cards": [
+      "ED261008-D10-F03-1",
+      "ED261008-D10-F03-2",
+      "ED261008-D10-F03-3",
+      "ED261008-D10-F03-4",
+      "ED261008-D10-F03-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +# de alcance.",
+    "cards": [
+      "ED261008-D10-F05-1",
+      "ED261008-D10-F05-2",
+      "ED261008-D10-F05-3",
+      "ED261008-D10-F05-4",
+      "ED261008-D10-F05-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +#/+#; se for ficha, também recebe +# de ataque.",
+    "cards": [
+      "ED261008-D10-F07-1",
+      "ED261008-D10-F07-2",
+      "ED261008-D10-F07-3",
+      "ED261008-D10-F07-4",
+      "ED261008-D10-F07-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261008-D10-F06-1",
+      "ED261008-D10-F06-2",
+      "ED261008-D10-F06-3",
+      "ED261008-D10-F06-4",
+      "ED261008-D10-F06-5"
+    ]
+  },
+  {
+    "text": "Equipar: # mana(s) genérica(s), no mesmo tile. A criatura equipada: Recebe +#/+#; enquanto defender, recebe +# de ataque.",
+    "cards": [
+      "ED261008-D10-F04-1",
+      "ED261008-D10-F04-2",
+      "ED261008-D10-F04-3",
+      "ED261008-D10-F04-4",
+      "ED261008-D10-F04-5"
+    ]
+  },
+  {
+    "text": "Devolva até # equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo.",
+    "cards": [
+      "ED261008-D10-F08-1",
+      "ED261008-D10-F08-2",
+      "ED261008-D10-F08-3",
+      "ED261008-D10-F08-4",
+      "ED261008-D10-F08-5"
+    ]
+  },
+  {
+    "text": "Ao entrar, cure # de dano de uma ficha sua no mesmo tile.",
+    "cards": [
+      "ED261007-10-C001"
+    ]
+  },
+  {
+    "text": "Devolva um equipamento seu do campo para sua mão. Desanexe-o antes; a criatura permanece no campo.",
+    "cards": [
+      "ED261007-10-C010"
+    ]
+  },
+  {
+    "text": "Fichas suas neste tile recebem +#/+#.",
+    "cards": [
+      "ED261007-10-C009"
+    ]
+  },
+  {
+    "text": "Ao entrar, uma ficha sua no mesmo tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-10-C003"
+    ]
+  },
+  {
+    "text": "# PA, uma vez no seu turno: cure # de dano de uma ficha sua neste tile.",
+    "cards": [
+      "ED261007-10-C002"
+    ]
+  },
+  {
+    "text": "Equipar: # mana genérica no mesmo tile. A criatura equipada recebe +#/+#. Uma vez no seu turno, quando ela causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261007-10-C008"
+    ]
+  },
+  {
+    "text": "Uma vez no seu turno, quando um equipamento seu entrar no campo, cure # de vida da sua capital. Se uma ficha sua estiver equipada, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+    "cards": [
+      "ED261008-D10-M03"
+    ]
+  },
+  {
+    "text": "Até quatro fichas suas equipadas recebem +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-M01"
+    ]
+  },
+  {
+    "text": "Devolva até três equipamentos do seu cemitério à mão.",
+    "cards": [
+      "ED261008-D10-M02"
+    ]
+  },
+  {
+    "text": "Gera # mana de Sol na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261007-10-T001"
+    ]
+  },
+  {
+    "text": "Gera # mana de Água na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: cure # de dano de uma ficha sua neste tile.",
+    "cards": [
+      "ED261007-10-T002"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar na geração normal de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +# de movimento até o fim do turno.",
+    "cards": [
+      "ED261007-10-T003"
+    ]
+  },
+  {
+    "text": "Gera # mana de Ar nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-T36",
+      "ED261008-D10-T37",
+      "ED261008-D10-T38",
+      "ED261008-D10-T39",
+      "ED261008-D10-T40",
+      "ED261008-D10-T41",
+      "ED261008-D10-T42",
+      "ED261008-D10-T43"
+    ]
+  },
+  {
+    "text": "Gera # incolor. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-T44",
+      "ED261008-D10-T46"
+    ]
+  },
+  {
+    "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-T45"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor na renovação do seu turno. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-T47"
+    ]
+  },
+  {
+    "text": "Gera # mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague # manas genéricas: uma ficha sua equipada neste tile recebe +#/+# até o fim do turno.",
+    "cards": [
+      "ED261008-D10-T48",
+      "ED261008-D10-T49",
+      "ED261008-D10-T50"
+    ]
+  }
+]

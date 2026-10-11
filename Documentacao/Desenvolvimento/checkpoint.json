@@ -1,25 +1,15 @@
 {
-  "taskId": "AG-001",
-  "status": "completed",
+  "taskId": "PC-001",
+  "status": "integrated-verified",
   "date": "2026-10-10",
-  "backupCommit": "7d5f87d",
+  "backupCommit": "81c576c",
   "project": "C:\\Users\\gil\\TCG",
-  "contract": "Documentacao/Desenvolvimento/Coordenacao.md",
+  "contract": "Documentacao/Desenvolvimento/PC-001-contrato.md",
   "tasks": "Documentacao/Desenvolvimento/tasks.json",
-  "next": "Escolher próximo pacote na fila central; aplicar briefing/escopos às famílias de efeitos da coleção oficial. Não reiniciar o piloto nem concluir efeitos ainda não implementados.",
+  "next": "Avaliação autoral dos dez precons: equilíbrio e sessão longa; revisão visual no Unity; multiplayer entre máquinas físicas. Não reimplementar; consultar PC-001-I-result.json e nota de uso.",
   "limitations": [
-    "Controle visual não verificado nesta sessão",
-    "Piloto de testes do fluxo existente; não integra coleção oficial nem implementa PvC"
+    "Capturas ocultas pretas: revisão visual manual pendente",
+    "Balanceamento, sessão longa e máquinas físicas distintas pendentes; Relay não repetido"
   ],
-  "evidence": [
-    "Documentacao/Desenvolvimento/integration-result.json",
-    "Logs/coordination-pilot-final-20261010.log",
-    "Logs/coordination-resume-20261010.txt"
-  ],
-  "specialists": [
-    "/root/regras_piloto",
-    "/root/multiplayer_piloto"
-  ],
-  "parallelMode": "Dois dispatches não bloqueantes antes de aguardar entregas; caminhos disjuntos",
-  "validation": 445
+  "evidence": "Documentacao/Desenvolvimento/PC-001-I-result.json"
 }

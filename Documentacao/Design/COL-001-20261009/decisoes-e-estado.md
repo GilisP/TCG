@@ -22,3 +22,7 @@ O autor autorizou criar nomes novos para versões revisadas e para terrenos tem�
 Tools/import_official_collection.py é o importador em desenvolvimento. A primeira conversão identifica 728 definições novas; 685 ainda exigem tradução e verificação de mecânicas. Não liberar esses dez decks como jogáveis antes de concluir o suporte. A compilação Python da conversão não comprova funcionamento no Unity.
 
 Próximo passo: implementar famílias de efeitos, conferir dados completos e integrar dez listas ao fluxo de escolha/importação, com testes do motor e rede. Não substituir os 29 decks planejados antigos nem perfis pessoais. Execução prioritária em [[04 - Pendencias de Implementacao]].
+
+## Decisão confirmada — 2026-10-10
+
+Senhor das Catacumbas Despertas: a criatura reanimada aparece no terreno do Senhor, conforme resposta explícita do autor. Os dez precons foram integrados; a tradução inicial incompleta descrita acima é histórica. Ver [[Precons Oficiais - Implementacao 2026-10-10]].

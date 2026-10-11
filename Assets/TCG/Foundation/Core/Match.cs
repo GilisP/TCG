@@ -15,7 +15,7 @@ namespace TCG.Foundation
     }
     public sealed class Piece
     {
-        public int Id { get; } public int Owner { get; } public Definition Card { get; }
+        public int Id { get; } public int Owner { get; internal set; } public Definition Card { get; }
         public int Damage { get; internal set; } int movementRemaining; public int Movement { get=>Math.Max(0,movementRemaining+(Game?.MovementAdjustment(this)??0)); internal set=>movementRemaining=value-(Game?.MovementAdjustment(this)??0); } int actionsRemaining; public int Actions { get=>Math.Max(0,actionsRemaining+(Game?.ActionAura(this)??0)); internal set {int before=Actions;actionsRemaining=value-(Game?.ActionAura(this)??0);Game?.ActionsSpent(this,before,Actions);} }
         internal int PermanentActions,DeathPower,BeforeLethalDamage; internal int? BaseAttackOverride,BaseDefenseOverride; internal bool CombatLethal; internal Match Game; internal bool CommandUnit; internal bool Token; internal int ExpireTurn=-1;
         internal int LastDamagedTurn=-1;
@@ -171,12 +171,20 @@ namespace TCG.Foundation
             (cells[index].Owner==Active || (cells[index].Terrain==null&&Neighbors(index).Any(n=>cells[n].Owner==Active&&cells[n].Terrain!=null)));
         public bool CanPlay(Definition card,int target,int unit=-1)
         {if(IsRemoteView)return card!=null&&NetCan("play",target,unit,card.Id);
+            return CanPlayState(card)&&CanPlayTarget(card,target,unit);
+        }
+        bool CanPlayState(Definition card)
+        {
             if(card==null||card.Rule=="destiny"||!card.Playable||Over||Choice!=null||Defense!=null||card.Kind==CardType.Terrain||!CanPay(Priority,card)) return false;
             if(card.Kind!=CardType.Instant && (Phase!=Stage.Main||Priority!=Active||stack.Count!=0)) return false;
             if(card.Kind==CardType.Instant && Phase!=Stage.Main&&Phase!=Stage.End&&stack.Count==0) return false;
             if(card.Rule=="test-counter"&&!ResponseTargets(card,Priority))return false;
             if(card.Rule=="abilities"&&!card.Permanent&&!AbilityResponse(card,Priority))return false;
-            if(card.Kind==CardType.Enchantment){var host=Find(unit);return host!=null&&(host.Card.Kind==CardType.Creature||host.Card.IsVehicle)&&AbilityEnchantmentTarget(card,host,Priority)&&Position(unit)==target&&!Immune(host,Priority);} if(card.Permanent) return Valid(target)&&cells[target].Terrain!=null&&cells[target].Owner==Priority;
+            return true;
+        }
+        bool CanPlayTarget(Definition card,int target,int unit=-1)
+        {
+            if(card.Kind==CardType.Enchantment){var placement=PreconEnchantmentPlacement(card,Priority,target,unit);if(placement.HasValue)return placement.Value;var host=Find(unit);return host!=null&&(host.Card.Kind==CardType.Creature||host.Card.IsVehicle)&&AbilityEnchantmentTarget(card,host,Priority)&&Position(unit)==target&&!Immune(host,Priority);} if(card.Permanent) return Valid(target)&&cells[target].Terrain!=null&&cells[target].Owner==Priority;
             if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)) { var piece=Find(unit); return piece!=null&&Enemies(Priority,piece.Owner)&&Position(unit)==target; }
             return true;
         }
@@ -239,7 +247,7 @@ namespace TCG.Foundation
             var cell=cells[target]; foreach(var piece in cell.pieces.ToArray()) Kill(piece);
             if(cell.Terrain!=null&&cell.Terrain.Rule!="ruins"&&cell.TerrainOwner>=0) seats[cell.TerrainOwner].terrainGrave.Add(cell.Terrain);
             SetTerrain(target,Active,Pop(seats[Active].piles[pile])); seats[Active].LastCreatedTerrain=target; if(seats[Active].piles[pile].Count==0) DrawTerrain(Active,pile);
-            Placed=true; Note(seats[Active].Name+" colocou "+cell.Terrain.Name+"."); Visual?.Invoke(new MatchEvent("terrain",target,target));
+            PreconAuthorTerrainPlaced(Active,target);Placed=true; Note(seats[Active].Name+" colocou "+cell.Terrain.Name+"."); Visual?.Invoke(new MatchEvent("terrain",target,target));
             if(AutoAdvanceAfterTerrain) { Phase=Stage.Main; passes=0; QueueMovementOrders(); }
         }
         void NextPhase()
@@ -262,24 +270,46 @@ namespace TCG.Foundation
             int owner=Priority;
             void Announce(Piece sacrifice){
                 if(!seats[owner].hand.Contains(card)||!CanPay(owner,card))return;
-                Pay(owner,card);seats[owner].hand.Remove(card);stack.Add(new Pending{Owner=owner,CardOwner=CardOriginalOwner(card,owner),Card=card,Target=target,TargetUnit=unit,CommandUnit=card==seats[owner].Commander});passes=0;
-                var pending=stack.Last();if(sacrifice!=null)CommitKill(sacrifice);
-                Note(seats[owner].Name+" anunciou "+card.Name+".");ReflectDeclaredTarget(pending);AuthorPlayed(owner,card);
-                if(card.Kind==CardType.Spell||card.Kind==CardType.Instant)Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));
+                var pending=new Pending{Owner=owner,CardOwner=CardOriginalOwner(card,owner),Card=card,Target=target,TargetUnit=unit,CommandUnit=card==seats[owner].Commander,Subject=sacrifice};
+                void Commit(){
+                    if(!seats[owner].hand.Contains(card)||!CanPay(owner,card))return;
+                    Pay(owner,card);seats[owner].hand.Remove(card);stack.Add(pending);passes=0;
+                    if(sacrifice!=null)SacrificePiece(sacrifice);
+                    Note(seats[owner].Name+" anunciou "+card.Name+".");ReflectDeclaredTarget(pending);PreconLibraryForeignPlayed(owner,pending.CardOwner,card);AuthorPlayed(owner,card);
+                    if(card.Kind==CardType.Spell||card.Kind==CardType.Instant)Visual?.Invoke(new MatchEvent("cast",Capital(owner,seats.Length),Capital(owner,seats.Length),-1,card,owner));
+                }
+                if(!PreconUnitDeclare(pending,Commit))Commit();
             }
             var cost=card.Abilities.FirstOrDefault(a=>a.trigger=="cast"&&a.sacrifice!="");if(cost!=null)PayAbilitySacrifice(cost,owner,null,Announce);else Announce(null);
         }
         public bool CanMove(int unit,int target)
-        {if(IsRemoteView)return NetCan("move",unit,target); var p=Find(unit); return !Over&&Phase==Stage.Main&&Priority==Active&&stack.Count==0&&p!=null&&p.Owner==Active&&Mobile(p)&&!p.Modifiers.Any(m=>m.NoMove)&&p.Movement>0&&MovePath(p,target)&&cells[target].Terrain!=null&&!Blocked(p,target)&&!cells[target].pieces.Any(u=>(u.Card.Kind!=CardType.Equipment&&u.Card.Kind!=CardType.Enchantment)&&Enemies(Active,u.Owner))&&!Enemies(Active,cells[target].CapitalOwner); }
+        {if(IsRemoteView)return NetCan("move",unit,target);var p=Find(unit);return CanMoveState(p,out int origin,out int movement)&&CanMoveTarget(p,target,origin,movement);}
+        bool CanMoveState(Piece p,out int origin,out int movement)
+        {
+            origin=-1;movement=0;
+            if(Over||Phase!=Stage.Main||Priority!=Active||stack.Count!=0||p==null||p.Owner!=Active||!Mobile(p)||p.Modifiers.Any(m=>m.NoMove))return false;
+            movement=p.Movement;if(movement<=0)return false;origin=Position(p.Id);return true;
+        }
+        bool CanMoveTarget(Piece p,int target,int origin,int movement)=>MovePath(p,target,origin,movement)&&cells[target].Terrain!=null&&!Blocked(p,target)
+            &&!cells[target].pieces.Any(u=>(u.Card.Kind!=CardType.Equipment&&u.Card.Kind!=CardType.Enchantment)&&Enemies(Active,u.Owner))&&!Enemies(Active,cells[target].CapitalOwner);
         void Move(int id,int target)
         {
             MainOnly(); Check(CanMove(id,target),"Movimento exige terreno adjacente sem inimigos e movimento disponível.");
-            var p=Find(id); if(GuardInvasion(p,target))return; int from=Position(id); cells[from].pieces.Remove(p); cells[target].pieces.Add(p); p.Movement-=PortalLink(from,target)?1:Distance(from,target); MarkMoved(p,from,target);
+            var p=Find(id); if(GuardInvasion(p,target))return; int from=Position(id); cells[from].pieces.Remove(p); cells[target].pieces.Add(p); p.Movement-=PortalLink(from,target)||Has(p,"pca-diagonal-only")?1:Distance(from,target); MarkMoved(p,from,target);
             if(cells[target].Owner<0||Enemies(Active,cells[target].Owner)||seats[cells[target].Owner].Eliminated) cells[target].Owner=Active;
             Visual?.Invoke(new MatchEvent("move",from,target,id)); Note(p.Card.Name+" avançou.");
         }
         public bool CanAttack(int id,int target)
-        {if(IsRemoteView)return NetCan("attack",id,target); var p=Find(id); return !Over&&Phase==Stage.Main&&Priority==Active&&stack.Count==0&&p!=null&&p.Owner==Active&&(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&CanAct(p)&&!p.Modifiers.Any(m=>m.NoAttack)&&p.Actions>0&&p.Movement>0&&InRange(p,target)&&cells[target].Terrain!=null&&(cells[target].pieces.Any(u=>(u.Card.Kind!=CardType.Equipment&&u.Card.Kind!=CardType.Enchantment)&&Enemies(Active,u.Owner))||Enemies(Active,cells[target].CapitalOwner)); }
+        {if(IsRemoteView)return NetCan("attack",id,target);var p=Find(id);return CanAttackState(p,out int origin,out int range)&&CanAttackTarget(p,target,origin,range);}
+        bool CanAttackState(Piece p,out int origin,out int range)
+        {
+            origin=-1;range=0;
+            if(Over||Phase!=Stage.Main||Priority!=Active||stack.Count!=0||p==null||p.Owner!=Active
+                ||(p.Card.Kind!=CardType.Creature&&!p.Card.IsVehicle)||!CanAct(p)||p.Modifiers.Any(m=>m.NoAttack)||PreconNoAttack(p)||p.Actions<=0||p.Movement<=0)return false;
+            origin=Position(p.Id);range=p.Range;return true;
+        }
+        bool CanAttackTarget(Piece p,int target,int origin,int range)=>InRange(p,target,origin,range)&&cells[target].Terrain!=null
+            &&(cells[target].pieces.Any(u=>(u.Card.Kind!=CardType.Equipment&&u.Card.Kind!=CardType.Enchantment)&&Enemies(Active,u.Owner))||Enemies(Active,cells[target].CapitalOwner));
         void Attack(int[] ids,int target)
         {
             MainOnly(); Check(ids!=null&&ids.Length>0&&ids.Distinct().Count()==ids.Length&&ids.All(i=>CanAttack(i,target)),"Selecione atacantes aptos e um terreno inimigo adjacente.");
@@ -318,12 +348,12 @@ namespace TCG.Foundation
             if(item.Rule!=null) { ResolveRule(item); Drain(); FinishCheck(); return; }
             if(item.Card!=null)
             {
-                if(item.Card.Kind==CardType.Enchantment){var host=Find(item.TargetUnit);if(host!=null&&!Immune(host,item.Owner)){var enchant=SpawnNew(item.Owner,item.Card,Position(host.Id),item.CardOwner);enchant.AttachedTo=host.Id;}else FinishSpell(item);} else if(item.Card.Permanent)
+                if(item.Card.Kind==CardType.Enchantment){if(PreconEnchantmentPlacement(item.Card,item.Owner,item.Target,-1)==true){SpawnNew(item.Owner,item.Card,item.Target,item.CardOwner);}else {var host=Find(item.TargetUnit);if(host!=null&&!Immune(host,item.Owner)){var enchant=SpawnNew(item.Owner,item.Card,Position(host.Id),item.CardOwner);enchant.AttachedTo=host.Id;}else FinishSpell(item);}} else if(item.Card.Permanent)
                 {
                     if(cells[item.Target].Terrain!=null&&cells[item.Target].Owner==item.Owner) { var p=new Piece(nextPiece++,item.Owner,item.Card){Game=this,CommandUnit=item.CommandUnit,OriginalOwner=item.CardOwner<0?item.Owner:item.CardOwner}; cells[item.Target].pieces.Add(p); Enter(p); Visual?.Invoke(new MatchEvent("summon",item.Target,item.Target,p.Id)); }
                     else FinishSpell(item);
                 }
-                else { if(!string.IsNullOrEmpty(item.Card.Rule)) ResolveRule(new Pending{Owner=item.Owner,Card=item.Card,Rule=item.Card.Rule,Target=item.Target,TargetUnit=item.TargetUnit}); foreach(var e in item.Card.Effects) { if(seats[item.Owner].Eliminated) break; effects.Get(e.Operation).Resolve(this,item,e.Amount); } if(!seats[item.Owner].Eliminated) FinishSpell(item); }
+                else { if(!string.IsNullOrEmpty(item.Card.Rule)){item.Rule=item.Card.Rule;ResolveRule(item);} foreach(var e in item.Card.Effects) { if(seats[item.Owner].Eliminated) break; effects.Get(e.Operation).Resolve(this,item,e.Amount); } if(!seats[item.Owner].Eliminated) FinishSpell(item); }
                 if(string.IsNullOrEmpty(item.Card.Rule)&&(item.Card.Kind==CardType.Spell||item.Card.Kind==CardType.Instant)) Visual?.Invoke(new MatchEvent("resolve",Capital(item.Owner,seats.Length),item.Target>=0?item.Target:Capital(item.Owner,seats.Length),-1,item.Card,item.Owner));
                 Note(item.Card.Name+" resolveu.");
             }
@@ -332,7 +362,10 @@ namespace TCG.Foundation
         }
         void ResolveCombat(Pending item)
         {
+            if(PreconUnitCombatChoices(item,()=>ResolveCombat(item)))return;
             ArenaEnter(item); ApplyDefenseAbilities(item); combatDeathObservers=All.ToArray();
+            var preconAttackers=item.Attackers.Select(Find).Where(p=>p!=null).ToArray();
+            foreach(var p in preconAttackers)PreconUnitCombatEntered(p,false);foreach(var id in item.Blockers.Where(x=>x>=0).Distinct()){var p=Find(id);if(p!=null)PreconUnitCombatEntered(p,true);}
             var hits=new List<(Piece target,int amount,Piece source)>(); var applied=new List<(Piece target,int amount,Piece source)>(); var killers=new Dictionary<Piece,Piece>(); var damage=new Dictionary<Piece,int>(); var budgets=new Dictionary<int,int>(); int capitalDamage=0;
             for(int i=0;i<item.Attackers.Length;i++)
             {
@@ -350,9 +383,9 @@ namespace TCG.Foundation
             // Damage is assigned from the same snapshot, then deaths are checked together.
             foreach(var hit in hits) {int before=hit.target.Damage;DamageTo(hit.target,hit.amount,hit.source,false);applied.Add((hit.target,hit.target.Damage-before,hit.source));}
             foreach(var hit in applied){AbilitiesCombatHit(hit.source,hit.target,hit.amount);AfterDamage(hit.target,hit.amount,hit.source);}
-            var casualties=damage.Keys.Where(p=>p.Health<=0).ToArray(); foreach(var p in casualties){p.CombatLethal=true;p.DeathPower=p.Attack;}
+            var casualties=damage.Keys.Where(p=>p.Health<=0&&!IndestructibleSurvives(p)).ToArray(); foreach(var p in casualties){p.CombatLethal=true;p.DeathPower=p.Attack;}
             foreach(var p in casualties) { var killer=killers.TryGetValue(p,out var source)?source:null; p.CombatLethal=true; Kill(p,killer?.Owner??-1); if(killer!=null&&p.Card.Kind==CardType.Creature) KillReward(killer); }
-            combatDeathObservers=null;
+            combatDeathObservers=null;PreconUnitArmyFinished(item.Owner,preconAttackers);
             foreach(int id in item.Attackers) { var a=Find(id); if(a!=null) AfterAttack(a); }
             foreach(var continuation in afterBattle.ToArray()) continuation(); afterBattle.Clear();
             int owner=cells[item.Target].CapitalOwner; if(owner>=0&&capitalDamage>0) { seats[owner].Life-=capitalDamage; if(seats[owner].Life<=0) Eliminate(owner); }
@@ -360,7 +393,9 @@ namespace TCG.Foundation
             Note("Combate resolvido; sobreviventes permanecem na origem.");
         }
         internal void Deal(Piece p,int amount) { DamageTo(p,amount,null,true); }
-        void Kill(Piece p,int killer=-1) {if(OfferDeathResponse(p,killer))return;CommitKill(p,killer);}
+        bool IndestructibleSurvives(Piece p)=>p!=null&&Has(p,"indestructible")&&p.Defense>0;
+        void SacrificePiece(Piece p){if(p==null||Position(p.Id)<0)return;PreconUnitSacrificed(p,Position(p.Id));CommitKill(p);}
+        void Kill(Piece p,int killer=-1) {if(IndestructibleSurvives(p))return;if(OfferDeathResponse(p,killer))return;CommitKill(p,killer);}
         void CommitKill(Piece p,int killer=-1) { int pos=Position(p.Id); if(pos<0) return; if(!p.CombatLethal)p.DeathPower=p.Attack; NewBeforeDeath(p,killer); BicolorBeforeDeath(p,pos); VehicleDestroyed(p,killer); p.CarrierId=-1; Detach(p); cells[pos].pieces.Remove(p); if(!p.Token)seats[p.OriginalOwner].grave.Add(p.Card); CommanderDied(p); OnDeath(p,pos,killer); Visual?.Invoke(new MatchEvent("death",pos,pos,p.Id,p.Card,p.Owner)); }
         void Clean(int owner) { foreach(var p in cells.SelectMany(c=>c.pieces).Where(p=>p.Owner==owner)) p.Damage=0; }
         void BeginTurn()
@@ -368,7 +403,7 @@ namespace TCG.Foundation
             Priority=Active; Phase=Stage.Draw; Placed=false; passes=0; Clean(Active); Array.Clear(seats[Active].mana,0,7);
             foreach(var c in cells)
             {
-                if(c.Owner==Active&&c.Terrain!=null&&c.Terrain.Rule!="ruins") AddMana(Active,c.Terrain.Rule=="portals"?authorRandom.Next(6):c.Terrain.Color,1,Array.IndexOf(cells,c));
+                if(c.Owner==Active&&c.Terrain!=null&&c.Terrain.Rule!="ruins") AddMana(Active,(c.Terrain.Rule=="portals"||c.Terrain.Traits.Contains("precon-random-mana"))?authorRandom.Next(6):c.Terrain.Color,1,Array.IndexOf(cells,c));
                 foreach(var p in c.pieces.Where(p=>p.Owner==Active)) { p.Movement=p.Card.Movement+MovementAdjustment(p); p.Actions=p.Card.Actions+p.PermanentActions+EquipmentBonus(p,3)+ActionAura(p); p.PreviousOwnTurn=p.LastOwnTurn; p.LastOwnTurn=Turn; }
             }
             StartModifiers(); TurnTriggers();
@@ -392,7 +427,3 @@ namespace TCG.Foundation
         void Note(string text) { log.Add(text); if(log.Count>150) log.RemoveAt(0); }
     }
 }
-
-
-
-

@@ -30,8 +30,8 @@ namespace TCG.Foundation.Editor
             }
             EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene(path,true)}.Concat(EditorBuildSettings.scenes.Where(s=>s.path!=path)).ToArray();
             PlayerSettings.defaultScreenWidth=1600; PlayerSettings.defaultScreenHeight=1000; PlayerSettings.fullScreenMode=FullScreenMode.Windowed;
-            AssetDatabase.SaveAssets(); FoundationChecks.Run(); MedievalChecks.Run(); QualityOfLifeChecks.Run(); MovementOrderChecks.Run(); ReactionChecks.Run(); PresentationChecks.Run(); CollectionChecks.Run(); AuthorCardChecks.Run(); HubChecks.Run(); BicolorChecks.Run(); BoosterChecks.Run(); NewCommanderChecks.Run(); NetworkChecks.Run(); ProgressChecks.Run(); SharedTerrainChecks.Run(); PlannedDeckChecks.Run();
-            CoordinationRulesChecks.Run(); CoordinationNetworkChecks.Run();
+            AssetDatabase.SaveAssets(); FoundationChecks.Run(); MedievalChecks.Run(); QualityOfLifeChecks.Run(); MovementOrderChecks.Run(); MovementProjectionChecks.Run(); ActionProjectionChecks.Run(); ReactionChecks.Run(); PresentationChecks.Run(); CollectionChecks.Run(); AuthorCardChecks.Run(); HubChecks.Run(); BicolorChecks.Run(); BoosterChecks.Run(); NewCommanderChecks.Run(); NetworkChecks.Run(); ProgressChecks.Run(); SharedTerrainChecks.Run(); PlannedDeckChecks.Run();
+            CoordinationRulesChecks.Run(); CoordinationNetworkChecks.Run(); PreconLibraryChecks.Run(); PreconUnitChecks.Run(); PreconAuthorChecks.Run(); PreconstructedDeckChecks.Run();PreconIntegrationChecks.Run();
             Debug.Log("FOUNDATION PREPARE PASSED");
         }
         public static void Build()

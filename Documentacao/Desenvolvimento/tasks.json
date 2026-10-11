@@ -1,47 +1,88 @@
 [
   {
-    "taskId": "AG-001-R",
-    "objective": "Verificar regras de deck/comandante sem alterar design",
-    "owner": "especialista-regras",
-    "scope": [
-      "Assets/TCG/Foundation/Editor/CoordinationRulesChecks.cs"
-    ],
+    "taskId": "PC-001-L",
+    "objective": "bibliotecas-magias",
+    "owner": "bibliotecas-magias",
+    "status": "integrated-verified",
     "dependencies": [],
-    "status": "completed",
-    "doneWhen": "Testes relevantes aprovados na execução integrada",
-    "context": "isolated; fork_turns=none",
-    "report": "Documentacao/Desenvolvimento/AG-001-R-result.json",
-    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+    "scope": [
+      "Ver PC-001-contrato.md"
+    ],
+    "doneWhen": "Artefatos integrados e verificações aprovadas",
+    "verification": "PC-001-I-result.json; FoundationSetup.Build e diagnósticos conjuntos"
   },
   {
-    "taskId": "AG-001-N",
-    "objective": "Verificar contrato autoritativo de escolha de decks online",
-    "owner": "especialista-multiplayer",
-    "scope": [
-      "Assets/TCG/Foundation/Editor/CoordinationNetworkChecks.cs"
-    ],
+    "taskId": "PC-001-U",
+    "objective": "tropas-veiculos",
+    "owner": "tropas-veiculos",
+    "status": "integrated-verified",
     "dependencies": [],
-    "status": "completed",
-    "doneWhen": "Duplicação, reconexão e projeções verificadas na execução integrada",
-    "context": "isolated; fork_turns=none",
-    "report": "Documentacao/Desenvolvimento/AG-001-N-result.json",
-    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+    "scope": [
+      "Ver PC-001-contrato.md"
+    ],
+    "doneWhen": "Artefatos integrados e verificações aprovadas",
+    "verification": "PC-001-I-result.json; FoundationSetup.Build e diagnósticos conjuntos"
   },
   {
-    "taskId": "AG-001-I",
-    "objective": "Integrar, validar e demonstrar retomada",
-    "owner": "coordenador",
+    "taskId": "PC-001-UI",
+    "objective": "precons-interface",
+    "owner": "precons-interface",
+    "status": "integrated-verified",
+    "dependencies": [],
     "scope": [
-      "FoundationSetup.cs",
-      "Documentacao/Desenvolvimento",
-      "vault"
+      "Ver PC-001-contrato.md"
     ],
+    "doneWhen": "Artefatos integrados e verificações aprovadas",
+    "verification": "PC-001-I-result.json; FoundationSetup.Build e diagnósticos conjuntos"
+  },
+  {
+    "taskId": "PC-001-A",
+    "objective": "Cartas autorais/revisadas e decisão R016",
+    "owner": "precon_interface",
+    "status": "integrated-verified",
+    "dependencies": [],
+    "scope": [
+      "Tools/precon_author_rules.py",
+      "Core/PreconAuthorRules.cs",
+      "Editor/PreconAuthorChecks.cs"
+    ],
+    "doneWhen": "Integração com host e 89 verificações autorais aprovadas"
+  },
+  {
+    "taskId": "PC-001-N",
+    "objective": "Reconexão pendente e projeções de ações/rotas sem cálculos repetidos",
+    "owner": "multiplayer_piloto",
+    "status": "integrated-verified",
     "dependencies": [
-      "AG-001-R",
-      "AG-001-N"
+      "PC-001-UI"
     ],
-    "status": "completed",
-    "doneWhen": "Compilação e testes conjuntos aprovados; registro de retomada consultado e relatórios persistidos",
-    "integrationEvidence": "Documentacao/Desenvolvimento/integration-result.json"
+    "scope": [
+      "Runtime/NetworkDiagnostics.cs",
+      "Core/MovementOrders.cs",
+      "Core/NetworkView.cs",
+      "Core/Match.cs",
+      "Core/MedievalRules.cs",
+      "Editor/MovementProjectionChecks.cs",
+      "Editor/ActionProjectionChecks.cs"
+    ],
+    "doneWhen": "Equivalência com APIs públicas, build e LAN4 com segunda reconexão aprovados"
+  },
+  {
+    "taskId": "PC-001-I",
+    "objective": "coordenador",
+    "owner": "coordenador",
+    "status": "integrated-verified",
+    "dependencies": [
+      "PC-001-L",
+      "PC-001-U",
+      "PC-001-UI",
+      "PC-001-A",
+      "PC-001-N"
+    ],
+    "scope": [
+      "Ver PC-001-contrato.md"
+    ],
+    "doneWhen": "Artefatos integrados e verificações aprovadas",
+    "verification": "PC-001-I-result.json; FoundationSetup.Build e diagnósticos conjuntos"
   }
 ]

@@ -31,7 +31,7 @@ namespace TCG.Foundation
   }
   void DisembarkVehicle(int troop)
   {
-   MainOnly();Check(CanDisembark(troop),"Desembarque exige 1 PA da tropa.");var p=Find(troop);p.Actions--;p.CarrierId=-1;Note(p.Card.Name+" desembarcou no mesmo tile (1 PA).");
+   MainOnly();Check(CanDisembark(troop),"Desembarque exige 1 PA da tropa.");var p=Find(troop);p.Actions--;p.CarrierId=-1;PreconUnitDisembarked(p);Note(p.Card.Name+" desembarcou no mesmo tile (1 PA).");
   }
   void CarryPassengers(Piece vehicle,int from,int to)
   {

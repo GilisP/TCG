@@ -23,6 +23,13 @@ namespace TCG.Foundation
         public static readonly HashSet<string> Scopes=new HashSet<string>{"any","here","adjacent","hereOrAdjacent"};
         public static readonly HashSet<string> Conditions=new HashSet<string>{"","adjAlly","sameOther","nearBuilding","still","capital","range2","noEnemyAdjacent","alone","wounded","moved","attacked","grave3","grave5","attackCapital","attackBuilding","attackWounded","targetHasAllyAdjacent","ownTurn","terrainCreature","terrainBuilding","terrainCapital","terrainTwo","terrainEntered","equipped"};
         public static readonly HashSet<string> Operations=new HashSet<string>{"buff","buffSource","shield","gainLife","loseLife","draw","scry","orderTop","selectTop","grave","damage","damageSelf","heal","move","groupMove","pull","sacrifice","sacrificeSource","loot","bottomHand","mill","millDamage","millSelf","mana","keyword","bounce","drawTerrain","noMove","noAttack","immune","immobile","marker","equipDiscount","pirateRecover"};
+        static AbilitySchema()
+        {
+            Operations.UnionWith(PreconLibrarySchema.Operations); Operations.UnionWith(PreconUnitSchema.Operations); Operations.UnionWith(PreconAuthorSchema.Operations);
+            Conditions.UnionWith(PreconLibrarySchema.Conditions); Conditions.UnionWith(PreconUnitSchema.Conditions); Conditions.UnionWith(PreconAuthorSchema.Conditions);
+            Targets.UnionWith(PreconLibrarySchema.Targets); Targets.UnionWith(PreconUnitSchema.Targets); Targets.UnionWith(PreconAuthorSchema.Targets);
+            Triggers.UnionWith(PreconLibrarySchema.Triggers); Triggers.UnionWith(PreconUnitSchema.Triggers); Triggers.UnionWith(PreconAuthorSchema.Triggers);
+        }
         public static bool Valid(CardAbility[] abilities)=>abilities!=null&&abilities.Length<=16&&abilities.All(a=>a!=null&&Triggers.Contains(a.trigger)&&Targets.Contains(a.target)&&Scopes.Contains(a.scope)&&Conditions.Contains(a.condition)&&Conditions.Contains(a.gate)&&(a.sacrifice==""||a.sacrifice=="own"||a.sacrifice=="other"||a.sacrifice=="self")&&a.mana>=0&&a.mana<=100&&a.pa>=0&&a.pa<=10&&a.manaColor>=-1&&a.manaColor<7&&a.colored>=0&&a.colored<=10&&a.maxCost>=0&&a.count>=1&&a.count<=121&&a.ops!=null&&a.ops.Length>0&&a.ops.Length<=12&&a.ops.All(o=>o!=null&&Operations.Contains(o.kind)&&Conditions.Contains(o.condition)&&Math.Abs(o.a)<=1000&&Math.Abs(o.b)<=1000&&Math.Abs(o.c)<=1000));
     }
 
@@ -35,6 +42,7 @@ namespace TCG.Foundation
         int AbilityOrigin(Pending item)=>item.Source!=null&&Position(item.Source.Id)>=0?Position(item.Source.Id):item.SourceCell;
         bool AbilityCondition(string condition,Piece p,int owner,int at,int target=-1)
         {
+            var custom=PreconLibraryCondition(condition,p,owner,at,target)??PreconUnitCondition(condition,p,owner,at,target)??PreconAuthorCondition(condition,p,owner,at,target); if(custom.HasValue)return custom.Value;
             switch(condition??"")
             {
                 case "":return true;
@@ -66,6 +74,7 @@ namespace TCG.Foundation
         }
         bool AbilityTarget(CardAbility a,Pending item,Piece p,bool passive=false)
         {
+            var custom=PreconUnitTarget(a,item,p,passive)??PreconAuthorTarget(a,item,p,passive); if(custom.HasValue)return custom.Value;
             int owner=item.Owner,at=AbilityOrigin(item),pos=Position(p.Id);
             bool type=a.target=="self"?p==item.Source:a.target=="host"?item.Source?.AttachedTo==p.Id:a.target=="subject"?p==item.Subject:
                 a.target=="ownBuilding"?p.Owner==owner&&p.Card.Kind==CardType.Construction:
@@ -83,7 +92,7 @@ namespace TCG.Foundation
         }
         internal int AbilityBonus(Piece p,int stat)
         {
-            int total=0;
+            int total=PreconUnitBonus(p,stat)+PreconAuthorBonus(p,stat);
             foreach(var source in All)
             foreach(var a in source.Card.Abilities.Where(x=>x.trigger=="aura"))
             {
@@ -127,17 +136,18 @@ namespace TCG.Foundation
             if(!activated&&source!=null&&TerrainRule(at,"academy")&&source.Card.Subtypes.Contains("Mago"))stack.Add(new Pending{Owner=owner,Card=card,Rule="abilities",Source=source,SourceCell=at,ScriptIndex=index,Subject=subject,Target=target});
             Visual?.Invoke(new MatchEvent("trigger",Capital(owner,seats.Length),Capital(owner,seats.Length),source?.Id??-1,card,owner));
         }
-        IEnumerable<Piece> SacrificeOptions(CardAbility a,int owner,Piece source)=>All.Where(p=>p.Owner==owner&&p.Card.Kind==CardType.Creature&&(a.sacrifice!="self"||p==source)&&(a.sacrifice!="other"||p!=source&&source!=null&&Position(p.Id)==Position(source.Id)));
-        void PayAbilitySacrifice(CardAbility a,int owner,Piece source,Action<Piece> commit)
+        IEnumerable<Piece> SacrificeOptions(CardAbility a,int owner,Piece source,int cell=-1)=>All.Where(p=>p.Owner==owner&&p.Card.Kind==CardType.Creature&&(a.sacrifice!="self"||p==source)&&(a.sacrifice!="other"||p!=source&&source!=null&&Position(p.Id)==Position(source.Id))&&PreconUnitSacrificeAllowed(a,p,source,source==null?cell:Position(source.Id)));
+        void PayAbilitySacrifice(CardAbility a,int owner,Piece source,Action<Piece> commit,int cell=-1)
         {
             if(a.sacrifice==""){commit(null);return;}
-            var options=SacrificeOptions(a,owner,source).ToArray();
+            var options=SacrificeOptions(a,owner,source,cell).ToArray();
             if(a.sacrifice=="self"){if(options.Length>0)commit(source);return;}
-            Ask(owner,"Sacrifício como custo",options.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null&&SacrificeOptions(a,owner,source).Contains(p))commit(p);},true);
+            Ask(owner,"Sacrifício como custo",options.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null&&SacrificeOptions(a,owner,source,cell).Contains(p))commit(p);},true);
         }
-        bool AbilityPayable(CardAbility a,int owner,Piece p)=>(a.sacrifice==""||SacrificeOptions(a,owner,p).Any())&&seats[owner].mana.Sum()>=a.mana+a.colored&&(a.manaColor<0||seats[owner].mana[a.manaColor]>=a.colored)&&(a.pa==0||p!=null&&p.Actions>=a.pa);
+        bool AbilityPayable(CardAbility a,int owner,Piece p,int cell=-1)=>(a.sacrifice==""||SacrificeOptions(a,owner,p,cell).Any())&&seats[owner].mana.Sum()>=a.mana+a.colored&&(a.manaColor<0||seats[owner].mana[a.manaColor]>=a.colored)&&(a.pa==0||p!=null&&p.Actions>=a.pa);
         bool AbilityHasTargets(CardAbility a,Pending item)
         {
+            var precon=PreconLibraryHasTargets(a,item)??PreconUnitHasTargets(a,item);if(precon.HasValue)return precon.Value;
             if(a.target=="owner")return a.ops.All(op=>op.kind!="pirateRecover"||seats.Any(s=>s.grave.Milled.Any()));
             if(a.target=="player")return true;
             return All.Any(p=>AbilityTarget(a,item,p));
@@ -145,23 +155,23 @@ namespace TCG.Foundation
         bool CanUseAbility(Piece p)
         {
             if(p==null)return false;
-            return p.Card.Abilities.Select((a,i)=>(a,i)).Any(x=>x.a.trigger=="activate"&&AbilityPayable(x.a,p.Owner,p)&&(!x.a.once||!abilityUses.TryGetValue(AbilityKey(p,Position(p.Id),x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=p.Owner,Source=p,SourceCell=Position(p.Id)}));
+            return p.Card.Abilities.Select((a,i)=>(a,i)).Any(x=>x.a.trigger=="activate"&&AbilityCondition(x.a.gate,p,p.Owner,Position(p.Id))&&AbilityPayable(x.a,p.Owner,p)&&(!x.a.once||!abilityUses.TryGetValue(AbilityKey(p,Position(p.Id),x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=p.Owner,Source=p,SourceCell=Position(p.Id)}));
         }
         void UseAbility(Piece p)
         {
-            var list=p.Card.Abilities.Select((a,i)=>(a,i)).Where(x=>x.a.trigger=="activate"&&AbilityPayable(x.a,p.Owner,p)&&(!x.a.once||!abilityUses.TryGetValue(AbilityKey(p,Position(p.Id),x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=p.Owner,Source=p,SourceCell=Position(p.Id)})).ToArray();
-            void Use(int index){var a=p.Card.Abilities[index];PayAbilitySacrifice(a,p.Owner,p,cost=>{if(!AbilityPayable(a,p.Owner,p))return;int at=Position(p.Id);if(a.manaColor>=0)seats[p.Owner].mana[a.manaColor]-=a.colored;SpendGeneric(p.Owner,a.mana);p.Actions-=a.pa;abilityUses[AbilityKey(p,at,index)]=Turn;QueueAbility(p.Card,p.Owner,p,at,index,activated:true);if(cost!=null)CommitKill(cost);});}
+            var list=p.Card.Abilities.Select((a,i)=>(a,i)).Where(x=>x.a.trigger=="activate"&&AbilityCondition(x.a.gate,p,p.Owner,Position(p.Id))&&AbilityPayable(x.a,p.Owner,p)&&(!x.a.once||!abilityUses.TryGetValue(AbilityKey(p,Position(p.Id),x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=p.Owner,Source=p,SourceCell=Position(p.Id)})).ToArray();
+            void Use(int index){var a=p.Card.Abilities[index];PayAbilitySacrifice(a,p.Owner,p,cost=>{if(!AbilityPayable(a,p.Owner,p)||!AbilityCondition(a.gate,p,p.Owner,Position(p.Id)))return;int at=Position(p.Id);int costValue=cost==null?0:cost.Attack+cost.Defense;if(a.manaColor>=0)seats[p.Owner].mana[a.manaColor]-=a.colored;SpendGeneric(p.Owner,a.mana);p.Actions-=a.pa;abilityUses[AbilityKey(p,at,index)]=Turn;QueueAbility(p.Card,p.Owner,p,at,index,cost,activated:true);stack.Last().Amount=costValue;if(cost!=null)SacrificePiece(cost);});}
             if(list.Length==1)Use(list[0].i);else Ask(p.Owner,"Escolha a habilidade",list.Select(x=>new ChoiceOption(x.i,"Habilidade "+(x.i+1))),Use);
         }
         public bool CanActivateTerrain(int at)
         {
             if(IsRemoteView)return NetCan("terrainAbility",at);
             if(!Valid(at)||!CargoWindow||cells[at].Owner!=Active||cells[at].Terrain==null)return false;
-            return cells[at].Terrain.Abilities.Select((a,i)=>(a,i)).Any(x=>x.a.trigger=="activate"&&AbilityPayable(x.a,Active,null)&&AbilityCondition(x.a.gate,null,Active,at)&&(!abilityUses.TryGetValue(AbilityKey(null,at,x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=Active,SourceCell=at}));
+            return cells[at].Terrain.Abilities.Select((a,i)=>(a,i)).Any(x=>x.a.trigger=="activate"&&AbilityPayable(x.a,Active,null,at)&&AbilityCondition(x.a.gate,null,Active,at)&&(!abilityUses.TryGetValue(AbilityKey(null,at,x.i),out int t)||t!=Turn)&&AbilityHasTargets(x.a,new Pending{Owner=Active,SourceCell=at}));
         }
         void ActivateTerrain(int at)
         {
-            Check(CanActivateTerrain(at),"Habilidade do terreno indisponível.");var card=cells[at].Terrain;int index=card.Abilities.Select((a,i)=>(a,i)).First(x=>x.a.trigger=="activate").i;var a=card.Abilities[index];SpendGeneric(Active,a.mana);abilityUses[AbilityKey(null,at,index)]=Turn;QueueAbility(card,Active,null,at,index,activated:true);
+            Check(CanActivateTerrain(at),"Habilidade do terreno indisponível.");var card=cells[at].Terrain;int index=card.Abilities.Select((a,i)=>(a,i)).First(x=>x.a.trigger=="activate").i;var a=card.Abilities[index];PayAbilitySacrifice(a,Active,null,cost=>{if(!AbilityPayable(a,Active,null,at))return;if(a.manaColor>=0)seats[Active].mana[a.manaColor]-=a.colored;SpendGeneric(Active,a.mana);abilityUses[AbilityKey(null,at,index)]=Turn;QueueAbility(card,Active,null,at,index,cost,activated:true);if(cost!=null)SacrificePiece(cost);},at);
         }
         bool AbilityEnchantmentTarget(Definition card,Piece host,int owner)
         {
@@ -188,7 +198,7 @@ namespace TCG.Foundation
             if(a.target=="owner"){AbilityOps(item,a,null,0,item.Owner);return;}
             if(a.target=="player"){Ask(item.Owner,"Escolha o jogador",Enumerable.Range(0,seats.Length).Where(n=>!seats[n].Eliminated).Select(n=>new ChoiceOption(n,seats[n].Name)),n=>AbilityOps(item,a,null,0,n));return;}
             if(a.target=="self"||a.target=="host"||a.target=="subject")
-            {var p=a.target=="self"?item.Source:a.target=="host"?Find(item.Source?.AttachedTo??-1):item.Subject;if(p!=null&&Find(p.Id)!=null&&AbilityTarget(a,item,p))AbilityOps(item,a,p,0,a.trigger=="capitalHit"?item.Target:item.Owner);return;}
+            {var p=a.target=="self"?item.Source:a.target=="host"?Find(item.Source?.AttachedTo??-1):item.Subject;if(p!=null&&Find(p.Id)!=null&&AbilityTarget(a,item,p))AbilityOps(item,a,p,0,(a.trigger=="capitalHit"||a.trigger=="pcu-host-capital-hit")?item.Target:item.Owner);return;}
             if(a.target.StartsWith("group"))
             {
                 Ask(item.Owner,"Escolha o terreno do efeito",All.Where(p=>AbilityTarget(a,item,p)).Select(p=>Position(p.Id)).Distinct().Select(n=>new ChoiceOption(n,"Terreno "+n%11+","+n/11)),at=>{
@@ -206,9 +216,10 @@ namespace TCG.Foundation
             void Next()=>work.Enqueue(()=>AbilityOps(item,a,target,index+1,player));
             bool alive=target!=null&&Find(target.Id)!=null;
             if(!AbilityCondition(op.condition,target??item.Source,owner,target!=null?Position(target.Id):AbilityOrigin(item),item.Target)){Next();return;}
+            if(ResolvePreconLibraryOp(item,a,target,op,player,Next)||ResolvePreconUnitOp(item,a,target,op,player,Next)||ResolvePreconAuthorOp(item,a,target,op,player,Next))return;
             switch(op.kind)
             {
-                case "buff":if(alive){int mv=op.value.StartsWith("move:")?int.Parse(op.value.Substring(5)):0;target.Modifiers.Add(new Modifier{Attack=op.a,Defense=op.b,Range=op.c,Movement=mv,EndTurn=op.value=="next"?-1:Turn,NextOwner=op.value=="next"?owner:-1,CombatOnly=op.value=="combat"});Preview(item,Position(target.Id));}break;
+                case "buff":if(alive){if(op.b<0)preconEffectOwners[target.Id]=owner;int mv=op.value.StartsWith("move:")?int.Parse(op.value.Substring(5)):0;target.Modifiers.Add(new Modifier{Attack=op.a,Defense=op.b,Range=op.c,Movement=mv,EndTurn=op.value=="next"?-1:Turn,NextOwner=op.value=="next"?owner:-1,CombatOnly=op.value=="combat"});Preview(item,Position(target.Id));}break;
                 case "buffSource":if(item.Source!=null&&Find(item.Source.Id)!=null)Buff(item.Source,op.a,op.b,op.c);break;
                 case "marker":if(alive)target.Modifiers.Add(new Modifier{Attack=op.a,Defense=op.b});break;
                 case "shield":if(alive)target.Modifiers.Add(new Modifier{Prevent=op.a,EndTurn=Turn,AccumulatePrevention=true});break;
@@ -225,8 +236,8 @@ namespace TCG.Foundation
                 case "bounce":if(alive)ReturnHand(target);break;
                 case "move":if(alive)Displace(owner,target,op.a,true,op.value=="own"?(Func<int,bool>)(at=>cells[at].Owner==owner):null,Next,at=>{Preview(item,at);Next();});else Next();return;
                 case "pull":if(alive){int at=AbilityOrigin(item);if(Valid(at)&&Adjacent(Position(target.Id),at)&&!Blocked(target,at))ApplyDisplacement(owner,target,at,n=>Preview(item,n));}break;
-                case "sacrifice":if(alive)Kill(target);break;
-                case "sacrificeSource":if(item.Source!=null&&Find(item.Source.Id)!=null)Kill(item.Source);break;
+                case "sacrifice":if(alive)SacrificePiece(target);break;
+                case "sacrificeSource":if(item.Source!=null&&Find(item.Source.Id)!=null)SacrificePiece(item.Source);break;
                 case "mana":AddMana(owner,op.b,op.a);break;
                 case "mill":MillCards(player,op.a);break;
                 case "millDamage":MillCards(item.Target,item.Amount);break;
@@ -278,19 +289,19 @@ namespace TCG.Foundation
             var parts=op.value.Split(':');string kind=parts[0],dest=parts.Length>1?parts[1]:"hand";
             var choices=seats[owner].grave.Where(c=>c.TotalCost<=op.a&&(kind=="any"||kind=="creature"&&c.Kind==CardType.Creature||kind=="spell"&&c.Kind==CardType.Spell||kind=="instant"&&c.Kind==CardType.Instant||kind=="equipment"&&c.Kind==CardType.Equipment)).Distinct().ToArray();
             if(choices.Length==0){done();return;}
-            Ask(owner,"Escolha no seu cemitério",choices.Select((c,n)=>new ChoiceOption(n,c.Name)),n=>{var card=choices[n];if(seats[owner].grave.Remove(card)){if(dest=="hand")seats[owner].hand.Add(card);else if(dest=="top")seats[owner].main.Add(card);else seats[owner].main.Insert(0,card);}done();});
+            Ask(owner,"Escolha no seu cemitério",choices.Select((c,n)=>new ChoiceOption(n,c.Name)),n=>{var card=choices[n];if(seats[owner].grave.Remove(card)){PreconLibraryGraveLeave(owner);if(dest=="hand")seats[owner].hand.Add(card);else if(dest=="top")seats[owner].main.Add(card);else seats[owner].main.Insert(0,card);}done();});
         }
         void RecoverMilled(int owner,Action done)
         {
             var choices=seats.SelectMany((s,n)=>s.grave.Milled.Select(x=>(owner:n,entry:x))).ToArray();
             if(choices.Length==0){done();return;}
-            Ask(owner,"Carta que veio diretamente do grimório",choices.Select((x,n)=>new ChoiceOption(n,x.entry.Card.Name+" · "+seats[x.owner].Name)),n=>{var choice=choices[n];if(seats[choice.owner].grave.RemoveEntry(choice.entry.Id)){var card=new Definition(NetworkCards.Pack(choice.entry.Card),choice.entry.Card.Expansion);foreignOwners[card]=choice.owner;seats[owner].hand.Add(card);}done();});
+            Ask(owner,"Carta que veio diretamente do grimório",choices.Select((x,n)=>new ChoiceOption(n,x.entry.Card.Name+" · "+seats[x.owner].Name)),n=>{var choice=choices[n];if(seats[choice.owner].grave.RemoveEntry(choice.entry.Id)){PreconLibraryGraveLeave(owner);var card=new Definition(NetworkCards.Pack(choice.entry.Card),choice.entry.Card.Expansion);foreignOwners[card]=choice.owner;seats[owner].hand.Add(card);}done();});
         }
         int CardOriginalOwner(Definition card,int fallback)=>foreignOwners.TryGetValue(card,out int owner)?owner:fallback;
         void AbilityCapitalHit(Piece source,int victim,int amount)
         {
             if(source==null||amount<=0)return;AbilityEvent(source,"capitalHit",target:victim);
-            foreach(var equipment in All.Where(p=>p.AttachedTo==source.Id).ToArray())AbilityEvent(equipment,"capitalHit",source,target:victim);
+            foreach(var equipment in All.Where(p=>p.AttachedTo==source.Id).ToArray()){AbilityEvent(equipment,"capitalHit",source,target:victim);AbilityEvent(equipment,"pcu-host-capital-hit",source,target:victim);}
             if(source.Card.Kind==CardType.Creature)foreach(var pirate in All.Where(p=>p.Owner==source.Owner&&p.Card.Id=="IDEIA-004").ToArray())
                 {QueueAbility(pirate.Card,pirate.Owner,pirate,Position(pirate.Id),1,source,victim);stack.Last().Amount=amount;}
         }
@@ -298,9 +309,9 @@ namespace TCG.Foundation
         {
             AbilityEvent(p,"enter");int at=Position(p.Id);if(p.Card.Kind==CardType.Creature){enteredTerrain[at*4+p.Owner]=Turn;foreach(var q in All.Where(q=>q.Owner==p.Owner&&q!=p&&Position(q.Id)==at).ToArray())AbilityEvent(q,"allyEnterHere",p);}
         }
-        void AbilitiesDied(Piece p,int at)
+        void AbilitiesDied(Piece p,int at,Piece killer=null)
         {
-            AbilityEvent(p,"death",cell:at);if(p.CombatLethal)AbilityEvent(p,"combatDeath",cell:at);
+            AbilityEvent(p,"death",cell:at);if(p.CombatLethal)AbilityEvent(p,"combatDeath",killer,cell:at);
             if(p.Card.Kind==CardType.Creature)foreach(var q in All.Where(q=>q.Owner==p.Owner&&Position(q.Id)==at).ToArray())AbilityEvent(q,"allyDeathHere",p);
         }
         void AbilitiesDamaged(Piece p,int amount,Piece source)

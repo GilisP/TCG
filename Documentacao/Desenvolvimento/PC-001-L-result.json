@@ -1,0 +1,340 @@
+{
+  "status": "specialist-implementation-complete-integration-pending",
+  "translatedCount": 173,
+  "translatedIds": [
+    "ED261008-D01-F05-1",
+    "ED261008-D01-F01-1",
+    "ED261008-D01-F02-1",
+    "ED261008-D01-F03-1",
+    "ED261008-D01-F07-1",
+    "ED261008-D01-F06-1",
+    "ED261008-D01-F05-2",
+    "ED261007-01-C001",
+    "ED261008-D01-F01-2",
+    "ED261008-D01-F02-2",
+    "ED261008-D01-F03-2",
+    "ED261008-D01-F07-2",
+    "ED261007-01-C005",
+    "ED261007-01-C007",
+    "ED261008-D01-F06-2",
+    "ED261008-D01-F08-1",
+    "ED261008-D01-F05-3",
+    "ED261008-D01-F04-2",
+    "ED261008-D01-F02-3",
+    "ED261007-01-C002",
+    "ED261008-D01-F03-3",
+    "ED261008-D01-F07-3",
+    "ED261008-D01-F06-3",
+    "ED261008-D01-F08-2",
+    "ED261007-01-C008",
+    "ED261007-01-C009",
+    "ED261008-D01-F01-3",
+    "ED261007-01-C004",
+    "ED261007-01-C003",
+    "ED261008-D01-F05-4",
+    "ED261008-D01-F04-3",
+    "ED261008-D01-F04-1",
+    "ED261008-D01-F02-4",
+    "ED261008-D01-F03-4",
+    "ED261008-D01-F07-4",
+    "ED261008-D01-F06-4",
+    "ED261008-D01-F08-3",
+    "ED261008-D01-F05-5",
+    "ED261008-D01-F02-5",
+    "ED261008-D01-F03-5",
+    "ED261008-D01-F07-5",
+    "ED261008-D01-F06-5",
+    "ED261008-D01-F08-4",
+    "ED261008-D01-F01-4",
+    "ED261007-01-C006",
+    "ED261008-D01-F01-5",
+    "ED261008-D01-F04-4",
+    "ED261008-D01-F04-5",
+    "ED261008-D01-M03",
+    "ED261008-D01-F08-5",
+    "ED261008-D01-M02",
+    "ED261008-D01-M01",
+    "ED261007-01-T001",
+    "ED261007-01-T002",
+    "ED261007-01-T003",
+    "ED261008-D01-T36",
+    "ED261008-D01-T37",
+    "ED261008-D01-T38",
+    "ED261008-D01-T39",
+    "ED261008-D01-T40",
+    "ED261008-D01-T41",
+    "ED261008-D01-T42",
+    "ED261008-D01-T43",
+    "ED261008-D01-T44",
+    "ED261008-D01-T45",
+    "ED261008-D01-T46",
+    "ED261008-D01-T47",
+    "ED261008-D01-T48",
+    "ED261008-D01-T49",
+    "ED261008-D01-T50",
+    "ED261008-D02-F04-1",
+    "ED261008-D02-F06-1",
+    "ED261008-D02-F02-1",
+    "ED261007-02-C005",
+    "ED261008-D02-F07-1",
+    "ED261008-D02-F05-1",
+    "ED261008-D02-F03-1",
+    "ED261008-D02-F08-1",
+    "ED261008-D02-F01-1",
+    "ED261007-02-C006",
+    "ED261008-D02-F04-2",
+    "ED261008-D02-F06-2",
+    "ED261008-D02-F02-2",
+    "ED261008-D02-F07-2",
+    "ED261008-D02-F05-2",
+    "ED261008-D02-F03-2",
+    "ED261008-D02-F08-2",
+    "ED261008-D02-F01-2",
+    "ED261008-D02-F06-3",
+    "ED261008-D02-F02-3",
+    "ED261008-D02-F07-3",
+    "ED261008-D02-F05-3",
+    "ED261008-D02-F03-3",
+    "ED261008-D02-F08-3",
+    "ED261008-D02-F01-3",
+    "ED261007-02-C008",
+    "ED261007-02-C001",
+    "ED261008-D02-F04-3",
+    "ED261007-02-C003",
+    "ED261007-02-C007",
+    "ED261008-D02-F06-4",
+    "ED261008-D02-F02-4",
+    "ED261008-D02-F07-4",
+    "ED261008-D02-F05-4",
+    "ED261008-D02-F03-4",
+    "ED261008-D02-F08-4",
+    "ED261008-D02-F01-4",
+    "ED261007-02-C002",
+    "ED261008-D02-F06-5",
+    "ED261008-D02-F02-5",
+    "ED261008-D02-F07-5",
+    "ED261008-D02-F05-5",
+    "ED261008-D02-F03-5",
+    "ED261008-D02-F08-5",
+    "ED261008-D02-F01-5",
+    "ED261007-02-C009",
+    "ED261008-D02-F04-4",
+    "ED261008-D02-F04-5",
+    "ED261007-02-C010",
+    "ED261008-D02-M03",
+    "ED261008-D02-M01",
+    "ED261008-D02-M02",
+    "ED261007-02-T001",
+    "ED261007-02-T002",
+    "ED261007-02-T003",
+    "ED261008-D02-T36",
+    "ED261008-D02-T37",
+    "ED261008-D02-T38",
+    "ED261008-D02-T39",
+    "ED261008-D02-T40",
+    "ED261008-D02-T41",
+    "ED261008-D02-T42",
+    "ED261008-D02-T43",
+    "ED261008-D02-T44",
+    "ED261008-D02-T45",
+    "ED261008-D02-T46",
+    "ED261008-D02-T47",
+    "ED261008-D02-T48",
+    "ED261008-D02-T49",
+    "ED261008-D02-T50",
+    "ED261008-D05-F02-1",
+    "ED261008-D05-F07-1",
+    "ED261007-05-C002",
+    "ED261008-D05-F02-2",
+    "ED261008-D05-F07-2",
+    "ED261008-D05-F02-3",
+    "ED261008-D05-F07-3",
+    "ED261007-05-C006",
+    "ED261008-D05-F02-4",
+    "ED261008-D05-F07-4",
+    "ED261008-D05-F02-5",
+    "ED261008-D05-F07-5",
+    "ED261007-05-T002",
+    "ED261008-D06-F04-1",
+    "ED261008-D06-F04-2",
+    "ED261008-D06-F04-3",
+    "ED261008-D06-F04-4",
+    "ED261008-D06-F04-5",
+    "ED261007-06-T002",
+    "ED261008-D08-F08-1",
+    "ED261008-D08-F08-2",
+    "ED261007-08-C005",
+    "ED261008-D08-F06-1",
+    "ED261008-D08-F08-3",
+    "ED261008-D08-F06-2",
+    "ED261007-08-C004",
+    "ED261008-D08-F08-4",
+    "ED261008-D08-F06-3",
+    "ED261008-D08-F08-5",
+    "ED261008-D08-F06-4",
+    "ED261008-D08-F06-5",
+    "ED261007-08-T002",
+    "ED261008-D10-M02"
+  ],
+  "remainingLibraryEffects": [
+    {
+      "id": "AUTOR-20261007-CARTA-001",
+      "text": "2pa: olhe a carta do topo do grimorio alvo."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-007",
+      "text": "tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-008",
+      "text": "1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-011",
+      "text": "toda criatura em seu cemiterio tem \"Exumar 1: pague uma mana incolor e exile esse card. compre um card\""
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-012",
+      "text": "o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-013",
+      "text": "de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo"
+    },
+    {
+      "id": "COL001-R001",
+      "text": "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida."
+    },
+    {
+      "id": "COL001-R002",
+      "text": "Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele."
+    },
+    {
+      "id": "COL001-R004",
+      "text": "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório."
+    },
+    {
+      "id": "COL001-R007",
+      "text": "Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio."
+    },
+    {
+      "id": "COL001-R008",
+      "text": "Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno."
+    },
+    {
+      "id": "COL001-R009",
+      "text": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão."
+    },
+    {
+      "id": "COL001-R010",
+      "text": "Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas."
+    },
+    {
+      "id": "COL001-R011",
+      "text": "Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório."
+    },
+    {
+      "id": "COL001-R016",
+      "text": "Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para o campo."
+    },
+    {
+      "id": "COL001-R017",
+      "text": "Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão."
+    },
+    {
+      "id": "AUTOR-20261007-TERRENO-001",
+      "text": "uma vez por turno caso esse tile seja atacado e não tenha criaturas nele volte uma critura de seu cemiterio até o final do turno para a defender"
+    },
+    {
+      "id": "ED261008-D08-M01",
+      "text": "Devolva até duas criaturas do seu cemitério à mão. Crie uma ficha Planta 2/4, 1 PA, movimento 1 e alcance 1 na sua capital."
+    },
+    {
+      "id": "ED261007-09-C010",
+      "text": "Um veículo seu recebe +1 de movimento até o fim do turno. Olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F06-1",
+      "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F08-1",
+      "text": "Devolva até 1 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+    },
+    {
+      "id": "ED261007-10-C010",
+      "text": "Devolva um equipamento seu do campo para sua mão. Desanexe-o antes; a criatura permanece no campo."
+    },
+    {
+      "id": "ED261008-D10-F08-2",
+      "text": "Devolva até 1 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+    },
+    {
+      "id": "ED261008-D10-F06-2",
+      "text": "Equipar: 1 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F08-3",
+      "text": "Devolva até 2 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+    },
+    {
+      "id": "ED261008-D10-F06-3",
+      "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F08-4",
+      "text": "Devolva até 2 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+    },
+    {
+      "id": "ED261007-10-C008",
+      "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Uma vez no seu turno, quando ela causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F06-4",
+      "text": "Equipar: 2 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F06-5",
+      "text": "Equipar: 3 mana(s) genérica(s), no mesmo tile. A criatura equipada: Uma vez no seu turno, quando causar dano de combate a uma capital, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-M03",
+      "text": "Uma vez no seu turno, quando um equipamento seu entrar no campo, cure 2 de vida da sua capital. Se uma ficha sua estiver equipada, olhe a carta do topo do seu grimório; você pode colocá-la no fundo."
+    },
+    {
+      "id": "ED261008-D10-F08-5",
+      "text": "Devolva até 3 equipamentos seus do campo à mão dos donos. Desanexe-os antes; as criaturas permanecem no campo."
+    }
+  ],
+  "verification": [
+    "Python import and 728 source records inspected",
+    "Whole-text matches: 173; text/id preserved",
+    "False returns leave original dictionary unchanged"
+  ],
+  "editorTests": "written, not run; coordinator owns Unity",
+  "hooks": [
+    "ResolvePreconLibraryOp before AbilityOps switch",
+    "PreconLibraryEndTurn(Active) before Turn increments",
+    "PreconLibraryPermissionValid(id) in CanCastExiled",
+    "PreconLibraryPlayed(owner,card) from AuthorPlayed",
+    "PreconLibraryEquipped(equipment,host) after attachment",
+    "PreconLibraryGraveLeave(actor) after successful grave removals by existing effects; new pcl ops call internally",
+    "PreconLibraryCondition in AbilityCondition",
+    "PreconLibraryForeignPlayed(owner,original,card) in QueueForeignCast Announce; normal casts in AuthorPlayed",
+    "PreconLibraryHasTargets(CardAbility,Pending) nullable in AbilityHasTargets"
+  ],
+  "notes": [
+    "PCL covers D01/D02 library families and grave recoveries across decks; AUTOR and COL001-R bespoke are coordinator responsibility",
+    "Other composite unit/equipment effects delegated to PCU",
+    "No runtime parsing of editorial text"
+  ],
+  "remainingAssignments": {
+    "coordinator": "AUTOR-* and COL001-R* bespoke",
+    "unitSpecialist": "D08-M01, ED261007-09-C010, D10-F06/F08/M03/C008/C010 composite unit/equipment effects"
+  },
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "PC-001-I-result.json",
+    "allPreconsReady": 10
+  }
+}

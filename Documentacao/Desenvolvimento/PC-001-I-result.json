@@ -1,0 +1,64 @@
+{
+  "taskId": "PC-001",
+  "status": "integrated-verified",
+  "date": "2026-10-10",
+  "checks": {
+    "FOUNDATION CHECKS": "69",
+    "MEDIEVAL CORE CHECKS": "143",
+    "QOL CHECKS": "48",
+    "MOVEMENT ORDER CHECKS": "79",
+    "MOVEMENT PROJECTION CHECKS": "3960",
+    "ACTION PROJECTION CHECKS": "22314",
+    "REACTION CHECKS": "13",
+    "PRESENTATION CHECKS": "174",
+    "COLLECTION CHECKS": "19",
+    "AUTHOR CARD CHECKS": "38",
+    "HUB CHECKS": "19",
+    "BICOLOR CHECKS": "146",
+    "BOOSTER CHECKS": "16",
+    "NEW COMMANDER CHECKS": "54",
+    "NETWORK CHECKS": "117",
+    "PROGRESS CHECKS": "26",
+    "SHARED TERRAIN CHECKS": "273",
+    "PLANNED DECK CHECKS": "1695",
+    "COORDINATION RULES CHECKS": "36",
+    "COORDINATION NETWORK CHECKS": "273",
+    "PRECON LIBRARY CHECKS": "13",
+    "PRECON UNIT CHECKS": "57",
+    "PRECON AUTHOR CHECKS": "89",
+    "PRECON CHECKS": "70",
+    "PRECON INTEGRATION CHECKS": "54"
+  },
+  "totalChecks": 29795,
+  "build": "Logs/PC001-actions-build.log",
+  "ui": "PASS: 14 checks; 10 ready precons; explicit import/persistence/selection/table; runtime errors=0",
+  "lan": {
+    "7926": {
+      "guest1": "PASS · seats=2 · revision=140 · shared checks=1175 · mana events=85 · stack events=27 · privacy checks=1175 · moves=7 · movement offered=True · reconnect=True · pending reconnect test=PASS · paused=False · max request ms=0 · max broadcast ms=0 · runtime errors=0",
+      "host": "PASS · seats=2 · revision=140 · shared checks=1281 · mana events=85 · stack events=27 · privacy checks=1281 · moves=8 · movement offered=True · reconnect=False · pending reconnect test=not applicable · paused=True · max request ms=272 · max broadcast ms=239 · runtime errors=0"
+    },
+    "7924": {
+      "guest1": "PASS · seats=4 · revision=240 · shared checks=2508 · mana events=146 · stack events=45 · privacy checks=2508 · moves=7 · movement offered=True · reconnect=True · pending reconnect test=PASS · paused=False · max request ms=0 · max broadcast ms=0 · runtime errors=0",
+      "guest2": "PASS · seats=4 · revision=240 · shared checks=2722 · mana events=146 · stack events=46 · privacy checks=2722 · moves=3 · movement offered=True · reconnect=False · pending reconnect test=not applicable · paused=True · max request ms=0 · max broadcast ms=0 · runtime errors=0",
+      "guest3": "PASS · seats=4 · revision=240 · shared checks=2721 · mana events=146 · stack events=46 · privacy checks=2721 · moves=8 · movement offered=True · reconnect=False · pending reconnect test=not applicable · paused=True · max request ms=0 · max broadcast ms=0 · runtime errors=0",
+      "host": "PASS · seats=4 · revision=240 · shared checks=1228 · mana events=146 · stack events=46 · privacy checks=1228 · moves=8 · movement offered=True · reconnect=False · pending reconnect test=not applicable · paused=True · max request ms=760 · max broadcast ms=395 · runtime errors=0"
+    }
+  },
+  "limits": [
+    "Visual captures black; manual review pending",
+    "Balance, long matches, distinct physical machines pending",
+    "Relay not repeated"
+  ],
+  "earlierAttempt": {
+    "logs": [
+      "Logs/PC001-lan4-*.log",
+      "Logs/PC001-lan4c-*.log"
+    ],
+    "status": "interrupted",
+    "hostRevision": 190,
+    "guestRevision": 189,
+    "finding": "Pending ACK wait was cleared on disconnect. Unexpected transport loss reproduced; expensive repeated route/action projections found and optimized with equivalence checks. Explicit pending-action reconnection retested.",
+    "limit": "Earlier loss causality was not conclusively captured. Batchmode LAN4d reached240 but screenshot failures were errors; final diagnostics use rendered players."
+  },
+  "diagnosticCorrection": "LAN4b all clients reached240; one equipment deck had no legal movement, so requiring every random list to move was invalid. Final diagnostic prefers commander/mobile creatures and requires transmission whenever a legal movement is offered; records applicability separately."
+}

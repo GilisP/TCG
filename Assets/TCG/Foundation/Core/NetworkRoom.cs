@@ -10,10 +10,10 @@ namespace TCG.Foundation
  public sealed class NetworkRoom
  {
   sealed class Member { public string token,name; public ulong connection; public bool connected,ready; public double disconnected; public int sequence; public DeckData deck; }
-  readonly List<Member> members=new List<Member>();readonly ContentCatalog catalog;readonly EffectRegistry effects;readonly string content;readonly Func<double> clock;
+  readonly List<Member> members=new List<Member>();readonly ContentCatalog catalog;readonly EffectRegistry effects;readonly string content;readonly Func<double> clock;readonly int? testSeed;
   int cachedRevision=-1;readonly Dictionary<int,MatchView> viewCache=new Dictionary<int,MatchView>();
   readonly List<NetVisual> visuals=new List<NetVisual>();public Match Game {get;private set;} public int Capacity {get;} public bool Teams {get;} public bool Paused=>Game!=null&&!Game.Over&&members.Any(x=>!x.connected&&clock()-x.disconnected<120);public bool Closed {get;private set;}
-  public NetworkRoom(ContentCatalog c,EffectRegistry e,string hash,int capacity,bool teams,Func<double> time){if(capacity<2||capacity>4||teams&&capacity!=4)throw new ArgumentException("Escolha 2–4 jogadores; duplas exige 4.");catalog=c;effects=e;content=hash;Capacity=capacity;Teams=teams;clock=time;}
+  public NetworkRoom(ContentCatalog c,EffectRegistry e,string hash,int capacity,bool teams,Func<double> time,int? diagnosticSeed=null){if(capacity<2||capacity>4||teams&&capacity!=4)throw new ArgumentException("Escolha 2–4 jogadores; duplas exige 4.");catalog=c;effects=e;content=hash;Capacity=capacity;Teams=teams;clock=time;testSeed=diagnosticSeed;}
   static string Secret(){var b=new byte[32];using(var r=RandomNumberGenerator.Create())r.GetBytes(b);return Convert.ToBase64String(b);}
   public int SeatFor(ulong connection)=>members.FindIndex(m=>m.connected&&m.connection==connection);
   public RoomReply Receive(ulong connection,RoomRequest r)
@@ -36,7 +36,7 @@ namespace TCG.Foundation
      case "ready":if(Game!=null||member.deck==null)throw new InvalidOperationException("Escolha um deck válido.");member.ready=r.ready;break;
      case "start":if(seat!=0||Game!=null||members.Count!=Capacity||members.Any(x=>!x.connected||!x.ready||x.deck==null))throw new InvalidOperationException("Só o host inicia, com todos prontos.");
       var random=new byte[4];using(var rng=RandomNumberGenerator.Create())rng.GetBytes(random);
-      Game=new Match(catalog,effects,Capacity,Teams,BitConverter.ToInt32(random,0),members.Select(x=>x.deck.main.ToArray()).ToArray(),members.Select(x=>x.deck.terrains.ToArray()).ToArray(),members.Select(x=>x.deck.commander).ToArray()){AutomaticResponses=true,AutoAdvanceAfterTerrain=true};Game.Visual+=v=>visuals.Add(new NetVisual{kind=v.Kind,from=v.From,to=v.To,piece=v.Piece,owner=v.Owner,color=v.Color,amount=v.Amount,stackId=v.StackId,card=NetworkCards.Pack(v.Card)});Game.ResolveInitialEffects();break;
+      Game=new Match(catalog,effects,Capacity,Teams,testSeed??BitConverter.ToInt32(random,0),members.Select(x=>x.deck.main.ToArray()).ToArray(),members.Select(x=>x.deck.terrains.ToArray()).ToArray(),members.Select(x=>x.deck.commander).ToArray()){AutomaticResponses=true,AutoAdvanceAfterTerrain=true};Game.Visual+=v=>visuals.Add(new NetVisual{kind=v.Kind,from=v.From,to=v.To,piece=v.Piece,owner=v.Owner,color=v.Color,amount=v.Amount,stackId=v.StackId,card=NetworkCards.Pack(v.Card)});Game.ResolveInitialEffects();break;
      case "action":if(Game==null||Paused)throw new InvalidOperationException("Aguardando partida ou reconexão.");var c=r.command;if(c==null||c.player!=seat||!Enum.IsDefined(typeof(ActionKind),c.kind)||c.units==null||c.blockers==null||c.units.Length>256||c.blockers.Length>256||(c.card?.Length??0)>120)throw new InvalidOperationException("Comando inválido para seu assento.");if(!Game.Try(c,out string error))throw new InvalidOperationException(error);break;
      case "leave":if(seat==0){Closed=true;break;}if(Game!=null&&!Game.Over)Game.Try(new Command{kind=ActionKind.Concede,player=seat,revision=Game.Revision},out _);member.connected=false;member.disconnected=clock()-121;break;
      default:throw new InvalidOperationException("Pedido desconhecido.");

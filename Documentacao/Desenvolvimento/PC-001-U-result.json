@@ -1,0 +1,53 @@
+{
+  "taskId": "PC-001-U",
+  "status": "implemented-awaiting-integration-validation",
+  "summary": "521 definições da tabela editorial traduzidas atomicamente; todas as famílias 85–283 cobertas, com fichas explícitas, efeitos por dados e ausência de parsing de texto no runtime.",
+  "files": [
+    "Tools/precon_unit_rules.py",
+    "Assets/TCG/Foundation/Core/PreconUnitEffects.cs",
+    "Assets/TCG/Foundation/Core/PreconUnitEffects.cs.meta",
+    "Assets/TCG/Foundation/Editor/PreconUnitChecks.cs",
+    "Assets/TCG/Foundation/Editor/PreconUnitChecks.cs.meta",
+    "Assets/TCG/Foundation/Core/NewCommanders.cs"
+  ],
+  "executed": [
+    "Python py_compile passou",
+    "Auditoria de 728 definições geradas: 521 PCU completas, 207 fora do módulo; nenhuma exceção",
+    "521 verificações de preservação de ID/nome/texto; falhas de tradução preservam dict original",
+    "Todas as famílias editoriais 85–283 suportadas; perfis de ficha completos; cor incolor explícita"
+  ],
+  "writtenNotExecuted": [
+    "PreconUnitChecks.Run: fichas, propriedade/grave, bônus dinâmicos e temporários de passageiros, exceção de ataque base zero, cura própria, dispatch, alvos declarados de salva e buff de defesa antes snapshot",
+    "Tiro ativado totalmente prevenido não dispara pcu-archer-shot; tiro real dispara",
+    "Eligibility shots/disembark: sem inimigo em alcance ou sem passageiros não habilita resposta; luta prevenida não dispara hurt com dano bruto",
+    "QueueForeignCast: salva do exílio seleciona atirador/alvo antes pagar/remover/empilhar, preserva Pending/ownership/exileAfter; custo de sacrifício preserva Subject"
+  ],
+  "hooks": [
+    "AbilitySchema incorpora Operations/Conditions/Targets/Triggers; MedievalRules incorpora Traits",
+    "AbilityOps chama ResolvePreconUnitOp; AbilityCondition/AbilityTarget/AbilityBonus chamam respectivos hooks",
+    "PreconUnitDeclare(Pending,Action) antes anúncio de spell pcu-declared-volley",
+    "PreconUnitCombatChoices(Pending,Action) antes snapshot; retomar ResolveCombat após escolha",
+    "PreconUnitCombatEntered(Piece,bool) aplica buff próprio de equipamento defensivo sincronamente",
+    "PreconUnitSacrificeAllowed + SacrificePiece mantêm Goblin/tile/restrição de custo; PreconUnitSacrificed somente criaturas",
+    "PreconUnitMoved / Entered / Disembarked / Died / ArmyFinished são eventos",
+    "pcu-host-capital-hit precisa player=item.Target nas operações mill; pcu-equip-mage é disparado ao equipar Mago",
+    "PreconUnitCanAttack dispensa apenas proibições próprias de aura em criaturas base zero; não dispensa NoAttack externo",
+    "pcu-global permite encantamentos globais sem hospedeiro; precon-random-mana geração de cor aleatória",
+    "PreconUnitHasTargets(CardAbility,Pending) antes AbilityHasTargets; PreconUnitTarget também filtra shooter com alcance e veículo com passageiros"
+  ],
+  "dependencies": [
+    "Ops pcl-grave, pcl-top-hand-life, pcl-select-top e condition pcl-exile-permission são do PC-001-L",
+    "Coordenador é dono da compilação C#, execução Unity e integrações compartilhadas"
+  ],
+  "limitations": [
+    "Sem execução Unity/build pelo especialista por contrato; nenhuma alegação de validação visual/rede",
+    "Assets e economia não alterados"
+  ],
+  "hypotheses": [],
+  "next": "Coordenador compila e roda PreconUnitChecks com todas integrações; corrigir quaisquer falhas antes considerar entrega concluída",
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "PC-001-I-result.json",
+    "allPreconsReady": 10
+  }
+}

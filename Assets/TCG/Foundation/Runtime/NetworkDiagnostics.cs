@@ -16,18 +16,18 @@ namespace TCG.Table
    var args=Environment.GetCommandLineArgs();string Arg(string key,string fallback){int i=Array.IndexOf(args,key);return i>=0&&i+1<args.Length?args[i+1]:fallback;}
    bool host=Arg("-tcg-net-role","host")=="host";int count=int.Parse(Arg("-tcg-net-count","2"));ushort port=ushort.Parse(Arg("-tcg-net-port","7788"));string label=Arg("-tcg-net-label",host?"host":"guest");
    string dir=Path.Combine(Application.dataPath,"..","NetworkVerification",port.ToString());Directory.CreateDirectory(dir);var errors=new List<string>();Application.LogCallback listener=(m,t,k)=>{if(k==LogType.Error||k==LogType.Exception||k==LogType.Assert)errors.Add(m);};Application.logMessageReceived+=listener;
-   bool planned=args.Contains("-tcg-planned-net");int targetRevision=planned?(count==4?240:140):(count==4?60:26);bool cloud=args.Contains("-tcg-net-cloud");string destination="127.0.0.1",codeFile=Path.Combine(dir,"join-code.txt");
+   bool precons=args.Contains("-tcg-precons-net");bool planned=args.Contains("-tcg-planned-net")||precons;int targetRevision=planned?(count==4?240:140):(count==4?60:26);bool cloud=args.Contains("-tcg-net-cloud");string destination="127.0.0.1",codeFile=Path.Combine(dir,"join-code.txt");
    if(cloud&&!host){float wait=Time.unscaledTime+90;while(!File.Exists(codeFile)&&Time.unscaledTime<wait)yield return null;if(!File.Exists(codeFile)){File.WriteAllText(Path.Combine(dir,label+".txt"),"FAIL: host did not create a cloud session");Application.Quit(1);yield break;}destination=File.ReadAllText(codeFile);}
-   networkDeck=0;EnsureNetwork();networkPage=true;menu=false;var task=host?network.Host(cloud,cloud,"TCG verificação temporária",count,count==4,label,port):network.Join(cloud,destination,label,false,port);while(!task.IsCompleted)yield return null;if(task.IsFaulted){File.WriteAllText(Path.Combine(dir,label+".txt"),"FAIL: "+network.Status+" / "+task.Exception.GetBaseException().Message);Application.Quit(1);yield break;}
+   collectionStore=new CollectionStore(Path.Combine(dir,"profile-"+label+"-"+Guid.NewGuid().ToString("N")));library=collectionStore.Load(catalog);networkDeck=0;EnsureNetwork();networkPage=true;menu=false;var task=host?network.Host(cloud,cloud,"TCG verificação temporária",count,count==4,label,port):network.Join(cloud,destination,label,false,port);while(!task.IsCompleted)yield return null;if(task.IsFaulted){File.WriteAllText(Path.Combine(dir,label+".txt"),"FAIL: "+network.Status+" / "+task.Exception.GetBaseException().Message);Application.Quit(1);yield break;}
    if(cloud&&host){var search=network.Search();while(!search.IsCompleted)yield return null;File.WriteAllText(Path.Combine(dir,"public-search.txt"),search.IsFaulted?"FAIL: "+search.Exception.GetBaseException().Message:"PASS: query returned "+network.Results.Length+" compatible session(s)");File.WriteAllText(codeFile,network.Code);}
    yield return new WaitForSecondsRealtime(1);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(dir,label+"-lobby.png"));
-   float diagnosticAt=0;float deadline=Time.unscaledTime+(planned?600:150);bool deckSent=false,ready=false,started=false,played=false,moved=false,lost=false,resumed=false,sawPause=false;float reconnectAt=0;int privateChecks=0,movesSent=0,sharedChecks=0,manaEvents=0,stackEvents=0; Match watched=null;float nextAction=0;
+   float diagnosticAt=0;float deadline=Time.unscaledTime+(planned?600:150);bool deckSent=false,ready=false,started=false,played=false,moved=false,lost=false,resumed=false,sawPause=false,pendingLossTested=false,movementOffered=false;float reconnectAt=0;int privateChecks=0,movesSent=0,sharedChecks=0,manaEvents=0,stackEvents=0; Match watched=null;float nextAction=0;
    while(Time.unscaledTime<deadline){
-    var state=network.State;if(Time.unscaledTime>=diagnosticAt){diagnosticAt=Time.unscaledTime+15;Debug.Log("NETWORK PROGRESS "+label+" rev="+match.Revision+" phase="+match.Phase+" controller="+match.Controller+" seat="+(state?.seat??-1)+" busy="+network.Busy+" started="+(state?.started??false)+" paused="+(state?.paused??false)+" choice="+(match.Choice?.Prompt??"-")+" error="+network.LastError);}if(state==null){yield return null;continue;}sawPause|=state.paused;
+    var state=network.State;if(Time.unscaledTime>=diagnosticAt){diagnosticAt=Time.unscaledTime+15;Debug.Log("NETWORK PROGRESS "+label+" rev="+match.Revision+" phase="+match.Phase+" controller="+match.Controller+" seat="+(state?.seat??-1)+" connected="+network.Connected+" busy="+network.Busy+" status="+network.Status+" started="+(state?.started??false)+" paused="+(state?.paused??false)+" choice="+(match.Choice?.Prompt??"-")+" error="+network.LastError);}if(state==null){yield return null;continue;}sawPause|=state.paused;
     if(!network.Connected){if(lost&&Time.unscaledTime>=reconnectAt&&!network.Busy){var reconnect=network.Reconnect();while(!reconnect.IsCompleted)yield return null;if(reconnect.IsFaulted)throw reconnect.Exception;reconnectAt=Time.unscaledTime+5;}yield return null;continue;}
     if(lost&&!resumed&&state.started&&!state.paused){resumed=true;}
     if(!state.started){
-     if(!network.Busy&&!deckSent){network.Send(new RoomRequest{type="deck",deck=args.Contains("-tcg-planned-net")?PlannedDeckLoader.Load(catalog).Decks[host?0:label=="guest1"?1:label=="guest2"?2:3].Create():NetworkDeck()});deckSent=true;}
+     if(!network.Busy&&!deckSent){network.Send(new RoomRequest{type="deck",deck=precons?PreconstructedDeckLibrary.Create(PreconstructedDeckLoader.Load(catalog).Decks[new[]{1,6,8,9}[host?0:label=="guest1"?1:label=="guest2"?2:3]]):args.Contains("-tcg-planned-net")?PlannedDeckLoader.Load(catalog).Decks[host?0:label=="guest1"?1:label=="guest2"?2:3].Create():NetworkDeck()});deckSent=true;}
      else if(!network.Busy&&!ready){network.Send(new RoomRequest{type="ready",ready=true});ready=true;}
      else if(host&&!network.Busy&&!started&&state.members.Length==count&&state.members.All(m=>m.ready)){network.Send(new RoomRequest{type="start"});started=true;}
      yield return new WaitForSecondsRealtime(.15f);continue;
@@ -36,7 +36,7 @@ namespace TCG.Table
     Require(match.Seats.All(s=>Enumerable.Range(0,4).All(p=>s.Top(p)?.Id==match.Seats[0].Top(p)?.Id&&s.TopOwner(p)==match.Seats[0].TopOwner(p)&&s.PileCount(p)==match.Seats[0].PileCount(p))),"shared tops replicated");sharedChecks++;
     int seat=state.seat;Require(match.IsRemoteView,"filtered client view");Require(Enumerable.Range(0,count).Where(i=>i!=seat).All(i=>match.HandFor(i).Count==0),"private hands absent");privateChecks++;
     if(!host&&label=="guest1"&&!lost&&match.Revision>=7){lost=true;reconnectAt=Time.unscaledTime+(cloud?20:3);network.SimulateConnectionLoss();yield return null;continue;}
-    if(match.Revision>=targetRevision&&(host||label!="guest1"||resumed))break;
+    if(match.Revision>=targetRevision&&(host||label!="guest1"||resumed&&(!precons||pendingLossTested)))break;
     if(!network.Busy&&!state.paused&&match.Controller==seat&&Time.unscaledTime>=nextAction){
      nextAction=Time.unscaledTime+.35f;
      if(match.Choice!=null)Submit(ActionKind.Choose,match.Choice.Options[0].Key);
@@ -45,16 +45,23 @@ namespace TCG.Table
      else if(match.Phase==Stage.Draw){played=false;moved=false;Submit(ActionKind.DrawMain);}
      else if(match.Phase==Stage.Terrain)Submit(ActionKind.Place,Enumerable.Range(0,121).First(match.CanPlace));
      else if(match.Phase==Stage.End)Submit(ActionKind.Pass);
-     else if(!played){int home=Match.Capital(seat,count);var card=match.HandFor(seat).FirstOrDefault(c=>match.CanPlay(c,home));if(card!=null){Submit(ActionKind.Play,home,card:card.Id);played=true;}else Submit(ActionKind.NextPhase);}
-     else if(!moved){var piece=match.Board.SelectMany(c=>c.Pieces).FirstOrDefault(p=>p.Owner==seat&&Enumerable.Range(0,121).Any(at=>match.CanMove(p.Id,at)));if(piece!=null){if(Submit(ActionKind.Move,Enumerable.Range(0,121).First(at=>match.CanMove(piece.Id,at)),piece.Id))movesSent++;moved=true;}else Submit(ActionKind.NextPhase);}
+     else if(!played){int home=Match.Capital(seat,count);if(precons&&match.CanSummonCommander(home)){Submit(ActionKind.SummonCommander,home);played=true;}else{var card=match.HandFor(seat).OrderByDescending(c=>precons&&c.Kind==CardType.Creature&&c.Movement>0).FirstOrDefault(c=>match.CanPlay(c,home));if(card!=null){Submit(ActionKind.Play,home,card:card.Id);played=true;}else Submit(ActionKind.NextPhase);}}
+     else if(!moved){var piece=match.Board.SelectMany(c=>c.Pieces).FirstOrDefault(p=>p.Owner==seat&&Enumerable.Range(0,121).Any(at=>match.CanMove(p.Id,at)));if(piece!=null){movementOffered=true;if(Submit(ActionKind.Move,Enumerable.Range(0,121).First(at=>match.CanMove(piece.Id,at)),piece.Id))movesSent++;moved=true;}else Submit(ActionKind.NextPhase);}
      else Submit(ActionKind.NextPhase);
+     // Guest-only regression: drop after Send marked an action pending, before its ACK.
+     if(precons&&!host&&label=="guest1"&&lost&&resumed&&!pendingLossTested&&match.Revision>=40&&network.Busy){
+      pendingLossTested=true;resumed=false;reconnectAt=Time.unscaledTime+(cloud?20:3);
+      Debug.Log("NETWORK PENDING RECONNECT TEST "+label+" revision="+match.Revision+" seat="+seat+" busy="+network.Busy);
+      network.SimulateConnectionLoss();
+     }
     }
     yield return null;
    }
-   Require(match.IsRemoteView&&match.Revision>=targetRevision,"multi-process progression");Require(movesSent>0,"movement transmitted");var camera=world.View.transform.position;camera.y=0;Require(Vector3.Dot(camera.normalized,TableWorld.Position(Match.Capital(Viewer,count)).normalized)>.99f,"camera behind own capital");Require(host||label!="guest1"||resumed,"guest reconnected");Require(!host||sawPause,"host paused for disconnect");
+   Require(match.IsRemoteView&&match.Revision>=targetRevision,"multi-process progression");Require(movesSent>0||precons&&!movementOffered,"movement transmitted when a legal movement was offered");var camera=world.View.transform.position;camera.y=0;Require(Vector3.Dot(camera.normalized,TableWorld.Position(Match.Capital(Viewer,count)).normalized)>.99f,"camera behind own capital");Require(host||label!="guest1"||resumed,"guest reconnected");Require(!host||sawPause,"host paused for disconnect");
+   Require(!precons||host||label!="guest1"||pendingLossTested&&resumed,"pending action reconnect completed");
    Require(manaEvents>0&&stackEvents>0,"mana and stack events received");
    yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(dir,label+".png"));yield return new WaitForSecondsRealtime(.5f);
-   File.WriteAllText(Path.Combine(dir,label+".txt"),"PASS · seats="+count+" · revision="+match.Revision+" · shared checks="+sharedChecks+" · mana events="+manaEvents+" · stack events="+stackEvents+" · privacy checks="+privateChecks+" · moves="+movesSent+" · reconnect="+resumed+" · paused="+sawPause+" · runtime errors="+errors.Count+Environment.NewLine+string.Join(Environment.NewLine,errors));
+   File.WriteAllText(Path.Combine(dir,label+".txt"),(errors.Count==0?"PASS":"FAIL")+" · seats="+count+" · revision="+match.Revision+" · shared checks="+sharedChecks+" · mana events="+manaEvents+" · stack events="+stackEvents+" · privacy checks="+privateChecks+" · moves="+movesSent+" · movement offered="+movementOffered+" · reconnect="+resumed+" · pending reconnect test="+(precons&&!host&&label=="guest1"?(pendingLossTested&&resumed?"PASS":"FAIL"):"not applicable")+" · paused="+sawPause+" · max request ms="+network.MaxRequestMilliseconds+" · max broadcast ms="+network.MaxBroadcastMilliseconds+" · runtime errors="+errors.Count+Environment.NewLine+string.Join(Environment.NewLine,errors));
    // Give every peer time to record evidence before the host leaves.
    yield return new WaitForSecondsRealtime(host?8:3);var stop=network.Stop();while(!stop.IsCompleted)yield return null;Application.logMessageReceived-=listener;Application.Quit(errors.Count==0?0:1);
    void Require(bool yes,string why){if(!yes)throw new Exception("NETWORK RUNTIME: "+why+" / "+network.Status+" / revision="+match.Revision+" phase="+match.Phase+" controller="+match.Controller+" lastError="+network.LastError);}
