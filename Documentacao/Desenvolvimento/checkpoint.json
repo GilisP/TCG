@@ -1,15 +1,15 @@
 {
-  "taskId": "PC-001",
+  "taskId": "BA-001",
   "status": "integrated-verified",
-  "date": "2026-10-10",
-  "backupCommit": "81c576c",
-  "project": "C:\\Users\\gil\\TCG",
-  "contract": "Documentacao/Desenvolvimento/PC-001-contrato.md",
-  "tasks": "Documentacao/Desenvolvimento/tasks.json",
-  "next": "Avaliação autoral dos dez precons: equilíbrio e sessão longa; revisão visual no Unity; multiplayer entre máquinas físicas. Não reimplementar; consultar PC-001-I-result.json e nota de uso.",
-  "limitations": [
-    "Capturas ocultas pretas: revisão visual manual pendente",
-    "Balanceamento, sessão longa e máquinas físicas distintas pendentes; Relay não repetido"
+  "date": "2026-10-12",
+  "project": "C:/Users/gil/TCG",
+  "backupCommit": "e496ec0",
+  "owner": "coordinator",
+  "scope": [
+    "Runtime/BoosterUI.cs",
+    "Runtime/BoosterDiagnostics.cs",
+    "Runtime/TableDiagnostics.cs",
+    "Documentacao/Boosters-Abertura-2026-10-12.md"
   ],
-  "evidence": "Documentacao/Desenvolvimento/PC-001-I-result.json"
+  "next": "BA001 build29795checks passed; runtime12checks PASSzeroerrors. Grant100000 once actualprofile now100050 andoriginalbackup20261012; do not repeat automatically. MainUnityMesa reopen aftercommit/push. Nextmanualreview animation viaLoja Boosters, balance/sessionlong percentralpending. Hiddencapturesblack, no aestheticsapproval. PriorPC001 evidencePC-001-I-result.json preserved. No gameplay/net/economy rules changed."
 }

@@ -242,3 +242,8 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 - Regras e efeitos no Match oficial: PreconLibraryEffects, PreconUnitEffects, PreconAuthorRules e PreconIntegration. Interface solicita; host valida. Exílio secreto privado, dono original preservado e Salva declara pares antes do pagamento inclusive no exílio.
 - Autor confirmou: criatura reanimada por Senhor das Catacumbas Despertas aparece no terreno do Senhor. Preservar as demais decisões autorais registradas no snapshot.
 - Protocolo tcg-network-7/20261010-official-precons; atualizar todos os clientes. Ler Precons Oficiais - Implementacao 2026-10-10 e Validacao dos Precons Oficiais 2026-10-10 no vault. FoundationSetup.Build inclui checks dos precons; diagnósticos -tcg-precons-verify e -tcg-precons-net usam perfis isolados. Tradução completa não significa teste exaustivo de todas as combinações; capturas ocultas pretas deixam revisão visual pendente.
+
+## Boosters e moedas de teste — 2026-10-12
+- Autor pediu moedas para testes: acréscimo único de 100.000 no perfil pessoal (50 → 100.050), com backup; não repetir automaticamente nem aplicar a outros perfis.
+- BoosterUI anima selo, ruptura, partículas e virada das cartas; Pular e Última abertura usam o recibo salvo. Persistência antes da animação e rollback preservados; sem alteração de preço/chance/protocolo.
+- Ler Boosters - Abertura Animada 2026-10-12 no vault. Build e 12 checks de runtime passaram; capturas ocultas pretas, revisão visual manual pendente. Diagnóstico -tcg-booster-animation-verify usa perfil isolado.

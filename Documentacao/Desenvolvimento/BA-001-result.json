@@ -1,0 +1,27 @@
+{
+  "taskId": "BA-001",
+  "status": "integrated-verified",
+  "date": "2026-10-12",
+  "owner": "coordinator",
+  "summary": "One-time test coins and booster seal/split/flip/reveal animation",
+  "filesChanged": [
+    "Runtime/BoosterUI.cs",
+    "Runtime/BoosterDiagnostics.cs",
+    "Runtime/TableDiagnostics.cs"
+  ],
+  "grant": {
+    "amount": 100000,
+    "balanceBefore": 50,
+    "balanceAfter": 100050,
+    "otherJsonFieldsUnchanged": true,
+    "backup": "collection-before-test-coins-20261012.json"
+  },
+  "build": "Logs/BoosterAnimation-20261012-build.log",
+  "checks": 29795,
+  "runtime": "PASS: 12 checks; seal/split/flip/reveal rendered; saved before animation; skip/replay and failed-save rollback; runtime errors=0",
+  "limitations": [
+    "Hidden capture inspected black: manual visual/click review pending",
+    "Known ComputeBuffer shutdown warning; no runtime errors",
+    "Tests use isolated profile; no gameplay/network rule change"
+  ]
+}

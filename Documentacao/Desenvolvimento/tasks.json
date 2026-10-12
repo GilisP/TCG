@@ -84,5 +84,20 @@
     ],
     "doneWhen": "Artefatos integrados e verificações aprovadas",
     "verification": "PC-001-I-result.json; FoundationSetup.Build e diagnósticos conjuntos"
+  },
+  {
+    "taskId": "BA-001",
+    "objective": "Moedas de teste e abertura animada de boosters",
+    "scope": [
+      "Runtime/BoosterUI.cs",
+      "Runtime/BoosterDiagnostics.cs",
+      "Runtime/TableDiagnostics.cs",
+      "perfil pessoal: somente coins"
+    ],
+    "owner": "coordinator",
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Saldo acrescentado com backup e demais campos iguais; build e diagnóstico de fases/replay/skip/rollback aprovados; documentação atualizada",
+    "verification": "Build29795 checks; BoosterAnimationVerification/result.txt PASS12 runtimeerrors0; manual visual review pending"
   }
 ]

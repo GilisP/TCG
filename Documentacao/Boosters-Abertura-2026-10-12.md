@@ -1,0 +1,13 @@
+# Boosters — abertura animada e moedas de teste (2026-10-12)
+
+O autor pediu moedas para testar compras e uma animação de abertura. Foi concedido um acréscimo único de 100.000 moedas ao perfil pessoal existente: saldo 50 → 100.050. O JSON foi comparado antes/depois, permitindo apenas mudança em coins; cartas, decks, variantes e demais campos preservados. Cópia anterior: AppData/LocalLow/DefaultCompany/TCG/Library/collection-before-test-coins-20261012.json. Não há concessão automática para perfis novos nem mudança de preços, chances ou missões.
+
+BoosterUI apresenta pacote medieval com selo, tremor suave, ruptura em duas partes, clarão dourado e partículas; depois as cartas saem do centro e viram uma a uma. A duração para cinco cartas é aproximadamente 3,6 segundos. Versos e frentes usam a apresentação existente; variantes usam realce de cor. Pular animação revela o recibo comprado; Última abertura mostra o recibo salvo, sem sortear/comprar novamente. Não foram produzidas novas artes definitivas nem sons.
+
+Persistência permanece anterior à animação: PurchaseBooster grava inventário, saldo e recibo; falha de escrita restaura o perfil em memória e não inicia a revelação. A animação só consulta dados. Usa tempo não escalado para funcionar com timeScale zero; matrizes GUI são restauradas após cada efeito. Nenhum protocolo ou regra de partida mudou.
+
+Projeto principal C:/Users/gil/TCG, Unity 6000.3.6f1. Scripts: Runtime/BoosterUI.cs, BoosterDiagnostics.cs e TableDiagnostics.cs em Assets/TCG/Foundation. Diagnóstico -tcg-booster-animation-verify usa perfil separado em Builds/BaseJogavel/BoosterAnimationVerification; verifica persistência antes de animar, fases visuais, pular/rever e rollback. Build principal e suíte existente aprovados (29.795 verificações); diagnóstico novo passou em 12 verificações, zero erros. Transições de fases, pular e rever foram exercitadas por instrumentação; clique manual e aprovação estética continuam pendentes.
+
+Logs: Logs/BoosterAnimation-20261012-build.log e Logs/BoosterAnimation-20261012-runtime.log. Avaliação visual manual permanece necessária se a captura oculta estiver preta. Moedas concedidas são auxílio de teste autorizado, não definição da economia final.
+
+As cinco capturas ocultas têm o mesmo tamanho; a captura da ruptura foi inspecionada e está preta. Não há prova visual da aparência final. Aviso conhecido de ComputeBuffer no encerramento permanece registrado para sessão longa, sem erro no fluxo. Saldo pessoal confirmado após execução: 100.050 moedas, 368 cartas e 3 decks; testes usaram outro perfil. Backup Git inicial e496ec0 enviado/verificado antes das mudanças.

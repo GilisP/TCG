@@ -8,6 +8,8 @@ namespace TCG.Table
  public sealed partial class TableView
  {
   bool shopBoosters;BoosterDefinition booster;BoosterReceipt openedBooster;float boosterOpenedAt;
+  const float BoosterSealDuration=1.6f,BoosterCardDelay=.35f,BoosterFlipDuration=.6f;
+  float BoosterOpeningDuration=>BoosterSealDuration+Mathf.Max(0,(openedBooster?.rewards.Count??1)-1)*BoosterCardDelay+BoosterFlipDuration;
   BoosterDefinition CurrentBooster(){if(booster==null){booster=JsonUtility.FromJson<BoosterDefinition>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Economy","booster-medieval.json")));booster.Validate();}return booster;}
   bool PurchaseBooster(bool reward=false)
   {
@@ -35,17 +37,62 @@ namespace TCG.Table
   }
   void DrawBoosterOpening()
   {
-   if(openedBooster==null)return;GUI.enabled=true;Fill(new Rect(0,0,1600,1000),Dark);Text(85,55,1430,65,"O SELO FOI ROMPIDO",menuTitle,Gold);Text(88,134,1400,50,"Estas cartas já estão salvas na sua coleção.",body,Ink);
-   int revealed=Mathf.Clamp(1+Mathf.FloorToInt((Time.unscaledTime-boosterOpenedAt)/.25f),0,openedBooster.rewards.Count);
+   if(openedBooster==null)return;GUI.enabled=true;float elapsed=Mathf.Max(0,Time.unscaledTime-boosterOpenedAt);
+   Fill(new Rect(0,0,1600,1000),Dark);Text(85,55,1430,65,elapsed<BoosterSealDuration?"UM NOVO CAPÍTULO":"O SELO FOI ROMPIDO",menuTitle,Gold);Text(88,134,1400,50,"Estas cartas já estão salvas na sua coleção.",body,Ink);
+   if(elapsed<BoosterSealDuration)DrawOpeningPack(elapsed);
    for(int n=0;n<openedBooster.rewards.Count;n++)
    {
     var reward=openedBooster.rewards[n];float w=Mathf.Min(260,1380f/openedBooster.rewards.Count-20),x=100+n*(w+20),y=255;
-    if(n>=revealed){DrawBoosterSeal(new Rect(x,y,w,w*1.5f));continue;}
-    float progress=Mathf.Clamp01((Time.unscaledTime-boosterOpenedAt-n*.25f)*4);var card=catalog.Cards.FirstOrDefault(c=>c.Id==reward.cardId);if(card!=null)RenderCardFace(new Rect(x,y+(1-progress)*25,w,w*1.5f),card,reward.styleId,true);else Text(x,y,w,170,reward.cardId+"\nExpansão ausente",body,Ink);
+    float progress=Mathf.Clamp01((elapsed-BoosterSealDuration-n*BoosterCardDelay)/BoosterFlipDuration);
+    if(elapsed<BoosterSealDuration+n*BoosterCardDelay)continue;
+    float ease=1-Mathf.Pow(1-progress,3),center=Mathf.Lerp(800,x+w/2,ease),top=Mathf.Lerp(350,y,ease);
+    float width=w*Mathf.Max(.02f,Mathf.Abs(Mathf.Cos(progress*Mathf.PI)));
+    var rect=new Rect(center-width/2,top,width,w*1.5f);
+    Solid(new Rect(rect.x+7,rect.y+12,rect.width,rect.height),new Color(0,0,0,.35f));
+    if(progress<.5f)DrawOpeningBack(rect);
+    else {var card=catalog.Cards.FirstOrDefault(c=>c.Id==reward.cardId);if(card!=null)RenderCardFace(rect,card,reward.styleId,true);else Text(rect.x,rect.y,rect.width,170,reward.cardId+"\nExpansão ausente",body,Ink);}
+    if(progress<1)DrawBoosterSparks(new Vector2(center,top+w*.75f),progress,reward.styleId=="standard"?Gold:TableWorld.Hex("BBDFF5"));
+    if(progress<1)continue;
     Text(x,y+w*1.5f+18,w,44,CardStyles.Name(reward.styleId),cardName,Gold);Text(x,y+w*1.5f+65,w,66,reward.duplicate?"REPETIDA\n+"+reward.refund+" moedas":"NOVA NA COLEÇÃO",small,reward.duplicate?Muted:Ink);
    }
    Text(95,800,1390,45,"Custo: "+openedBooster.price+" · retorno: "+openedBooster.refund+" · saldo: "+library.Data.coins+" moedas",body,Gold);
-   if(Button(95,872,1410,65,"GUARDAR NO ARSENAL",true,true))openedBooster=null;
+   if(elapsed<BoosterOpeningDuration){if(Button(95,872,1410,65,"PULAR ANIMAÇÃO",true,true))boosterOpenedAt=Time.unscaledTime-BoosterOpeningDuration;}
+   else if(Button(95,872,1410,65,"GUARDAR NO ARSENAL",true,true))openedBooster=null;
+  }
+  void DrawOpeningBack(Rect rect)
+  {
+   var matrix=GUI.matrix;GUI.matrix=matrix*Matrix4x4.TRS(new Vector3(rect.x,rect.y,0),Quaternion.identity,new Vector3(rect.width/300,rect.height/450,1));
+   DrawBoosterSeal(new Rect(0,0,300,450));GUI.matrix=matrix;
+  }
+  void DrawOpeningPack(float elapsed)
+  {
+   float charge=Mathf.Clamp01(elapsed/.85f),split=Mathf.Clamp01((elapsed-.85f)/.75f);
+   var center=new Vector2(800,460);DrawBoosterSparks(center,charge*.45f,Gold);
+   var matrix=GUI.matrix;GUIUtility.RotateAroundPivot(Mathf.Sin(elapsed*32)*charge*(1-split)*2,center);
+   float scale=1+charge*.06f;var pack=new Rect(800-150*scale,225,300*scale,440*scale);
+   if(split==0)DrawBoosterSeal(pack);
+   else
+   {
+    foreach(int half in new[]{0,1})
+    {
+     var clip=new Rect(pack.x,pack.y+half*pack.height*.5f+(half==0?-1:1)*split*100,pack.width,pack.height*.5f);
+     GUI.BeginGroup(clip);DrawBoosterSeal(new Rect(0,-half*pack.height*.5f,pack.width,pack.height));GUI.EndGroup();
+    }
+    Solid(new Rect(pack.x,pack.center.y-4-split*50,pack.width,8+split*100),new Color(1,.83f,.45f,(1-split)*.8f));
+    DrawBoosterSparks(center,split,TableWorld.Hex("FFE7A5"));
+   }
+   GUI.matrix=matrix;
+  }
+  void DrawBoosterSparks(Vector2 center,float progress,Color tint)
+  {
+   var matrix=GUI.matrix;
+   for(int i=0;i<18;i++)
+   {
+    float angle=i*Mathf.PI*2/18,dist=45+progress*(145+(i%3)*30);
+    var point=center+new Vector2(Mathf.Cos(angle),Mathf.Sin(angle))*dist;
+    GUIUtility.RotateAroundPivot(i*20+45,point);
+    Solid(new Rect(point.x-2,point.y-6,4,12),new Color(tint.r,tint.g,tint.b,(1-progress)*.8f));GUI.matrix=matrix;
+   }
   }
  }
 }

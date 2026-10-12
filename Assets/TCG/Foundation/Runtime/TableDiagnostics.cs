@@ -37,6 +37,7 @@ namespace TCG.Table
             else if(Environment.GetCommandLineArgs().Contains("-tcg-pile-verify")) StartCoroutine(VerifyPiles());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-progress-verify")) StartCoroutine(VerifyProgress());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-foil-commanders-verify")) StartCoroutine(VerifyFoilCommanders());
+            else if(Environment.GetCommandLineArgs().Contains("-tcg-booster-animation-verify")) StartCoroutine(VerifyBoosterAnimation());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-booster-verify")) StartCoroutine(VerifyBoosters());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-commanders-verify")) StartCoroutine(VerifyCommanders());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-hub-verify")) StartCoroutine(VerifyHub());
