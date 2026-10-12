@@ -12,6 +12,7 @@ namespace TCG.Foundation
     }
     [Serializable] public sealed class CollectionData
     {
+        public StoryProgress story=new StoryProgress();
         public PlayerProgress progress=new PlayerProgress(); public int schemaVersion=3; public int coins=500; public List<string> cosmetics=new List<string>{"classic"};
         public List<string> variants=new List<string>(); public List<CardLook> appearances=new List<CardLook>(); public BoosterReceipt lastBooster;
         public List<string> owned=new List<string>();
@@ -35,6 +36,7 @@ namespace TCG.Foundation
             if(Data.lastBooster!=null&&string.IsNullOrEmpty(Data.lastBooster.id)&&string.IsNullOrEmpty(Data.lastBooster.boosterId)&&Data.lastBooster.price==0&&Data.lastBooster.refund==0&&Data.lastBooster.rewards!=null&&Data.lastBooster.rewards.Count==0)Data.lastBooster=null;
             if(Data.variants.Any(string.IsNullOrWhiteSpace)||Data.lastBooster!=null&&(Data.lastBooster.rewards==null||Data.lastBooster.rewards.Count<1||Data.lastBooster.rewards.Count>20||Data.lastBooster.rewards.Any(r=>r==null||string.IsNullOrWhiteSpace(r.cardId)||!CardStyles.Valid(r.styleId)||r.refund<0)))throw new InvalidOperationException("Histórico de boosters inválido.");
             Data.progress=Data.progress??new PlayerProgress(); Data.progress.history=Data.progress.history??new List<MatchNumbers>(); Data.progress.recorded=Data.progress.recorded??new List<string>(); Data.progress.claimed=Data.progress.claimed??new List<string>();
+            NormalizeStoryProgress();
             // Preserve unknown identities to survive a temporarily missing expansion.
         }
         public bool OwnsCosmetic(string id)=>CosmeticCatalog.All.Any(c=>c.Id==id)&&Data.cosmetics.Contains(id);

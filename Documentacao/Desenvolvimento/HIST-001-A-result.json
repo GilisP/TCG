@@ -1,0 +1,20 @@
+{
+  "summary": "Projection-only deterministic heuristic, authoritative legal candidates, and useful-mana terrain choice from own hand/commander/public piles",
+  "status": "written-awaiting-coordinator-validation",
+  "checks": "Written: full official 10 precons paired into 5 duels, 100 sampled actions each with 100/50 lists and commanders; sustained shortened-library duel/FFA3/FFA4/teams; action acceptance/revision; privacy-equivalent hidden permutations; seeds; choices; real capital defense; authority rejection. Scoped official failures include precon IDs, seed, step, turn, choice and command.",
+  "files": [
+    "Assets/TCG/Foundation/Core/ComputerOpponent.cs",
+    "Assets/TCG/Foundation/Core/ComputerDecisions.cs",
+    "Assets/TCG/Foundation/Editor/ComputerOpponentChecks.cs"
+  ],
+  "blockers": [
+    "Unity compile/test execution belongs to coordinator; checks not executed",
+    "Decision list is representative for attack groups and defense distributions, not exhaustive exponential combinations"
+  ],
+  "executed": [],
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "HIST-001-I-result.json",
+    "checks": 9756
+  }
+}

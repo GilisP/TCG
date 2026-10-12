@@ -117,5 +117,50 @@
     "dependencies": [],
     "doneWhen": "Build e seleção/cancelamento/filtro local, confirmação e prontidão online verificados com perfis isolados",
     "verification": "DK-001-result.json; 16 checks por processo LAN"
+  },
+  {
+    "taskId": "HIST-001-A",
+    "objective": "Legal action generator and projection-only computer opponent",
+    "owner": "historia_ia",
+    "scope": [
+      "Core/ComputerOpponent.cs",
+      "Core/ComputerDecisions.cs",
+      "Editor/ComputerOpponentChecks.cs"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Legal, private, deterministic and sustained/sample fixtures pass",
+    "verification": "HIST-001-I-result.json"
+  },
+  {
+    "taskId": "HIST-001-P",
+    "objective": "Campaign progression and daily/idempotent enemy rewards",
+    "owner": "historia_progresso",
+    "scope": [
+      "Core/StoryCampaign.cs",
+      "Editor/StoryCampaignChecks.cs"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Dates/results/hero progress normalize and reward correctly",
+    "verification": "HIST-001-I-result.json"
+  },
+  {
+    "taskId": "HIST-001",
+    "objective": "Integrate story map, precon choice, AI seats, fixed human view and atomic persistence",
+    "owner": "coordinator",
+    "status": "integrated-verified",
+    "dependencies": [
+      "HIST-001-A",
+      "HIST-001-P"
+    ],
+    "scope": [
+      "Runtime/StoryUI.cs",
+      "Runtime/StorySession.cs",
+      "Runtime/StoryDiagnostics.cs",
+      "shared hooks per contract"
+    ],
+    "doneWhen": "Build/runtime and docs verified together",
+    "verification": "HIST-001-I-result.json"
   }
 ]

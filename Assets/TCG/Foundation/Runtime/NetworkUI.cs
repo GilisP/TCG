@@ -8,8 +8,8 @@ namespace TCG.Table
  public sealed partial class TableView
  {
   NetworkSession network;bool networkPage,networkInternet=true,networkPublic;string networkAddress="127.0.0.1",networkCode="",networkName="Mesa dos Reinos",networkNick="Jogador",networkNotice="";int networkDeck=-1;bool networkDeckConfirmed;Vector2 networkScroll;
-  int Viewer=>network!=null&&network.State!=null?network.State.seat:match.Controller;
-  bool NetworkTurn=>network==null||!network.Running||network.Connected&&!network.Busy&&network.State!=null&&!network.State.paused&&!network.State.closed&&match.Controller==Viewer;
+  int Viewer=>StoryBattleActive?0:network!=null&&network.State!=null?network.State.seat:match.Controller;
+  bool NetworkTurn=>(!StoryBattleActive||match.Controller==0)&&(network==null||!network.Running||network.Connected&&!network.Busy&&network.State!=null&&!network.State.paused&&!network.State.closed&&match.Controller==Viewer);
   void EnsureNetwork(){if(network!=null)return;network=gameObject.AddComponent<NetworkSession>();network.Initialize(catalog,effects);network.Changed+=ReceiveRoom;}
   void ReceiveRoom(RoomReply state)
   {

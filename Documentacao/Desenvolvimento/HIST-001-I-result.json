@@ -1,0 +1,51 @@
+{
+  "taskId": "HIST-001",
+  "status": "integrated-verified",
+  "date": "2026-10-12",
+  "summary": "Local history with canonical precons, progression map, duel majority, team/FFA specials, privacy-limited AI and daily enemy rewards",
+  "contract": "HIST-001-contrato.md",
+  "build": "Logs/Story-20261012-final-build.log",
+  "checks": {
+    "FOUNDATION CHECKS": 69,
+    "MEDIEVAL CORE CHECKS": 143,
+    "QOL CHECKS": 48,
+    "MOVEMENT ORDER CHECKS": 79,
+    "MOVEMENT PROJECTION CHECKS": 3960,
+    "ACTION PROJECTION CHECKS": 22314,
+    "REACTION CHECKS": 13,
+    "PRESENTATION CHECKS": 174,
+    "COLLECTION CHECKS": 19,
+    "AUTHOR CARD CHECKS": 38,
+    "HUB CHECKS": 19,
+    "BICOLOR CHECKS": 146,
+    "BOOSTER CHECKS": 16,
+    "NEW COMMANDER CHECKS": 54,
+    "NETWORK CHECKS": 117,
+    "PROGRESS CHECKS": 26,
+    "SHARED TERRAIN CHECKS": 273,
+    "PLANNED DECK CHECKS": 1695,
+    "COORDINATION RULES CHECKS": 36,
+    "COORDINATION NETWORK CHECKS": 273,
+    "PRECON LIBRARY CHECKS": 13,
+    "PRECON UNIT CHECKS": 57,
+    "PRECON AUTHOR CHECKS": 89,
+    "PRECON CHECKS": 70,
+    "PRECON INTEGRATION CHECKS": 54,
+    "STORY CAMPAIGN CHECKS": 18,
+    "COMPUTER OPPONENT CHECKS": 9756
+  },
+  "totalChecks": 39569,
+  "runtime": "PASS: 127 checks; picker/map/full-deck construction; sampled AI/human actions; concession reward fixtures and persistence; special seating; runtime errors=0",
+  "provisionalDecisions": [
+    "Partner controlled by AI",
+    "Nine duels then three specials",
+    "Reward key is enemy precon, shared across encounters/heroes; calendar day is local device"
+  ],
+  "validationLimits": [
+    "Hidden map screenshot inspected black; manual visual review pending",
+    "Reduced-library fixtures complete by rules; full precons are sampled, not complete campaigns",
+    "Runtime reward win/loss fixtures use explicit concessions, not evidence of bot strength",
+    "Prior multi-owner/team combat limitations inherited; no rules changed",
+    "Runtime127 before final text-only feedback translation"
+  ]
+}

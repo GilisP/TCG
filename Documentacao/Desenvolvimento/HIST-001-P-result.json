@@ -1,0 +1,31 @@
+{
+  "taskId": "HIST-001-P",
+  "status": "ready-for-integration",
+  "summary": "Serializable per-hero campaign progression, provisional 12-node precon route, calendar-day rewards by stable enemy precon identity, match-result idempotence and precomputed overflow rejection.",
+  "files": [
+    "Assets/TCG/Foundation/Core/StoryCampaign.cs",
+    "Assets/TCG/Foundation/Core/StoryCampaign.cs.meta",
+    "Assets/TCG/Foundation/Editor/StoryCampaignChecks.cs",
+    "Assets/TCG/Foundation/Editor/StoryCampaignChecks.cs.meta",
+    "Documentacao/Desenvolvimento/HIST-001-P-result.json"
+  ],
+  "verification": {
+    "written": "19 checks in StoryCampaignChecks.Run covering duel majority, unique encounter participants, map coordinates, gate, loss, replay, calendar rollover, idempotence, team result, enemy overlaps, per-hero progress, cross-hero daily claims, reload, missing old profile fields, overflow rollback and locked encounter rejection.",
+    "executed": false,
+    "reason": "Unity/build execution owned by coordinator."
+  },
+  "integration": [
+    "Add public StoryProgress story = new StoryProgress() to CollectionData.",
+    "Call NormalizeStoryProgress() at the end of CollectionLibrary constructor.",
+    "Add StoryCampaignChecks.Run to the shared verification entrypoint.",
+    "Caller atomically persists CompleteStoryEncounter together with RecordMatch and restores collection on failed save.",
+    "Teams: hero seat 0, ally seat 2, opponents seats 1 and 3; MatchNumbers.won supplies the authoritative team-aware outcome."
+  ],
+  "boundaries": "No shared existing files edited, no Unity or Git run, no economy/schema reset, no battle serialization, no lore added. Default linear route and ally remain provisional configurable encounter data.",
+  "blockers": [],
+  "coordinatorIntegration": {
+    "status": "verified",
+    "evidence": "HIST-001-I-result.json",
+    "checks": 18
+  }
+}

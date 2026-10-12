@@ -11,10 +11,11 @@ namespace TCG.Table
         bool DiagnosticSession=>Environment.GetCommandLineArgs().Any(a=>a.StartsWith("-tcg-"));
         Match cameraMatch; int cameraSeat=-1;
         void UpdateSeatCamera(){if(match==null||world==null)return;int seat=Viewer;if(cameraMatch==match&&cameraSeat==seat)return;cameraMatch=match;cameraSeat=seat;world.Yaw=TableWorld.CapitalYaw(seat,match.Seats.Count);}
-        void Update(){UpdateSeatCamera();if(Time.unscaledTime<nextProgressSave)return;nextProgressSave=Time.unscaledTime+3;SaveFinishedProgress();}
+        void Update(){UpdateStoryOpponent();UpdateSeatCamera();if(Time.unscaledTime<nextProgressSave)return;nextProgressSave=Time.unscaledTime+3;SaveFinishedProgress();}
         void SaveFinishedProgress()
         {
             if(DiagnosticSession||!sessionAvailable||match==null||!match.Over||library==null||!collectionStore.CanWrite)return;
+            if(StoryBattleActive){SaveStoryBattleResult();return;}
             var result=match.NumbersFor(match.IsRemoteView?Viewer:0);if(result==null||library.Data.progress.recorded.Contains(result.id))return;
             ProgressTransaction(()=>library.RecordMatch(result));
         }

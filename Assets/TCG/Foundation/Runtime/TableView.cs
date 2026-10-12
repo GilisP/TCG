@@ -108,7 +108,8 @@ namespace TCG.Table
 
         {
 
-            int previous=match.Controller;
+            int previous=StoryBattleActive?0:match.Controller;
+            if(StoryBattleActive&&match.Controller!=0&&kind!=ActionKind.Concede){notice="Aguarde a ação da IA.";return false;}
 
             var command=new Command{kind=kind,player=previous,revision=match.Revision,target=target,unit=unit,card=card,pile=selectedPile,units=units??Array.Empty<int>(),blockers=defense??Array.Empty<int>()};
 
@@ -117,7 +118,8 @@ namespace TCG.Table
 
             SaveFinishedProgress(); selectedCommander=false; selectedCard=null; selectedUnit=-1; notice=match.Log.LastOrDefault()??"Ação concluída.";
 
-            if(match.Controller!=previous&&!match.Over) { handoff=true; selectedCell=-1; }
+            if(StoryBattleActive)handoff=false;
+            else if(match.Controller!=previous&&!match.Over) { handoff=true; selectedCell=-1; }
 
             return true;
 
@@ -136,6 +138,7 @@ namespace TCG.Table
             world.View.rect=new Rect(0,(Screen.height-766*scale)/Screen.height,1190*scale/Screen.width,656*scale/Screen.height);
 
             if(deckSelectionOpen){DrawDeckSelection();GUI.matrix=old;return;}
+            if(storyPage){DrawStoryMap();GUI.matrix=old;return;}
             if(networkPage){DrawNetworkPage();GUI.matrix=old;return;}
             if(libraryOpen){ResetDrag();world.ShowMovement(-1,false);DrawHub();GUI.matrix=old;return;}
             bool movementInput=NetworkTurn&&reactionMenu<0&&!menu&&!handoff&&!collection&&!help&&!confirmQuit&&!match.Over&&inspected==null&&match.Choice==null&&equipmentToAttach<0;
@@ -156,7 +159,7 @@ namespace TCG.Table
 
             GUI.enabled=true;
 
-            ProcessPileVerification(); DrawPileOverlay(modal); DrawCommanderPreview(modal); DrawNetworkStatus();DrawSocialReactions();
+            ProcessPileVerification(); DrawPileOverlay(modal); DrawCommanderPreview(modal); DrawNetworkStatus();DrawStoryStatus();DrawSocialReactions();
             if(handoff) DrawHandoff(); else if(inspected!=null) DrawInspection(); else if(equipmentToAttach>=0) DrawEquipmentChoice(); else if(match.Choice!=null&&match.Choice.Owner==Viewer) DrawChoice(); else if(collection) DrawCollection(); else if(help) DrawHelp(); else if(confirmQuit) DrawQuit(); else if(match.Over) DrawResult();
 
             GUI.matrix=old;
@@ -180,7 +183,7 @@ namespace TCG.Table
 
                 Fill(new Rect(x,49,264,48),Panel); Fill(new Rect(x,49,4,48),TableWorld.Seats[p]);
 
-                Text(x+14,52,175,23,s.Name+(teams?" · dupla "+(s.Team+1):""),cardName,TableWorld.Seats[p]);
+                Text(x+14,52,175,23,StorySeatLabel(p)+(teams?" · dupla "+(s.Team+1):""),cardName,TableWorld.Seats[p]);
 
                 Text(x+14,76,195,19,s.Eliminated?"ELIMINADO":p==match.Controller?"PRIORIDADE":p==match.Active?"TURNO ATIVO":"AGUARDANDO",small,Muted);
 
@@ -478,6 +481,7 @@ namespace TCG.Table
         void DrawResult()
 
         {
+            if(StoryBattleActive){DrawStoryResult();return;}
 
             Veil(); string result=match.WinningTeam<0?"EMPATE":teams?"DUPLA "+(match.WinningTeam+1)+" VENCEU":match.Seats.First(s=>s.Team==match.WinningTeam).Name.ToUpperInvariant()+" VENCEU";
 

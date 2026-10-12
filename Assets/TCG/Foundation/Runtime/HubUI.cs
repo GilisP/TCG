@@ -64,7 +64,8 @@ namespace TCG.Table
                 Fill(new Rect(45,300,990,550),Panel);
                 Text(75,335,900,45,"Prepare sua próxima partida",heading,Gold);
                 Text(75,410,900,120,"Crie uma mesa local e escolha um deck para cada jogador. Nas salas online, cada participante escolhe e confirma o próprio deck antes de ficar pronto.",body,Ink);
-                if(Button(75,630,900,60,"Abrir coleção e montar um deck"))OpenLibrary();
+                if(Button(75,565,900,60,"JOGAR HISTÓRIA · PRECONS CONTRA IA",network==null||!network.Running,true))OpenStoryMap();
+                if(Button(75,650,900,60,"Abrir coleção e montar um deck"))OpenLibrary();
             }
             Fill(new Rect(1080,140,480,785),Panel);
             Text(1110,168,420,45,"PREPARAR PARTIDA",heading,Gold);
@@ -73,7 +74,8 @@ namespace TCG.Table
             if(Button(1110,348,420,48,teams?"Duplas · lados opostos":"Todos contra todos",players==4))teams=!teams;
             if(localDeckSetup&&Button(1110,428,420,50,useSavedDecks?"Salvos / precons / planejados":"Experimentar comandante"))useSavedDecks=!useSavedDecks;
             if(Button(1110,510,420,55,"SALAS ONLINE / REDE LOCAL"))networkPage=true;
-            Text(1110,585,410,120,localDeckSetup?(useSavedDecks?"Escolha os decks à esquerda. Rascunhos inválidos não podem iniciar a partida.":"Escolha um comandante: precon correspondente, seguido do planejado."):"Criar mesa abre a escolha dos decks, antes de iniciar o jogo.",body,Muted);
+            if(Button(1110,578,420,55,"JOGAR HISTÓRIA",network==null||!network.Running))OpenStoryMap();
+            Text(1110,649,410,75,localDeckSetup?(useSavedDecks?"Escolha os decks à esquerda. Rascunhos inválidos não podem iniciar a partida.":"Escolha um comandante: precon correspondente, seguido do planejado."):"Criar mesa abre a escolha dos decks, antes de iniciar o jogo.",small,Muted);
             if(Button(1110,737,420,64,localDeckSetup?"INICIAR COM ESTES DECKS":"CRIAR MESA LOCAL",true,true)){if(localDeckSetup){commanderDemo=true;StartMatch();}else PrepareLocalTable();}
             if(Button(1110,823,420,51,"Voltar à partida",sessionAvailable&&!match.Over)){menu=libraryOpen=false;}
             Text(45,958,1490,27,hubNotice,small,Gold);
