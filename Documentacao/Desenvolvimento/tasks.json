@@ -99,5 +99,23 @@
     "dependencies": [],
     "doneWhen": "Saldo acrescentado com backup e demais campos iguais; build e diagnóstico de fases/replay/skip/rollback aprovados; documentação atualizada",
     "verification": "Build29795 checks; BoosterAnimationVerification/result.txt PASS12 runtimeerrors0; manual visual review pending"
+  },
+  {
+    "taskId": "DK-001",
+    "objective": "Selecionar decks válidos diretamente por lista local/online",
+    "owner": "coordinator",
+    "scope": [
+      "Runtime/DeckSelectionUI.cs",
+      "Runtime/CollectionUI.cs",
+      "Runtime/NetworkUI.cs",
+      "Runtime/TableView.cs",
+      "Runtime/DeckSelectionDiagnostics.cs",
+      "Runtime/TableDiagnostics.cs",
+      "Runtime/NetworkSession.cs: request budget"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Build e seleção/cancelamento/filtro local, confirmação e prontidão online verificados com perfis isolados",
+    "verification": "DK-001-result.json; 16 checks por processo LAN"
   }
 ]

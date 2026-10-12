@@ -247,3 +247,7 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 - Autor pediu moedas para testes: acréscimo único de 100.000 no perfil pessoal (50 → 100.050), com backup; não repetir automaticamente nem aplicar a outros perfis.
 - BoosterUI anima selo, ruptura, partículas e virada das cartas; Pular e Última abertura usam o recibo salvo. Persistência antes da animação e rollback preservados; sem alteração de preço/chance/protocolo.
 - Ler Boosters - Abertura Animada 2026-10-12 no vault. Build e 12 checks de runtime passaram; capturas ocultas pretas, revisão visual manual pendente. Diagnóstico -tcg-booster-animation-verify usa perfil isolado.
+## Escolha por lista — 2026-10-12
+- Seleção local e online abre DeckSelectionUI com busca, comandante e quantidades. Reutiliza TableDeckChoices/ValidateTableDeck; omite inválidos, preserva rascunhos e resolve escolhas por identidade. Cancelar não altera deck; trocar online desfaz confirmação/prontidão.
+- NetworkSession aceita rajada de 8 solicitações, reposição de 25/s; excesso responde erro/ACK atual. Corrige perda silenciosa na sequência rápida de escolha/confirmar. Sem alteração de regra/protocolo.
+- Ler Selecao de Decks por Lista 2026-10-12 no vault e DK-001-result.json no projeto. Build e dois processos LAN (16 checks cada) passaram; revisão visual manual pendente. Diagnóstico -tcg-deck-picker-role host/guest usa porta7940 e perfis isolados.

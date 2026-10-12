@@ -135,6 +135,7 @@ namespace TCG.Table
 
             world.View.rect=new Rect(0,(Screen.height-766*scale)/Screen.height,1190*scale/Screen.width,656*scale/Screen.height);
 
+            if(deckSelectionOpen){DrawDeckSelection();GUI.matrix=old;return;}
             if(networkPage){DrawNetworkPage();GUI.matrix=old;return;}
             if(libraryOpen){ResetDrag();world.ShowMovement(-1,false);DrawHub();GUI.matrix=old;return;}
             bool movementInput=NetworkTurn&&reactionMenu<0&&!menu&&!handoff&&!collection&&!help&&!confirmQuit&&!match.Over&&inspected==null&&match.Choice==null&&equipmentToAttach<0;

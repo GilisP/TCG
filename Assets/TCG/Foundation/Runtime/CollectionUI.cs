@@ -114,8 +114,7 @@ namespace TCG.Table
                 float x=75+(p%2)*465,y=462+(p/2)*153;
                 var current=choices.FirstOrDefault(d=>d.id==seatDecks[p]);
                 Text(x,y,430,35,new[]{"Âmbar","Jade","Safira","Rubi"}[p],heading,TableWorld.Seats[p]);
-                if(Button(x,y+48,435,60,TableDeckLabel(current),choices.Count>0))
-                {int index=choices.FindIndex(d=>d.id==seatDecks[p]);seatDecks[p]=choices[(index+1)%choices.Count].id;}
+                if(Button(x,y+48,435,60,TableDeckLabel(current)))OpenDeckSelection(p);
             }
             if(Button(75,828,900,56,"Criar ou editar um deck"))OpenLibrary();
         }

@@ -1,0 +1,17 @@
+{
+  "taskId": "DK-001",
+  "status": "integrated-verified",
+  "date": "2026-10-12",
+  "build": "Logs/DeckPicker-20261012-final-build.log",
+  "checks": 29795,
+  "runtime": {
+    "host": "PASS: 16 checks; local selection/filter/cancel; online choice, readiness reset and authoritative deck confirmation; runtime errors=0",
+    "guest": "PASS: 16 checks; local selection/filter/cancel; online choice, readiness reset and authoritative deck confirmation; runtime errors=0"
+  },
+  "previousAttempt": "First guest failed changed commander; per-40ms silent request drop replaced by token budget (25/s, burst8) and explicit error+current ACK; repeated quick lobby sequence passed.",
+  "limits": [
+    "Hidden host screenshot inspected black: manual visual review pending",
+    "Excessive traffic rejection inspected, not load-tested",
+    "No gameplay/protocol/schema changes"
+  ]
+}

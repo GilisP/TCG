@@ -24,6 +24,7 @@ namespace TCG.Table
   public string LastError {get;private set;}=""; public event Action<RoomReply> Changed;public string Status {get;private set;}="";public string Code=>session?.Code??"LAN";public bool Busy {get;private set;}public bool Hosting=>manager!=null&&manager.IsHost;public bool Connected=>manager!=null&&manager.IsConnectedClient;public bool Running=>manager!=null;public RoomReply State {get;private set;}
   NetworkManager manager;UnityTransport transport;ISession session;NetworkRoom room;ContentCatalog catalog;EffectRegistry effects;string fingerprint,token="",playerName="Jogador",address="127.0.0.1";ushort port=7777;int sequence;float nextBroadcast,lastRequest,reconnectUntil;bool reconnecting,cloud,stopping,awaitingHello,cloudLocked;readonly Dictionary<ulong,float> rate=new Dictionary<ulong,float>();
   public ISessionInfo[] Results {get;private set;}=Array.Empty<ISessionInfo>();
+  readonly Dictionary<ulong,float> requestCredits=new Dictionary<ulong,float>();
   public long MaxRequestMilliseconds {get;private set;} public long MaxBroadcastMilliseconds {get;private set;}
   bool Diagnostic=>Environment.GetCommandLineArgs().Contains("-tcg-precons-net");
   int? DiagnosticSeed(){if(!Diagnostic)return null;var args=Environment.GetCommandLineArgs();int at=Array.IndexOf(args,"-tcg-net-seed");int seed=at>=0&&at+1<args.Length?int.Parse(args[at+1]):20261010;Debug.Log("TCG diagnostic seed="+seed);return seed;}
@@ -31,6 +32,7 @@ namespace TCG.Table
   public void Initialize(ContentCatalog c,EffectRegistry e){catalog=c;effects=e;fingerprint=ContentHash();}
   void CreateManager()
   {
+   rate.Clear();requestCredits.Clear();
    var go=new GameObject("TCG · conexão");transport=go.AddComponent<UnityTransport>();transport.MaxPayloadSize=262144;manager=go.AddComponent<NetworkManager>();manager.NetworkConfig=new NetworkConfig{NetworkTransport=transport,EnableSceneManagement=false,ForceSamePrefabs=false,ConnectionApproval=false};
    manager.OnServerStarted+=Register;manager.OnClientStarted+=Register;manager.OnClientConnectedCallback+=ConnectedPeer;manager.OnClientDisconnectCallback+=DisconnectedPeer;
   }
@@ -65,7 +67,15 @@ namespace TCG.Table
   void SendRaw(RoomRequest request){if(request.type=="hello")awaitingHello=true;if(Hosting){Apply(room.Receive(manager.LocalClientId,request));Broadcast();}else SendPacket("tcg-request",NetworkManager.ServerClientId,JsonUtility.ToJson(request));}
   void ReceiveRequest(ulong sender,FastBufferReader reader)
   {
-   if(!Hosting)return;var timer=Stopwatch.StartNew();try{if(rate.TryGetValue(sender,out float time)&&Time.unscaledTime-time<.04f)return;rate[sender]=Time.unscaledTime;var json=ReadPacket(reader,65536);var r=JsonUtility.FromJson<RoomRequest>(json);var reply=room.Receive(sender,r);SendPacket("tcg-state",sender,JsonUtility.ToJson(reply));Broadcast();}catch(Exception e){Debug.LogError("TCG network request failed: "+e.GetType().Name+": "+e.Message);manager.DisconnectClient(sender);}finally{MaxRequestMilliseconds=Math.Max(MaxRequestMilliseconds,timer.ElapsedMilliseconds);if(Diagnostic&&timer.ElapsedMilliseconds>250)Debug.LogWarning("TCG request ms="+timer.ElapsedMilliseconds+" revision="+(room?.Game?.Revision??-1));}
+   if(!Hosting)return;var timer=Stopwatch.StartNew();try{
+    // Permit a short lobby sequence (hello/deck/ready/change/confirm), even
+    // when transport delivers several packets in one frame. Never drop an ACK silently.
+    float now=Time.unscaledTime,credits=rate.TryGetValue(sender,out float time)?Mathf.Min(8,requestCredits[sender]+(now-time)*25):8;
+    rate[sender]=now;
+    if(credits<1){requestCredits[sender]=credits;int seat=room.SeatFor(sender);SendPacket("tcg-state",sender,JsonUtility.ToJson(new RoomReply{seat=seat,ack=seat<0?0:room.Reply(seat).ack,error="Muitas solicitações. Aguarde um instante e tente novamente."}));return;}
+    requestCredits[sender]=credits-1;
+    var json=ReadPacket(reader,65536);var r=JsonUtility.FromJson<RoomRequest>(json);var reply=room.Receive(sender,r);SendPacket("tcg-state",sender,JsonUtility.ToJson(reply));Broadcast();
+   }catch(Exception e){Debug.LogError("TCG network request failed: "+e.GetType().Name+": "+e.Message);manager.DisconnectClient(sender);}finally{MaxRequestMilliseconds=Math.Max(MaxRequestMilliseconds,timer.ElapsedMilliseconds);if(Diagnostic&&timer.ElapsedMilliseconds>250)Debug.LogWarning("TCG request ms="+timer.ElapsedMilliseconds+" revision="+(room?.Game?.Revision??-1));}
   }
   void ReceiveState(ulong sender,FastBufferReader reader){if(sender!=NetworkManager.ServerClientId)return;try{Apply(JsonUtility.FromJson<RoomReply>(ReadPacket(reader,2097152)));}catch(Exception e){Status="Resposta de rede inválida.";Debug.LogError("TCG network state failed: "+e.GetType().Name+": "+e.Message);}}
   void Apply(RoomReply reply){if(reply==null)return;if(!string.IsNullOrEmpty(reply.error)){Status=LastError=reply.error;sequence=reply.ack;Busy=false;return;}State=reply;token=reply.token;sequence=awaitingHello?reply.ack:Math.Max(sequence,reply.ack);awaitingHello=false;Busy=reply.ack<sequence;Status=reply.closed?"O host encerrou a sala.":reply.paused?"Aguardando reconexão (até 2 minutos).":reply.started?"Partida conectada":"Sala · escolha seu deck e marque pronto";Changed?.Invoke(reply);}

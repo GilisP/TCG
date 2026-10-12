@@ -1,15 +1,8 @@
 {
-  "taskId": "BA-001",
+  "taskId": "DK-001",
   "status": "integrated-verified",
   "date": "2026-10-12",
-  "project": "C:/Users/gil/TCG",
-  "backupCommit": "e496ec0",
+  "backupCommit": "3babcd8",
   "owner": "coordinator",
-  "scope": [
-    "Runtime/BoosterUI.cs",
-    "Runtime/BoosterDiagnostics.cs",
-    "Runtime/TableDiagnostics.cs",
-    "Documentacao/Boosters-Abertura-2026-10-12.md"
-  ],
-  "next": "BA001 build29795checks passed; runtime12checks PASSzeroerrors. Grant100000 once actualprofile now100050 andoriginalbackup20261012; do not repeat automatically. MainUnityMesa reopen aftercommit/push. Nextmanualreview animation viaLoja Boosters, balance/sessionlong percentralpending. Hiddencapturesblack, no aestheticsapproval. PriorPC001 evidencePC-001-I-result.json preserved. No gameplay/net/economy rules changed."
+  "next": "DK001 finalbuild29795 passed andLANhost/guest16checks each zeroerrors. EvidenceDK-001-result.json. Deckpicker valid lists local/online; budgetburst8 fixes rapidly queued commands. Manualvisual reviewpending capturedblack; loadtestexcessnotperformed. Commit/push thenmainUnityMesaopen. PriorBA001+100000 alreadyapplied personalbalance100050; never regrant automatically."
 }
