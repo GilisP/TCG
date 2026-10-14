@@ -45,19 +45,18 @@ namespace TCG.Table
    Color edge=selected?new Color(1,.88f,.5f):night?TableWorld.Hex("B9AED6"):gilded?TableWorld.Hex("E5C374"):TableWorld.Hex("AC864A");
    Color dark=night?TableWorld.Hex("221B33"):TableWorld.Hex("32251D"),paper=night?TableWorld.Hex("352C45"):gilded?TableWorld.Hex("F4E5BF"):TableWorld.Hex("D9C7A0"),ink=night?TableWorld.Hex("EEE5F5"):TableWorld.Hex("33271D");
    Solid(new Rect(3,5,257,385),new Color(0,0,0,.6f));Solid(new Rect(0,0,260,390),dark);Stroke(new Rect(1,1,258,388),edge,2);OrnateBorder(new Rect(7,7,246,376),new Color(edge.r,edge.g,edge.b,.65f));
-   Solid(new Rect(13,13,234,46),paper);PaperGrain(new Rect(13,13,234,46),.035f);Stroke(new Rect(13,13,234,46),new Color(edge.r,edge.g,edge.b,.5f));
-   var titleStyle=new GUIStyle(GUI.skin.label){font=heading.font,fontSize=17,fontStyle=FontStyle.Bold,wordWrap=true,padding=new RectOffset(0,0,0,0),alignment=TextAnchor.MiddleLeft};titleStyle.normal.textColor=ink;while(titleStyle.fontSize>12&&titleStyle.CalcHeight(new GUIContent(card.Name),187)>38)titleStyle.fontSize--;GUI.Label(new Rect(20,17,187,38),card.Name,titleStyle);
-   Jewel(new Vector2(226,35),17,TableWorld.Elements[card.Color]);CardText(new Rect(211,20,30,30),card.TotalCost.ToString(),18,TableWorld.Elements[card.Color].grayscale>.45f?Color.black:Color.white,true,TextAnchor.MiddleCenter);
-   Solid(new Rect(12,63,236,176),edge);DrawIllustration(new Rect(15,66,230,170),CardIllustration(card,style));
+   Solid(new Rect(13,13,234,68),paper);PaperGrain(new Rect(13,13,234,68),.035f);Stroke(new Rect(13,13,234,68),new Color(edge.r,edge.g,edge.b,.5f));
+   var titleStyle=new GUIStyle(GUI.skin.label){font=heading.font,fontSize=17,fontStyle=FontStyle.Bold,wordWrap=true,padding=new RectOffset(0,0,0,0),alignment=TextAnchor.MiddleLeft};titleStyle.normal.textColor=ink;while(titleStyle.fontSize>12&&titleStyle.CalcHeight(new GUIContent(card.Name),219)>38)titleStyle.fontSize--;GUI.Label(new Rect(20,17,219,38),card.Name,titleStyle);
    DrawPrintedManaCost(card);
+   Solid(new Rect(12,85,236,154),edge);DrawIllustration(new Rect(15,88,230,148),CardIllustration(card,style));
    var colors=CardFilter.CardColors(card);for(int n=0;n<colors.Length;n++)Solid(new Rect(15+n*230f/colors.Length,231,230f/colors.Length,5),TableWorld.Elements[colors[n]]);
    Solid(new Rect(13,242,234,24),dark);CardText(new Rect(19,244,222,20),TypeLabel(card)+(card.Subtypes.Count>0?" · "+string.Join(" / ",card.Subtypes):""),11,edge,true);
    Solid(new Rect(13,269,234,82),paper);PaperGrain(new Rect(13,269,234,82),.035f);Stroke(new Rect(13,269,234,82),new Color(edge.r,edge.g,edge.b,.4f));
    string rules=card.Text;var textStyle=new GUIStyle(GUI.skin.label){font=body.font,fontSize=12,wordWrap=true,normal={textColor=ink}};while(textStyle.fontSize>9&&textStyle.CalcHeight(new GUIContent(rules),219)>75)textStyle.fontSize--;
    if(textStyle.CalcHeight(new GUIContent(rules),219)>75)rules=rules.Length>205?rules.Substring(0,202)+"…":rules;GUI.Label(new Rect(20,272,219,76),rules,textStyle);
    string stats=card.Kind==CardType.Creature||card.IsVehicle?card.PrintedStats+"   PA "+card.Actions+"   MOV "+card.Movement+"   ALC "+card.Range:card.Kind==CardType.Construction?"DEFESA "+card.Defense:card.Kind==CardType.Equipment?"EQUIPAR "+card.EquipCost:card.Kind==CardType.Terrain?"T E R R E N O":"";
-   CardText(new Rect(16,353,228,20),stats,11,night?paper:TableWorld.Hex("EEE0BE"),true,TextAnchor.MiddleCenter);CardText(new Rect(17,375,226,10),card.Id+"  ·  "+RarityLabel(card)+"  ·  "+CardStyles.Name(style),8,edge,false,TextAnchor.MiddleCenter);
-   if((inspected==card?inspectionFoil:CardFoil(card))){float sweep=Mathf.Repeat(Time.unscaledTime*.22f,1);for(int n=0;n<5;n++)Solid(new Rect(10,64+sweep*173+n,240,1),new Color(.6f+n*.08f,1,1,.16f));CardText(new Rect(190,66,50,13),"FOIL",9,new Color(.85f,1,1),true,TextAnchor.MiddleRight);}GUI.matrix=matrix;
+   CardText(new Rect(16,353,228,20),stats,11,night?paper:TableWorld.Hex("EEE0BE"),true,TextAnchor.MiddleCenter);CardText(new Rect(17,370,226,8),RarityLabel(card)+"  ·  "+CardStyles.Name(style),7,edge,false,TextAnchor.MiddleCenter);
+   if((inspected==card?inspectionFoil:CardFoil(card))){float sweep=Mathf.Repeat(Time.unscaledTime*.22f,1);for(int n=0;n<5;n++)Solid(new Rect(15,88+sweep*140+n,230,1),new Color(.6f+n*.08f,1,1,.16f));CardText(new Rect(190,90,50,13),"FOIL",9,new Color(.85f,1,1),true,TextAnchor.MiddleRight);}GUI.matrix=matrix;
   }
   public static string PrintedManaCost(Definition card)
   {
@@ -67,13 +66,13 @@ namespace TCG.Table
   }
   void DrawPrintedManaCost(Definition card)
   {
-   if(card.Kind==CardType.Terrain)return;
-   Solid(new Rect(15,207,230,23),new Color(.06f,.08f,.1f,.9f));
+   if(card.Kind==CardType.Terrain){Solid(new Rect(15,56,230,23),new Color(.06f,.08f,.1f,.9f));CardText(new Rect(15,59,230,17),"TERRENO · SEM CUSTO",11,Color.white,true,TextAnchor.MiddleCenter);return;}
+   Solid(new Rect(15,56,230,23),new Color(.06f,.08f,.1f,.9f));
    var colors=Enumerable.Range(0,7).Where(i=>card.ColoredCost[i]>0).ToArray();int groups=colors.Length+(card.Cost>0?1:0);
-   if(groups==0){CardText(new Rect(15,210,230,17),"CUSTO 0",11,Color.white,true,TextAnchor.MiddleCenter);return;}
+   if(groups==0){CardText(new Rect(15,59,230,17),"CUSTO 0",11,Color.white,true,TextAnchor.MiddleCenter);return;}
    float step=230f/groups;var symbols=new[]{"S","L","G","F","A","T","N"};int n=0;
-   foreach(int color in colors){float x=15+n++*step;Jewel(new Vector2(x+step*.5f,218),9,TableWorld.Elements[color]);CardText(new Rect(x,209,step,18),card.ColoredCost[color]+symbols[color],11,Color.black,true,TextAnchor.MiddleCenter);}
-   if(card.Cost>0)CardText(new Rect(15+n*step,209,step,18),card.Cost+" gen.",11,Color.white,true,TextAnchor.MiddleCenter);
+   foreach(int color in colors){float center=15+n++*step+step*.5f;float spread=Mathf.Min(25,step*.48f);CardText(new Rect(center-spread,57,Mathf.Max(10,spread-4),20),card.ColoredCost[color].ToString(),step<45?14:16,Color.white,true,TextAnchor.MiddleRight);Jewel(new Vector2(center+8,67),9,TableWorld.Elements[color]);CardText(new Rect(center-1,58,18,18),symbols[color],11,TableWorld.Elements[color].grayscale>.5f?Color.black:Color.white,true,TextAnchor.MiddleCenter);}
+   if(card.Cost>0)CardText(new Rect(15+n*step,57,step,20),card.Cost+" gen.",step<45?10:14,Color.white,true,TextAnchor.MiddleCenter);
   }
   void DrawIllustration(Rect r,Texture2D texture)
   {

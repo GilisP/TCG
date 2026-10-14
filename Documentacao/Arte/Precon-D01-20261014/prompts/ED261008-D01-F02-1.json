@@ -1,0 +1,19 @@
+{
+  "id": "ED261008-D01-F02-1",
+  "index": 16,
+  "name": "Coveiro do Cais Sombrio",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Coveiro do Cais Sombrio. Type: Creature; explicit subtypes: Humano, Coveiro. Card effect, visual inspiration only: Ao entrar, um oponente alvo tritura 1 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ba122d23-ede5-49f4-a5d8-ef32c8b36c17.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v2.png",
+  "status": "generated-inspected",
+  "revisions": [
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v1.png",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-41f10211-71bd-4c41-9203-e18298b8d471.png",
+      "status": "replaced-signature"
+    }
+  ],
+  "editPrompt": "Precise cleanup: remove every ink mark, signature, black squiggle and letter-like mark from the entire bottom-right corner, especially at x=95% y=98%. That corner must contain ONLY ordinary painted wood texture, with no dark ink strokes at all. Do not preserve the existing squiggle. Repaint the bottom right 8% x 8% corner to seamless plain weathered brown timber. Preserve all other image content, dimensions, composition and style unchanged. No signature, watermark or text anywhere.",
+  "inspection": "Signature removed by second built-in targeted edit; corner has plain painted wood. Main composition preserved."
+}

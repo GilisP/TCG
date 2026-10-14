@@ -1,0 +1,3148 @@
+[
+  {
+    "index": 101,
+    "card": {
+      "id": "AUTOR-20261007-TERRENO-001",
+      "name": "Reino dos mortos",
+      "kind": "Terrain",
+      "text": "uma vez por turno caso esse tile seja atacado e não tenha criaturas nele volte uma critura de seu cemiterio até o final do turno para a defender",
+      "rarity": "Rara",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Cemitério (proposta para revisão)"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "pca-tile-attacked",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-realm-return",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "once": true
+        }
+      ],
+      "traits": [
+        "pca-realm-dead"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-TERRENO-001-painted-v1.png"
+  },
+  {
+    "index": 102,
+    "card": {
+      "id": "ED261007-01-T001",
+      "name": "Cais dos Registros Roubados",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no cemitério.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Local"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "mill"
+            }
+          ],
+          "mana": 2,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T001-painted-v1.png"
+  },
+  {
+    "index": 103,
+    "card": {
+      "id": "ED261007-01-T002",
+      "name": "Cripta dos Mapas Perdidos",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: o jogador alvo tritura uma carta.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Local"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 2,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T002-painted-v1.png"
+  },
+  {
+    "index": 104,
+    "card": {
+      "id": "ED261007-01-T003",
+      "name": "Canal dos Cofres Vazios",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água na geração normal de terrenos. Uma vez no seu turno, pague 2 manas genéricas: uma criatura sua neste tile recebe +0/+2 até o fim do turno.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Local"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "subtype": "",
+          "mana": 2,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T003-painted-v1.png"
+  },
+  {
+    "index": 105,
+    "card": {
+      "maxCopies": 1,
+      "rule": "wild-grave",
+      "rarity": "AUTOR",
+      "equipCost": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "MED-205",
+      "effects": [],
+      "cost": 0,
+      "actions": 0,
+      "traits": [],
+      "unavailableReason": "",
+      "subtypes": [],
+      "art": "terrain",
+      "attack": 0,
+      "kind": "Terrain",
+      "name": "cemiterio descontrolado",
+      "text": "Gera 1 Lua. Toda criatura morta no campo cria aqui um Esqueleto 1/1, 1 PA, com missão de atacar uma capital inimiga sorteada.",
+      "movement": 0,
+      "range": 1,
+      "defense": 1,
+      "identityColors": [],
+      "commander": false,
+      "color": 1
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-205-painted-v1.png"
+  },
+  {
+    "index": 106,
+    "card": {
+      "id": "MED-014",
+      "name": "Charneca do Crepúsculo",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 50,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-014-painted-v1.png"
+  },
+  {
+    "index": 107,
+    "card": {
+      "id": "PD26-LL-001",
+      "name": "Pátio da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "loseLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            },
+            {
+              "kind": "buff",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-001-painted-v1.png"
+  },
+  {
+    "index": 108,
+    "card": {
+      "id": "PD26-LL-002",
+      "name": "Travessia da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "millSelf",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-002-painted-v1.png"
+  },
+  {
+    "index": 109,
+    "card": {
+      "id": "PD26-LL-003",
+      "name": "Torreão da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "gainLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-003-painted-v1.png"
+  },
+  {
+    "index": 110,
+    "card": {
+      "id": "PD26-LL-004",
+      "name": "Refúgio da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-004-painted-v1.png"
+  },
+  {
+    "index": 111,
+    "card": {
+      "id": "PD26-LL-005",
+      "name": "Clareira da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "mill",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-005-painted-v1.png"
+  },
+  {
+    "index": 112,
+    "card": {
+      "id": "PD26-LL-006",
+      "name": "Terraço da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "creature:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-006-painted-v1.png"
+  },
+  {
+    "index": 113,
+    "card": {
+      "id": "PD26-LL-007",
+      "name": "Posto da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 2,
+              "b": -1,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-007-painted-v1.png"
+  },
+  {
+    "index": 114,
+    "card": {
+      "id": "PD26-LL-008",
+      "name": "Santuário da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "enemy",
+          "scope": "here",
+          "condition": "wounded",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-008-painted-v1.png"
+  },
+  {
+    "index": 115,
+    "card": {
+      "id": "PD26-LL-009",
+      "name": "Acampamento da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 999,
+              "b": 0,
+              "c": 0,
+              "value": "instant:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-009-painted-v1.png"
+  },
+  {
+    "index": 116,
+    "card": {
+      "id": "PD26-LL-010",
+      "name": "Fortim da Guarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "heal",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-010-painted-v1.png"
+  },
+  {
+    "index": 117,
+    "card": {
+      "id": "PD26-LL-011",
+      "name": "Pátio da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "loseLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            },
+            {
+              "kind": "buff",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-011-painted-v1.png"
+  },
+  {
+    "index": 118,
+    "card": {
+      "id": "PD26-LL-012",
+      "name": "Travessia da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "millSelf",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-012-painted-v1.png"
+  },
+  {
+    "index": 119,
+    "card": {
+      "id": "PD26-LL-013",
+      "name": "Torreão da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "gainLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-013-painted-v1.png"
+  },
+  {
+    "index": 120,
+    "card": {
+      "id": "PD26-LL-014",
+      "name": "Refúgio da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-014-painted-v1.png"
+  },
+  {
+    "index": 121,
+    "card": {
+      "id": "PD26-LL-015",
+      "name": "Clareira da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no seu cemitério. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "mill",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-015-painted-v1.png"
+  },
+  {
+    "index": 122,
+    "card": {
+      "id": "PD26-LL-016",
+      "name": "Terraço da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque uma criatura de custo total até 1 do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "creature:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-016-painted-v1.png"
+  },
+  {
+    "index": 123,
+    "card": {
+      "id": "PD26-LL-017",
+      "name": "Posto da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +2/+0 e -1 de defesa até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 2,
+              "b": -1,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-017-painted-v1.png"
+  },
+  {
+    "index": 124,
+    "card": {
+      "id": "PD26-LL-018",
+      "name": "Santuário da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura inimiga ferida neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "enemy",
+          "scope": "here",
+          "condition": "wounded",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-018-painted-v1.png"
+  },
+  {
+    "index": 125,
+    "card": {
+      "id": "PD26-LL-019",
+      "name": "Acampamento da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 999,
+              "b": 0,
+              "c": 0,
+              "value": "instant:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-019-painted-v1.png"
+  },
+  {
+    "index": 126,
+    "card": {
+      "id": "PD26-LL-020",
+      "name": "Fortim da Fronteira de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "heal",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainBuilding",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-020-painted-v1.png"
+  },
+  {
+    "index": 127,
+    "card": {
+      "id": "PD26-LL-021",
+      "name": "Pátio da Retaguarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: você pode perder 1 de vida da capital para uma criatura sua neste terreno receber +2/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "loseLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            },
+            {
+              "kind": "buff",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCapital",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-021-painted-v1.png"
+  },
+  {
+    "index": 128,
+    "card": {
+      "id": "PD26-LL-022",
+      "name": "Travessia da Retaguarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque uma carta do topo do seu grimório no seu cemitério. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "millSelf",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCapital",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-022-painted-v1.png"
+  },
+  {
+    "index": 129,
+    "card": {
+      "id": "PD26-LL-023",
+      "name": "Torreão da Retaguarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: cure 1 da sua capital. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "gainLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCapital",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-023-painted-v1.png"
+  },
+  {
+    "index": 130,
+    "card": {
+      "id": "PD26-LL-024",
+      "name": "Refúgio da Retaguarda de Ossadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Lua nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1/+0 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCapital",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-024-painted-v1.png"
+  },
+  {
+    "index": 131,
+    "card": {
+      "maxCopies": 1,
+      "rule": "academy",
+      "rarity": "AUTOR",
+      "equipCost": 1,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "MED-204",
+      "effects": [],
+      "cost": 0,
+      "actions": 0,
+      "traits": [],
+      "unavailableReason": "",
+      "subtypes": [],
+      "art": "terrain",
+      "attack": 0,
+      "kind": "Terrain",
+      "name": "Academia de Magos",
+      "text": "Gera 1 Água. Habilidades desencadeadas dos Magos neste terreno desencadeiam uma vez adicional.",
+      "movement": 0,
+      "range": 1,
+      "defense": 1,
+      "identityColors": [],
+      "commander": false,
+      "color": 2
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-204-painted-v1.png"
+  },
+  {
+    "index": 132,
+    "card": {
+      "id": "MED-025",
+      "name": "Margens do Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água na renovação do seu turno. Seu deck de terrenos pode conter até 50 cópias desta carta.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 50,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-025-painted-v1.png"
+  },
+  {
+    "index": 133,
+    "card": {
+      "id": "PD26-LG-001",
+      "name": "Pátio da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-001-painted-v1.png"
+  },
+  {
+    "index": 134,
+    "card": {
+      "id": "PD26-LG-002",
+      "name": "Travessia da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "creature",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-002-painted-v1.png"
+  },
+  {
+    "index": 135,
+    "card": {
+      "id": "PD26-LG-003",
+      "name": "Torreão da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "rarity": "prototype",
+      "art": "terrain",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "heal",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "own",
+          "scope": "here",
+          "condition": "",
+          "gate": "terrainCreature",
+          "subtype": "",
+          "mana": 2,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-003-painted-v1.png"
+  },
+  {
+    "index": 136,
+    "card": {
+      "id": "ED261008-D01-T36",
+      "name": "Versão de campanha — Refúgio da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T36-painted-v1.png"
+  },
+  {
+    "index": 137,
+    "card": {
+      "id": "ED261008-D01-T37",
+      "name": "Versão de campanha — Clareira da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T37-painted-v1.png"
+  },
+  {
+    "index": 138,
+    "card": {
+      "id": "ED261008-D01-T38",
+      "name": "Versão de campanha — Terraço da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T38-painted-v1.png"
+  },
+  {
+    "index": 139,
+    "card": {
+      "id": "ED261008-D01-T39",
+      "name": "Versão de campanha — Posto da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T39-painted-v1.png"
+  },
+  {
+    "index": 140,
+    "card": {
+      "id": "ED261008-D01-T40",
+      "name": "Versão de campanha — Santuário da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T40-painted-v1.png"
+  },
+  {
+    "index": 141,
+    "card": {
+      "id": "ED261008-D01-T41",
+      "name": "Versão de campanha — Acampamento da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T41-painted-v1.png"
+  },
+  {
+    "index": 142,
+    "card": {
+      "id": "ED261008-D01-T42",
+      "name": "Versão de campanha — Fortim da Guarda de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T42-painted-v1.png"
+  },
+  {
+    "index": 143,
+    "card": {
+      "id": "ED261008-D01-T43",
+      "name": "Versão de campanha — Pátio da Fronteira de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T43-painted-v1.png"
+  },
+  {
+    "index": 144,
+    "card": {
+      "id": "ED261008-D01-T44",
+      "name": "Versão de campanha — Travessia da Fronteira de Estuário",
+      "kind": "Terrain",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T44-painted-v1.png"
+  },
+  {
+    "index": 145,
+    "card": {
+      "id": "ED261008-D01-T45",
+      "name": "Base de estudos das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T45-painted-v1.png"
+  },
+  {
+    "index": 146,
+    "card": {
+      "id": "ED261008-D01-T46",
+      "name": "Portões da entrada proibida das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [
+        "precon-random-mana",
+        "precon-random-mana"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T46-painted-v1.png"
+  },
+  {
+    "index": 147,
+    "card": {
+      "id": "ED261008-D01-T47",
+      "name": "Mercado Ambulante das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T47-painted-v1.png"
+  },
+  {
+    "index": 148,
+    "card": {
+      "id": "ED261008-D01-T48",
+      "name": "Estrada Real das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T48-painted-v1.png"
+  },
+  {
+    "index": 149,
+    "card": {
+      "id": "ED261008-D01-T49",
+      "name": "Pátio da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T49-painted-v1.png"
+  },
+  {
+    "index": 150,
+    "card": {
+      "id": "ED261008-D01-T50",
+      "name": "Travessia da Guarda de Pedra Cinzenta das Criptas Saqueadas",
+      "kind": "Terrain",
+      "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: o oponente alvo tritura duas cartas.",
+      "rarity": "Mítica",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "mana": 3,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T50-painted-v1.png"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "MED-097",
+  "index": 20,
+  "name": "Rato do Ossuário",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Rato do Ossuário. Type: Creature; explicit subtypes: Fera. Card effect, visual inspiration only: Quando morrer, coloque uma carta do seu cemitério no fundo do seu deck.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a medieval coastal necromantic fantasy world. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-f37a3580-8f98-434e-88c1-998c34c2d2cb.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-097-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

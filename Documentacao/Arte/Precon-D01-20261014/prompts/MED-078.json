@@ -1,0 +1,11 @@
+{
+  "id": "MED-078",
+  "index": 48,
+  "name": "Memórias do Poço",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Memórias do Poço; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Devolva uma carta de criatura do seu cemitério principal para sua mão. Depois, olhe a carta do topo do seu deck principal; você pode colocá-la no fundo desse deck.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-848db33d-0f1c-4449-b59e-ebccd1541396.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-078-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "COL001-R003",
+  "index": 24,
+  "name": "Acólito da Ponte Profanada",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Acólito da Ponte Profanada; type Creature; explicit subtypes Vampiro, Clérigo. Visual inspiration from card ability (do not depict card UI or writing): Ao morrer, o dono do efeito que a matou tritura 5.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-3b610e2e-7d21-49ee-af0b-4210a184f7e4.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R003-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived.",
+  "artReviewNote": "Contains mild fantasy blood/injury; author aesthetic review remains open."
+}

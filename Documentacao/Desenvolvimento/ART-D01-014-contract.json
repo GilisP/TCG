@@ -1,0 +1,24 @@
+{
+  "taskId": "ART-D01-014",
+  "userDecision": "Exclusive painted art, begin oneprecon; firstofficialRoubo de tumbas",
+  "root": [
+    "manifest",
+    "CardAppearanceUI layout",
+    "metadata/importsettings",
+    "Editor/layout/gallerytests",
+    "docs/Git"
+  ],
+  "specialists": {
+    "a": "queue1-50",
+    "b": "queue51-100",
+    "c": "queue101-150"
+  },
+  "contracts": [
+    "oneimageperID, neverartatlas",
+    "fullillustration noframe/text",
+    "preservecommanderart",
+    "no mechanics/costdata changes",
+    "originalprompt/tooloutputsaved",
+    "outsidefirstprecon retainsprovisionalart"
+  ]
+}

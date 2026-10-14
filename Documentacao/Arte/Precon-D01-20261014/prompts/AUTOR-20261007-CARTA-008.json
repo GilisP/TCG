@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-008",
+  "index": 8,
+  "name": "Ciri do Mal",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name Ciri do Mal. Type Creature. Explicit subtypes Caranguejo. Depict this exact subject distinctly. Card effect as inspiration, do not render text: 1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas.. Scene: An ominous black-purple shore crab, natural crab anatomy, holding a spectral echo in its pincer amid tomb bones and shredded blank parchment in a tidal cave. Menacing blue-black glow. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ec49960f-da82-4a41-b0b7-4e3dce0a8a74.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-008-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

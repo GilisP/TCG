@@ -1,0 +1,9 @@
+{
+  "id": "MED-021",
+  "index": 83,
+  "status": "generated-inspected",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-f79887e2-22f4-49d9-9d1d-aee1f53462f2.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-021-painted-v1.png",
+  "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Mirela, Guardiã dos Nomes; Creature, Humano, Mago. Effect inspiration: Quando esta criatura entrar no campo, devolva outra carta de criatura de custo total 4 ou menos do seu cemitério principal para sua mão.. Scene: Mirela, human female mage guardian of forgotten names, holding a rescued spectral warrior's memory between cupped hands in candlelit archive; luminous blue cloak and elegant silver hair braid. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+  "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+}

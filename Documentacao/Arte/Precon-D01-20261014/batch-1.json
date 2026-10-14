@@ -1,0 +1,3060 @@
+[
+  {
+    "index": 1,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-001",
+      "name": "Mestre chaveiro",
+      "kind": "Creature",
+      "text": "2pa: olhe a carta do topo do grimorio alvo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 1,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano Engenheiro"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-look-player",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 2
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-001-painted-v1.png"
+  },
+  {
+    "index": 2,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-002",
+      "name": "Caranguejo de estimação",
+      "kind": "Creature",
+      "text": "sempre que um terreno é colocado em 1 tile de distancia do caranquejo de estimação os oponentes trituram 1 carta.",
+      "rarity": "Incomum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 1,
+      "actions": 1,
+      "movement": 1,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "ciri"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "pca-near-terrain",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-mill-enemies",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-002-painted-v1.png"
+  },
+  {
+    "index": 3,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-003",
+      "name": "Refinar o plano",
+      "kind": "Instant",
+      "text": "troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla",
+      "rarity": "Incomum",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "pca-combat-own",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-swap-combat",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-003-painted-v1.png"
+  },
+  {
+    "index": 4,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-004",
+      "name": "Vendedor de mapas",
+      "kind": "Creature",
+      "text": "1pa: marque um tile caso o conquiste este turno compre duas cartas",
+      "rarity": "Rara",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 2,
+      "defense": 2,
+      "actions": 1,
+      "movement": 1,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-mark-tile",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 1
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-004-painted-v1.png"
+  },
+  {
+    "index": 5,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-005",
+      "name": "procurando a chave",
+      "kind": "Instant",
+      "text": "o jogador alvo tritura cinco cartas.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 5,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-005-painted-v1.png"
+  },
+  {
+    "index": 6,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-006",
+      "name": "ondas gigantes",
+      "kind": "Instant",
+      "text": "escolha um tile. empurre dois tiles para longe tudo que esteja no caminho. caso no tile exato toma 3 de dano",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-wave",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-006-painted-v1.png"
+  },
+  {
+    "index": 7,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-007",
+      "name": "jonas o lixeiro",
+      "kind": "Creature",
+      "text": "tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno",
+      "rarity": "Mítica",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 3,
+      "attack": 0,
+      "defense": 8,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano Lendario"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-block-tile",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 6
+        }
+      ],
+      "traits": [
+        "indestructible",
+        "pca-jonas"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-007-painted-v1.png"
+  },
+  {
+    "index": 8,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-008",
+      "name": "Ciri do Mal",
+      "kind": "Creature",
+      "text": "1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 1,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Caranguejo"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-exile-grave-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 1,
+          "gate": "pca-any-grave-creature"
+        }
+      ],
+      "traits": [
+        "pca-diagonal-only"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-008-painted-v1.png"
+  },
+  {
+    "index": 9,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-009",
+      "name": "Documento falso",
+      "kind": "Equipment",
+      "text": "equip 2: a criatura equipada tem ou o dobro de defesa ou de ataque escolhido ao acaso todo turno",
+      "rarity": "Incomum",
+      "color": 6,
+      "identityColors": [],
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 2,
+      "subtypes": [
+        "equipamento"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "aura",
+          "target": "host",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-document",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "pca-document"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-009-painted-v1.png"
+  },
+  {
+    "index": 10,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-010",
+      "name": "Fabrica dos Horrores",
+      "kind": "Construction",
+      "text": "ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a 0 marcadores.",
+      "rarity": "Rara",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 5,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Costrução"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "turn",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-horror",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "pca-factory"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-010-painted-v1.png"
+  },
+  {
+    "index": 11,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-011",
+      "name": "Padre corrupto",
+      "kind": "Creature",
+      "text": "toda criatura em seu cemiterio tem \"Exumar 1: pague uma mana incolor e exile esse card. compre um card\"",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 3,
+      "actions": 3,
+      "movement": 1,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": 6,
+          "ops": [
+            {
+              "kind": "pca-exumar",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "colored": 1,
+          "gate": "pca-own-grave-creature"
+        }
+      ],
+      "traits": [
+        "pca-exumar"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-011-painted-v1.png"
+  },
+  {
+    "index": 12,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-012",
+      "name": "sinfonia desastrosa",
+      "kind": "Enchantment",
+      "text": "o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura.",
+      "rarity": "Rara",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "aura",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-symphony",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "pca-tile-enchantment"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-012-painted-v1.png"
+  },
+  {
+    "index": 13,
+    "card": {
+      "id": "AUTOR-20261007-CARTA-013",
+      "name": "persoadir guerreiros",
+      "kind": "Spell",
+      "text": "de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo",
+      "rarity": "Rara",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "pca-persuade",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-persuade",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-013-painted-v1.png"
+  },
+  {
+    "index": 14,
+    "card": {
+      "id": "ED261008-D01-F05-1",
+      "name": "Abrir o cofre do Cais Sombrio",
+      "kind": "Instant",
+      "text": "O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-1-painted-v1.png"
+  },
+  {
+    "index": 15,
+    "card": {
+      "id": "ED261008-D01-F01-1",
+      "name": "Arrombador do Cais Sombrio",
+      "kind": "Creature",
+      "text": "1 PA, uma vez no seu turno: o jogador alvo tritura 1 cartas.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 2,
+      "actions": 3,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 1,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-1-painted-v1.png"
+  },
+  {
+    "index": 16,
+    "card": {
+      "id": "ED261008-D01-F02-1",
+      "name": "Coveiro do Cais Sombrio",
+      "kind": "Creature",
+      "text": "Ao entrar, um oponente alvo tritura 1 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Coveiro"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-exile",
+              "a": 1,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v1.png"
+  },
+  {
+    "index": 17,
+    "card": {
+      "id": "ED261008-D01-F03-1",
+      "name": "Espião do Cais Sombrio",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 3,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-capital-top-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-1-painted-v1.png"
+  },
+  {
+    "index": 18,
+    "card": {
+      "id": "ED261008-D01-F07-1",
+      "name": "Exigir o registro do Cais Sombrio",
+      "kind": "Spell",
+      "text": "O oponente alvo tritura 1 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-draw",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-1-painted-v1.png"
+  },
+  {
+    "index": 19,
+    "card": {
+      "id": "ED261008-D01-F06-1",
+      "name": "Profanar o arquivo do Cais Sombrio",
+      "kind": "Spell",
+      "text": "O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-1-painted-v1.png"
+  },
+  {
+    "index": 20,
+    "card": {
+      "id": "MED-097",
+      "name": "Rato do Ossuário",
+      "kind": "Creature",
+      "color": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 1,
+      "defense": 1,
+      "actions": 2,
+      "range": 1,
+      "movement": 2,
+      "equipCost": 1,
+      "rarity": "common",
+      "art": "beast",
+      "text": "Quando morrer, coloque uma carta do seu cemitério no fundo do seu deck.",
+      "rule": "",
+      "traits": [
+        "death-bottom"
+      ],
+      "effects": [],
+      "subtypes": [
+        "Fera"
+      ],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-097-painted-v1.png"
+  },
+  {
+    "index": 21,
+    "card": {
+      "id": "ED261008-D01-F05-2",
+      "name": "Abrir o cofre das Catacumbas",
+      "kind": "Instant",
+      "text": "O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 4,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-2-painted-v1.png"
+  },
+  {
+    "index": 22,
+    "card": {
+      "id": "COL001-R001",
+      "name": "Aprendiz das Marés Reveladoras",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "combatHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "orderTop",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        },
+        {
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "orderTop",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R001-painted-v1.png"
+  },
+  {
+    "index": 23,
+    "card": {
+      "id": "COL001-R002",
+      "name": "Saqueador das Memórias Feridas",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate à uma criatura inimiga, coloque 2 cartas do topo do grimório daquele jogador no cemitério dele.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Vampiro",
+        "Clérigo"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "combatHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-mill-victim",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R002-painted-v1.png"
+  },
+  {
+    "index": 24,
+    "card": {
+      "id": "COL001-R003",
+      "name": "Acólito da Ponte Profanada",
+      "kind": "Creature",
+      "text": "Ao morrer, o dono do efeito que a matou tritura 5.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Vampiro",
+        "Clérigo"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "pca-killed",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-mill-killer",
+              "a": 5,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R003-painted-v1.png"
+  },
+  {
+    "index": 25,
+    "card": {
+      "id": "PD26-G-019",
+      "name": "Aprendiz da Torre de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "loot",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": true
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-019-painted-v1.png"
+  },
+  {
+    "index": 26,
+    "card": {
+      "id": "PD26-G-001",
+      "name": "Aprendiz da Vigília de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-001-painted-v1.png"
+  },
+  {
+    "index": 27,
+    "card": {
+      "id": "ED261007-01-C001",
+      "name": "Aprendiz de Arrombador",
+      "kind": "Creature",
+      "text": "1 PA, uma vez no seu turno: olhe a carta do topo do seu grimório. Você pode colocá-la no seu cemitério.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 3,
+      "actions": 3,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "mill"
+            }
+          ],
+          "pa": 1,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C001-painted-v1.png"
+  },
+  {
+    "index": 28,
+    "card": {
+      "id": "PD26-L-013",
+      "name": "Aprendiz do Juramento de Ossadas",
+      "kind": "Creature",
+      "text": "Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.",
+      "rarity": "prototype",
+      "art": "soldier",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Vampiro",
+        "Clérigo"
+      ],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "creature:top",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-013-painted-v1.png"
+  },
+  {
+    "index": 29,
+    "card": {
+      "id": "COL001-R004",
+      "name": "Aprendiz dos Tomos Recuperados",
+      "kind": "Creature",
+      "text": "Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "death",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-grave",
+              "a": 999,
+              "b": 1,
+              "c": 0,
+              "value": "instant:top"
+            }
+          ],
+          "optional": true
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R004-painted-v1.png"
+  },
+  {
+    "index": 30,
+    "card": {
+      "id": "COL001-R005",
+      "name": "Vampiro das Lembranças Roubadas",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Vampiro",
+        "Clérigo"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "combatHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pca-mill-victim",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R005-painted-v1.png"
+  },
+  {
+    "index": 31,
+    "card": {
+      "id": "ED261008-D01-F01-2",
+      "name": "Arrombador das Catacumbas",
+      "kind": "Creature",
+      "text": "1 PA, uma vez no seu turno: o jogador alvo tritura 2 cartas.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 3,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "activate",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "pa": 1,
+          "once": true,
+          "gate": "ownTurn"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-2-painted-v1.png"
+  },
+  {
+    "index": 32,
+    "card": {
+      "id": "ED261008-D01-F02-2",
+      "name": "Coveiro das Catacumbas",
+      "kind": "Creature",
+      "text": "Ao entrar, um oponente alvo tritura 2 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Coveiro"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-exile",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-2-painted-v1.png"
+  },
+  {
+    "index": 33,
+    "card": {
+      "id": "ED261008-D01-F03-2",
+      "name": "Espião das Catacumbas",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "actions": 2,
+      "movement": 3,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-capital-top-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-2-painted-v1.png"
+  },
+  {
+    "index": 34,
+    "card": {
+      "id": "ED261008-D01-F07-2",
+      "name": "Exigir o registro das Catacumbas",
+      "kind": "Spell",
+      "text": "O oponente alvo tritura 2 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-draw",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-2-painted-v1.png"
+  },
+  {
+    "index": 35,
+    "card": {
+      "id": "ED261007-01-C005",
+      "name": "Guarda do Espólio",
+      "kind": "Creature",
+      "text": "Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +0/+2.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 2,
+      "defense": 2,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Soldado"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "aura",
+          "target": "self",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "condition": "pcl-exile-permission"
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C005-painted-v1.png"
+  },
+  {
+    "index": 36,
+    "card": {
+      "id": "ED261007-01-C007",
+      "name": "Janela Arrombada",
+      "kind": "Instant",
+      "text": "Olhe as duas cartas do topo do grimório do jogador alvo. Coloque uma no cemitério dele e devolva a outra ao topo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-top-mill",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C007-painted-v1.png"
+  },
+  {
+    "index": 37,
+    "card": {
+      "id": "ED261008-D01-F06-2",
+      "name": "Profanar o arquivo das Catacumbas",
+      "kind": "Spell",
+      "text": "O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 4,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-2-painted-v1.png"
+  },
+  {
+    "index": 38,
+    "card": {
+      "id": "MED-015",
+      "name": "Recolher os Caídos",
+      "kind": "Spell",
+      "text": "Devolva uma carta de criatura de custo total 3 ou menos do seu cemitério principal para sua mão.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": "creature:hand",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-015-painted-v1.png"
+  },
+  {
+    "index": 39,
+    "card": {
+      "id": "ED261008-D01-F08-1",
+      "name": "Tomar o espólio do Cais Sombrio",
+      "kind": "Spell",
+      "text": "Exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-exile-grave",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-1-painted-v1.png"
+  },
+  {
+    "index": 40,
+    "card": {
+      "id": "MED-100",
+      "name": "Vasculhar as Covas",
+      "kind": "Spell",
+      "color": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "range": 1,
+      "movement": 0,
+      "equipCost": 1,
+      "rarity": "common",
+      "art": "sigil",
+      "text": "Escolha uma criatura no seu cemitério e coloque-a no fundo do seu deck. Compre uma carta.",
+      "rule": "grave-cycle",
+      "traits": [],
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-100-painted-v1.png"
+  },
+  {
+    "index": 41,
+    "card": {
+      "id": "ED261008-D01-F05-3",
+      "name": "Abrir o cofre do Arquivo Lacrado",
+      "kind": "Instant",
+      "text": "O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 5,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-3-painted-v1.png"
+  },
+  {
+    "index": 42,
+    "card": {
+      "id": "ED261008-D01-F04-2",
+      "name": "Contrabandista das Catacumbas",
+      "kind": "Creature",
+      "text": "Ao entrar, exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-exile-grave",
+              "a": 2,
+              "b": 1,
+              "c": 1,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-2-painted-v1.png"
+  },
+  {
+    "index": 43,
+    "card": {
+      "id": "ED261008-D01-F02-3",
+      "name": "Coveiro do Arquivo Lacrado",
+      "kind": "Creature",
+      "text": "Ao entrar, um oponente alvo tritura 3 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 2,
+      "defense": 3,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Coveiro"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-exile",
+              "a": 3,
+              "b": 2,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-3-painted-v1.png"
+  },
+  {
+    "index": 44,
+    "card": {
+      "id": "ED261007-01-C002",
+      "name": "Coveiro dos Registros",
+      "kind": "Creature",
+      "text": "Ao entrar, coloque as duas cartas do topo do seu grimório no seu cemitério.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 2,
+      "defense": 3,
+      "actions": 3,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Coveiro"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "millSelf",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C002-painted-v1.png"
+  },
+  {
+    "index": 45,
+    "card": {
+      "id": "ED261008-D01-F03-3",
+      "name": "Espião do Arquivo Lacrado",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 2,
+      "defense": 3,
+      "actions": 2,
+      "movement": 3,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Ladino"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-capital-top-mill",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-3-painted-v1.png"
+  },
+  {
+    "index": 46,
+    "card": {
+      "id": "ED261008-D01-F07-3",
+      "name": "Exigir o registro do Arquivo Lacrado",
+      "kind": "Spell",
+      "text": "O oponente alvo tritura 3 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-enemy-mill-draw",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-3-painted-v1.png"
+  },
+  {
+    "index": 47,
+    "card": {
+      "id": "PD26-L-030",
+      "name": "Memórias Afundadas",
+      "kind": "Spell",
+      "text": "Escolha um jogador. Ele coloca três cartas do topo do grimório no cemitério. Você perde 1 de vida da capital.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            },
+            {
+              "kind": "loseLife",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-030-painted-v1.png"
+  },
+  {
+    "index": 48,
+    "card": {
+      "id": "MED-078",
+      "name": "Memórias do Poço",
+      "kind": "Spell",
+      "text": "Devolva uma carta de criatura do seu cemitério principal para sua mão. Depois, olhe a carta do topo do seu deck principal; você pode colocá-la no fundo desse deck.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        1,
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 999,
+              "b": 0,
+              "c": 0,
+              "value": "creature:hand",
+              "condition": ""
+            },
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-078-painted-v1.png"
+  },
+  {
+    "index": 49,
+    "card": {
+      "id": "ED261008-D01-F06-3",
+      "name": "Profanar o arquivo do Arquivo Lacrado",
+      "kind": "Spell",
+      "text": "O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1
+      ],
+      "coloredCost": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "player",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "mill",
+              "a": 5,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-3-painted-v1.png"
+  },
+  {
+    "index": 50,
+    "card": {
+      "id": "ED261008-D01-F08-2",
+      "name": "Tomar o espólio das Catacumbas",
+      "kind": "Spell",
+      "text": "Exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.",
+      "rarity": "Comum",
+      "color": 1,
+      "identityColors": [
+        1,
+        2
+      ],
+      "coloredCost": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-exile-grave",
+              "a": 3,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-2-painted-v1.png"
+  }
+]

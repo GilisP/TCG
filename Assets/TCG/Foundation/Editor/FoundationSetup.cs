@@ -45,6 +45,10 @@ namespace TCG.Foundation.Editor
         {
             AssetDatabase.Refresh();CommanderAssetSetup.ValidateGalleryEntry();CommanderPresentationChecks.Run();BuildPreparedPlayer();
         }
+        public static void BuildCardArt()
+        {
+            AssetDatabase.Refresh();PreconArtChecks.Run();CommanderPresentationChecks.Run();BuildPreparedPlayer();
+        }
         static void BuildPreparedPlayer()
         {
             var output=Path.GetFullPath("Builds/BaseJogavel/Fronteiras.exe"); Directory.CreateDirectory(Path.GetDirectoryName(output));

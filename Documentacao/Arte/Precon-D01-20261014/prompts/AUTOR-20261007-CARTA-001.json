@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-001",
+  "index": 1,
+  "name": "Mestre chaveiro",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration for Mestre chaveiro, a Human Engineer creature. Scene: a medieval harbor locksmith's workshop opening into shadowy tomb corridors. Subject: an experienced human master locksmith carefully holding a finely wrought skeleton key beside a locked ancient grimoire, his eye reflected in a small brass inspection lens as he discovers its secret. Exact card ability inspires the image: spend effort to inspect the top of a target grimoire. Detailed hand-painted oil/gouache fantasy art, nautical and necromantic atmosphere, worn brass tools, wax seals without lettering, blue-green ambient light and warm lamp. Full landscape 4:3 artwork only. Main subject central and crop-safe. No words, lettering, frame, mana symbols, UI or watermark; no card mockup.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-44df0bc1-36ea-4da8-abc2-b6baa308b50d.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-001-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

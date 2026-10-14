@@ -1,0 +1,670 @@
+{
+  "valid": 83,
+  "expected": 150,
+  "assets": [
+    {
+      "id": "AUTOR-20261007-CARTA-001",
+      "name": "Mestre chaveiro",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1abd71430f7888d02d7c736d2235302a64f188e45522e186eb9b89d93871d18a"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-002",
+      "name": "Caranguejo de estimação",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-002-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "23230811c06367ae8096ddbceaf1d2be1b6239ddb96e9f2d44440913b377f3c6"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-003",
+      "name": "Refinar o plano",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "57cec68f7f1debc6e4cedfa4551fa75f0834d6efecdfcb5b7841e180a99298b8"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-004",
+      "name": "Vendedor de mapas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "563151d5312c8185ef466565321ca28b0863c73b3dab8a3add44a749e8d91c03"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-005",
+      "name": "procurando a chave",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-005-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "074b68f74e5fbaeb44973e5f48ad924bf85a8f212677ae484e18214c7e2f8184"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-006",
+      "name": "ondas gigantes",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-006-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "408ab2264707d303d3db8567eed94ee1b6dac1be6816be689af7a54553c22e2a"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-007",
+      "name": "jonas o lixeiro",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "98361bcb831a717ba154e716ee5068b35ab31f6e9dfc8f9d44cea79a76e0be6e"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-008",
+      "name": "Ciri do Mal",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-008-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "828e99adef13e17617e57a78dc23a73f2ccc6bd4654ced2f4d51b6c3ba3b52a6"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-009",
+      "name": "Documento falso",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-009-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "046c5441ca3910286a800d305ece94b5ec36d66613e28b09a6675acd35144a92"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-010",
+      "name": "Fabrica dos Horrores",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-010-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "3b32002e0ead6b256f5dce982371b12433c9b31e3ce923042f0458077ed54bd5"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-011",
+      "name": "Padre corrupto",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-011-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ffb3c460a0744d1713f55b3cd65cf7f244762c6f2b066d8cb1322177e835fe41"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-012",
+      "name": "sinfonia desastrosa",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-012-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8533d9169e21f15e55e90aeb61cb40021d65d695929974ffcbe49b2822f962e8"
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-013",
+      "name": "persoadir guerreiros",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "6bb6f3be2381e0f049bb9abc2d007e7fabc5afae34d88ff9af56d984b23e6b67"
+    },
+    {
+      "id": "ED261008-D01-F05-1",
+      "name": "Abrir o cofre do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "78bb5353b9080e8644f8ebfb0ba5133880303e2cd732cbfbbe78b134fecc743b"
+    },
+    {
+      "id": "ED261008-D01-F01-1",
+      "name": "Arrombador do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7fceec30561542e874614594604aa263146925b119ac633014d503bfbcee83f9"
+    },
+    {
+      "id": "ED261008-D01-F02-1",
+      "name": "Coveiro do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v2.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "0890ca951247dc755901040a689192c03b859182c5f41e2f23ced680237787cf"
+    },
+    {
+      "id": "ED261008-D01-F03-1",
+      "name": "Espião do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "905457afbf239a88436de3280297b94083be8b86709d64317d08496482d97fda"
+    },
+    {
+      "id": "ED261008-D01-F07-1",
+      "name": "Exigir o registro do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8c10abfa75c8381e17f094fac22758ff6f816aa6b6769e8bf979efa5af2b9453"
+    },
+    {
+      "id": "ED261008-D01-F06-1",
+      "name": "Profanar o arquivo do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e176ff264d965118f07ea1ce68118093a96cd85eedcc0c1630726d93da47f9ab"
+    },
+    {
+      "id": "MED-097",
+      "name": "Rato do Ossuário",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/MED-097-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "0671ff66f347a04338659c334e915f388222a870449f7e868503325ea3f783a3"
+    },
+    {
+      "id": "ED261008-D01-F05-2",
+      "name": "Abrir o cofre das Catacumbas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-2-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "17656a3d6e42ba687a8858c02c127cfbdeb4b6314a1e773b55638daad75f549a"
+    },
+    {
+      "id": "COL001-R001",
+      "name": "Aprendiz das Marés Reveladoras",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "250762d61bd6850972f05a246e76c7589f8d200499203e181f5c6e9e4e91f892"
+    },
+    {
+      "id": "COL001-R003",
+      "name": "Acólito da Ponte Profanada",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "65714b70413b92c209a425cb63390d085642917c465321567a8b8942deee6f1c"
+    },
+    {
+      "id": "PD26-G-019",
+      "name": "Aprendiz da Torre de Estuário",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-019-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7874174b29721073d0449b53bbada55a35b1193bbabb8784366ff509637b07ef"
+    },
+    {
+      "id": "PD26-G-001",
+      "name": "Aprendiz da Vigília de Estuário",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e2e6f188051c53cfd79bccc25985e7571ec5995f147c97c5a9e7643359733398"
+    },
+    {
+      "id": "ED261007-01-C001",
+      "name": "Aprendiz de Arrombador",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b6e6799e7bcf58bbf81dcc8051a2b3abf511e951f0b74c8926cbf886f3177d32"
+    },
+    {
+      "id": "PD26-L-013",
+      "name": "Aprendiz do Juramento de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1cab590f662872a8a98b98a2d75d009f1085f8b0c823414b0fc7301a1248dfd1"
+    },
+    {
+      "id": "COL001-R004",
+      "name": "Aprendiz dos Tomos Recuperados",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f79642c902168d783be1d1c9ec7d9a6371a937982f5678b0107ccfb22751c7b3"
+    },
+    {
+      "id": "COL001-R005",
+      "name": "Vampiro das Lembranças Roubadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R005-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "5cb596652874653786857dde1cd59a74a459cada5112bc32ca314e3c57a62ccd"
+    },
+    {
+      "id": "ED261008-D01-F01-2",
+      "name": "Arrombador das Catacumbas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-2-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "437c02e4d2c8e1083ddf7c611d7260c9de4748df19d5da521ad611d27a5805b4"
+    },
+    {
+      "id": "COL001-R006",
+      "name": "Escriba do Esquecimento Coletivo",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R006-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1a65959f958dc08e4bea99e8d6cde406227aea00d9ce7c451f17522492dc5ae1"
+    },
+    {
+      "id": "COL001-R007",
+      "name": "Veterano da Busca Submersa",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7a529c9a8c653a05585d892a77e616501ed696a83c4465ea163a449bcadda162"
+    },
+    {
+      "id": "PD26-L-023",
+      "name": "Veterano da Marcha de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-023-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c07ff6a6446596075f2290b7009df4f9ec14f3ff0c6167c245d97265f075e227"
+    },
+    {
+      "id": "COL001-R015",
+      "name": "Veterano da Patrulha do Esquecimento",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R015-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "55a169c677881c57af3204b32fe70a64140647aa976e7d3de0e8bd5ee9631a04"
+    },
+    {
+      "id": "COL001-R008",
+      "name": "Arauto da Incursão Mental",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R008-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "3a5467499ba090b8f7d0f46bfbf2f00c8100501636edb8aa4bf4694920d614ed"
+    },
+    {
+      "id": "COL001-R009",
+      "name": "Negociante dos Tomos Perdidos",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R009-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "93ee3a7d8f19270d78713687166571d5237ff0471809bf678156f45031b3a860"
+    },
+    {
+      "id": "COL001-R010",
+      "name": "Vigia dos Segredos Usurpados",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R010-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a35ee8cd363608eef609963a994cb990e6067c21309dee650b22ef4cc55b1b12"
+    },
+    {
+      "id": "PD26-L-014",
+      "name": "Veterano do Juramento de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-014-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b3a4510896f7e57ddd24e74631eeb17a36528d0c5180c0f14c7e0ce7e944977c"
+    },
+    {
+      "id": "COL001-R011",
+      "name": "Guardião das Relíquias Recuperadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R011-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "029fd01bbca0c5d34853c19131d920351b5e7476bae7fa9d3e3b0664687a5873"
+    },
+    {
+      "id": "ED261007-01-C008",
+      "name": "Luvas do Saque Silencioso",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C008-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e3d1821cd740d8712f68ba59db406d1c47eb98984fcfe5d3d7ce8e8c49697092"
+    },
+    {
+      "id": "ED261007-01-C009",
+      "name": "Arquivo de Ossos",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C009-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c45006d97fec50f340affbf568b52a75e1b58e13b437a0ee7cbffcb340bf6203"
+    },
+    {
+      "id": "ED261008-D01-F01-3",
+      "name": "Arrombador do Arquivo Lacrado",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-3-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f8e478293c6b4e13c99eefe1beeeade4c9afacaba59d913d51f7a0b289df940c"
+    },
+    {
+      "id": "ED261007-01-C004",
+      "name": "Caranguejo Arquivista",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "91c7ec77ce8fd62a14e2a3c9c164cb7285332281c8d277296cbcfe82220a75ba"
+    },
+    {
+      "id": "COL001-R012",
+      "name": "Sacerdote da Memória Devorada",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R012-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a8d0433d5e610d1c095f56270d90a139ea0b306efd7b190adbd456fa40f79901"
+    },
+    {
+      "id": "COL001-R013",
+      "name": "Devoto do Dízimo Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9fd8723b1ea1c099dbd5d6ea5f75b7458bb823a595ec61a5078185ddf3e0637c"
+    },
+    {
+      "id": "ED261007-01-C003",
+      "name": "Vigia do Canal Morto",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "0a9fd4c31cd1bb8cf2921f60e379edd35ed6e190e7569fc457a84d65a63c1a95"
+    },
+    {
+      "id": "ED261008-D01-F05-4",
+      "name": "Abrir o cofre da Cripta Real",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d5c29363bc18724ae68f7e65d825eecf4c5fcd97a896caa56d6ea26cfaf4fd0d"
+    },
+    {
+      "id": "ED261008-D01-F04-3",
+      "name": "Contrabandista do Arquivo Lacrado",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-3-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8d7c6f198001946ffc7526d3a929e2b80d103ba74a7bc16281f909b12dbea2cc"
+    },
+    {
+      "id": "ED261008-D01-F04-1",
+      "name": "Contrabandista do Cais Sombrio",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "6507fae4484d67ca0779b24ce67b44014cc3b015ac976a6e36ea4a5611a984c2"
+    },
+    {
+      "id": "ED261008-D01-F02-4",
+      "name": "Coveiro da Cripta Real",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8833b25074d957a9cd6944893ab9f962f9b07b314454832281682838b0bdeff7"
+    },
+    {
+      "id": "ED261008-D01-F03-4",
+      "name": "Espião da Cripta Real",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1c42095816bbeb57009528aaab5bc53ac4f9c6fe0fb6b9b98e9c61aec932a89c"
+    },
+    {
+      "id": "ED261008-D01-F07-4",
+      "name": "Exigir o registro da Cripta Real",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9f9b28fbdac44051261fa1589e17f4ce5cce82d41a644e2c7feaab7166605f5c"
+    },
+    {
+      "id": "AUTOR-20261007-TERRENO-001",
+      "name": "Reino dos mortos",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-TERRENO-001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e8c5fa82278f2165031d8c73e596bdae4f72f504eaca3d9af0b7adb30b8e10eb"
+    },
+    {
+      "id": "ED261007-01-T001",
+      "name": "Cais dos Registros Roubados",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "877b276793c5e6307347de98abd40dec577e045563538ddd196abfc3eaef66be"
+    },
+    {
+      "id": "ED261007-01-T002",
+      "name": "Cripta dos Mapas Perdidos",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T002-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9153a8df799982078f1d15af5afaf197056459ae10af62b30e54f3bbb7f7e1b4"
+    },
+    {
+      "id": "ED261007-01-T003",
+      "name": "Canal dos Cofres Vazios",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "03d52a7292ec003b4e622b17219f429a8ef16c3dba9cf9feec9256f90a0b4d18"
+    },
+    {
+      "id": "MED-205",
+      "name": "cemiterio descontrolado",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/MED-205-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b97b4bfb5a2a8e4a4d4966c1d80c2792d950bf3b7c046170bd8e152d5aba141a"
+    },
+    {
+      "id": "MED-014",
+      "name": "Charneca do Crepúsculo",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/MED-014-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8584ed15d3b549573f68553d72940d04144629165bc3116f9dbfb5b8621c1207"
+    },
+    {
+      "id": "PD26-LL-001",
+      "name": "Pátio da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "57f4eb95386b14339da64330a8fc5267b64b83f262b50cd0d9bf5bd18ad43fc1"
+    },
+    {
+      "id": "PD26-LL-002",
+      "name": "Travessia da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-002-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "35b2863b15e06ff5529d7a989b87cfbef1edaee648d3e7966fcf8e71ebe8ab09"
+    },
+    {
+      "id": "PD26-LL-003",
+      "name": "Torreão da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9b41e4ef6910ed71bd3db7ea47bb59f57a1481b445ba5d0e7580bfd8f1a14a82"
+    },
+    {
+      "id": "PD26-LL-004",
+      "name": "Refúgio da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7c4dea1645d2c5b29e468798a006ccf2f6b9494215b202e804fff925dabeb7e5"
+    },
+    {
+      "id": "PD26-LL-005",
+      "name": "Clareira da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-005-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8de7273b19a95a1c32f6c85afdb156c0980419b909ed54d6d91e1822eced998a"
+    },
+    {
+      "id": "PD26-LL-006",
+      "name": "Terraço da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-006-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "784c4d7cdc1247a2a6431dd73cc9275524dd3251a51683cc15dca86057234050"
+    },
+    {
+      "id": "PD26-LL-007",
+      "name": "Posto da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "790f17832a1c4f75b267d08c7c056ad2d73a35e620632d98b47bfbdf4bfb7462"
+    },
+    {
+      "id": "PD26-LL-008",
+      "name": "Santuário da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-008-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f3c43bf8a8cdacb3f0a86f5b2ac35471ba9a0a935aefba5a112a8116e4472777"
+    },
+    {
+      "id": "PD26-LL-009",
+      "name": "Acampamento da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-009-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "89a2ffbf7cd3ca05f4aadf93966c50cfb0bb779bc5bbc4c056e551fb8f1b2654"
+    },
+    {
+      "id": "PD26-LL-010",
+      "name": "Fortim da Guarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-010-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "37a7100e3cc7d1acf057a8d4e3d41157fb73be508eae6b3f342f9dc4f278e44f"
+    },
+    {
+      "id": "PD26-LL-011",
+      "name": "Pátio da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-011-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e226d994ddde755684360ec606025cb2a542f255c8e1f7f804db8acc903609e6"
+    },
+    {
+      "id": "PD26-LL-012",
+      "name": "Travessia da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-012-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "542f88a4ea377cf12306179cf5e04acc4bb554bed1fb9c557f127500f2756c47"
+    },
+    {
+      "id": "PD26-LL-013",
+      "name": "Torreão da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "41f64e4fa8bacd5a40853452b7bdbe1b3ea9280b1c7f0eb1b5c3d21e175a4eed"
+    },
+    {
+      "id": "PD26-LL-014",
+      "name": "Refúgio da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-014-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "4f3d8448d73fd09a51376097309dfd988af8a002501109429fae91670a6448a8"
+    },
+    {
+      "id": "PD26-LL-015",
+      "name": "Clareira da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-015-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d9575f12817e1d62d12ca22e256f99183e85be03001c59eae43e03e20e16f96a"
+    },
+    {
+      "id": "PD26-LL-016",
+      "name": "Terraço da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-016-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "056c6611c88ed43234b8526503a286773b46f85e5c64721aa71db6277469a978"
+    },
+    {
+      "id": "PD26-LL-017",
+      "name": "Posto da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-017-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "438a7a683ba25e20c7f5cb6d57414e0ed817eaf1882150ea0a826a00c5b52d7f"
+    },
+    {
+      "id": "PD26-LL-018",
+      "name": "Santuário da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-018-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "5cc959659ef726a7baf591b3c434d273502938e04165494f17dc16399a867009"
+    },
+    {
+      "id": "PD26-LL-019",
+      "name": "Acampamento da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-019-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "299fb6e2e65658bbb114f7c76102bd6d6d26ada122a2919fbe943d444abd588b"
+    },
+    {
+      "id": "PD26-LL-020",
+      "name": "Fortim da Fronteira de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-020-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "858403246409a6eed5d40ea1ad5b3820001863de14db55683fb1c0548706a03f"
+    },
+    {
+      "id": "PD26-LL-021",
+      "name": "Pátio da Retaguarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-021-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9f0fcb4c3c5a98d681e77a048de6c83e20c7931459cf485ba4253db9fc3b7bda"
+    },
+    {
+      "id": "PD26-LL-022",
+      "name": "Travessia da Retaguarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-022-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ec9695062163707a2221dbe8fb21af69603453d003c77dc824cba44df8d09335"
+    },
+    {
+      "id": "PD26-LL-023",
+      "name": "Torreão da Retaguarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-023-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ad0ee58e8ae5e8060afa133dc3928db36c20c138ae99b954c5de450880321e8b"
+    },
+    {
+      "id": "PD26-LL-024",
+      "name": "Refúgio da Retaguarda de Ossadas",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-024-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8470835f0f36a499050c375a20f62d91e07032ccde989ba736c7b43d750d7e4c"
+    },
+    {
+      "id": "MED-204",
+      "name": "Academia de Magos",
+      "path": "Assets/TCG/Resources/CardArt/PreconD01/MED-204-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "06c6faf886c49813ef42c03e6927ba8b947855a90a7af72ea147e6efe0ff9a05"
+    }
+  ]
+}

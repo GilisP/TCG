@@ -1,0 +1,402 @@
+[
+  {
+    "id": "AUTOR-20261007-TERRENO-001",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-TERRENO-001-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2979230,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261007-01-T001",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T001-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2900775,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261007-01-T002",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T002-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2787077,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261007-01-T003",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-T003-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3066660,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "MED-205",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-205-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3081655,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "MED-014",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-014-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3230966,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-001",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-001-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3063737,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-002",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-002-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3080217,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-003",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-003-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2911929,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-004",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-004-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2799192,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-005",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-005-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3047304,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-006",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-006-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3092323,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-007",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-007-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2979624,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-008",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-008-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3276762,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-009",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-009-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2979521,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-010",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-010-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2913178,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-011",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-011-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3159410,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-012",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-012-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2987621,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-013",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-013-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2673752,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-014",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-014-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2889080,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-015",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-015-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2891854,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-016",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-016-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3194886,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-017",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-017-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3151116,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-018",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-018-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2928761,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-019",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-019-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2864877,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-020",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-020-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2977392,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-021",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-021-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3051188,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-022",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-022-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2726458,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-023",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-023-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2818930,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LL-024",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LL-024-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3192117,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "MED-204",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-204-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2815930,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "MED-025",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-025-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3144223,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LG-001",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-001-painted-v2.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2808767,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LG-002",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-002-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3177168,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "PD26-LG-003",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-LG-003-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3019739,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T36",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T36-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3013566,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T37",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T37-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3205136,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T38",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T38-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3145987,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T39",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T39-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2732565,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T40",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T40-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3309404,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T41",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T41-painted-v2.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2729447,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T42",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T42-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3465278,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T43",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T43-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3046345,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T44",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T44-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3313282,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T45",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T45-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2825556,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T46",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T46-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3185371,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T47",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T47-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3342842,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T48",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T48-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3322792,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T49",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T49-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3084214,
+    "status": "visually-inspected"
+  },
+  {
+    "id": "ED261008-D01-T50",
+    "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-T50-painted-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2954548,
+    "status": "visually-inspected"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-002",
+  "index": 2,
+  "name": "Caranguejo de estimação",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: Caranguejo de estimação; type Creature; subtypes ciri. Card effect for visual inspiration: sempre que um terreno é colocado em 1 tile de distancia do caranquejo de estimação os oponentes trituram 1 carta.. Scene: A small beloved blue shore crab with a knotted sailor ribbon, standing on freshly laid wet stone beside a pier while loose unreadable parchment fragments drift into the tide. Warm personality, real crab anatomy; crab central close-up. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-70f9f4d5-2e50-4c08-b5d6-95fa2111431d.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-002-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

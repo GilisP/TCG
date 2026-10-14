@@ -1,0 +1,473 @@
+{
+  "items": [
+    {
+      "id": "COL001-R006",
+      "index": 51,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-505e2dc2-b4a4-4bd0-983d-c99d69a8808e.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R006-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG card art for Escriba do Esquecimento Coletivo (human mage). A solemn elderly human scribe in sea-blue robes erases spectral memories from a circle of floating unmarked pages in a medieval crypt library beside a misty harbor. Detailed hand-painted oil fantasy illustration, textured brushwork, sophisticated teal and violet shadows, warm candlelight. Single full landscape 4:3 artwork, central crop-safe subject. Art only: no words, letters, numbers, frame, borders, mana symbols, logo or watermark.",
+      "inspection": "Human scribe, spectral memories, painted crypt harbor scene; no typography or frame; landscape crop-safe."
+    },
+    {
+      "id": "COL001-R007",
+      "index": 52,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-fd5012b2-2b52-40de-885a-90c208bc3659.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R007-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive fantasy TCG illustration for \"Veterano da Busca Submersa\", Creature, Humano, Mago. Interpret this effect visually without written text: Ao causar dano de combate à capital inimiga, olhe as 5 cartas do topo do seu grimório e devolva 1 o restante jogue no cemiterio.. Scene: weathered veteran human mage retrieving a single glowing relic from a submerged ruined archive beneath medieval harbor waters, discarded spectral pages sinking around him, broken arches and aquatic shafts of blue light. Rich detailed hand-painted oil illustration, nautical necromancy, visible painterly texture. Single full landscape 4:3 art, center crop-safe subject, no words, letters, numbers, UI, card frame, borders, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "PD26-L-023",
+      "index": 53,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-f69f3f40-9538-44ca-9613-ebbd1469c1ef.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-023-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG artwork for Veterano da Marcha de Ossadas. Kind Creature; explicit subtypes Vampiro, Clérigo. Visually embody this card effect: Ao causar dano de combate à capital inimiga, coloque a carta do topo do grimório daquele jogador no cemitério dele.. Main scene: ancient pale vampire cleric veteran in battered crimson vestments leading a solemn procession of spectral bones through a fogbound seaside cemetery toward a ruined medieval capital. Non-graphic dark fantasy. Detailed hand-painted oil illustration with rich brush texture, nautical necromancy atmosphere, crimson moonlight and blue mist. Single landscape 4:3 artwork, central crop-safe. No text, letters, numbers, card frame, mana symbols, UI, border, watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R015",
+      "index": 54,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-5a7751d8-7b90-459c-a436-8f39dde24283.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R015-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG illustration for Veterano da Patrulha do Esquecimento; Creature, Humano, Mago. Effect reference: 1 PA: o opnente alvo tritura uma carta.. Scarred human mage patrol veteran with lantern and staff on a rain-soaked medieval harbor rampart, scattering an enemy's spectral memory pages into darkness. Detailed hand-painted oil fantasy with visible brushwork, rich indigo teal and amber lantern light, nautical necromancy. Full landscape 4:3 art only, centrally crop-safe, no text, letters, numbers, frame, border, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R008",
+      "index": 55,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-f33b4bf0-6bf4-4d89-ad71-c3283d4ce1d7.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R008-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Arauto da Incursão Mental; Creature, Humano, Mago. Effect inspiration: Ao entrar, outra criatura sua neste terreno recebe +3/+0 e todo dano em criaturas deve ser triturado do grimorio tambem, até o fim do turno.. Scene: Human mage herald chanting on a stone causeway, blue psychic energy empowering a nearby ally's sword and fracturing ghostly memories overhead. Detailed hand-painted oil fantasy illustration, nautical medieval necromancy, rich brushwork, polished dramatic light. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, UI, borders, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R009",
+      "index": 56,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-8da2006f-601a-456d-a902-1c80b15ff664.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R009-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Negociante dos Tomos Perdidos; Creature, Humano, Mago. Effect inspiration: Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, volte uma carta de cemiterio para sua mão.. Scene: Human mage merchant at a crypt market stall of closed lost tomes, exchanging a rescued glowing volume for a faded book, bronze lamps. Detailed hand-painted oil fantasy illustration, nautical medieval necromancy, rich brushwork, polished dramatic light. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, UI, borders, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R010",
+      "index": 57,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-032ec627-154c-4ecf-9593-d7a1f824bf70.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R010-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Vigia dos Segredos Usurpados; Creature, Humano, Mago. Effect inspiration: Ao entrar, olhe a carta do topo do grimório de seu oponente. você pode exilar ele sem o revelar e castar pagando seu custo em manas genericas.. Scene: Female human mage lookout crouching in a lighthouse archive, secretly lifting a luminous enemy memory relic from a distant spectral library. Detailed hand-painted oil fantasy illustration, nautical medieval necromancy, rich brushwork, polished dramatic light. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, UI, borders, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "PD26-L-014",
+      "index": 58,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-738866fb-8662-4e52-9a8a-af99b77114ec.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-014-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive fantasy TCG painted art for Veterano do Juramento de Ossadas; Creature, Vampiro, Clérigo. Effect inspiration: Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.. Scene: Ancient vampire cleric swearing an oath over a bone reliquary, a small fallen spectral warrior rising gently into a suspended blank tome. Medieval nautical necromancy style, detailed hand-painted oils and textured brushwork, expressive dramatic light. Single full landscape 4:3 artwork, central crop-safe. No words, letters, numbers, frame, border, UI, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R011",
+      "index": 59,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-3841beab-544d-44ec-932a-b5caf2973acc.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R011-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive fantasy TCG painted art for Guardião das Relíquias Recuperadas; Creature, Humano, Mago. Effect inspiration: Ao morrer, você pode colocar um Card do seu cemitério no topo do seu grimório.. Scene: Human mage guardian clutching recovered relics as his translucent spirit rises over a broken shrine, one relic floating safely toward library shelves. Medieval nautical necromancy style, detailed hand-painted oils and textured brushwork, expressive dramatic light. Single full landscape 4:3 artwork, central crop-safe. No words, letters, numbers, frame, border, UI, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261007-01-C008",
+      "index": 60,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-10b65f6e-082e-4cea-a9d5-d32a63c07c24.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C008-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive fantasy TCG painted art for Luvas do Saque Silencioso; Equipment, Equipamento. Effect inspiration: Equipar: 1 mana genérica, no mesmo tile. A criatura equipada recebe +0/+1. Uma vez no seu turno, quando ela causar dano de combate a uma capital, o dono dessa capital tritura duas cartas.. Scene: Close focus on elegant shadow-dark leather thief gloves with muted silver stitching, hands lifting blue memory wisps from a strongbox on a quiet harbor. Medieval nautical necromancy style, detailed hand-painted oils and textured brushwork, expressive dramatic light. Single full landscape 4:3 artwork, central crop-safe. No words, letters, numbers, frame, border, UI, mana icons, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261007-01-C009",
+      "index": 61,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-9d7f2ea6-be81-4269-b746-393d9d0a59e6.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C009-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Arquivo de Ossos; Construction, Arquivo. Effect inspiration: Uma vez no seu turno, pague 1 mana genérica:olhe a carta do topo do grimorio, voce pode colocar a carta do topo do seu grimório no seu cemitério.. Scene: Grand gothic archive of bone-white arches and ossuary alcoves, shelves of closed ancient tomes above a misty medieval canal; architectural landscape, no characters. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F01-3",
+      "index": 62,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-24f302fb-ddd5-4329-a698-d469ecbdf260.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-3-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Arrombador do Arquivo Lacrado; Creature, Humano, Ladino. Effect inspiration: 2 PA, uma vez no seu turno: o jogador alvo tritura 3 cartas.. Scene: Human rogue lockbreaker working ornate bronze locks in a sealed archive, three blank loose pages caught in a blue magical vortex; intense close scene. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261007-01-C004",
+      "index": 63,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-c3f3b0a9-981c-4df9-af5c-48b1956f38ef.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C004-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Caranguejo Arquivista; Creature, Caranguejo. Effect inspiration: 2 PA: o jogador alvo coloca duas cartas do topo do grimório no cemitério. Use uma vez no seu turno.. Scene: Large distinctive archivist crab perched on a waterlogged closed tome, one claw sorting blank scroll bundles among tide pools inside a drowned library; creature hero. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R012",
+      "index": 64,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-3427995b-94b9-406f-afd8-3a57a2e313f4.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R012-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Sacerdote da Memória Devorada; Creature, Vampiro, Clérigo. Effect inspiration: 1 PA, sacrifique outra criatura sua neste terreno: o jogador alvo tritura o valor da soma da defesa e ataque da criatura sacrificada.. Scene: Pale vampire priest devouring a swirl of ghostly memories at a moonlit ossuary altar; solemn non-graphic ritual with a fading spectral offering. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R013",
+      "index": 65,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-b17bb2d7-fd59-4fe1-a75b-3f63c0d3301c.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R013-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Devoto do Dízimo Sombrio; Creature, Vampiro, Clérigo. Effect inspiration: Ao entrar, você pode perder 10 de vida da capital. Se fizer isso, cada oponente tritura 10.. Scene: Vampire cleric devotee offering a red glowing chalice to a vast shadow cathedral; translucent memories fall like ash over distant harbor towers. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261007-01-C003",
+      "index": 66,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-0d242ab7-5f99-4ca8-a83c-be08d6454c10.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C003-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Vigia do Canal Morto; Creature, Humano, Ladino. Effect inspiration: Uma vez no seu turno, quando uma carta sair de um cemitério por um efeito seu, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.. Scene: Human rogue watchman standing on a narrow stone bridge over a dead canal, studying a blue wisp lifting from a tomb boat. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F05-4",
+      "index": 67,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-a2a1a449-ea0d-43a9-9e93-6149c664fdb0.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Abrir o cofre da Cripta Real; Instant, . Effect inspiration: O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: An ornate royal crypt strongbox bursts open, six ghostly blank pages streaming toward shadowed burial alcoves; gold marble, cold teal magic; spell dramatic close-up. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F04-3",
+      "index": 68,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-f6c4e0f9-9c19-4b0c-a312-a69094ef50ce.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-3-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Contrabandista do Arquivo Lacrado; Creature, Humano, Ladino. Effect inspiration: Ao entrar, exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: Human rogue smuggler escaping a sealed archive through narrow moonlit stairs carrying a single stolen luminous relic wrapped in dark cloth. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F04-1",
+      "index": 69,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-107efb30-a092-4281-bdc7-2f05317c49ab.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-1-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Contrabandista do Cais Sombrio; Creature, Humano, Ladino. Effect inspiration: Ao entrar, exile uma carta não terreno de custo total até 1 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: Distinctive female human rogue smuggler on a gloomy medieval quay beside a small fishing skiff and tomb warehouses, hiding a pale spectral trinket under cloak. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F02-4",
+      "index": 70,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-8aa045dc-f193-40d7-9808-e9e3ca9d334e.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Coveiro da Cripta Real; Creature, Humano, Coveiro. Effect inspiration: Ao entrar, um oponente alvo tritura 4 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida.. Scene: Human royal crypt gravedigger with weathered face, shovel and lantern beside marble tombs, lifting a blue spirit from an opened stone burial alcove. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F03-4",
+      "index": 71,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-21a4d996-e998-485e-b2de-f5de1005965b.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Espião da Cripta Real; Creature, Humano, Ladino. Effect inspiration: Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.. Scene: Human female rogue spy in dark court attire peering from a royal crypt carved pillar, examining three suspended ghostly memory fragments; stealth cinematic pose. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F07-4",
+      "index": 72,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-d32252fc-3eeb-43af-82f2-49f2f432fb15.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Exigir o registro da Cripta Real; Spell, . Effect inspiration: O oponente alvo tritura 4 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Scene: A gloved shadow sorcerer's hand demands a sealed blank registry tome from royal crypt custodians; four fading spectral sheets and cold stone arches; spell focus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "MED-101",
+      "index": 73,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-00b013b5-a2df-4b5f-afce-7a6314710d47.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-101-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Necromante de Campo; Creature, Mago. Effect inspiration: Quando entrar, devolva uma criatura de custo 1 do seu cemitério para sua mão.. Scene: Field necromancer mage kneeling beside a fallen small spectral soldier on muddy battlefield near harbor ruins, carefully drawing its soul into a cupped hand. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F06-4",
+      "index": 74,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-84e31868-2798-46d8-9698-cadb52f49cdc.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Profanar o arquivo da Cripta Real; Spell, . Effect inspiration: O jogador alvo tritura 6 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: Dark spell desecrating a royal crypt archive: ornate shelves collapsing as teal-black magical tendrils scatter completely blank parchment into open burial niches. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "PD26-G-030",
+      "index": 75,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-aa3e55f1-65f0-42c8-bb2d-42c117c3b6a6.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-030-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Recuperar Pergaminho; Spell, . Effect inspiration: Devolva um Truque do seu cemitério à sua mão. Exile esta carta após resolver.. Scene: Single ancient rolled parchment recovered by a mage's hand from moss-covered grave stone, pale violet ember trail, intimate twilight medieval scene. Parchment completely blank, absolutely no ink marks. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F08-3",
+      "index": 76,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-e2b9a137-f1e2-4fb4-83f0-09d5f28c3d52.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-3-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Tomar o espólio do Arquivo Lacrado; Spell, . Effect inspiration: Exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.. Scene: Thief's gloved hands seize a powerful glowing relic from a sealed medieval archive chest; stolen spiritual aura crossing a teal portal, intimate object focus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "PD26-L-029",
+      "index": 77,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-84775785-35b5-4eaf-94b8-18c1e03fa058.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-029-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Pá do Saqueador; Equipment, . Effect inspiration: A criatura equipada recebe +1/+0. Uma vez por turno, quando causar dano de combate a uma capital, o dono dela coloca duas cartas do topo do grimório no cemitério. Equipar: 1 mana genérica, no mesmo terreno.. Scene: Close still-life of a grave raider's iron shovel with bone grip, resting diagonally on disturbed seaside cemetery soil, blue memory wisps curling around blade. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F05-5",
+      "index": 78,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-5ac125fe-7fb8-4096-95e4-00eb56b667de.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Abrir o cofre do Último Cofre; Instant, . Effect inspiration: O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: The ultimate monumental black and gold strongbox opening beneath a buried gothic vault, immense violet memory storm and completely blank pages spiraling. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F02-5",
+      "index": 79,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-eb37c403-01a5-4ed3-b2c4-1563afa4c602.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Coveiro do Último Cofre; Creature, Humano, Coveiro. Effect inspiration: Ao entrar, um oponente alvo tritura 5 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 3 de vida.. Scene: Older human gravedigger in dark padded coat entering the deepest vault tomb, hauling an ancient funeral lantern while violet spirit rises from a black stone sarcophagus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F03-5",
+      "index": 80,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-2991c83f-47dd-44fe-ac81-46ec6a4efa48.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Espião do Último Cofre; Creature, Humano, Ladino. Effect inspiration: Ao causar dano de combate a uma capital, olhe as 4 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.. Scene: Masked female human rogue spy hanging silently above a colossal underground vault, four spectral memory gems held above a closed ancient book; dynamic overhead stealth scene. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F07-5",
+      "index": 81,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-96dd966d-f196-4968-951e-c53c7dbc4e2a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Exigir o registro do Último Cofre; Spell, . Effect inspiration: O oponente alvo tritura 5 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Scene: An imposing hooded figure demands the last sealed registry from a terrified vault archivist; sinking completely blank pages and looming black-gold doors. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "MED-216",
+      "index": 82,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-695e9600-8023-403a-ae28-cbd36934cca2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-216-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Mausoléu Ambulante; Construction, . Effect inspiration: Criatura sua morta adjacente vai sob o Mausoléu em vez do cemitério. 3: destrua o Mausoléu, coloque as criaturas armazenadas no cemitério e escolha uma para sua mão.. Scene: Monumental ambulant mausoleum built of gothic stone on colossal articulated stone supports, resting in a seaside graveyard, trapped gentle spirits glowing in alcoves; massive construction silhouette, no robot style. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe.",
+      "revision": {
+        "id": "MED-216",
+        "prompt": "Remove the small pale cursive scribble that still remains in the EXTREME BOTTOM LEFT CORNER, in the bottom 25 pixels and leftmost 80 pixels of this painting. Replace ALL marks there with plain dark green natural foliage and stone texture; no handwriting remains at all. Preserve all other content, composition, lighting, color and aspect ratio exactly. No signatures or text.",
+        "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-05e656d3-6bfc-4236-bf28-1d38dcdf687a.png",
+        "previousEdit": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-513ad1de-5d7e-4612-b553-f88d23b12495.png",
+        "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-216-painted-v2.png",
+        "inspection": "Inspected: artificial signature removed; subject, scene and landscape preserved."
+      }
+    },
+    {
+      "id": "MED-021",
+      "index": 83,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-f79887e2-22f4-49d9-9d1d-aee1f53462f2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-021-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Mirela, Guardiã dos Nomes; Creature, Humano, Mago. Effect inspiration: Quando esta criatura entrar no campo, devolva outra carta de criatura de custo total 4 ou menos do seu cemitério principal para sua mão.. Scene: Mirela, human female mage guardian of forgotten names, holding a rescued spectral warrior's memory between cupped hands in candlelit archive; luminous blue cloak and elegant silver hair braid. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F06-5",
+      "index": 84,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-093edd57-d4a3-4e52-b562-7cca5a3ec749.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Profanar o arquivo do Último Cofre; Spell, . Effect inspiration: O jogador alvo tritura 7 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: Forbidden archive inside the deepest coffer ravaged by violet magical tides, completely blank pages dissolving into spectral dust among twisted shelves; spell focus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F08-4",
+      "index": 85,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-274f131f-2467-43ae-970d-65dacf569b03.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Tomar o espólio da Cripta Real; Spell, . Effect inspiration: Exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.. Scene: Elaborate royal burial treasure seized by spectral gloved hands; radiant reliquary rises from marble sarcophagus toward teal and violet magic, rich white marble. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "PD26-N-100",
+      "index": 86,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-116941a8-5083-4000-8aca-6ebbb4f4fab8.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-N-100-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Voto do Sacrifício; Enchantment, . Effect inspiration: Encante uma criatura sua. Ao morrer a criatura encantada, você pode colocar um equipamento seu de custo total até 2 do cemitério no fundo do grimório.. Scene: Symbolic enchantment: warrior kneeling solemnly before a cracked altar, his spectral oath encircling an abandoned sword and shield as pale threads return them to an ancient closed book. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F01-4",
+      "index": 87,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-9f13d88e-f51c-4f50-8161-650ce9c00479.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Arrombador da Cripta Real; Creature, Humano, Ladino. Effect inspiration: 2 PA, uma vez no seu turno: o jogador alvo tritura 4 cartas.. Scene: Distinctive older female human rogue lockbreaker with copper picks at royal crypt sarcophagus lock, royal gold ornament and four floating blue memory fragments. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "MED-019",
+      "index": 88,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-e1bf5692-ceab-4ae5-886c-3123300c7775.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-019-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Ceifador da Vigília; Creature, Espírito, Guerreiro. Effect inspiration: Enquanto houver pelo menos 3 cartas de criatura no seu cemitério principal, esta criatura recebe +1/+0.. Scene: Spectral armored warrior reaper holding a crescent scythe on a misty night watch above three silent graves, luminous cyan soul-fire and deep indigo. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe.",
+      "revision": {
+        "id": "MED-019",
+        "prompt": "Precise object edit: remove only the tiny artificial handwritten artist-signature-like markings at the bottom-left edge of this fantasy painting. Seamlessly repaint that small corner with the existing ground/rocks/foliage brushwork. Preserve the entire painting's composition, main subject, proportions, colors, lighting, textures, and landscape aspect ratio. No signature, letters, watermark or text anywhere. Do not add or alter anything else.",
+        "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-ad865662-a559-4aa4-9fc8-f245f206dd90.png",
+        "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-019-painted-v2.png",
+        "inspection": "Inspected: artificial signature removed; subject, scene and landscape preserved."
+      }
+    },
+    {
+      "id": "ED261007-01-C006",
+      "index": 89,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-1061ac27-551c-4216-adf6-5d452cf703f3.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C006-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Inventário dos Mortos; Spell, . Effect inspiration: Coloque a carta do topo do seu grimório no seu cemitério. Depois compre duas cartas.. Scene: Spell still-life: an ossuary clerk's hands sort blank scrolls and closed tomes around an open skull reliquary; one spectral page sinks, two glow upward. Parchment entirely blank. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F01-5",
+      "index": 90,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-21e48151-bf57-46ad-a7e9-65fc266725c6.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Arrombador do Último Cofre; Creature, Humano, Ladino. Effect inspiration: 3 PA, uma vez no seu turno: o jogador alvo tritura 5 cartas.. Scene: Master human rogue lockbreaker with bald head opening the last immense vault with intricate silver picks, violet flame and five memory crystals being torn free. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F04-4",
+      "index": 91,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-b1861514-3238-486b-b3a6-2f2a951b733b.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-4-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Contrabandista da Cripta Real; Creature, Humano, Ladino. Effect inspiration: Ao entrar, exile uma carta não terreno de custo total até 4 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: Human rogue female smuggler slipping a wrapped luminous royal relic from carved royal crypt, gold crown carvings and midnight cloak; wary three-quarter portrait. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F04-5",
+      "index": 92,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-59bad9c4-60d8-4298-9ebc-7f6ba238acba.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Contrabandista do Último Cofre; Creature, Humano, Ladino. Effect inspiration: Ao entrar, exile uma carta não terreno de custo total até 5 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: Human rogue veteran smuggler descending from deepest vault with a radiant forbidden reliquary in a leather sling, monumental black-gold doors behind; broad muscular bearded figure. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-M03",
+      "index": 93,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-95a968db-9a6f-4b9f-a311-fef6c97b67d2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-M03-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Contrato de Pilhagem; Spell, . Effect inspiration: Exile até três cartas não terreno de cemitérios inimigos. Até o fim do seu próximo turno, você pode conjurá-las pagando seus custos com mana de qualquer cor; preserve os donos originais.. Scene: Symbolic pillage pact: three gloved hands over a sealed completely blank parchment, three glowing relics rise from separate tomb niches in a dim medieval crypt; enchanted contract focus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R014",
+      "index": 94,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-75a7995c-4663-4bd1-9e66-74e897f0d4de.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R014-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Guardião do Último Esquecimento; Creature, Humano, Mago. Effect inspiration: Ao morrer, seus oponentes trituram 5.. Scene: Powerful human mage guardian dissolving into a vast spiral of ghostly forgotten memories above a ruined harbor cemetery, five blank spectral pages orbiting, heroic tragic silhouette. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R016",
+      "index": 95,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-5aeb68bc-c99b-4a4b-a6c6-84b619182140.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R016-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Senhor das Catacumbas Despertas; Creature, Soldado. Effect inspiration: Uma vez por turno, quando outra criatura sua morrer, você pode perder 2 de vida da Capital. Se fizer isso, devolva uma criatura diferente de custo 2 ou menos do seu cemitério para o campo.. Scene: Heavily armored soldier lord of awakened catacombs commanding a small spectral fallen soldier to rise beside a broken comrade, gothic underground halls; red sacrifice glow, no gore. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-F08-5",
+      "index": 96,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-4d368c45-7c9e-46c5-a3b0-af8fbfea4623.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-5-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Tomar o espólio do Último Cofre; Spell, . Effect inspiration: Exile uma carta não terreno de custo total até 6 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.. Scene: Final coffer's magnificent funerary relic lifted by shadow magic from deepest black-gold sarcophagus, stolen light carried toward a distant harbor portal; spell focus. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-M02",
+      "index": 97,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-585b0621-6c58-43fe-98ee-7a53d33ae041.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-M02-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Mercado das Memórias Mortas; Enchantment, . Effect inspiration: Uma vez no seu turno, quando você conjurar uma carta que pertencia a um oponente, cada outro oponente tritura três cartas.. Scene: Eerie medieval underground market selling ghostly memories trapped in crystal bottles and closed tomes, masked traders, blue violet lamps, nautical crypt atmosphere; enchantment panoramic bazaar. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "ED261008-D01-M01",
+      "index": 98,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-05aa79a3-22d1-4872-9968-1d6cd2e4d31c.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-M01-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for O Assalto Final; Spell, . Effect inspiration: O oponente alvo tritura dez cartas e depois compra uma carta.. Scene: Epic final raid on a fortress archive beside a stormy harbor, rogue silhouettes across stone bridge, towering magical tide shredding completely blank pages into a graveyard. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "MED-106",
+      "index": 99,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-789e481c-762d-4a2e-ae82-3ef8a9567ca8.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-106-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Rainha da Última Noite; Creature, Mago. Effect inspiration: A primeira vez em cada um dos seus turnos que outra criatura sua morrer, devolva uma criatura diferente do seu cemitério para sua mão.. Scene: Majestic human mage queen of the last night in midnight velvet and silver crown, gently retrieving a fallen warrior's luminous spirit amid gothic moonlit tombs; regal central portrait. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    },
+    {
+      "id": "COL001-R017",
+      "index": 100,
+      "status": "generated-inspected",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-49634eeb-6fe1-4767-9245-284439364bfd.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R017-painted-v1.png",
+      "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Rei das Memórias Sepultadas; Creature, Nobre. Effect inspiration: Quando entrar, escolha até duas outras criaturas no seu cemitério e devolva-as para sua mão.. Scene: Noble king in weathered obsidian armor and dark crown seated among buried memory reliquaries, raising two rescued spectral warriors in his hands, majestic underground seaside crypt. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+      "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+    }
+  ],
+  "batch": 2,
+  "completed": 50,
+  "status": "complete",
+  "requested": 50
+}

@@ -1,0 +1,609 @@
+{
+  "batch": 1,
+  "total": 50,
+  "completed": 50,
+  "status": "complete-generated-inspected",
+  "records": [
+    {
+      "id": "AUTOR-20261007-CARTA-001",
+      "index": 1,
+      "name": "Mestre chaveiro",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration for Mestre chaveiro, a Human Engineer creature. Scene: a medieval harbor locksmith's workshop opening into shadowy tomb corridors. Subject: an experienced human master locksmith carefully holding a finely wrought skeleton key beside a locked ancient grimoire, his eye reflected in a small brass inspection lens as he discovers its secret. Exact card ability inspires the image: spend effort to inspect the top of a target grimoire. Detailed hand-painted oil/gouache fantasy art, nautical and necromantic atmosphere, worn brass tools, wax seals without lettering, blue-green ambient light and warm lamp. Full landscape 4:3 artwork only. Main subject central and crop-safe. No words, lettering, frame, mana symbols, UI or watermark; no card mockup.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-44df0bc1-36ea-4da8-abc2-b6baa308b50d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-001-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-002",
+      "index": 2,
+      "name": "Caranguejo de estimação",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: Caranguejo de estimação; type Creature; subtypes ciri. Card effect for visual inspiration: sempre que um terreno é colocado em 1 tile de distancia do caranquejo de estimação os oponentes trituram 1 carta.. Scene: A small beloved blue shore crab with a knotted sailor ribbon, standing on freshly laid wet stone beside a pier while loose unreadable parchment fragments drift into the tide. Warm personality, real crab anatomy; crab central close-up. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-70f9f4d5-2e50-4c08-b5d6-95fa2111431d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-002-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-003",
+      "index": 3,
+      "name": "Refinar o plano",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: Refinar o plano; type Instant; subtypes . Card effect for visual inspiration: troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla. Scene: Two allied medieval fighters switching places mid-duel within an elegant blue-black magical swirl at a moonlit harbor gate; tactical deception rather than teleport machinery. Distinct faces and silhouettes. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-7c704155-ab7e-4d75-8028-87335f70bdba.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-003-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-004",
+      "index": 4,
+      "name": "Vendedor de mapas",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: Vendedor de mapas; type Creature; subtypes Humano. Card effect for visual inspiration: 1pa: marque um tile caso o conquiste este turno compre duas cartas. Scene: A weathered human map seller unfurling a hand-drawn terrain map without writing, marking a coastal ruin with a brass pin. Busy medieval harbor market, knowing expression, map and face central. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-02b1b4d1-4ca8-4359-917e-6e5be53dbdaa.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-004-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-005",
+      "index": 5,
+      "name": "procurando a chave",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: procurando a chave; type Instant; subtypes . Card effect for visual inspiration: o jogador alvo tritura cinco cartas.. Scene: An anxious pair of hands searching a jumble of antique keys and torn unreadable folios inside a flooded tomb archive. One small silver key gleams centrally; swirling paper fragments suggest lost knowledge. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-77a580da-15f1-40f4-836a-9e6a8811936f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-005-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-006",
+      "index": 6,
+      "name": "ondas gigantes",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name ondas gigantes. Type Instant. Explicit subtypes . Depict this exact subject distinctly. Card effect as inspiration, do not render text: escolha um tile. empurre dois tiles para longe tudo que esteja no caminho. caso no tile exato toma 3 de dano. Scene: A gigantic turquoise wave crashes across a medieval stone harbor plaza, sweeping soldiers and debris outward. Dramatic view centered on the curling crest, spray and ancient coastal walls. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-9b9bc49f-f635-4116-b3d6-e8dbf0a22351.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-006-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-007",
+      "index": 7,
+      "name": "jonas o lixeiro",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name jonas o lixeiro. Type Creature. Explicit subtypes Humano Lendario. Depict this exact subject distinctly. Card effect as inspiration, do not render text: tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno. Scene: Jonas, a legendary human refuse collector, a sturdy weather-beaten man with patched work coat and an iron shovel, commanding a barricade of salvaged tomb rubble and harbor refuse. Resilient, formidable, not comic; spectral remnants lend energy to his labor. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-e258dea0-d556-4ed3-8515-368064b16be4.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-007-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-008",
+      "index": 8,
+      "name": "Ciri do Mal",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name Ciri do Mal. Type Creature. Explicit subtypes Caranguejo. Depict this exact subject distinctly. Card effect as inspiration, do not render text: 1pa:exile a criatura alvo de um cemiterio. o jogador dono do cemiterio trirura 2 cartas.. Scene: An ominous black-purple shore crab, natural crab anatomy, holding a spectral echo in its pincer amid tomb bones and shredded blank parchment in a tidal cave. Menacing blue-black glow. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ec49960f-da82-4a41-b0b7-4e3dce0a8a74.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-008-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-009",
+      "index": 9,
+      "name": "Documento falso",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name Documento falso. Type Equipment. Explicit subtypes equipamento. Depict this exact subject distinctly. Card effect as inspiration, do not render text: equip 2: a criatura equipada tem ou o dobro de defesa ou de ataque escolhido ao acaso todo turno. Scene: An antique forged travel document on a pirate's desk, blank parchment with an ambiguous double-faced heraldic seal, a dagger and armored gauntlet suggesting alternating offense and defense. Equipment still life, no writing. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-6b125ead-9c24-4e54-9f19-6a853320262b.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-009-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-010",
+      "index": 10,
+      "name": "Fabrica dos Horrores",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name Fabrica dos Horrores. Type Construction. Explicit subtypes Costrução. Depict this exact subject distinctly. Card effect as inspiration, do not render text: ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a 0 marcadores.. Scene: A grim medieval necromantic factory built into harbor catacombs, brass furnaces and stone chimneys channel spectral remains into an emerging monstrous shadow horror. Architectural focal point; fantastical rather than modern industrial. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-a10fb8fd-3e67-4be2-8173-8b6bcf96e101.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-010-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-011",
+      "index": 11,
+      "name": "Padre corrupto",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Padre corrupto. Type: Creature; explicit subtypes: Humano. Card effect, visual inspiration only: toda criatura em seu cemiterio tem \"Exumar 1: pague uma mana incolor e exile esse card. compre um card\". Subject and scene: A corrupt human priest in worn dark vestments extracting a faint spirit from a grave into a small glowing tome. Graveyard chapel near the coast, sinister calm expression. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-1aa4c4c7-df81-4cfc-8812-037ca5c6dd87.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-011-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-012",
+      "index": 12,
+      "name": "sinfonia desastrosa",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: sinfonia desastrosa. Type: Enchantment; explicit subtypes: . Card effect, visual inspiration only: o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura.. Subject and scene: A ghostly disastrous symphony fills a haunted harbor plaza, spectral instruments and curling black musical energy weighing down armored figures. No visible music notation. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-24db8dfb-49f1-45f7-88c8-414da8cf2939.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-012-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "AUTOR-20261007-CARTA-013",
+      "index": 13,
+      "name": "persoadir guerreiros",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: persoadir guerreiros. Type: Spell; explicit subtypes: . Card effect, visual inspiration only: de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo. Subject and scene: A persuasive blue-robed mage beckons an enemy warrior away from a fortress toward friendly coastal ruins; subtle hypnotic azure ribbons surround the warrior. Decision and enchantment central. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-76fdd215-3099-4ae8-a83e-7ea10a0f8439.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-013-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F05-1",
+      "index": 14,
+      "name": "Abrir o cofre do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Abrir o cofre do Cais Sombrio. Type: Instant; explicit subtypes: . Card effect, visual inspiration only: O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-6ef3202c-317b-4728-85ea-ea61b9ff5029.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F01-1",
+      "index": 15,
+      "name": "Arrombador do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Arrombador do Cais Sombrio. Type: Creature; explicit subtypes: Humano, Ladino. Card effect, visual inspiration only: 1 PA, uma vez no seu turno: o jogador alvo tritura 1 cartas.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-fc6ad239-1a6e-4344-bf50-2fd8443614c3.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F02-1",
+      "index": 16,
+      "name": "Coveiro do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Coveiro do Cais Sombrio. Type: Creature; explicit subtypes: Humano, Coveiro. Card effect, visual inspiration only: Ao entrar, um oponente alvo tritura 1 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ba122d23-ede5-49f4-a5d8-ef32c8b36c17.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v2.png",
+      "status": "generated-inspected",
+      "revisions": [
+        {
+          "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-1-painted-v1.png",
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-41f10211-71bd-4c41-9203-e18298b8d471.png",
+          "status": "replaced-signature"
+        }
+      ],
+      "editPrompt": "Precise cleanup: remove every ink mark, signature, black squiggle and letter-like mark from the entire bottom-right corner, especially at x=95% y=98%. That corner must contain ONLY ordinary painted wood texture, with no dark ink strokes at all. Do not preserve the existing squiggle. Repaint the bottom right 8% x 8% corner to seamless plain weathered brown timber. Preserve all other image content, dimensions, composition and style unchanged. No signature, watermark or text anywhere.",
+      "inspection": "Signature removed by second built-in targeted edit; corner has plain painted wood. Main composition preserved."
+    },
+    {
+      "id": "ED261008-D01-F03-1",
+      "index": 17,
+      "name": "Espião do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Espião do Cais Sombrio. Type: Creature; explicit subtypes: Humano, Ladino. Card effect, visual inspiration only: Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-fc4fe377-f622-46ad-a625-29d0bc046cbc.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F07-1",
+      "index": 18,
+      "name": "Exigir o registro do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Exigir o registro do Cais Sombrio. Type: Spell; explicit subtypes: . Card effect, visual inspiration only: O oponente alvo tritura 1 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-c8d0b25d-f354-41de-98f0-25233bf48c21.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F06-1",
+      "index": 19,
+      "name": "Profanar o arquivo do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Profanar o arquivo do Cais Sombrio. Type: Spell; explicit subtypes: . Card effect, visual inspiration only: O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-59ff1a61-f1b3-4afc-a390-ba01079f095f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "MED-097",
+      "index": 20,
+      "name": "Rato do Ossuário",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Rato do Ossuário. Type: Creature; explicit subtypes: Fera. Card effect, visual inspiration only: Quando morrer, coloque uma carta do seu cemitério no fundo do seu deck.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a medieval coastal necromantic fantasy world. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-f37a3580-8f98-434e-88c1-998c34c2d2cb.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-097-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F05-2",
+      "index": 21,
+      "name": "Abrir o cofre das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Abrir o cofre das Catacumbas. Type: Instant; explicit subtypes: . Card effect, visual inspiration only: O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting deep vaulted tomb catacombs with ossuary niches and a blue subterranean stream. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-8559026d-b9f0-4e7c-a6ca-40a9492c330e.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "COL001-R001",
+      "index": 22,
+      "name": "Aprendiz das Marés Reveladoras",
+      "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Aprendiz das Marés Reveladoras. Type: Creature; explicit subtypes: Humano, Mago. Card effect, visual inspiration only: Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a medieval coastal necromantic fantasy world. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ecfd9159-423d-4ba4-b129-d96420aaa08b.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R001-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Young human tide mage, two spectral memories over waves, clear central subject, no frame or signature."
+    },
+    {
+      "id": "COL001-R002",
+      "index": 23,
+      "name": "Saqueador das Memórias Feridas",
+      "prompt": "Use case: stylized-concept. Exclusive fantasy TCG illustration for Saqueador das Memórias Feridas, human rogue. An enigmatic medieval tomb raider lifting a glowing turquoise glass orb filled with abstract faded memories from an antique grimoire in a coastal crypt; thoughtful cunning expression, patched cloak and brass tools. Show the loss of knowledge only as soft abstract blue light dissipating from floating blank leaves. Non-graphic scene, no physical injury, no blood, no combat, no harmed people. Detailed hand-painted medieval nautical and mysterious fantasy oil/gouache art. Full landscape4:3 art only; focal subject central crop-safe. No signature, watermark, words, letters, frame, symbols, UI or collage.",
+      "editPrompt": "Correct only the central character's species and clothing for the exact TCG subject Saqueador das Memórias Feridas, explicit subtypes VAMPIRE CLERIC. Give this adult character elegant pale vampiric skin, subtle pointed upper canine fangs visible in a slightly parted mouth, dark ceremonial clerical vestments with antiqued gold ritual clasp; replace rogue tool harness with an unlettered sacred amulet. Keep same central pose, thoughtful expression, orb of memories, grimoire, coastal crypt, composition, palette, hand-painted style and 4:3 framing. Non-graphic mysterious scene: no blood, no physical wounds, no violence. No signature, watermark, writing, frame or UI.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-d9a48124-6656-4f28-8768-3f45e3758f7d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R002-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Vampire cleric corrected, subtle fangs and ceremonial vestments. Abstract stolen memories, no injury or signature. First generic draft preserved outside Resources.",
+      "revisions": [
+        {
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-4b96b74e-2bef-4624-91b7-a5aa2d61e78d.png",
+          "output": "Documentacao/Arte/Precon-D01-20261014/Revisoes/COL001-R002-human-draft.png",
+          "reason": "Corrected erroneous human rogue interpretation"
+        }
+      ],
+      "initialFailure": "Initial generation output blocked for violence; safe non-graphic symbolic retry succeeded."
+    },
+    {
+      "id": "COL001-R003",
+      "index": 24,
+      "name": "Acólito da Ponte Profanada",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Acólito da Ponte Profanada; type Creature; explicit subtypes Vampiro, Clérigo. Visual inspiration from card ability (do not depict card UI or writing): Ao morrer, o dono do efeito que a matou tritura 5.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-3b610e2e-7d21-49ee-af0b-4210a184f7e4.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R003-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived.",
+      "artReviewNote": "Contains mild fantasy blood/injury; author aesthetic review remains open."
+    },
+    {
+      "id": "PD26-G-019",
+      "index": 25,
+      "name": "Aprendiz da Torre de Estuário",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Aprendiz da Torre de Estuário; type Creature; explicit subtypes Humano, Mago. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-97bc162d-474e-4d4c-8f47-695484ca57df.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-019-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "PD26-G-001",
+      "index": 26,
+      "name": "Aprendiz da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Aprendiz da Vigília de Estuário; type Creature; explicit subtypes Humano, Mago. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-597f82b7-ddbd-49f1-9593-12eb4230dad0.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-G-001-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261007-01-C001",
+      "index": 27,
+      "name": "Aprendiz de Arrombador",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Aprendiz de Arrombador; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): 1 PA, uma vez no seu turno: olhe a carta do topo do seu grimório. Você pode colocá-la no seu cemitério.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-8871d104-dbb7-45f3-b0da-778ba5c5310e.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C001-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "PD26-L-013",
+      "index": 28,
+      "name": "Aprendiz do Juramento de Ossadas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Aprendiz do Juramento de Ossadas; type Creature; explicit subtypes Vampiro, Clérigo. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, coloque uma criatura de custo total até 2 do seu cemitério no topo do seu grimório.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-cce822e7-e34a-4be9-b5a9-f4cfd0bafeb1.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-013-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "COL001-R004",
+      "index": 29,
+      "name": "Aprendiz dos Tomos Recuperados",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Aprendiz dos Tomos Recuperados; type Creature; explicit subtypes Humano, Mago. Visual inspiration from card ability (do not depict card UI or writing): Ao morrer, você pode colocar um Truque do seu cemitério no topo do seu grimório.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-73220e1c-0531-48aa-9f46-53d9f78b1805.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R004-painted-v2.png",
+      "status": "generated-inspected",
+      "revisions": [
+        {
+          "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R004-painted-v1.png",
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-0bdb383a-c0f3-4969-b4ab-72c90efa4725.png",
+          "status": "replaced-signature"
+        }
+      ],
+      "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+      "inspection": "Signature removed, matching ordinary background restored, composition preserved."
+    },
+    {
+      "id": "COL001-R005",
+      "index": 30,
+      "name": "Vampiro das Lembranças Roubadas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Vampiro das Lembranças Roubadas; type Creature; explicit subtypes Vampiro, Clérigo. Visual inspiration from card ability (do not depict card UI or writing): Ao causar dano de combate a uma criatura, o dono daquela criatura tritura um card.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-24d5badc-d46f-421a-9ecd-e40c83d0b246.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R005-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived.",
+      "artReviewNote": "Contains mild fantasy blood/injury; author aesthetic review remains open."
+    },
+    {
+      "id": "ED261008-D01-F01-2",
+      "index": 31,
+      "name": "Arrombador das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Arrombador das Catacumbas; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): 1 PA, uma vez no seu turno: o jogador alvo tritura 2 cartas.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-a52a9b24-6b39-418d-a766-f14733d23a1a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-2-painted-v2.png",
+      "status": "generated-inspected",
+      "revisions": [
+        {
+          "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F01-2-painted-v1.png",
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-aeccec35-439b-423c-8516-65a749d8e7db.png",
+          "status": "replaced-signature"
+        }
+      ],
+      "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+      "inspection": "Signature removed, matching ordinary background restored, composition preserved."
+    },
+    {
+      "id": "ED261008-D01-F02-2",
+      "index": 32,
+      "name": "Coveiro das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Coveiro das Catacumbas; type Creature; explicit subtypes Humano, Coveiro. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, um oponente alvo tritura 2 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-7d7c7a69-18f5-4124-9496-379f7d2f2a7a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-2-painted-v2.png",
+      "status": "generated-inspected",
+      "revisions": [
+        {
+          "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-2-painted-v1.png",
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-4b37d532-b515-44f6-8999-955ba3cec535.png",
+          "status": "replaced-signature"
+        }
+      ],
+      "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+      "inspection": "Signature removed, matching ordinary background restored, composition preserved."
+    },
+    {
+      "id": "ED261008-D01-F03-2",
+      "index": 33,
+      "name": "Espião das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Espião das Catacumbas; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): Ao causar dano de combate a uma capital, olhe as 2 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-484f8dc8-2dfe-4f3d-bf58-111a64eda503.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F07-2",
+      "index": 34,
+      "name": "Exigir o registro das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Exigir o registro das Catacumbas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O oponente alvo tritura 2 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-8783c6d4-ec31-4507-a5e7-19021f03b94f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261007-01-C005",
+      "index": 35,
+      "name": "Guarda do Espólio",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Guarda do Espólio; type Creature; explicit subtypes Humano, Soldado. Visual inspiration from card ability (do not depict card UI or writing): Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +0/+2.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-f599c019-32f5-4f14-b6fb-e26873976354.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C005-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261007-01-C007",
+      "index": 36,
+      "name": "Janela Arrombada",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Janela Arrombada; type Instant; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Olhe as duas cartas do topo do grimório do jogador alvo. Coloque uma no cemitério dele e devolva a outra ao topo.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-3c73d164-3dd4-453c-ad35-e113a78c8e50.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C007-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F06-2",
+      "index": 37,
+      "name": "Profanar o arquivo das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Profanar o arquivo das Catacumbas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O jogador alvo tritura 4 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-1fe62b92-a222-4739-8e63-79ad6764af38.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "MED-015",
+      "index": 38,
+      "name": "Recolher os Caídos",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Recolher os Caídos; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Devolva uma carta de criatura de custo total 3 ou menos do seu cemitério principal para sua mão.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-1bc0d161-cf87-417b-ac1d-431df0b3b22f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-015-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F08-1",
+      "index": 39,
+      "name": "Tomar o espólio do Cais Sombrio",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Tomar o espólio do Cais Sombrio; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting moonlit medieval coastal dock, mist and weathered timber. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-e4fcdfc8-dd6d-4955-a49f-908db61cbdc5.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-1-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "MED-100",
+      "index": 40,
+      "name": "Vasculhar as Covas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Vasculhar as Covas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Escolha uma criatura no seu cemitério e coloque-a no fundo do seu deck. Compre uma carta.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-d8349165-6fc0-4b6b-824a-54e80973618a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-100-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F05-3",
+      "index": 41,
+      "name": "Abrir o cofre do Arquivo Lacrado",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Abrir o cofre do Arquivo Lacrado; type Instant; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a subterranean locked archive, brass locks and unreadable ancient folios. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-8dc6c487-a215-431d-8138-296e825355f3.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F05-3-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F04-2",
+      "index": 42,
+      "name": "Contrabandista das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Contrabandista das Catacumbas; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-83f76fc6-c94b-4190-be55-93f5a6d1a9e8.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F02-3",
+      "index": 43,
+      "name": "Coveiro do Arquivo Lacrado",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Coveiro do Arquivo Lacrado; type Creature; explicit subtypes Humano, Coveiro. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, um oponente alvo tritura 3 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 2 de vida.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a subterranean locked archive, brass locks and unreadable ancient folios. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-549c45da-7e45-40f3-a764-9f304222d705.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-3-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261007-01-C002",
+      "index": 44,
+      "name": "Coveiro dos Registros",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Coveiro dos Registros; type Creature; explicit subtypes Humano, Coveiro. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, coloque as duas cartas do topo do seu grimório no seu cemitério.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-93be0751-0c1e-4d37-96dc-ffe4b57f0be9.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C002-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F03-3",
+      "index": 45,
+      "name": "Espião do Arquivo Lacrado",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Espião do Arquivo Lacrado; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): Ao causar dano de combate a uma capital, olhe as 3 cartas do topo do grimório do dono. Coloque uma no cemitério dele e devolva as demais na ordem escolhida.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a subterranean locked archive, brass locks and unreadable ancient folios. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-f62758fa-c1ca-481c-a77c-77f74b81bb2d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F03-3-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F07-3",
+      "index": 46,
+      "name": "Exigir o registro do Arquivo Lacrado",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Exigir o registro do Arquivo Lacrado; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O oponente alvo tritura 3 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a subterranean locked archive, brass locks and unreadable ancient folios. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-0558625f-a9ef-4cb9-978c-4932537c6735.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-3-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "PD26-L-030",
+      "index": 47,
+      "name": "Memórias Afundadas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Memórias Afundadas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Escolha um jogador. Ele coloca três cartas do topo do grimório no cemitério. Você perde 1 de vida da capital.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-16789e8c-d88d-471a-943d-cfd15db0a79f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-030-painted-v2.png",
+      "status": "generated-inspected",
+      "revisions": [
+        {
+          "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-030-painted-v1.png",
+          "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-974a747d-3e50-4689-a50c-c9e85add1d38.png",
+          "status": "replaced-signature"
+        }
+      ],
+      "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary ocean/background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+      "inspection": "Signature removed; matching ocean texture restored. Composition preserved."
+    },
+    {
+      "id": "MED-078",
+      "index": 48,
+      "name": "Memórias do Poço",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Memórias do Poço; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Devolva uma carta de criatura do seu cemitério principal para sua mão. Depois, olhe a carta do topo do seu deck principal; você pode colocá-la no fundo desse deck.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-848db33d-0f1c-4449-b59e-ebccd1541396.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-078-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F06-3",
+      "index": 49,
+      "name": "Profanar o arquivo do Arquivo Lacrado",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Profanar o arquivo do Arquivo Lacrado; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O jogador alvo tritura 5 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a subterranean locked archive, brass locks and unreadable ancient folios. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-1c58a385-4f5f-4f2d-a31e-4db3923b3b45.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-3-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    },
+    {
+      "id": "ED261008-D01-F08-2",
+      "index": 50,
+      "name": "Tomar o espólio das Catacumbas",
+      "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Tomar o espólio das Catacumbas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Exile uma carta não terreno de custo total até 3 de um cemitério inimigo. Até o fim deste turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Preserve o dono original.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-a1a7766b-6919-4864-8651-9972cb27819d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F08-2-painted-v1.png",
+      "status": "generated-inspected",
+      "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+    }
+  ]
+}

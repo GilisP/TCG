@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-007",
+  "index": 7,
+  "name": "jonas o lixeiro",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name jonas o lixeiro. Type Creature. Explicit subtypes Humano Lendario. Depict this exact subject distinctly. Card effect as inspiration, do not render text: tem x pas sendo x o maior valor dentre as cartas de cada cemiterio somado. 6pa: impossibilite o movimento sob  um tile adjacente até seu proximo turno. Scene: Jonas, a legendary human refuse collector, a sturdy weather-beaten man with patched work coat and an iron shovel, commanding a barricade of salvaged tomb rubble and harbor refuse. Resilient, formidable, not comic; spectral remnants lend energy to his labor. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-e258dea0-d556-4ed3-8515-368064b16be4.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-007-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

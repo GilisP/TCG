@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-010",
+  "index": 10,
+  "name": "Fabrica dos Horrores",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive hand-painted fantasy TCG artwork. Exact card name Fabrica dos Horrores. Type Construction. Explicit subtypes Costrução. Depict this exact subject distinctly. Card effect as inspiration, do not render text: ganha um marcardor toda vez que uma criatura vai para o cemitero. no começo de seu tuno gere em seu tile um horror x/x que vai atacar uma captal inimiga, e volte a 0 marcadores.. Scene: A grim medieval necromantic factory built into harbor catacombs, brass furnaces and stone chimneys channel spectral remains into an emerging monstrous shadow horror. Architectural focal point; fantastical rather than modern industrial. Detailed oil/gouache painting, visible expressive brushwork, medieval nautical and necromancy art direction. Full landscape 4:3 art only, central crop-safe focal subject, richly painted surroundings. No words, letters, numbers, frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-a10fb8fd-3e67-4be2-8173-8b6bcf96e101.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-010-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

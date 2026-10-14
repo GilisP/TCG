@@ -1,0 +1,9 @@
+{
+  "id": "MED-106",
+  "index": 99,
+  "status": "generated-inspected",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-789e481c-762d-4a2e-ae82-3ef8a9567ca8.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-106-painted-v1.png",
+  "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG art for Rainha da Última Noite; Creature, Mago. Effect inspiration: A primeira vez em cada um dos seus turnos que outra criatura sua morrer, devolva uma criatura diferente do seu cemitério para sua mão.. Scene: Majestic human mage queen of the last night in midnight velvet and silver crown, gently retrieving a fallen warrior's luminous spirit amid gothic moonlit tombs; regal central portrait. Detailed hand-painted oils, strong visible painterly brushwork, medieval nautical necromancy, refined dramatic lighting. Single full landscape 4:3 artwork, central crop-safe subject. No words, letters, numbers, card frame, border, UI, mana symbols, logo or watermark.",
+  "inspection": "Visually inspected: distinctive subject and painterly scene, no frame; crop-safe."
+}

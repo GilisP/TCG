@@ -1,0 +1,11 @@
+{
+  "id": "ED261008-D01-F07-2",
+  "index": 34,
+  "name": "Exigir o registro das Catacumbas",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Exigir o registro das Catacumbas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): O oponente alvo tritura 2 cartas e depois compra uma carta. Se ele tentar comprar do grimório vazio, aplica-se a regra de derrota por compra impossível.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-8783c6d4-ec31-4507-a5e7-19021f03b94f.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F07-2-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

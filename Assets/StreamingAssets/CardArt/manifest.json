@@ -149,6 +149,756 @@
       "cardId": "IDEIA-004",
       "styleId": "standard",
       "resourcePath": "CardArt/Commanders/IDEIA-004-portrait-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-001-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-002-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-003-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-004",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-004-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-005",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-005-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-006",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-006-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-007",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-007-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-008",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-008-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-009",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-009-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-010",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-010-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-011",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-011-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-012",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-012-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-CARTA-013",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-CARTA-013-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F05-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F05-1-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F01-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F01-1-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F02-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F02-1-painted-v2"
+    },
+    {
+      "cardId": "ED261008-D01-F03-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F03-1-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F07-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F07-1-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F06-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F06-1-painted-v1"
+    },
+    {
+      "cardId": "MED-097",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-097-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F05-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F05-2-painted-v1"
+    },
+    {
+      "cardId": "COL001-R001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R001-painted-v1"
+    },
+    {
+      "cardId": "COL001-R002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R002-painted-v1"
+    },
+    {
+      "cardId": "COL001-R003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R003-painted-v1"
+    },
+    {
+      "cardId": "PD26-G-019",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-G-019-painted-v1"
+    },
+    {
+      "cardId": "PD26-G-001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-G-001-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C001-painted-v1"
+    },
+    {
+      "cardId": "PD26-L-013",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-L-013-painted-v1"
+    },
+    {
+      "cardId": "COL001-R004",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R004-painted-v2"
+    },
+    {
+      "cardId": "COL001-R005",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R005-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F01-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F01-2-painted-v2"
+    },
+    {
+      "cardId": "ED261008-D01-F02-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F02-2-painted-v2"
+    },
+    {
+      "cardId": "ED261008-D01-F03-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F03-2-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F07-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F07-2-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C005",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C005-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C007",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C007-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F06-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F06-2-painted-v1"
+    },
+    {
+      "cardId": "MED-015",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-015-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F08-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F08-1-painted-v1"
+    },
+    {
+      "cardId": "MED-100",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-100-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F05-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F05-3-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F04-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F04-2-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F02-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F02-3-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C002-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F03-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F03-3-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F07-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F07-3-painted-v1"
+    },
+    {
+      "cardId": "PD26-L-030",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-L-030-painted-v2"
+    },
+    {
+      "cardId": "MED-078",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-078-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F06-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F06-3-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F08-2",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F08-2-painted-v1"
+    },
+    {
+      "cardId": "COL001-R006",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R006-painted-v1"
+    },
+    {
+      "cardId": "COL001-R007",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R007-painted-v1"
+    },
+    {
+      "cardId": "PD26-L-023",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-L-023-painted-v1"
+    },
+    {
+      "cardId": "COL001-R015",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R015-painted-v1"
+    },
+    {
+      "cardId": "COL001-R008",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R008-painted-v1"
+    },
+    {
+      "cardId": "COL001-R009",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R009-painted-v1"
+    },
+    {
+      "cardId": "COL001-R010",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R010-painted-v1"
+    },
+    {
+      "cardId": "PD26-L-014",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-L-014-painted-v1"
+    },
+    {
+      "cardId": "COL001-R011",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R011-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C008",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C008-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C009",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C009-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F01-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F01-3-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C004",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C004-painted-v1"
+    },
+    {
+      "cardId": "COL001-R012",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R012-painted-v1"
+    },
+    {
+      "cardId": "COL001-R013",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R013-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-C003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C003-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F05-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F05-4-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F04-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F04-3-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F04-1",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F04-1-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F02-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F02-4-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F03-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F03-4-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F07-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F07-4-painted-v1"
+    },
+    {
+      "cardId": "MED-101",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-101-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F06-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F06-4-painted-v1"
+    },
+    {
+      "cardId": "PD26-G-030",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-G-030-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F08-3",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F08-3-painted-v1"
+    },
+    {
+      "cardId": "PD26-L-029",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-L-029-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F05-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F05-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F02-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F02-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F03-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F03-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F07-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F07-5-painted-v1"
+    },
+    {
+      "cardId": "MED-216",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-216-painted-v2"
+    },
+    {
+      "cardId": "MED-021",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-021-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F06-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F06-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F08-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F08-4-painted-v1"
+    },
+    {
+      "cardId": "PD26-N-100",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-N-100-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F01-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F01-4-painted-v1"
+    },
+    {
+      "cardId": "MED-019",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-019-painted-v2"
+    },
+    {
+      "cardId": "ED261007-01-C006",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-C006-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F01-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F01-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F04-4",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F04-4-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F04-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F04-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-M03",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-M03-painted-v1"
+    },
+    {
+      "cardId": "COL001-R014",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R014-painted-v1"
+    },
+    {
+      "cardId": "COL001-R016",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R016-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-F08-5",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-F08-5-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-M02",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-M02-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-M01",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-M01-painted-v1"
+    },
+    {
+      "cardId": "MED-106",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-106-painted-v1"
+    },
+    {
+      "cardId": "COL001-R017",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/COL001-R017-painted-v1"
+    },
+    {
+      "cardId": "AUTOR-20261007-TERRENO-001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/AUTOR-20261007-TERRENO-001-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-T001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-T001-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-T002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-T002-painted-v1"
+    },
+    {
+      "cardId": "ED261007-01-T003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261007-01-T003-painted-v1"
+    },
+    {
+      "cardId": "MED-205",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-205-painted-v1"
+    },
+    {
+      "cardId": "MED-014",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-014-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-001-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-002-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-003-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-004",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-004-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-005",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-005-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-006",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-006-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-007",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-007-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-008",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-008-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-009",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-009-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-010",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-010-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-011",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-011-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-012",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-012-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-013",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-013-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-014",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-014-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-015",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-015-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-016",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-016-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-017",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-017-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-018",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-018-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-019",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-019-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-020",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-020-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-021",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-021-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-022",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-022-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-023",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-023-painted-v1"
+    },
+    {
+      "cardId": "PD26-LL-024",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LL-024-painted-v1"
+    },
+    {
+      "cardId": "MED-204",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-204-painted-v1"
+    },
+    {
+      "cardId": "MED-025",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/MED-025-painted-v1"
+    },
+    {
+      "cardId": "PD26-LG-001",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LG-001-painted-v2"
+    },
+    {
+      "cardId": "PD26-LG-002",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LG-002-painted-v1"
+    },
+    {
+      "cardId": "PD26-LG-003",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/PD26-LG-003-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T36",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T36-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T37",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T37-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T38",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T38-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T39",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T39-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T40",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T40-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T41",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T41-painted-v2"
+    },
+    {
+      "cardId": "ED261008-D01-T42",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T42-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T43",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T43-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T44",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T44-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T45",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T45-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T46",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T46-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T47",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T47-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T48",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T48-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T49",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T49-painted-v1"
+    },
+    {
+      "cardId": "ED261008-D01-T50",
+      "styleId": "standard",
+      "resourcePath": "CardArt/PreconD01/ED261008-D01-T50-painted-v1"
     }
   ]
 }

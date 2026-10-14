@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-011",
+  "index": 11,
+  "name": "Padre corrupto",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Padre corrupto. Type: Creature; explicit subtypes: Humano. Card effect, visual inspiration only: toda criatura em seu cemiterio tem \"Exumar 1: pague uma mana incolor e exile esse card. compre um card\". Subject and scene: A corrupt human priest in worn dark vestments extracting a faint spirit from a grave into a small glowing tome. Graveyard chapel near the coast, sinister calm expression. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-1aa4c4c7-df81-4cfc-8812-037ca5c6dd87.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-011-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

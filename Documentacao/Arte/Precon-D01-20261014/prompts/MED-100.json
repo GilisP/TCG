@@ -1,0 +1,11 @@
+{
+  "id": "MED-100",
+  "index": 40,
+  "name": "Vasculhar as Covas",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Vasculhar as Covas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Escolha uma criatura no seu cemitério e coloque-a no fundo do seu deck. Compre uma carta.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-d8349165-6fc0-4b6b-824a-54e80973618a.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/MED-100-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

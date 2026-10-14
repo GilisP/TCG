@@ -1,0 +1,9 @@
+{
+  "id": "COL001-R006",
+  "index": 51,
+  "status": "generated-inspected",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-cd1a-7ea1-9ea6-290510ea4cf8\\exec-505e2dc2-b4a4-4bd0-983d-c99d69a8808e.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R006-painted-v1.png",
+  "prompt": "Use case: stylized-concept. Exclusive painted fantasy TCG card art for Escriba do Esquecimento Coletivo (human mage). A solemn elderly human scribe in sea-blue robes erases spectral memories from a circle of floating unmarked pages in a medieval crypt library beside a misty harbor. Detailed hand-painted oil fantasy illustration, textured brushwork, sophisticated teal and violet shadows, warm candlelight. Single full landscape 4:3 artwork, central crop-safe subject. Art only: no words, letters, numbers, frame, borders, mana symbols, logo or watermark.",
+  "inspection": "Human scribe, spectral memories, painted crypt harbor scene; no typography or frame; landscape crop-safe."
+}

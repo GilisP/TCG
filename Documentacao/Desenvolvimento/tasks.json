@@ -325,5 +325,18 @@
     "status": "integrated-visual-verified-interaction-review-pending",
     "doneWhen": "Integrated build and visual verification; manual interaction review pending",
     "verification": "VIS-MESA-014-result.json"
+  },
+  {
+    "taskId": "ART-D01-014",
+    "objective": "150 exclusive painted images + full colored mana layout",
+    "owner": "root with pintura_d01_a/b/c, disjoint50 each",
+    "status": "integrated-verified",
+    "scope": [
+      "PreconD01 art",
+      "CardAppearanceUI",
+      "manifest/import/tests"
+    ],
+    "verification": "2069 checks +13 interface, build exit0, native layout capture",
+    "pending": "author art review; remaining nine precons"
   }
 ]

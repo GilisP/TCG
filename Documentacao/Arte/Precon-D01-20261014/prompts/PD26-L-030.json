@@ -1,0 +1,19 @@
+{
+  "id": "PD26-L-030",
+  "index": 47,
+  "name": "Memórias Afundadas",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Memórias Afundadas; type Spell; explicit subtypes . Visual inspiration from card ability (do not depict card UI or writing): Escolha um jogador. Ele coloca três cartas do topo do grimório no cemitério. Você perde 1 de vida da capital.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-16789e8c-d88d-471a-943d-cfd15db0a79f.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-030-painted-v2.png",
+  "status": "generated-inspected",
+  "revisions": [
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/PD26-L-030-painted-v1.png",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-974a747d-3e50-4689-a50c-c9e85add1d38.png",
+      "status": "replaced-signature"
+    }
+  ],
+  "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary ocean/background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+  "inspection": "Signature removed; matching ocean texture restored. Composition preserved."
+}

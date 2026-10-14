@@ -1,0 +1,19 @@
+{
+  "id": "ED261008-D01-F02-2",
+  "index": 32,
+  "name": "Coveiro das Catacumbas",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Coveiro das Catacumbas; type Creature; explicit subtypes Humano, Coveiro. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, um oponente alvo tritura 2 cartas. Você pode exilar uma carta de criatura do cemitério dele; se fizer isso, sua capital ganha 1 de vida.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-7d7c7a69-18f5-4124-9496-379f7d2f2a7a.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-2-painted-v2.png",
+  "status": "generated-inspected",
+  "revisions": [
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F02-2-painted-v1.png",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-4b37d532-b515-44f6-8999-955ba3cec535.png",
+      "status": "replaced-signature"
+    }
+  ],
+  "editPrompt": "Precise cleanup only: remove every ink mark, signature, squiggle and letter-like mark in the entire bottom-right corner, especially x=95% y=98%. Repaint the bottom right 8% x8% corner with seamless matching ordinary background texture, absolutely no ink strokes. Preserve all other content, subject identity, pose, hands, objects, palette, composition, dimensions, 4:3 ratio and painterly brushwork unchanged. No signature, no watermark, no added text.",
+  "inspection": "Signature removed, matching ordinary background restored, composition preserved."
+}

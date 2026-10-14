@@ -1,0 +1,11 @@
+{
+  "id": "ED261008-D01-F04-2",
+  "index": 42,
+  "name": "Contrabandista das Catacumbas",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Contrabandista das Catacumbas; type Creature; explicit subtypes Humano, Ladino. Visual inspiration from card ability (do not depict card UI or writing): Ao entrar, exile uma carta não terreno de custo total até 2 de um cemitério inimigo. Até o fim do seu próximo turno, você pode conjurá-la pagando seu custo com mana de qualquer cor. Ela preserva o dono original.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting deep ossuary catacombs, blue subterranean stream, stone tomb niches. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-83f76fc6-c94b-4190-be55-93f5a6d1a9e8.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F04-2-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

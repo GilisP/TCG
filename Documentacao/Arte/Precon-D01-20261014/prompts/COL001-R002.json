@@ -1,0 +1,20 @@
+{
+  "id": "COL001-R002",
+  "index": 23,
+  "name": "Saqueador das Memórias Feridas",
+  "prompt": "Use case: stylized-concept. Exclusive fantasy TCG illustration for Saqueador das Memórias Feridas, human rogue. An enigmatic medieval tomb raider lifting a glowing turquoise glass orb filled with abstract faded memories from an antique grimoire in a coastal crypt; thoughtful cunning expression, patched cloak and brass tools. Show the loss of knowledge only as soft abstract blue light dissipating from floating blank leaves. Non-graphic scene, no physical injury, no blood, no combat, no harmed people. Detailed hand-painted medieval nautical and mysterious fantasy oil/gouache art. Full landscape4:3 art only; focal subject central crop-safe. No signature, watermark, words, letters, frame, symbols, UI or collage.",
+  "editPrompt": "Correct only the central character's species and clothing for the exact TCG subject Saqueador das Memórias Feridas, explicit subtypes VAMPIRE CLERIC. Give this adult character elegant pale vampiric skin, subtle pointed upper canine fangs visible in a slightly parted mouth, dark ceremonial clerical vestments with antiqued gold ritual clasp; replace rogue tool harness with an unlettered sacred amulet. Keep same central pose, thoughtful expression, orb of memories, grimoire, coastal crypt, composition, palette, hand-painted style and 4:3 framing. Non-graphic mysterious scene: no blood, no physical wounds, no violence. No signature, watermark, writing, frame or UI.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-d9a48124-6656-4f28-8768-3f45e3758f7d.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R002-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Vampire cleric corrected, subtle fangs and ceremonial vestments. Abstract stolen memories, no injury or signature. First generic draft preserved outside Resources.",
+  "revisions": [
+    {
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-4b96b74e-2bef-4624-91b7-a5aa2d61e78d.png",
+      "output": "Documentacao/Arte/Precon-D01-20261014/Revisoes/COL001-R002-human-draft.png",
+      "reason": "Corrected erroneous human rogue interpretation"
+    }
+  ],
+  "initialFailure": "Initial generation output blocked for violence; safe non-graphic symbolic retry succeeded."
+}

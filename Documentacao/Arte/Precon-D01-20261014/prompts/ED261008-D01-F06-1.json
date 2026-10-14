@@ -1,0 +1,11 @@
+{
+  "id": "ED261008-D01-F06-1",
+  "index": 19,
+  "name": "Profanar o arquivo do Cais Sombrio",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Profanar o arquivo do Cais Sombrio. Type: Spell; explicit subtypes: . Card effect, visual inspiration only: O jogador alvo tritura 3 cartas. Triturar coloca cartas do topo do grimório no cemitério.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a moonlit medieval coastal dock with ships, salt weathered planks and mist. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-59ff1a61-f1b3-4afc-a390-ba01079f095f.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261008-D01-F06-1-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

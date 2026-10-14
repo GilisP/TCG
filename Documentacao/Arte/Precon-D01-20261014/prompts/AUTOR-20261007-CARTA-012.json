@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-012",
+  "index": 12,
+  "name": "sinfonia desastrosa",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: sinfonia desastrosa. Type: Enchantment; explicit subtypes: . Card effect, visual inspiration only: o tile encantado da -x/-x para toda criatura nele sendo x o numero de criaturas no cemiterio do proprio jogador dono da criatura.. Subject and scene: A ghostly disastrous symphony fills a haunted harbor plaza, spectral instruments and curling black musical energy weighing down armored figures. No visible music notation. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-24db8dfb-49f1-45f7-88c8-414da8cf2939.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-012-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

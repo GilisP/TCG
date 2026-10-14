@@ -1,0 +1,11 @@
+{
+  "id": "ED261007-01-C005",
+  "index": 35,
+  "name": "Guarda do Espólio",
+  "prompt": "Use case: stylized-concept. Asset type: one exclusive hand-painted fantasy TCG illustration. Exact title: Guarda do Espólio; type Creature; explicit subtypes Humano, Soldado. Visual inspiration from card ability (do not depict card UI or writing): Enquanto houver uma carta exilada que você ainda possa conjurar, esta criatura recebe +0/+2.. Scene: create a distinct concrete narrative moment directly expressing the exact title and creature/object type; ability suggested with gesture, action and subtle magic. Setting a medieval coastal fantasy world. Give the subject distinctive face, costume and composition, avoiding repetition. Detailed oil and gouache medieval nautical/necromancy painting with visible brushwork, layered depth and dramatic lighting. Full landscape4:3 artwork only, focal subject central crop-safe. No signature, no watermark, no text, no letters or numbers anywhere, no frame, mana symbols, UI, diagram, collage or atlas. Books and papers have only abstract painterly texture without writing.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-f599c019-32f5-4f14-b6fb-e26873976354.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/ED261007-01-C005-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}

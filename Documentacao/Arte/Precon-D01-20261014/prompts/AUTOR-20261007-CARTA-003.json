@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-003",
+  "index": 3,
+  "name": "Refinar o plano",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: Refinar o plano; type Instant; subtypes . Card effect for visual inspiration: troque a critura em combate alvo que voce controla por outra criatura alvo que voce controla. Scene: Two allied medieval fighters switching places mid-duel within an elegant blue-black magical swirl at a moonlit harbor gate; tactical deception rather than teleport machinery. Distinct faces and silhouettes. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-7c704155-ab7e-4d75-8028-87335f70bdba.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-003-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

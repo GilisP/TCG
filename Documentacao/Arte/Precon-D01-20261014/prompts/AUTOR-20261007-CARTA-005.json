@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-005",
+  "index": 5,
+  "name": "procurando a chave",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive fantasy TCG illustration. Exact card: procurando a chave; type Instant; subtypes . Card effect for visual inspiration: o jogador alvo tritura cinco cartas.. Scene: An anxious pair of hands searching a jumble of antique keys and torn unreadable folios inside a flooded tomb archive. One small silver key gleams centrally; swirling paper fragments suggest lost knowledge. Detailed hand-painted oil and gouache medieval nautical/necromancy style, sophisticated brushwork, textured atmosphere, no photographic rendering. Full landscape 4:3 artwork only, central crop-safe subject. No words, lettering, card frame, mana symbols, UI, watermark or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-77a580da-15f1-40f4-836a-9e6a8811936f.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-005-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually checked: individual painted subject, appropriate medieval setting, central readable composition, no frame or UI."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "COL001-R001",
+  "index": 22,
+  "name": "Aprendiz das Marés Reveladoras",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: Aprendiz das Marés Reveladoras. Type: Creature; explicit subtypes: Humano, Mago. Card effect, visual inspiration only: Ao causar dano de combate, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.. Subject and scene: Depict a concrete narrative moment grounded directly in this exact card title, type and subtypes, and its ability. Setting a medieval coastal necromantic fantasy world. Express the mechanic visually through appropriate objects, gestures and subtle fantasy magic, never a diagram. Make this subject and composition distinctive. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-ecfd9159-423d-4ba4-b129-d96420aaa08b.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/COL001-R001-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Young human tide mage, two spectral memories over waves, clear central subject, no frame or signature."
+}

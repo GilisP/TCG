@@ -1,0 +1,11 @@
+{
+  "id": "AUTOR-20261007-CARTA-013",
+  "index": 13,
+  "name": "persoadir guerreiros",
+  "prompt": "Use case: stylized-concept. Asset type: exclusive painted fantasy TCG illustration, one unique artwork. Exact title: persoadir guerreiros. Type: Spell; explicit subtypes: . Card effect, visual inspiration only: de alvo numa criatura inimiga até 3 tiles de sua capital. você ganha o controle dela e move ela para seu tile mais proximo. Subject and scene: A persuasive blue-robed mage beckons an enemy warrior away from a fortress toward friendly coastal ruins; subtle hypnotic azure ribbons surround the warrior. Decision and enchantment central. Detailed hand-painted medieval nautical/necromancy oil and gouache painting, expressive visible brushwork, polished fantasy illustration. Full landscape 4:3 art only; focal subject in central crop-safe area, richly atmospheric depth. No words, lettering, numbers, card frame, mana symbols, UI, watermark, atlas or collage.",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13a5c-a221-7d42-b39a-0a234f7955e6\\exec-76fdd215-3099-4ae8-a83e-7ea10a0f8439.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD01/AUTOR-20261007-CARTA-013-painted-v1.png",
+  "status": "generated-inspected",
+  "inspection": "Visually inspected at full returned size: appropriate individually composed subject, hand-painted fantasy style, central crop-safe focal point, no card UI/frame; no signature perceived."
+}
