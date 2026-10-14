@@ -13,6 +13,7 @@ namespace TCG.Table
         Transform Figure(Definition card,Color owner,Transform parent)
         {
             if(card.Kind==CardType.Terrain)return TerrainPortrait(card,parent);
+            if(card.IsCommander)return CommanderPresentation(card,owner,parent);
             var root=new GameObject(card.Name).transform; root.SetParent(parent,false);
             Color tint=Elements[card.Color],metal=Hex("B7C6BD"),stone=Hex("B9AC8A"),dark=Hex("283C43");
             Cone(new Vector3(0,.035f,0),.23f,.07f,owner,root,8);

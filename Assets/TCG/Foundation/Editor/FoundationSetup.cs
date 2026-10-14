@@ -32,12 +32,21 @@ namespace TCG.Foundation.Editor
             PlayerSettings.defaultScreenWidth=1600; PlayerSettings.defaultScreenHeight=1000; PlayerSettings.fullScreenMode=FullScreenMode.Windowed;
             AssetDatabase.SaveAssets(); FoundationChecks.Run(); MedievalChecks.Run(); QualityOfLifeChecks.Run(); MovementOrderChecks.Run(); MovementProjectionChecks.Run(); ActionProjectionChecks.Run(); ReactionChecks.Run(); PresentationChecks.Run(); CollectionChecks.Run(); AuthorCardChecks.Run(); HubChecks.Run(); BicolorChecks.Run(); BoosterChecks.Run(); NewCommanderChecks.Run(); NetworkChecks.Run(); ProgressChecks.Run(); SharedTerrainChecks.Run(); PlannedDeckChecks.Run();
             CoordinationRulesChecks.Run(); CoordinationNetworkChecks.Run(); PreconLibraryChecks.Run(); PreconUnitChecks.Run(); PreconAuthorChecks.Run(); PreconstructedDeckChecks.Run();PreconIntegrationChecks.Run();
-            StoryCampaignChecks.Run(); ComputerOpponentChecks.Run(); OfficialCatalogChecks.Run();
+            StoryCampaignChecks.Run(); ComputerOpponentChecks.Run(); OfficialCatalogChecks.Run(); CommanderPresentationChecks.Run();
             Debug.Log("FOUNDATION PREPARE PASSED");
         }
         public static void Build()
         {
             Prepare();
+            BuildPreparedPlayer();
+        }
+        // Narrow art-only verification after the complete regression suite has passed.
+        public static void BuildPresentation()
+        {
+            AssetDatabase.Refresh();CommanderAssetSetup.ValidateGalleryEntry();CommanderPresentationChecks.Run();BuildPreparedPlayer();
+        }
+        static void BuildPreparedPlayer()
+        {
             var output=Path.GetFullPath("Builds/BaseJogavel/Fronteiras.exe"); Directory.CreateDirectory(Path.GetDirectoryName(output));
             var quality=QualitySettings.GetQualityLevel(); var pipeline=GraphicsSettings.defaultRenderPipeline;
             var profiles=Enumerable.Range(0,QualitySettings.names.Length).Select(QualitySettings.GetRenderPipelineAssetAt).ToArray();

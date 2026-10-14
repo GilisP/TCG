@@ -1,0 +1,8 @@
+{
+  "id": "MED-226",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept\nAsset: individual medieval fantasy trading-card illustration MED-226 Pincesa Lissandra.\nSubject: princess Lissandra, lilac and moss-green layered dress, vine-shaped silver crown, small green spectral orb and delicate sleeves.\nPalette: lilac,green,silver. Atmospheric medieval setting suited to character.\nStyle: polished soft stylized fantasy painting, visibly brushed and smoothly rounded forms, refined simple silhouette with cloth/leather/metal details, coherent painterly art; not photographic, not low-poly, not 3D render.\nComposition: landscape 4:3, centered waist-up three-quarter subject fills image, distinctive face and props inside middle 70 percent, readable crop to 230x170. Diffuse light, restrained background.\nNo text, lettering, card frame, border, logo, watermark or contact sheet. One illustration only.",
+  "outputHint": "Generated images are saved to C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d as C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d\\exec-5319faea-6660-422f-9b29-036522b859d5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "asset": "Assets/TCG/Resources/CardArt/Commanders/MED-226-portrait-v1.png",
+  "inspection": "Inspected individually: clear face/props and palette; no lettering/frame. Painted detailed fantasy."
+}

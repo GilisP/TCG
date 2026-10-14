@@ -1,7 +1,7 @@
 {
-  "taskId": "UI-CAT-014",
-  "status": "integrated-verified-with-visual-review-pending",
+  "taskId": "CMD-VIS-014",
+  "status": "integrated-verified-author-review-pending",
   "date": "2026-10-14",
-  "evidence": "UI-CAT-014-result.json",
-  "next": "Review HUD visually in main Unity Mesa; next authorized visual stage is board terrain samples per vault plan12. Do not grant coins or remove historical profile/source data. Check git log for delivery commit."
+  "evidence": "CMD-VIS-014-result.json",
+  "next": "Author review via TCG/Arte/Visualizar comandantes no Play. Normal TCG/Jogar resets Mesa. Next board terrain stage in vault plan12. Do not regrantcoins, change rules or delete historical profiles. Check gitlog for delivery commit."
 }

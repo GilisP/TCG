@@ -226,5 +226,65 @@
     ],
     "doneWhen": "Integrated build and affected flows verified; visual review limitations recorded",
     "verification": "UI-CAT-014-result.json; visual review pending"
+  },
+  {
+    "taskId": "CMD-VIS-014-M",
+    "owner": "comandantes_modelos",
+    "objective": "Commander individual art/models/five presentation states",
+    "scope": [
+      "CommanderModels.cs"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Integration, assets and affected flows verified; author review separate",
+    "verification": "CMD-VIS-014-result.json"
+  },
+  {
+    "taskId": "CMD-VIS-014-A",
+    "owner": "comandantes_animacao",
+    "objective": "Commander individual art/models/five presentation states",
+    "scope": [
+      "PiecePersonality.cs",
+      "TableWorld.cs"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Integration, assets and affected flows verified; author review separate",
+    "verification": "CMD-VIS-014-result.json"
+  },
+  {
+    "taskId": "CMD-VIS-014-I",
+    "owner": "comandantes_artes",
+    "objective": "Commander individual art/models/five presentation states",
+    "scope": [
+      "29PNG",
+      "manifest",
+      "prompts"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [],
+    "doneWhen": "Integration, assets and affected flows verified; author review separate",
+    "verification": "CMD-VIS-014-result.json"
+  },
+  {
+    "taskId": "CMD-VIS-014-INTEGRATION",
+    "owner": "root",
+    "objective": "Commander individual art/models/five presentation states",
+    "scope": [
+      "baker",
+      "gallery",
+      "checks",
+      "integration",
+      "docs",
+      "Unity/Git"
+    ],
+    "status": "integrated-verified",
+    "dependencies": [
+      "CMD-VIS-014-M",
+      "CMD-VIS-014-A",
+      "CMD-VIS-014-I"
+    ],
+    "doneWhen": "Integration, assets and affected flows verified; author review separate",
+    "verification": "CMD-VIS-014-result.json"
   }
 ]

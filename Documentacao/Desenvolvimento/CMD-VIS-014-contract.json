@@ -1,0 +1,26 @@
+{
+  "id": "CMD-VIS-014",
+  "status": "in-progress",
+  "scope": "29 individual commander illustrations and rounded detailed 3D models with idle/walk/attack/death/celebrate presentation only",
+  "owners": {
+    "models": [
+      "CommanderModels.cs"
+    ],
+    "animation": [
+      "PiecePersonality.cs",
+      "TableWorld.cs"
+    ],
+    "images": [
+      "Resources/CardArt/Commanders",
+      "CardArt/manifest.json",
+      "Documentacao/Arte/Comandantes-20261014"
+    ],
+    "root": [
+      "MedievalVisuals.cs",
+      "editor checks/import",
+      "docs",
+      "Unity/Git"
+    ]
+  },
+  "rules": "Match state authority unchanged; visuals no game effects; bone pivots same contract; preserve IDs/style entries/metas/profile"
+}

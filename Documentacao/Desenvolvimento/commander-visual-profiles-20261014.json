@@ -1,0 +1,209 @@
+{
+  "style": "Simple refined stylized fantasy, smoothly shaded rounded forms, clear silhouette, readable small scale, cloth leather metal details; no faceted low-poly look",
+  "front": "-Z",
+  "profiles": [
+    {
+      "id": "MED-193",
+      "name": "Mago Colecionador de tomos",
+      "description": "elder mage, long pale beard, navy and indigo layered robes, leather-bound tome held open, silver water-shaped staff",
+      "palette": "navy,indigo,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-194",
+      "name": "Goblin maça de carne",
+      "description": "stocky green goblin, red leather armor, large stylized meat-shaped club, broad ears, tusks, stitched belt and small banner",
+      "palette": "red,brown,green",
+      "body": "goblin"
+    },
+    {
+      "id": "MED-195",
+      "name": "Aberração natural",
+      "description": "living bark giant, twisting root limbs, moss-covered shoulders, branch antlers, warm amber eyes and leafy mantle",
+      "palette": "barkbrown,mossgreen,amber",
+      "body": "tree"
+    },
+    {
+      "id": "MED-196",
+      "name": "Comandante das Cem Lanças",
+      "description": "disciplined spear captain, ivory and gold segmented armor, red helmet crest, tall spear and sun-marked shield, cloth cape",
+      "palette": "ivory,gold,red",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-197",
+      "name": "Mestre do Ossuário",
+      "description": "hooded bone necromancer, purple robes, pale bone pauldrons, skull-topped staff, scroll cases and bone necklace",
+      "palette": "violet,bone,black",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-198",
+      "name": "A Viúva Negra",
+      "description": "female dark archer, black veil and violet leather, spider brooch, curved black bow and fine pale hair",
+      "palette": "black,violet,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-199",
+      "name": "Rei Sob a Montanha",
+      "description": "broad bearded mountain king, slate armor with silver edging, blue cloak, angular crown and heavy mountain-marked shield",
+      "palette": "slate,blue,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-200",
+      "name": "Mestre Arqueiro",
+      "description": "expert ranger, forest green hood, layered leather, detailed recurved bow and quiver, small copper clasps",
+      "palette": "green,brown,copper",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-201",
+      "name": "Khan das Cem Cavalgadas",
+      "description": "mounted steppe ruler, teal and red layered riding coat, fur trim, bronze helmet, curved saber, brown horse with decorated harness",
+      "palette": "teal,red,bronze",
+      "body": "mounted"
+    },
+    {
+      "id": "MED-202",
+      "name": "O Rei dos Mártires",
+      "description": "solemn crowned king, ivory and black mantle, red sash, worn gold shield, hanging memorial medallions",
+      "palette": "ivory,black,gold",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-225",
+      "name": "Elo Proibido da realeza",
+      "description": "regal court figure with elegant split ivory and midnight clothing, paired sun and crescent brooch, fine silver crown",
+      "palette": "ivory,midnight,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-226",
+      "name": "Pincesa Lissandra",
+      "description": "princess Lissandra, lilac and moss-green layered dress, vine-shaped silver crown, small green spectral orb and delicate sleeves",
+      "palette": "lilac,green,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-227",
+      "name": "Inventor suicida",
+      "description": "eccentric inventor, round goggles, crimson leather coat, brass mechanical backpack, tools and small glowing canisters",
+      "palette": "crimson,brass,charcoal",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-228",
+      "name": "O Velho Pescdor",
+      "description": "elder fisherman, white beard, ochre and navy weathered coat, fishing pole, woven basket and rope belt",
+      "palette": "ochre,navy,cream",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-229",
+      "name": "Ursa Mãe Protetora",
+      "description": "protective large mother bear, light brown and cream fur, rounded ears, expressive muzzle, simple blue cloth and sun medallion",
+      "palette": "brown,cream,blue",
+      "body": "bear"
+    },
+    {
+      "id": "MED-230",
+      "name": "Receptaculo de Dazmond",
+      "description": "dual earth and fire avatar, layered green stone plates on one side and warm ember armor on the other, organic horned mask",
+      "palette": "green,basalt,emberorange",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-231",
+      "name": "Valeria coração de mãe",
+      "description": "Valeria, caring confident navigator, teal and sky-blue long coat, silver compass pendant, staff with steering-wheel motif and travel harness",
+      "palette": "teal,skyblue,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-232",
+      "name": "Aberração Do abismo faminto",
+      "description": "hungry abyss aberration, heavy rounded charcoal body, curling tentacles, luminous violet eyes, ivory teeth, deep blue ridged skin, non-gory",
+      "palette": "charcoal,deepblue,violet",
+      "body": "abyss"
+    },
+    {
+      "id": "MED-233",
+      "name": "mensageiro do fim",
+      "description": "forest prophet messenger, muted green hooded robes, bark staff, carved wooden mask and leaf scrolls",
+      "palette": "forestgreen,brown,cream",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-234",
+      "name": "ansestral ardente",
+      "description": "ancestral fire spirit mage, charcoal and ember robes, luminous orange face and hands, curling flame crown",
+      "palette": "charcoal,orange,gold",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-235",
+      "name": "monge apendiz ansestral",
+      "description": "apprentice monk, shaved head, airy cream and pale teal robes, prayer beads, cloth wrist wraps, calm open-palm stance",
+      "palette": "cream,paleteal,wood",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-236",
+      "name": "admirador do luar",
+      "description": "moon admirer mage, cobalt robe, silver crescent lantern, folded celestial charts and small spyglass",
+      "palette": "cobalt,silver,softblue",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-237",
+      "name": "Arauto da Lua Rubra",
+      "description": "vampire lunar herald cleric, black and crimson ceremonial robes, pale face, silver crescent staff and ruby clasp",
+      "palette": "black,crimson,silver",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-238",
+      "name": "cavaliro do replendor",
+      "description": "radiant knight, polished golden armor, white cape, elegant helmet plume, broad sword and bright sun crest",
+      "palette": "gold,white,warmsteel",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-239",
+      "name": "colecionador de maldições",
+      "description": "curse collector warlock, ragged green and violet coat, many hanging charms, small bottles and rolled cursed scrolls",
+      "palette": "green,violet,brass",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-240",
+      "name": "cavaleiro das mil feras",
+      "description": "knight of many beasts, azure and gold armor, fur mantle, animal-shaped helmet crest, sword, equipment harness and beast emblems",
+      "palette": "azure,gold,brownfur",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-241",
+      "name": "mestre da infitração",
+      "description": "infiltration master rogue, navy hood, pale fabric mask, slim double daggers, climbing rope and fitted soft leather",
+      "palette": "navy,ivory,steel",
+      "body": "humanoid"
+    },
+    {
+      "id": "MED-242",
+      "name": "Ladrão de criptas",
+      "description": "crypt thief, violet and midnight hood, lantern, shovel-shaped tool, key rings and dusty travel satchel",
+      "palette": "violet,midnight,brass",
+      "body": "humanoid"
+    },
+    {
+      "id": "IDEIA-004",
+      "name": "Comandante da frota afundada",
+      "description": "sunken fleet pirate commander, weathered sea-green long coat, dark tricorne, anchor ornaments, curved cutlass and sea-worn beard",
+      "palette": "seagreen,navy,bronze",
+      "body": "humanoid"
+    }
+  ]
+}

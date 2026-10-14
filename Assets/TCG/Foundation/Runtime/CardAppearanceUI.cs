@@ -22,7 +22,7 @@ namespace TCG.Table
   {
    if(artManifest==null){string file=Path.Combine(Application.streamingAssetsPath,"CardArt","manifest.json");artManifest=File.Exists(file)?JsonUtility.FromJson<CardArtManifest>(File.ReadAllText(file)):new CardArtManifest();}
    string key=CardStyles.Key(card.Id,style);if(!alternateArt.TryGetValue(key,out var texture))
-   {var entry=artManifest.entries.FirstOrDefault(x=>x.cardId==card.Id&&x.styleId==style);texture=entry==null?null:Resources.Load<Texture2D>(entry.resourcePath);alternateArt[key]=texture;}
+   {var entry=artManifest.entries.FirstOrDefault(x=>x.cardId==card.Id&&x.styleId==style);texture=entry==null?null:Resources.Load<Texture2D>(entry.resourcePath);if(texture==null&&style!="standard"){var fallback=artManifest.entries.FirstOrDefault(x=>x.cardId==card.Id&&x.styleId=="standard");if(fallback!=null)texture=Resources.Load<Texture2D>(fallback.resourcePath);}alternateArt[key]=texture;}
    return texture!=null?texture:world.Portrait(card);
   }
   bool ApplyCardStyle(bool toDeck)

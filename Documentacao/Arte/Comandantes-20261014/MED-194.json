@@ -1,0 +1,8 @@
+{
+  "id": "MED-194",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept\nAsset type: individual medieval fantasy TCG illustration MED-194 Goblin maça de carne.\nSubject and backdrop: A burly green goblin leader with a huge crude meat-shaped wooden mace, leather patchwork armor and red cloth, crooked grin, in a rustic goblin camp.\nStyle: soft stylized hand-painted fantasy illustration, clearly visible painterly brushwork, simplified elegant shapes, rich but restrained detail, NOT photorealistic, not low-poly, not 3D render.\nComposition: landscape 4:3, one dominant central three-quarter subject filling frame, face and characteristic prop within central 70 percent, readable cropped to 230x170. Atmospheric background less detailed than subject. Soft diffuse light and harmonious colors.\nConstraints: one individual illustration, no sheet, no text, no letters, no card frame, no border, no watermark, no logo.",
+  "outputHint": "Generated images are saved to C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d as C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d\\exec-d9dba059-e10f-4c94-ac73-22ca732f410d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "asset": "Assets/TCG/Resources/CardArt/Commanders/MED-194-portrait-v1.png",
+  "inspection": "Inspected individual painted illustration: recognizable subject, central composition, no lettering or frame."
+}

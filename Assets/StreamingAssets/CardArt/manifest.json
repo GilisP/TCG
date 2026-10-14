@@ -1,1 +1,154 @@
-{"entries":[{"cardId":"MED-225","styleId":"illuminated","resourcePath":"CardArt/elo-iluminura-v1"}]}
+{
+  "entries": [
+    {
+      "cardId": "MED-225",
+      "styleId": "illuminated",
+      "resourcePath": "CardArt/elo-iluminura-v1"
+    },
+    {
+      "cardId": "MED-193",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-193-portrait-v1"
+    },
+    {
+      "cardId": "MED-194",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-194-portrait-v1"
+    },
+    {
+      "cardId": "MED-195",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-195-portrait-v1"
+    },
+    {
+      "cardId": "MED-196",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-196-portrait-v1"
+    },
+    {
+      "cardId": "MED-197",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-197-portrait-v1"
+    },
+    {
+      "cardId": "MED-198",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-198-portrait-v1"
+    },
+    {
+      "cardId": "MED-199",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-199-portrait-v1"
+    },
+    {
+      "cardId": "MED-200",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-200-portrait-v1"
+    },
+    {
+      "cardId": "MED-201",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-201-portrait-v1"
+    },
+    {
+      "cardId": "MED-202",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-202-portrait-v1"
+    },
+    {
+      "cardId": "MED-225",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-225-portrait-v1"
+    },
+    {
+      "cardId": "MED-226",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-226-portrait-v1"
+    },
+    {
+      "cardId": "MED-227",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-227-portrait-v1"
+    },
+    {
+      "cardId": "MED-228",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-228-portrait-v1"
+    },
+    {
+      "cardId": "MED-229",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-229-portrait-v1"
+    },
+    {
+      "cardId": "MED-230",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-230-portrait-v1"
+    },
+    {
+      "cardId": "MED-231",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-231-portrait-v1"
+    },
+    {
+      "cardId": "MED-232",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-232-portrait-v1"
+    },
+    {
+      "cardId": "MED-233",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-233-portrait-v1"
+    },
+    {
+      "cardId": "MED-234",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-234-portrait-v1"
+    },
+    {
+      "cardId": "MED-235",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-235-portrait-v1"
+    },
+    {
+      "cardId": "MED-236",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-236-portrait-v1"
+    },
+    {
+      "cardId": "MED-237",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-237-portrait-v1"
+    },
+    {
+      "cardId": "MED-238",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-238-portrait-v1"
+    },
+    {
+      "cardId": "MED-239",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-239-portrait-v1"
+    },
+    {
+      "cardId": "MED-240",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-240-portrait-v1"
+    },
+    {
+      "cardId": "MED-241",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-241-portrait-v1"
+    },
+    {
+      "cardId": "MED-242",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/MED-242-portrait-v1"
+    },
+    {
+      "cardId": "IDEIA-004",
+      "styleId": "standard",
+      "resourcePath": "CardArt/Commanders/IDEIA-004-portrait-v1"
+    }
+  ]
+}

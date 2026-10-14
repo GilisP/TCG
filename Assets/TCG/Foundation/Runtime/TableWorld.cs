@@ -23,7 +23,9 @@ namespace TCG.Table
         readonly Dictionary<int,Vector3> lunges=new Dictionary<int,Vector3>();
         public Camera View { get; private set; }
         public float Yaw=0,Distance=23,Elevation=57;
-        Match match; int seenRevision=-1;
+        Match match; int seenRevision=-1; bool victoryShown;
+        readonly HashSet<int> deathEvents=new HashSet<int>();
+        readonly HashSet<int> pendingAttacks=new HashSet<int>();
         RenderPipelineAsset previousQuality,previousPipeline;
         public static Color Hex(string value) { ColorUtility.TryParseHtmlString("#"+value,out var c); return c; }
         public static Vector3 Position(int i)=>new Vector3(i%11-5,0,i/11-5);
@@ -66,12 +68,25 @@ namespace TCG.Table
         public void Bind(Match next)
         {
             ClearFlights(); ClearBursts();ShowMovement(-1,false); PreviewMovementDrag(-1,-1); ShowMovementOrder(-1,false); lightRevision=-1; if(match!=null) match.Visual-=Animate; match=next; match.Visual+=Animate;
-            foreach(var t in pieces.Values) Release(t); pieces.Clear(); destinations.Clear(); walkPoints.Clear();
+            foreach(var t in pieces.Values) Release(t); pieces.Clear(); destinations.Clear(); walkPoints.Clear(); deathEvents.Clear(); pendingAttacks.Clear(); victoryShown=false;
             foreach(var d in dying) Release(d.root); dying.Clear(); pulse.Clear(); lunges.Clear();
             foreach(var t in terrain) if(t!=null) Release(t); Array.Clear(signatures,0,121); seenRevision=-1;
         }
         public void Highlight(Func<int,bool> valid) { for(int i=0;i<121;i++) edges[i].gameObject.SetActive(valid(i)); }
-        void Animate(MatchEvent e) { if(e.Kind=="move"&&e.Piece>=0) { if(!walkPoints.TryGetValue(e.Piece,out var path)){path=new Queue<Vector3>();walkPoints.Add(e.Piece,path);}path.Enqueue(Position(e.To)+Vector3.up*.16f); } SpellVisual(e); ResourceCombatVisual(e); FoilEntry(e); if(e.Piece>=0) { pulse[e.Piece]=Time.unscaledTime; lunges[e.Piece]=e.Kind=="attack"?(Position(e.To)-Position(e.From))*.55f:Vector3.zero; } }
+        void Animate(MatchEvent e) {
+            if(e.Kind=="death"&&e.Piece>=0)
+            {
+                if(pieces.ContainsKey(e.Piece))deathEvents.Add(e.Piece);
+                // A unit may enter and die within one projected revision, before Sync builds it.
+                else if(e.Card!=null&&e.From>=0&&e.From<121)
+                {
+                    var ghost=Figure(e.Card,Seats[Mathf.Clamp(e.Owner,0,Seats.Length-1)],transform);
+                    ghost.position=Position(e.From)+Vector3.up*.16f;ghost.localScale=Vector3.one*PieceFormation.Scale(1);
+                    var motion=ghost.gameObject.AddComponent<FigureMotion>();motion.Initialize(e.Card.Art,e.Piece);motion.PlayDeath();
+                    dying.Add((ghost,Time.unscaledTime+FigureMotion.DeathDuration));pendingAttacks.Remove(e.Piece);
+                }
+            }
+            if(e.Kind=="attack"&&e.Piece>=0){if(pieces.TryGetValue(e.Piece,out var attacker))attacker.GetComponent<FigureMotion>()?.PlayAttack();else pendingAttacks.Add(e.Piece);} if(e.Kind=="move"&&e.Piece>=0) { if(!walkPoints.TryGetValue(e.Piece,out var path)){path=new Queue<Vector3>();walkPoints.Add(e.Piece,path);}path.Enqueue(Position(e.To)+Vector3.up*.16f); } SpellVisual(e); ResourceCombatVisual(e); FoilEntry(e); if(e.Piece>=0) { pulse[e.Piece]=Time.unscaledTime; lunges[e.Piece]=e.Kind=="attack"?(Position(e.To)-Position(e.From)).normalized*.18f:Vector3.zero; } }
         void LateUpdate()
         {
             if(View==null) return;
@@ -82,10 +97,16 @@ namespace TCG.Table
             foreach(var pair in pieces)
             {
                 var target=destinations[pair.Key]; if(walkPoints.TryGetValue(pair.Key,out var path)&&path.Count>0){target=path.Peek();if(Vector3.Distance(pair.Value.position,target)<.03f)path.Dequeue();} float age=pulse.TryGetValue(pair.Key,out float start)?Time.unscaledTime-start:10;
-                if(age<.6f&&(!walkPoints.TryGetValue(pair.Key,out var moving)||moving.Count==0)) { float wave=Mathf.Sin(age/.6f*Mathf.PI); target.y+=wave*.3f; if(lunges.TryGetValue(pair.Key,out var lunge)) target+=lunge*wave; }
+                if(age<.6f&&(!walkPoints.TryGetValue(pair.Key,out var moving)||moving.Count==0)) { float wave=Mathf.Sin(age/.6f*Mathf.PI); target.y+=wave*.08f; if(lunges.TryGetValue(pair.Key,out var lunge)) target+=lunge*wave; }
+                // Models face local -Z. Turning only presents the already authoritative route/attack.
+                var facing=target-pair.Value.position;
+                if(age<.6f&&lunges.TryGetValue(pair.Key,out var attackDirection)&&attackDirection.sqrMagnitude>.001f)facing=attackDirection;
+                facing.y=0;
+                if(facing.sqrMagnitude>.0025f)pair.Value.rotation=Quaternion.Slerp(pair.Value.rotation,Quaternion.LookRotation(-facing.normalized,Vector3.up),1-Mathf.Exp(-14*Time.unscaledDeltaTime));
                 pair.Value.position=Vector3.Lerp(pair.Value.position,target,1-Mathf.Exp(-12*Time.unscaledDeltaTime));
             }
-            for(int i=dying.Count-1;i>=0;i--) { var d=dying[i]; d.root.localScale*=Mathf.Exp(-6*Time.unscaledDeltaTime); if(Time.unscaledTime>d.until) { Release(d.root); dying.RemoveAt(i); } }
+            if(match.Over&&!victoryShown){victoryShown=true;foreach(var cell in match.Board)foreach(var p in cell.Pieces)if(match.Seats[p.Owner].Team==match.WinningTeam&&pieces.TryGetValue(p.Id,out var winner))winner.GetComponent<FigureMotion>()?.PlayCelebrate();}
+            for(int i=dying.Count-1;i>=0;i--) { var d=dying[i]; if(Time.unscaledTime>d.until) { Release(d.root); dying.RemoveAt(i); } }
         }
         void Sync()
         {
@@ -104,7 +125,7 @@ namespace TCG.Table
                     var p=cell.Pieces[n]; alive.Add(p.Id);
                     // Display up to nine models per cell; UI lists every occupant without a rule cap.
                     bool visible=n<PieceFormation.VisibleLimit;
-                    if(!pieces.TryGetValue(p.Id,out var model)) { model=BuildPiece(p); pieces.Add(p.Id,model); model.position=Position(i)+Vector3.up*.8f; }
+                    if(!pieces.TryGetValue(p.Id,out var model)) { model=BuildPiece(p); pieces.Add(p.Id,model); model.position=Position(i)+Vector3.up*.8f; if(pendingAttacks.Remove(p.Id))model.GetComponent<FigureMotion>()?.PlayAttack(); }
                     model.gameObject.SetActive(visible);
                     
                     destinations[p.Id]=Position(i)+PieceFormation.Offset(n,cell.Pieces.Count)+(cell.CapitalOwner>=0?Vector3.back*.12f:Vector3.zero);
@@ -115,7 +136,8 @@ namespace TCG.Table
                     }
                 }
             }
-            foreach(int id in pieces.Keys.Where(id=>!alive.Contains(id)).ToArray()) { dying.Add((pieces[id],Time.unscaledTime+.55f)); pieces.Remove(id); destinations.Remove(id); walkPoints.Remove(id); pulse.Remove(id); }
+            foreach(int id in pieces.Keys.Where(id=>!alive.Contains(id)).ToArray()) { var removed=pieces[id];if(deathEvents.Remove(id)){removed.GetComponent<Collider>().enabled=false;removed.GetComponent<FigureMotion>()?.PlayDeath();dying.Add((removed,Time.unscaledTime+FigureMotion.DeathDuration));}else Release(removed);pieces.Remove(id); destinations.Remove(id); walkPoints.Remove(id); pulse.Remove(id); lunges.Remove(id); pendingAttacks.Remove(id); }
+            deathEvents.Clear(); pendingAttacks.Clear();
         }
         Transform BuildTerrain(int index,Cell cell)
         {

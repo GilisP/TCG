@@ -1,0 +1,8 @@
+{
+  "id": "MED-200",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept\nAsset: individual medieval fantasy trading-card illustration MED-200 Mestre Arqueiro.\nSubject: expert ranger, forest green hood, layered leather, detailed recurved bow and quiver, small copper clasps.\nPalette: green,brown,copper. Atmospheric medieval setting suited to character.\nStyle: polished soft stylized fantasy painting, visibly brushed and smoothly rounded forms, refined simple silhouette with cloth/leather/metal details, coherent painterly art; not photographic, not low-poly, not 3D render.\nComposition: landscape 4:3, centered three-quarter subject fills image, distinctive face and props inside middle 70 percent, readable crop to 230x170. For mounted character show rider upper body and horse head prominently. Diffuse light, restrained background.\nNo text, lettering, card frame, border, logo, watermark or contact sheet. One illustration only.",
+  "outputHint": "Generated images are saved to C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d as C:\\Users\\gil\\.codex\\generated_images\\01a138bc-61a1-7592-98e2-45d93be4385d\\exec-94623505-dfa9-45d3-90cf-11696c1a0796.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "asset": "Assets/TCG/Resources/CardArt/Commanders/MED-200-portrait-v1.png",
+  "inspection": "Inspected individually: clear face/props and palette; no lettering/frame. Painted detailed fantasy."
+}

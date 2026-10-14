@@ -1,0 +1,39 @@
+{
+  "taskId": "CMD-VIS-014",
+  "status": "integrated-verified-author-review-pending",
+  "date": "2026-10-14",
+  "backup": "e17c936",
+  "art": {
+    "individualImages": 29,
+    "manifestEntries": 30,
+    "oldIlluminatedPreserved": true,
+    "tool": "built-in image_gen",
+    "prompts": "Documentacao/Arte/Comandantes-20261014/<ID>.json"
+  },
+  "models": {
+    "prefabs": 29,
+    "sharedMeshes": 5,
+    "clips": 145,
+    "rig": "named transform hierarchy; runtime procedural poses; reusable exported clips"
+  },
+  "verification": {
+    "fullBuild": "Logs/commander-build-20261014.log; 40522 checks, exit0 before final presentation polish; core unchanged afterwards",
+    "finalPresentationBuild": "Logs/commander-presentation-build-release-20261014.log; 969 checks plus gallery entry and player build, exit0",
+    "runtime": "CommanderVisualVerification/result.txt; PASS69; projected event fixtures, zero errors",
+    "menus": "OfficialInterfaceVerification/result.txt; PASS13; zero errors",
+    "editorPlay": "Logs/CommanderGalleryVerification/result.txt; 29 x 5 state selections via same gallery controller; no runtime errors; main Play entry restored",
+    "nativeRenders": [
+      "commander-models-atlas.png",
+      "commander-animation-poses.png"
+    ],
+    "profileBeforeAndAfter": "8303FA1A105818CD4E13AD0F7980FB9D980EE3670668454CA7E3BCF0238FC175"
+  },
+  "limits": [
+    "Author visual approval pending",
+    "No manual mouse interaction or long session FPS claim",
+    "Network presentation tested with projections, transport/Relay not repeated",
+    "Procedural articulated miniatures with separate rigid parts, not skinned FBX or motion capture",
+    "Unmodified terrain/troop art remains provisional",
+    "Known shutdown ComputeBuffer warnings remain outside new runtime errors"
+  ]
+}

@@ -30,7 +30,8 @@ namespace TCG.Table
 
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
 
-            if(Environment.GetCommandLineArgs().Contains("-tcg-ui-catalog-verify")) StartCoroutine(VerifyOfficialInterface());
+            if(Environment.GetCommandLineArgs().Contains("-tcg-commander-visual-verify")) StartCoroutine(VerifyCommanderVisuals());
+            else if(Environment.GetCommandLineArgs().Contains("-tcg-ui-catalog-verify")) StartCoroutine(VerifyOfficialInterface());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-story-verify")) StartCoroutine(VerifyStory());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-deck-picker-role")) StartCoroutine(VerifyDeckSelection());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-precons-verify")) StartCoroutine(VerifyPrecons());

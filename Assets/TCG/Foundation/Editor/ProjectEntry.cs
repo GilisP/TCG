@@ -9,18 +9,19 @@ namespace TCG.Foundation.Editor
     [InitializeOnLoad]
     public static class ProjectEntry
     {
+        public const string GalleryPreviewKey="TCG.CommanderGalleryPreview";
         const string ScenePath = "Assets/TCG/Scenes/Mesa.unity";
         static ProjectEntry() { EditorApplication.delayCall += ConfigurePlay; EditorApplication.playModeStateChanged += ObservePlay; }
         static void ObservePlay(PlayModeStateChange state) { if(state == PlayModeStateChange.EnteredPlayMode) Debug.Log("TCG EDITOR PLAY: " + Application.dataPath + " | scene=" + SceneManager.GetActiveScene().path + " | table=" + (UnityEngine.Object.FindFirstObjectByType<TCG.Table.TableWorld>() != null)); }
         static void ConfigurePlay()
         {
-            var scene = AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath);
+            var scene = AssetDatabase.LoadAssetAtPath<SceneAsset>(SessionState.GetBool(GalleryPreviewKey,false)?"Assets/TCG/Scenes/GaleriaComandantes.unity":ScenePath);
             if (scene != null) EditorSceneManager.playModeStartScene = scene;
         }
         [MenuItem("TCG/Abrir jogo neste projeto", priority = 0)]
         public static void Open()
         {
-            ConfigurePlay();
+            SessionState.SetBool(GalleryPreviewKey,false);ConfigurePlay();
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (SceneManager.GetActiveScene().path != ScenePath)
             {

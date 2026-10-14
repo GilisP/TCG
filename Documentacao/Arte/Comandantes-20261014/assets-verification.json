@@ -1,0 +1,234 @@
+[
+  {
+    "id": "IDEIA-004",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2552596,
+    "sha256": "8b9b91add8fe17a8bcd4efa4a3fab38223d5e8109dc40b2cb8ffb98eb5a946d6",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\IDEIA-004-portrait-v1.png"
+  },
+  {
+    "id": "MED-193",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2413844,
+    "sha256": "ea9105bf9e3d6b7108f80dab21f155901b772e0fcce79025cd4158666abe6cea",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-193-portrait-v1.png"
+  },
+  {
+    "id": "MED-194",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2564929,
+    "sha256": "a6314301a5fbf992befa29a879a8deb2b528d79e061775c8b18b55adb4203476",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-194-portrait-v1.png"
+  },
+  {
+    "id": "MED-195",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2990381,
+    "sha256": "f0eb61f824e63adff4c1af1899c1035576defe811b7f347d85bc8f389af65f4f",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-195-portrait-v1.png"
+  },
+  {
+    "id": "MED-196",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2501054,
+    "sha256": "6f1f27b3ea5bce215b8c57919bb81bf20d7fbabc7dda2f1f39b65c190888931c",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-196-portrait-v1.png"
+  },
+  {
+    "id": "MED-197",
+    "width": 1459,
+    "height": 1078,
+    "bytes": 2522661,
+    "sha256": "2cf36e4f36d525b0c0749828588e01700000851b07260b493af370a8d1068d5e",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-197-portrait-v1.png"
+  },
+  {
+    "id": "MED-198",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2406990,
+    "sha256": "4ebffcd46682b7e09e70235429e6bcb305330450896ae45133d63fbddfa500aa",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-198-portrait-v1.png"
+  },
+  {
+    "id": "MED-199",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2792956,
+    "sha256": "7ce84650eec804d0526da543a74dc3455451bd2b78d169822285ac21cb55094a",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-199-portrait-v1.png"
+  },
+  {
+    "id": "MED-200",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2591099,
+    "sha256": "9706a11accc1d10191d5a959c164206694c90b8d4ab9624ae11c61ef301968a5",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-200-portrait-v1.png"
+  },
+  {
+    "id": "MED-201",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2562820,
+    "sha256": "a2c27255deddd02219b11ae9ab25c041f5f3bc01cd5d2f194aa2ab7600540318",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-201-portrait-v1.png"
+  },
+  {
+    "id": "MED-202",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2577859,
+    "sha256": "7c5579a0d04488783a65a71cdcd5357818ad227f6eb1533e0fa246693c53d8dc",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-202-portrait-v1.png"
+  },
+  {
+    "id": "MED-225",
+    "width": 1457,
+    "height": 1080,
+    "bytes": 2305090,
+    "sha256": "1848784b4f90303ce7a7884bb8050efec1d55266d22b930d31de54eb99ca06ed",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-225-portrait-v1.png"
+  },
+  {
+    "id": "MED-226",
+    "width": 1457,
+    "height": 1079,
+    "bytes": 2442448,
+    "sha256": "08515cd384bea18e55a800e6f68d3c2d1b0046931d5df3b26ef631445a6d16b8",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-226-portrait-v1.png"
+  },
+  {
+    "id": "MED-227",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2460946,
+    "sha256": "a37f4dc15212826b240962cf20c08a8fe4ac6e1ba3e53ce7006be80689bc8fe4",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-227-portrait-v1.png"
+  },
+  {
+    "id": "MED-228",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2588245,
+    "sha256": "b28f249c239f8486e166e9ed0fcf86b00cd9775cb7c2e6e148432a4eb3f47d13",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-228-portrait-v1.png"
+  },
+  {
+    "id": "MED-229",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2641623,
+    "sha256": "e4bc6f0e74e2b35b06bcbdf32da7162a0a1ff4156e5ff33b64afa20c2a390fe4",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-229-portrait-v1.png"
+  },
+  {
+    "id": "MED-230",
+    "width": 1457,
+    "height": 1080,
+    "bytes": 2609998,
+    "sha256": "55f1092caf384db1a51f08d50c7eadced6cf816bb5a78e47bd001505b063eea7",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-230-portrait-v1.png"
+  },
+  {
+    "id": "MED-231",
+    "width": 1458,
+    "height": 1079,
+    "bytes": 2422347,
+    "sha256": "ef1191e40660eb6f5eff461c66b17f9042815c23654e87eb89e6c4f63fb6aa5f",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-231-portrait-v1.png"
+  },
+  {
+    "id": "MED-232",
+    "width": 1457,
+    "height": 1079,
+    "bytes": 2658078,
+    "sha256": "efd7f10e388426abae853de30dc9adc00419a7808255a50d07ec147cfa99ce90",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-232-portrait-v1.png"
+  },
+  {
+    "id": "MED-233",
+    "width": 1458,
+    "height": 1079,
+    "bytes": 2739747,
+    "sha256": "aa6a901fba11a23abfe3597159cd8ede1488b27c4df05d5bd3f864b1973e0ec6",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-233-portrait-v1.png"
+  },
+  {
+    "id": "MED-234",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2414278,
+    "sha256": "54d81e6e3640a90c0e33f8a54bd9daecb26c259a1524636466305f0aeb6d9186",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-234-portrait-v1.png"
+  },
+  {
+    "id": "MED-235",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2350766,
+    "sha256": "e8ef35b137d897d9d676ff45f130410be4c52af9d0f06e0b34ca88ec9eeb8d53",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-235-portrait-v1.png"
+  },
+  {
+    "id": "MED-236",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2402120,
+    "sha256": "d04d7ac91909a2ace3c32b27b778248fcce43850f91004b3c0d5b572e131ddb6",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-236-portrait-v1.png"
+  },
+  {
+    "id": "MED-237",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2235231,
+    "sha256": "6aef6319d40b9528ed8b8d959b2459e250958c56be7360ac03db7d5247227a34",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-237-portrait-v1.png"
+  },
+  {
+    "id": "MED-238",
+    "width": 1457,
+    "height": 1080,
+    "bytes": 2459069,
+    "sha256": "69b0b22358ac4c3706a55ae67dc5a0604bef90de0c786be392ff801e56d5cd86",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-238-portrait-v1.png"
+  },
+  {
+    "id": "MED-239",
+    "width": 1456,
+    "height": 1080,
+    "bytes": 2535614,
+    "sha256": "67a70145af1cc03c087939cd81cc71408e5cbf9e09943400a36df654259c08bc",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-239-portrait-v1.png"
+  },
+  {
+    "id": "MED-240",
+    "width": 1457,
+    "height": 1079,
+    "bytes": 2630508,
+    "sha256": "757a39fd53f91be33f65f5586f3b29e9c99b4ed9a51d602f4cb8625bf07ca1d1",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-240-portrait-v1.png"
+  },
+  {
+    "id": "MED-241",
+    "width": 1457,
+    "height": 1079,
+    "bytes": 2310534,
+    "sha256": "cf37c29761c3b77a51c3929d0aabf683e2b65ef56d751bfe11a2484c142db9c2",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-241-portrait-v1.png"
+  },
+  {
+    "id": "MED-242",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2271347,
+    "sha256": "6574d295fa13a7dd239245d9ba57ad163daf95431b712922aaea9c2dc38636bf",
+    "path": "C:\\Users\\gil\\TCG\\Assets\\TCG\\Resources\\CardArt\\Commanders\\MED-242-portrait-v1.png"
+  }
+]
