@@ -1,0 +1,15 @@
+
+                if(seats[f.owner].grave.Contains(f.card)){
+
+                    stack.Add(new Pending{Owner=f.owner,Card=f.card,Rule="phoenix-return"});passes=0;
+
+                    Visual?.Invoke(new MatchEvent("trigger",Capital(f.owner,seats.Length),Capital(f.owner,seats.Length),-1,f.card,f.owner));
+
+                }
+
+            }
+
+        }
+
+        void OnDeath(Piece p,int cell,int killer)
+

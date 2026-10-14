@@ -1,0 +1,34 @@
+[
+  {
+    "source": "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "sha256": "5d37f0e77625927190a1672b105c3c240441b016bc584d80c058920dc8f92b96",
+    "snapshot": "ability-target.txt",
+    "start_line": 75,
+    "end_line": 88,
+    "characters": 1531
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/AuthorRules.cs",
+    "sha256": "4252f88e75cb1f3200d0a1550f78528610750025f720a2a9f262dd47f4258e7b",
+    "snapshot": "terrain-swap.txt",
+    "start_line": 152,
+    "end_line": 160,
+    "characters": 1951
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "sha256": "60254cc265cce0bc2f02979768b4189eea17d0dbc35b88852f0b16957dcae66b",
+    "snapshot": "keyword-helper.txt",
+    "start_line": 3,
+    "end_line": 28,
+    "characters": 1256
+  },
+  {
+    "source": "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "sha256": "f68fa09eda63b5e0036d18d946fc0176ca667af8c2e1ce795ca59d3bcbbf7343",
+    "snapshot": "terrain-fixture.txt",
+    "start_line": 125,
+    "end_line": 136,
+    "characters": 1153
+  }
+]

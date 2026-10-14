@@ -1,0 +1,19 @@
+{
+  "decision": "Effective damage;largest each named reduction;armor+tenacity sum in combat;reductions before Barreira",
+  "next": "Run KeywordExpansionChecks and relevant existing combat/reflection/network checks",
+  "task_id": "EXPAND-014-DEFENSE",
+  "representation": "armor:N/tenacity:N/barrier:N 1..1000; max each name; armor+tenacity sum for combat; barrier maximum minus persistent cumulative spent",
+  "reads": 2,
+  "source_characters_approx": 14000,
+  "files": [
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/NumericKeywordRules.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/Match.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "Assets/TCG/Foundation/Core/NumericKeywordRules.cs.meta",
+    "Assets/TCG/Foundation/Core/NetworkView.cs"
+  ],
+  "pending": "Coordinator compile/tests, protocol version and public remaining-barrier display",
+  "status": "ready-for-integration"
+}

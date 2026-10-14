@@ -115,9 +115,9 @@ namespace TCG.Foundation
   }
   void PreconBounce(int owner,AbilityOp op,int count,Action done)
   {
-   if(count<=0){done();return;}var choices=All.Where(p=>p.Card.Kind==CardType.Creature&&p.Card.TotalCost<=op.a&&!Immune(p,owner)&&(op.value!="noncommander"||!p.CommandUnit)).ToArray();if(choices.Length==0){done();return;}
-   Ask(owner,"Devolver criatura",choices.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{if(id<0){done();return;}var p=Find(id);if(p==null){done();return;}int original=p.OriginalOwner;void Return(){ReturnHand(p);if(op.c==1)Ask(original,"Comprar uma carta?",new[]{new ChoiceOption(1,"Comprar")},i=>{if(i==1)DrawCard(original);PreconBounce(owner,op,count-1,done);},true);else PreconBounce(owner,op,count-1,done);}
-    if(p.CommandUnit)Ask(original,"Destino do comandante",new[]{new ChoiceOption(0,"Mão"),new ChoiceOption(1,"Zona de comando")},i=>{ReturnHand(p);if(i==1){seats[original].hand.Remove(p.Card);seats[original].CommanderReady=true;}PreconBounce(owner,op,count-1,done);});else Return();},op.b>1);
+   if(count<=0){done();return;}var choices=All.Where(p=>p.Card.Kind==CardType.Creature&&p.Card.TotalCost<=op.a&&!Immune(p,owner)&&CanTargetByEffect(owner,p)&&(op.value!="noncommander"||!p.CommandUnit)).ToArray();if(choices.Length==0){done();return;}
+   Ask(owner,"Devolver criatura",choices.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{if(id<0){done();return;}var p=Find(id);if(p==null||!CanTargetByEffect(owner,p)){done();return;}int original=p.OriginalOwner;void Return(){if(Find(id)!=p||!CanTargetByEffect(owner,p)){done();return;}ReturnHand(p);if(op.c==1)Ask(original,"Comprar uma carta?",new[]{new ChoiceOption(1,"Comprar")},i=>{if(i==1)DrawCard(original);PreconBounce(owner,op,count-1,done);},true);else PreconBounce(owner,op,count-1,done);}
+    if(p.CommandUnit)Ask(original,"Destino do comandante",new[]{new ChoiceOption(0,"Mão"),new ChoiceOption(1,"Zona de comando")},i=>{if(Find(id)!=p||!CanTargetByEffect(owner,p)){done();return;}ReturnHand(p);if(i==1){seats[original].hand.Remove(p.Card);seats[original].CommanderReady=true;}PreconBounce(owner,op,count-1,done);});else Return();},op.b>1);
   }
  }
 }

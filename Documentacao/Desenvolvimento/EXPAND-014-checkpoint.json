@@ -1,0 +1,19 @@
+{
+  "decisions": [
+    "Armadura e Tenacidade somam em combate usando o maior valor de cada nome",
+    "Passageiro Ancorado bloqueia movimento inimigo do veículo",
+    "Protocolo tcg-network-9/20261014-keyword-defenses"
+  ],
+  "objective": "Ampliar artes, tropas e cinco palavras-chave aprovadas",
+  "current_state": "Integrado; build, Play isolado e LAN com reconexão passaram. Git em finalização.",
+  "refs": [
+    "EXPAND-014-result.json",
+    "EXPAND-014-aceite.json",
+    "EXPAND-014-uso.md"
+  ],
+  "pending": [
+    "Avaliação artística/FPS",
+    "Completar artes do D03",
+    "Demais 14 palavras-chave"
+  ]
+}

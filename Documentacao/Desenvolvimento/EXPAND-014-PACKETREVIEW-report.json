@@ -1,0 +1,23 @@
+{
+  "task_id": "EXPAND-014-PACKETREVIEW",
+  "status": "done",
+  "result": {
+    "parser": "Strict exact prefixes, ASCII digits, invariant integer parsing and 1..1000 bounds inspected; malformed and overflow inputs return false.",
+    "numeric": "Same-name values use maximum across traits and effective keywords. Combat adds armor and tenacity; other damage uses tenacity. Reduction precedes barrier. BarrierSpent increments only by absorbed damage and remaining barrier clamps to zero.",
+    "anchor": "Hostile movement checks target anchored status or any anchored passenger on a vehicle. Allied movement is allowed by this helper. Caller coverage was outside packet.",
+    "damage": "DamageTo invokes numeric defenses before reflection and modifier prevention. No reset/regeneration path was inspected.",
+    "bounce": "Magic-resistance targeting is checked in initial choices and again before mutation, including commander choice. Potential preexisting branch discrepancy: op.c==1 draw is offered only for non-commanders; commander branch does not invoke Return(). Requires intended card semantics confirmation by coordinator.",
+    "public_state": "Granted unread continuation inspected: ViewFor writes barrierRemaining=p.BarrierRemaining, ApplyView restores NetBarrierRemaining=p.barrierRemaining. The public field is carried consistently. Piece.BarrierRemaining getter and effective-keyword consumers were outside packet. Viewer hand contains only seats[viewer].hand; other seats expose counts. Choice options are visible only to their owning viewer."
+  },
+  "validation": {
+    "method": "Static bounded packet inspection only; no execution, Editor, git diff, original source decoding or code edits.",
+    "reads": "Brief plus one Get-Content -TotalCount 75 read for each of six original packet files, then one authorized Get-Content -TotalCount 100 read for each of damage-continuation.txt and projection-continuation.txt. No previous source reread.",
+    "binding": "All five original file SHA256 values match binding.json.",
+    "limitation": "Doubled packet blank lines resolved by coordinator-authorized unread continuations. Static bounded scope remains; no independent runtime testing. Coordinator reports targeted suites passing: 5 keyword, 969 commander, 121 troop, 61 art, 346 costs; that execution is not this reviewer's evidence."
+  },
+  "pending": [
+    "Coordinator Piece.BarrierRemaining getter and effective-keyword consumers review.",
+    "Coordinator verifies barrier persistence/no reset and combat caller propagation using tests/consumer review.",
+    "Optional draw behavior for bounced commanders predates patch according to coordinator; outside this patch."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task_id": "EXPAND-014-SUPPLEMENT",
+  "status": "done",
+  "conclusion": "Accepted within exact bounded packet scope; no concrete correctness finding.",
+  "reviewed": [
+    "automatic self/host/subject and group-count>=121 exemptions",
+    "terrain option filtering and callback revalidation",
+    "forged terrain choice fixture"
+  ],
+  "evidence": [
+    "AbilityTarget applies enemy magic-resistance gate only to selected non-passive targets; automatic self/host/subject and all-group selection bypass that gate.",
+    "Both terrain prompts filter through CanSwapTerrainByEffect; first callback validates a and second callback validates a and b before swapping.",
+    "Terrain helper rejects invalid/missing/capital terrain and requires effect movement legality for every occupant; vehicle helper checks anchored passengers.",
+    "Fixture excludes protected enemy terrain from first and second choices, rejects forged choice 63 while retaining pending choice and position, and accepts own anchored terrain swap 59 to 58."
+  ],
+  "limitations": [
+    "Only five packet files plus brief read once, maximum 100 lines each; no additional source decoding.",
+    "Fixture execution and build belong to coordinator; coordinator reports 68 keyword checks passed.",
+    "Fixture does not simulate terrain becoming protected between prompts; callback revalidation is confirmed by code inspection.",
+    "Source hashes supplied by binding metadata were not independently recomputed."
+  ],
+  "files_modified": [
+    "Documentacao/Desenvolvimento/EXPAND-014-SUPPLEMENT-report.json",
+    "Documentacao/Desenvolvimento/EXPAND-014-SUPPLEMENT-checkpoint.json"
+  ],
+  "blockers": []
+}

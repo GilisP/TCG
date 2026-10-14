@@ -33,6 +33,7 @@ namespace TCG.Foundation.Editor
             AssetDatabase.SaveAssets(); FoundationChecks.Run(); MedievalChecks.Run(); QualityOfLifeChecks.Run(); MovementOrderChecks.Run(); MovementProjectionChecks.Run(); ActionProjectionChecks.Run(); ReactionChecks.Run(); PresentationChecks.Run(); CollectionChecks.Run(); AuthorCardChecks.Run(); HubChecks.Run(); BicolorChecks.Run(); BoosterChecks.Run(); NewCommanderChecks.Run(); NetworkChecks.Run(); ProgressChecks.Run(); SharedTerrainChecks.Run(); PlannedDeckChecks.Run();
             CoordinationRulesChecks.Run(); CoordinationNetworkChecks.Run(); PreconLibraryChecks.Run(); PreconUnitChecks.Run(); PreconAuthorChecks.Run(); PreconstructedDeckChecks.Run();PreconIntegrationChecks.Run();
             StoryCampaignChecks.Run(); ComputerOpponentChecks.Run(); OfficialCatalogChecks.Run(); CommanderPresentationChecks.Run();
+            KeywordExpansionChecks.Run();TroopPresentationChecks.Run();ExpandedArtChecks.Run();
             Debug.Log("FOUNDATION PREPARE PASSED");
         }
         public static void Build()
@@ -48,6 +49,11 @@ namespace TCG.Foundation.Editor
         public static void BuildCardArt()
         {
             AssetDatabase.Refresh();PreconArtChecks.Run();SpellPresentationChecks.Run();CommanderPresentationChecks.Run();BuildPreparedPlayer();
+        }
+        // Final visual/content-name refinement after the full rules regression passed.
+        public static void BuildExpanded()
+        {
+            AssetDatabase.Refresh();ExpandedChecks.Run();NetworkChecks.Run();PreconstructedDeckChecks.Run();BuildPreparedPlayer();
         }
         static void BuildPreparedPlayer()
         {

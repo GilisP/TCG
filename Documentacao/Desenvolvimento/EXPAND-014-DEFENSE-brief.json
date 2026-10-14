@@ -1,0 +1,37 @@
+{
+  "objetivo": "Implement approved Armadura N, Tenacidade N and Barreira N using host damage pipeline",
+  "recursos": [
+    "WRITE Core/KeywordRules.cs",
+    "WRITE Core/NumericKeywordRules.cs and meta",
+    "WRITE damage pipeline only in Core/MedievalRules.cs,Match.cs,CardAbilities.cs,NewCommanders.cs if needed",
+    "WRITE Editor/KeywordExpansionChecks.cs",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-DEFENSE-*.json"
+  ],
+  "dependencias": [
+    "Complete ANCHOR edits first; same worker owns all core"
+  ],
+  "task_id": "EXPAND-014-DEFENSE",
+  "project_id": "TCG",
+  "criterios_conclusao": [
+    "Actual host combat vs magic damage tested;Barreira consumption and persistent remaining state;multiple events;projections preserve relevant visual state or documented private host state"
+  ],
+  "restricoes": [
+    "Only data-explicit new keyword values, no grants to current cards",
+    "<=100lines/read;24000chars/50reads",
+    "Do not create parallel damage rules/UI copies",
+    "Document cross-name sum as needed: not author approved; ask root if implementation requires it",
+    "No Editor/Git"
+  ],
+  "fontes": [
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/Match.cs",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "Assets/TCG/Foundation/Core/Content.cs",
+    "Assets/TCG/Foundation/Core/NetworkView.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\03 - Cartas\\Palavras-chave - Base de Design.md:lines45-78"
+  ],
+  "resultado_esperado": "Generic numeric keywords and meaningful fixture checks: combat/all damage reduction and consumed prevention",
+  "contexto_essencial": "Author explicitly approved provisional rules: effective damage after reduction/prevention, largest N per same named reduction, reductions before Barreira. Armadura combat only;Tenacidade all damage;Barreira consumable no automatic refresh. Do not reinterpret resistance. Existing prose effects preserved."
+}

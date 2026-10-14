@@ -1,0 +1,25 @@
+{
+  "files": [
+    "Core/KeywordRules.cs",
+    "Core/NumericKeywordRules.cs",
+    "Core/NumericKeywordRules.cs.meta",
+    "Core/MedievalRules.cs",
+    "Core/Match.cs",
+    "Core/NetworkView.cs",
+    "Editor/KeywordExpansionChecks.cs"
+  ],
+  "source_characters_approx": 14000,
+  "status": "ready-for-integration",
+  "pending": "Coordinator compile/execute; update protocol and document projected field; visual display of remaining barrier optional root ownership",
+  "task_id": "EXPAND-014-DEFENSE",
+  "decisions": [
+    "Same name largest N; armor+tenacity sum in combat",
+    "1..1000 strict explicit numeric syntax",
+    "Cumulative barrier spent persists across turns/removal/re-inheritance",
+    "Increasing effective maximum grants only additional unspent capacity"
+  ],
+  "validation": "Authored 30 isolated defense assertions; none executed by worker; coordinator owns Editor/build",
+  "result": "Generic numeric defenses in single host pipeline; actual ResolveCombat marked combat; public remaining barrier projected",
+  "source_reads": 2,
+  "pipeline": "NonCreatureDamageBonus -> numeric reductions -> consumed barrier -> existing reflection -> existing prevention -> effective damage callbacks"
+}

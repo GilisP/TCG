@@ -180,6 +180,8 @@ for c in cards:
    attrs=re.search(r'Veículo; (\d+)/(\d+), (\d+) PA, movimento (\d+), alcance (\d+). Capacidade (\d+); tripulação mínima (\d+)',c['text']);assert attrs
    d.update(dict(zip(['attack','defense','actions','movement','range','vehicleSeats','vehicleCrew'],map(int,attrs.groups()))))
  if id=='MED-018':d['abilities']=[ability(op('draw',2))];d['abilities'][0]['sacrifice']='own'
+ # Approved keyword name for an existing, explicitly identical movement restriction.
+ if id in ['PD26-T-010','PD26-T-011','PD26-T-012']:d['keywords']=list(dict.fromkeys(d['keywords']+['anchored']))
  if id=='MED-016':d['abilities']=[ability(op('draw',1),trigger='activate',pa=1,mana=1,manaColor=1,colored=1)];d['abilities'][0]['sacrifice']='other'
  if id in ['PD26-L-010','PD26-L-011','PD26-L-012']:d['abilities']=[ability(buff(2),trigger='activate',target='self',pa=1,once=True)];d['abilities'][0]['sacrifice']='other'
  if id in ['PD26-F-019','PD26-F-020','PD26-F-021']:d['abilities']=[ability(op('damage',2),trigger='activate',target='enemyBuilding',scope='adjacent',pa=1)];d['abilities'][0]['sacrifice']='self'

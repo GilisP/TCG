@@ -1,0 +1,12 @@
+        var protectedEnemy=Add(m,enemy,63,false,true);
+        var swap=new Definition(new CardData{id="keyword-terrain-swap",name="Terrain swap fixture",kind="Instant",rule="teletransport"},"isolated-keyword-fixtures");
+        m.Seats[own].hand.Add(swap);Do(m,ActionKind.Play,card:swap.Id);
+        int passes=0;while(m.Choice==null&&m.Stack.Count>0&&passes++<10)Do(m,ActionKind.Pass);
+        Assert(m.Choice!=null&&!m.Choice.Options.Any(x=>x.Key==63),"host terrain options exclude anchored opponent");
+        Assert(m.Choice.Options.Any(x=>x.Key==59),"own anchored terrain remains selectable");
+        Assert(!m.Try(new Command{player=m.Controller,revision=m.Revision,kind=ActionKind.Choose,target=63},out _)&&m.Choice!=null&&m.Position(protectedEnemy.Id)==63,"forged terrain choice cannot bypass anchored");
+        Do(m,ActionKind.Choose,59);Assert(!m.Choice.Options.Any(x=>x.Key==63),"second terrain choices also respect anchored");
+        Do(m,ActionKind.Choose,58);Settle(m);Assert(m.Position(anchored.Id)==58,"own terrain swap remains functional");
+    }
+
+    static Piece DefensePiece(Match m, int owner, int at, params string[] keywords)

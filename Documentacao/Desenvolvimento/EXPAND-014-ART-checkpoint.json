@@ -1,0 +1,32 @@
+{
+  "task_id": "EXPAND-014-ART",
+  "status": "ready_for_integration",
+  "summary": "10 exclusive individual paintings ED261007-03-C001 through C010, built-in image_gen; no atlas, shared paintings or replacements",
+  "files": [
+    "Assets/TCG/Resources/CardArt/PreconD03/*-painted-v1.png",
+    "Documentacao/Arte/Precon-D03-20261014/queue.json",
+    "Documentacao/Arte/Precon-D03-20261014/manifest-proposal.json",
+    "Documentacao/Arte/Precon-D03-20261014/Indice.md",
+    "Documentacao/Arte/Precon-D03-20261014/validation.json"
+  ],
+  "validation": [
+    "All 10 PNGs decode as 1536x1024",
+    "SHA256 recorded",
+    "Generated previews inspected; subjects readable with consistent warm medieval goblin style"
+  ],
+  "pending": [
+    "Coordinator manifest integration and Unity import/meta verification",
+    "Author art evaluation"
+  ],
+  "readBudget": {
+    "status": "exceeded",
+    "reason": "Mandatory imagegen skill full read and initial overly broad extraction exceeded bounded output. No more design-source reads after coordinator directive.",
+    "source_calls": 3
+  },
+  "restrictionsObserved": [
+    "No Editor",
+    "No Git",
+    "No shared manifest changes",
+    "No game rules changes"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "task_id": "EXPAND-014-REVIEW",
+  "status": "partial",
+  "summary": "Concrete targeting bypass found; bounded static review complete within read scope, operational validation remains coordinator-owned.",
+  "findings": [
+    {
+      "evidence": "Candidate predicate checks creature/cost/Immune/noncommander only; callback at line 119 checks Find only and ReturnHand removes the target. Opponent magic-resistant creature remains selectable and returned.",
+      "priority": "P1",
+      "symbol": "PreconBounce",
+      "line": 118,
+      "recommended": "Filter CanTargetByEffect(owner,p) at choice construction and revalidate at callback, including delayed commander destination; add isolated bounce test.",
+      "file": "Assets/TCG/Foundation/Core/PreconLibraryEffects.cs"
+    }
+  ],
+  "accepted": [
+    "KeywordRules keeps damage immunity separate from explicit targeting.",
+    "DamageEffect rechecks resistance at resolution.",
+    "Pick filters and revalidates explicit target/reflection.",
+    "NetworkView legal actions reuse CanPlayTarget and host choice options.",
+    "PiecePersonality diff changes local limb pose calculations, retaining root exclusion."
+  ],
+  "missing": [
+    "PreconAuthorEffects.cs absent; coordinator granted replacement sources but full focused coverage exhausted bounded budget.",
+    "Universal targeting coverage not established.",
+    "Group untargeted path exemption inspected statically only.",
+    "TroopModels full tail/integration not reviewed.",
+    "No Unity Editor, build, visual, combat defender, or live projected-choice validation executed by reviewer."
+  ],
+  "budget": "Read/search output approximately 24k character packet ceiling; no further source reads after concrete gap."
+}

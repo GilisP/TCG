@@ -15,6 +15,7 @@ namespace TCG.Foundation.Editor
         static void ObservePlay(PlayModeStateChange state) { if(state == PlayModeStateChange.EnteredPlayMode) Debug.Log("TCG EDITOR PLAY: " + Application.dataPath + " | scene=" + SceneManager.GetActiveScene().path + " | table=" + (UnityEngine.Object.FindFirstObjectByType<TCG.Table.TableWorld>() != null)); }
         static void ConfigurePlay()
         {
+            if(SessionState.GetBool("TCG.ExpandedVisualPlayChecks",false)){EditorSceneManager.playModeStartScene=null;return;}
             var scene = AssetDatabase.LoadAssetAtPath<SceneAsset>(SessionState.GetBool(GalleryPreviewKey,false)?"Assets/TCG/Scenes/GaleriaComandantes.unity":ScenePath);
             if (scene != null) EditorSceneManager.playModeStartScene = scene;
         }

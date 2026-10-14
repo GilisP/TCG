@@ -1,0 +1,31 @@
+{
+  "fontes": [
+    "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\03 - Cartas\\Palavras-chave - Base de Design.md",
+    "AGENTS.md",
+    "Assets/TCG/Foundation/Core",
+    "Assets/TCG/Foundation/Editor/PreconUnitChecks.cs",
+    "Assets/TCG/Foundation/Editor/MedievalChecks.cs",
+    "Assets/TCG/Foundation/Editor/BicolorChecks.cs",
+    "Assets/StreamingAssets/Expansions"
+  ],
+  "objetivo": "Audit approved keyword runtime support and implement unambiguous missing behavior or correct gap with tests; do not silently invent interactions",
+  "task_id": "EXPAND-014-RULES",
+  "criterios_conclusao": [
+    "Owned changes and evidence saved; root integration required"
+  ],
+  "contexto_essencial": "Main C:\\Users\\gil\\TCG. User requests more images, models, animations, approved keywords. Preserve game design, profile and metas. Max two workers; isolated context; <=100 lines/read, 24000 characters/50 reads; report scope/budget missing to root. No full-history fork. Coordinator owns shared manifest, FoundationSetup, Editor/build, vault and Git.",
+  "recursos": [
+    "WRITE Assets/TCG/Foundation/Core (only keyword gap, list exact files before editing in checkpoint)",
+    "WRITE Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs and meta",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-RULES-*.json"
+  ],
+  "resultado_esperado": "At least one meaningful approved keyword gap implemented, focused checks, audit status for 19keywords",
+  "project_id": "TCG",
+  "restricoes": [
+    "Do not run Unity or modify shared files",
+    "Use only assigned source directories with symbol searches then bounded snippets",
+    "No game design invention; incomplete rules remain pending",
+    "Checkpoint after decisions; deliver Status/Result/Files/Validation/Pending in English"
+  ],
+  "dependencias": []
+}

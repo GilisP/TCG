@@ -1,0 +1,31 @@
+{
+  "fontes": [
+    "C:\\Users\\gil\\.codex\\skills\\.system\\imagegen\\SKILL.md",
+    "Assets/StreamingAssets/Decks/official-precons.json",
+    "Assets/StreamingAssets/Expansions",
+    "Assets/StreamingAssets/CardArt/manifest.json",
+    "Documentacao/Arte/Precon-D02-20261014/queue.json",
+    "Documentacao/Arte/Precon-D02-20261014/Indice.md",
+    "AGENTS.md"
+  ],
+  "objetivo": "Generate and integrate a focused batch of 10 exclusive paintings for D03 goblin precon, preserve existing painted assets",
+  "task_id": "EXPAND-014-ART",
+  "criterios_conclusao": [
+    "Owned changes and evidence saved; root integration required"
+  ],
+  "contexto_essencial": "Main C:\\Users\\gil\\TCG. User requests more images, models, animations, approved keywords. Preserve game design, profile and metas. Max two workers; isolated context; <=100 lines/read, 24000 characters/50 reads; report scope/budget missing to root. No full-history fork. Coordinator owns shared manifest, FoundationSetup, Editor/build, vault and Git.",
+  "recursos": [
+    "WRITE Assets/TCG/Resources/CardArt/PreconD03 (new art only)",
+    "WRITE Documentacao/Arte/Precon-D03-20261014",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-ART-*.json"
+  ],
+  "resultado_esperado": "10 individual PNGs, proposal manifest entries for coordinator, prompts/hash index",
+  "project_id": "TCG",
+  "restricoes": [
+    "Do not run Unity or modify shared files",
+    "Use only assigned source directories with symbol searches then bounded snippets",
+    "No game design invention; incomplete rules remain pending",
+    "Checkpoint after decisions; deliver Status/Result/Files/Validation/Pending in English"
+  ],
+  "dependencias": []
+}

@@ -30,8 +30,8 @@ namespace TCG.Foundation
         {
             var target=Find(item.TargetUnit);if(item.Card?.Kind!=CardType.Instant||target==null||!Enemies(item.Owner,target.Owner))return;
             var shield=All.FirstOrDefault(e=>e.AttachedTo==target.Id&&AuthorHas(e,"mirror-shield")&&e.OnceTurn!=Turn);if(shield==null)return;shield.OnceTurn=Turn;
-            var other=All.Where(p=>p!=target&&p.Card.Kind==CardType.Creature&&Enemies(item.Owner,p.Owner)).ToArray();if(other.Length==0)return;
-            Ask(target.Owner,"Escudo Espelhado: redirecionar Truque",other.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null){item.TargetUnit=id;item.Target=Position(id);}});
+            var other=All.Where(p=>p!=target&&p.Card.Kind==CardType.Creature&&Enemies(item.Owner,p.Owner)&&CanTargetByEffect(item.Owner,p)).ToArray();if(other.Length==0)return;
+            Ask(target.Owner,"Escudo Espelhado: redirecionar Truque",other.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null&&CanTargetByEffect(item.Owner,p)){item.TargetUnit=id;item.Target=Position(id);}});
         }        void ApplyDisplacement(int owner,Piece p,int destination,Action<int> impact)
         {
             if(Find(p.Id)==null||AbilityMoveBlocked(p,owner)||cells[destination].Terrain==null||Blocked(p,destination))return;
@@ -45,11 +45,12 @@ namespace TCG.Foundation
         }
         void ApplyChosenTarget(int caster,Piece original,Func<Piece,bool> valid,Action<Piece> apply)
         {
+            if(!CanTargetByEffect(caster,original))return;
             if(resolvingVisual?.Kind==CardType.Instant&&Enemies(caster,original.Owner))
             {
                 var shield=All.FirstOrDefault(e=>e.AttachedTo==original.Id&&AuthorHas(e,"mirror-shield")&&e.OnceTurn!=Turn);
-                var alternatives=All.Where(p=>p!=original&&p.Card.Kind==CardType.Creature&&valid(p)).ToArray();
-                if(shield!=null){shield.OnceTurn=Turn;if(alternatives.Length>0){Ask(original.Owner,"Escudo Espelhado: novo alvo válido",alternatives.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null&&valid(p))apply(p);});return;}}
+                var alternatives=All.Where(p=>p!=original&&p.Card.Kind==CardType.Creature&&CanTargetByEffect(caster,p)&&valid(p)).ToArray();
+                if(shield!=null){shield.OnceTurn=Turn;if(alternatives.Length>0){Ask(original.Owner,"Escudo Espelhado: novo alvo válido",alternatives.Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>{var p=Find(id);if(p!=null&&CanTargetByEffect(caster,p)&&valid(p))apply(p);});return;}}
             }
             apply(original);
         }

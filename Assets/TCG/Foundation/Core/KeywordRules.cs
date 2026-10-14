@@ -1,0 +1,28 @@
+using System.Linq;
+
+namespace TCG.Foundation
+{
+    public static class KeywordRules
+    {
+        public const string MagicResistance = "magic-resistance";
+        public const string Anchored = "anchored";
+        public const string Armor = "armor";
+        public const string Tenacity = "tenacity";
+        public const string Barrier = "barrier";
+    }
+
+    public sealed partial class Match
+    {
+        // Target legality is separate from immunity: area effects and combat still apply.
+        public bool CanTargetByEffect(int controller, Piece target) => target != null &&
+            (!Enemies(controller, target.Owner) || !Has(target, KeywordRules.MagicResistance));
+
+        // The whole vehicle stays in place when an anchored passenger would be carried.
+        public bool CanMoveByEffect(int controller, Piece target) => target != null &&
+            (!Enemies(controller, target.Owner) ||
+             !(Has(target, KeywordRules.Anchored) || target.Card.IsVehicle &&
+               Passengers(target.Id).Any(p => Has(p, KeywordRules.Anchored))));
+        bool CanSwapTerrainByEffect(int controller,int cell) => Valid(cell)&&cells[cell].Terrain!=null&&
+            cells[cell].CapitalOwner<0&&cells[cell].pieces.All(p=>CanMoveByEffect(controller,p));
+    }
+}

@@ -1,0 +1,45 @@
+        internal void DamageTo(Piece p,int amount,Piece source,bool check=true,int caster=-1,bool combat=false)
+        {
+            if(amount<=0||p==null||Find(p.Id)==null) return;
+            int remaining=ApplyNumericDefenses(p,NonCreatureDamageBonus(amount,source,caster),combat);
+            remaining=ReflectDamage(p,remaining,source,caster);if(remaining>0&&source!=null)lastDamageSource[p.Id]=source;else if(remaining>0)lastDamageSource.Remove(p.Id);
+            foreach(var m in p.Modifiers.Where(m=>m.Prevent>0&&(!m.Formation||Formation(p)))) {int used=Math.Min(m.Prevent,remaining);remaining-=used;m.Prevent=m.AccumulatePrevention?m.Prevent-used:0;}
+            if(p.Health>0&&remaining>=p.Health)p.BeforeLethalDamage=p.Damage;
+            p.Damage+=remaining;if(remaining>0)p.LastDamagedTurn=Turn;
+            if(check) { AfterDamage(p,remaining,source); if(p.Health<=0) { Kill(p,source?.Owner??caster); if(source!=null&&p.Card.Kind==CardType.Creature)KillReward(source); } }
+        }
+        void AfterDamage(Piece p,int amount,Piece source)
+        {
+            PreconAuthorCombatDamage(source,p,amount);
+            if(amount<=0) return; AbilitiesDamaged(p,amount,source); AuthorAfterDamage(source,amount);
+            if(p.Health>0&&Has(p,"hurt-rage")) Trigger(p,"rage");
+            if(p.Health>0&&source!=null&&Has(p,"hurt-push")) Trigger(p,"push-attacker",source);
+            if(source!=null&&Has(source,"hit-push")&&source.OnceTurn!=Turn) {source.OnceTurn=Turn;Trigger(source,"leviathan-hit",p);}
+            foreach(var q in All.Where(q=>Has(q,"hurt-bastion")&&Powered(q)&&Allied(q.Owner,p.Owner)&&Near(q,p)).ToArray()) Trigger(q,"bastion-move",p);
+        }
+        void Trigger(Piece p,string rule,Piece subject=null,int cell=-1,bool repeatByAcademy=true)
+        {
+            if(seats[p.Owner].Eliminated) return;
+            stack.Add(new Pending{Owner=p.Owner,Card=p.Card,Rule=rule,Source=p,SourceCell=cell>=0?cell:Position(p.Id),Subject=subject});
+            if(repeatByAcademy&&TerrainRule(Position(p.Id),"academy")&&p.Card.Subtypes.Contains("Mago"))stack.Add(new Pending{Owner=p.Owner,Card=p.Card,Rule=rule,Source=p,SourceCell=cell>=0?cell:Position(p.Id),Subject=subject});
+            passes=0; Visual?.Invoke(new MatchEvent("trigger",Capital(p.Owner,seats.Length),Capital(p.Owner,seats.Length),p.Id,p.Card,p.Owner));
+        }
+        void Enter(Piece p)
+        {
+            PreconUnitEntered(p);PreconAuthorEntered(p);AbilitiesEntered(p);NewEnter(p);foreach(var pair in new[]{("enter-recover-one","recover-one"),("enter-recover-two","recover-two-hand"),("enter-repair","repair"),("enter-fire","damage-two"),("enter-move-ally","enter-move-ally"),("enter-push","enter-push"),("enter-leviathan","leviathan-enter")})
+                if(Has(p,pair.Item1)) Trigger(p,pair.Item2);
+        }
+        void TurnTriggers()
+        {
+            PreconAuthorTurn();AuthorTurn();foreach(var p in All.Where(p=>p.Owner==Active).ToArray())AbilityEvent(p,"turn");
+            foreach(var p in All.Where(p=>p.Owner==Active).ToArray()) { if(Has(p,"turn-sun")) Trigger(p,"sun-turn");if(Has(p,"turn-king")) Trigger(p,"king-turn"); }
+            foreach(var f in phoenix.Where(f=>f.owner==Active&&f.turn<Turn).ToArray())
+            {
+                phoenix.Remove(f);
+                if(seats[f.owner].grave.Contains(f.card)){
+                    stack.Add(new Pending{Owner=f.owner,Card=f.card,Rule="phoenix-return"});passes=0;
+                    Visual?.Invoke(new MatchEvent("trigger",Capital(f.owner,seats.Length),Capital(f.owner,seats.Length),-1,f.card,f.owner));
+                }
+            }
+        }
+        void OnDeath(Piece p,int cell,int killer)

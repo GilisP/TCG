@@ -1,0 +1,29 @@
+{
+  "task_id": "EXPAND-014-PACKETREVIEW",
+  "objetivo": "Independent numerical/anchor/bounce review using only bounded snapshots",
+  "resultado_esperado": "Status and concrete findings, public projection correctness; coordinator binds snapshots to originals",
+  "contexto_essencial": "Author approved max same-name armor/tenacity values, their sum in combat, reductions before barrier, barrier consumption without automatic regeneration; anchored passenger blocks hostile carrier movement. Prior reviewer budget violation preserved as partial; these exact bounded sources resolve prior unreviewed code. Interface/production data grants absent. Root running isolated tests.",
+  "restricoes": [
+    "Read only packet sources; <=100lines/read,24000chars/50reads",
+    "No broad git diff or full original source reads",
+    "Binary hash comparison of originals allowed; no whole source decode",
+    "No Editor/Git or code edits",
+    "Report unknown coverage rather than invent"
+  ],
+  "fontes": [
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\numeric.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\target-move.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\damage.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\bounce.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\projection.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-reviewpacket\\binding.json"
+  ],
+  "dependencias": [],
+  "criterios_conclusao": [
+    "Parser,max/sum,barrier spent,anchor carrier and projected state inspected; concrete gaps returned"
+  ],
+  "recursos": [
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-PACKETREVIEW-report.json",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-PACKETREVIEW-checkpoint.json"
+  ]
+}

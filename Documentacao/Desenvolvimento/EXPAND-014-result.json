@@ -1,0 +1,27 @@
+{
+  "resumo": "10 artes exclusivas iniciais D03; tropas suaves com cinco goblins distintos, cinco estados animados; cinco palavras-chave e três cartas Ancorado existentes",
+  "status": "integrado e verificado tecnicamente",
+  "evidencias": [
+    "Regressão completa aprovada antes dos refinamentos finais",
+    "Build final: 1862 verificações proporcionais aprovadas",
+    "Play isolado: 223 verificações de modelos e 8 de ciclo animado",
+    "LAN 7967 host/guest1 PASS, revisão26, reconexão e zero erros"
+  ],
+  "arquivos": [
+    "Core/KeywordRules.cs",
+    "Core/NumericKeywordRules.cs",
+    "Runtime/TroopModels.cs",
+    "Runtime/PiecePersonality.cs",
+    "Runtime/KeywordPresentation.cs",
+    "StreamingAssets/CardArt/manifest.json",
+    "Resources/CardArt/PreconD03",
+    "EXPAND-014-uso.md"
+  ],
+  "pendencias": [
+    "Aprovação estética pelo autor",
+    "Sessão longa e FPS",
+    "D03 completo e 14 outras palavras-chave",
+    "Relay não repetido"
+  ],
+  "proximo_passo": "Avaliar os modelos e o lote inicial de artes antes de ampliar a produção"
+}

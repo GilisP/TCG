@@ -38,7 +38,7 @@ namespace TCG.Foundation
             "pass-units","equipment-pa","after-move","ally-after-move","move-extra",
             "enter-move-ally","enter-push","hurt-push","enemy-after-push","enter-leviathan","hit-push"
         };
-        public static bool Valid(string rule,string[] traits)=>(Programs.Contains(rule??"")||AuthorRules.Programs.Contains(rule??""))&&(traits==null||traits.All(t=>t=="immune-own"||t=="exile-on-resolve"||Traits.Contains(t)||AuthorRules.Traits.Contains(t)||PreconUnitSchema.Traits.Contains(t)||PreconAuthorSchema.Traits.Contains(t)||t=="precon-random-mana"||t=="indestructible"));
+        public static bool Valid(string rule,string[] traits)=>(Programs.Contains(rule??"")||AuthorRules.Programs.Contains(rule??""))&&(traits==null||traits.All(t=>t=="immune-own"||t=="exile-on-resolve"||Traits.Contains(t)||AuthorRules.Traits.Contains(t)||PreconUnitSchema.Traits.Contains(t)||PreconAuthorSchema.Traits.Contains(t)||t=="precon-random-mana"||(t=="indestructible"||t==KeywordRules.MagicResistance||t==KeywordRules.Anchored||NumericKeywordRules.Valid(t))));
     }
     public sealed partial class Match
     {
@@ -123,11 +123,11 @@ namespace TCG.Foundation
         void Pick(int owner,string title,Func<Piece,bool> filter,Action<Piece> apply,bool optional=false)
         {
             work.Enqueue(()=>{
-                var candidates=All.Where(p=>(p.Card.Kind!=CardType.Equipment&&p.Card.Kind!=CardType.Enchantment)&&filter(p)).ToArray();
+                var candidates=All.Where(p=>(p.Card.Kind!=CardType.Equipment&&p.Card.Kind!=CardType.Enchantment)&&CanTargetByEffect(owner,p)&&filter(p)).ToArray();
                 if(candidates.Length==0) return;
                 var opts=candidates.Select(p=>new ChoiceOption(p.Id,p.Card.Name+" — "+p.Attack+"/"+p.Health+" · "+Position(p.Id)%11+","+Position(p.Id)/11)).ToList();
                 if(optional) opts.Add(new ChoiceOption(-1,"Não usar"));
-                Choice=new RuleChoice(owner,title,opts,key=>{ var p=Find(key); if(p!=null&&filter(p)) ApplyChosenTarget(owner,p,filter,apply); });
+                Choice=new RuleChoice(owner,title,opts,key=>{ var p=Find(key); if(p!=null&&CanTargetByEffect(owner,p)&&filter(p)) ApplyChosenTarget(owner,p,q=>CanTargetByEffect(owner,q)&&filter(q),apply); });
             });
         }
         void Many(int owner,string title,int count,Func<Piece,bool> filter,Action<Piece> apply,HashSet<int> selected=null)
@@ -169,10 +169,11 @@ namespace TCG.Foundation
             return false;
         }
         void KillReward(Piece p){if(Find(p.Id)==null)return;if(Has(p,"kill-move"))Trigger(p,"move-self");if(Has(p,"kill-rage"))Trigger(p,"rage-one");}
-        internal void DamageTo(Piece p,int amount,Piece source,bool check=true,int caster=-1)
+        internal void DamageTo(Piece p,int amount,Piece source,bool check=true,int caster=-1,bool combat=false)
         {
             if(amount<=0||p==null||Find(p.Id)==null) return;
-            int remaining=ReflectDamage(p,NonCreatureDamageBonus(amount,source,caster),source,caster);if(remaining>0&&source!=null)lastDamageSource[p.Id]=source;else if(remaining>0)lastDamageSource.Remove(p.Id);
+            int remaining=ApplyNumericDefenses(p,NonCreatureDamageBonus(amount,source,caster),combat);
+            remaining=ReflectDamage(p,remaining,source,caster);if(remaining>0&&source!=null)lastDamageSource[p.Id]=source;else if(remaining>0)lastDamageSource.Remove(p.Id);
             foreach(var m in p.Modifiers.Where(m=>m.Prevent>0&&(!m.Formation||Formation(p)))) {int used=Math.Min(m.Prevent,remaining);remaining-=used;m.Prevent=m.AccumulatePrevention?m.Prevent-used:0;}
             if(p.Health>0&&remaining>=p.Health)p.BeforeLethalDamage=p.Damage;
             p.Damage+=remaining;if(remaining>0)p.LastDamagedTurn=Turn;
@@ -358,7 +359,7 @@ namespace TCG.Foundation
                 case "rally":Pick(o,"Tropa de referência",own,p=>{int at=Position(p.Id);Many(o,"Reagrupar",3,q=>ally(q)&&q!=p,q=>{int before=Distance(Position(q.Id),at);MoveEffect(q,1,true,n=>Distance(n,at)<before);});});break;
                 case "fire-march":Many(o,"Marcha das chamas",3,ally,p=>{Buff(p,2);var enemies=All.Where(enemy).Select(q=>Position(q.Id)).ToArray();int start=Position(p.Id);MoveEffect(p,1,true,n=>enemies.Any(t=>Distance(n,t)<Distance(start,t)));});break;
                 case "swap":Pick(o,"Primeira criatura da troca",ally,p=>Pick(o,"Segunda criatura até 3 tiles",q=>ally(q)&&q!=p&&Distance(Position(p.Id),Position(q.Id))<=3,q=>{
-                    if(Immune(p,o)||Immune(q,o))return;int a=Position(p.Id),b=Position(q.Id);cells[a].pieces.Remove(p);cells[b].pieces.Remove(q);cells[a].pieces.Add(q);cells[b].pieces.Add(p);MarkMoved(p,a,b);MarkMoved(q,b,a);Preview(i,a);Preview(i,b);
+                    if(Immune(p,o)||Immune(q,o)||!CanMoveByEffect(o,p)||!CanMoveByEffect(o,q))return;int a=Position(p.Id),b=Position(q.Id);cells[a].pieces.Remove(p);cells[b].pieces.Remove(q);cells[a].pieces.Add(q);cells[b].pieces.Add(p);MarkMoved(p,a,b);MarkMoved(q,b,a);Preview(i,a);Preview(i,b);
                 }));break;
                 case "wind-all":Ask(o,"Centro do vendaval",Enumerable.Range(0,121).Where(n=>cells[n].Terrain!=null).Select(n=>new ChoiceOption(n,"Tile "+n%11+","+n/11)),at=>{foreach(var p in All.Where(p=>p.Card.Kind==CardType.Creature&&Adjacent(at,Position(p.Id))).ToArray()){int d=Distance(Position(p.Id),at);MoveEffect(p,2,true,n=>Distance(n,at)>d);}});break;
                 case "retreat":Many(o,"Maré de retirada",3,p=>p.Card.Kind==CardType.Creature,p=>{int start=Position(p.Id);var capitals=Enumerable.Range(0,seats.Length).Where(e=>Enemies(p.Owner,e)).Select(e=>Capital(e,seats.Length)).ToArray();MoveEffect(p,2,true,n=>capitals.All(c=>Distance(n,c)>=Distance(start,c)));});break;

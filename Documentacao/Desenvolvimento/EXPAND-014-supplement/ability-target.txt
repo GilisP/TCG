@@ -1,0 +1,14 @@
+        bool AbilityTarget(CardAbility a,Pending item,Piece p,bool passive=false)
+        {
+            // Self, attached host and event subject are resolved without choosing a piece.
+            bool selected=a.target!="self"&&a.target!="host"&&a.target!="subject"&&!(a.target.StartsWith("group")&&a.count>=121);
+            if(!passive&&selected&&!CanTargetByEffect(item.Owner,p))return false;
+            var custom=PreconUnitTarget(a,item,p,passive)??PreconAuthorTarget(a,item,p,passive); if(custom.HasValue)return custom.Value;
+            int owner=item.Owner,at=AbilityOrigin(item),pos=Position(p.Id);
+            bool type=a.target=="self"?p==item.Source:a.target=="host"?item.Source?.AttachedTo==p.Id:a.target=="subject"?p==item.Subject:
+                a.target=="ownBuilding"?p.Owner==owner&&p.Card.Kind==CardType.Construction:
+                a.target=="enemyBuilding"?Enemies(owner,p.Owner)&&p.Card.Kind==CardType.Construction:
+                a.target=="enemyBody"?Enemies(owner,p.Owner)&&(p.Card.Kind==CardType.Creature||p.Card.Kind==CardType.Construction):
+                a.target=="ownVehicle"?p.Owner==owner&&p.Card.IsVehicle:
+                p.Card.Kind==CardType.Creature&&(a.target=="creature"||a.target=="groupAny"||a.target=="enemy"&&Enemies(owner,p.Owner)||(a.target=="own"||a.target=="groupOwn"||a.target=="other")&&p.Owner==owner&&(a.target!="other"||p!=item.Source));
+            if(!type||p.Card.TotalCost>a.maxCost||!string.IsNullOrEmpty(a.subtype)&&!p.Card.Subtypes.Contains(a.subtype))return false;

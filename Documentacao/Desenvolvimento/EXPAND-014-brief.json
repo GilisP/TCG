@@ -1,0 +1,32 @@
+{
+  "objetivo": "Ampliar imagens exclusivas, modelos suaves e animações; integrar Resistência à magia aprovada",
+  "resultado_esperado": "10 artes D03; perfis de tropas suaves; animação detalhada; resistência validada no motor oficial",
+  "fontes": [
+    "AGENTS.md",
+    "03 - Cartas/Palavras-chave - Base de Design.md",
+    "Runtime/MedievalVisuals.cs",
+    "Runtime/PiecePersonality.cs",
+    "Runtime/CommanderModels.cs",
+    "Editor/FoundationSetup.cs"
+  ],
+  "recursos": [
+    "Runtime e Editor listados",
+    "shared manifest",
+    "vault/documentation",
+    "Editor/build/Git"
+  ],
+  "criterios_conclusao": [
+    "Integrar assets e regra;compilar;testes pertinentes;captures3D;documentar limitações"
+  ],
+  "project_id": "TCG",
+  "restricoes": [
+    "Preservar perfil/metas/regras",
+    "Core reservado a expand_rules;artes D03 a expand_art",
+    "Coordenador: Runtime/TroopModels.cs,PiecePersonality.cs,MedievalVisuals.cs,Editor/TroopPresentationChecks.cs,FoundationSetup.cs,manifest,docs/testes/Git"
+  ],
+  "contexto_essencial": "D01 e D02 pintados;29 comandantes articulados;motor host oficial. Escopos disjuntos, dois especialistas.",
+  "task_id": "EXPAND-014",
+  "dependencias": [
+    "Aceite de EXPAND-014-ART e EXPAND-014-RULES"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "resultado_esperado": "Bounded review with concrete issues or acceptance; no mutations except own report",
+  "restricoes": [
+    "Read <=100 lines/snippet,24000chars/50reads",
+    "No whole history",
+    "Read only scoped sources; report budget gaps",
+    "No Editor/Git",
+    "Check explicit vs untargeted effect distinction and resolution, manual choices and projection",
+    "Do not broaden/rewrite rules"
+  ],
+  "task_id": "EXPAND-014-REVIEW",
+  "dependencias": [
+    "Root compile in progress"
+  ],
+  "fontes": [
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "Assets/TCG/Foundation/Core/Match.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "Assets/TCG/Foundation/Core/PreconLibraryEffects.cs",
+    "Assets/TCG/Foundation/Core/PreconAuthorEffects.cs",
+    "Assets/TCG/Foundation/Core/AutomaticResponses.cs",
+    "Assets/TCG/Foundation/Runtime/TroopModels.cs",
+    "Assets/TCG/Foundation/Runtime/PiecePersonality.cs",
+    "Documentacao/Desenvolvimento/EXPAND-014-RULES-report.json"
+  ],
+  "recursos": [
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-REVIEW-*.json",
+    "READ git diff of changed scoped core/runtime files"
+  ],
+  "contexto_essencial": "User approved magic resistance as opponent target restriction. Other approved keywords have unresolved details. New smooth troop profiles and animation poses preserve gameplay. Implementation workers wrote code; coordinator compiling. Root owns fixes/Editor.",
+  "project_id": "TCG",
+  "criterios_conclusao": [
+    "Find missing targeting paths or unintended prevention of untargeted effects; review root pose invariants"
+  ],
+  "objetivo": "Independent review of resistance targeting patch and troop presentation changes"
+}

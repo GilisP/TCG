@@ -1,0 +1,36 @@
+{
+  "recursos": [
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-FINALREVIEW-*.json"
+  ],
+  "resultado_esperado": "Concrete correctness review of new mechanics with prior finding fix acceptance or blockers",
+  "task_id": "EXPAND-014-FINALREVIEW",
+  "contexto_essencial": "Author confirmed max each same-name reduction, sum armor+tenacity in combat, reductions before barrier, enemy anchored passengers block entire carrier. Root patched PreconBounce filtering and delayed callbacks. Worker implemented NumericKeywordRules and projection; targeted Unity tests running. Review only changed/new bounded code and latest evidence.",
+  "restricoes": [
+    "<=100lines/read;24000chars/50reads",
+    "No code/Editor/Git edits",
+    "Do not repeat earlier unchanged resistance review",
+    "Record missing scope/budget to root",
+    "Write own report/checkpoint"
+  ],
+  "project_id": "TCG",
+  "objetivo": "Independent review of numeric defense and anchored mechanics, plus bounce correction",
+  "dependencias": [
+    "Targeted tests underway"
+  ],
+  "fontes": [
+    "Assets/TCG/Foundation/Core/NumericKeywordRules.cs",
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/Match.cs (diff only)",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs (diff andDamageTo)",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs (diff only)",
+    "Assets/TCG/Foundation/Core/NewCommanders.cs (diff only)",
+    "Assets/TCG/Foundation/Core/NetworkView.cs (diff only)",
+    "Assets/TCG/Foundation/Core/PreconLibraryEffects.cs:lines115-123",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "Documentacao/Desenvolvimento/EXPAND-014-DEFENSE-report.json",
+    "Logs/expand-014-targeted.log (errors/PASS only)"
+  ],
+  "criterios_conclusao": [
+    "Numeric parser/pipeline combat classification/barrier inheritance/projection correct;bounce found gap corrected"
+  ]
+}

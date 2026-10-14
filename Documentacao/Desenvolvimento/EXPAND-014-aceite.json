@@ -1,0 +1,29 @@
+{
+  "task_id": "EXPAND-014",
+  "status": "accepted",
+  "review_scopes": [
+    "numeric/anchored/passenger/public projection bounded packet",
+    "final automatic-target exemption and indirect terrain-swap supplement"
+  ],
+  "runtime_evidence": [
+    "68 keyword checks",
+    "969 commander checks",
+    "223 troop checks/12 profiles",
+    "69 art/binding/labels checks",
+    "346 multicolor checks",
+    "full rules regression build passed; later caller fixes proportionally revalidated"
+  ],
+  "report_hashes": {
+    "EXPAND-014-DEFENSE-report.json": "85771564d613d707a7a7eadd2bd33ade357276760a7e726801abef31e1ebf671",
+    "EXPAND-014-FINALREVIEW-report.json": "b4157210d15d4cbbf53891596dd7ea6055712e5b3b66a81a7e9c9c28a506aff7",
+    "EXPAND-014-PACKETREVIEW-report.json": "392f7465c06f4438f568bb8879af15a19fee22c1344e59996872830cbaf132e7",
+    "EXPAND-014-REVIEW-report.json": "1f340c599c97033cf9d2e522019b4572f2b3fbefce149a52a5565af76a08cf5f",
+    "EXPAND-014-RULES-report.json": "b2339c3671ac1ea0eee2811f2db0d8d35bff0ffbfa209b8d33a59a10483bbc9e",
+    "EXPAND-014-SUPPLEMENT-report.json": "10fd1affbfb7feb690525ed1a6f4cf93c85b4666c6df9fa86201041510e12c43"
+  },
+  "limitations": [
+    "prior partial reviews and source-budget overrun retained; no automatic control claimed",
+    "manual aesthetic approval and long FPS pending",
+    "no Relay rerun"
+  ]
+}

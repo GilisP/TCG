@@ -1,0 +1,14 @@
+[
+  {
+    "snapshot": "damage-continuation.txt",
+    "physical_source_start": 76,
+    "lines": 15,
+    "characters": 402
+  },
+  {
+    "snapshot": "projection-continuation.txt",
+    "physical_source_start": 76,
+    "lines": 75,
+    "characters": 6701
+  }
+]

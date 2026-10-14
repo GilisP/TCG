@@ -35,13 +35,13 @@ namespace TCG.Foundation
                 case "guard":case "hold":case "attack-buff":case "range-buff":
                 case "prevent-three":case "formation-prevent":return allies.Any();
                 case "blood-price":return allies.Any(p=>p.Owner==owner);
-                case "reduce-attack":return All.Any(p=>p.Card.Kind==CardType.Creature&&Enemies(owner,p.Owner));
+                case "reduce-attack":return All.Any(p=>p.Card.Kind==CardType.Creature&&Enemies(owner,p.Owner)&&CanTargetByEffect(owner,p));
                 case "move-ally":return allies.Any(p=>!Immune(p,owner)&&Neighbors(Position(p.Id)).Any(n=>cells[n].Terrain!=null&&!Blocked(p,n)));
                 case "swap":return allies.Any(p=>!Immune(p,owner)&&allies.Any(q=>q!=p&&!Immune(q,owner)&&Distance(Position(p.Id),Position(q.Id))<=3));
                 case "death-burst":
                     if(!enemyDeaths.Any(d=>d.owner==owner&&d.turn==Turn))return false;
                     var death=enemyDeaths.Last(d=>d.owner==owner&&d.turn==Turn);
-                    return All.Any(p=>p.Card.Kind==CardType.Creature&&Enemies(owner,p.Owner)&&Adjacent(death.cell,Position(p.Id)));
+                    return All.Any(p=>p.Card.Kind==CardType.Creature&&Enemies(owner,p.Owner)&&CanTargetByEffect(owner,p)&&Adjacent(death.cell,Position(p.Id)));
                 // Unknown future programs remain available: never silently discard an unclassified response.
                 default:return true;
             }

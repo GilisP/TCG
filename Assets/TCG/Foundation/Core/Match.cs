@@ -19,6 +19,9 @@ namespace TCG.Foundation
         public int Damage { get; internal set; } int movementRemaining; public int Movement { get=>Math.Max(0,movementRemaining+(Game?.MovementAdjustment(this)??0)); internal set=>movementRemaining=value-(Game?.MovementAdjustment(this)??0); } int actionsRemaining; public int Actions { get=>Math.Max(0,actionsRemaining+(Game?.ActionAura(this)??0)); internal set {int before=Actions;actionsRemaining=value-(Game?.ActionAura(this)??0);Game?.ActionsSpent(this,before,Actions);} }
         internal int PermanentActions,DeathPower,BeforeLethalDamage; internal int? BaseAttackOverride,BaseDefenseOverride; internal bool CombatLethal; internal Match Game; internal bool CommandUnit; internal bool Token; internal int ExpireTurn=-1;
         internal int LastDamagedTurn=-1;
+        internal int BarrierSpent;
+        internal int? NetBarrierRemaining;
+        public int BarrierRemaining => NetBarrierRemaining ?? (Game?.RemainingBarrier(this) ?? 0);
         int originalOwner=-1;public int OriginalOwner {get=>originalOwner<0?Owner:originalOwner;internal set=>originalOwner=value;} public int CarrierId {get;internal set;}=-1;
         public int AttachedTo { get; internal set; }=-1;
         public int LastMovedTurn { get; internal set; }=-100; public int PreviousOwnTurn { get; internal set; }=-1; internal int LastOwnTurn=-1;
@@ -89,7 +92,7 @@ namespace TCG.Foundation
     public sealed class DamageEffect : IEffectHandler
     {
         public string Key=>"damage"; public bool NeedsEnemy=>true;
-        public void Resolve(Match m,Pending item,int amount) { var unit=m.Find(item.TargetUnit); if(unit!=null && m.Enemies(item.Owner,unit.Owner)) m.DamageTo(unit,amount,null,true,item.Owner); }
+        public void Resolve(Match m,Pending item,int amount) { var unit=m.Find(item.TargetUnit); if(unit!=null && m.Enemies(item.Owner,unit.Owner) && m.CanTargetByEffect(item.Owner,unit)) m.DamageTo(unit,amount,null,true,item.Owner); }
     }
     public sealed class DrawEffect : IEffectHandler
     {
@@ -184,8 +187,8 @@ namespace TCG.Foundation
         }
         bool CanPlayTarget(Definition card,int target,int unit=-1)
         {
-            if(card.Kind==CardType.Enchantment){var placement=PreconEnchantmentPlacement(card,Priority,target,unit);if(placement.HasValue)return placement.Value;var host=Find(unit);return host!=null&&(host.Card.Kind==CardType.Creature||host.Card.IsVehicle)&&AbilityEnchantmentTarget(card,host,Priority)&&Position(unit)==target&&!Immune(host,Priority);} if(card.Permanent) return Valid(target)&&cells[target].Terrain!=null&&cells[target].Owner==Priority;
-            if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)) { var piece=Find(unit); return piece!=null&&Enemies(Priority,piece.Owner)&&Position(unit)==target; }
+            if(card.Kind==CardType.Enchantment){var placement=PreconEnchantmentPlacement(card,Priority,target,unit);if(placement.HasValue)return placement.Value;var host=Find(unit);return host!=null&&(host.Card.Kind==CardType.Creature||host.Card.IsVehicle)&&AbilityEnchantmentTarget(card,host,Priority)&&Position(unit)==target&&CanTargetByEffect(Priority,host)&&!Immune(host,Priority);} if(card.Permanent) return Valid(target)&&cells[target].Terrain!=null&&cells[target].Owner==Priority;
+            if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)) { var piece=Find(unit); return piece!=null&&Enemies(Priority,piece.Owner)&&CanTargetByEffect(Priority,piece)&&Position(unit)==target; }
             return true;
         }
         public bool Try(Command c,out string error)
@@ -348,7 +351,7 @@ namespace TCG.Foundation
             if(item.Rule!=null) { ResolveRule(item); Drain(); FinishCheck(); return; }
             if(item.Card!=null)
             {
-                if(item.Card.Kind==CardType.Enchantment){if(PreconEnchantmentPlacement(item.Card,item.Owner,item.Target,-1)==true){SpawnNew(item.Owner,item.Card,item.Target,item.CardOwner);}else {var host=Find(item.TargetUnit);if(host!=null&&!Immune(host,item.Owner)){var enchant=SpawnNew(item.Owner,item.Card,Position(host.Id),item.CardOwner);enchant.AttachedTo=host.Id;}else FinishSpell(item);}} else if(item.Card.Permanent)
+                if(item.Card.Kind==CardType.Enchantment){if(PreconEnchantmentPlacement(item.Card,item.Owner,item.Target,-1)==true){SpawnNew(item.Owner,item.Card,item.Target,item.CardOwner);}else {var host=Find(item.TargetUnit);if(host!=null&&CanTargetByEffect(item.Owner,host)&&!Immune(host,item.Owner)){var enchant=SpawnNew(item.Owner,item.Card,Position(host.Id),item.CardOwner);enchant.AttachedTo=host.Id;}else FinishSpell(item);}} else if(item.Card.Permanent)
                 {
                     if(cells[item.Target].Terrain!=null&&cells[item.Target].Owner==item.Owner) { var p=new Piece(nextPiece++,item.Owner,item.Card){Game=this,CommandUnit=item.CommandUnit,OriginalOwner=item.CardOwner<0?item.Owner:item.CardOwner}; cells[item.Target].pieces.Add(p); Enter(p); Visual?.Invoke(new MatchEvent("summon",item.Target,item.Target,p.Id)); }
                     else FinishSpell(item);
@@ -381,7 +384,7 @@ namespace TCG.Foundation
                 int hit=Math.Min(budgets[id],Math.Max(0,a.Health)); budgets[id]-=hit; hits.Add((a,hit,b)); damage[a]=(damage.TryGetValue(a,out prior)?prior:0)+hit;
             }
             // Damage is assigned from the same snapshot, then deaths are checked together.
-            foreach(var hit in hits) {int before=hit.target.Damage;DamageTo(hit.target,hit.amount,hit.source,false);applied.Add((hit.target,hit.target.Damage-before,hit.source));}
+            foreach(var hit in hits) {int before=hit.target.Damage;DamageTo(hit.target,hit.amount,hit.source,false,combat:true);applied.Add((hit.target,hit.target.Damage-before,hit.source));}
             foreach(var hit in applied){AbilitiesCombatHit(hit.source,hit.target,hit.amount);AfterDamage(hit.target,hit.amount,hit.source);}
             var casualties=damage.Keys.Where(p=>p.Health<=0&&!IndestructibleSurvives(p)).ToArray(); foreach(var p in casualties){p.CombatLethal=true;p.DeathPower=p.Attack;}
             foreach(var p in casualties) { var killer=killers.TryGetValue(p,out var source)?source:null; p.CombatLethal=true; Kill(p,killer?.Owner??-1); if(killer!=null&&p.Card.Kind==CardType.Creature) KillReward(killer); }

@@ -1,0 +1,27 @@
+{
+  "task_id": "EXPAND-014-SUPPLEMENT",
+  "objetivo": "Independent review of final targeting and indirect terrain movement fixes",
+  "resultado_esperado": "Concrete correctness finding or acceptance of these exact two changes",
+  "contexto_essencial": "Approved magic resistance excludes automatic/non-selected effects. self/host/subject are automatically resolved without choice; new gate exempts them. Approved Anchored prevents enemy effects moving piece, whole carrier with anchored passenger, and indirect terrain swaps carrying it. Initial generic/helper review passed; final caller gaps found by root require supplementary scope. Root runs terrain fixture/build now. No design invention.",
+  "restricoes": [
+    "Read only these 5 packet files once; <=100lines/read;24000chars/50reads",
+    "No other sources or git diff",
+    "Original binary hash check allowed; no full decode",
+    "No Editor/Git/code mutations"
+  ],
+  "fontes": [
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-supplement\\ability-target.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-supplement\\terrain-swap.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-supplement\\keyword-helper.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-supplement\\terrain-fixture.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\EXPAND-014-supplement\\binding.json"
+  ],
+  "dependencias": [],
+  "criterios_conclusao": [
+    "Check enemy protection not overloaded to untargeted events; terrain options and callbacks revalidate; forged option test meaningful"
+  ],
+  "recursos": [
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-SUPPLEMENT-report.json",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-SUPPLEMENT-checkpoint.json"
+  ]
+}

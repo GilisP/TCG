@@ -52,7 +52,7 @@ namespace TCG.Table
    var colors=CardFilter.CardColors(card);for(int n=0;n<colors.Length;n++)Solid(new Rect(15+n*230f/colors.Length,231,230f/colors.Length,5),TableWorld.Elements[colors[n]]);
    Solid(new Rect(13,242,234,24),dark);CardText(new Rect(19,244,222,20),TypeLabel(card)+(card.Subtypes.Count>0?" · "+string.Join(" / ",card.Subtypes):""),11,edge,true);
    Solid(new Rect(13,269,234,82),paper);PaperGrain(new Rect(13,269,234,82),.035f);Stroke(new Rect(13,269,234,82),new Color(edge.r,edge.g,edge.b,.4f));
-   string rules=card.Text;var textStyle=new GUIStyle(GUI.skin.label){font=body.font,fontSize=12,wordWrap=true,normal={textColor=ink}};while(textStyle.fontSize>9&&textStyle.CalcHeight(new GUIContent(rules),219)>75)textStyle.fontSize--;
+   string rules=KeywordPresentation.CardRules(card);var textStyle=new GUIStyle(GUI.skin.label){font=body.font,fontSize=12,wordWrap=true,normal={textColor=ink}};while(textStyle.fontSize>9&&textStyle.CalcHeight(new GUIContent(rules),219)>75)textStyle.fontSize--;
    if(textStyle.CalcHeight(new GUIContent(rules),219)>75)rules=rules.Length>205?rules.Substring(0,202)+"…":rules;GUI.Label(new Rect(20,272,219,76),rules,textStyle);
    string stats=card.Kind==CardType.Creature||card.IsVehicle?card.PrintedStats+"   PA "+card.Actions+"   MOV "+card.Movement+"   ALC "+card.Range:card.Kind==CardType.Construction?"DEFESA "+card.Defense:card.Kind==CardType.Equipment?"EQUIPAR "+card.EquipCost:card.Kind==CardType.Terrain?"T E R R E N O":"";
    CardText(new Rect(16,353,228,20),stats,11,night?paper:TableWorld.Hex("EEE0BE"),true,TextAnchor.MiddleCenter);CardText(new Rect(17,370,226,8),RarityLabel(card)+"  ·  "+CardStyles.Name(style),7,edge,false,TextAnchor.MiddleCenter);

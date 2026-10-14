@@ -24,7 +24,7 @@ namespace TCG.Foundation
   }
   bool NewCanActivate(Piece p)=>p.Card.Rule=="abyss-hunger"?p.Actions>=1&&seats[p.Owner].mana.Sum()>0:
    p.Card.Rule=="moon-admirer"?p.Actions>=1&&seats[p.Owner].grave.Any(SpellCard):
-   p.Card.Rule=="ancestral-monk"?p.Actions>=1&&All.Any(q=>q.Card.Kind==CardType.Creature&&!Immune(q,p.Owner)&&!reflections.Contains(q.Id)):
+   p.Card.Rule=="ancestral-monk"?p.Actions>=1&&All.Any(q=>q.Card.Kind==CardType.Creature&&!Immune(q,p.Owner)&&CanTargetByEffect(p.Owner,q)&&!reflections.Contains(q.Id)):
    p.Card.Rule=="infiltration"?p.Actions>=2&&All.Any(q=>q.Owner==p.Owner&&q.Card.Kind==CardType.Creature&&Enumerable.Range(0,121).Any(at=>InfiltrationTarget(q,at))):false;
   bool MonkResponse(Piece p)=>p!=null&&p.Card.Rule=="ancestral-monk"&&p.Owner==Priority&&CanAct(p)&&NewCanActivate(p)&&Choice==null&&Defense==null&&stack.Count>0;
   bool NewActivate(Piece p)
@@ -85,11 +85,11 @@ namespace TCG.Foundation
      },true);return true;
     case "burning-ancestor":SelectGraveCast(o,true);return true;
     case "moon-admirer":SelectGraveCast(o,false);return true;
-    case "ancestral-monk":Pick(o,"Proteger do próximo dano e refletir metade",p=>p.Card.Kind==CardType.Creature&&!Immune(p,o)&&!reflections.Contains(p.Id),p=>reflections.Add(p.Id));return true;
+    case "ancestral-monk":Pick(o,"Proteger do próximo dano e refletir metade",p=>p.Card.Kind==CardType.Creature&&!Immune(p,o)&&CanTargetByEffect(o,p)&&!reflections.Contains(p.Id),p=>reflections.Add(p.Id));return true;
     case "moon-herald":
      int origin=src!=null&&Position(src.Id)>=0?Position(src.Id):item.SourceCell;
-     var targets=All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.Kind==CardType.Construction)&&Distance(origin,Position(p.Id))<=3&&!Immune(p,o)).ToArray();
-     Ask(o,"Arauto: 1 dano até 3 tiles",targets.Select(p=>new ChoiceOption(p.Id,p.Card.Name)).Concat(Enumerable.Range(0,seats.Length).Where(s=>!seats[s].Eliminated&&Distance(origin,Capital(s,seats.Length))<=3).Select(s=>new ChoiceOption(-10-s,"Capital "+seats[s].Name))),key=>{if(key<=-10){DamageCapital(-10-key,1,src,o);Preview(item,Capital(-10-key,seats.Length));}else{var p=Find(key);if(p!=null){Preview(item,Position(p.Id));DamageTo(p,1,src,true,o);}}});return true;
+     var targets=All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.Kind==CardType.Construction)&&Distance(origin,Position(p.Id))<=3&&!Immune(p,o)&&CanTargetByEffect(o,p)).ToArray();
+     Ask(o,"Arauto: 1 dano até 3 tiles",targets.Select(p=>new ChoiceOption(p.Id,p.Card.Name)).Concat(Enumerable.Range(0,seats.Length).Where(s=>!seats[s].Eliminated&&Distance(origin,Capital(s,seats.Length))<=3).Select(s=>new ChoiceOption(-10-s,"Capital "+seats[s].Name))),key=>{if(key<=-10){DamageCapital(-10-key,1,src,o);Preview(item,Capital(-10-key,seats.Length));}else{var p=Find(key);if(p!=null&&CanTargetByEffect(o,p)){Preview(item,Position(p.Id));DamageTo(p,1,src,true,o);}}});return true;
     case "infiltration":
      Pick(o,"Criatura sua para infiltrar",p=>p.Owner==o&&p.Card.Kind==CardType.Creature&&Enumerable.Range(0,121).Any(at=>InfiltrationTarget(p,at)),p=>
       Ask(o,"Terreno andável sem criaturas",Enumerable.Range(0,121).Where(at=>InfiltrationTarget(p,at)).Select(at=>new ChoiceOption(at,"Tile "+at%11+","+at/11)),at=>{
@@ -131,7 +131,7 @@ namespace TCG.Foundation
   void SelectGraveCast(int owner,bool free)
   {
    work.Enqueue(()=>{
-    var cards=seats[owner].grave.Where(c=>SpellCard(c)&&(!free||(c.Rule!="destiny"&&ResponseTargets(c,owner)&&(!c.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(owner,p.Owner)))))).Distinct().ToArray();
+    var cards=seats[owner].grave.Where(c=>SpellCard(c)&&(!free||(c.Rule!="destiny"&&ResponseTargets(c,owner)&&(!c.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(owner,p.Owner)&&CanTargetByEffect(owner,p)))))).Distinct().ToArray();
     Ask(owner,free?"Ancestral: conjurar gratuitamente":"Admirador: exilar e permitir conjuração",cards.Select((c,n)=>new ChoiceOption(n,c.Name)),n=>{
      if(n<0||n>=cards.Length||!seats[owner].grave.Remove(cards[n]))return;var card=cards[n];seats[owner].exile.Add(card);
      if(!free){exilePermissions.Add(new ExilePermission{Id=nextPermission++,Owner=owner,CardOwner=owner,Card=card});return;}
@@ -156,9 +156,9 @@ namespace TCG.Foundation
     }
     var extra=card.Abilities.FirstOrDefault(a=>a.trigger=="cast"&&a.sacrifice!="");if(extra!=null)PayAbilitySacrifice(extra,owner,null,Announce);else Announce(null);
    }
-   if(card.Kind==CardType.Enchantment&&PreconEnchantmentPlacement(card,owner,-1,-1)==null)Ask(owner,"Criatura para encantar",All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(card,p,owner)&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
+   if(card.Kind==CardType.Enchantment&&PreconEnchantmentPlacement(card,owner,-1,-1)==null)Ask(owner,"Criatura para encantar",All.Where(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(card,p,owner)&&CanTargetByEffect(owner,p)&&!Immune(p,owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
    else if(card.Permanent)Ask(owner,"Terreno para a carta exilada",Enumerable.Range(0,121).Where(at=>card.Kind==CardType.Enchantment?PreconEnchantmentPlacement(card,owner,at,-1)==true:cells[at].Terrain!=null&&cells[at].Owner==owner).Select(at=>new ChoiceOption(at,"Tile "+at%11+","+at/11)),at=>Cast(at,-1));
-   else if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy))Ask(owner,"Alvo da magia",All.Where(p=>Enemies(owner,p.Owner)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
+   else if(card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy))Ask(owner,"Alvo da magia",All.Where(p=>Enemies(owner,p.Owner)&&CanTargetByEffect(owner,p)).Select(p=>new ChoiceOption(p.Id,p.Card.Name)),id=>Cast(Position(id),id));
    else Cast(-1,-1);
   }
   public bool CanCastExiled(int id)
@@ -170,9 +170,9 @@ namespace TCG.Foundation
    if(x.Card.Kind==CardType.Instant&&Phase!=Stage.Main&&Phase!=Stage.End&&stack.Count==0)return false;
    if(!(x.AnyMana?seats[Priority].mana.Sum()>=x.Card.TotalCost:CanPay(Priority,x.Card)))return false;
    if(x.Card.Kind==CardType.Enchantment&&PreconEnchantmentPlacement(x.Card,Priority,-1,-1)!=null)return Enumerable.Range(0,121).Any(at=>PreconEnchantmentPlacement(x.Card,Priority,at,-1)==true);
-   if(x.Card.Kind==CardType.Enchantment)return All.Any(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(x.Card,p,Priority)&&!Immune(p,Priority));
+   if(x.Card.Kind==CardType.Enchantment)return All.Any(p=>(p.Card.Kind==CardType.Creature||p.Card.IsVehicle)&&AbilityEnchantmentTarget(x.Card,p,Priority)&&CanTargetByEffect(Priority,p)&&!Immune(p,Priority));
    if(x.Card.Permanent)return cells.Any(c=>c.Terrain!=null&&c.Owner==Priority);
-   return !x.Card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(Priority,p.Owner));
+   return !x.Card.Effects.Any(e=>effects.Get(e.Operation).NeedsEnemy)||All.Any(p=>Enemies(Priority,p.Owner)&&CanTargetByEffect(Priority,p));
   }
   void CastExiled(int id)
   {

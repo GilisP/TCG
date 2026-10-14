@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Assets/TCG/Foundation/Core/NumericKeywordRules.cs",
+    "sha256": "a7a61b7e912aad580c606779d7aee52e2ba785dadea8cc39afdf86bba02f239b",
+    "start_line": 1,
+    "end_line": 42,
+    "snapshot": "numeric.txt",
+    "characters": 1952,
+    "lines": 42
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "sha256": "021b78e024dd1ef793ce691898fdd12216222e58e41285e1e7a5824ca72cbab0",
+    "start_line": 1,
+    "end_line": 26,
+    "snapshot": "target-move.txt",
+    "characters": 1073,
+    "lines": 26
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "sha256": "16c6cdd58a08557f8e529fd4504c9c3390c597e0c5c94f87133fb97848ce5367",
+    "start_line": 172,
+    "end_line": 216,
+    "snapshot": "damage.txt",
+    "characters": 3726,
+    "lines": 45
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/PreconLibraryEffects.cs",
+    "sha256": "26f4b9c72c2dcc5df5a10046f82ce465b4938f33a5ed8e1990a5527db1366eb0",
+    "start_line": 115,
+    "end_line": 123,
+    "snapshot": "bounce.txt",
+    "characters": 1199,
+    "lines": 9
+  },
+  {
+    "source": "Assets/TCG/Foundation/Core/NetworkView.cs",
+    "sha256": "da65d2bc05399361181f151716e53dd7b4c5ca8fe7034a6c39393af9c284c518",
+    "start_line": 1,
+    "end_line": 75,
+    "snapshot": "projection.txt",
+    "characters": 10681,
+    "lines": 75
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "files": [
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/KeywordRules.cs.meta",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "Assets/TCG/Foundation/Core/Match.cs",
+    "Assets/TCG/Foundation/Core/AuthorMovement.cs",
+    "Assets/TCG/Foundation/Core/AuthorRules.cs",
+    "Assets/TCG/Foundation/Core/PreconUnitEffects.cs",
+    "Assets/TCG/Foundation/Core/NewCommanders.cs",
+    "Assets/TCG/Foundation/Core/AutomaticResponses.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs.meta"
+  ],
+  "limitations": [
+    "Potential additional custom Ask paths outside read scope require coordinator review before asserting universal coverage",
+    "No mechanic changes for other 18 keywords",
+    "No content, profile, protocol serialization or Editor/build changed"
+  ],
+  "status": "integration-required",
+  "task_id": "EXPAND-014-RULES",
+  "result": "magic-resistance explicit targeting predicate and isolated checks written",
+  "validation": {
+    "missing": "Combat defender integration and client projection check remain coordinator validation",
+    "executed": "none: coordinator owns Unity/build",
+    "source_budget": "6 reads/search batches; conservative approximately 24000 characters; stopped further source reads",
+    "checks": "15 isolated assertions prepared; compile/type/fixture confirmation required"
+  },
+  "audit": {
+    "not_assigned": "No production cards automatically gain the keyword",
+    "preserved": "Own effects, untargeted area damage, immunity separation, combat movement/attack",
+    "pending": [
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Ruptura"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Vínculo vital"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Formação"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Marcha"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Entrincheirar"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Espólio"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Último serviço"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Tripulação"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Armadura N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Tenacidade N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Barreira N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Proteção arcana N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Ancorado"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Interceptar"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Ímpeto N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Retirada"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Emboscada N"
+      },
+      {
+        "reason": "Open interactions listed in approved design source; existing bespoke effects do not prove generic keyword support",
+        "state": "editorially-approved-runtime-pending",
+        "keyword": "Conjuração"
+      }
+    ],
+    "implemented": "Resistência à magia: magic-resistance; schema/host direct targets/selection/reflection/resolution"
+  }
+}

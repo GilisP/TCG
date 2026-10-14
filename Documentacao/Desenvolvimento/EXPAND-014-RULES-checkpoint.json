@@ -1,0 +1,20 @@
+{
+  "status": "implementing",
+  "task_id": "EXPAND-014-RULES",
+  "source_characters_approx": 24000,
+  "decision": "Separate targeting restriction; untargeted effects and combat remain unchanged",
+  "pending": "Other 18 approved keywords need interactions clarified; no catalog assignment",
+  "reads": 6,
+  "scope": [
+    "Core/KeywordRules.cs",
+    "Core/MedievalRules.cs",
+    "Core/CardAbilities.cs",
+    "Core/Match.cs",
+    "Core/AuthorMovement.cs",
+    "Core/NewCommanders.cs",
+    "Core/AuthorRules.cs",
+    "Core/PreconUnitEffects.cs",
+    "Core/AutomaticResponses.cs",
+    "Editor/KeywordExpansionChecks.cs"
+  ]
+}

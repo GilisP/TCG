@@ -74,6 +74,9 @@ namespace TCG.Foundation
         }
         bool AbilityTarget(CardAbility a,Pending item,Piece p,bool passive=false)
         {
+            // Self, attached host and event subject are resolved without choosing a piece.
+            bool selected=a.target!="self"&&a.target!="host"&&a.target!="subject"&&!(a.target.StartsWith("group")&&a.count>=121);
+            if(!passive&&selected&&!CanTargetByEffect(item.Owner,p))return false;
             var custom=PreconUnitTarget(a,item,p,passive)??PreconAuthorTarget(a,item,p,passive); if(custom.HasValue)return custom.Value;
             int owner=item.Owner,at=AbilityOrigin(item),pos=Position(p.Id);
             bool type=a.target=="self"?p==item.Source:a.target=="host"?item.Source?.AttachedTo==p.Id:a.target=="subject"?p==item.Subject:
@@ -111,6 +114,7 @@ namespace TCG.Foundation
         }
         bool AbilityMoveBlocked(Piece p,int caster)
         {
+            if(!CanMoveByEffect(caster,p))return true;
             if(p.Modifiers.Any(m=>m.NoMove||m.ImmuneEnemy&&Enemies(caster,p.Owner)))return true;
             foreach(var source in All)foreach(var a in source.Card.Abilities.Where(x=>x.trigger=="aura"))
                 if(AbilityTarget(a,new Pending{Owner=source.Owner,Source=source,SourceCell=Position(source.Id)},p,true)&&a.ops.Any(op=>op.kind=="immobile"&&(op.value=="any"||op.value=="own"&&caster==p.Owner||op.value=="enemy"&&Enemies(caster,p.Owner))))return true;

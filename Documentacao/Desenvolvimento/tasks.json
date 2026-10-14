@@ -368,5 +368,24 @@
     "doneWhen": "fonte preservada, instruções/referência integradas, revisão e hashes aceitos",
     "verification": "AG-PROFILES-014-result.json; AG-PROFILES-014-aceite.json",
     "pending": "controles são cooperativos; não há automação de leitura ou leases"
+  },
+  {
+    "objective": "Ampliar artes, tropas e cinco palavras-chave aprovadas",
+    "scope": [
+      "Core/KeywordRules.cs",
+      "Core/NumericKeywordRules.cs",
+      "Runtime/TroopModels.cs",
+      "Runtime/PiecePersonality.cs",
+      "Runtime/KeywordPresentation.cs",
+      "StreamingAssets/CardArt/manifest.json",
+      "Resources/CardArt/PreconD03",
+      "EXPAND-014-uso.md"
+    ],
+    "pending": "Avaliação artística/FPS; completar D03 e demais keywords",
+    "doneWhen": "Integração e validação proporcional do motor, apresentação e rede",
+    "verification": "EXPAND-014-result.json",
+    "status": "integrated-verified",
+    "taskId": "EXPAND-014",
+    "owner": "root integração; especialistas com escopos separados"
   }
 ]

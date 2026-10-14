@@ -19,11 +19,11 @@ namespace TCG.Table
     public sealed class FigureMotion:MonoBehaviour
     {
         public const float AttackDuration=.7f, DeathDuration=1.15f;
-        Transform[] parts; Vector3[] positions; Quaternion[] rotations; float seed,started; bool quadruped; Vector3 previous;
+        Transform[] parts; Vector3[] positions; Quaternion[] rotations; float seed,started; bool quadruped; Vector3 previous; string poseStyle;
         public MotionState State { get; private set; }
         public void Initialize(string profile,int id)
         {
-            quadruped=false;State=MotionState.Idle;started=Time.unscaledTime;seed=id*.73f;parts=GetComponentsInChildren<Transform>();positions=new Vector3[parts.Length];rotations=new Quaternion[parts.Length];
+            quadruped=false;poseStyle=transform.name.StartsWith("Troop ")?profile:null;State=MotionState.Idle;started=Time.unscaledTime;seed=id*.73f;parts=GetComponentsInChildren<Transform>();positions=new Vector3[parts.Length];rotations=new Quaternion[parts.Length];
             for(int i=0;i<parts.Length;i++){if(parts[i].name=="FrontLeftLeg")quadruped=true;positions[i]=parts[i].localPosition;rotations[i]=parts[i].localRotation;}previous=transform.position;
         }
         public void PlayAttack(){if(State==MotionState.Dying||State==MotionState.Celebrating)return;State=MotionState.Attacking;started=Time.unscaledTime;}
@@ -56,9 +56,18 @@ namespace TCG.Table
                 if(leg){float gait=stride*side*(n.StartsWith("Back")?-1:1);p.y+=Mathf.Max(0,gait)*.045f;r*=Quaternion.Euler(gait*25+(celebrate&&quadruped&&n.StartsWith("Front")?110:0),0,0);}
                 else if(n=="Asa")r*=Quaternion.Euler(0,0,Mathf.Sin(time*4+seed)*side*14);
                 else if(head)r*=Quaternion.Euler(breath*2-strike*9,Mathf.Sin(time*.8f+seed)*5,0);
+                else if(n=="Eyelid") {float phase=Mathf.Repeat(time+seed,4.7f);float blink=Mathf.Clamp01(1-Mathf.Abs(phase-.15f)/.1f);p.y-=blink*.02f;}
+                else if(n=="Jaw")r*=Quaternion.Euler((celebrate?8:0)+breath*1.5f,0,0);
+                else if(n=="Satchel")r*=Quaternion.Euler(stride*6,0,stride*4);
                 else if(n=="Cape"||n=="RiderCape"||n=="Capa"||n=="Faixa")r*=Quaternion.Euler(breath*4+speed*12,0,breath*2);
                 else if(n=="Tail")r*=Quaternion.Euler(0,Mathf.Sin(time*2.1f+seed)*12,0);
-                else if(arm)r*=Quaternion.Euler(-stride*side*14+strike*85+(celebrate?150+breath*8:0),strike*side*18,breath*3);
+                else if(arm)
+                {
+                    float gesture=state==MotionState.Idle?Mathf.Max(0,Mathf.Sin((time+seed)*.65f)-.75f)*12:0;
+                    float swing=poseStyle=="mage"?55:poseStyle=="archer"?55:85;
+                    r*=Quaternion.Euler(-stride*side*14+strike*swing+(celebrate?150+breath*8:0),strike*side*(poseStyle=="archer"?8:18)+gesture*side,breath*3);
+                    if(poseStyle=="archer"&&side>0)p.z+=strike*.06f;
+                }
                 else if(body){p.y+=breath*.009f+(celebrate?Mathf.Max(0,Mathf.Sin(time*4+seed))*.045f:0);p.z-=strike*.055f;r*=Quaternion.Euler(-strike*16+(celebrate&&quadruped&&n=="Body"?18:0),breath*2,0);}
                 if(fall>0&&t.parent==transform&&n!="SeatEmblem"&&n!="OwnerPlate"&&n!="SeatMarker"&&n!="Base"&&n!="Owner plinth"&&!(n=="Forma low-poly"&&p.y<=.07f)){p.y-=fall*.11f;p.z+=fall*.12f;r*=quadruped?Quaternion.Euler(0,0,fall*88):Quaternion.Euler(fall*78,0,fall*12);}
                 t.localPosition=p;t.localRotation=r;

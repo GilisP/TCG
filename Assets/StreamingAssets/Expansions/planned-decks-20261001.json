@@ -12433,7 +12433,9 @@
       "art": "soldier",
       "rule": "abilities",
       "traits": [],
-      "keywords": [],
+      "keywords": [
+        "anchored"
+      ],
       "subtypes": [
         "Elemental",
         "Guardião"
@@ -12499,7 +12501,9 @@
       "art": "soldier",
       "rule": "abilities",
       "traits": [],
-      "keywords": [],
+      "keywords": [
+        "anchored"
+      ],
       "subtypes": [
         "Elemental",
         "Guardião"
@@ -12565,7 +12569,9 @@
       "art": "soldier",
       "rule": "abilities",
       "traits": [],
-      "keywords": [],
+      "keywords": [
+        "anchored"
+      ],
       "subtypes": [
         "Elemental",
         "Guardião"

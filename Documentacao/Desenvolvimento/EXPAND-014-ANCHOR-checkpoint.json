@@ -1,0 +1,21 @@
+{
+  "decision": "Enemy movement blocked for anchored piece and whole vehicle carrying anchored passenger (author confirmed), preserving own/manual movement, bounce/damage",
+  "source_characters_approx": 19000,
+  "existing_equivalents": [
+    "PD26-T-010",
+    "PD26-T-011",
+    "PD26-T-012"
+  ],
+  "actual_author_file": "Assets/TCG/Foundation/Core/PreconAuthorRules.cs",
+  "task_id": "EXPAND-014-ANCHOR",
+  "reads": 3,
+  "next": "Coordinator compile/execute KeywordExpansionChecks and relevant vehicle checks",
+  "validation": "Coordinator owns Unity/build",
+  "files": [
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs"
+  ],
+  "status": "ready-for-integration"
+}

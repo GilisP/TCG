@@ -1,0 +1,62 @@
+[
+  {
+    "file": "ED261007-03-C001-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "48AFAA6B42C4D0BDFED8B3813D26F82091AED329E6B99E9DDB5E6EFAFAE313F5"
+  },
+  {
+    "file": "ED261007-03-C002-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "4008343C857F119BEDB1A4F18413B0F2C2D5BEC1CD90B3BF7BFFC05C9AD1758D"
+  },
+  {
+    "file": "ED261007-03-C003-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "FEFD948D6CEC70245D3AE4844B55F97C5E81598C21C7CD0560DCB40006009236"
+  },
+  {
+    "file": "ED261007-03-C004-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "47DA11E5093603356414C7A50F32A0F71A6DE35D1786C46AD50747C57AE0111D"
+  },
+  {
+    "file": "ED261007-03-C005-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "649A9FA19289FFAADCD636BD7360E561DD258A5D3C03D22E7134795B98AFEECD"
+  },
+  {
+    "file": "ED261007-03-C006-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "82635DE6384589940BF392C2694B73B01F1F594F35C57EBFC73E18B5CA6D7D4B"
+  },
+  {
+    "file": "ED261007-03-C007-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "BBD983904D0F23E6005EBB3816F51BB418B410B6A47B82FCE1E90A83A4952E8B"
+  },
+  {
+    "file": "ED261007-03-C008-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "B6292CD4DC8ED4C2FCAB3F960520FFA166689DA74A6844EE4A2F65F7DE2E1082"
+  },
+  {
+    "file": "ED261007-03-C009-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "C28F9A2DCCCE5355CFCC9DBEA220EC29C19237C39C4DF3A7ACB6618677EB4109"
+  },
+  {
+    "file": "ED261007-03-C010-painted-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "D75B211607E894ABC78A52EF5E51EAEFE2590892AB5DA336875578A184028939"
+  }
+]

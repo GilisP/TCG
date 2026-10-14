@@ -1,0 +1,35 @@
+{
+  "resultado_esperado": "Single host-side anchored keyword implementation and isolated tests, no invented interactions",
+  "objetivo": "Implement approved Ancorado keyword: enemy effects cannot move piece; own movement and own effects preserved; no damage/bounce immunity",
+  "dependencias": [
+    "No concurrent core editor"
+  ],
+  "project_id": "TCG",
+  "recursos": [
+    "WRITE Core/KeywordRules.cs and targeted movement effect gates in listed core paths",
+    "WRITE Editor/KeywordExpansionChecks.cs",
+    "WRITE Documentacao/Desenvolvimento/EXPAND-014-ANCHOR-*.json"
+  ],
+  "restricoes": [
+    "<=100lines/read;24000chars/50reads",
+    "No Editor/Git",
+    "Define exact files checkpoint before editing",
+    "No production card grants without explicit existing text"
+  ],
+  "task_id": "EXPAND-014-ANCHOR",
+  "fontes": [
+    "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\03 - Cartas\\Palavras-chave - Base de Design.md:lines45-65",
+    "Assets/TCG/Foundation/Core/KeywordRules.cs",
+    "Assets/TCG/Foundation/Core/MedievalRules.cs",
+    "Assets/TCG/Foundation/Core/AuthorMovement.cs",
+    "Assets/TCG/Foundation/Core/CardAbilities.cs",
+    "Assets/TCG/Foundation/Core/PreconUnitEffects.cs",
+    "Assets/TCG/Foundation/Core/PreconAuthorEffects.cs",
+    "Assets/TCG/Foundation/Editor/KeywordExpansionChecks.cs",
+    "Assets/StreamingAssets/Expansions"
+  ],
+  "criterios_conclusao": [
+    "Enemy effect movement blocked;own/manual movement preserved;tests authored"
+  ],
+  "contexto_essencial": "Root integrated resistance and fixed bounce from independent review. Previous source budget exhausted; this separate small mechanic task has own bounded packet. Main build in progress. Do not change existing resistance or catalog/profile. Root owns build."
+}

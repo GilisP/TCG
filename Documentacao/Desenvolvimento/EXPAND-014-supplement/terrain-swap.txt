@@ -1,0 +1,9 @@
+                case "teletransport":Ask(o,"Primeiro terreno",Enumerable.Range(0,121).Where(n=>CanSwapTerrainByEffect(o,n)).Select(n=>new ChoiceOption(n,"Tile "+n%11+","+n/11)),a=>{
+                    if(!CanSwapTerrainByEffect(o,a))return;
+                    Ask(o,"Segundo terreno",Enumerable.Range(0,121).Where(n=>n!=a&&CanSwapTerrainByEffect(o,n)).Select(n=>new ChoiceOption(n,"Tile "+n%11+","+n/11)),b=>{
+                        if(!CanSwapTerrainByEffect(o,a)||!CanSwapTerrainByEffect(o,b))return;
+                        var temp=cells[a];cells[a]=cells[b];cells[b]=temp;foreach(var seat in seats){if(seat.LastCreatedTerrain==a)seat.LastCreatedTerrain=b;else if(seat.LastCreatedTerrain==b)seat.LastCreatedTerrain=a;}foreach(var p in cells[a].pieces.ToArray())Visual?.Invoke(new MatchEvent("move",b,a,p.Id));foreach(var p in cells[b].pieces.ToArray())Visual?.Invoke(new MatchEvent("move",a,b,p.Id));Visual?.Invoke(new MatchEvent("terrain",a,b));
+                    });});break;
+                case "mirror-copy":Pick(o,"Criatura sua para copiar",p=>p.Owner==o&&p.Card.Kind==CardType.Creature,p=>{int pos=Position(p.Id);var copy=new Piece(nextPiece++,o,p.Card){Game=this,Token=true,ExpireTurn=Turn};cells[pos].pieces.Add(copy);Enter(copy);Visual?.Invoke(new MatchEvent("summon",pos,pos,copy.Id));});break;
+                case "mausoleum":if(src!=null&&Find(src.Id)!=null){var saved=storedDead.TryGetValue(src.Id,out var list)?list.ToArray():Array.Empty<Definition>();Kill(src);if(saved.Length>0)Ask(o,"Recuperar uma das criaturas armazenadas",saved.Select((c,n)=>new ChoiceOption(n,c.Name)),n=>{if(n>=0&&n<saved.Length&&seats[o].grave.Remove(saved[n]))seats[o].hand.Add(saved[n]);});}break;
+                case "catapult":Pick(o,"Sacrificar criatura no tile ou adjacente",p=>p.Owner==o&&p.Card.Kind==CardType.Creature&&(Position(p.Id)==at||Adjacent(Position(p.Id),at)),p=>{int power=p.Attack;Kill(p);ChooseArtillery(o,at,4,power);});break;
