@@ -1,0 +1,24 @@
+{
+  "taskId": "VIS-MESA-014",
+  "status": "integrated-visual-verified-interaction-review-pending",
+  "passed": {
+    "compileBuild": "styled-world-build-verified-20261014.log, exit0",
+    "commanderPresentation": 969,
+    "styledWorldRuntime": 1041,
+    "currentOfficialUI": 13,
+    "profileSha256": "8303FA1A105818CD4E13AD0F7980FB9D980EE3670668454CA7E3BCF0238FC175"
+  },
+  "pending": [
+    "Manual Play review, card placement/drag/hand and reactions",
+    "Long session FPS/reference hardware",
+    "Art approval"
+  ],
+  "legacyFailures": {
+    "personality": "hover assertion; fixture reports hit=-1 after preparation",
+    "drag": "creature unavailable in old fixture",
+    "piles": "hover assertion in old fixture",
+    "reactions": "fixture event queue did not finish; old result was not reused"
+  },
+  "renders": "Documentacao/Arte/Mesa-20261014",
+  "rulesChanged": false
+}

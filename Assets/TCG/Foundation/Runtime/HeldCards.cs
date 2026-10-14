@@ -10,16 +10,16 @@ namespace TCG.Table
             for(int i=0;i<5;i++)
             {
                 var card=Group("Verso de carta "+i,fan);card.localPosition=new Vector3((i-2)*.11f,.14f+(.04f-Mathf.Abs(i-2)*.02f),i*.009f);card.localRotation=Quaternion.Euler(0,0,-(i-2)*12);
-                Block("Borda",Vector3.zero,new Vector3(.29f,.43f,.018f),Hex("E5D4AD"),card);
-                Block("Verso",new Vector3(0,0,-.014f),new Vector3(.25f,.385f,.012f),Seats[player]*.45f,card);
-                var seal=Block("Selo",new Vector3(0,0,-.024f),new Vector3(.1f,.14f,.01f),Hex("D9B36A"),card);seal.localRotation=Quaternion.Euler(0,0,45);
+                CmdPart("Borda",Vector3.zero,new Vector3(.29f,.43f,.018f),Hex("E5D4AD"),card,"plate");
+                CmdPart("Verso",new Vector3(0,0,-.014f),new Vector3(.25f,.385f,.012f),Seats[player]*.45f,card,"plate");
+                var seal=CmdPart("Selo",new Vector3(0,0,-.024f),new Vector3(.1f,.14f,.01f),Hex("D9B36A"),card,"plate");seal.localRotation=Quaternion.Euler(0,0,45);
             }
-            Block("Polegar segurando cartas",new Vector3(-.06f,-.04f,-.055f),new Vector3(.1f,.18f,.08f),skin,fan);
-            for(int i=0;i<3;i++)Block("Dedo",new Vector3(-.14f+i*.08f,-.12f,.08f),new Vector3(.06f,.12f,.12f),skin,fan);
-            Block("Gola",new Vector3(0,.11f,8.39f),new Vector3(.65f,.23f,.12f),Hex("E5D4AD"),place);
-            Block("Broche",new Vector3(.28f,.03f,8.3f),new Vector3(.15f,.17f,.06f),Hex("D9B36A"),place);
-            if(player==1)Block("Barba",new Vector3(0,.43f,8.37f),new Vector3(.4f,.3f,.12f),Hex("654733"),place);
-            if(player==2){Block("Faixa",new Vector3(0,.94f,8.385f),new Vector3(.67f,.12f,.05f),Seats[player],place);}
+            CmdPart("Polegar segurando cartas",new Vector3(-.06f,-.04f,-.055f),new Vector3(.1f,.18f,.08f),skin,fan,"plate");
+            for(int i=0;i<3;i++)CmdPart("Dedo",new Vector3(-.14f+i*.08f,-.12f,.08f),new Vector3(.06f,.12f,.12f),skin,fan,"plate");
+            CmdPart("Gola",new Vector3(0,.11f,8.39f),new Vector3(.65f,.23f,.12f),Hex("E5D4AD"),place,"plate");
+            CmdPart("Broche",new Vector3(.28f,.03f,8.3f),new Vector3(.15f,.17f,.06f),Hex("D9B36A"),place,"plate");
+            if(player==1)CmdPart("Barba",new Vector3(0,.43f,8.37f),new Vector3(.4f,.3f,.12f),Hex("654733"),place,"plate");
+            if(player==2){CmdPart("Faixa",new Vector3(0,.94f,8.385f),new Vector3(.67f,.12f,.05f),Seats[player],place,"plate");}
         }
         void TickHeldCards()
         {

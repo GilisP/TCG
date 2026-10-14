@@ -27,10 +27,14 @@ namespace TCG.Table
         void StartDiagnosticsIfRequested()
 
         {
+            // Legacy interaction fixtures open their own match, bypassing the current deck chooser.
+            if(HistoricalDiagnostic()){deckSelectionOpen=false;libraryOpen=false;storyPage=false;networkPage=false;sessionAvailable=true;}
+
 
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
 
-            if(Environment.GetCommandLineArgs().Contains("-tcg-commander-visual-verify")) StartCoroutine(VerifyCommanderVisuals());
+            if(Environment.GetCommandLineArgs().Contains("-tcg-styled-world-verify")) StartCoroutine(VerifyStyledWorld());
+            else if(Environment.GetCommandLineArgs().Contains("-tcg-commander-visual-verify")) StartCoroutine(VerifyCommanderVisuals());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-ui-catalog-verify")) StartCoroutine(VerifyOfficialInterface());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-story-verify")) StartCoroutine(VerifyStory());
             else if(Environment.GetCommandLineArgs().Contains("-tcg-deck-picker-role")) StartCoroutine(VerifyDeckSelection());

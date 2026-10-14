@@ -1,7 +1,7 @@
 {
-  "taskId": "CMD-VIS-014",
-  "status": "integrated-verified-author-review-pending",
+  "taskId": "VIS-MESA-014",
   "date": "2026-10-14",
-  "evidence": "CMD-VIS-014-result.json",
-  "next": "Author review via TCG/Arte/Visualizar comandantes no Play. Normal TCG/Jogar resets Mesa. Next board terrain stage in vault plan12. Do not regrantcoins, change rules or delete historical profiles. Check gitlog for delivery commit."
+  "status": "integrated-visual-verified-interaction-review-pending",
+  "evidence": "VIS-MESA-014-result.json",
+  "next": "Review main Mesa Play manually; repair old interaction fixtures to current rules/layout before claiming full interaction regression. Smooth board/avatar geometry implemented; no game rules changed. Reference native renders in Documentacao/Arte/Mesa-20261014."
 }

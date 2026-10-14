@@ -43,10 +43,7 @@ namespace TCG.Table
             var light=new GameObject("Luz de fim de tarde").AddComponent<Light>(); light.transform.SetParent(transform); light.type=LightType.Directional; light.intensity=1.3f; light.color=Hex("FFE1B0"); light.transform.rotation=Quaternion.Euler(55,-35,0); light.shadows=LightShadows.Soft;
             QualitySettings.shadows=ShadowQuality.All; QualitySettings.shadowDistance=35;
             BuildRooms(); BuildCommonPiles();
-            Block("Mesa • madeira",new Vector3(0,-.75f,0),new Vector3(15.6f,.65f,15.6f),Hex("433B33"),transform);
-            Block("Mesa • contorno de bronze",new Vector3(0,-.4f,0),new Vector3(15.3f,.12f,15.3f),Hex("9C8255"),transform);
-            Block("Mesa • veludo",new Vector3(0,-.3f,0),new Vector3(15.05f,.18f,15.05f),Hex("1B3336"),transform);
-            for(int x=-1;x<=1;x+=2)for(int z=-1;z<=1;z+=2)Block("Pé da mesa",new Vector3(x*6,-2,z*6),new Vector3(.6f,2.5f,.6f),Hex("39372F"),transform);
+            BuildStyledTable();
             for(int n=0;n<=11;n++)
             {
                 Block("Grade do tapete",new Vector3(n-5.5f,-.195f,0),new Vector3(.014f,.01f,11),Hex("294244"),transform);
@@ -142,26 +139,19 @@ namespace TCG.Table
         Transform BuildTerrain(int index,Cell cell)
         {
             var root=new GameObject(cell.Terrain.Name).transform; root.SetParent(transform); root.position=Position(index);
-            Block("Pedra",new Vector3(0,-.075f,0),new Vector3(.94f,.3f,.94f),Hex("526058"),root);
-            Block("Terreno",new Vector3(0,.085f,0),new Vector3(.92f,.035f,.92f),Land[cell.Terrain.Color],root);
-            Block("Influência",new Vector3(0,.11f,-.435f),new Vector3(.75f,.026f,.035f),Seats[Math.Max(0,cell.Owner)],root);
+            StyledTerrainSurface(root,cell);
+            CmdPart("Influência",new Vector3(0,.11f,-.435f),new Vector3(.75f,.026f,.035f),Seats[Math.Max(0,cell.Owner)],root);
             if(cell.CapitalOwner>=0)
             {
-                var fort=Group("Marco da capital",root);fort.localPosition=new Vector3(0,.1f,.34f);fort.localScale=Vector3.one*.4f;
-                var tint=Seats[cell.CapitalOwner]; Block("Fortaleza",new Vector3(0,.24f,.15f),new Vector3(.46f,.28f,.34f),Hex("D0C6A7"),fort);
-                for(int x=-1;x<=1;x+=2) { Block("Torre",new Vector3(x*.24f,.34f,.2f),new Vector3(.16f,.5f,.18f),Hex("C2B99C"),fort); Cone(new Vector3(x*.24f,.66f,.2f),.15f,.2f,tint,fort,4); }
-                Block("Portão",new Vector3(0,.23f,-.03f),new Vector3(.1f,.2f,.015f),Hex("353D37"),fort);
+                StyledTerrainCapital(root,Seats[cell.CapitalOwner]);
             }
             else if(cell.Terrain.Rule=="ruins")
             {
-                Block("Muro quebrado",new Vector3(-.29f,.2f,.29f),new Vector3(.22f,.25f,.13f),Hex("77736D"),root);
-                Block("Coluna partida",new Vector3(.31f,.18f,.3f),new Vector3(.12f,.18f,.12f),Hex("939087"),root);
+                StyledTerrainRuins(root);
             }
             else
             {
-                Cone(new Vector3(.32f,.16f,.3f),.14f,.12f,Land[cell.Terrain.Color]*.75f,root,5);
-                if(cell.Terrain.Color==5||cell.Terrain.Color==6) { Block("Tronco",new Vector3(-.32f,.18f,.29f),new Vector3(.05f,.2f,.05f),Hex("685447"),root); Cone(new Vector3(-.32f,.44f,.29f),.14f,.35f,Hex("294F46"),root,5); }
-                else Cone(new Vector3(-.32f,.2f,.31f),.09f,.25f,Land[cell.Terrain.Color]*1.2f,root,5);
+                StyledTerrainScenery(root,cell.Terrain.Color);
             }
             return root;
         }

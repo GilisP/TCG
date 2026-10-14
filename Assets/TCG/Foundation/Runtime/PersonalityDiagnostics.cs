@@ -24,9 +24,9 @@ namespace TCG.Table
             var errors=new List<string>();Application.LogCallback listener=(m,t,k)=>{if(k==LogType.Error||k==LogType.Exception||k==LogType.Assert)errors.Add(m);};Application.logMessageReceived+=listener;
             var mains=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("MED-085",100).ToArray()).ToArray();var lands=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("test-land-0",50).ToArray()).ToArray();
             match=new Match(catalog,effects,2,false,5,mains,lands){AutomaticResponses=true,AutoAdvanceAfterTerrain=true};world.Bind(match);menu=false;handoff=false;world.Distance=20;world.Yaw=0;
-            Require(Submit(ActionKind.DrawMain),"draw");int home=Match.Capital(match.Active,2);Require(Submit(ActionKind.Place,home),"terrain");yield return new WaitForSecondsRealtime(1);
+            Require(Submit(ActionKind.DrawMain),"draw");int home=Match.Capital(match.Active,2);Require(Submit(ActionKind.Place,home),"terrain");handoff=false;yield return new WaitForSecondsRealtime(1);
             presentationPointer=new Vector2(20,790);yield return Capture("01-mao-em-leque.png");
-            int count=match.HandFor(match.Controller).Count;presentationPointer=FanRect(0,count).center;yield return null;Require(hoveredHand==0,"hover foremost exposed card");yield return Capture("02-carta-elevada.png");
+            int count=match.HandFor(match.Controller).Count;presentationPointer=FanRect(0,count).center;yield return null;Require(hoveredHand==0,"hover foremost exposed card: hit="+hoveredHand+" handoff="+handoff+" choice="+(match.Choice!=null)+" menu="+menu+" deckPicker="+deckSelectionOpen);yield return Capture("02-carta-elevada.png");
             presentationPointer=new Vector2(LiftedCard(0,count).xMax-8,870);yield return null;Require(hoveredHand==0,"lifted card wins overlap");
             presentationEvents.Enqueue(new Event{type=EventType.MouseDown,button=0,mousePosition=presentationPointer.Value});while(presentationEvents.Count>0)yield return null;Require(selectedCard=="MED-085","hand click selects");
             presentationPointer=new Vector2(20,790);yield return ClickTile(home);Require(match.Board[home].Pieces.Count==1,"play from fan");

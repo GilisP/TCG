@@ -286,5 +286,44 @@
     ],
     "doneWhen": "Integration, assets and affected flows verified; author review separate",
     "verification": "CMD-VIS-014-result.json"
+  },
+  {
+    "taskId": "VIS-MESA-014-mesa_estilo",
+    "objective": "Smooth medieval board/player presentation",
+    "owner": "mesa_estilo",
+    "scope": [
+      "StyledTerrain.cs",
+      "TableWorld.BuildTerrain"
+    ],
+    "dependencies": [],
+    "status": "integrated-visual-verified-interaction-review-pending",
+    "doneWhen": "Integrated build and visual verification; manual interaction review pending",
+    "verification": "VIS-MESA-014-result.json"
+  },
+  {
+    "taskId": "VIS-MESA-014-jogadores_estilo",
+    "objective": "Smooth medieval board/player presentation",
+    "owner": "jogadores_estilo",
+    "scope": [
+      "StyledPlayers.cs",
+      "TableEnvironment.cs"
+    ],
+    "dependencies": [],
+    "status": "integrated-visual-verified-interaction-review-pending",
+    "doneWhen": "Integrated build and visual verification; manual interaction review pending",
+    "verification": "VIS-MESA-014-result.json"
+  },
+  {
+    "taskId": "VIS-MESA-014-root",
+    "objective": "Smooth medieval board/player presentation",
+    "owner": "root",
+    "scope": [
+      "StyledTable.cs",
+      "integration/tests/docs"
+    ],
+    "dependencies": [],
+    "status": "integrated-visual-verified-interaction-review-pending",
+    "doneWhen": "Integrated build and visual verification; manual interaction review pending",
+    "verification": "VIS-MESA-014-result.json"
   }
 ]

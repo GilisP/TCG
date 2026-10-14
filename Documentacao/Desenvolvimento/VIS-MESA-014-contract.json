@@ -1,0 +1,32 @@
+{
+  "id": "VIS-MESA-014",
+  "objective": "Coherent smooth medieval board and seated players",
+  "owners": {
+    "mesa_estilo": [
+      "StyledTerrain.cs",
+      "TableWorld.BuildTerrain"
+    ],
+    "jogadores_estilo": [
+      "TableEnvironment.cs",
+      "StyledPlayers.cs"
+    ],
+    "root": [
+      "TableWorld.Setup",
+      "StyledTable.cs",
+      "Editor checks/render",
+      "docs/Git/Editor"
+    ]
+  },
+  "contracts": [
+    "11x11 cell positions and collider sizes unchanged",
+    "Decoration has no collider or game rules",
+    "Avatar reaction collider and hand backs preserved",
+    "Shared terrain piles and cameras unchanged"
+  ],
+  "done": [
+    "Compile/build",
+    "Native rendered preview",
+    "Placement/drag/hand/reaction diagnostics",
+    "Vault/checkpoint updated"
+  ]
+}

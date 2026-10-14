@@ -48,10 +48,10 @@ namespace TCG.Table
                         else
                         {
                             Block("Prateleira",new Vector3(x+1.8f,-.9f,12),new Vector3(2.4f,.18f,.75f),wood,wall);
-                            for(int b=0;b<4;b++)Block("Garrafa",new Vector3(x+1+b*.45f,-.55f,12),new Vector3(.18f,.55f,.2f),Hex(b%2==0?"50684B":"9B7044"),wall);
                         }
                     }
                 }
+                StyledRoomDetails(root,r);
                 if(r==1)
                 {
                     Block("Lareira",new Vector3(0,-1.3f,11.9f),new Vector3(3.5f,3.6f,1.2f),stone,root);
@@ -69,28 +69,8 @@ namespace TCG.Table
                 var g=places[p]=Group("Jogador "+(p+1),transform);g.localRotation=Quaternion.Euler(0,270-p*90,0);
                 var avatar=Group("Avatar • interação",g);avatar.localPosition=new Vector3(0,-.1f,8.75f);
                 var avatarHit=avatar.gameObject.AddComponent<BoxCollider>();avatarHit.center=new Vector3(0,.4f,0);avatarHit.size=new Vector3(1.55f,2.8f,1.05f);avatar.gameObject.AddComponent<PlayerAvatarHit>().Player=p;
-                var tint=Seats[p];var wood=Hex("3F3029");var skin=Hex(new[]{"C89470","B77F5E","D9AB85","8C624A"}[p]);
-                Block("Assento",new Vector3(0,-1.8f,8.8f),new Vector3(1.65f,.3f,1.6f),wood,g);
-                Block("Encosto entalhado",new Vector3(0,-.5f,9.45f),new Vector3(1.7f,2.8f,.25f),wood,g);
-                Block("Almofada",new Vector3(0,-.6f,9.27f),new Vector3(1.3f,2,.12f),tint*.5f,g);
-                for(int x=-1;x<=1;x+=2)
-                {
-                    Block("Perna da cadeira",new Vector3(x*.68f,-2.5f,9.3f),new Vector3(.15f,1.3f,.15f),wood,g);
-                    Block("Calça",new Vector3(x*.34f,-2,8.4f),new Vector3(.4f,1.2f,.45f),Hex("29333A"),g);
-                    Block("Bota",new Vector3(x*.34f,-2.7f,8.2f),new Vector3(.45f,.3f,.75f),wood,g);
-                    Block("Manga",new Vector3(x*.64f,-.65f,8.6f),new Vector3(.35f,.95f,.42f),tint*.65f,g);
-                    Block("Braço sobre a mesa",new Vector3(x*.65f,-.33f,7.95f),new Vector3(.32f,.28f,1.1f),tint*.8f,g);
-                    Block("Mão",new Vector3(x*.65f,-.3f,7.42f),new Vector3(.28f,.17f,.34f),skin,g);
-                }
-                Block("Túnica",new Vector3(0,-.7f,8.8f),new Vector3(1.05f,1.8f,.65f),tint*.65f,g);
-                Block("Cinto",new Vector3(0,-1.23f,8.43f),new Vector3(1.1f,.15f,.12f),wood,g);
-                Block("Fivela",new Vector3(0,-1.23f,8.34f),new Vector3(.2f,.18f,.07f),Hex("C6A669"),g);
-                Block("Pescoço",new Vector3(0,.28f,8.73f),new Vector3(.32f,.35f,.35f),skin,g);
-                Block("Rosto",new Vector3(0,.7f,8.7f),new Vector3(.62f,.72f,.58f),skin,g);
-                Block("Cabelo",new Vector3(0,1.07f,8.77f),new Vector3(.68f,.22f,.65f),Hex(p%2==0?"3C302C":"C0A17A"),g);
-                for(int x=-1;x<=1;x+=2)Block("Olho",new Vector3(x*.14f,.76f,8.399f),new Vector3(.065f,.065f,.025f),Hex("252628"),g);
-                if(p==0||p==3)Cone(new Vector3(0,1.38f,8.77f),.48f,.55f,tint*.8f,g,6);
-                BuildHeldCards(p,g,skin);
+                var tint=Seats[p];var skin=Hex(new[]{"C89470","B77F5E","D9AB85","8C624A"}[p]);
+                BuildStyledPlayer(p,g,skin);
                 for(int k=4;k<6;k++)
                 {
                     var d=new DeckDisplay{Player=p,Kind=k,Root=Group(k<4?"Pilha de terreno "+(k+1):k==4?"Deck principal":"Deck de terrenos",g)};

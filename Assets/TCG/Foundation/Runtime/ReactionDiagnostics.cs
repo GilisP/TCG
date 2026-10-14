@@ -17,7 +17,7 @@ namespace TCG.Table
             var mains=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("MED-085",100).ToArray()).ToArray();var lands=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("test-land-0",50).ToArray()).ToArray();
             match=new Match(catalog,effects,2,false,5,mains,lands){AutomaticResponses=true,AutoAdvanceAfterTerrain=true};world.Bind(match);menu=false;handoff=false;world.Distance=23;world.Yaw=0;reactions=new ReactionChannel();
             Require(Submit(ActionKind.DrawMain),"compra");int home=Match.Capital(match.Active,2);Require(Submit(ActionKind.Place,home),"terreno");
-            yield return new WaitForSecondsRealtime(1);
+            handoff=false;yield return new WaitForSecondsRealtime(1);
             selectedCard="MED-085";
             yield return Click(Point(TableWorld.Position(home)));
             Require(match.Board[home].Pieces.Count==1,"carta selecionada entra por clique completo no terreno");

@@ -269,3 +269,8 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 - TCG/Arte/Visualizar comandantes noPlay abreGaleriaComandantes; flagtransiente permitePlaygaleria mesmo ao recarregar scripts. TCG/Jogar noUnity limpa flag e restauraMesa. Não mudar entrada normal.
 - Build completo40.522 passou antes de refinamentos sóvisuais; finalBuildPresentation969 +runtime69/13 +EditorPlay29×5 passaram. Perfil intacto. Não declarar mousemanual/FPS/sessão longa/Relay repetidos. Renders nativos inspecionados, aprovação estética pendente. LerComandantes Visuais - Implementacao 2026-10-14, validação eCMD-VIS-014-result.json.
 - CommanderAssetSetup regenerav1(modelos/clipes); criarversão nova antes de preservar ediçãoartística manual. BuildPresentation é caminho proporcional apenas após regressão completa e mudanças sóvisuais; Build normal continua executando todo conjunto.
+
+
+## Mesa e jogadores visuais — 2026-10-14
+- VIS-MESA-014 aplica malhas suaves de CommanderModels a terrenos/capitais/ruínas, mesa e avatares via StyledTerrain/StyledTable/StyledPlayers. Preserva colliders, posições, pilhas, câmeras e regras. Detalhes procedurais provisórios.
+- Build, 969 checks de comandantes, 1041 do novo diagnóstico e 13 da UI vigente passaram. Fixtures antigos de interação falharam/não terminaram: não alegar regressão completa. Ver Documentacao/Desenvolvimento/VIS-MESA-014-result.json e notas Mesa e Jogadores Visuais/validação. Revisão manual e atualização de fixtures pendentes.
