@@ -1,7 +1,9 @@
 {
-  "taskId": "VIS-MESA-014",
-  "date": "2026-10-14",
-  "status": "integrated-visual-verified-interaction-review-pending",
-  "evidence": "VIS-MESA-014-result.json",
-  "next": "Review main Mesa Play manually; repair old interaction fixtures to current rules/layout before claiming full interaction regression. Smooth board/avatar geometry implemented; no game rules changed. Reference native renders in Documentacao/Arte/Mesa-20261014."
+  "taskId": "INPUT-014",
+  "status": "integrated-editor-play-verified",
+  "cause": "legacy Input.GetMouseButton in IMGUI Button; project uses Input System-only",
+  "fix": "IMGUI hotControl/event button; no input setting changes",
+  "validation": "Editor Play 128 hovered calls + four pages, no exceptions",
+  "log": "Logs/input-button-play-ui-20261014.log",
+  "next": "User retry main Mesa Play; old interaction fixtures remain pending; standalone build not rebuilt"
 }

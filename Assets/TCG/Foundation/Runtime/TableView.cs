@@ -101,7 +101,8 @@ namespace TCG.Table
             var rect=new Rect(x,y,w,h); bool old=GUI.enabled; GUI.enabled=old&&enabled;
 
             bool hover=GUI.enabled&&rect.Contains(Event.current.mousePosition);
-            bool pressed=hover&&Input.GetMouseButton(0);
+            // IMGUI already tracks the active mouse control; this works with either input backend.
+            bool pressed=hover&&GUIUtility.hotControl!=0&&Event.current.button==0;
             var face=GUI.enabled?(accent?TableWorld.Hex("B99456"):TableWorld.Hex("263C40")):TableWorld.Hex("1D282C");
             if(hover)face=Color.Lerp(face,accent?TableWorld.Hex("E5C990"):TableWorld.Hex("426168"),.38f);
             if(pressed)face=Color.Lerp(face,Dark,.2f);
