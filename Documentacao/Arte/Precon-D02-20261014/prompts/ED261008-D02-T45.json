@@ -1,0 +1,10 @@
+{
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T45-painted-v1.png",
+  "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+  "id": "ED261008-D02-T45",
+  "name": "Portões da entrada proibida dos Arquivos das Marés",
+  "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Portões da entrada proibida dos Arquivos das Marés\". Scene: monumental forbidden archive entrance gates on sea cliffs, sealed bronze doors leaking multicoloured subtle magical light. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-ecaa5cf3-38ac-4651-894c-3e8344b3f39a.png",
+  "status": "generated-inspected",
+  "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark."
+}

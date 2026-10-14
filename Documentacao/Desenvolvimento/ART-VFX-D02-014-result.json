@@ -1,0 +1,30 @@
+{
+  "taskId": "ART-VFX-D02-014",
+  "status": "integrated-verified",
+  "newImages": 142,
+  "preservedImages": 9,
+  "preconCoverage": 151,
+  "selectedV2": 11,
+  "buildChecks": 2920,
+  "buildExit": 0,
+  "nativePlayChecks": 8595,
+  "playerVfxChecks": 22,
+  "playerInterfaceChecks": 13,
+  "runtimeErrors": 0,
+  "profileHashUnchanged": true,
+  "gameplayProtocolEconomy": "unchanged",
+  "evidence": [
+    "Documentacao/Arte/Precon-D02-20261014/Indice.md",
+    "Documentacao/Arte/Precon-D02-20261014/assets-verification.json",
+    "Logs/card-art-d02-build-20261014.log",
+    "Logs/spell-vfx-d02-final-20261014.log",
+    "Logs/spell-vfx-player-20261014.log",
+    "Logs/card-art-d02-ui-20261014.log"
+  ],
+  "pending": [
+    "author artistic assessment",
+    "long-session FPS",
+    "eight remaining precons"
+  ],
+  "next": "Evaluate D02 in Mesa; choose next art batch. Preserve unrelated Assets/_Recovery."
+}

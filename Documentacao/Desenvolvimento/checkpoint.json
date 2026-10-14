@@ -1,21 +1,30 @@
 {
-  "taskId": "ART-D01-014",
+  "taskId": "ART-VFX-D02-014",
   "status": "integrated-verified",
-  "scope": "COL001-D01:150 new exclusive painted images; MED-242 preserved",
-  "results": {
-    "images": 150,
-    "preconCoverage": 151,
-    "checks": 2069,
-    "interfaceChecks": 13,
-    "errors": 0,
-    "buildExit": 0
-  },
-  "evidence": "Documentacao/Arte/Precon-D01-20261014/Indice.md; assets-verification.json; Logs/card-art-build-20261014.log; Logs/card-art-ui-20261014.log",
-  "next": "Author artistic review; choose next precon. Other nine remain provisional. Preserve Assets/_Recovery, unrelated user files.",
-  "owners": {
-    "root": "integration, manifest, layout, import, tests, docs, Git",
-    "pintura_d01_a": "50 main images complete",
-    "pintura_d01_b": "50 main images complete",
-    "pintura_d01_c": "50 terrain images complete"
-  }
+  "newImages": 142,
+  "preservedImages": 9,
+  "preconCoverage": 151,
+  "selectedV2": 11,
+  "buildChecks": 2920,
+  "buildExit": 0,
+  "nativePlayChecks": 8595,
+  "playerVfxChecks": 22,
+  "playerInterfaceChecks": 13,
+  "runtimeErrors": 0,
+  "profileHashUnchanged": true,
+  "gameplayProtocolEconomy": "unchanged",
+  "evidence": [
+    "Documentacao/Arte/Precon-D02-20261014/Indice.md",
+    "Documentacao/Arte/Precon-D02-20261014/assets-verification.json",
+    "Logs/card-art-d02-build-20261014.log",
+    "Logs/spell-vfx-d02-final-20261014.log",
+    "Logs/spell-vfx-player-20261014.log",
+    "Logs/card-art-d02-ui-20261014.log"
+  ],
+  "pending": [
+    "author artistic assessment",
+    "long-session FPS",
+    "eight remaining precons"
+  ],
+  "next": "Evaluate D02 in Mesa; choose next art batch. Preserve unrelated Assets/_Recovery."
 }

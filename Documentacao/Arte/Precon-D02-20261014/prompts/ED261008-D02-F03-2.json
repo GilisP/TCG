@@ -1,0 +1,11 @@
+{
+  "index": 27,
+  "id": "ED261008-D02-F03-2",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Retorno às margens da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura de custo total até 3 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.. Scene: Magical tide carries a medium-sized armored creature back toward home bank under a tall blue tower.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-1c840425-4acb-4bc6-bdbc-64159d81b9d0.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-2-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

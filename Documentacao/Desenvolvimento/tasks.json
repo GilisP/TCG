@@ -338,5 +338,19 @@
     ],
     "verification": "2069 checks +13 interface, build exit0, native layout capture",
     "pending": "author art review; remaining nine precons"
+  },
+  {
+    "taskId": "ART-VFX-D02-014",
+    "objective": "exclusive D02art +manaHUD +nonpermanentspellVFX",
+    "owner": "root integration; pintura_d02_a50/b50/c39+root3; magias_vfx_d02initialVFX",
+    "status": "integrated-verified",
+    "scope": [
+      "142PNGassets/prompts",
+      "manifest/import",
+      "presentation and proportional diagnostics"
+    ],
+    "doneWhen": "151imagecoverage, cost/UI, VFX lifecycle, build/player validated",
+    "verification": "ART-VFX-D02-014-result.json",
+    "pending": "artistic evaluation/long FPS"
   }
 ]

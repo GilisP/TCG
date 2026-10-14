@@ -1,0 +1,10 @@
+{
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-007-painted-v1.png",
+  "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.",
+  "id": "PD26-LG-007",
+  "name": "Posto da Guarda de Estuário",
+  "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Posto da Guarda de Estuário\". Scene: estuary guard outpost with a slate watchhouse and blue-cloaked mage under a protective water dome. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-1844f86a-9f4b-4d83-b361-ee59d4fe4c21.png",
+  "status": "generated-inspected",
+  "inspection": "Visual inspection: distinct estuary mage outpost, detailed oil brushwork, blue ward, crop-safe landscape; no text, UI, frame, signature or watermark."
+}

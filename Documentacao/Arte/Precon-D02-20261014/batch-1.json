@@ -1,0 +1,3144 @@
+[
+  {
+    "index": 1,
+    "card": {
+      "id": "MED-148",
+      "name": "Acalmar o Confronto",
+      "kind": "Instant",
+      "color": 2,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "range": 1,
+      "movement": 0,
+      "equipCost": 1,
+      "rarity": "common",
+      "art": "sigil",
+      "text": "Uma criatura inimiga recebe -2 de ataque até o fim do turno.",
+      "rule": "reduce-attack",
+      "traits": [],
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-148-painted-v1.png"
+  },
+  {
+    "index": 2,
+    "card": {
+      "id": "ED261007-02-C004",
+      "name": "Estudante de Marés",
+      "kind": "Creature",
+      "text": "Sem habilidade adicional.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 1,
+      "defense": 1,
+      "actions": 2,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "effects": [],
+      "abilities": [],
+      "traits": [],
+      "keywords": [],
+      "rule": "",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C004-painted-v1.png"
+  },
+  {
+    "index": 3,
+    "card": {
+      "id": "ED261008-D02-F04-1",
+      "name": "Estudo da madrugada do Estuário",
+      "kind": "Spell",
+      "text": "Compre 2 cartas e coloque uma carta da mão no fundo do grimório.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "draw",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "bottomHand",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F04-1-painted-v1.png"
+  },
+  {
+    "index": 4,
+    "card": {
+      "id": "ED261008-D02-F06-1",
+      "name": "Fechar a passagem do Estuário",
+      "kind": "Instant",
+      "text": "Uma criatura de custo total até 2 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 2,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "noMove",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "noAttack",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-1-painted-v1.png"
+  },
+  {
+    "index": 5,
+    "card": {
+      "id": "ED261008-D02-F02-1",
+      "name": "Maré de contenção do Estuário",
+      "kind": "Instant",
+      "text": "Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "optional": true
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-1-painted-v1.png"
+  },
+  {
+    "index": 6,
+    "card": {
+      "id": "ED261007-02-C005",
+      "name": "Nota de Rodapé",
+      "kind": "Instant",
+      "text": "Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-top-bottom",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C005-painted-v1.png"
+  },
+  {
+    "index": 7,
+    "card": {
+      "id": "ED261008-D02-F07-1",
+      "name": "Nota defensiva do Estuário",
+      "kind": "Instant",
+      "text": "Uma criatura sua recebe +0/+2 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "pcl-scry-other-spell",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-1-painted-v1.png"
+  },
+  {
+    "index": 8,
+    "card": {
+      "id": "MED-028",
+      "name": "Névoa sobre o Vau",
+      "kind": "Instant",
+      "text": "Uma criatura inimiga recebe -1/-0 até o fim do turno. Seu ataque não pode ficar abaixo de 0.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 0,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "enemy",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-028-painted-v1.png"
+  },
+  {
+    "index": 9,
+    "card": {
+      "id": "ED261008-D02-F05-1",
+      "name": "Reordenar o arquivo do Estuário",
+      "kind": "Spell",
+      "text": "Devolva um Truque ou Feitiço de custo total até 1 do seu cemitério à mão. Exile esta carta após a resolução.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-grave",
+              "a": 1,
+              "b": 1,
+              "c": 0,
+              "value": "magic:hand"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "exile-on-resolve"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-1-painted-v1.png"
+  },
+  {
+    "index": 10,
+    "card": {
+      "id": "ED261008-D02-F03-1",
+      "name": "Retorno às margens do Estuário",
+      "kind": "Spell",
+      "text": "Devolva uma criatura de custo total até 2 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-bounce",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-1-painted-v1.png"
+  },
+  {
+    "index": 11,
+    "card": {
+      "id": "ED261008-D02-F08-1",
+      "name": "Reverberação escrita do Estuário",
+      "kind": "Spell",
+      "text": "Olhe as 3 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-select-top",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": "magic"
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-1-painted-v1.png"
+  },
+  {
+    "index": 12,
+    "card": {
+      "id": "ED261008-D02-F01-1",
+      "name": "Revisar a fórmula do Estuário",
+      "kind": "Instant",
+      "text": "Anule um Truque ou Feitiço na pilha de custo total até 2.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 0,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-counter",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-1-painted-v1.png"
+  },
+  {
+    "index": 13,
+    "card": {
+      "id": "PD26-G-022",
+      "name": "Aprendiz da Marcha de Estuário",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "orderTop",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-022-painted-v1.png"
+  },
+  {
+    "index": 14,
+    "card": {
+      "id": "PD26-G-004",
+      "name": "Aprendiz da Ponte de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "other",
+          "scope": "here",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-004-painted-v1.png"
+  },
+  {
+    "index": 15,
+    "card": {
+      "id": "PD26-G-013",
+      "name": "Aprendiz do Juramento de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, você pode mover outra criatura sua adjacente para este terreno sem gastar PA, respeitando bloqueios.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "pull",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "other",
+          "scope": "adjacent",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": true
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-013-painted-v1.png"
+  },
+  {
+    "index": 16,
+    "card": {
+      "id": "PD26-G-007",
+      "name": "Aprendiz do Pórtico de Estuário",
+      "kind": "Creature",
+      "text": "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 999,
+              "b": 0,
+              "c": 0,
+              "value": "instant:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "death",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": true
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-007-painted-v1.png"
+  },
+  {
+    "index": 17,
+    "card": {
+      "id": "ED261007-02-C006",
+      "name": "Corrigir a Fórmula",
+      "kind": "Instant",
+      "text": "Uma criatura alvo perde 2 de ataque até o fim do turno, até o mínimo de zero.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C006-painted-v1.png"
+  },
+  {
+    "index": 18,
+    "card": {
+      "id": "MED-150",
+      "name": "Escudo das Marés",
+      "kind": "Instant",
+      "color": 2,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "range": 1,
+      "movement": 0,
+      "equipCost": 1,
+      "rarity": "uncommon",
+      "art": "sigil",
+      "text": "Reduza em 3 o próximo dano que uma criatura aliada sofreria neste turno.",
+      "rule": "prevent-three",
+      "traits": [],
+      "effects": [],
+      "maxCopies": 1,
+      "identityColors": [],
+      "commander": false
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-150-painted-v1.png"
+  },
+  {
+    "index": 19,
+    "card": {
+      "id": "ED261008-D02-F04-2",
+      "name": "Estudo da madrugada da Torre Azul",
+      "kind": "Spell",
+      "text": "Compre 2 cartas e coloque uma carta da mão no fundo do grimório.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "draw",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "bottomHand",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F04-2-painted-v1.png"
+  },
+  {
+    "index": 20,
+    "card": {
+      "id": "ED261008-D02-F06-2",
+      "name": "Fechar a passagem da Torre Azul",
+      "kind": "Instant",
+      "text": "Uma criatura de custo total até 3 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 3,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "noMove",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "noAttack",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-2-painted-v1.png"
+  },
+  {
+    "index": 21,
+    "card": {
+      "id": "PD26-G-026",
+      "name": "Ler as Correntes",
+      "kind": "Spell",
+      "text": "Olhe três cartas do topo do seu grimório. Ponha uma na mão e as demais no fundo, na ordem escolhida.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "selectTop",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-026-painted-v1.png"
+  },
+  {
+    "index": 22,
+    "card": {
+      "id": "PD26-G-025",
+      "name": "Maré Curta",
+      "kind": "Instant",
+      "text": "Mova uma criatura sua até 1 terreno, respeitando bloqueios, sem gastar PA.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "move",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-025-painted-v1.png"
+  },
+  {
+    "index": 23,
+    "card": {
+      "id": "ED261008-D02-F02-2",
+      "name": "Maré de contenção da Torre Azul",
+      "kind": "Instant",
+      "text": "Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -2,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "optional": true
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-2-painted-v1.png"
+  },
+  {
+    "index": 24,
+    "card": {
+      "id": "ED261008-D02-F07-2",
+      "name": "Nota defensiva da Torre Azul",
+      "kind": "Instant",
+      "text": "Uma criatura sua recebe +0/+3 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 3,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "pcl-scry-other-spell",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-2-painted-v1.png"
+  },
+  {
+    "index": 25,
+    "card": {
+      "id": "MED-031",
+      "name": "Passagem pela Barca",
+      "kind": "Instant",
+      "text": "Mova uma criatura sua para um terreno seu ortogonalmente adjacente ao dela.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "move",
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "value": "own",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-031-painted-v1.png"
+  },
+  {
+    "index": 26,
+    "card": {
+      "id": "ED261008-D02-F05-2",
+      "name": "Reordenar o arquivo da Torre Azul",
+      "kind": "Spell",
+      "text": "Devolva um Truque ou Feitiço de custo total até 2 do seu cemitério à mão. Exile esta carta após a resolução.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-grave",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": "magic:hand"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "exile-on-resolve"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-2-painted-v1.png"
+  },
+  {
+    "index": 27,
+    "card": {
+      "id": "ED261008-D02-F03-2",
+      "name": "Retorno às margens da Torre Azul",
+      "kind": "Spell",
+      "text": "Devolva uma criatura de custo total até 3 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-bounce",
+              "a": 3,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-2-painted-v1.png"
+  },
+  {
+    "index": 28,
+    "card": {
+      "id": "ED261008-D02-F08-2",
+      "name": "Reverberação escrita da Torre Azul",
+      "kind": "Spell",
+      "text": "Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-select-top",
+              "a": 4,
+              "b": 0,
+              "c": 0,
+              "value": "magic"
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-2-painted-v1.png"
+  },
+  {
+    "index": 29,
+    "card": {
+      "id": "ED261008-D02-F01-2",
+      "name": "Revisar a fórmula da Torre Azul",
+      "kind": "Instant",
+      "text": "Anule um Truque ou Feitiço na pilha de custo total até 2.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 1,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-counter",
+              "a": 2,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-2-painted-v1.png"
+  },
+  {
+    "index": 30,
+    "card": {
+      "id": "PD26-N-079",
+      "name": "Abrigo Improvisado",
+      "kind": "Instant",
+      "text": "Uma criatura sua recebe +0/+2 até o fim do turno.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [],
+      "maxCopies": 1,
+      "cost": 3,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 6,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-079-painted-v1.png"
+  },
+  {
+    "index": 31,
+    "card": {
+      "id": "PD26-N-077",
+      "name": "Consultar o Mapa",
+      "kind": "Spell",
+      "text": "Olhe as três cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [],
+      "maxCopies": 1,
+      "cost": 3,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 6,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "orderTop",
+              "a": 3,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-077-painted-v1.png"
+  },
+  {
+    "index": 32,
+    "card": {
+      "id": "MED-026",
+      "name": "Corrente de Recuo",
+      "kind": "Spell",
+      "text": "Devolva uma criatura inimiga para a mão de seu dono.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "bounce",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "enemy",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-026-painted-v1.png"
+  },
+  {
+    "index": 33,
+    "card": {
+      "id": "ED261008-D02-F06-3",
+      "name": "Fechar a passagem das Sete Marés",
+      "kind": "Instant",
+      "text": "Uma criatura de custo total até 4 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 4,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "noMove",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "noAttack",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-3-painted-v1.png"
+  },
+  {
+    "index": 34,
+    "card": {
+      "id": "ED261008-D02-F02-3",
+      "name": "Maré de contenção das Sete Marés",
+      "kind": "Instant",
+      "text": "Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 2,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -3,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ],
+          "optional": true
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-3-painted-v1.png"
+  },
+  {
+    "index": 35,
+    "card": {
+      "id": "PD26-G-027",
+      "name": "Nevoeiro do Estuário",
+      "kind": "Instant",
+      "text": "Uma criatura recebe -3 de ataque até o fim do turno.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -3,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "creature",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-027-painted-v1.png"
+  },
+  {
+    "index": 36,
+    "card": {
+      "id": "ED261008-D02-F07-3",
+      "name": "Nota defensiva das Sete Marés",
+      "kind": "Instant",
+      "text": "Uma criatura sua recebe +0/+4 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "own",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 4,
+              "c": 0,
+              "value": ""
+            },
+            {
+              "kind": "pcl-scry-other-spell",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-3-painted-v1.png"
+  },
+  {
+    "index": 37,
+    "card": {
+      "id": "ED261008-D02-F05-3",
+      "name": "Reordenar o arquivo das Sete Marés",
+      "kind": "Spell",
+      "text": "Devolva um Truque ou Feitiço de custo total até 3 do seu cemitério à mão. Exile esta carta após a resolução.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-grave",
+              "a": 3,
+              "b": 1,
+              "c": 0,
+              "value": "magic:hand"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        "exile-on-resolve"
+      ],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-3-painted-v1.png"
+  },
+  {
+    "index": 38,
+    "card": {
+      "id": "ED261008-D02-F03-3",
+      "name": "Retorno às margens das Sete Marés",
+      "kind": "Spell",
+      "text": "Devolva uma criatura de custo total até 4 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-bounce",
+              "a": 4,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-3-painted-v1.png"
+  },
+  {
+    "index": 39,
+    "card": {
+      "id": "ED261008-D02-F08-3",
+      "name": "Reverberação escrita das Sete Marés",
+      "kind": "Spell",
+      "text": "Olhe as 5 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-select-top",
+              "a": 5,
+              "b": 0,
+              "c": 0,
+              "value": "magic"
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-3-painted-v1.png"
+  },
+  {
+    "index": 40,
+    "card": {
+      "id": "ED261008-D02-F01-3",
+      "name": "Revisar a fórmula das Sete Marés",
+      "kind": "Instant",
+      "text": "Anule um Truque ou Feitiço na pilha de custo total até 3.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "pcl-counter",
+              "a": 3,
+              "b": 1,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-3-painted-v1.png"
+  },
+  {
+    "index": 41,
+    "card": {
+      "id": "PD26-N-087",
+      "name": "Rito da Pedra Vazia",
+      "kind": "Spell",
+      "text": "Gere 2 manas incolores.",
+      "rarity": "prototype",
+      "art": "spell",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [],
+      "commander": false,
+      "identityColors": [],
+      "maxCopies": 1,
+      "cost": 3,
+      "coloredCost": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 6,
+      "attack": 0,
+      "defense": 1,
+      "actions": 0,
+      "movement": 0,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "mana",
+              "a": 2,
+              "b": 6,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "cast",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-087-painted-v1.png"
+  },
+  {
+    "index": 42,
+    "card": {
+      "id": "ED261007-02-C008",
+      "name": "Tomo de Capa Salgada",
+      "kind": "Equipment",
+      "text": "Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Ao equipar um Mago, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.",
+      "rarity": "Comum",
+      "color": 2,
+      "identityColors": [
+        2
+      ],
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cost": 2,
+      "attack": 0,
+      "defense": 1,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "subtypes": [
+        "Equipamento"
+      ],
+      "effects": [],
+      "abilities": [
+        {
+          "trigger": "aura",
+          "target": "host",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": ""
+            }
+          ]
+        },
+        {
+          "trigger": "pcl-equip-mage",
+          "target": "owner",
+          "scope": "any",
+          "maxCost": 999,
+          "count": 1,
+          "manaColor": -1,
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "bottom"
+            }
+          ]
+        }
+      ],
+      "traits": [],
+      "keywords": [],
+      "rule": "abilities",
+      "maxCopies": 1,
+      "commander": false,
+      "art": "soldier"
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C008-painted-v1.png"
+  },
+  {
+    "index": 43,
+    "card": {
+      "id": "PD26-G-011",
+      "name": "Veterano da Escolta de Estuário",
+      "kind": "Creature",
+      "text": "Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "instant",
+          "target": "self",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-011-painted-v1.png"
+  },
+  {
+    "index": 44,
+    "card": {
+      "id": "PD26-G-023",
+      "name": "Veterano da Marcha de Estuário",
+      "kind": "Creature",
+      "text": "Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "orderTop",
+              "a": 2,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "capitalHit",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-023-painted-v1.png"
+  },
+  {
+    "index": 45,
+    "card": {
+      "id": "PD26-G-005",
+      "name": "Veterano da Ponte de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 2,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "other",
+          "scope": "here",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-005-painted-v1.png"
+  },
+  {
+    "index": 46,
+    "card": {
+      "id": "PD26-G-020",
+      "name": "Veterano da Torre de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "loot",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": true
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-020-painted-v1.png"
+  },
+  {
+    "index": 47,
+    "card": {
+      "id": "PD26-G-002",
+      "name": "Veterano da Vigília de Estuário",
+      "kind": "Creature",
+      "text": "Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "scry",
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "enter",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-002-painted-v1.png"
+  },
+  {
+    "index": 48,
+    "card": {
+      "id": "PD26-G-008",
+      "name": "Veterano do Pórtico de Estuário",
+      "kind": "Creature",
+      "text": "Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 2,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 2,
+      "defense": 4,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "grave",
+              "a": 999,
+              "b": 0,
+              "c": 0,
+              "value": "instant:bottom",
+              "condition": ""
+            }
+          ],
+          "trigger": "death",
+          "target": "owner",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": false,
+          "optional": true
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-008-painted-v1.png"
+  },
+  {
+    "index": 49,
+    "card": {
+      "id": "PD26-G-010",
+      "name": "Aprendiz da Escolta de Estuário",
+      "kind": "Creature",
+      "text": "Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "instant",
+          "target": "self",
+          "scope": "any",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 0,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-010-painted-v1.png"
+  },
+  {
+    "index": 50,
+    "card": {
+      "id": "PD26-G-016",
+      "name": "Aprendiz da Patrulha de Estuário",
+      "kind": "Creature",
+      "text": "1 PA: uma criatura inimiga adjacente recebe -1 de ataque até o fim do turno. Use apenas uma vez por turno.",
+      "rarity": "prototype",
+      "art": "mage",
+      "rule": "abilities",
+      "traits": [],
+      "keywords": [],
+      "subtypes": [
+        "Humano",
+        "Mago"
+      ],
+      "commander": false,
+      "identityColors": [
+        2
+      ],
+      "maxCopies": 1,
+      "cost": 1,
+      "coloredCost": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": 2,
+      "attack": 1,
+      "defense": 2,
+      "actions": 1,
+      "movement": 2,
+      "range": 1,
+      "equipCost": 1,
+      "abilities": [
+        {
+          "ops": [
+            {
+              "kind": "buff",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "value": "",
+              "condition": ""
+            }
+          ],
+          "trigger": "activate",
+          "target": "enemy",
+          "scope": "adjacent",
+          "condition": "",
+          "gate": "",
+          "subtype": "",
+          "mana": 0,
+          "pa": 1,
+          "manaColor": -1,
+          "colored": 0,
+          "maxCost": 999,
+          "count": 1,
+          "once": true,
+          "optional": false
+        }
+      ],
+      "effects": []
+    },
+    "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-016-painted-v1.png"
+  }
+]

@@ -1,0 +1,592 @@
+{
+  "status": "completed",
+  "count": 50,
+  "items": [
+    {
+      "index": 1,
+      "id": "MED-148",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Card: Acalmar o Confronto. Type Instant. Effect inspiration: Uma criatura inimiga recebe -2 de ataque até o fim do turno. Scene: A serene blue-robed mediator raises an open hand between two armored opponents on a stone quay; soft tidal ribbons lower one warrior's poised weapon, conveying a peaceful reduction of aggression. Central faces and hands anatomically coherent.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-cf2ea13e-8a20-49e6-88f3-a615e4f9b620.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-148-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Painted coastal scene, clear mediator and magic, no text or frame; anatomy and central crop checked."
+      }
+    },
+    {
+      "index": 2,
+      "id": "ED261007-02-C004",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Estudante de Marés; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Sem habilidade adicional.. Scene: Young human tide-mage student studying a floating water spiral in a shell basin on a medieval dock, humble blue robes.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-f326c8e6-8de3-414f-bc50-f14368f44120.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C004-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 3,
+      "id": "ED261008-D02-F04-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Estudo da madrugada do Estuário; Spell; . Narrative effect inspiration (do not show text): Compre 2 cartas e coloque uma carta da mão no fundo do grimório.. Scene: Pre-dawn estuary scriptorium; scholar selecting two luminous blank parchment leaves while tucking a third into closed grimoire, moon and sunrise.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-da808dd1-eb82-4045-ba13-36b79c11d7b9.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F04-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 4,
+      "id": "ED261008-D02-F06-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Fechar a passagem do Estuário; Instant; . Narrative effect inspiration (do not show text): Uma criatura de custo total até 2 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.. Scene: Small armed intruder halted at an estuary stone passage by a translucent water gate, tension without injury.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-f81bda49-a992-419a-a66b-ba56d9b802fe.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 5,
+      "id": "ED261008-D02-F02-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Maré de contenção do Estuário; Instant; . Narrative effect inspiration (do not show text): Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.. Scene: A single raider's raised weapon dragged down by a low curling magical tide at muddy estuary shore.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-255a3999-622d-4bf3-8e44-bdc63ad5d4ca.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 6,
+      "id": "ED261007-02-C005",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Nota de Rodapé; Instant; . Narrative effect inspiration (do not show text): Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo.. Scene: Close view of scholar's gloved hand sorting two blank illuminated parchment leaves near the foot of an open tome; one slides underneath, candlelit.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-538d177e-a1c5-45b8-90ca-e800a386f92b.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C005-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 7,
+      "id": "ED261008-D02-F07-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Nota defensiva do Estuário; Instant; . Narrative effect inspiration (do not show text): Uma criatura sua recebe +0/+2 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.. Scene: A defender surrounded by curved blue protective parchment-like light on an estuary jetty, distant scholar divining a hovering blank leaf.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-57e1d6b4-67f3-4867-921c-e325f05c616f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 8,
+      "id": "MED-028",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Névoa sobre o Vau; Instant; . Narrative effect inspiration (do not show text): Uma criatura inimiga recebe -1/-0 até o fim do turno. Seu ataque não pode ficar abaixo de 0.. Scene: Misty shallow ford; warrior struggles to aim through blue silver vapor, low reeds and stone bridge.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-0283cf15-0f68-4a44-a72b-e67213bd57ab.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-028-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/MED-028-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 9,
+      "id": "ED261008-D02-F05-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Reordenar o arquivo do Estuário; Spell; . Narrative effect inspiration (do not show text): Devolva um Truque ou Feitiço de custo total até 1 do seu cemitério à mão. Exile esta carta após a resolução.. Scene: Estuary archive keeper retrieves an intact magical parchment from weathered discarded scrolls as the scroll case fades into pale stars.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-a4f0ddf0-c7bb-45ae-8642-66cf1b8ba9bf.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 10,
+      "id": "ED261008-D02-F03-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Retorno às margens do Estuário; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura de custo total até 2 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.. Scene: A small armored traveler carried backwards by a smooth magical current toward their home estuary bank.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-3db226a9-20d7-4e47-b921-649b6af09a2f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-1-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 11,
+      "id": "ED261008-D02-F08-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Reverberação escrita do Estuário; Spell; . Narrative effect inspiration (do not show text): Olhe as 3 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.. Scene: Three blank parchment leaves reverberate over an estuary writing desk; one glows brightly as a scholar reaches for it.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-dd364e38-4bc4-4c4a-9a2b-c7ea534e6f4f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-1-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/ED261008-D02-F08-1-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed handwriting from parchment; all paper blank or abstract ornament.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 12,
+      "id": "ED261008-D02-F01-1",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Revisar a fórmula do Estuário; Instant; . Narrative effect inspiration (do not show text): Anule um Truque ou Feitiço na pilha de custo total até 2.. Scene: A focused mage interrupts a hostile spell with a precise gesture, its blue geometric light unraveling above estuary quay.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-33648031-9a8b-4a0f-bfd1-afa15c044481.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-1-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/ED261008-D02-F01-1-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 13,
+      "id": "PD26-G-022",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Aprendiz da Marcha de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.. Scene: Young human mage on forward march beside estuary capital walls, two tiny vision orbs reflected in a bronze spyglass.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-90ff9436-a7cf-4669-900a-c5e26c576132.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-022-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 14,
+      "id": "PD26-G-004",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz da Ponte de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.. Scene: Young human mage at estuary stone bridge extends a cyan ward around an allied guard, welcoming stance.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-531727bf-90e4-4b69-8cd7-68707c09edc0.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-004-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 15,
+      "id": "PD26-G-013",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz do Juramento de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, você pode mover outra criatura sua adjacente para este terreno sem gastar PA, respeitando bloqueios.. Scene: Young human mage sworn beneath an estuary shrine draws a companion over the neighboring stepping stones with a guiding ribbon of water.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-ccc05313-580d-4b1b-bfae-4ff5f4f14491.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-013-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 16,
+      "id": "PD26-G-007",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz do Pórtico de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.. Scene: Young human mage at estuary archway releasing a pale last spell into the depths of a sealed grimoire, solemn non-graphic twilight.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-e53e888a-0045-4da2-91bb-9f4e69789b30.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-007-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 17,
+      "id": "ED261007-02-C006",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Corrigir a Fórmula; Instant; . Narrative effect inspiration (do not show text): Uma criatura alvo perde 2 de ataque até o fim do turno, até o mínimo de zero.. Scene: A scholar corrects an unstable magical spiral, causing a threatening fighter's red aura to fade; blank scroll, no writing.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-9cb54327-932f-49c5-8d15-408e71441865.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C006-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 18,
+      "id": "MED-150",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Escudo das Marés; Instant; . Narrative effect inspiration (do not show text): Reduza em 3 o próximo dano que uma criatura aliada sofreria neste turno.. Scene: Towering curved water shield intercepting sparks before an allied armored guard; richly painted waves and cyan caustics.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-1a550ef4-d7e4-4ffb-8ace-9f38d78e3a52.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-150-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/MED-150-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 19,
+      "id": "ED261008-D02-F04-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Estudo da madrugada da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Compre 2 cartas e coloque uma carta da mão no fundo do grimório.. Scene: Blue tower library at dawn, scholar compares two blank leaves and puts another beneath a heavy grimoire, rising sun through tall window.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-d8e6a937-e5ce-48a2-93ba-23f34c05eeb0.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F04-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 20,
+      "id": "ED261008-D02-F06-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Fechar a passagem da Torre Azul; Instant; . Narrative effect inspiration (do not show text): Uma criatura de custo total até 3 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.. Scene: Stone stair passage inside blue tower blocked by a bright translucent water barrier stopping a burly intruder.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-4134a6de-48fc-4764-970f-5b848a8efc49.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 21,
+      "id": "PD26-G-026",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Ler as Correntes; Spell; . Narrative effect inspiration (do not show text): Olhe três cartas do topo do seu grimório. Ponha uma na mão e as demais no fundo, na ordem escolhida.. Scene: Coastal oracle reads branching tidal currents in a shallow enchanted basin, three pale visions, one brought close and others sinking.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-bb4904ea-f44c-4c09-b215-c233aee0014a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-026-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 22,
+      "id": "PD26-G-025",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Maré Curta; Instant; . Narrative effect inspiration (do not show text): Mova uma criatura sua até 1 terreno, respeitando bloqueios, sem gastar PA.. Scene: A short curling tide gently conveys an allied mage across a single narrow stone channel, controlled movement, no attack.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-087d218b-c4bf-4029-be05-4a10f1918963.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-025-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 23,
+      "id": "ED261008-D02-F02-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Maré de contenção da Torre Azul; Instant; . Narrative effect inspiration (do not show text): Até 1 criaturas alvo recebem -2 de ataque até o fim do turno, até o mínimo de zero.. Scene: An armored assailant below the blue tower loses momentum as a swirling tide presses their weapon down.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-e6b80651-9d3d-40d3-b85c-6b27665f840f.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 24,
+      "id": "ED261008-D02-F07-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Nota defensiva da Torre Azul; Instant; . Narrative effect inspiration (do not show text): Uma criatura sua recebe +0/+3 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.. Scene: An ally beneath the blue tower encased in layered cyan protective light; scholar behind studies a blank floating parchment.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-2a67b11e-8298-4588-9941-4751b11dcb80.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-2-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/ED261008-D02-F07-2-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed handwriting from parchment; all paper blank or abstract ornament.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 25,
+      "id": "MED-031",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Passagem pela Barca; Instant; . Narrative effect inspiration (do not show text): Mova uma criatura sua para um terreno seu ortogonalmente adjacente ao dela.. Scene: Medieval wooden ferry carrying a cloaked traveler across a narrow river toward nearby allied stone shore, calm lantern reflections.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-761fa352-5be1-420d-9749-a6183fbf1ee2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-031-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 26,
+      "id": "ED261008-D02-F05-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reordenar o arquivo da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Devolva um Truque ou Feitiço de custo total até 2 do seu cemitério à mão. Exile esta carta após a resolução.. Scene: Blue tower archivist retrieving glowing intact blank parchment from an old discarded scroll chest, dissolving magical seal.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-0299032b-39ee-4f03-acf6-f6fd364d1849.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 27,
+      "id": "ED261008-D02-F03-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Retorno às margens da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura de custo total até 3 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.. Scene: Magical tide carries a medium-sized armored creature back toward home bank under a tall blue tower.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-1c840425-4acb-4bc6-bdbc-64159d81b9d0.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 28,
+      "id": "ED261008-D02-F08-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reverberação escrita da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.. Scene: Four blank parchment leaves resonating in blue tower observatory; one shines into scholar's waiting hand.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-3a77ad13-5713-4d5a-8882-08330c443b47.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 29,
+      "id": "ED261008-D02-F01-2",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Revisar a fórmula da Torre Azul; Instant; . Narrative effect inspiration (do not show text): Anule um Truque ou Feitiço na pilha de custo total até 2.. Scene: Blue tower mage disperses an incoming fiery spell into harmless cyan motes with a precise copper wand.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-e64e0eb3-fba9-498d-a247-9de9c0e294e2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-2-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 30,
+      "id": "PD26-N-079",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Abrigo Improvisado; Instant; . Narrative effect inspiration (do not show text): Uma criatura sua recebe +0/+2 até o fim do turno.. Scene: An allied weary guard sheltered by improvised wooden planks and stout sailcloth under rain, reassuring warm lantern and subtle ward.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-3faf75cf-7018-49fb-8044-831646c9ed2d.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-079-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 31,
+      "id": "PD26-N-077",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Consultar o Mapa; Spell; . Narrative effect inspiration (do not show text): Olhe as três cartas do topo do seu grimório e devolva-as na ordem escolhida.. Scene: Medieval cartographer consults a coastal map with only illustrated coastline, no lettering, three compass stones being reordered.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-56534cec-10de-47aa-b3e4-24812497b837.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-077-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 32,
+      "id": "MED-026",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Corrente de Recuo; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura inimiga para a mão de seu dono.. Scene: Powerful reverse water current pushes an enemy armored fighter away from the battlefield toward their distant home bank.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-35661838-bc14-4a95-b9c0-1dd89830fae7.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-026-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 33,
+      "id": "ED261008-D02-F06-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Fechar a passagem das Sete Marés; Instant; . Narrative effect inspiration (do not show text): Uma criatura de custo total até 4 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.. Scene: Powerful intruder frozen at a sea fortress passage by several layered walls of tidal magic, no actual prison bars.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-a3a9cf58-703f-4ab0-b7a9-f1f7cc06fb97.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 34,
+      "id": "ED261008-D02-F02-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Maré de contenção das Sete Marés; Instant; . Narrative effect inspiration (do not show text): Até 2 criaturas alvo recebem -3 de ataque até o fim do turno, até o mínimo de zero.. Scene: Two enemy warriors have their raised weapons lowered by a broad surging tidal containment wave at seven-tides coast.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-a8dfb1b8-f6ae-4a0e-909e-387bb4296169.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F02-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 35,
+      "id": "PD26-G-027",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Nevoeiro do Estuário; Instant; . Narrative effect inspiration (do not show text): Uma criatura recebe -3 de ataque até o fim do turno.. Scene: Dense magical estuary fog enfolds a threatening fighter, their attack posture slackening; reeds, lantern silhouette.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-da8815fd-dc5d-4297-a8db-99b7ce00ef76.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-027-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 36,
+      "id": "ED261008-D02-F07-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Nota defensiva das Sete Marés; Instant; . Narrative effect inspiration (do not show text): Uma criatura sua recebe +0/+4 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.. Scene: Seven-tides defender within strong overlapping cyan shields; protective light and a glowing blank parchment vision.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-f8c18325-cc9a-413f-85b2-9c4a67068f44.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 37,
+      "id": "ED261008-D02-F05-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reordenar o arquivo das Sete Marés; Spell; . Narrative effect inspiration (do not show text): Devolva um Truque ou Feitiço de custo total até 3 do seu cemitério à mão. Exile esta carta após a resolução.. Scene: Seven-tides archive sage retrieves a luminous blank spell leaf from ancient weathered scroll remains as the old seal fades.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-7f2c44ed-1fc6-458d-a8c2-ef35edbdc1e8.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 38,
+      "id": "ED261008-D02-F03-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Retorno às margens das Sete Marés; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura de custo total até 4 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.. Scene: Strong armored creature borne backwards along swirling water toward a distant familiar shore under seven-tides cliffs.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-bcb6221f-5112-49d7-afe1-07dc24ae5ddb.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 39,
+      "id": "ED261008-D02-F08-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reverberação escrita das Sete Marés; Spell; . Narrative effect inspiration (do not show text): Olhe as 5 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.. Scene: Five blank illuminated parchment leaves reverberating around seven-tides scholar, one selected, others curl downward into closed tome.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-ec6754c3-df60-4072-8c73-ff4868d47a21.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 40,
+      "id": "ED261008-D02-F01-3",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Revisar a fórmula das Sete Marés; Instant; . Narrative effect inspiration (do not show text): Anule um Truque ou Feitiço na pilha de custo total até 3.. Scene: Seven-tides elder mage cancels a large incoming spell by unraveling its glowing ribbons over turbulent coastal rock.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-da7ff9d9-dad4-479d-9ce5-96ce6edc1015.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-3-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 41,
+      "id": "PD26-N-087",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Rito da Pedra Vazia; Spell; . Narrative effect inspiration (do not show text): Gere 2 manas incolores.. Scene: Ritual around a hollow gray standing stone; two streams of silvery neutral energy rise, coastal ancient ruins, no runes/letters.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-02c35e95-9c76-4081-bb3d-63562cf529ea.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-N-087-painted-v2.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      },
+      "revision": {
+        "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/PD26-N-087-painted-v1.png",
+        "method": "built-in image_gen edit",
+        "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+        "inspection": "Corrected output visually inspected and accepted."
+      }
+    },
+    {
+      "index": 42,
+      "id": "ED261007-02-C008",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Tomo de Capa Salgada; Equipment; Equipamento. Narrative effect inspiration (do not show text): Equipar: 1 mana genérica no mesmo tile. A criatura equipada recebe +0/+2. Ao equipar um Mago, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.. Scene: Hero object portrait of a salt-encrusted leather grimoire, pearl clasps, azure magical protective aura, on damp coastal desk; pages blank.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-48fe589d-f47f-40cb-9e7b-e0848e82466a.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C008-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 43,
+      "id": "PD26-G-011",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Escolta de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.. Scene: Seasoned human escort mage with graying beard, blue traveling coat and bronze staff, protective aura swells beside a convoy on estuary quay.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-43253010-9e6d-451e-9833-76757b917137.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-011-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 44,
+      "id": "PD26-G-023",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Marcha de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao causar dano de combate à capital inimiga, olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida.. Scene: Seasoned human marching mage with scarred face and blue mantle near enemy capital gate, two luminous visions held in palm.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-2f008988-93b0-41d9-814a-d2c760ffed45.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-023-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 45,
+      "id": "PD26-G-005",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Ponte de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.. Scene: Seasoned human bridge mage with weathered face casts a layered cyan shield over an allied sentry on estuary bridge.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-31b120d4-070b-4885-83c6-b5463f518041.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-005-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 46,
+      "id": "PD26-G-020",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Torre de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.. Scene: Seasoned human tower mage in richly worn blue robes, thoughtfully exchanging blank parchment leaf with glowing closed grimoire.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-2b610cbb-8054-4914-b93a-bd4c390280f2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-020-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 47,
+      "id": "PD26-G-002",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Vigília de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, olhe a carta do topo do seu grimório. Você pode colocá-la no fundo.. Scene: Seasoned human night-watch mage on estuary battlement examines a single pale vision above a small closed book.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-53d88486-2669-4d08-8923-b461041482e2.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-002-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 48,
+      "id": "PD26-G-008",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano do Pórtico de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.. Scene: Seasoned human archway mage in solemn dying light releases preserved spell spark into a deep grimoire at coastal memorial; non-graphic.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-8f5b808d-0629-439c-a3a5-3bca11324646.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-008-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 49,
+      "id": "PD26-G-010",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz da Escolta de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Uma vez por turno, quando você conjurar um Truque, esta recebe +0/+1 até o fim do turno.. Scene: Young human escort apprentice with curly dark hair casts a modest protective blue aura alongside a dock convoy.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-eb18d526-b1f5-4969-a2f3-42bd5cedd3a7.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-010-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    },
+    {
+      "index": 50,
+      "id": "PD26-G-016",
+      "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz da Patrulha de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): 1 PA: uma criatura inimiga adjacente recebe -1 de ataque até o fim do turno. Use apenas uma vez por turno.. Scene: Young human patrol apprentice directs a slowing blue ribbon toward neighboring hostile guard from estuary stepping stones.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-35d9a100-1f61-4391-97a2-e191feae83ff.png",
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-016-painted-v1.png",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+      }
+    }
+  ]
+}

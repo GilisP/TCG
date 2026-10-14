@@ -1,0 +1,17 @@
+{
+  "index": 18,
+  "id": "MED-150",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Escudo das Marés; Instant; . Narrative effect inspiration (do not show text): Reduza em 3 o próximo dano que uma criatura aliada sofreria neste turno.. Scene: Towering curved water shield intercepting sparks before an allied armored guard; richly painted waves and cyan caustics.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-1a550ef4-d7e4-4ffb-8ace-9f38d78e3a52.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-150-painted-v2.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  },
+  "revision": {
+    "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/MED-150-painted-v1.png",
+    "method": "built-in image_gen edit",
+    "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+    "inspection": "Corrected output visually inspected and accepted."
+  }
+}

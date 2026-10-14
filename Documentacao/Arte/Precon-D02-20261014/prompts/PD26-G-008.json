@@ -1,0 +1,11 @@
+{
+  "index": 48,
+  "id": "PD26-G-008",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano do Pórtico de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.. Scene: Seasoned human archway mage in solemn dying light releases preserved spell spark into a deep grimoire at coastal memorial; non-graphic.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-8f5b808d-0629-439c-a3a5-3bca11324646.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-008-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

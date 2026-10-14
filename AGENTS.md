@@ -274,3 +274,8 @@ Validação final dos decks: 2.915 verificações e build aprovados; fluxo de im
 ## Mesa e jogadores visuais — 2026-10-14
 - VIS-MESA-014 aplica malhas suaves de CommanderModels a terrenos/capitais/ruínas, mesa e avatares via StyledTerrain/StyledTable/StyledPlayers. Preserva colliders, posições, pilhas, câmeras e regras. Detalhes procedurais provisórios.
 - Build, 969 checks de comandantes, 1041 do novo diagnóstico e 13 da UI vigente passaram. Fixtures antigos de interação falharam/não terminaram: não alegar regressão completa. Ver Documentacao/Desenvolvimento/VIS-MESA-014-result.json e notas Mesa e Jogadores Visuais/validação. Revisão manual e atualização de fixtures pendentes.
+
+## Artes D02 e VFX — 2026-10-14
+- ART-VFX-D02-014:142pinturas exclusivas D02+8D01+MED-193, sem novas cartas/regras/economia. Manifest e importador PreconD porID; prompts/índice em Documentacao/Arte/Precon-D02-20261014. Onzev2 selecionadas, originais preservados.
+- SpellPresentation consome eventos públicos só Spell/Instant: anúncio origem, resolução alvo, cancelamento origem; sem duplicar stack-resolved. Motivos por cor/custo/ops públicas,24centelhas ecap24, duração0,75–1,6s; SpellMote em Resources. ComandanteHUD imprime cores/custo genérico e adicional separado.
+- BuildCardArt2920checks/código0, EditorPlay8595, playerVFX22 eUI13 passaram, perfil intacto. Projeção testada porfixture; LAN/Relay/FPS longo não repetidos. Avaliação artística pendente; outros oito precons ainda sem este lote. Ler Artes Precon D02 e Magias/validação no vault e ART-VFX-D02-014-result.json.

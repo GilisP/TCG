@@ -9,7 +9,7 @@ namespace TCG.Foundation.Editor
 {
  public sealed class CardArtLayoutCanvas:MonoBehaviour
  {
-  public TableView Table;public Definition[] Cards;public static int Frames;
+  public TableView Table;public Definition[] Cards;public static int Frames;public bool CommanderHUD;
   const BindingFlags Flags=BindingFlags.Instance|BindingFlags.NonPublic;
   void OnGUI()
   {
@@ -17,6 +17,7 @@ namespace TCG.Foundation.Editor
    var type=typeof(TableView);type.GetMethod("Styles",Flags).Invoke(Table,null);var original=GUI.matrix;GUI.matrix=Matrix4x4.Scale(new Vector3(Screen.width/1600f,Screen.height/1000f,1));
    GUI.Box(new Rect(0,0,1600,1000),GUIContent.none);
    var label=new GUIStyle(GUI.skin.label){fontSize=19,normal={textColor=Color.white}};
+   if(CommanderHUD){GUI.Label(new Rect(25,20,850,60),"Custo por cor e adicional de reconjuração — fixture com duas conjurações anteriores",label);type.GetMethod("DrawCommanderZone",Flags).Invoke(Table,new object[]{false});GUI.matrix=original;Frames++;return;}
    GUI.Label(new Rect(25,10,1550,40),"TCG — arte e custo: S Sol / L Lua / G Água / F Fogo / A Ar / T Terra / N Incolor / gen. genérico",label);
    var render=type.GetMethod("RenderCardFace",Flags);
    for(int i=0;i<Cards.Length;i++)
@@ -33,6 +34,8 @@ namespace TCG.Foundation.Editor
   const string Key="TCG.ArtLayout.";static double next;
   static CardArtLayoutPreview(){if(SessionState.GetBool(Key+"running",false))Register();}
   static void Register(){EditorApplication.update-=Tick;EditorApplication.update+=Tick;Application.logMessageReceived-=Log;Application.logMessageReceived+=Log;}
+  public static void RunD02(){SessionState.SetBool(Key+"d02",true);Run();}
+  public static void RunCommanderCost(){SessionState.SetBool(Key+"d02",true);SessionState.SetBool(Key+"hud",true);Run();}
   public static void Run(){ProjectEntry.Open();SessionState.SetBool(Key+"running",true);SessionState.SetInt(Key+"stage",0);SessionState.SetFloat(Key+"deadline",(float)EditorApplication.timeSinceStartup+90);Register();EditorWindow.GetWindow(typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.GameView")).Show();EditorApplication.isPlaying=true;}
   static void Log(string message,string trace,LogType type){if(type==LogType.Error||type==LogType.Exception||type==LogType.Assert)Finish(false,message+"\n"+trace);}
   static void Tick()
@@ -44,11 +47,11 @@ namespace TCG.Foundation.Editor
    int stage=SessionState.GetInt(Key+"stage",0);
    if(stage==0)
    {
-    var catalog=(ContentCatalog)typeof(TableView).GetField("catalog",flags).GetValue(table);var canvas=table.gameObject.AddComponent<CardArtLayoutCanvas>();canvas.Table=table;canvas.Cards=new[]{"AUTOR-20261007-CARTA-001","AUTOR-20261007-TERRENO-001","MED-242","MED-230","MED-240"}.Select(catalog.Get).ToArray();var world=(TableWorld)typeof(TableView).GetField("world",flags).GetValue(table);foreach(var renderer in world.GetComponentsInChildren<Renderer>())renderer.enabled=false;world.enabled=false;world.View.clearFlags=CameraClearFlags.SolidColor;world.View.backgroundColor=new Color(.04f,.06f,.07f);table.enabled=false;SessionState.SetInt(Key+"stage",1);next=EditorApplication.timeSinceStartup+2;return;
+    var catalog=(ContentCatalog)typeof(TableView).GetField("catalog",flags).GetValue(table);var canvas=table.gameObject.AddComponent<CardArtLayoutCanvas>();canvas.Table=table;canvas.Cards=(SessionState.GetBool(Key+"d02",false)?new[]{"ED261007-02-C004","MED-148","MED-193","MED-230","MED-240"}:new[]{"AUTOR-20261007-CARTA-001","AUTOR-20261007-TERRENO-001","MED-242","MED-230","MED-240"}).Select(catalog.Get).ToArray();var world=(TableWorld)typeof(TableView).GetField("world",flags).GetValue(table);foreach(var renderer in world.GetComponentsInChildren<Renderer>())renderer.enabled=false;world.enabled=false;world.View.clearFlags=CameraClearFlags.SolidColor;world.View.backgroundColor=new Color(.04f,.06f,.07f);table.enabled=false;if(SessionState.GetBool(Key+"hud",false)){var fixture=ContentLoader.CommanderTable(catalog,new EffectRegistry(),2,false,1414,new[]{"MED-240","MED-193"},true);foreach(var seat in fixture.Seats)typeof(Seat).GetProperty("CommanderCasts").SetValue(seat,2);typeof(TableView).GetField("match",flags).SetValue(table,fixture);typeof(TableView).GetField("menu",flags).SetValue(table,false);typeof(TableView).GetField("handoff",flags).SetValue(table,false);canvas.CommanderHUD=true;}SessionState.SetInt(Key+"stage",1);next=EditorApplication.timeSinceStartup+2;return;
    }
-   if(stage==1){if(CardArtLayoutCanvas.Frames<3){EditorApplication.QueuePlayerLoopUpdate();return;}Directory.CreateDirectory("Documentacao/Arte/Precon-D01-20261014/Layouts");ScreenCapture.CaptureScreenshot(Path.GetFullPath("Documentacao/Arte/Precon-D01-20261014/Layouts/preview.png"));SessionState.SetInt(Key+"stage",2);next=EditorApplication.timeSinceStartup+2;return;}
+   if(stage==1){if(CardArtLayoutCanvas.Frames<3){EditorApplication.QueuePlayerLoopUpdate();return;}var output=SessionState.GetBool(Key+"d02",false)?"Documentacao/Arte/Precon-D02-20261014/Layouts":"Documentacao/Arte/Precon-D01-20261014/Layouts";Directory.CreateDirectory(output);ScreenCapture.CaptureScreenshot(Path.GetFullPath(output+(SessionState.GetBool(Key+"hud",false)?"/commander-cost.png":"/preview.png")));SessionState.SetInt(Key+"stage",2);next=EditorApplication.timeSinceStartup+2;return;}
    Finish(true,"PASS: native Editor Play layout render; five card faces at full/hand/thumbnail sizes; no GUI exceptions");
   }
-  static void Finish(bool ok,string message){SessionState.SetBool(Key+"running",false);Directory.CreateDirectory("Logs/CardArtLayoutVerification");File.WriteAllText("Logs/CardArtLayoutVerification/result.txt",(ok?"":"FAIL: ")+message);EditorApplication.Exit(ok?0:1);}
+  static void Finish(bool ok,string message){bool hud=SessionState.GetBool(Key+"hud",false);SessionState.SetBool(Key+"running",false);SessionState.SetBool(Key+"d02",false);SessionState.SetBool(Key+"hud",false);Directory.CreateDirectory("Logs/CardArtLayoutVerification");File.WriteAllText("Logs/CardArtLayoutVerification/"+(hud?"commander-cost-result.txt":"result.txt"),(ok?"":"FAIL: ")+(hud?"PASS: native commander HUD cost rendering, no GUI exceptions":message));EditorApplication.Exit(ok?0:1);}
  }
 }

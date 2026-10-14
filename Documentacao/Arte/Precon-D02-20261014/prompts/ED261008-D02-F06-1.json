@@ -1,0 +1,11 @@
+{
+  "index": 4,
+  "id": "ED261008-D02-F06-1",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Fechar a passagem do Estuário; Instant; . Narrative effect inspiration (do not show text): Uma criatura de custo total até 2 não pode iniciar movimentos nem ataques até o fim do turno. Não desfaz ações que já estão na pilha.. Scene: Small armed intruder halted at an estuary stone passage by a translucent water gate, tension without injury.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-f81bda49-a992-419a-a66b-ba56d9b802fe.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F06-1-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+  }
+}

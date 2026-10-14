@@ -1,0 +1,11 @@
+{
+  "index": 14,
+  "id": "PD26-G-004",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz da Ponte de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, outra criatura sua neste terreno recebe +0/+2 até o fim do turno.. Scene: Young human mage at estuary stone bridge extends a cyan ward around an allied guard, welcoming stance.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-531727bf-90e4-4b69-8cd7-68707c09edc0.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-004-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

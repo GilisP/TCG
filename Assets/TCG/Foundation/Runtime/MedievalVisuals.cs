@@ -90,11 +90,13 @@ namespace TCG.Table
         }
         void SpellVisual(MatchEvent e)
         {
+            if(e.Card!=null&&(e.Card.Kind==CardType.Spell||e.Card.Kind==CardType.Instant)){PresentSpell(e);return;}
             if(e.Card==null||(e.Kind!="cast"&&e.Kind!="trigger"&&e.Kind!="resolve"&&e.Kind!="impact"))return;
             bool announcement=e.Kind=="cast"||e.Kind=="trigger";Burst(announcement?e.From:e.To,e.Card,false,announcement);
         }
         void TickSpellVisuals()
         {
+            TickSpellPresentation();
             for(int i=spells.Count-1;i>=0;i--){
                 var s=spells[i];float t=(Time.unscaledTime-s.start)/s.duration;
                 if(t>=1){foreach(var renderer in s.root.GetComponentsInChildren<Renderer>()){effectMaterials.Remove(renderer.sharedMaterial);Destroy(renderer.sharedMaterial);}Release(s.root);spells.RemoveAt(i);continue;}
@@ -103,4 +105,3 @@ namespace TCG.Table
         }
     }
 }
-

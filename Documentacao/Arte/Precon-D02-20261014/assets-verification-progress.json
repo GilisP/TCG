@@ -1,0 +1,427 @@
+{
+  "status": "partial-PASS",
+  "completed": 60,
+  "target": 142,
+  "records": [
+    {
+      "id": "MED-148",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\MED-148-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "788517c4ed1eb7dbe5cc994282661d7964e516f0c74c69f408442a16c5a5d470"
+    },
+    {
+      "id": "ED261007-02-C004",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "05ece10df700ef19641232c3232b3ea909443f704bc922a5c48fc2bae7663c15"
+    },
+    {
+      "id": "ED261008-D02-F04-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F04-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1c15026f3d7247fc315934d8cd93731c2c7fe932dd1f58563b2bce438f09ada9"
+    },
+    {
+      "id": "ED261008-D02-F06-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F06-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d834485e7b2b3f2665d7734433274d167f6c6eba8922e8829f05932b71e3c545"
+    },
+    {
+      "id": "ED261008-D02-F02-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F02-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a28a2fa64792b622d57f0672470ae310a7326f86281fec6ddd2fd7b40966badd"
+    },
+    {
+      "id": "ED261007-02-C005",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C005-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e8f63f77e31137db4011b28a6d613a002f31557d029353d909e536f4828e10e9"
+    },
+    {
+      "id": "ED261008-D02-F07-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F07-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "da0d1eb65213cbd43c5959530a0feb1f1373fc251b9295df5142f47297df89a8"
+    },
+    {
+      "id": "MED-028",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\MED-028-painted-v2.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d887c07e2a360aab68f345aa06c0758f058feb5f57f7746c8dfde6c0018a3f6b"
+    },
+    {
+      "id": "ED261008-D02-F05-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F05-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "6d381d877612b97227224c7f10bd993b98d9e17747c3c33b52a57fd112c62f64"
+    },
+    {
+      "id": "ED261008-D02-F03-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F03-1-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "4ce71bac8fd2ee58c177f173e2f4a8a3afa2b4b61022873d41d693fcefde497d"
+    },
+    {
+      "id": "ED261008-D02-F08-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F08-1-painted-v2.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7ee481a8cf8189ccef570304bd1ec86073c749fb499024e4b0ae2165d84eb266"
+    },
+    {
+      "id": "ED261008-D02-F01-1",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F01-1-painted-v2.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e97fe100dbccec30ea2c5c032ce48a4b5c0d6f655610443166ace687ee423240"
+    },
+    {
+      "id": "PD26-G-022",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-G-022-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "2fc6753958735e77c2d109dfb1a8072af7063c187a33caf7119991790b7cb72c"
+    },
+    {
+      "id": "PD26-G-004",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-G-004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7db6f2d95b434872e42ee79fe0a478d1141772b0a565652a2b13eb32c5dd80da"
+    },
+    {
+      "id": "PD26-G-013",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-G-013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9422b4f36acdb8051883e8faa72c6fe8d87954c89d04da900250f7e95ac1bc15"
+    },
+    {
+      "id": "PD26-G-007",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-G-007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ef06700590f8d337665a13d7e69f1695faead5086d65236f7ca32e05548520cf"
+    },
+    {
+      "id": "ED261007-02-C006",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C006-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1ed24bd6faeea41848d7d690df03b8d75e8a967e8ad0b8f0d9e55da741bd6bbb"
+    },
+    {
+      "id": "MED-150",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\MED-150-painted-v2.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f8127e59219614a27ad670e07cdbe0ccbd6d03fa64274b98f558e695d63e1946"
+    },
+    {
+      "id": "ED261008-D02-F04-2",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F04-2-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "2352dc7cccae3216ae3fc4dbb9ea0af5145b094affec9bef923b13ecdaf1161f"
+    },
+    {
+      "id": "ED261007-02-C001",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C001-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "82d0b8c82ae68f0af6f5906e0887fa948db279a244fb6933a1c5dcf4375d9133"
+    },
+    {
+      "id": "MED-029",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\MED-029-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "784ea96748b6fd0065807f965dd0b2627e8b021a812212ba3eb83e4bfb7b9d80"
+    },
+    {
+      "id": "ED261008-D02-F04-3",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F04-3-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1610be69fe1e03e106018a78ec2d4129b34df3c013c2df2e2ca861d258a02f14"
+    },
+    {
+      "id": "ED261007-02-C003",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C003-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "80c8076be6c4187a22deb879d4a50b65f5d704758d8e9eb1bde1fe8bddcf60c4"
+    },
+    {
+      "id": "PD26-N-078",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-078-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "756bb223d0530786d0d170b30b7fabf4739021e1650b365d74b6253be89c41f9"
+    },
+    {
+      "id": "ED261007-02-C007",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "6c07091f53be8416ab874636241acab4f821efa5eaf2bf5f3c8aa485b8e97133"
+    },
+    {
+      "id": "ED261008-D02-F06-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F06-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ae68631f90ce730b6add2d96324dd1edd3fcb43615bc1d5dc1589a8b2333b7df"
+    },
+    {
+      "id": "ED261008-D02-F02-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F02-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "5982248df22a6befe6b256d6efb0482fd9e1fe59e7e0e30dcf92ebc8b65d2330"
+    },
+    {
+      "id": "PD26-N-090",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-090-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "72e7f7976813f6aaa0e77e22e7a8e021655bedc056eda6e8879d3671d66bdc05"
+    },
+    {
+      "id": "ED261008-D02-F07-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F07-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "44521e0a5f1bf1ea3f99b66e3a13446ac06f6d9acdbb824ea9d710a3389c1e33"
+    },
+    {
+      "id": "PD26-N-083",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-083-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "acd50e2900a0310b02d68ede9c36467218157e4ce3533bba8ea65a2d09a2af97"
+    },
+    {
+      "id": "MED-151",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\MED-151-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "aa401833d7793f981f6f6339d7c4056e060eef71e93ba6408fa7e2029b12da19"
+    },
+    {
+      "id": "ED261008-D02-F05-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F05-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d631ffec986d293a94cacb2fe8e5b3792e1ef1d754f4b135f944d75d003c39a5"
+    },
+    {
+      "id": "ED261008-D02-F03-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F03-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "1a15772650bc51ee5808ba0876d99cd7956dcccdb9239dbc835d40261e9b487a"
+    },
+    {
+      "id": "ED261008-D02-F08-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F08-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a7344d95a1f0e489e02995568b544ef14b121cf37dc2b95c415ee6272e48a1b6"
+    },
+    {
+      "id": "ED261008-D02-F01-4",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F01-4-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "155edc16c9847e5231a85dde1bdb241d8057248d0e4c8c0e37d61898a2350253"
+    },
+    {
+      "id": "PD26-N-085",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-085-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d01b24e32a67b2f76b412895d0b5f9f0dc9b8033730d4eb54485ee843fd26274"
+    },
+    {
+      "id": "ED261007-02-C002",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261007-02-C002-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d476fd97d6d1a05a672953397d5e98349223ed52eee01ef46e108e258d757b9e"
+    },
+    {
+      "id": "PD26-N-081",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-081-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "8489cab1a26dc42494b3e9660782e54b2d7e7cbec3f4c24b9e9e9db51cf79a59"
+    },
+    {
+      "id": "PD26-N-076",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-076-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ec08e383097e23491c82aade71aefecbc142047b689118cb20acf6bd89b70ee8"
+    },
+    {
+      "id": "PD26-N-084",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-084-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ea3ea99650c04703eb294f8ab6840ad3ee7ae23953e9d64159cc29d7742e350d"
+    },
+    {
+      "id": "ED261008-D02-F06-5",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F06-5-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "859410e20bb8789283470559714ffa887d255476cb35ed970fa0cf756f7dcb78"
+    },
+    {
+      "id": "PD26-N-088",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-N-088-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b4e06e3498a7ebd08ba9e23489745d15ff55a20f76ecb910e7bbbc25312e449b"
+    },
+    {
+      "id": "ED261008-D02-F02-5",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F02-5-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f5de778e9f6239ae46dfe281f0fa74cef87ae1a7a4a49938d00edc39bc754e38"
+    },
+    {
+      "id": "ED261008-D02-F07-5",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\ED261008-D02-F07-5-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "851ca7052350cf9959e6f9dfc8799681147c3126863b4e1bdfeba4379eac51a8"
+    },
+    {
+      "id": "PD26-LG-004",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-004-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "da1613f98d63d0582939cc0238b9508eb002648666c737919cade666d574bbbc"
+    },
+    {
+      "id": "PD26-LG-005",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-005-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "27026343efeb8617a2b1a757fd6b1656460142dfbefe6a3bd597929168f6d210"
+    },
+    {
+      "id": "PD26-LG-006",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-006-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c34802f6c4ddca3a763c3bb6e7428f559da08dd268def73ac07215061d97ffa5"
+    },
+    {
+      "id": "PD26-LG-007",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-007-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b1d9562a25f8612a0448f7ae5bf12fb9017af61285450d3849b60d17de0009c0"
+    },
+    {
+      "id": "PD26-LG-008",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-008-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "aa1890dd3375a9b848652b0d87301d12b8d7ba8c1791c4f76dd7cb67699603d6"
+    },
+    {
+      "id": "PD26-LG-009",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-009-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d2f40f7c082b9874236eb97ba21f3f375afcef20b36b4118e40635fee87c2ab2"
+    },
+    {
+      "id": "PD26-LG-010",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-010-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d3e9b9f29876d61fb354312f70c671eec2bb4c857f15ec157cc5211e8fe86f63"
+    },
+    {
+      "id": "PD26-LG-011",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-011-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "0f6cf4d522993a39571574a273bcebf3f44310a7415208f2850838306acd4fa0"
+    },
+    {
+      "id": "PD26-LG-012",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-012-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "5f88c02f2f61e0f8892a6d260a7ecae4436976c3c1f7419a472a91cde054f627"
+    },
+    {
+      "id": "PD26-LG-013",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-013-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "e15b7a6a96695d699105a50e696b0e2aeedb6e787994064343d5f784510acdfa"
+    },
+    {
+      "id": "PD26-LG-014",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-014-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "5d02758a5f728a5721fb82e7d01dfaa06ee29c1315958e3f8a49bff73e38238c"
+    },
+    {
+      "id": "PD26-LG-015",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-015-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "9e0614e983ac6b079cad20f2a7e72fb376902ddb2c324b451443eea66ddb86bc"
+    },
+    {
+      "id": "PD26-LG-016",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-016-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "86a0f3918116777c990e8f86daa11e342157f2393518cc49705b106765d3592c"
+    },
+    {
+      "id": "PD26-LG-017",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-017-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c562256fa38ac1ca3a6aa6e5528bf369c5a5077a24ed82ff4b23f785d04434bc"
+    },
+    {
+      "id": "PD26-LG-018",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-018-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f14d18e488c04e3d22e18fdada348118fac5907242092e63c28af957f5b5bf82"
+    },
+    {
+      "id": "PD26-LG-019",
+      "path": "Assets\\TCG\\Resources\\CardArt\\PreconD02\\PD26-LG-019-painted-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "11101ff71043ce7468b5635b5ec9c5237e1239ad92d6e9a75bded920d73128ea"
+    }
+  ]
+}

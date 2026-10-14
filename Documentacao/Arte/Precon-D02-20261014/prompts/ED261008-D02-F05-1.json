@@ -1,0 +1,11 @@
+{
+  "index": 9,
+  "id": "ED261008-D02-F05-1",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Reordenar o arquivo do Estuário; Spell; . Narrative effect inspiration (do not show text): Devolva um Truque ou Feitiço de custo total até 1 do seu cemitério à mão. Exile esta carta após a resolução.. Scene: Estuary archive keeper retrieves an intact magical parchment from weathered discarded scrolls as the scroll case fades into pale stars.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-a4f0ddf0-c7bb-45ae-8642-66cf1b8ba9bf.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-1-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

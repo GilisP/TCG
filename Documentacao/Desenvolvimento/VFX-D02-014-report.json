@@ -1,0 +1,51 @@
+{
+  "taskId": "VFX-D02-014",
+  "status": "integrated-verified",
+  "summary": "Richer nonpermanent spell VFX consume existing MatchEvent and projected events. Seven color motifs with bicolor filaments, explicit damage/heal/draw operation refinements, announcement at caster origin, impact only after authoritative resolution, cancellation collapses at origin.",
+  "files": [
+    "Assets/TCG/Foundation/Runtime/MedievalVisuals.cs",
+    "Assets/TCG/Foundation/Runtime/SpellPresentation.cs",
+    "Assets/TCG/Foundation/Editor/SpellPresentationChecks.cs"
+  ],
+  "contracts": {
+    "gameplay": "unchanged; no Core, catalog or protocol edits",
+    "eventKinds": "cast/trigger => From; resolve/impact => To; stack-canceled => From; stack-resolved ignored to avoid duplicate resolution",
+    "filter": "Only CardType.Instant and CardType.Spell route to new visuals. Existing permanent trigger and foil presentation preserved.",
+    "families": "Radiance, Void, Tide, Flame, Gale (wind spirals), Growth, Arcane by color; public Effects damage/heal/gainLife/draw/scry refine motif. No printed rules interpreted and no invented mechanics.",
+    "cleanup": "Unscaled 1.05s announcement, 1.6s resolution, 0.75s cancellation; cap24 active instances, oldest evicted with immediate deactivation; bind changes clear on next presentation tick; owned material destroyed with effect and scene subtree removal.",
+    "limits": "21 LineRenderers and one shadowless light per effect; no textures, colliders, particles, new shaders or external assets. Long-session FPS not yet verified."
+  },
+  "checks": {
+    "performed": [
+      "Inspected Core emission sites and NetworkView conversion",
+      "Reviewed scoped MedievalVisuals diff: only routing and cleanup tick",
+      "Verified public Definition/CardFilter and editor assembly references used by implementation"
+    ],
+    "provided": "SpellPresentationChecks.Run: kind filtering, origin/target timing, cancellation, no duplicate stack result, invalid coordinates, bicolor/colorless palette, seven distinct color motifs, explicit operations, bounded lifetimes and instance cap.",
+    "notExecuted": [
+      "Unity compile",
+      "Editor checks",
+      "Play lifetime/rebind/cap checks",
+      "Native visual assessment",
+      "LAN/Relay or long-session FPS"
+    ]
+  },
+  "previewForCoordinator": {
+    "api": "world.PreviewSpellPresentation(card, tile, SpellVisualStage.Announcement/Resolution/Cancellation); world.SpellPresentationCount",
+    "suggested": "Preview D02 nonpermanent cards at tile60, spacing 1.8s to inspect all phases; select bicolor explicit fixture. Assert no impact at declaration via plan check and observe delayed target only after passing stack. Spawn30 in same frame, require <=24 active, wait1.8s require0; rebind another Match and tick require0. Check material/live count after expiry. Confirm actual cancellation preserves existing stack-card burn. Sample projected MatchEvent uses same preview consumer; no network changes."
+  },
+  "blockers": [],
+  "remaining": [
+    "author visual approval",
+    "long-session FPS"
+  ],
+  "coordinatorIntegration": {
+    "visualRefinement": "24 deterministic billboard motes +radial additive SpellMote.shader; wider glow lines; captured SevenColorStages",
+    "validation": "113plan+8595nativePlay+22playerVFX, finalBuild2920 and13interface; zero runtime errors",
+    "files": [
+      "Assets/TCG/Resources/SpellMote.shader",
+      "Assets/TCG/Foundation/Editor/SpellVisualPreview.cs"
+    ],
+    "palette": "printed ColoredCost first, public identity fallback; abilities from public NetworkCards.Pack snapshot"
+  }
+}

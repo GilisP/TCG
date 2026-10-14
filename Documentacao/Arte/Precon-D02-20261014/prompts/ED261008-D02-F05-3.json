@@ -1,0 +1,11 @@
+{
+  "index": 37,
+  "id": "ED261008-D02-F05-3",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reordenar o arquivo das Sete Marés; Spell; . Narrative effect inspiration (do not show text): Devolva um Truque ou Feitiço de custo total até 3 do seu cemitério à mão. Exile esta carta após a resolução.. Scene: Seven-tides archive sage retrieves a luminous blank spell leaf from ancient weathered scroll remains as the old seal fades.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-7f2c44ed-1fc6-458d-a8c2-ef35edbdc1e8.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F05-3-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

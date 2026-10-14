@@ -1,0 +1,11 @@
+{
+  "index": 38,
+  "id": "ED261008-D02-F03-3",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Retorno às margens das Sete Marés; Spell; . Narrative effect inspiration (do not show text): Devolva uma criatura de custo total até 4 à mão do dono. Se ela for comandante, o dono pode aplicar a regra de retorno à zona de comando.. Scene: Strong armored creature borne backwards along swirling water toward a distant familiar shore under seven-tides cliffs.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-bcb6221f-5112-49d7-afe1-07dc24ae5ddb.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F03-3-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

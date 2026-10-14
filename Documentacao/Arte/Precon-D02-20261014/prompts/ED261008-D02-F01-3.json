@@ -1,0 +1,11 @@
+{
+  "index": 40,
+  "id": "ED261008-D02-F01-3",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Revisar a fórmula das Sete Marés; Instant; . Narrative effect inspiration (do not show text): Anule um Truque ou Feitiço na pilha de custo total até 3.. Scene: Seven-tides elder mage cancels a large incoming spell by unraveling its glowing ribbons over turbulent coastal rock.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-da7ff9d9-dad4-479d-9ce5-96ce6edc1015.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-3-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

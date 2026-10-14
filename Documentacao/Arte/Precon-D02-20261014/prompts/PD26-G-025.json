@@ -1,0 +1,11 @@
+{
+  "index": 22,
+  "id": "PD26-G-025",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Maré Curta; Instant; . Narrative effect inspiration (do not show text): Mova uma criatura sua até 1 terreno, respeitando bloqueios, sem gastar PA.. Scene: A short curling tide gently conveys an allied mage across a single narrow stone channel, controlled movement, no attack.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-087d218b-c4bf-4029-be05-4a10f1918963.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-025-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

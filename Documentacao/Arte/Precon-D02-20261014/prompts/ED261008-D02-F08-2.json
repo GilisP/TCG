@@ -1,0 +1,11 @@
+{
+  "index": 28,
+  "id": "ED261008-D02-F08-2",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Reverberação escrita da Torre Azul; Spell; . Narrative effect inspiration (do not show text): Olhe as 4 cartas do topo do seu grimório. Você pode revelar um Truque ou Feitiço entre elas e colocá-lo na mão. Coloque as demais no fundo, na ordem escolhida.. Scene: Four blank parchment leaves resonating in blue tower observatory; one shines into scholar's waiting hand.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-3a77ad13-5713-4d5a-8882-08330c443b47.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F08-2-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

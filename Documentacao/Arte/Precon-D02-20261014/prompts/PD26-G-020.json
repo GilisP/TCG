@@ -1,0 +1,11 @@
+{
+  "index": 46,
+  "id": "PD26-G-020",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Veterano da Torre de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao entrar, você pode colocar uma carta da mão no fundo do grimório. Se fizer isso, compre uma carta.. Scene: Seasoned human tower mage in richly worn blue robes, thoughtfully exchanging blank parchment leaf with glowing closed grimoire.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-2b610cbb-8054-4914-b93a-bd4c390280f2.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-020-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

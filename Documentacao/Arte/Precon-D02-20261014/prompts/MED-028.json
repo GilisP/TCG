@@ -1,0 +1,17 @@
+{
+  "index": 8,
+  "id": "MED-028",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Névoa sobre o Vau; Instant; . Narrative effect inspiration (do not show text): Uma criatura inimiga recebe -1/-0 até o fim do turno. Seu ataque não pode ficar abaixo de 0.. Scene: Misty shallow ford; warrior struggles to aim through blue silver vapor, low reeds and stone bridge.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-0283cf15-0f68-4a44-a72b-e67213bd57ab.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-028-painted-v2.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  },
+  "revision": {
+    "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/MED-028-painted-v1.png",
+    "method": "built-in image_gen edit",
+    "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+    "inspection": "Corrected output visually inspected and accepted."
+  }
+}

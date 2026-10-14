@@ -1,0 +1,11 @@
+{
+  "index": 2,
+  "id": "ED261007-02-C004",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Estudante de Marés; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Sem habilidade adicional.. Scene: Young human tide-mage student studying a floating water spiral in a shell basin on a medieval dock, humble blue robes.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-f326c8e6-8de3-414f-bc50-f14368f44120.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C004-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+  }
+}

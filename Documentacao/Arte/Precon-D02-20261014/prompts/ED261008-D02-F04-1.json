@@ -1,0 +1,11 @@
+{
+  "index": 3,
+  "id": "ED261008-D02-F04-1",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Estudo da madrugada do Estuário; Spell; . Narrative effect inspiration (do not show text): Compre 2 cartas e coloque uma carta da mão no fundo do grimório.. Scene: Pre-dawn estuary scriptorium; scholar selecting two luminous blank parchment leaves while tucking a third into closed grimoire, moon and sunrise.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-da808dd1-eb82-4045-ba13-36b79c11d7b9.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F04-1-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject/effect, painted coastal palette and brushwork, no lettering/UI/frame; crop and anatomy acceptable."
+  }
+}

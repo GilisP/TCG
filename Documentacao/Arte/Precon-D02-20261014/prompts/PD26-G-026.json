@@ -1,0 +1,11 @@
+{
+  "index": 21,
+  "id": "PD26-G-026",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Ler as Correntes; Spell; . Narrative effect inspiration (do not show text): Olhe três cartas do topo do seu grimório. Ponha uma na mão e as demais no fundo, na ordem escolhida.. Scene: Coastal oracle reads branching tidal currents in a shallow enchanted basin, three pale visions, one brought close and others sinking.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-bb4904ea-f44c-4c09-b215-c233aee0014a.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-026-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

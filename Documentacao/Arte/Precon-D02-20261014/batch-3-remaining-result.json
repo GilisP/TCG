@@ -1,0 +1,736 @@
+{
+  "batch": 3,
+  "requested": 39,
+  "completed": 39,
+  "status": "complete",
+  "checks": "39 distinct IDs; 39 PNGs, each 1448x1086 (4:3); 39 distinct SHA256 hashes; all individual outputs visually inspected; per-ID prompt metadata present.",
+  "items": [
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-007-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-007",
+      "name": "Posto da Guarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Posto da Guarda de Estuário\". Scene: estuary guard outpost with a slate watchhouse and blue-cloaked mage under a protective water dome. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-1844f86a-9f4b-4d83-b361-ee59d4fe4c21.png",
+      "status": "generated-inspected",
+      "inspection": "Visual inspection: distinct estuary mage outpost, detailed oil brushwork, blue ward, crop-safe landscape; no text, UI, frame, signature or watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-008-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-008",
+      "name": "Santuário da Guarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Santuário da Guarda de Estuário\". Scene: estuary guard sanctuary with a vaulted stone chapel and sheltered wooden patrol vessel. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-d9ae06b1-2551-4890-a2b1-b9b5c22d2a4b.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-009-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-009",
+      "name": "Acampamento da Guarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Acampamento da Guarda de Estuário\". Scene: guard encampment on tidal marsh banks, tents beside a water-lit ritual pool and closed spell books. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-481d585d-6938-4e53-bfb3-92fe6cc8dcaf.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-010-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-010",
+      "name": "Fortim da Guarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Fortim da Guarda de Estuário\". Scene: small estuary guard fort with open gateway, lively streaming blue currents along the causeway. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma criatura sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-407d1ca6-bd2f-406d-b1f2-d6e4532060cf.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-011-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-011",
+      "name": "Pátio da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Pátio da Fronteira de Estuário\". Scene: frontier courtyard of a coastal academy, astronomer's water mirror between stone buildings. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-8661b09f-fe27-4632-8520-de5710f60f46.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-012-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-012",
+      "name": "Travessia da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Travessia da Fronteira de Estuário\". Scene: frontier bridge over an estuary channel, gentle blue mist calming armed travellers. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-a94d29c1-bdce-4594-96d3-78c7d1fc9c39.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-013-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-013",
+      "name": "Torreão da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Torreão da Fronteira de Estuário\". Scene: frontier tower with aqueduct-fed healing basin at its base, verdant medicinal garden. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-7f146f52-5285-4703-8493-975672091b99.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-014-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-014",
+      "name": "Refúgio da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Refúgio da Fronteira de Estuário\". Scene: frontier refuge with ancient fortified houses around a calm protective blue spring. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-7a36e6cb-2788-483c-aa7b-0bae02f985b4.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-015-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-015",
+      "name": "Clareira da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Clareira da Fronteira de Estuário\". Scene: frontier clearing with two luminous tide pools reflecting different skies beside a tiny scholarly lodge. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-289da6a9-140a-41dc-8dd5-8ae6f0ffa562.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-016-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-016",
+      "name": "Terraço da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Terraço da Fronteira de Estuário\". Scene: frontier terrace with arched balustrades and a flowing protective veil over the sea. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-1a37eabb-048a-4ac8-b341-fa1b2d324367.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-017-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-017",
+      "name": "Posto da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Posto da Fronteira de Estuário\". Scene: frontier outpost on a rocky river mouth, blue mage's observatory surrounded by rippling ward. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-7b9dbd3e-96fb-4ea3-a2e4-27d5ba647e4b.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-018-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-018",
+      "name": "Santuário da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Santuário da Fronteira de Estuário\". Scene: frontier sanctuary whose columned water shrine shelters a medieval wagon at dock. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-df0930b7-2fc5-45b4-a6d0-2ab7f5e07159.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-019-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-019",
+      "name": "Acampamento da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Acampamento da Fronteira de Estuário\". Scene: frontier encampment beneath old ruined arches, tidewater carrying a sealed spell tome toward archive. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-a3b3921b-6824-42a3-8646-90f159b6e76a.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-020-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-020",
+      "name": "Fortim da Fronteira de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Fortim da Fronteira de Estuário\". Scene: frontier fort with causeway winding inland, magically streaming water guiding swift travel. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se uma construção sua estiver neste terreno, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-7f781d28-b4a6-4846-bc06-3bdd1cdca130.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-021-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-021",
+      "name": "Pátio da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Pátio da Retaguarda de Estuário\". Scene: rear capital courtyard of tide archives with central divination pool and elegant blue slate roofs. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe a carta do topo do seu grimório; você pode colocá-la no fundo. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-6eb2fee0-0275-43e8-92a3-fc4fd50c9215.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-022-painted-v2.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-022",
+      "name": "Travessia da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Travessia da Retaguarda de Estuário\". Scene: rear capital crossing of narrow canal, high fortified library walls and calming blue rain. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura neste terreno recebe -1 de ataque até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "revision": {
+        "originalSource": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-644ea68e-6b12-4f52-bfb4-c0aad1e0fbb0.png",
+        "reason": "Removed signature-like lower-right marks with built-in image edit; inspected revision clean.",
+        "tool": "image_gen.imagegen"
+      },
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-32802b09-d8ec-401a-91d5-0ec5fdb3f9e7.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-023-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-023",
+      "name": "Torreão da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Torreão da Retaguarda de Estuário\". Scene: rear capital keep with terraced healing spring and stone basin beneath a grand bell tower. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: cure 1 de dano de uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-81c3a76d-b179-4a7b-a494-0b913d379226.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-024-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-024",
+      "name": "Refúgio da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Refúgio da Retaguarda de Estuário\". Scene: rear capital refuge tucked within imposing library walls, water-lit sheltered courtyard. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-8f4de14e-1b59-4da9-b241-378e7bcfe731.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-025-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-025",
+      "name": "Clareira da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Clareira da Retaguarda de Estuário\". Scene: rear capital clearing garden with paired reflection ponds and cedar trees within archive walls. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: olhe as duas cartas do topo do seu grimório e devolva-as na ordem escolhida. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-65870cb7-4f08-472d-8a91-43cf3858c944.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-026-painted-v2.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-026",
+      "name": "Terraço da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Terraço da Retaguarda de Estuário\". Scene: rear capital sea terrace with protective luminous water canopy and ornate medieval masonry. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: previna o próximo 1 de dano que seria causado neste turno a uma criatura sua neste terreno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "revision": {
+        "originalSource": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-2d69581e-ecef-44c7-a1a4-58077459b291.png",
+        "reason": "Fresh built-in regeneration after signature-like marks persisted in edit attempts; clean unmarked stone inspected.",
+        "tool": "image_gen.imagegen"
+      },
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-5e6d932b-7806-436d-bcbb-4fb4e2ba5f62.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-027-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-027",
+      "name": "Posto da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Posto da Retaguarda de Estuário\". Scene: rear capital outpost guarding library approach, tower window emitting blue arcane protection. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um Mago seu neste terreno recebe +0/+3 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-90afca8a-772f-4bb4-8fb8-7b4d97b10809.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-028-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-028",
+      "name": "Santuário da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Santuário da Retaguarda de Estuário\". Scene: rear capital sanctuary with ship-sized water shrine and a wheeled medieval scholarly cart. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: um veículo seu neste terreno recebe +0/+2 até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-e6a82f66-09c9-460f-8743-ddc2e438cab5.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-029-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-029",
+      "name": "Acampamento da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Acampamento da Retaguarda de Estuário\". Scene: rear capital encampment beside archive walls, ritual fountain returning a closed ancient volume. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: coloque um Feitiço do seu cemitério no fundo do grimório. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-babc77a3-8de2-4318-bd55-9f90f964886d.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T36-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T36",
+      "name": "Versão de campanha — Pátio da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Pátio da Vigília de Estuário\". Scene: night-watch courtyard at estuary archive with magical pool reflecting a distant luminous book. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-7dc50f9a-38d9-40a2-80a7-c78b8b0a83e4.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-LG-030-painted-v2.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.",
+      "id": "PD26-LG-030",
+      "name": "Fortim da Retaguarda de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Fortim da Retaguarda de Estuário\". Scene: rear capital fort gateway with glowing tidal current curling along royal cobbled path. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, se este for o terreno da sua capital, pague 2 manas genéricas: uma criatura sua neste terreno recebe +1 de movimento até o fim do turno. O controlador do terreno usa esta habilidade.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "revision": {
+        "originalSource": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-b5f20f6c-b0a0-4cba-a789-b7d813ea1780.png",
+        "reason": "Built-in regeneration and targeted removal of signature-like lower-left writing. Final inspected clean.",
+        "tool": "image_gen.imagegen"
+      },
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-f6be42a7-e964-4439-a248-3982555c9559.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T37-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T37",
+      "name": "Versão de campanha — Travessia da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Travessia da Vigília de Estuário\". Scene: night-watch bridge through coastal fog, a closed ancient book borne along blue current. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-a18971da-6d9a-4381-93da-5669bedb3196.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T38-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T38",
+      "name": "Versão de campanha — Torreão da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Torreão da Vigília de Estuário\". Scene: night-watch high tower and a blue beacon over a tidal canal, quiet archive architecture. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-32e96d21-1578-41e7-9fea-f4d0ac696610.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T39-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T39",
+      "name": "Versão de campanha — Refúgio da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Refúgio da Vigília de Estuário\". Scene: night-watch refuge of cliffside stone houses with sheltered water pool and recovered spell tome. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-56152c9e-81d3-43ec-8731-87ba06fcc220.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T40-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T40",
+      "name": "Versão de campanha — Clareira da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Clareira da Vigília de Estuário\". Scene: night-watch clearing among reeds, moonlit pool reflecting observatory stars and closed books. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-0bca55bc-fbb3-40d5-b488-c06e4d8abf05.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T41-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T41",
+      "name": "Versão de campanha — Terraço da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Terraço da Vigília de Estuário\". Scene: night-watch terrace above a turbulent estuary, a recovered spell tome and divining pool. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-45cc91f8-1d10-4642-85ed-7f239653f148.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T42-painted-v2.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T42",
+      "name": "Versão de campanha — Posto da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Posto da Vigília de Estuário\". Scene: night-watch outpost with patrol lanterns overlooking river mouth and blue ritual spring. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "revision": {
+        "originalSource": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-6e05328b-a217-49b9-a3f1-30e7b40592e6.png",
+        "reason": "Fresh built-in regeneration after tiny signature persisted in edit. New final inspected clean.",
+        "tool": "image_gen.imagegen"
+      },
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-5c94a5a8-c4f9-4dfb-83eb-c4f510f5bbc1.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T43-painted-v1.png",
+      "text": "Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T43",
+      "name": "Versão de campanha — Santuário da Vigília de Estuário",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Versão de campanha — Santuário da Vigília de Estuário\". Scene: night-watch sanctuary with vaulted arches around tide pool and floating sealed ancient tome. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana de Água nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-88f86a64-4b42-4015-a29c-59c51bb0bf55.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T45-painted-v1.png",
+      "text": "Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T45",
+      "name": "Portões da entrada proibida dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Portões da entrada proibida dos Arquivos das Marés\". Scene: monumental forbidden archive entrance gates on sea cliffs, sealed bronze doors leaking multicoloured subtle magical light. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera uma mana de cor aleatória. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-ecaa5cf3-38ac-4651-894c-3e8344b3f39a.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T44-painted-v2.png",
+      "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T44",
+      "name": "Base de estudos dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Base de estudos dos Arquivos das Marés\". Scene: grand coastal research base of tide archives, interconnected medieval academy courtyards and water laboratories. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "revision": {
+        "originalSource": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-de7fe0e8-a02a-4a44-8e47-b6fc5834a855.png",
+        "reason": "Built-in edit removed signature-like lower-right marks; final inspected clean.",
+        "tool": "image_gen.imagegen"
+      },
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-59b6ea61-1567-481a-96a4-e2392e871003.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T46-painted-v1.png",
+      "text": "Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T46",
+      "name": "Mercado Ambulante dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Mercado Ambulante dos Arquivos das Marés\". Scene: travelling scholar market of tide archives on a harbor square, medieval stalls and wagons carrying closed volumes and glass vessels. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 incolor. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-4ede013c-7b3c-43c3-89e1-3ab56dd9bb82.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T47-painted-v1.png",
+      "text": "Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T47",
+      "name": "Estrada Real dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Estrada Real dos Arquivos das Marés\". Scene: royal cobblestone road along coast leading toward monumental medieval tide archive, scholarly pilgrims in distance. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana incolor na renovação do seu turno. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-287d7609-8c9b-487b-84fd-ec759f539ca3.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T48-painted-v1.png",
+      "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T48",
+      "name": "Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Pátio da Guarda de Pedra Cinzenta dos Arquivos das Marés\". Scene: grey stone guard courtyard at tide archives, fortified masonry and a luminous reflection basin. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-0d287b9c-1681-4624-ba24-aa425e4e6b48.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T49-painted-v1.png",
+      "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T49",
+      "name": "Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Travessia da Guarda de Pedra Cinzenta dos Arquivos das Marés\". Scene: grey stone guard crossing at tide archives, monumental stone bridge over deep blue sea channel. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-afa36920-f802-4ebf-ba15-7cd524b07a5f.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    },
+    {
+      "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-T50-painted-v1.png",
+      "text": "Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.",
+      "id": "ED261008-D02-T50",
+      "name": "Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés",
+      "prompt": "Use case: stylized-concept. Asset: exclusive terrain illustration for fantasy TCG card \"Torreão da Guarda de Pedra Cinzenta dos Arquivos das Marés\". Scene: grey stone guard keep at tide archives, tall crenellated tower overlooking scholarly coastal city. Belongs to the Arquivos das Marés, a coastal medieval scholarly civilization. Evoke its effect visually: Gera 1 mana incolor nas regras normais de geração de terrenos. Uma vez no seu turno, pague 3 manas genéricas: coloque um Truque do seu cemitério no fundo do grimório e olhe a carta do topo do seu grimório.. Treat mechanics as inspiration only, never draw game symbols or words. Refined detailed medieval oil painting with rich visible brushwork, realistic fantasy architecture, convincing atmospheric depth, soft dramatic blue magical light, natural sea and stone colours. Each scene is a unique landscape/place. Horizontal 4:3, central crop-safe focal architecture, full bleed painting. No lettering, text, numbers, UI, frames, borders, signatures, logos, or watermarks.",
+      "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13ac1-dbe8-7212-a1b3-c6c53da95444\\exec-62e9ded9-302b-45bb-a543-facecb429a7f.png",
+      "status": "generated-inspected",
+      "inspection": "Inspected individually: unique coastal medieval terrain tied to card, rich oil-paint brushwork, blue magical lighting, depth and crop-safe focal place; no text/UI/frame/signature/watermark.",
+      "tool": "image_gen.imagegen",
+      "checks": {
+        "png": true,
+        "width": 1448,
+        "height": 1086,
+        "uniqueHash": true,
+        "visualInspection": true
+      }
+    }
+  ]
+}

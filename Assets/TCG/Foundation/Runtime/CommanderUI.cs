@@ -32,7 +32,7 @@ namespace TCG.Table
             bool pending=match.Stack.Any(p=>p.Owner==Viewer&&p.Card?.Id==card.Id);
             string location=seat.CommanderReady?"Zona de comando":piece!=null?"Em campo":pending?"Na pilha":"Fora da zona";
             Solid(new Rect(1004,420,161,25),new Color(0,0,0,.2f));CardText(new Rect(1004,421,161,24),location,14,Gold,true,TextAnchor.MiddleCenter);
-            CardText(new Rect(1004,448,161,43),"Custo: "+(card.TotalCost+seat.CommanderCasts*2)+" mana\nAdicional: +"+(seat.CommanderCasts*2)+" incolor",12,Ink,false,TextAnchor.MiddleCenter);
+            CardText(new Rect(1004,448,161,43),"Custo: "+PrintedManaCost(card)+"\nAdicional: +"+(seat.CommanderCasts*2)+" gen.",11,Ink,false,TextAnchor.MiddleCenter);
             bool available=CommanderCanSelect();
             if(Button(1004,497,159,42,selectedCommander?"Cancelar seleção":piece!=null?"Selecionar em campo":"Conjurar",selectedCommander||available||piece!=null,true)){
                 if(piece!=null){selectedCommander=false;selectedCard=null;selectedUnit=piece.Id;selectedCell=match.Position(piece.Id);ResetDrag();}

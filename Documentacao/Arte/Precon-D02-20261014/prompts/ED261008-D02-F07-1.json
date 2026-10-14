@@ -1,0 +1,11 @@
+{
+  "index": 7,
+  "id": "ED261008-D02-F07-1",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Nota defensiva do Estuário; Instant; . Narrative effect inspiration (do not show text): Uma criatura sua recebe +0/+2 até o fim do turno. Se você já conjurou outra magia neste turno, olhe a carta do topo do seu grimório; você pode colocá-la no fundo.. Scene: A defender surrounded by curved blue protective parchment-like light on an estuary jetty, distant scholar divining a hovering blank leaf.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-57e1d6b4-67f3-4867-921c-e325f05c616f.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F07-1-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

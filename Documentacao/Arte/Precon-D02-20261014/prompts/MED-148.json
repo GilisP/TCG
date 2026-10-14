@@ -1,0 +1,11 @@
+{
+  "index": 1,
+  "id": "MED-148",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Card: Acalmar o Confronto. Type Instant. Effect inspiration: Uma criatura inimiga recebe -2 de ataque até o fim do turno. Scene: A serene blue-robed mediator raises an open hand between two armored opponents on a stone quay; soft tidal ribbons lower one warrior's poised weapon, conveying a peaceful reduction of aggression. Central faces and hands anatomically coherent.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-cf2ea13e-8a20-49e6-88f3-a615e4f9b620.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/MED-148-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Painted coastal scene, clear mediator and magic, no text or frame; anatomy and central crop checked."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "index": 16,
+  "id": "PD26-G-007",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz do Pórtico de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): Ao morrer, você pode colocar um Truque do seu cemitério no fundo do seu grimório.. Scene: Young human mage at estuary archway releasing a pale last spell into the depths of a sealed grimoire, solemn non-graphic twilight.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-e53e888a-0045-4da2-91bb-9f4e69789b30.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-007-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

@@ -47,7 +47,7 @@ namespace TCG.Foundation.Editor
         }
         public static void BuildCardArt()
         {
-            AssetDatabase.Refresh();PreconArtChecks.Run();CommanderPresentationChecks.Run();BuildPreparedPlayer();
+            AssetDatabase.Refresh();PreconArtChecks.Run();SpellPresentationChecks.Run();CommanderPresentationChecks.Run();BuildPreparedPlayer();
         }
         static void BuildPreparedPlayer()
         {

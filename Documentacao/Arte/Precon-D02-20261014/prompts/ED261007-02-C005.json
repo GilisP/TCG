@@ -1,0 +1,11 @@
+{
+  "index": 6,
+  "id": "ED261007-02-C005",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Nota de Rodapé; Instant; . Narrative effect inspiration (do not show text): Olhe as duas cartas do topo do seu grimório. Coloque uma no fundo e a outra no topo.. Scene: Close view of scholar's gloved hand sorting two blank illuminated parchment leaves near the foot of an open tome; one slides underneath, candlelit.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-538d177e-a1c5-45b8-90ca-e800a386f92b.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261007-02-C005-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

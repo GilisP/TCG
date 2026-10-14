@@ -1,0 +1,17 @@
+{
+  "index": 12,
+  "id": "ED261008-D02-F01-1",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. Subject Revisar a fórmula do Estuário; Instant; . Narrative effect inspiration (do not show text): Anule um Truque ou Feitiço na pilha de custo total até 2.. Scene: A focused mage interrupts a hostile spell with a precise gesture, its blue geometric light unraveling above estuary quay.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-33648031-9a8b-4a0f-bfd1-afa15c044481.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/ED261008-D02-F01-1-painted-v2.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  },
+  "revision": {
+    "original": "Documentacao/Arte/Precon-D02-20261014/Revisoes/ED261008-D02-F01-1-painted-v1.png",
+    "method": "built-in image_gen edit",
+    "reason": "Removed tiny signature-like corner marks; natural scene texture preserved.",
+    "inspection": "Corrected output visually inspected and accepted."
+  }
+}

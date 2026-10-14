@@ -1,0 +1,11 @@
+{
+  "index": 50,
+  "id": "PD26-G-016",
+  "prompt": "Exclusive medieval fantasy collectible card illustration, richly textured oil painting with visible confident brushwork, detailed painterly realism, dramatic cyan/turquoise magical light contrasted with amber lanterns, coastal medieval scholarly setting. Landscape 4:3, crop-safe central subject, readable strong silhouette, full-bleed artwork only. No lettering, numbers, typography, cards, UI, frame, signature, watermark. Interpret rules as visual narrative without displaying rule text. All book pages and parchment sheets MUST be blank or contain only abstract painted light, NEVER handwriting or rows of lines. Every corner must have only scene brushwork, NEVER artist marks. Subject Aprendiz da Patrulha de Estuário; Creature; Humano,Mago. Narrative effect inspiration (do not show text): 1 PA: uma criatura inimiga adjacente recebe -1 de ataque até o fim do turno. Use apenas uma vez por turno.. Scene: Young human patrol apprentice directs a slowing blue ribbon toward neighboring hostile guard from estuary stepping stones.",
+  "source": "C:\\Users\\gil\\.codex\\generated_images\\01a13abc-19ce-7dd2-8b7a-d206ca1a1b29\\exec-35d9a100-1f61-4391-97a2-e191feae83ff.png",
+  "output": "Assets/TCG/Resources/CardArt/PreconD02/PD26-G-016-painted-v1.png",
+  "inspection": {
+    "status": "accepted",
+    "notes": "Individually visually inspected: readable subject and visual effect, painted coastal palette and brushwork, no lettering/UI/card frame; crop and anatomy acceptable."
+  }
+}

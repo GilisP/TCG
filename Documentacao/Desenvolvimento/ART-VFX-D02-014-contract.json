@@ -1,0 +1,30 @@
+{
+  "taskId": "ART-VFX-D02-014",
+  "status": "in-progress",
+  "objective": "Exclusive D02 art, printed mana verification and nonpermanent spell VFX",
+  "precon": "Arquivo das marés",
+  "newImages": 142,
+  "preserve": [
+    "PD26-G-019",
+    "PD26-G-001",
+    "PD26-G-030",
+    "MED-204",
+    "MED-025",
+    "PD26-LG-001",
+    "PD26-LG-002",
+    "PD26-LG-003",
+    "MED-193"
+  ],
+  "owners": {
+    "pintura_d02_a": "batch1 50 images/prompts",
+    "pintura_d02_b": "batch2 50 images/prompts",
+    "magias_vfx_d02": "MedievalVisuals.SpellVisual, SpellPresentation, checks",
+    "root": "remaining42 dispatch, manifest/import/layout, Unity tests/build, docs/Git"
+  },
+  "contracts": [
+    "CardData unchanged; ID/standard image binding; shared art preserved",
+    "VFX consumes authoritative MatchEvents, capital announcement and resolution impact",
+    "No private information/protocol changes"
+  ],
+  "next": "Complete142assets andVFX, integrate/test main Unity. Recovery unrelated preserved."
+}
