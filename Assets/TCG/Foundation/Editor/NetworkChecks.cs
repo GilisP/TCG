@@ -9,7 +9,7 @@ namespace TCG.Foundation.Editor
   static int checks;
   public static void Run()
   {
-   checks=0;var effects=new EffectRegistry();var catalog=ContentLoader.Load(effects);double time=0;
+   checks=0;var effects=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(effects);double time=0;
    foreach(int count in new[]{2,4}){
     var room=new NetworkRoom(catalog,effects,"test",count,count==4,()=>time);var seq=new int[count];var tokens=new string[count];
     for(int i=0;i<count;i++){var reply=room.Receive((ulong)i,new RoomRequest{type="hello",content="test",name="Seat "+i});Ok(reply.seat==i&&reply.token.Length>=40,"assigned seat and secret");tokens[i]=reply.token;var missing=Deck(i);missing.commander="";Ok(room.Receive((ulong)i,new RoomRequest{type="deck",sequence=++seq[i],deck=missing}).error.Contains("comandante"),"host rejects commanderless deck");Ok(room.Receive((ulong)i,new RoomRequest{type="ready",sequence=++seq[i],ready=true}).error.Length>0,"cannot ready without valid deck");Send(i,new RoomRequest{type="deck",deck=Deck(i)});Send(i,new RoomRequest{type="ready",ready=true});}

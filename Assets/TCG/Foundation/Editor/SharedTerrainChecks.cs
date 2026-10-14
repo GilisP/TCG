@@ -10,7 +10,7 @@ namespace TCG.Foundation.Editor
         public static void Run()
         {
             int checks=0;void Check(bool ok,string name){checks++;if(!ok)throw new Exception("SHARED TERRAIN: "+name);}
-            var effects=new EffectRegistry();var catalog=ContentLoader.Load(effects);
+            var effects=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(effects);
             void Do(Match m,ActionKind kind,int target=-1,int pile=0,int player=-1,string card=null)
             {if(!m.Try(new Command{player=player<0?m.Controller:player,revision=m.Revision,kind=kind,target=target,pile=pile,card=card},out var error))throw new Exception("SHARED action: "+error);}
             for(int count=2;count<=4;count++)for(int seed=0;seed<8;seed++)

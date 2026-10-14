@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 namespace TCG.Foundation
@@ -44,6 +44,7 @@ namespace TCG.Foundation
         public void BuyCard(string id)
         {
             var card=catalog.Get(catalog.Identity(id));
+            if(!catalog.IsActive(card.Id))throw new InvalidOperationException("Carta fora do catálogo ativo.");
             if(!card.Playable)throw new InvalidOperationException("Esta carta ainda não está disponível para jogar.");
             if(Owns(id))throw new InvalidOperationException("Esta carta já está na coleção.");
             if(Data.coins<TestCardPrice)throw new InvalidOperationException("Moedas insuficientes.");
@@ -61,7 +62,7 @@ namespace TCG.Foundation
         string IdentityOrOriginal(string id){try{return catalog.Identity(id);}catch(InvalidOperationException){return id;}}
         public bool Collect(string id)
         {
-            string canonical=catalog.Identity(id);if(Owns(canonical))return false;Data.owned.Add(canonical);return true;
+            string canonical=catalog.Identity(id);if(!catalog.IsActive(canonical))throw new InvalidOperationException("Carta fora do catálogo ativo.");if(Owns(canonical))return false;Data.owned.Add(canonical);return true;
         }
         public void SaveDeck(DeckData deck)
         {

@@ -1,0 +1,41 @@
+{
+  "id": "UI-CAT-014",
+  "date": "2026-10-14",
+  "backup": "17966bd origin/main confirmed before changes",
+  "scope": "HUD/UI first; active cards union ten official precons plus all commanders; board terrain visuals planned only",
+  "owners": {
+    "ui_refino": [
+      "MedievalSkin.cs",
+      "TableView.cs aesthetic helpers",
+      "HubUI.cs"
+    ],
+    "cartas_estetica": [
+      "CardAppearanceUI.cs",
+      "CommanderUI.cs",
+      "DeckSelectionUI.cs"
+    ],
+    "catalogo_oficial": [
+      "Content.cs",
+      "ContentLoader.cs",
+      "CollectionLibrary.cs",
+      "PlannedDeckUI.cs",
+      "PreconstructedDeckUI.cs",
+      "OfficialCatalogChecks.cs"
+    ],
+    "root": [
+      "FoundationSetup.cs",
+      "NetworkUI.cs",
+      "NetworkSession.cs",
+      "Editor fixture callers",
+      "docs and tests"
+    ]
+  },
+  "criteria": [
+    "gameplay excludes retired cards from deck, collection, purchases and boosters",
+    "all ten precons playable and all commanders retained",
+    "profile and historical definitions preserved",
+    "compile and relevant UI/network flows pass",
+    "terrain plans do not add rules"
+  ],
+  "status": "in-progress"
+}

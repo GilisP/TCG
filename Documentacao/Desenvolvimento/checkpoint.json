@@ -1,8 +1,7 @@
 {
-  "taskId": "HIST-001",
-  "status": "integrated-verified",
-  "date": "2026-10-12",
-  "backupCommit": "f82d856",
-  "evidence": "HIST-001-I-result.json",
-  "next": "Build39569 andRuntime127 passed. UseJogarHistoria; canonical10precons,9duels+3specials, dailyperenemy, IApartner default. Manualvisual/strategy/fullcampaign evaluation percentralpendingP09/P10/P03; optionalquestions notexplicitlyanswered sodefaultsprovisional. Do not reimplement or grantcoins. FinishGitcommit/push thenopenmainUnityMesa. Runtimebeforefinaltext-only translation; maincore/battle logicunchanged. Personalprofile testsisolated."
+  "taskId": "UI-CAT-014",
+  "status": "integrated-verified-with-visual-review-pending",
+  "date": "2026-10-14",
+  "evidence": "UI-CAT-014-result.json",
+  "next": "Review HUD visually in main Unity Mesa; next authorized visual stage is board terrain samples per vault plan12. Do not grant coins or remove historical profile/source data. Check git log for delivery commit."
 }

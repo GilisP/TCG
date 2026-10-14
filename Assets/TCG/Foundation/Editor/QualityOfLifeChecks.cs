@@ -12,7 +12,7 @@ public static class QualityOfLifeChecks
     {Assert(m.Try(new Command{player=m.Controller,revision=m.Revision,kind=action,target=target,card=card,pile=0},out var error),action+" "+error);}
     public static void Run()
     {
-        checks=0;var registry=new EffectRegistry();var catalog=ContentLoader.Load(registry);
+        checks=0;var registry=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(registry);
         foreach(int count in new[]{2,3,4})
         {
             var mains=Enumerable.Range(0,count).Select(_=>Enumerable.Repeat("MED-085",100).ToArray()).ToArray();

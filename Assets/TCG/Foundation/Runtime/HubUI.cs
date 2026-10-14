@@ -18,13 +18,14 @@ namespace TCG.Table
         }
         void DrawHub()
         {
-            Fill(new Rect(0,0,1600,1000),Dark);
+            HubBackdrop();
             Text(36,20,620,39,"F R O N T E I R A S",heading,Gold);
             Text(36,59,580,24,"A MESA DOS REINOS",small,Muted);
             string[] tabs={"01  JOGAR","02  COLEÇÃO E DECKS","03  LOJA","04  MENU"};
             GUI.enabled=inspected==null&&!exitRequested&&pendingPurchase==null&&!filtersOpen&&openedBooster==null;
             for(int i=0;i<4;i++)if(Button(640+i*232,25,222,58,tabs[i],true,(int)hubPage==i))NavigateHub((HubPage)i);
-            Fill(new Rect(35,105,1530,2),Gold*.45f);
+            Solid(new Rect(35,105,1530,1),new Color(Gold.r,Gold.g,Gold.b,.5f));
+            Jewel(new Vector2(35,105),4,Gold);Jewel(new Vector2(1565,105),4,Gold);
             if(hubPage==HubPage.Play)DrawPlayPage();
             else if(hubPage==HubPage.Collection)
             {
@@ -72,10 +73,10 @@ namespace TCG.Table
             Text(1110,231,420,30,"Jogadores",body,Muted);
             for(int n=2;n<=4;n++)if(Button(1110+(n-2)*145,275,130,48,n.ToString(),true,players==n)){players=n;if(n!=4)teams=false;}
             if(Button(1110,348,420,48,teams?"Duplas · lados opostos":"Todos contra todos",players==4))teams=!teams;
-            if(localDeckSetup&&Button(1110,428,420,50,useSavedDecks?"Salvos / precons / planejados":"Experimentar comandante"))useSavedDecks=!useSavedDecks;
+            if(localDeckSetup&&Button(1110,428,420,50,useSavedDecks?"Salvos / precons oficiais":"Experimentar comandante"))useSavedDecks=!useSavedDecks;
             if(Button(1110,510,420,55,"SALAS ONLINE / REDE LOCAL"))networkPage=true;
             if(Button(1110,578,420,55,"JOGAR HISTÓRIA",network==null||!network.Running))OpenStoryMap();
-            Text(1110,649,410,75,localDeckSetup?(useSavedDecks?"Escolha os decks à esquerda. Rascunhos inválidos não podem iniciar a partida.":"Escolha um comandante: precon correspondente, seguido do planejado."):"Criar mesa abre a escolha dos decks, antes de iniciar o jogo.",small,Muted);
+            Text(1110,649,410,75,localDeckSetup?(useSavedDecks?"Escolha os decks à esquerda. Rascunhos inválidos não podem iniciar a partida.":"Escolha um comandante: precon correspondente ou base experimental de cartas ativas."):"Criar mesa abre a escolha dos decks, antes de iniciar o jogo.",small,Muted);
             if(Button(1110,737,420,64,localDeckSetup?"INICIAR COM ESTES DECKS":"CRIAR MESA LOCAL",true,true)){if(localDeckSetup){commanderDemo=true;StartMatch();}else PrepareLocalTable();}
             if(Button(1110,823,420,51,"Voltar à partida",sessionAvailable&&!match.Over)){menu=libraryOpen=false;}
             Text(45,958,1490,27,hubNotice,small,Gold);
@@ -114,7 +115,9 @@ namespace TCG.Table
         }
         void DrawBackPreview(Rect r,CosmeticDefinition cosmetic)
         {
-            Fill(r,Gold);Fill(new Rect(r.x+5,r.y+5,r.width-10,r.height-10),TableWorld.Hex(cosmetic.Color));
+            SurfaceGradient(r,Gold,.16f);SurfaceGradient(new Rect(r.x+5,r.y+5,r.width-10,r.height-10),TableWorld.Hex(cosmetic.Color),.2f);
+            PaperGrain(new Rect(r.x+5,r.y+5,r.width-10,r.height-10),.04f);
+            OrnateBorder(new Rect(r.x+10,r.y+10,r.width-20,r.height-20),Gold);
             Fill(new Rect(r.x+16,r.y+16,r.width-32,2),Gold);Fill(new Rect(r.x+16,r.yMax-18,r.width-32,2),Gold);
             var matrix=GUI.matrix;GUIUtility.RotateAroundPivot(45,r.center);Fill(new Rect(r.center.x-32,r.center.y-32,64,64),Gold);Fill(new Rect(r.center.x-23,r.center.y-23,46,46),TableWorld.Hex(cosmetic.Color));GUI.matrix=matrix;
             Text(r.x+12,r.yMax-58,r.width-24,30,"F R O N T E I R A S",label,Gold);

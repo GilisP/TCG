@@ -11,6 +11,15 @@ namespace TCG.Table
     {
         public static ContentCatalog Load(EffectRegistry effects)
         {
+            var catalog=LoadFixtures(effects);
+            var file=JsonUtility.FromJson<PlannedDeckFile>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Decks","official-precons.json")));
+            if(file==null||file.version!=1||file.decks==null||file.decks.Length!=10)throw new InvalidOperationException("Catálogo ativo exige os dez precons oficiais.");
+            catalog.RestrictToOfficialPrecons(file.decks.SelectMany(d=>d.main.Concat(d.terrains).Concat(new[]{d.commander})));
+            return catalog;
+        }
+        // Full historical corpus is available only through explicit fixture loading.
+        public static ContentCatalog LoadFixtures(EffectRegistry effects)
+        {
             var catalog=new ContentCatalog();
             var directory=Path.Combine(Application.streamingAssetsPath,"Expansions");
             if(!Directory.Exists(directory)) throw new InvalidOperationException("Pasta de expansões ausente: "+directory);
@@ -26,6 +35,7 @@ namespace TCG.Table
         }
         public static Match MedievalTable(ContentCatalog catalog,EffectRegistry effects,int players,bool teams,int seed,int firstColor=0)
         {
+            if(catalog.IsGameplayCatalog)return OfficialTable(catalog,effects,players,teams,seed);
             var main=new List<string[]>();var lands=new List<string[]>();
             for(int p=0;p<players;p++) {
                 int color=(firstColor+p)%6;
@@ -49,12 +59,15 @@ namespace TCG.Table
                 if(cards.Length==0||colors.Length==0)throw new InvalidOperationException("Comandante sem base de cartas/terrenos para demonstração.");
                 // Experimental repeated lists are session fixtures, never granted to the collection.
                 main.Add(Enumerable.Range(0,48).Select(i=>cards[i%cards.Length].Id).ToArray());
-                terrains.Add(Enumerable.Range(0,50).Select(i=>"test-land-"+colors[i%colors.Length]).ToArray());
+                var availableTerrains=catalog.Cards.Where(c=>c.Playable&&c.Kind==CardType.Terrain&&CardFilter.CardColors(c).All(color=>color==6||colors.Contains(color))).OrderBy(c=>c.Id).ToArray();
+                if(availableTerrains.Length==0)throw new InvalidOperationException("Comandante sem terrenos ativos compatíveis.");
+                terrains.Add(Enumerable.Range(0,50).Select(i=>availableTerrains[i%availableTerrains.Length].Id).ToArray());
             }
             return new Match(catalog,effects,players,teams,seed,main,terrains,commanders.Take(players).ToArray());
         }
         public static Match TestTable(ContentCatalog catalog,EffectRegistry effects,int players,bool teams,int seed)
         {
+            if(catalog.IsGameplayCatalog)return OfficialTable(catalog,effects,players,teams,seed);
             var expansions=catalog.Expansions.Keys.Where(x=>x.StartsWith("demo-",StringComparison.Ordinal)).OrderBy(x=>x,StringComparer.Ordinal).ToArray();
             if(expansions.Length==0) throw new InvalidOperationException("Os pacotes demo- da mesa de teste estão ausentes.");
             var main=new List<string[]>(); var terrains=new List<string[]>();
@@ -68,6 +81,13 @@ namespace TCG.Table
                 terrains.Add(Enumerable.Range(0,50).Select(i=>lands[i%lands.Length]).ToArray());
             }
             return new Match(catalog,effects,players,teams,seed,main,terrains);
+        }
+        static Match OfficialTable(ContentCatalog catalog,EffectRegistry effects,int players,bool teams,int seed)
+        {
+            var library=PreconstructedDeckLoader.Load(catalog);var ready=library.Decks.Where(library.Ready).ToArray();
+            if(ready.Length==0)throw new InvalidOperationException("Nenhum precon oficial disponível.");
+            var decks=Enumerable.Range(0,players).Select(i=>ready[i%ready.Length]).ToArray();
+            return new Match(catalog,effects,players,teams,seed,decks.Select(d=>d.main).ToList(),decks.Select(d=>d.terrains).ToList(),decks.Select(d=>d.commander).ToArray());
         }
     }
 }

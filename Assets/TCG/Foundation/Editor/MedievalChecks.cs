@@ -40,7 +40,7 @@ public static class MedievalChecks
     public static int Main()
     {
         try{ checks=0;
-            catalog=ContentLoader.Load(registry);
+            catalog=ContentLoader.LoadFixtures(registry);
             Assert(catalog.Cards.Count(c=>c.Expansion=="EXP-001-base")==72,"72 cartas medievais");
             foreach(var c in catalog.Cards.Where(c=>c.Expansion=="EXP-001-base")){
                 var m=Game();Add(m,"MED-085",59);Add(m,"MED-085",61);Add(m,"MED-085",62,1-m.Active);Add(m,"MED-117",71);Add(m,"MED-085",71);

@@ -32,7 +32,7 @@ namespace TCG.Table
 
         GUIStyle title, menuTitle, heading, body, small, cardName, label; float scale;
 
-        static readonly Color Ink=TableWorld.Hex("FFF8E4"), Muted=TableWorld.Hex("E1D2B8"), Panel=TableWorld.Hex("2A2420"), Gold=TableWorld.Hex("E1BC78"), Dark=TableWorld.Hex("171513");
+        static readonly Color Ink=TableWorld.Hex("F3EDDC"), Muted=TableWorld.Hex("BFC5BB"), Panel=TableWorld.Hex("19272A"), Gold=TableWorld.Hex("DDBB7D"), Dark=TableWorld.Hex("0B1318");
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
 
@@ -44,12 +44,17 @@ namespace TCG.Table
 
             Application.runInBackground=true; Application.targetFrameRate=60;
 
-            try { effects=new EffectRegistry(); catalog=ContentLoader.Load(effects); LoadLibrary(); world=new GameObject("Sala dos reinos").AddComponent<TableWorld>(); world.Setup();world.FoilAppearance=(owner,card)=>CardFoil(card,owner); world.SetRoom(PlayerPrefs.GetInt("TCG.Room",0));AudioListener.volume=PlayerPrefs.GetFloat("TCG.Volume",1);if(PlayerPrefs.HasKey("TCG.Fullscreen"))Screen.fullScreen=PlayerPrefs.GetInt("TCG.Fullscreen")==1; StartMatch(); menu=true; handoff=false; sessionAvailable=false; StartDiagnosticsIfRequested(); }
+            try { effects=new EffectRegistry(); catalog=HistoricalDiagnostic()?ContentLoader.LoadFixtures(effects):ContentLoader.Load(effects); LoadLibrary(); world=new GameObject("Sala dos reinos").AddComponent<TableWorld>(); world.Setup();world.FoilAppearance=(owner,card)=>CardFoil(card,owner); world.SetRoom(PlayerPrefs.GetInt("TCG.Room",0));AudioListener.volume=PlayerPrefs.GetFloat("TCG.Volume",1);if(PlayerPrefs.HasKey("TCG.Fullscreen"))Screen.fullScreen=PlayerPrefs.GetInt("TCG.Fullscreen")==1; StartMatch(); menu=true; handoff=false; sessionAvailable=false; StartDiagnosticsIfRequested(); }
 
             catch(Exception e) { fatal=e.Message; Debug.LogException(e); }
 
         }
 
+        static bool HistoricalDiagnostic()
+        {
+            string[] flags={"-tcg-verify","-tcg-medieval-verify","-tcg-qol-verify","-tcg-movement-verify","-tcg-drag-verify","-tcg-reaction-verify","-tcg-personality-verify","-tcg-collection-verify","-tcg-filter-verify","-tcg-commanders-verify","-tcg-foil-commanders-verify","-tcg-progress-verify","-tcg-pile-verify","-tcg-planned-decks-verify","-tcg-planned-net"};
+            return Environment.GetCommandLineArgs().Any(flags.Contains);
+        }
         void StartMatch()
 
         {
@@ -78,7 +83,9 @@ namespace TCG.Table
             cardName=new GUIStyle(body){fontSize=15,fontStyle=FontStyle.Bold}; label=new GUIStyle(small){alignment=TextAnchor.MiddleCenter,fontStyle=FontStyle.Bold};
 
             var serif=Font.CreateDynamicFontFromOSFont(new[]{"Georgia","Palatino Linotype","Times New Roman"},24);
+            var sans=Font.CreateDynamicFontFromOSFont(new[]{"Segoe UI","Arial"},17);
             foreach(var style in new[]{title,menuTitle,heading,cardName})style.font=serif;
+            foreach(var style in new[]{body,small,label})style.font=sans;
             foreach(var style in new[]{title,menuTitle,heading,body,small,cardName,label}) style.normal.textColor=Color.white;
 
         }
@@ -93,12 +100,18 @@ namespace TCG.Table
 
             var rect=new Rect(x,y,w,h); bool old=GUI.enabled; GUI.enabled=old&&enabled;
 
-            Fill(rect,GUI.enabled?(accent?Gold:TableWorld.Hex("4B3327")):TableWorld.Hex("302A24"));
+            bool hover=GUI.enabled&&rect.Contains(Event.current.mousePosition);
+            bool pressed=hover&&Input.GetMouseButton(0);
+            var face=GUI.enabled?(accent?TableWorld.Hex("B99456"):TableWorld.Hex("263C40")):TableWorld.Hex("1D282C");
+            if(hover)face=Color.Lerp(face,accent?TableWorld.Hex("E5C990"):TableWorld.Hex("426168"),.38f);
+            if(pressed)face=Color.Lerp(face,Dark,.2f);
+            SurfaceGradient(rect,face,pressed ? .025f : accent ? .2f : .12f);
+            Stroke(new Rect(x+1,y+1,w-2,h-2),GUI.enabled?(accent?TableWorld.Hex("E3C88F"):hover?TableWorld.Hex("B79867"):TableWorld.Hex("63716B")):TableWorld.Hex("3E4A4B"));
+            Stroke(new Rect(x+3,y+3,w-6,h-6),new Color(0,0,0,.18f));
+            Solid(new Rect(x+5,y+3,w-10,1),new Color(1,.93f,.75f,GUI.enabled ? .2f : .06f));
+            PaperGrain(new Rect(x+3,y+3,w-6,h-6),.028f);
 
-            Stroke(new Rect(x+1,y+1,w-2,h-2),accent?TableWorld.Hex("F3DBAB"):TableWorld.Hex("8C6C43"));PaperGrain(new Rect(x+3,y+3,w-6,h-6),.08f);
-            if(GUI.enabled&&rect.Contains(Event.current.mousePosition)) Fill(rect,new Color(1,1,1,.09f));
-
-            bool active=GUI.enabled; GUI.enabled=true; Text(x+6,y,w-12,h,text,label,active&&accent?Dark:active?Ink:Muted); GUI.enabled=active;
+            bool active=GUI.enabled; GUI.enabled=true; Text(x+6,y,w-12,h,text,label,active&&accent?TableWorld.Hex("17211F"):active?Ink:TableWorld.Hex("83908C")); GUI.enabled=active;
 
             bool clicked=GUI.Button(rect,GUIContent.none,GUIStyle.none); GUI.enabled=old; return clicked;
 

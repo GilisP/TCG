@@ -64,7 +64,17 @@ namespace TCG.Foundation
         readonly Dictionary<string,Definition> cards = new Dictionary<string,Definition>(StringComparer.Ordinal);
         readonly Dictionary<string,string> printings = new Dictionary<string,string>(StringComparer.Ordinal);
         readonly Dictionary<string,string> expansions = new Dictionary<string,string>(StringComparer.Ordinal);
-        public IReadOnlyCollection<Definition> Cards => cards.Values;
+        HashSet<string> activeIds;
+        public bool IsGameplayCatalog => activeIds!=null;
+        public IReadOnlyCollection<Definition> Cards => activeIds==null?cards.Values:(IReadOnlyCollection<Definition>)cards.Values.Where(c=>activeIds.Contains(c.Id)).ToArray();
+        public bool IsActive(string id) {try{return activeIds==null||activeIds.Contains(Identity(id));}catch(InvalidOperationException){return false;}}
+        // Keep historical definitions readable for inventories and drafts; acquisition and play use the active set.
+        public void RestrictToOfficialPrecons(IEnumerable<string> ids)
+        {
+            var allowed=new HashSet<string>(ids.Select(Identity),StringComparer.Ordinal);
+            foreach(var card in cards.Values.Where(c=>c.IsCommander))allowed.Add(card.Id);
+            activeIds=allowed;
+        }
         public IReadOnlyDictionary<string,string> Expansions => expansions;
         public Definition Get(string id) => cards.TryGetValue(id ?? "",out var card) ? card : throw new InvalidOperationException("Carta desconhecida: "+id);
         public string Identity(string id) => printings.TryGetValue(id ?? "",out var card) ? card : Get(id).Id;
@@ -136,7 +146,7 @@ namespace TCG.Foundation
             var seen=new Dictionary<string,int>();
             foreach(var id in m.Concat(t))
             {
-                try { var identity=Identity(id); if(!seen.ContainsKey(identity))seen[identity]=0;seen[identity]++;if(standard && seen[identity]>Get(identity).MaxCopies) errors.Add("Carta/reimpressão repetida: "+identity); }
+                try { var identity=Identity(id); if(!IsActive(identity))errors.Add("Carta fora do catálogo ativo: "+identity); if(!seen.ContainsKey(identity))seen[identity]=0;seen[identity]++;if(standard && seen[identity]>Get(identity).MaxCopies) errors.Add("Carta/reimpressão repetida: "+identity); }
                 catch(InvalidOperationException e) { errors.Add(e.Message); }
             }
             foreach(var id in m) if(cards.ContainsKey(ResolveKnown(id)) && Get(ResolveKnown(id)).Kind==CardType.Terrain) errors.Add("Terreno no principal.");

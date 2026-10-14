@@ -28,7 +28,7 @@ namespace TCG.Table
    // Explicit test preset; it never grants cards or changes the saved collection.
    return NetworkPresetDeck();
   }
-  DeckData NetworkPresetDeck()=>new DeckData{id="network-test-sun",name="Sol · Cem Lanças (teste)",commander="MED-196",experimental=true,main=Enumerable.Repeat("MED-085",48).ToList(),terrains=Enumerable.Repeat("test-land-0",50).ToList()};
+  DeckData NetworkPresetDeck()=>PreconstructedDeckLibrary.Create(PreconstructedDeckLoader.Load(catalog).Decks.First(d=>d.id=="COL001-D04"));
   void DrawNetworkPage()
   {
    EnsureNetwork();Fill(new Rect(0,0,1600,1000),Dark);Text(45,28,1280,54,"MESAS ENTRE JOGADORES",menuTitle,Gold);
@@ -39,7 +39,7 @@ namespace TCG.Table
    if(network.Running&&state!=null){
     Text(65,175,650,42,"SALA · "+network.Code,heading,Gold);Text(65,224,650,30,state.teams?"Duplas · assentos 1+3 / 2+4":"Todos contra todos",body,Ink);
     foreach(var member in state.members??Array.Empty<RoomMemberView>()){float y=278+member.seat*73;Text(65,y,620,30,(member.seat+1)+" · "+member.name+(member.seat==state.seat?" (você)":""),body,Ink);Text(65,y+30,620,28,member.connected?(member.ready?"Pronto":"Escolhendo deck"):"Desconectado · "+Mathf.CeilToInt(member.remaining)+" s",small,Muted);}
-    if(!state.started){Text(65,605,630,28,"Seu deck",body,Gold);if(Button(65,643,630,46,networkDeck<0?"Escolher deck":networkDeck==0?"Sol · Comandante das Cem Lanças":TableDeckLabel(TableDeckChoices().ElementAtOrDefault(networkDeck-1)),!network.Busy))OpenDeckSelection(state.seat,true);
+    if(!state.started){Text(65,605,630,28,"Seu deck",body,Gold);if(Button(65,643,630,46,networkDeck<0?"Escolher deck":networkDeck==0?"Cerco das Cem Lanças · precon oficial":TableDeckLabel(TableDeckChoices().ElementAtOrDefault(networkDeck-1)),!network.Busy))OpenDeckSelection(state.seat,true);
      if(Button(65,707,300,48,"Confirmar deck",networkDeck>=0&&!network.Busy))networkDeckConfirmed=network.Send(new RoomRequest{type="deck",deck=NetworkDeck()});
      bool ready=state.members.Any(m=>m.seat==state.seat&&m.ready);if(Button(385,707,310,48,ready?"Não estou pronto":"Estou pronto",!network.Busy&&(ready||networkDeckConfirmed&&string.IsNullOrEmpty(network.LastError))))network.Send(new RoomRequest{type="ready",ready=!ready});
      if(Button(65,773,630,55,"INICIAR PARTIDA",network.Hosting&&!network.Busy&&state.members.Length==state.capacity&&state.members.All(m=>m.ready&&m.connected),true))network.Send(new RoomRequest{type="start"});

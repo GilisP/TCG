@@ -9,7 +9,7 @@ public static class CollectionChecks
     static int checks;static void Check(bool ok,string label){checks++;if(!ok)throw new Exception("COLLECTION: "+label);}
     public static void Run()
     {
-        checks=0;var catalog=ContentLoader.Load(new EffectRegistry());var lib=new CollectionLibrary(catalog,new CollectionData());
+        checks=0;var catalog=ContentLoader.LoadFixtures(new EffectRegistry());var lib=new CollectionLibrary(catalog,new CollectionData());
         Check(lib.Collect("MED-085"),"collect once");Check(!lib.Collect("MED-085"),"idempotent ownership");lib.Collect("test-land-0");
         lib.Collect("MED-196");var d=new DeckData{commander="MED-196",name="Teste persistente",experimental=true,main=Enumerable.Repeat("MED-085",5).ToList(),terrains=Enumerable.Repeat("test-land-0",12).ToList()};
         var missing=d.Copy();missing.commander="";Check(lib.Validate(missing,true).Any(e=>e.Contains("comandante separado")),"experimental requires commander");missing.experimental=false;Check(lib.Validate(missing,true).Any(e=>e.Contains("comandante separado")),"standard requires commander");Check(lib.Validate(d,true).Count==0,"experimental legal");lib.SaveDeck(d);d.main.Clear();Check(lib.Data.decks[0].main.Count==5,"save copies draft");

@@ -44,18 +44,19 @@ namespace TCG.Table
    bool night=style=="nocturne",gilded=style=="illuminated";
    Color edge=selected?new Color(1,.88f,.5f):night?TableWorld.Hex("B9AED6"):gilded?TableWorld.Hex("E5C374"):TableWorld.Hex("AC864A");
    Color dark=night?TableWorld.Hex("221B33"):TableWorld.Hex("32251D"),paper=night?TableWorld.Hex("352C45"):gilded?TableWorld.Hex("F4E5BF"):TableWorld.Hex("D9C7A0"),ink=night?TableWorld.Hex("EEE5F5"):TableWorld.Hex("33271D");
-   Solid(new Rect(3,5,257,385),new Color(0,0,0,.7f));Solid(new Rect(0,0,260,390),edge);Solid(new Rect(4,4,252,382),dark);OrnateBorder(new Rect(7,7,246,376),edge);
-   Solid(new Rect(13,13,234,46),paper);PaperGrain(new Rect(13,13,234,46),.12f);CardText(new Rect(20,16,190,41),card.Name,17,ink,true);
+   Solid(new Rect(3,5,257,385),new Color(0,0,0,.6f));Solid(new Rect(0,0,260,390),dark);Stroke(new Rect(1,1,258,388),edge,2);OrnateBorder(new Rect(7,7,246,376),new Color(edge.r,edge.g,edge.b,.65f));
+   Solid(new Rect(13,13,234,46),paper);PaperGrain(new Rect(13,13,234,46),.035f);Stroke(new Rect(13,13,234,46),new Color(edge.r,edge.g,edge.b,.5f));
+   var titleStyle=new GUIStyle(GUI.skin.label){font=heading.font,fontSize=17,fontStyle=FontStyle.Bold,wordWrap=true,padding=new RectOffset(0,0,0,0),alignment=TextAnchor.MiddleLeft};titleStyle.normal.textColor=ink;while(titleStyle.fontSize>12&&titleStyle.CalcHeight(new GUIContent(card.Name),187)>38)titleStyle.fontSize--;GUI.Label(new Rect(20,17,187,38),card.Name,titleStyle);
    Jewel(new Vector2(226,35),17,TableWorld.Elements[card.Color]);CardText(new Rect(211,20,30,30),card.TotalCost.ToString(),18,TableWorld.Elements[card.Color].grayscale>.45f?Color.black:Color.white,true,TextAnchor.MiddleCenter);
    Solid(new Rect(12,63,236,176),edge);DrawIllustration(new Rect(15,66,230,170),CardIllustration(card,style));
    var colors=CardFilter.CardColors(card);for(int n=0;n<colors.Length;n++)Solid(new Rect(15+n*230f/colors.Length,231,230f/colors.Length,5),TableWorld.Elements[colors[n]]);
    Solid(new Rect(13,242,234,24),dark);CardText(new Rect(19,244,222,20),TypeLabel(card)+(card.Subtypes.Count>0?" · "+string.Join(" / ",card.Subtypes):""),11,edge,true);
-   Solid(new Rect(13,269,234,82),paper);PaperGrain(new Rect(13,269,234,82),.16f);
+   Solid(new Rect(13,269,234,82),paper);PaperGrain(new Rect(13,269,234,82),.035f);Stroke(new Rect(13,269,234,82),new Color(edge.r,edge.g,edge.b,.4f));
    string rules=card.Text;var textStyle=new GUIStyle(GUI.skin.label){font=body.font,fontSize=12,wordWrap=true,normal={textColor=ink}};while(textStyle.fontSize>9&&textStyle.CalcHeight(new GUIContent(rules),219)>75)textStyle.fontSize--;
    if(textStyle.CalcHeight(new GUIContent(rules),219)>75)rules=rules.Length>205?rules.Substring(0,202)+"…":rules;GUI.Label(new Rect(20,272,219,76),rules,textStyle);
    string stats=card.Kind==CardType.Creature||card.IsVehicle?card.PrintedStats+"   PA "+card.Actions+"   MOV "+card.Movement+"   ALC "+card.Range:card.Kind==CardType.Construction?"DEFESA "+card.Defense:card.Kind==CardType.Equipment?"EQUIPAR "+card.EquipCost:card.Kind==CardType.Terrain?"T E R R E N O":"";
-   CardText(new Rect(16,353,228,20),stats,12,edge,true,TextAnchor.MiddleCenter);CardText(new Rect(17,369,226,10),card.Id+"  ·  "+RarityLabel(card)+"  ·  "+CardStyles.Name(style),8,edge,false,TextAnchor.MiddleCenter);
-   if((inspected==card?inspectionFoil:CardFoil(card))){float sweep=Mathf.Repeat(Time.unscaledTime*.22f,1);for(int n=0;n<5;n++)Solid(new Rect(10,64+sweep*173+n,240,1),new Color(.6f+n*.08f,1,1,.16f));CardText(new Rect(189,350,52,14),"FOIL",10,Color.cyan,true);}GUI.matrix=matrix;
+   CardText(new Rect(16,353,228,20),stats,11,night?paper:TableWorld.Hex("EEE0BE"),true,TextAnchor.MiddleCenter);CardText(new Rect(17,375,226,10),card.Id+"  ·  "+RarityLabel(card)+"  ·  "+CardStyles.Name(style),8,edge,false,TextAnchor.MiddleCenter);
+   if((inspected==card?inspectionFoil:CardFoil(card))){float sweep=Mathf.Repeat(Time.unscaledTime*.22f,1);for(int n=0;n<5;n++)Solid(new Rect(10,64+sweep*173+n,240,1),new Color(.6f+n*.08f,1,1,.16f));CardText(new Rect(190,66,50,13),"FOIL",9,new Color(.85f,1,1),true,TextAnchor.MiddleRight);}GUI.matrix=matrix;
   }
   void DrawIllustration(Rect r,Texture2D texture)
   {

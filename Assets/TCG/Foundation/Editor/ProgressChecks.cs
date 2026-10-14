@@ -9,7 +9,7 @@ namespace TCG.Foundation.Editor
         public static void Run()
         {
             int checks=0;void Check(bool ok,string name){checks++;if(!ok)throw new Exception("PROGRESS: "+name);}
-            var effects=new EffectRegistry();var catalog=ContentLoader.Load(effects);var m=ContentLoader.TestTable(catalog,effects,2,false,10);
+            var effects=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(effects);var m=ContentLoader.TestTable(catalog,effects,2,false,10);
             Check(m.Board.Count(c=>c.Terrain==Match.Ruins)==6,"three ruins per seat");
             Check(m.Seats[m.Active].Mana.Sum()==1,"ruins produce no mana");
             Check(m.Board[Match.Capital(0,2)].Terrain!=Match.Ruins,"capital uses deck card");

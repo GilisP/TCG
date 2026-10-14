@@ -14,7 +14,7 @@ public static class AuthorCardChecks
     static void Cast(Match m,string card){m.Seats[m.Active].hand.Add(catalog.Get(card));Do(m,ActionKind.Play,card:card);Settle(m);}
     public static void Run()
     {
-        checks=0;catalog=ContentLoader.Load(registry);
+        checks=0;catalog=ContentLoader.LoadFixtures(registry);
         {var m=Game();var p=Add(m,"MED-197",60);var victim=Add(m,"MED-085",61);int hand=m.Seats[m.Active].HandCount;Do(m,ActionKind.Activate,unit:p.Id);Settle(m);Check(m.Find(victim.Id)==null&&p.Attack==3&&p.Defense==6&&p.Actions==3&&m.Seats[m.Active].HandCount==hand+1,"ossuary sacrifice draw counters PA");}
         {var m=Game();var p=Add(m,"MED-200",60);Check(p.Range==3,"archer buffs own range");Add(m,"MED-085",61,1-m.Active);Check(p.Range==2,"adjacent enemy suppresses range");}
         {var m=Game();m.Board[60].Terrain=catalog.Get("MED-207");var p=Add(m,"MED-085",60);Check(p.Attack==3&&p.Defense==2,"reverse garden");}

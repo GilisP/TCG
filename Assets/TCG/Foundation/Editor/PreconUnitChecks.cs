@@ -18,7 +18,7 @@ public static class PreconUnitChecks
  {Assert(m.Try(new Command{kind=ActionKind.Choose,player=m.Controller,revision=m.Revision,target=key},out var error),"choice: "+error);}
  public static void Run()
  {
-  checks=0;var registry=new EffectRegistry();var catalog=ContentLoader.Load(registry);
+  checks=0;var registry=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(registry);
   Match Game(){var mains=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("MED-085",100).ToArray()).ToArray();var lands=Enumerable.Range(0,2).Select(_=>Enumerable.Repeat("test-land-0",50).ToArray()).ToArray();var m=new Match(catalog,registry,2,false,17,mains,lands);foreach(var cell in m.Board){cell.pieces.Clear();}m.Board[60].Terrain=catalog.Get("test-land-0");m.Board[60].Owner=m.Active;return m;}
   {
    var m=Game();int owner=m.Active;bool continued=false;var pending=new Pending{Owner=owner,SourceCell=60};

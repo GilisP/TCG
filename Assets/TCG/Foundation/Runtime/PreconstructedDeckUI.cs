@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace TCG.Table
  public sealed partial class TableView
  {
   bool preconsOpen;Vector2 preconsScroll;int preconPreview=-1;Vector2 preconCardsScroll;
-  List<DeckData> TableDeckChoices(){var precons=PreconstructedDeckLoader.Load(catalog);var blocked=new HashSet<string>(precons.Decks.Where(d=>!precons.Ready(d)).Select(d=>"precon-"+d.id));return library.Data.decks.Where(d=>!blocked.Contains(d.id)).Select(d=>d.Copy()).Concat(precons.Decks.Where(precons.Ready).Select(PreconstructedDeckLibrary.Create)).Concat(PlannedDeckLoader.Load(catalog).Decks.Select(d=>d.Create())).GroupBy(d=>d.id).Select(g=>g.First()).ToList();}
+  List<DeckData> TableDeckChoices(){var precons=PreconstructedDeckLoader.Load(catalog);var blocked=new HashSet<string>(precons.Decks.Where(d=>!precons.Ready(d)).Select(d=>"precon-"+d.id));return library.Data.decks.Where(d=>!blocked.Contains(d.id)&&library.Validate(d,true).Count==0).Select(d=>d.Copy()).Concat(precons.Decks.Where(precons.Ready).Select(PreconstructedDeckLibrary.Create)).Concat(PlannedDeckLoader.Load(catalog).Decks.Select(d=>d.Create())).GroupBy(d=>d.id).Select(g=>g.First()).ToList();}
   bool TemporaryDeck(string id)=>!library.Data.decks.Any(d=>d.id==id)&&(id.StartsWith("precon-",StringComparison.Ordinal)||id.StartsWith("planned-",StringComparison.Ordinal));
   List<string> ValidateTableDeck(DeckData d)=>d!=null&&TemporaryDeck(d.id)?new CollectionLibrary(catalog,new CollectionData{owned=catalog.Cards.Select(c=>c.Id).ToList()}).Validate(d,true):library.Validate(d,true);
   string TableDeckLabel(DeckData d)=>d==null?"Escolher deck":(d.id.StartsWith("precon-",StringComparison.Ordinal)?"Precon · ":d.id.StartsWith("planned-",StringComparison.Ordinal)?"Planejado · ":"Salvo · ")+d.name;

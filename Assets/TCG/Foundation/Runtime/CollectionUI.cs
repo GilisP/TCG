@@ -43,7 +43,7 @@ namespace TCG.Table
             Fill(new Rect(20,82,270,838),Panel);Text(35,96,240,35,"Meus decks",heading,Ink);
             if(Button(35,141,240,37,"Novo deck padrão"))NewDraft();
             if(Button(35,185,240,37,"Novo deck experimental"))NewDraft(true);
-            if(Button(35,231,240,49,"Decks planejados · 29"))plannedDecksOpen=true;
+            if(!catalog.IsGameplayCatalog&&Button(35,231,240,49,"Decks planejados · 29"))plannedDecksOpen=true;
             if(Button(35,286,240,49,"Precons · 10"))preconsOpen=true;
             deckListScroll=GUI.BeginScrollView(new Rect(28,346,250,381),deckListScroll,new Rect(0,0,230,Math.Max(371,library.Data.decks.Count*52)));
             for(int i=0;i<library.Data.decks.Count;i++){var d=library.Data.decks[i];if(Button(0,i*52,225,46,d.name,true,draft?.id==d.id)){draft=d.Copy();SelectDeckSection(false);libraryMessage="Deck aberto. Alterações só são persistidas ao salvar.";}}
@@ -108,7 +108,7 @@ namespace TCG.Table
         void DrawSavedDeckSetup()
         {
             Fill(new Rect(45,280,990,645),Panel);Text(75,310,910,45,"DECKS DA MESA",heading,Gold);
-            Text(75,368,910,57,"Cada assento escolhe um deck salvo, precon ou planejado. As listas temporárias não alteram a coleção.",body,Muted);
+            Text(75,368,910,57,"Cada assento escolhe um deck salvo ou precon oficial. As listas temporárias não alteram a coleção.",body,Muted);
             var choices=TableDeckChoices();for(int p=0;p<players;p++)
             {
                 float x=75+(p%2)*465,y=462+(p/2)*153;

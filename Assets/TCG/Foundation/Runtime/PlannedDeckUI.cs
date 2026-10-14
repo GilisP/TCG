@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using TCG.Foundation;
@@ -8,7 +8,7 @@ namespace TCG.Table
     public static class PlannedDeckLoader
     {
         static ContentCatalog cachedCatalog;static PlannedDeckLibrary cached;
-        public static PlannedDeckLibrary Load(ContentCatalog catalog){if(cachedCatalog!=catalog){cached=new PlannedDeckLibrary(catalog,JsonUtility.FromJson<PlannedDeckFile>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Decks","planned-decks.json"))));cachedCatalog=catalog;}return cached;}
+        public static PlannedDeckLibrary Load(ContentCatalog catalog){if(cachedCatalog!=catalog){cached=new PlannedDeckLibrary(catalog,catalog.IsGameplayCatalog?new PlannedDeckFile():JsonUtility.FromJson<PlannedDeckFile>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Decks","planned-decks.json"))));cachedCatalog=catalog;}return cached;}
     }
     public sealed partial class TableView
     {
@@ -28,7 +28,7 @@ namespace TCG.Table
             }
             GUI.EndScrollView();
             if(Button(50,845,470,52,"Voltar à coleção"))plannedDecksOpen=false;
-            if(Button(540,845,1000,52,"Importar os 29 decks e suas cartas de teste",collectionStore.CanWrite)){
+            if(Button(540,845,1000,52,"Importar os decks disponíveis",collectionStore.CanWrite&&plannedDecks.Decks.Count>0)){
                 try{foreach(var d in plannedDecks.Decks)library.ImportPlannedDeck(d);PersistLibrary();plannedDecksOpen=false;}catch(Exception e){library=collectionStore.Load(catalog);libraryMessage=e.Message;}
             }
         }

@@ -11,7 +11,7 @@ public static class HubChecks
     static bool Reject(Action action){try{action();return false;}catch(InvalidOperationException){return true;}}
     public static void Run()
     {
-        checks=0;var catalog=ContentLoader.Load(new EffectRegistry());var lib=new CollectionLibrary(catalog,new CollectionData());
+        checks=0;var catalog=ContentLoader.LoadFixtures(new EffectRegistry());var lib=new CollectionLibrary(catalog,new CollectionData());
         Check(lib.Data.coins==500&&lib.OwnsCosmetic("classic"),"prototype starting balance and default back");
         lib.BuyCard("MED-085");Check(lib.Owns("MED-085")&&lib.Data.coins==450,"purchase charges and grants");
         Check(Reject(()=>lib.BuyCard("MED-085"))&&lib.Data.coins==450,"duplicate does not charge");

@@ -16,7 +16,7 @@ public static class BoosterChecks
   checks=0;var catalog=ContentLoader.Load(new EffectRegistry());
   var pack=JsonUtility.FromJson<BoosterDefinition>(File.ReadAllText(Path.Combine(Application.streamingAssetsPath,"Economy","booster-medieval.json")));
   Check(pack.price==100&&pack.cards==5&&pack.duplicateRefund==10,"approved provisional economy");
-  var pool=pack.Pool(catalog);Check(pool.Length>70&&pool.All(c=>c.Playable&&pack.expansions.Contains(c.Expansion)),"eligible expansion pool");
+  var pool=pack.Pool(catalog);Check(pool.Length>70&&pool.All(c=>c.Playable&&catalog.IsActive(c.Id)&&(pack.expansions.Length==0||pack.expansions.Contains(c.Expansion))),"eligible expansion pool");
   var lib=new CollectionLibrary(catalog,new CollectionData());var receipt=lib.OpenBooster(pack,new ZeroRandom());
   Check(receipt.rewards.Count==5&&receipt.rewards.Count(r=>r.duplicate)==4&&receipt.refund==40&&lib.Data.coins==440,"duplicates within opening and refund");
   Check(lib.Data.owned.Count==1&&lib.Data.lastBooster==receipt,"grant identity and receipt");

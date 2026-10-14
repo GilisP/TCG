@@ -5,6 +5,20 @@ namespace TCG.Table
  public sealed partial class TableView
  {
   static Texture2D medievalGrain,diamond;
+  static void SurfaceGradient(Rect r,Color color,float lift=.12f)
+  {
+   Solid(r,color);int bands=16;for(int i=0;i<bands;i++){float t=i/(float)(bands-1);float alpha=lift*(1-t)*(1-t);Solid(new Rect(r.x,r.y+r.height*i/bands,r.width,r.height/bands+.5f),new Color(.72f,.82f,.82f,alpha));}
+   Solid(new Rect(r.x,r.yMax-1,r.width,1),new Color(0,0,0,.35f));
+  }
+  static void HubBackdrop()
+  {
+   SurfaceGradient(new Rect(0,0,1600,1000),Dark,.07f);
+   // Quiet manuscript geometry, confined to the canvas behind the existing controls.
+   for(int i=0;i<7;i++){float inset=28+i*13;Stroke(new Rect(inset,118+inset*.15f,1600-inset*2,850-inset*.35f),new Color(Gold.r,Gold.g,Gold.b,.012f));}
+   PaperGrain(new Rect(0,0,1600,1000),.025f);
+   SurfaceGradient(new Rect(0,0,1600,105),TableWorld.Hex("101A1D"),.065f);
+   Solid(new Rect(0,104,1600,1),new Color(Gold.r,Gold.g,Gold.b,.25f));
+  }
   static void Solid(Rect r,Color c){var old=GUI.color;GUI.color=c;GUI.DrawTexture(r,Texture2D.whiteTexture);GUI.color=old;}
   static void PaperGrain(Rect r,float opacity)
   {
@@ -20,13 +34,13 @@ namespace TCG.Table
   static void OrnateBorder(Rect r,Color c)
   {
    Stroke(r,c);Stroke(new Rect(r.x+4,r.y+4,r.width-8,r.height-8),new Color(c.r,c.g,c.b,.32f));
-   foreach(float x in new[]{r.x+9,r.xMax-9})foreach(float y in new[]{r.y+9,r.yMax-9}){Solid(new Rect(x-6,y-1,12,2),c);Solid(new Rect(x-1,y-6,2,12),c);}
+   foreach(float x in new[]{r.x+9,r.xMax-9})foreach(float y in new[]{r.y+9,r.yMax-9}){Jewel(new Vector2(x,y),3,c);}
   }
   static void MedievalFill(Rect r,Color color)
   {
    Solid(r,color);
    if(r.width>90&&r.height>55&&(color==Panel||color==Dark))
-   {PaperGrain(r,.045f);if(color==Panel){Solid(new Rect(r.x+1,r.y+1,r.width-2,3),TableWorld.Hex("84673F"));OrnateBorder(new Rect(r.x+4,r.y+4,r.width-8,r.height-8),TableWorld.Hex("665337"));}}
+   {SurfaceGradient(r,color,color==Panel ? .09f : .035f);PaperGrain(r,.028f);if(color==Panel){Stroke(new Rect(r.x+1,r.y+1,r.width-2,r.height-2),TableWorld.Hex("45504C"));OrnateBorder(new Rect(r.x+5,r.y+5,r.width-10,r.height-10),TableWorld.Hex("746044"));Solid(new Rect(r.x+17,r.y+1,r.width-34,1),new Color(Gold.r,Gold.g,Gold.b,.6f));}}
   }
  }
 }

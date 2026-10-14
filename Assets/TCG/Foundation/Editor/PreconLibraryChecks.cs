@@ -15,7 +15,7 @@ namespace TCG.Foundation.Editor
   static void Op(Match game,int owner,AbilityOp op,Action done){Check((bool)Invoke(game,"ResolvePreconLibraryOp",new Pending{Owner=owner},new CardAbility(),null,op,owner,done),"operation dispatched");Invoke(game,"Drain");}
   public static void Run()
   {
-   checks=0;effects=new EffectRegistry();catalog=ContentLoader.Load(effects);
+   checks=0;effects=new EffectRegistry();catalog=ContentLoader.LoadFixtures(effects);
    {var g=Game();var a=new CardAbility{ops=new[]{new AbilityOp{kind="pcl-counter",a=3,b=1}}};Check((bool)Invoke(g,"PreconLibraryHasTargets",a,new Pending{Owner=g.Active})==false,"counter unavailable without eligible stack target");}
    {
     var g=Game();int o=g.Active;g.Seats[o].main.Clear();var instant=catalog.Get("ED261008-D02-F01-1");var creature=catalog.Get("MED-085");g.Seats[o].main.Add(instant);g.Seats[o].main.Add(creature);bool done=false;Op(g,o,new AbilityOp{kind="pcl-select-top",a=2,value="magic"},()=>done=true);

@@ -19,7 +19,7 @@ namespace TCG.Foundation.Editor
   static void Choose(Match m,int key){Check(m.Try(new Command{kind=ActionKind.Choose,player=m.Controller,revision=m.Revision,target=key},out var error),"choice "+error);}
   public static void Run()
   {
-   checks=0;effects=new EffectRegistry();catalog=ContentLoader.Load(effects);
+   checks=0;effects=new EffectRegistry();catalog=ContentLoader.LoadFixtures(effects);
    Check(catalog.Cards.Count(c=>c.Id.StartsWith("AUTOR-20261007-",StringComparison.Ordinal))==14,"fourteen authored definitions retained");foreach(var card in catalog.Cards.Where(c=>c.Id.StartsWith("AUTOR-20261007-",StringComparison.Ordinal)))Check(card.Playable&&AbilitySchema.Valid(card.Abilities.ToArray()),"author data executable "+card.Id);
    {var m=Game();int owner=m.Active,victim=1-owner;Op(m,new Pending{Owner=owner},new AbilityOp{kind="pca-look-player"},player:victim);Check(m.Choice!=null&&m.Choice.Owner==owner&&m.Choice.Prompt.Contains(m.Seats[victim].main.Last().Name),"peek belongs to activator only");Choose(m,0);}
    {var m=Game();int owner=m.Active;var trigger=new CardAbility{trigger="pca-near-terrain",ops=new[]{new AbilityOp{kind="pca-mill-enemies",a=1}}};var crab=Add(m,owner,60,Card("crab",abilities:new[]{trigger}));Call(m,"PreconAuthorTerrainPlaced",owner,61);Check(m.Stack.Any(p=>p.Card==crab.Card),"orthogonal terrain queues crab");var stack=(List<Pending>)typeof(Match).GetField("stack",Private).GetValue(m);stack.Clear();Call(m,"PreconAuthorTerrainPlaced",owner,60);Check(m.Stack.Count==0,"same tile is not adjacent");}

@@ -162,5 +162,69 @@
     ],
     "doneWhen": "Build/runtime and docs verified together",
     "verification": "HIST-001-I-result.json"
+  },
+  {
+    "taskId": "UI-014-H",
+    "objective": "HUD and official catalog refinement",
+    "owner": "ui_refino",
+    "status": "integrated-verified",
+    "dependencies": [],
+    "scope": [
+      "MedievalSkin",
+      "TableView styles",
+      "HubUI"
+    ],
+    "doneWhen": "Integrated build and affected flows verified; visual review limitations recorded",
+    "verification": "UI-CAT-014-result.json; visual review pending"
+  },
+  {
+    "taskId": "UI-014-C",
+    "objective": "HUD and official catalog refinement",
+    "owner": "cartas_estetica",
+    "status": "integrated-verified",
+    "dependencies": [],
+    "scope": [
+      "CardAppearanceUI",
+      "CommanderUI",
+      "DeckSelectionUI"
+    ],
+    "doneWhen": "Integrated build and affected flows verified; visual review limitations recorded",
+    "verification": "UI-CAT-014-result.json; visual review pending"
+  },
+  {
+    "taskId": "CAT-014",
+    "objective": "Ten official precons and all commanders active only",
+    "owner": "catalogo_oficial",
+    "status": "integrated-verified",
+    "dependencies": [],
+    "scope": [
+      "Content",
+      "CollectionLibrary",
+      "ContentLoader",
+      "deck offerings",
+      "boosters"
+    ],
+    "doneWhen": "Integrated build and affected flows verified; visual review limitations recorded",
+    "verification": "UI-CAT-014-result.json; visual review pending"
+  },
+  {
+    "taskId": "UI-CAT-014-I",
+    "objective": "HUD and official catalog refinement",
+    "owner": "root",
+    "status": "integrated-verified",
+    "dependencies": [
+      "UI-014-H",
+      "UI-014-C",
+      "CAT-014"
+    ],
+    "scope": [
+      "contracts",
+      "protocol",
+      "tests",
+      "docs",
+      "Unity"
+    ],
+    "doneWhen": "Integrated build and affected flows verified; visual review limitations recorded",
+    "verification": "UI-CAT-014-result.json; visual review pending"
   }
 ]

@@ -1,0 +1,30 @@
+{
+  "taskId": "UI-CAT-014",
+  "status": "integrated-verified-with-visual-review-pending",
+  "date": "2026-10-14",
+  "backupCommit": "17966bd",
+  "build": {
+    "log": "Logs/ui-catalog-20261014-build-r3.log",
+    "exitCode": 0,
+    "assertions": 39581
+  },
+  "catalog": {
+    "active": 1250,
+    "commanders": 29,
+    "retired": 279,
+    "historic": 1529
+  },
+  "runtime": {
+    "officialUI": "PASS 13; zero runtime errors",
+    "LANhost": "PASS 16; zero runtime errors",
+    "LANguest": "PASS 16; zero runtime errors"
+  },
+  "profileHashBeforeAndAfter": "8303FA1A105818CD4E13AD0F7980FB9D980EE3670668454CA7E3BCF0238FC175",
+  "visual": "Computer Use activation failed; refreshed capture failed FrameArrived timeout. No visual approval claimed.",
+  "limits": [
+    "Board unchanged; terrain visual families planned only",
+    "Relay not retested",
+    "Historical regression fixtures remain separate from gameplay",
+    "Aesthetic manual review pending"
+  ]
+}

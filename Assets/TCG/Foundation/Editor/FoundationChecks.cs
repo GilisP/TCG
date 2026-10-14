@@ -17,7 +17,7 @@ namespace TCG.Foundation.Editor
         [UnityEditor.MenuItem("TCG/Base/Validar nova base")]
         public static void Run()
         {
-            count=0; var registry=new EffectRegistry(); var catalog=ContentLoader.Load(registry);
+            count=0; var registry=new EffectRegistry(); var catalog=ContentLoader.LoadFixtures(registry);
             Assert(catalog.Expansions.Count>=4&&catalog.Cards.Count>=24,"quatro pacotes de teste carregados");
             foreach(int n in new[]{2,3,4})
             {
@@ -101,7 +101,7 @@ namespace TCG.Foundation.Editor
             Assert(large.Cards.Count==12000&&large.Expansions.Count==40,"40 expansões / 12.000 definições");
             Debug.Log("FOUNDATION CATALOG SCALE: 12000 cards / "+timer.ElapsedMilliseconds+" ms (editor, data only)");
             Debug.Log("FOUNDATION CHECKS PASSED: "+count);
-            ContentCatalog catalogWithoutReprint()=>ContentLoader.Load(registry);
+            ContentCatalog catalogWithoutReprint()=>ContentLoader.LoadFixtures(registry);
         }
     }
 }

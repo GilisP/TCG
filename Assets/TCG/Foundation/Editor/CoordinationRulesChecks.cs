@@ -30,7 +30,7 @@ namespace TCG.Foundation.Editor
         {
             checks = 0;
             var effects = new EffectRegistry();
-            var catalog = ContentLoader.Load(effects);
+            var catalog = ContentLoader.LoadFixtures(effects);
             var cards = new List<CardData>();
             for (int i = 0; i < 100; i++) cards.Add(Card("coord-main-" + i, "Creature"));
             for (int i = 0; i < 50; i++) cards.Add(Card("coord-land-" + i, "Terrain"));

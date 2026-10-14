@@ -9,7 +9,7 @@ public static class ReactionChecks
     public static void Run()
     {
         int checks=0;void Assert(bool ok,string label){checks++;if(!ok)throw new Exception("REACTION: "+label);}
-        var registry=new EffectRegistry();var catalog=ContentLoader.Load(registry);var m=ContentLoader.TestTable(catalog,registry,4,false,5);var channel=new ReactionChannel();int sender=m.Controller,target=(sender+1)%4,revision=m.Revision;
+        var registry=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(registry);var m=ContentLoader.TestTable(catalog,registry,4,false,5);var channel=new ReactionChannel();int sender=m.Controller,target=(sender+1)%4,revision=m.Revision;
         foreach(ReactionKind kind in Enum.GetValues(typeof(ReactionKind)))Assert(channel.Publish(m,sender,kind,-1,10+(int)kind*2,out _),"reação "+kind);
         Assert(channel.Publish(m,sender,ReactionKind.ThumbsUp,target,30,out _),"direcionada");
         Assert(channel.Visible(30).Single().Target==target,"cor alvo preservada");

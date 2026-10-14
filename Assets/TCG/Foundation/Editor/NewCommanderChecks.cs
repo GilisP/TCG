@@ -15,7 +15,7 @@ public static class NewCommanderChecks
  static Piece Add(Match m,string card,int at=60,int owner=-1){var p=new Piece(id++,owner<0?m.Active:owner,catalog.Get(card)){Game=m};m.Board[at].pieces.Add(p);return p;}
  public static void Run()
  {
-  checks=0;catalog=ContentLoader.Load(effects);
+  checks=0;catalog=ContentLoader.LoadFixtures(effects);
   for(int n=232;n<=242;n++)Check(catalog.Get("MED-"+n).Playable&&catalog.Get("MED-"+n).IsCommander,"registered "+n);
   {var m=Game();var p=Add(m,"MED-232");m.Seats[p.Owner].mana[0]=2;m.Seats[p.Owner].mana[6]=3;Do(m,ActionKind.Activate,unit:p.Id);Settle(m);Check(p.Attack==8&&p.Defense==8&&p.Actions==1&&m.Seats[p.Owner].Mana.Sum()==0,"absorb entire pool without PA bonus");Invoke(m,"EndModifiers");Check(p.Attack==3&&p.Defense==3,"absorb expires");}
   {var m=Game();var p=Add(m,"MED-233");m.Seats[p.Owner].hand.Add(catalog.Get("MED-085"));p.Actions=0;Invoke(m,"Drain");Settle(m);Check(m.Board.SelectMany(c=>c.Pieces).Count()==2&&m.Seats[p.Owner].HandCount==0,"messenger free summon");m.Seats[p.Owner].hand.Add(catalog.Get("MED-085"));p.Actions=1;p.Actions=0;Invoke(m,"Drain");Check(m.Stack.Count==0&&m.Seats[p.Owner].HandCount==1,"once per turn");}

@@ -28,7 +28,7 @@ namespace TCG.Table
   public long MaxRequestMilliseconds {get;private set;} public long MaxBroadcastMilliseconds {get;private set;}
   bool Diagnostic=>Environment.GetCommandLineArgs().Contains("-tcg-precons-net");
   int? DiagnosticSeed(){if(!Diagnostic)return null;var args=Environment.GetCommandLineArgs();int at=Array.IndexOf(args,"-tcg-net-seed");int seed=at>=0&&at+1<args.Length?int.Parse(args[at+1]):20261010;Debug.Log("TCG diagnostic seed="+seed);return seed;}
-  public static string ContentHash(){using(var sha=SHA256.Create()){string sources=string.Join("\n",Directory.GetFiles(Path.Combine(Application.streamingAssetsPath,"Expansions"),"*.json").OrderBy(x=>x,StringComparer.Ordinal).Select(File.ReadAllText));return BitConverter.ToString(sha.ComputeHash(Encoding.UTF8.GetBytes("tcg-network-7/20261010-official-precons\n"+sources))).Replace("-","");}}
+  public static string ContentHash(){using(var sha=SHA256.Create()){string sources=string.Join("\n",Directory.GetFiles(Path.Combine(Application.streamingAssetsPath,"Expansions"),"*.json").OrderBy(x=>x,StringComparer.Ordinal).Select(File.ReadAllText));return BitConverter.ToString(sha.ComputeHash(Encoding.UTF8.GetBytes("tcg-network-8/20261014-official-catalog\n"+sources))).Replace("-","");}}
   public void Initialize(ContentCatalog c,EffectRegistry e){catalog=c;effects=e;fingerprint=ContentHash();}
   void CreateManager()
   {

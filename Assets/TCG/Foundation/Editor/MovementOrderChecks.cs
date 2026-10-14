@@ -30,7 +30,7 @@ public static class MovementOrderChecks
     }
     public static void Run()
     {
-        checks=0;registry=new EffectRegistry();catalog=ContentLoader.Load(registry);
+        checks=0;registry=new EffectRegistry();catalog=ContentLoader.LoadFixtures(registry);
         {var m=Game();Land(m,60,61,62,63,64);var p=Add(m,60);Do(m,ActionKind.PlanMove,64,p.Id);
          Assert(m.Position(p.Id)==62&&p.Movement==0&&m.OrderFor(p.Id)?.Destination==64,"anda dois passos e preserva destino");
          NextMain(m);Assert(m.Position(p.Id)==62,"não anda no turno do adversário");NextMain(m);

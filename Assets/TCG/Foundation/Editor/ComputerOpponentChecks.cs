@@ -11,7 +11,7 @@ namespace TCG.Foundation.Editor
         public static void Run()
         {
             int checks=0;void Check(bool ok,string label){checks++;if(!ok)throw new Exception("COMPUTER: "+label);}
-            var effects=new EffectRegistry();var catalog=ContentLoader.Load(effects);
+            var effects=new EffectRegistry();var catalog=ContentLoader.LoadFixtures(effects);
             var official=PreconstructedDeckLoader.Load(catalog).Decks.OrderBy(d=>d.id,StringComparer.Ordinal).ToArray();
             Check(official.Length==10,"all ten official precons loaded");
             for(int pair=0;pair<5;pair++)

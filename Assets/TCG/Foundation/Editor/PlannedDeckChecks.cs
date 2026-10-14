@@ -17,7 +17,7 @@ namespace TCG.Foundation.Editor
         static Piece Add(Match game,string id,int at=60,int owner=-1){var p=new Piece(next++,owner<0?game.Active:owner,catalog.Get(id)){Game=game};game.Board[at].pieces.Add(p);return p;}
         public static void Run()
         {
-            checks=0;effects=new EffectRegistry();catalog=ContentLoader.Load(effects);var plans=PlannedDeckLoader.Load(catalog);
+            checks=0;effects=new EffectRegistry();catalog=ContentLoader.LoadFixtures(effects);var plans=PlannedDeckLoader.Load(catalog);
             Check(plans.Decks.Count==29,"29 templates");
             var data=new CollectionData{coins=317};var library=new CollectionLibrary(catalog,data);var custom=new DeckData{name="Não sobrescrever"};library.SaveDeck(custom);
             foreach(var plan in plans.Decks){var deck=library.ImportPlannedDeck(plan);Check(deck.main.Count==100&&deck.terrains.Count==50,"100 + 50 "+plan.id);Check(library.Validate(deck,true).Count==0,"legal "+plan.id);}
