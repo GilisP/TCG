@@ -1,0 +1,16 @@
+{
+  "taskId": "TILE-MANA-014",
+  "status": "integrated-editor-verified",
+  "payment": "346 checks, 57 active multicolor definitions; exact costs/missing colors/debit/network definition",
+  "ui": "Editor Play: terrain+12 occupants, inspection, revision and selection preserved; no exceptions",
+  "logs": [
+    "Logs/multicolor-cost-20261014.log",
+    "Logs/tile-mana-play-20261014.log"
+  ],
+  "limits": [
+    "manual right-click/drag review",
+    "external network not repeated",
+    "standalone not rebuilt"
+  ],
+  "next": "User review main Mesa; if specific card bypasses payment inspect authorized free/any-color casting effect. Preserve Assets/_Recovery files."
+}

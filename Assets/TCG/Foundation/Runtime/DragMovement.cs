@@ -10,7 +10,28 @@ namespace TCG.Table
         bool pointerHeld,draggingPiece;
         int pressedCell=-1,pressedPiece=-1,dragPiece=-1,dragTile=-1;
         Vector2 pressPoint;
+        bool inspectionPointerHeld,inspectionPointerDragged;
+        Vector2 inspectionPressPoint;
+        int inspectionPressedCell=-1;
         static readonly Rect BoardArea=new Rect(0,160,1180,600);
+        void HandleTileInspectionInput(Event e)
+        {
+            if(e.type==EventType.MouseDown&&e.button==1)
+            {
+                inspectionPointerHeld=BoardArea.Contains(e.mousePosition)&&!CommanderHudContains(e.mousePosition)&&BoardHit(e.mousePosition,out inspectionPressedCell,out _);
+                inspectionPointerDragged=false;inspectionPressPoint=e.mousePosition;
+            }
+            else if(inspectionPointerHeld&&e.type==EventType.MouseDrag&&e.button==1)
+            {
+                if(Vector2.Distance(inspectionPressPoint,e.mousePosition)>8)inspectionPointerDragged=true;
+            }
+            else if(e.type==EventType.MouseUp&&e.button==1)
+            {
+                bool consult=inspectionPointerHeld&&!inspectionPointerDragged&&BoardArea.Contains(e.mousePosition)&&BoardHit(e.mousePosition,out int tile,out _)&&tile==inspectionPressedCell;
+                inspectionPointerHeld=false;
+                if(consult){SelectTileForInspection(inspectionPressedCell);e.Use();}
+            }
+        }
         bool BoardHit(Vector2 point,out int cell,out int piece)
         {
             cell=piece=-1;

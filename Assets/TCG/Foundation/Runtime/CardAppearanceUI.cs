@@ -49,6 +49,7 @@ namespace TCG.Table
    var titleStyle=new GUIStyle(GUI.skin.label){font=heading.font,fontSize=17,fontStyle=FontStyle.Bold,wordWrap=true,padding=new RectOffset(0,0,0,0),alignment=TextAnchor.MiddleLeft};titleStyle.normal.textColor=ink;while(titleStyle.fontSize>12&&titleStyle.CalcHeight(new GUIContent(card.Name),187)>38)titleStyle.fontSize--;GUI.Label(new Rect(20,17,187,38),card.Name,titleStyle);
    Jewel(new Vector2(226,35),17,TableWorld.Elements[card.Color]);CardText(new Rect(211,20,30,30),card.TotalCost.ToString(),18,TableWorld.Elements[card.Color].grayscale>.45f?Color.black:Color.white,true,TextAnchor.MiddleCenter);
    Solid(new Rect(12,63,236,176),edge);DrawIllustration(new Rect(15,66,230,170),CardIllustration(card,style));
+   DrawPrintedManaCost(card);
    var colors=CardFilter.CardColors(card);for(int n=0;n<colors.Length;n++)Solid(new Rect(15+n*230f/colors.Length,231,230f/colors.Length,5),TableWorld.Elements[colors[n]]);
    Solid(new Rect(13,242,234,24),dark);CardText(new Rect(19,244,222,20),TypeLabel(card)+(card.Subtypes.Count>0?" · "+string.Join(" / ",card.Subtypes):""),11,edge,true);
    Solid(new Rect(13,269,234,82),paper);PaperGrain(new Rect(13,269,234,82),.035f);Stroke(new Rect(13,269,234,82),new Color(edge.r,edge.g,edge.b,.4f));
@@ -57,6 +58,22 @@ namespace TCG.Table
    string stats=card.Kind==CardType.Creature||card.IsVehicle?card.PrintedStats+"   PA "+card.Actions+"   MOV "+card.Movement+"   ALC "+card.Range:card.Kind==CardType.Construction?"DEFESA "+card.Defense:card.Kind==CardType.Equipment?"EQUIPAR "+card.EquipCost:card.Kind==CardType.Terrain?"T E R R E N O":"";
    CardText(new Rect(16,353,228,20),stats,11,night?paper:TableWorld.Hex("EEE0BE"),true,TextAnchor.MiddleCenter);CardText(new Rect(17,375,226,10),card.Id+"  ·  "+RarityLabel(card)+"  ·  "+CardStyles.Name(style),8,edge,false,TextAnchor.MiddleCenter);
    if((inspected==card?inspectionFoil:CardFoil(card))){float sweep=Mathf.Repeat(Time.unscaledTime*.22f,1);for(int n=0;n<5;n++)Solid(new Rect(10,64+sweep*173+n,240,1),new Color(.6f+n*.08f,1,1,.16f));CardText(new Rect(190,66,50,13),"FOIL",9,new Color(.85f,1,1),true,TextAnchor.MiddleRight);}GUI.matrix=matrix;
+  }
+  public static string PrintedManaCost(Definition card)
+  {
+   var symbols=new[]{"S","L","G","F","A","T","N"};var parts=new List<string>();
+   for(int i=0;i<7;i++)if(card.ColoredCost[i]>0)parts.Add(card.ColoredCost[i]+symbols[i]);
+   if(card.Cost>0)parts.Add(card.Cost+" gen.");return parts.Count==0?"0":string.Join(" + ",parts);
+  }
+  void DrawPrintedManaCost(Definition card)
+  {
+   if(card.Kind==CardType.Terrain)return;
+   Solid(new Rect(15,207,230,23),new Color(.06f,.08f,.1f,.9f));
+   var colors=Enumerable.Range(0,7).Where(i=>card.ColoredCost[i]>0).ToArray();int groups=colors.Length+(card.Cost>0?1:0);
+   if(groups==0){CardText(new Rect(15,210,230,17),"CUSTO 0",11,Color.white,true,TextAnchor.MiddleCenter);return;}
+   float step=230f/groups;var symbols=new[]{"S","L","G","F","A","T","N"};int n=0;
+   foreach(int color in colors){float x=15+n++*step;Jewel(new Vector2(x+step*.5f,218),9,TableWorld.Elements[color]);CardText(new Rect(x,209,step,18),card.ColoredCost[color]+symbols[color],11,Color.black,true,TextAnchor.MiddleCenter);}
+   if(card.Cost>0)CardText(new Rect(15+n*step,209,step,18),card.Cost+" gen.",11,Color.white,true,TextAnchor.MiddleCenter);
   }
   void DrawIllustration(Rect r,Texture2D texture)
   {

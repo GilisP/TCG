@@ -60,7 +60,7 @@ namespace TCG.Table
         {
 
             SaveFinishedProgress();if(network!=null&&network.Running){networkPage=true;return;}
-            exileOpen=false;if(useSavedDecks) {if(!StartSavedDeckMatch())return;} else match=commanderDemo?ContentLoader.CommanderTable(catalog,effects,players,teams,Environment.TickCount,demoCommanders,preferPrecons:true):medieval?ContentLoader.MedievalTable(catalog,effects,players,teams,Environment.TickCount,firstColor):ContentLoader.TestTable(catalog,effects,players,teams,Environment.TickCount); match.AutomaticResponses=true; match.AutoAdvanceAfterTerrain=true; world.Bind(match); ApplyDeckCosmetics(); match.ResolveInitialEffects(); sessionAvailable=true; selectedCell=selectedUnit=-1; selectedCard=null;
+            tileContentsOpen=false;exileOpen=false;if(useSavedDecks) {if(!StartSavedDeckMatch())return;} else match=commanderDemo?ContentLoader.CommanderTable(catalog,effects,players,teams,Environment.TickCount,demoCommanders,preferPrecons:true):medieval?ContentLoader.MedievalTable(catalog,effects,players,teams,Environment.TickCount,firstColor):ContentLoader.TestTable(catalog,effects,players,teams,Environment.TickCount); match.AutomaticResponses=true; match.AutoAdvanceAfterTerrain=true; world.Bind(match); ApplyDeckCosmetics(); match.ResolveInitialEffects(); sessionAvailable=true; selectedCell=selectedUnit=-1; selectedCard=null;
 
             reactions=new ReactionChannel(); CloseReactionMenu(); ResetDrag(); handoff=true; menu=false; blockers=null; lastDefense=null; notice="Escolha a compra inicial. A pilha selecionada recebe o terreno comprado.";
 
@@ -155,13 +155,14 @@ namespace TCG.Table
             if(storyPage){DrawStoryMap();GUI.matrix=old;return;}
             if(networkPage){DrawNetworkPage();GUI.matrix=old;return;}
             if(libraryOpen){ResetDrag();world.ShowMovement(-1,false);DrawHub();GUI.matrix=old;return;}
-            bool movementInput=NetworkTurn&&reactionMenu<0&&!menu&&!handoff&&!collection&&!help&&!confirmQuit&&!match.Over&&inspected==null&&match.Choice==null&&equipmentToAttach<0;
+            if(!menu&&!handoff&&!collection&&!help&&!confirmQuit&&!exileOpen&&reactionMenu<0&&inspected==null&&match.Choice==null&&!tileContentsOpen)HandleTileInspectionInput(Event.current);
+            bool movementInput=!tileContentsOpen&&NetworkTurn&&reactionMenu<0&&!menu&&!handoff&&!collection&&!help&&!confirmQuit&&!match.Over&&inspected==null&&match.Choice==null&&equipmentToAttach<0;
             if(!movementInput)ResetDrag();
             world.ShowMovement(selectedUnit,movementInput&&!selectedCommander&&selectedCard==null&&!draggingPiece&&match.OrderFor(selectedUnit)==null);
             world.ShowMovementOrder(selectedUnit,movementInput&&!selectedCommander&&selectedCard==null);
             if(menu) { DrawMenu(); GUI.matrix=old; return; }
 
-            bool modal=exileOpen||reactionMenu>=0||handoff||collection||help||confirmQuit||match.Over||inspected!=null||match.Choice!=null||equipmentToAttach>=0;
+            bool modal=tileContentsOpen||exileOpen||reactionMenu>=0||handoff||collection||help||confirmQuit||match.Over||inspected!=null||match.Choice!=null||equipmentToAttach>=0;
 
             GUI.enabled=!modal;
 
@@ -174,6 +175,7 @@ namespace TCG.Table
             GUI.enabled=true;
 
             ProcessPileVerification(); DrawPileOverlay(modal); DrawCommanderPreview(modal); DrawNetworkStatus();DrawStoryStatus();DrawSocialReactions();
+            if(inspected==null)DrawTileContentsWindow();
             if(handoff) DrawHandoff(); else if(inspected!=null) DrawInspection(); else if(equipmentToAttach>=0) DrawEquipmentChoice(); else if(match.Choice!=null&&match.Choice.Owner==Viewer) DrawChoice(); else if(collection) DrawCollection(); else if(help) DrawHelp(); else if(confirmQuit) DrawQuit(); else if(match.Over) DrawResult();
 
             GUI.matrix=old;
@@ -277,14 +279,15 @@ namespace TCG.Table
 
         {
 
-            if(selectedCell<0) { Text(1215,395,350,140,"Explore a mesa\n\nSelecione uma carta na mão ou um terreno para ver suas criaturas. Arraste a mesa para girar; use a roda para aproximar.",body,Muted); return; }
+            if(selectedCell<0) { Text(1215,395,350,140,"Explore a mesa\n\nClique com o botão direito em um terreno para consultar todas as cartas. Arraste com o botão direito para girar; use a roda para aproximar.",body,Muted); return; }
 
             var cell=match.Board[selectedCell];
 
             Text(1215,379,350,32,cell.Terrain?.Name??"Vazio",heading,Ink);
 
             Text(1215,421,350,24,"CASA "+selectedCell%11+" × "+selectedCell/11+"   ·   "+cell.Pieces.Count+" peça(s)",small,Gold);
-            if(match.CanActivateTerrain(selectedCell)&&Button(1215,451,350,34,"Ativar habilidade do terreno"))Submit(ActionKind.ActivateTerrain,selectedCell);
+            if(Button(1215,451,220,34,"Ver cartas neste terreno"))SelectTileForInspection(selectedCell);
+            if(match.CanActivateTerrain(selectedCell)&&Button(1441,451,124,34,"Ativar terreno"))Submit(ActionKind.ActivateTerrain,selectedCell);
 
             unitScroll=GUI.BeginScrollView(new Rect(1215,496,355,180),unitScroll,new Rect(0,0,328,Math.Max(170,cell.Pieces.Count*62)));
 
