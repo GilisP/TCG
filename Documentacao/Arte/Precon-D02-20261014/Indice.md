@@ -1,6 +1,6 @@
 # Artes exclusivas — Arquivo das marés
 
-142novas pinturas individuais, oito artes compartilhadas do D01 e comandante MED-193 preservados. Produzidas com image_gen. Prompts e fontes por ID abaixo; originais anteriores em Revisoes. Avaliação artística do autor pendente.
+142 novas pinturas individuais, oito artes compartilhadas do D01 e comandante MED-193 preservados. Produzidas com image_gen. Prompts e fontes por ID abaixo; originais anteriores em Revisoes. Avaliação artística do autor pendente.
 
 [Layout](Layouts/preview.png) · [Custos do comandante](Layouts/commander-cost.png) · [Magias](VFX/D02-motifs.png)
 
