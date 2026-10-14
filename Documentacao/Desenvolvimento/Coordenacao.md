@@ -14,3 +14,8 @@ Git: backup inicial 7d5f87d enviado a origin/main. Trabalho anterior preservado.
 Contratos existentes a preservar: Command(player,revision,kind,...); Match.Try é autoridade; projeções Match.FromView não executam regras; RoomRequest(version,sequence,type,command/deck/token); NetworkRoom valida assento/sequência/revisão; MatchView por assento esconde mão/deck/seed alheios. Testes de Match usam semente fixa e NetworkRoom relógio injetável. Seed da criação online continua privada e aleatória.
 
 Retomada: ler checkpoint.json, depois taskId/contrato e relatório específico; não transmitir todo histórico. Em caso de compactação, registrar resultados, arquivos em progresso, próximo comando e limitações antes de continuar.
+
+
+## Vigência operacional — 2026-10-14
+
+Este documento preserva o piloto histórico. Instruções permanentes atuais: AGENTS.md. Formatos/infraestrutura: Perfis/Referencia.md. Contrato adotado sem criar CLI, leitor especializado, reuso.py ou leases; arquivo AG-PROFILES-014-checkpoint.json registra a entrega documental e o checkpoint legado do jogo permanece preservado.

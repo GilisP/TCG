@@ -1,0 +1,21 @@
+{
+  "decisions": [
+    "Source and attachment hashes equal; shared AGENTS sections equal; contract author replacement exact.",
+    "Absence of operational tools is explicitly scoped by current-infrastructure override.",
+    "Stopped source reads after recognizing comparison rereads can exceed cumulative budget."
+  ],
+  "current_state": "Ack recorded; substantive inspection and comparisons finished; partial because of read-budget exception",
+  "objective": "Independently review scoped contract adaptation",
+  "refs": [
+    "AG-PROFILES-014-R-brief.json",
+    "AG-PROFILES-014-R-result.json",
+    "source SHA256 da369ad4ce7bd7b48cb438b7dd6579a3a64018dfa1f715ab56f26976fd798057",
+    "main AGENTS SHA256 9dc9e2bbfa5563007cf2a86d14fc45b0f987b1cd32e0c5af6bb8c502173a1f8c",
+    "vault AGENTS SHA256 48c6003afe42705493755574a911d6350ee93e76f69334a7bdb6aa3b9e50d04f",
+    "reference SHA256 3da275af0a9d25243a5feafa6dbb223c95d4cc03d487309485712def99e14899"
+  ],
+  "pending": [
+    "The comparison command reread unchanged sections/source and may have exceeded the cumulative 24000-character read budget when all consumed content is counted. Source reading stopped; coordinator must decide acceptance of this procedural exception.",
+    "Vault literal archive outside assigned sources was not independently hashed; AGENTS/reference links only establish documented location."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "concluido",
+  "resumo": "Contrato dos perfis adotado em AGENTS e referência documental compatível com infraestrutura atual.",
+  "arquivos": [
+    "AGENTS.md",
+    "Documentacao/Desenvolvimento/Perfis/Referencia.md",
+    "Documentacao/Desenvolvimento/Fontes/Contrato-perfis-20261014.txt",
+    "AG-PROFILES-014-checkpoint.json"
+  ],
+  "evidencias": [
+    "Revisão independente R2 concluída; snapshots ligados a hashes/offsets exatos das fontes atuais.",
+    "Fonte literal idêntica no projeto, vault e anexo.",
+    "Sufixos comuns de AGENTS idênticos; nome original preservado na fonte e orientação operacional aplicada ao autor do TCG.",
+    "Schemas e registros antigos conservados; nenhuma mudança em jogo, Unity, APIs ou configurações globais.",
+    "Primeira revisão parcial por incerteza no orçamento preservada; R2 utilizou somente trechos delimitados, sem decodificar AGENTS inteiros."
+  ],
+  "pendencias": [
+    "Limites e atribuições continuam cooperativos; não existe controle automático de leitura/leases. Nenhuma implementação de ferramentas foi solicitada."
+  ],
+  "proximo_passo": "Aplicar o contrato às próximas delegações; desenvolvimento do jogo mantém a prioridade existente no vault."
+}

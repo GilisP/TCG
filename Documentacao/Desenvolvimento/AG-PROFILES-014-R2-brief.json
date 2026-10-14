@@ -1,0 +1,46 @@
+{
+  "task_id": "AG-PROFILES-014-R2",
+  "project_id": "TCG",
+  "objetivo": "Bounded independent documentary review after prior procedural uncertainty",
+  "resultado_esperado": "Final review with preserved prior partial evidence and no repeated full-file text reads",
+  "contexto_essencial": "No CLI/reader/reuso/leases exists, confirmed by author. First review found content faithful but reread whole files; retained as partial. This task uses bounded snapshots bound to exact current AGENTS byte ranges. Permanent source remains AGENTS, snapshots are validation artifacts only.",
+  "restricoes": [
+    "Own context, inherited model",
+    "Read only listed text artifacts, each <=100lines; <=24000chars cumulative and <=50reads. No repeated reads of unchanged text",
+    "Do not decode full original AGENTS: use SHA256 byte hashing and exact byte-offset comparison only for freshness",
+    "No Unity/Git/network/API or production edits",
+    "Only own checkpoint/result writes; ack in checkpoint; no routine progress messages"
+  ],
+  "fontes": [
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Verificacao\\main-section.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Verificacao\\binding.json",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Fontes\\Contrato-perfis-20261014.txt",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Referencia.md",
+    "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\AG-PROFILES-014-R-result.json"
+  ],
+  "metadata_only": [
+    "C:\\Users\\gil\\TCG\\AGENTS.md",
+    "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\AGENTS.md",
+    "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\99 - Arquivo\\Fontes Originais\\Coordenacao\\Contrato dos perfis 2026-10-14.txt"
+  ],
+  "dependencias": [],
+  "criterios_conclusao": [
+    "Confirm snapshot freshness via binary hash/offset, avoid duplicate vault text read",
+    "Confirm literal copies and archived vault copy byte hashes",
+    "Review faithful adaptation and honest absent-infrastructure/schema wording",
+    "Preserve prior budget issue, report current review limits accurately",
+    "No inference of operational controls from documentation"
+  ],
+  "recursos": [
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\AG-PROFILES-014-R2-checkpoint.json",
+      "acesso": "write",
+      "responsavel": "bounded_review"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\AG-PROFILES-014-R2-result.json",
+      "acesso": "write",
+      "responsavel": "bounded_review"
+    }
+  ]
+}

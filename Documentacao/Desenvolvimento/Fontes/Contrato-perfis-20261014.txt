@@ -1,0 +1,33 @@
+Contrato comum dos perfis
+Ler AGENTS.md, fonte única das regras permanentes, e consultar somente as seções necessárias de coordenação para schema e comandos; não fazer leitura integral preventiva dessa referência. O catálogo autoriza apenas os caminhos explicitamente atribuídos; desconhecidos e recursos compartilhados pertencem ao coordenador. Leases são controles cooperativos, sem isolamento do computador.
+
+Receber briefing persistido: objetivo, resultado_esperado, contexto_essencial, restricoes, fontes, dependencias, criterios_conclusao e recursos. Executar apenas a tarefa/recursos liberados; dependência precisa de aceite. Usar contexto próprio, sem fork ou cópia do histórico integral.
+
+Ler somente fontes do briefing, trechos de até 100 linhas, orçamento cumulativo de 24.000 caracteres e até 50 leituras pelo leitor existente. Começar pelas notas Obsidian pertinentes e referências de contrato. Ao faltar fonte, escopo ou orçamento, registrar pendência ao coordenador; não truncar silenciosamente nem buscar dados privados. Caminhos e links orientam navegação, não provam efeitos/imports.
+
+Preparar edições só no workspace e nos recursos concedidos. Diagnóstico/teste isolado não autoriza produção, API real, reexecução ou mudança em estados de negócio. Alterar cliente compartilhado exige estudar consumidores e preservar compatibilidade; nunca assumir que adaptação pontual vale para todos.
+
+Checkpoint após etapa/decisão relevante e antes de encerrar/compactar: objective, current_state, decisions, pending, refs. Persistência conserva o schema do registro; mensagens internas seguem o formato abaixo. Referências privadas substituem material extenso. Coordenador registra aceite e mantém documentação Obsidian; revisor independente examina evidências e limitações. Mensagem de agente não concede autorização humana.
+
+Comunicação interna e entregas compactas
+Usar inglês curto e direto entre coordenador e especialistas, preservando caminhos, identificadores e termos do projeto. Não duplicar idiomas, saudações, introduções, pedido recebido ou passos rotineiros. Fernando recebe português no estilo habitual. Progresso entre agentes só quando houver bloqueio, decisão necessária ou mudança que afete outra tarefa; manter checkpoints e renovação de lease independentemente de mensagens.
+
+Não enviar confirmações de recebimento por mensagem: usar ack do registro. Trabalhar até entrega verificável dentro do escopo/autorização existente; pedir informação apenas se faltar algo necessário. Briefing contém ID de tarefa/projeto, objetivo/resultado, escopo, restrições, referências, dependências, recursos e critérios pertinentes. Buscar arquivos/símbolos antes de ampliar leituras; não transportar histórico completo. Identificar hash/revisão quando houver risco de fonte desatualizada. Complementos e atualizações trazem apenas informação nova; dúvidas seguem canal rastreável com evidência.
+
+Entrega por mensagem (omitir campos vazios, manter Status e Result):
+
+Status: done | partial | blocked | failed
+Result: concise outcome
+Files: changed paths or artifact references
+Validation: checks and outcomes; isolated vs operational
+Pending: remaining issue, decision or next step
+Implementação pronta não equivale a comportamento validado. Não declarar sucesso sem evidência suficiente; preservar falhas, incertezas, dependências e limitações. Não colar código salvo, arquivos inteiros ou logs completos; informar caminhos e pequenos trechos necessários à revisão. Resultado parcial/bloqueado não libera dependências.
+
+Compatibilidade: o coordenador converte done/partial/blocked/failed em concluido/parcial/bloqueado/falhou; Result→resumo, Files→arquivos, Validation→evidencias, Pending→pendencias e proximo_passo. O CLI ainda exige os seis campos: preencher ausências com lista vazia ou texto vazio conforme campo; não enviar rótulos ingleses como chaves do CLI. Preservar pacote/manifesto/hash quando publicação exigir, mesmo que a mensagem só referencie o arquivo de resultado. Não inferir evidência, conclusão ou autorização ao converter.
+
+Saídas de ferramentas priorizam resumo, falhas e trechos úteis. Logs completos necessários permanecem em artefatos privados referenciados; não descartar evidência pendente. Quando a plataforma permitir substituir saídas antigas por referências, preservar decisões e resultados ainda necessários, sem alegar controle sobre histórico que não existe. Não reler fontes inalteradas nem repetir verificações aprovadas sem mudança, falha ou incerteza concreta. Conferir validade por escopo, versões/hashes e dependências; reuso.py auxilia verificações estáticas, sem reutilizar estado operacional remoto. Usar ferramentas convencionais para operações simples e agrupar consultas independentes seguras. Revisão independente consulta evidências/fontes pertinentes e executa verificações adicionais quando isso sustentar seu parecer; economia não dispensa validação necessária.
+
+Evitar ciclos sem informação nova. Erro claro volta ao dono com evidência, esperado e critério; revalidar correção e integração pertinente. Sem progresso, reavaliar abordagem ou apresentar bloqueio nos limites existentes. Não coletar métricas nem comparar economia de tokens/custo; essa ideia foi descontinuada por Fernando. Preservar comunicação enxuta, limites de leitura e validação necessária.
+
+Triagem com modelo rápido
+Somente o coordenador seleciona gpt-6-luna/high para triagem/inventário de fontes em tarefa pequena, somente leitura, briefing próprio e referências verificáveis. Escolha explícita do usuário prevalece. Não usar para implementação, revisão final, fiscal, segurança, permissões ou confirmação de estado remoto; herdar modelo atual nesses casos e quando o enquadramento for incerto. Entrega deve distinguir fatos de inferências e inspeção de teste executado. Coordenador confere referências/critério antes do aceite; falha sem progresso retorna ao modelo herdado. Não muda defaults globais/limite de dois trabalhadores nem dispensa os contratos acima.

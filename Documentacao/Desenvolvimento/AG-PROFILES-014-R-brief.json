@@ -1,0 +1,65 @@
+{
+  "task_id": "AG-PROFILES-014-R",
+  "project_id": "TCG",
+  "objetivo": "Independently review the scoped contract adaptation",
+  "resultado_esperado": "Evidence-backed compatibility report; no game/global configuration edits",
+  "contexto_essencial": "User supplied contract and confirmed no CLI/reader/reuso/leases. AGENTS mirrors adapted source, preserves Fernando in literal archive, applies Portuguese to current author. Existing records are not migrated.",
+  "restricoes": [
+    "Inherited model, own context, no full history",
+    "Read assigned sources only, <=100lines/call, <=24000chars cumulative, <=50reads; stop/report missing scope/budget",
+    "No Unity/Git/API or production edits",
+    "Write only review checkpoint/report; ack in checkpoint, no receipt/routine progress messages"
+  ],
+  "fontes": [
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Fontes\\Contrato-perfis-20261014.txt",
+      "start_line": 1,
+      "end_line": 33,
+      "sha256": "da369ad4ce7bd7b48cb438b7dd6579a3a64018dfa1f715ab56f26976fd798057"
+    },
+    {
+      "path": "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\AGENTS.md",
+      "start_line": 287,
+      "end_line": 329,
+      "sha256": "48c6003afe42705493755574a911d6350ee93e76f69334a7bdb6aa3b9e50d04f"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\AGENTS.md",
+      "start_line": 283,
+      "end_line": 325,
+      "sha256": "9dc9e2bbfa5563007cf2a86d14fc45b0f987b1cd32e0c5af6bb8c502173a1f8c"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Referencia.md",
+      "start_line": 1,
+      "end_line": 44,
+      "sha256": "3da275af0a9d25243a5feafa6dbb223c95d4cc03d487309485712def99e14899"
+    },
+    {
+      "path": "C:\\Users\\gil\\.codex\\attachments\\9e1383c8-5ee3-44b8-b5ff-61b4bf9de62b\\Texto colado.txt",
+      "start_line": 1,
+      "end_line": 33,
+      "sha256": "da369ad4ce7bd7b48cb438b7dd6579a3a64018dfa1f715ab56f26976fd798057"
+    }
+  ],
+  "dependencias": [],
+  "criterios_conclusao": [
+    "Literal source exact",
+    "Common AGENTS section equal and faithful; inspect only one copy, compare other hash/section without dumping it",
+    "No invented automation, leases or installed tools",
+    "No legacy schema migration instructed",
+    "Separate inspection/executed checks and limitations"
+  ],
+  "recursos": [
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\AG-PROFILES-014-R-checkpoint.json",
+      "acesso": "write",
+      "responsavel": "contract_review"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\AG-PROFILES-014-R-result.json",
+      "acesso": "write",
+      "responsavel": "contract_review"
+    }
+  ]
+}

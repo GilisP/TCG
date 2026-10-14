@@ -352,5 +352,21 @@
     "doneWhen": "151imagecoverage, cost/UI, VFX lifecycle, build/player validated",
     "verification": "ART-VFX-D02-014-result.json",
     "pending": "artistic evaluation/long FPS"
+  },
+  {
+    "taskId": "AG-PROFILES-014",
+    "objective": "adotar contrato dos perfis na organização existente",
+    "owner": "root; independent bounded_review",
+    "status": "concluido",
+    "dependencies": [],
+    "scope": [
+      "AGENTS principal/vault",
+      "Documentacao/Desenvolvimento/Perfis",
+      "fontes, briefings, checkpoints e relatórios desta tarefa",
+      "índices e notas do vault"
+    ],
+    "doneWhen": "fonte preservada, instruções/referência integradas, revisão e hashes aceitos",
+    "verification": "AG-PROFILES-014-result.json; AG-PROFILES-014-aceite.json",
+    "pending": "controles são cooperativos; não há automação de leitura ou leases"
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "status": "concluido",
+  "resumo": "Fresh bounded independent documentary review confirms faithful adaptation, AGENTS as permanent instruction source, preserved legacy-schema wording and explicit absence of operational automation.",
+  "arquivos": [
+    "C:/Users/gil/TCG/Documentacao/Desenvolvimento/AG-PROFILES-014-R2-checkpoint.json",
+    "C:/Users/gil/TCG/Documentacao/Desenvolvimento/AG-PROFILES-014-R2-result.json"
+  ],
+  "evidencias": [
+    "Six one-time text reads; conservative cumulative characters 22165/24000; every read <=100 lines; no repeated text reads.",
+    "Both full original AGENTS SHA256 values match binding; snapshot SHA256 matches and exact byte ranges at 40288/40853 match without decoding originals.",
+    "Literal main/vault archives have identical expected SHA256; prior supplied-attachment hash retained as prior evidence only.",
+    "Inspected contract adaptation changes Fernando to autor do TCG and retains authorization/read/checkpoint/report/model restrictions. Current-infrastructure override explicitly states CLI/reader/reuso.py/leases absent; six-field format applies to new reports, legacy schemas remain preserved.",
+    "Reference is formats/infrastructure, not a second permanent instruction source. No runtime, operational tooling, Unity, Git, network or API validation performed."
+  ],
+  "pendencias": [
+    "Prior AG-PROFILES-014-R partial report and its read-budget uncertainty remain preserved; this fresh review does not retroactively validate that procedure.",
+    "Legacy tasks/checkpoint files were outside scope: schema preservation confirmed as documentary wording, not a binary no-change audit."
+  ],
+  "proximo_passo": "Coordinator records acceptance against this bounded review and exact source hashes.",
+  "binding_checks": [
+    {
+      "path": "C:/Users/gil/TCG/AGENTS.md",
+      "sha256": "9dc9e2bbfa5563007cf2a86d14fc45b0f987b1cd32e0c5af6bb8c502173a1f8c",
+      "expected_hash_matches": true,
+      "offset": 40288,
+      "exact_section_bytes_match": true,
+      "section_reaches_eof": true
+    },
+    {
+      "path": "C:/Users/gil/OneDrive/Área de Trabalho/TCG/AGENTS.md",
+      "sha256": "48c6003afe42705493755574a911d6350ee93e76f69334a7bdb6aa3b9e50d04f",
+      "expected_hash_matches": true,
+      "offset": 40853,
+      "exact_section_bytes_match": true,
+      "section_reaches_eof": true
+    }
+  ],
+  "section_sha256": "675d9523f7d81ac8329c9e25c87ab824d7445c2f653f4515bb22fec95966fdae",
+  "literal_sha256": "da369ad4ce7bd7b48cb438b7dd6579a3a64018dfa1f715ab56f26976fd798057",
+  "vault_literal_sha256": "da369ad4ce7bd7b48cb438b7dd6579a3a64018dfa1f715ab56f26976fd798057"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "C:\\Users\\gil\\TCG\\AGENTS.md",
+    "sha256": "9dc9e2bbfa5563007cf2a86d14fc45b0f987b1cd32e0c5af6bb8c502173a1f8c",
+    "byte_offset": 40288,
+    "section_sha256": "675d9523f7d81ac8329c9e25c87ab824d7445c2f653f4515bb22fec95966fdae",
+    "snapshot": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Verificacao\\main-section.txt"
+  },
+  {
+    "source": "C:\\Users\\gil\\OneDrive\\\u00c1rea de Trabalho\\TCG\\AGENTS.md",
+    "sha256": "48c6003afe42705493755574a911d6350ee93e76f69334a7bdb6aa3b9e50d04f",
+    "byte_offset": 40853,
+    "section_sha256": "675d9523f7d81ac8329c9e25c87ab824d7445c2f653f4515bb22fec95966fdae",
+    "snapshot": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Verificacao\\vault-section.txt"
+  }
+]

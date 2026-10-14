@@ -1,0 +1,65 @@
+{
+  "task_id": "AG-PROFILES-014",
+  "project_id": "TCG",
+  "objetivo": "Adotar contrato fornecido nos perfis de desenvolvimento",
+  "resultado_esperado": "Fonte original preservada, AGENTS e referência compatíveis com infraestrutura real",
+  "contexto_essencial": "User confirmed no CLI/reader/reuso/leases; documentation only",
+  "restricoes": [
+    "No game code, legacy schema migration, Unity, API or business-state changes",
+    "Two workers maximum; separate contexts; scoped reads/writes"
+  ],
+  "fontes": [
+    {
+      "path": "C:\\Users\\gil\\.codex\\attachments\\9e1383c8-5ee3-44b8-b5ff-61b4bf9de62b\\Texto colado.txt"
+    }
+  ],
+  "dependencias": [
+    {
+      "task_id": "AG-PROFILES-014-R2",
+      "aceite": "AG-PROFILES-014-aceite.json"
+    }
+  ],
+  "criterios_conclusao": [
+    "Common AGENTS suffix identical",
+    "Source byte-identical",
+    "No invented automation guarantees",
+    "Independent review and static reference checks"
+  ],
+  "recursos": [
+    {
+      "path": "C:\\Users\\gil\\TCG\\AGENTS.md",
+      "acesso": "write",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\AGENTS.md",
+      "acesso": "write",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\Perfis\\Referencia.md",
+      "acesso": "write",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\08 - Tecnico\\Contrato dos Perfis - Aplicacao TCG.md",
+      "acesso": "write",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\TCG\\Documentacao\\Desenvolvimento\\tasks.json",
+      "acesso": "append-own-task-only",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\00 - Projeto\\00 - Indice Mestre.md",
+      "acesso": "append-own-links",
+      "responsavel": "root"
+    },
+    {
+      "path": "C:\\Users\\gil\\OneDrive\\Área de Trabalho\\TCG\\00 - Projeto\\04 - Pendencias de Implementacao.md",
+      "acesso": "append-own-status",
+      "responsavel": "root"
+    }
+  ]
+}

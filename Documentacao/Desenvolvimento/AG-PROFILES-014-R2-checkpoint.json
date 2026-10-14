@@ -1,0 +1,42 @@
+{
+  "objective": "Bounded independent documentary review AG-PROFILES-014-R2",
+  "current_state": "Acknowledged in own checkpoint; review complete, exact binary binding passed, report persisted",
+  "decisions": [
+    "Use only assigned text snapshots once; original AGENTS binary-only",
+    "Preserve prior partial review and procedural uncertainty",
+    "Documentary acceptance does not establish runtime enforcement"
+  ],
+  "pending": [
+    "Prior AG-PROFILES-014-R partial report and its read-budget uncertainty remain preserved; this fresh review does not retroactively validate that procedure.",
+    "Legacy tasks/checkpoint files were outside scope: schema preservation confirmed as documentary wording, not a binary no-change audit."
+  ],
+  "refs": [
+    "AG-PROFILES-014-R2-brief.json",
+    "AG-PROFILES-014-R2-result.json",
+    "AG-PROFILES-014-R-result.json"
+  ],
+  "budget": {
+    "max_chars": 24000,
+    "max_lines_per_read": 100,
+    "conservative_chars": 22165,
+    "text_reads": 6
+  },
+  "binding_checks": [
+    {
+      "path": "C:/Users/gil/TCG/AGENTS.md",
+      "sha256": "9dc9e2bbfa5563007cf2a86d14fc45b0f987b1cd32e0c5af6bb8c502173a1f8c",
+      "expected_hash_matches": true,
+      "offset": 40288,
+      "exact_section_bytes_match": true,
+      "section_reaches_eof": true
+    },
+    {
+      "path": "C:/Users/gil/OneDrive/Área de Trabalho/TCG/AGENTS.md",
+      "sha256": "48c6003afe42705493755574a911d6350ee93e76f69334a7bdb6aa3b9e50d04f",
+      "expected_hash_matches": true,
+      "offset": 40853,
+      "exact_section_bytes_match": true,
+      "section_reaches_eof": true
+    }
+  ]
+}

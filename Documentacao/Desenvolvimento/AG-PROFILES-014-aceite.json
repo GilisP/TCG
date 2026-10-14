@@ -1,0 +1,10 @@
+{
+  "task_id": "AG-PROFILES-014-R2",
+  "aceito_por": "root",
+  "status": "aceito",
+  "relatorio": "AG-PROFILES-014-R2-result.json",
+  "relatorio_sha256": "ef9c03e1c30199f3f4be82c5bfbe596c8dce3de6946f63309fa1d9ffb4be9ad6",
+  "escopo": "adaptação documental e hashes, não fiscalização operacional",
+  "revisao_anterior": "AG-PROFILES-014-R-result.json permanece parcial e preservado",
+  "autoriza_acoes_externas": false
+}

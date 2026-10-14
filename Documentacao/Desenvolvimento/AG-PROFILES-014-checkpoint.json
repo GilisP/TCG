@@ -1,0 +1,22 @@
+{
+  "objective": "Adotar contrato dos perfis de desenvolvimento do TCG",
+  "current_state": "concluido: documentação integrada e revisão independente aceita",
+  "decisions": [
+    "Sem implementação de CLI/leitor/reuso/leases, ausentes e não solicitados",
+    "Dois trabalhadores além do coordenador; inglês interno/português ao autor",
+    "Instruções permanentes em AGENTS; schemas/infraestrutura na referência",
+    "Registros antigos e checkpoint do jogo preservados; relatório novo em seis campos portugueses"
+  ],
+  "pending": [
+    "Fiscalização automática não existe; atribuição/limites cooperativos",
+    "Próxima tarefa do jogo segue fila central"
+  ],
+  "refs": [
+    "AG-PROFILES-014-brief.json",
+    "AG-PROFILES-014-result.json",
+    "AG-PROFILES-014-aceite.json",
+    "AG-PROFILES-014-R-result.json",
+    "AG-PROFILES-014-R2-result.json",
+    "Perfis/Referencia.md"
+  ]
+}
